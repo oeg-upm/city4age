@@ -1,0 +1,2810 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "10511835",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511835-cafe-teatro-serendipia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Café Teatro Serendipia",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=42a8fca35ccee510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511835-cafe-teatro-serendipia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "CALLE GERMAN PEREZ CARRASCO 21"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511835-cafe-teatro-serendipia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.645847906504054 40.435190000069746)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511835-cafe-teatro-serendipia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.435190000069746,
+        "longitude" : -3.645847906504054
+	  }
+
+    },
+	{
+      "id" : "8628780",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8628780-centro-cultural-daoiz-velarde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Centro Cultural Daoíz y Velarde",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9928722c91042510VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8628780-centro-cultural-daoiz-velarde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "PLAZA DAOÍZ Y VELARDE 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8628780-centro-cultural-daoiz-velarde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6774460025489395 40.402324327188175)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8628780-centro-cultural-daoiz-velarde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.402324327188175,
+        "longitude" : -3.6774460025489395
+	  }
+
+    },
+	{
+      "id" : "124469",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/124469-centro-ensenanza-replika-teatro-academia-actor",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Centro de Enseñanza Réplika Teatro. Academia del Actor",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4d86051c8d91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/124469-centro-ensenanza-replika-teatro-academia-actor/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28040",
+		"street-address" : "CALLE PEDRO JUSTO DORADO DELLMANS 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/124469-centro-ensenanza-replika-teatro-academia-actor/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7122040788250885 40.448692123387005)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/124469-centro-ensenanza-replika-teatro-academia-actor/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.448692123387005,
+        "longitude" : -3.7122040788250885
+	  }
+
+    },
+	{
+      "id" : "10511842",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511842-cnc-sala-mirador",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "CNC Sala Mirador",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9359fca35ccee510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511842-cnc-sala-mirador/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE DOCTOR FOURQUET 31"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511842-cnc-sala-mirador/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6989073365849734 40.40706148755647)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511842-cnc-sala-mirador/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40706148755647,
+        "longitude" : -3.6989073365849734
+	  }
+
+    },
+	{
+      "id" : "7869361",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7869361-dt-espacio-escenico",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "DT Espacio Escénico",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e9e472de9f53b410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7869361-dt-espacio-escenico/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE REINA 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7869361-dt-espacio-escenico/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.700283103997518 40.42040457289982)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7869361-dt-espacio-escenico/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42040457289982,
+        "longitude" : -3.700283103997518
+	  }
+
+    },
+	{
+      "id" : "10511843",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511843-burdel-escena",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "El burdel a escena",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3689fca35ccee510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511843-burdel-escena/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE SOMBRERERIA 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511843-burdel-escena/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699643574471185 40.40759757832717)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511843-burdel-escena/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40759757832717,
+        "longitude" : -3.699643574471185
+	  }
+
+    },
+	{
+      "id" : "10511844",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511844-foro-izab",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "El foro de Izab",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5ba9fca35ccee510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511844-foro-izab/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE RIBERA DE CURTIDORES 37"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511844-foro-izab/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.706986990152966 40.406579930805236)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511844-foro-izab/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.406579930805236,
+        "longitude" : -3.706986990152966
+	  }
+
+    },
+	{
+      "id" : "81184",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/81184-pavon-teatro-kamikaze",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "El Pavón Teatro Kamikaze",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b49d8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/81184-pavon-teatro-kamikaze/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE EMBAJADORES 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/81184-pavon-teatro-kamikaze/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7061980491148603 40.410026211183464)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/81184-pavon-teatro-kamikaze/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.410026211183464,
+        "longitude" : -3.7061980491148603
+	  }
+
+    },
+	{
+      "id" : "10037757",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037757-umbral-primavera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "El umbral de la primavera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=29aa50fba2504510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037757-umbral-primavera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE PRIMAVERA 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037757-umbral-primavera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.700394299299595 40.40952998024258)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037757-umbral-primavera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40952998024258,
+        "longitude" : -3.700394299299595
+	  }
+
+    },
+	{
+      "id" : "7093521",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7093521-escuela-sala-teatro-usina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Escuela y Sala de teatro. La Usina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2f408e01a3201410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7093521-escuela-sala-teatro-usina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE PALOS DE LA FRONTERA 42"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7093521-escuela-sala-teatro-usina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7002064293048953 40.40277432308375)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7093521-escuela-sala-teatro-usina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40277432308375,
+        "longitude" : -3.7002064293048953
+	  }
+
+    },
+	{
+      "id" : "7875358",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7875358-espacio-labruc",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Espacio Labruc",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=824ac6f83ef4b410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7875358-espacio-labruc/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE PALMA 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7875358-espacio-labruc/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7030672051282876 40.426279583153445)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7875358-espacio-labruc/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.426279583153445,
+        "longitude" : -3.7030672051282876
+	  }
+
+    },
+	{
+      "id" : "10511854",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511854-estudio-2-manuel-galiana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Estudio 2 Manuel Galiana",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e1afca35ccee510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511854-estudio-2-manuel-galiana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE MORATINES 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511854-estudio-2-manuel-galiana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7026740157487428 40.40321881564558)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511854-estudio-2-manuel-galiana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40321881564558,
+        "longitude" : -3.7026740157487428
+	  }
+
+    },
+	{
+      "id" : "8158007",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8158007-extension-avam-matadero-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Extensión AVAM. Matadero Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cebd27f53e7de410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8158007-extension-avam-matadero-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PASEO CHOPERA 14 Matadero"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8158007-extension-avam-matadero-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.697259467865366 40.39241367848808)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8158007-extension-avam-matadero-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39241367848808,
+        "longitude" : -3.697259467865366
+	  }
+
+    },
+	{
+      "id" : "8158008",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8158008-factoria-cultural-matadero-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Factoría cultural. Matadero Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e91f27f53e7de410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8158008-factoria-cultural-matadero-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PASEO CHOPERA 14 Matadero"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8158008-factoria-cultural-matadero-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.697259467865366 40.39241367848808)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8158008-factoria-cultural-matadero-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39241367848808,
+        "longitude" : -3.697259467865366
+	  }
+
+    },
+	{
+      "id" : "1915",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1915-fernan-gomez-centro-cultural-villa",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Fernán Gómez Centro Cultural de la Villa",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ba663d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1915-fernan-gomez-centro-cultural-villa/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "PLAZA COLON 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1915-fernan-gomez-centro-cultural-villa/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6899208519663427 40.424926347610764)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1915-fernan-gomez-centro-cultural-villa/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.424926347610764,
+        "longitude" : -3.6899208519663427
+	  }
+
+    },
+	{
+      "id" : "10037852",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037852-gran-teatro-bankia-principe-pio",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Gran Teatro Bankia Príncipe Pío",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=44d450fba2504510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037852-gran-teatro-bankia-principe-pio/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CUESTA SAN VICENTE 44"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037852-gran-teatro-bankia-principe-pio/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7190728318719177 40.420433378754346)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037852-gran-teatro-bankia-principe-pio/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.420433378754346,
+        "longitude" : -3.7190728318719177
+	  }
+
+    },
+	{
+      "id" : "6599384",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6599384-microteatro-dinero",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Microteatro Por Dinero",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5546a391f9a2a310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6599384-microteatro-dinero/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE LORETO Y CHICOTE 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6599384-microteatro-dinero/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7040668231939438 40.42152574011699)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6599384-microteatro-dinero/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42152574011699,
+        "longitude" : -3.7040668231939438
+	  }
+
+    },
+	{
+      "id" : "6963121",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6963121-naves-matadero-centro-internacional-artes-vivas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Naves Matadero. Centro Internacional Artes Vivas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4582ee06ea5ee310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6963121-naves-matadero-centro-internacional-artes-vivas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PASEO CHOPERA 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6963121-naves-matadero-centro-internacional-artes-vivas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.697247685884226 40.39241374953321)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6963121-naves-matadero-centro-internacional-artes-vivas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39241374953321,
+        "longitude" : -3.697247685884226
+	  }
+
+    },
+	{
+      "id" : "109277",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/109277-nuevo-teatro-alcala",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Nuevo Teatro Alcalá",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b18d8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/109277-nuevo-teatro-alcala/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "CALLE JORGE JUAN 62"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/109277-nuevo-teatro-alcala/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.678258596986864 40.42340075550414)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/109277-nuevo-teatro-alcala/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42340075550414,
+        "longitude" : -3.678258596986864
+	  }
+
+    },
+	{
+      "id" : "7875490",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7875490-off-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Off de la Latina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=23b5c6f83ef4b410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7875490-off-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE MANCEBOS 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7875490-off-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7119825698992885 40.41204479812585)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7875490-off-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41204479812585,
+        "longitude" : -3.7119825698992885
+	  }
+
+    },
+	{
+      "id" : "10140094",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10140094-pequeno-teatro-gran-via",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Pequeño Teatro Gran Vía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=50efbe5ec3747510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10140094-pequeno-teatro-gran-via/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 66"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10140094-pequeno-teatro-gran-via/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7089562066882342 40.42240577324947)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10140094-pequeno-teatro-gran-via/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42240577324947,
+        "longitude" : -3.7089562066882342
+	  }
+
+    },
+	{
+      "id" : "7093690",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7093690-sala-azarte",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Sala Azarte",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e2708ff0d6201410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7093690-sala-azarte/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE SAN MARCOS 19"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7093690-sala-azarte/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.698360306512048 40.42140719770071)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7093690-sala-azarte/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42140719770071,
+        "longitude" : -3.698360306512048
+	  }
+
+    },
+	{
+      "id" : "10035003",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10035003-sala-biribo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Sala Biribó",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5261c620420f3510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10035003-sala-biribo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "PASEO ESPERANZA 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10035003-sala-biribo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7030270580093982 40.39864006342172)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10035003-sala-biribo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39864006342172,
+        "longitude" : -3.7030270580093982
+	  }
+
+    },
+	{
+      "id" : "1983",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1983-sala-montacargas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Sala el Montacargas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8a2a8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1983-sala-montacargas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "CALLE ANTILLON 19"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1983-sala-montacargas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.727914502030771 40.411774419017874)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1983-sala-montacargas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.411774419017874,
+        "longitude" : -3.727914502030771
+	  }
+
+    },
+	{
+      "id" : "10035193",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10035193-sala-nada",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Sala Nada",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d9daa9af480f3510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10035193-sala-nada/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE SANTA ANA 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10035193-sala-nada/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7078623807530793 40.410268287012045)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10035193-sala-nada/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.410268287012045,
+        "longitude" : -3.7078623807530793
+	  }
+
+    },
+	{
+      "id" : "7246699",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7246699-sala-nave-73",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Sala Nave 73",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5d5b051dbc673410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7246699-sala-nave-73/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE PALOS DE LA FRONTERA 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7246699-sala-nave-73/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6987020172137433 40.40316180456706)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7246699-sala-nave-73/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40316180456706,
+        "longitude" : -3.6987020172137433
+	  }
+
+    },
+	{
+      "id" : "161000",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161000-sala-tarambana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Sala Tarambana",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=53cf8c89dd91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161000-sala-tarambana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE DOLORES ARMENGOT 31"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161000-sala-tarambana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7432218183125814 40.38580301942374)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161000-sala-tarambana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38580301942374,
+        "longitude" : -3.7432218183125814
+	  }
+
+    },
+	{
+      "id" : "10035099",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10035099-sala-tu",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Sala Tú",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9827c620420f3510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10035099-sala-tu/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE VELARDE 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10035099-sala-tu/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.703367344935001 40.42680028110073)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10035099-sala-tu/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42680028110073,
+        "longitude" : -3.703367344935001
+	  }
+
+    },
+	{
+      "id" : "10037667",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037667-tablao-flamenco-cafe-chinitas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Tablao flamenco Café de Chinitas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=899732e49e404510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037667-tablao-flamenco-cafe-chinitas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE TORIJA 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037667-tablao-flamenco-cafe-chinitas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7104358351726 40.42074803731289)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037667-tablao-flamenco-cafe-chinitas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42074803731289,
+        "longitude" : -3.7104358351726
+	  }
+
+    },
+	{
+      "id" : "10187413",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187413-tablao-flamenco-cafe-ziryab",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Tablao Flamenco Café Ziryab",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=504212e1c4d48510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187413-tablao-flamenco-cafe-ziryab/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "PASEO ESPERANZA 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187413-tablao-flamenco-cafe-ziryab/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.705138659259797 40.402248850411304)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187413-tablao-flamenco-cafe-ziryab/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.402248850411304,
+        "longitude" : -3.705138659259797
+	  }
+
+    },
+	{
+      "id" : "10187560",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187560-tablao-flamenco-candela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Tablao Flamenco Candela",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=be49b096d9d48510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187560-tablao-flamenco-candela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE OLMO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187560-tablao-flamenco-candela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.70155764657445 40.411468882602335)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187560-tablao-flamenco-candela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.411468882602335,
+        "longitude" : -3.70155764657445
+	  }
+
+    },
+	{
+      "id" : "10187763",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187763-tablao-flamenco-cardamomo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Tablao Flamenco Cardamomo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1657b096d9d48510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187763-tablao-flamenco-cardamomo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ECHEGARAY 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187763-tablao-flamenco-cardamomo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699548238936712 40.415463057589214)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187763-tablao-flamenco-cardamomo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.415463057589214,
+        "longitude" : -3.699548238936712
+	  }
+
+    },
+	{
+      "id" : "7091909",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7091909-tablao-flamenco-casa-patas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Tablao Flamenco Casa Patas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bf256036342f0410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7091909-tablao-flamenco-casa-patas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE CA&Ntilde;IZARES 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7091909-tablao-flamenco-casa-patas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7017357416661167 40.412729068876004)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7091909-tablao-flamenco-casa-patas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.412729068876004,
+        "longitude" : -3.7017357416661167
+	  }
+
+    },
+	{
+      "id" : "10187520",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187520-tablao-flamenco-corral-moreria",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Tablao Flamenco Corral de la Morería",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d23712e1c4d48510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187520-tablao-flamenco-corral-moreria/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE MORERIA 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187520-tablao-flamenco-corral-moreria/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7142642886798996 40.412706403145705)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187520-tablao-flamenco-corral-moreria/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.412706403145705,
+        "longitude" : -3.7142642886798996
+	  }
+
+    },
+	{
+      "id" : "10513763",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10513763-tablao-flamenco-estacion-porches",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Tablao Flamenco La Estación de los Porches",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b83d88aef110f510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10513763-tablao-flamenco-estacion-porches/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE TIMOTEO PEREZ RUBIO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10513763-tablao-flamenco-estacion-porches/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.672212953589482 40.388030423146326)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10513763-tablao-flamenco-estacion-porches/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.388030423146326,
+        "longitude" : -3.672212953589482
+	  }
+
+    },
+	{
+      "id" : "143436",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/143436-tablao-flamenco-tablas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Tablao flamenco Las Tablas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cfb3c8a3d881c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/143436-tablao-flamenco-tablas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "PLAZA ESPAÑA 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/143436-tablao-flamenco-tablas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.713678674361515 40.42198032023045)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/143436-tablao-flamenco-tablas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42198032023045,
+        "longitude" : -3.713678674361515
+	  }
+
+    },
+	{
+      "id" : "10187547",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187547-tablao-flamenco-torres-bermejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Tablao Flamenco Torres Bermejas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8168b096d9d48510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187547-tablao-flamenco-torres-bermejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE MESONERO ROMANOS 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187547-tablao-flamenco-torres-bermejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7041793844860695 40.419885409942566)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187547-tablao-flamenco-torres-bermejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.419885409942566,
+        "longitude" : -3.7041793844860695
+	  }
+
+    },
+	{
+      "id" : "10187829",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187829-tablao-flamenco-villa-rosa",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Tablao Flamenco Villa Rosa",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=87fc62905fd48510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187829-tablao-flamenco-villa-rosa/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "PLAZA SANTA ANA 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187829-tablao-flamenco-villa-rosa/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7014284781662314 40.414920132021535)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187829-tablao-flamenco-villa-rosa/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.414920132021535,
+        "longitude" : -3.7014284781662314
+	  }
+
+    },
+	{
+      "id" : "2199",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2199-teatro-alfil",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Alfil",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a83b8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2199-teatro-alfil/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE PEZ 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2199-teatro-alfil/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7044727114319844 40.4231448936827)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2199-teatro-alfil/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4231448936827,
+        "longitude" : -3.7044727114319844
+	  }
+
+    },
+	{
+      "id" : "17306",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17306-teatro-amaya",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Amaya",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6b4b8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17306-teatro-amaya/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "PASEO GENERAL MARTINEZ CAMPOS 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17306-teatro-amaya/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.697193610846834 40.43513498732234)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17306-teatro-amaya/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43513498732234,
+        "longitude" : -3.697193610846834
+	  }
+
+    },
+	{
+      "id" : "7717745",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7717745-teatro-arlequin-gran-via",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Arlequín Gran Vía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f38726c2a9489410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7717745-teatro-arlequin-gran-via/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE SAN BERNARDO 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7717745-teatro-arlequin-gran-via/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7083051475459974 40.421022372676056)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7717745-teatro-arlequin-gran-via/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.421022372676056,
+        "longitude" : -3.7083051475459974
+	  }
+
+    },
+	{
+      "id" : "10511914",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511914-teatro-artistic-morada",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Artistic La Morada",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5942fef1bacee510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511914-teatro-artistic-morada/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE PALMA 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511914-teatro-artistic-morada/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7024762180677455 40.42613002218805)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511914-teatro-artistic-morada/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42613002218805,
+        "longitude" : -3.7024762180677455
+	  }
+
+    },
+	{
+      "id" : "2178",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2178-teatro-bellas-artes",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Bellas Artes",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e07b8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2178-teatro-bellas-artes/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE MARQUES DE CASA RIERA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2178-teatro-bellas-artes/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6964190351426174 40.418337815969636)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2178-teatro-bellas-artes/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.418337815969636,
+        "longitude" : -3.6964190351426174
+	  }
+
+    },
+	{
+      "id" : "8176468",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8176468-teatro-calderon",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Calderón",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aecf08cee9e5f410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8176468-teatro-calderon/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE ATOCHA 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8176468-teatro-calderon/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.703363300804268 40.41396242769233)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8176468-teatro-calderon/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41396242769233,
+        "longitude" : -3.703363300804268
+	  }
+
+    },
+	{
+      "id" : "184955",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184955-teatro-circo-price",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Circo Price",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=432257258ae5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184955-teatro-circo-price/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "RONDA ATOCHA 35"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184955-teatro-circo-price/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.698601359753866 40.40596423138839)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184955-teatro-circo-price/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40596423138839,
+        "longitude" : -3.698601359753866
+	  }
+
+    },
+	{
+      "id" : "2177",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2177-teatro-cofidis-alcazar",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Cofidis Alcázar",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a52b8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2177-teatro-cofidis-alcazar/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PASEO CHOPERA 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2177-teatro-cofidis-alcazar/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.69721280449928 40.39245900527101)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2177-teatro-cofidis-alcazar/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39245900527101,
+        "longitude" : -3.69721280449928
+	  }
+
+    },
+	{
+      "id" : "10511809",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511809-teatro-coliseum",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Coliseum",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c9e5459f66cee510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511809-teatro-coliseum/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 78"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511809-teatro-coliseum/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7036959273154326 40.422131603573256)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511809-teatro-coliseum/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.422131603573256,
+        "longitude" : -3.7036959273154326
+	  }
+
+    },
+	{
+      "id" : "2207",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2207-teatro-abadia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro de la Abadía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=efcb8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2207-teatro-abadia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE FERNANDEZ DE LOS RIOS 42"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2207-teatro-abadia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.709208726699302 40.43522406333126)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2207-teatro-abadia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43522406333126,
+        "longitude" : -3.709208726699302
+	  }
+
+    },
+	{
+      "id" : "2193",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2193-teatro-comedia-compania-nacional-teatro-clasico",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro de la Comedia. Compañía Nacional de Teatro Clásico",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e2eb8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2193-teatro-comedia-compania-nacional-teatro-clasico/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE PRÍNCIPE 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2193-teatro-comedia-compania-nacional-teatro-clasico/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7004107649636144 40.41566504361928)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2193-teatro-comedia-compania-nacional-teatro-clasico/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41566504361928,
+        "longitude" : -3.7004107649636144
+	  }
+
+    },
+	{
+      "id" : "17334",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17334-teatro-luz-philips-antiguo-teatro-compac-gran-via",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro de la Luz Philips (Antiguo Teatro Compac Gran Vía)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e69b8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17334-teatro-luz-philips-antiguo-teatro-compac-gran-via/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 66"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17334-teatro-luz-philips-antiguo-teatro-compac-gran-via/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7089562066882342 40.42240577324947)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17334-teatro-luz-philips-antiguo-teatro-compac-gran-via/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42240577324947,
+        "longitude" : -3.7089562066882342
+	  }
+
+    },
+	{
+      "id" : "2194",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2194-teatro-zarzuela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro de la Zarzuela",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e5fb8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2194-teatro-zarzuela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE JOVELLANOS 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2194-teatro-zarzuela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6968669041846796 40.4171909688133)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2194-teatro-zarzuela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4171909688133,
+        "longitude" : -3.6968669041846796
+	  }
+
+    },
+	{
+      "id" : "10511805",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511805-teatro-aguas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro de las Aguas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9ce4459f66cee510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511805-teatro-aguas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE DE LAS AGUAS 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511805-teatro-aguas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7036959273154326 40.422131603573256)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511805-teatro-aguas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.422131603573256,
+        "longitude" : -3.7036959273154326
+	  }
+
+    },
+	{
+      "id" : "6708522",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6708522-teatro-arte",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro del Arte",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c79d84f59999b310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6708522-teatro-arte/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE SAN COSME Y SAN DAMIAN 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6708522-teatro-arte/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.698011968601937 40.409373215131076)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6708522-teatro-arte/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.409373215131076,
+        "longitude" : -3.698011968601937
+	  }
+
+    },
+	{
+      "id" : "7239548",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7239548-teatro-barrio",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro del Barrio",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8891c0a221f23410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7239548-teatro-barrio/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE ZURITA 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7239548-teatro-barrio/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699123015201178 40.409681819217646)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7239548-teatro-barrio/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.409681819217646,
+        "longitude" : -3.699123015201178
+	  }
+
+    },
+	{
+      "id" : "2190",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2190-teatro-espanol",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Español",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6d3ce3914381c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2190-teatro-espanol/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE PRINCIPE 25"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2190-teatro-espanol/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7001663599562105 40.41482868269558)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2190-teatro-espanol/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41482868269558,
+        "longitude" : -3.7001663599562105
+	  }
+
+    },
+	{
+      "id" : "2181",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2181-teatro-figaro-adolfo-marsillach",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Fígaro - Adolfo Marsillach",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=715c8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2181-teatro-figaro-adolfo-marsillach/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE DOCTOR CORTEZO 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2181-teatro-figaro-adolfo-marsillach/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.703676260061599 40.41345601671212)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2181-teatro-figaro-adolfo-marsillach/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41345601671212,
+        "longitude" : -3.703676260061599
+	  }
+
+    },
+	{
+      "id" : "87056",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/87056-teatro-galileo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Galileo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=346c8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/87056-teatro-galileo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE GALILEO 39"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/87056-teatro-galileo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7104543597957758 40.43371190964793)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/87056-teatro-galileo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43371190964793,
+        "longitude" : -3.7104543597957758
+	  }
+
+    },
+	{
+      "id" : "10511786",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511786-teatro-goya",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Goya",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4034459f66cee510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511786-teatro-goya/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "CALLE SEPÚLVEDA 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511786-teatro-goya/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.703481650678806 40.411745481650485)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511786-teatro-goya/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.411745481650485,
+        "longitude" : -3.703481650678806
+	  }
+
+    },
+	{
+      "id" : "130405",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/130405-teatro-guindalera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Guindalera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=db408c89dd91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/130405-teatro-guindalera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE MARTINEZ IZQUIERDO 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/130405-teatro-guindalera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6696580993972807 40.43339686680235)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/130405-teatro-guindalera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43339686680235,
+        "longitude" : -3.6696580993972807
+	  }
+
+    },
+	{
+      "id" : "2198",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2198-teatro-infanta-isabel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Infanta Isabel",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=777c8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2198-teatro-infanta-isabel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE BARQUILLO 24"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2198-teatro-infanta-isabel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6955867306586354 40.42221671356561)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2198-teatro-infanta-isabel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42221671356561,
+        "longitude" : -3.6955867306586354
+	  }
+
+    },
+	{
+      "id" : "99245",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/99245-teatro-karpas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Karpas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7a8c8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/99245-teatro-karpas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE SANTA ISABEL 19"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/99245-teatro-karpas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6977049393895824 40.41045615490087)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/99245-teatro-karpas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41045615490087,
+        "longitude" : -3.6977049393895824
+	  }
+
+    },
+	{
+      "id" : "10511703",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511703-teatro-belloch",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro La Belloch",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6d6f459f66cee510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511703-teatro-belloch/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE PEÑUELAS 61"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511703-teatro-belloch/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7036959273154326 40.422131603573256)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511703-teatro-belloch/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.422131603573256,
+        "longitude" : -3.7036959273154326
+	  }
+
+    },
+	{
+      "id" : "10511775",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511775-teatro-caja-terror",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro La caja del terror",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=caf2459f66cee510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511775-teatro-caja-terror/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "PASEO ESPERANZA 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511775-teatro-caja-terror/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7030270580093982 40.39864006342172)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511775-teatro-caja-terror/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39864006342172,
+        "longitude" : -3.7030270580093982
+	  }
+
+    },
+	{
+      "id" : "10511730",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511730-teatro-corseteria",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro La Corsetería",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4b90459f66cee510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511730-teatro-corseteria/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE CABEZA 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511730-teatro-corseteria/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.703481650678806 40.411745481650485)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511730-teatro-corseteria/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.411745481650485,
+        "longitude" : -3.703481650678806
+	  }
+
+    },
+	{
+      "id" : "10511853",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511853-teatro-encina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro La Encina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6ae9fca35ccee510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511853-teatro-encina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE ERCILLA 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511853-teatro-encina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7028123300797953 40.402920675882314)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511853-teatro-encina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.402920675882314,
+        "longitude" : -3.7028123300797953
+	  }
+
+    },
+	{
+      "id" : "10511761",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511761-teatro-gatomaquia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro La Gatomaquia",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8df1459f66cee510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511761-teatro-gatomaquia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE SAN COSME Y SAN DAMIÁN 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511761-teatro-gatomaquia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.703481650678806 40.411745481650485)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511761-teatro-gatomaquia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.411745481650485,
+        "longitude" : -3.703481650678806
+	  }
+
+    },
+	{
+      "id" : "10511855",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511855-teatro-infinito",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro La Infinito",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aa6afca35ccee510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511855-teatro-infinito/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE TRES PECES 22"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511855-teatro-infinito/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699357561056897 40.41070743291592)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511855-teatro-infinito/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41070743291592,
+        "longitude" : -3.699357561056897
+	  }
+
+    },
+	{
+      "id" : "2182",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2182-teatro-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro la Latina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7d9c8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2182-teatro-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "PLAZA CEBADA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2182-teatro-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.708781739576842 40.411397795053)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2182-teatro-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.411397795053,
+        "longitude" : -3.708781739576842
+	  }
+
+    },
+	{
+      "id" : "10511615",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511615-teatro-nao-8",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro La Nao 8",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6d7d459f66cee510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511615-teatro-nao-8/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE NAO 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511615-teatro-nao-8/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7036959273154326 40.422131603573256)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511615-teatro-nao-8/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.422131603573256,
+        "longitude" : -3.7036959273154326
+	  }
+
+    },
+	{
+      "id" : "10511563",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511563-teatro-pension-pulgas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro La Pensión de las Pulgas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6fc8459f66cee510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511563-teatro-pension-pulgas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE HUERTAS 48"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511563-teatro-pension-pulgas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.697144409057269 40.41324333320637)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511563-teatro-pension-pulgas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41324333320637,
+        "longitude" : -3.697144409057269
+	  }
+
+    },
+	{
+      "id" : "10242463",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10242463-teatro-puerta-estrecha",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro La Puerta Estrecha",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=40388b6bab5b9510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10242463-teatro-puerta-estrecha/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE AMPARO 94"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10242463-teatro-puerta-estrecha/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7005263161629527 40.406348983239184)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10242463-teatro-puerta-estrecha/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.406348983239184,
+        "longitude" : -3.7005263161629527
+	  }
+
+    },
+	{
+      "id" : "79864",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/79864-teatro-lagrada",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Lagrada",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=70bc8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/79864-teatro-lagrada/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE ERCILLA 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/79864-teatro-lagrada/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.70289238039068 40.40268595360097)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/79864-teatro-lagrada/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40268595360097,
+        "longitude" : -3.70289238039068
+	  }
+
+    },
+	{
+      "id" : "2208",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2208-teatro-lara",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Lara",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=73cc8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2208-teatro-lara/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE CORREDERA BAJA DE SAN PABLO 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2208-teatro-lara/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7044498348290293 40.42208196713365)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2208-teatro-lara/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42208196713365,
+        "longitude" : -3.7044498348290293
+	  }
+
+    },
+	{
+      "id" : "17338",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17338-teatro-lope-vega",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Lope de Vega",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=79ec8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17338-teatro-lope-vega/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VÍA 57"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17338-teatro-lope-vega/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7088800933302783 40.42189272510087)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17338-teatro-lope-vega/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42189272510087,
+        "longitude" : -3.7088800933302783
+	  }
+
+    },
+	{
+      "id" : "174142",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174142-teatro-maravillas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Maravillas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f8608c89dd91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174142-teatro-maravillas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE MANUELA MALASAÑA 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174142-teatro-maravillas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.703103946758172 40.428675760717795)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174142-teatro-maravillas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.428675760717795,
+        "longitude" : -3.703103946758172
+	  }
+
+    },
+	{
+      "id" : "2191",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2191-teatro-maria-guerrero-centro-dramatico-nacional",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro María Guerrero. Centro Dramático Nacional",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3cfc8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2191-teatro-maria-guerrero-centro-dramatico-nacional/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE TAMAYO Y BAUS 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2191-teatro-maria-guerrero-centro-dramatico-nacional/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.693071021887218 40.42288948179915)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2191-teatro-maria-guerrero-centro-dramatico-nacional/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42288948179915,
+        "longitude" : -3.693071021887218
+	  }
+
+    },
+	{
+      "id" : "2184",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2184-teatro-marquina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Marquina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fe0d8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2184-teatro-marquina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE PRIM 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2184-teatro-marquina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6937451531542638 40.42195750772574)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2184-teatro-marquina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42195750772574,
+        "longitude" : -3.6937451531542638
+	  }
+
+    },
+	{
+      "id" : "2131",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2131-teatro-monumental",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Monumental",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=96f0ff632081c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2131-teatro-monumental/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE ATOCHA 65"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2131-teatro-monumental/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6991755805601443 40.41248331678507)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2131-teatro-monumental/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41248331678507,
+        "longitude" : -3.6991755805601443
+	  }
+
+    },
+	{
+      "id" : "4077",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4077-teatro-municipal-titeres-retiro-al-aire-libre",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Municipal de Títeres de El Retiro al Aire Libre",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=784d8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4077-teatro-municipal-titeres-retiro-al-aire-libre/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "AVENIDA MÉXICO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4077-teatro-municipal-titeres-retiro-al-aire-libre/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6866519471003647 40.41878362561595)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4077-teatro-municipal-titeres-retiro-al-aire-libre/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41878362561595,
+        "longitude" : -3.6866519471003647
+	  }
+
+    },
+	{
+      "id" : "2185",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2185-teatro-munoz-seca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Muñoz Seca",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7b5d8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2185-teatro-munoz-seca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "PLAZA CARMEN 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2185-teatro-munoz-seca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7032798991593827 40.41840439358014)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2185-teatro-munoz-seca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41840439358014,
+        "longitude" : -3.7032798991593827
+	  }
+
+    },
+	{
+      "id" : "10037829",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037829-teatro-nuev9-norte",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Nuev9 Norte",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7ac150fba2504510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037829-teatro-nuev9-norte/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE NORTE 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037829-teatro-nuev9-norte/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.70761486653819 40.4260176028424)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037829-teatro-nuev9-norte/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4260176028424,
+        "longitude" : -3.70761486653819
+	  }
+
+    },
+	{
+      "id" : "2186",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2186-teatro-nuevo-apolo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Nuevo Apolo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7e6d8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2186-teatro-nuevo-apolo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "PLAZA TIRSO DE MOLINA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2186-teatro-nuevo-apolo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.703369987899476 40.41234075831118)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2186-teatro-nuevo-apolo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41234075831118,
+        "longitude" : -3.703369987899476
+	  }
+
+    },
+	{
+      "id" : "2202",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2202-teatro-pradillo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Pradillo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f7ad8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2202-teatro-pradillo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PRADILLO 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2202-teatro-pradillo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6747261219408607 40.44856560554628)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2202-teatro-pradillo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44856560554628,
+        "longitude" : -3.6747261219408607
+	  }
+
+    },
+	{
+      "id" : "31360",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/31360-teatro-principe-gran-via",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Príncipe Gran Vía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fabd8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/31360-teatro-principe-gran-via/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE TRES CRUCES 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/31360-teatro-principe-gran-via/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.702760005318704 40.41941656735497)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/31360-teatro-principe-gran-via/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41941656735497,
+        "longitude" : -3.702760005318704
+	  }
+
+    },
+	{
+      "id" : "7089081",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7089081-teatro-quevedo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Quevedo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=efa38bdc9a6e0410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7089081-teatro-quevedo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE BRAVO MURILLO 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7089081-teatro-quevedo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.704119358317509 40.43560652525375)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7089081-teatro-quevedo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43560652525375,
+        "longitude" : -3.704119358317509
+	  }
+
+    },
+	{
+      "id" : "2187",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2187-teatro-reina-victoria",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Reina Victoria",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1bfd8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2187-teatro-reina-victoria/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CARRERA SAN JERONIMO 24"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2187-teatro-reina-victoria/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699818451104129 40.41651548060074)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2187-teatro-reina-victoria/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41651548060074,
+        "longitude" : -3.699818451104129
+	  }
+
+    },
+	{
+      "id" : "17361",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17361-teatro-rialto",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Rialto",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b12d8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17361-teatro-rialto/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 54"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17361-teatro-rialto/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.707377753413243 40.42138841205714)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17361-teatro-rialto/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42138841205714,
+        "longitude" : -3.707377753413243
+	  }
+
+    },
+	{
+      "id" : "2205",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2205-teatro-sala-cuarta-pared",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Sala Cuarta Pared",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4c0208231f91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2205-teatro-sala-cuarta-pared/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE ERCILLA 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2205-teatro-sala-cuarta-pared/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7027165608127723 40.402777112937486)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2205-teatro-sala-cuarta-pared/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.402777112937486,
+        "longitude" : -3.7027165608127723
+	  }
+
+    },
+	{
+      "id" : "2189",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2189-teatro-sanpol",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Sanpol",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=331e8c7c0f91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2189-teatro-sanpol/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE SAN POL DE MAR 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2189-teatro-sanpol/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7265957347882104 40.4239449097705)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2189-teatro-sanpol/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4239449097705,
+        "longitude" : -3.7265957347882104
+	  }
+
+    },
+	{
+      "id" : "10511901",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511901-teatro-sexto-derecha",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Sexto Derecha",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5471fef1bacee510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511901-teatro-sexto-derecha/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE TOLEDO 107 PLANTA 6 D"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511901-teatro-sexto-derecha/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.710402877897473 40.408649094079635)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511901-teatro-sexto-derecha/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.408649094079635,
+        "longitude" : -3.710402877897473
+	  }
+
+    },
+	{
+      "id" : "135051",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/135051-teatro-tribuene",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Tribueñe",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=96df2189cb81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/135051-teatro-tribuene/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE SANCHO DAVILA 31"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/135051-teatro-tribuene/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6615996399032054 40.425569368259886)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/135051-teatro-tribuene/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.425569368259886,
+        "longitude" : -3.6615996399032054
+	  }
+
+    },
+	{
+      "id" : "173052",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173052-teatro-valle-inclan-centro-dramatico-nacional",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Valle Inclán. Centro Drámatico Nacional",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=67c08c89dd91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173052-teatro-valle-inclan-centro-dramatico-nacional/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE VALENCIA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173052-teatro-valle-inclan-centro-dramatico-nacional/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7004845788684912 40.40800690285846)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173052-teatro-valle-inclan-centro-dramatico-nacional/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40800690285846,
+        "longitude" : -3.7004845788684912
+	  }
+
+    },
+	{
+      "id" : "174525",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174525-teatro-victoria",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro Victoria",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cbe08c89dd91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174525-teatro-victoria/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE PEZ 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174525-teatro-victoria/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.705611071847053 40.42378660181596)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174525-teatro-victoria/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42378660181596,
+        "longitude" : -3.705611071847053
+	  }
+
+    },
+	{
+      "id" : "5000655",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5000655-teatros-canal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatros del Canal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8f63986ba58bc110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5000655-teatros-canal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE CEA BERMUDEZ 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5000655-teatros-canal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.705057921443053 40.43854675141601)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5000655-teatros-canal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43854675141601,
+        "longitude" : -3.705057921443053
+	  }
+
+    },
+	{
+      "id" : "10037669",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037669-teatros-luchana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatros Luchana",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=668632e49e404510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037669-teatros-luchana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE LUCHANA 38"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037669-teatros-luchana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.698186306223295 40.43193980366074)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037669-teatros-luchana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43193980366074,
+        "longitude" : -3.698186306223295
+	  }
+
+    },
+	{
+      "id" : "10038955",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10038955-teatro-arte-desmayo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro. Arte & Desmayo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fe5f364c13a04510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10038955-teatro-arte-desmayo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE BALEARES 14 PLANTA local 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10038955-teatro-arte-desmayo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7135685613542195 40.394818706807854)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10038955-teatro-arte-desmayo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.394818706807854,
+        "longitude" : -3.7135685613542195
+	  }
+
+    },
+	{
+      "id" : "187464",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/187464-teatro-artespacio-plot-point",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro. ArtEspacio Plot Point",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ea2dd2bec675e010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/187464-teatro-artespacio-plot-point/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE ERCILLA 29"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/187464-teatro-artespacio-plot-point/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7020477784084793 40.40192531437177)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/187464-teatro-artespacio-plot-point/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40192531437177,
+        "longitude" : -3.7020477784084793
+	  }
+
+    },
+	{
+      "id" : "6831483",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6831483-teatro-bululu-2120",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro. Bululú 2120",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=11fee3831910d310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6831483-teatro-bululu-2120/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE CANARIAS 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6831483-teatro-bululu-2120/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6965212526388838 40.401958738062355)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6831483-teatro-bululu-2120/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.401958738062355,
+        "longitude" : -3.6965212526388838
+	  }
+
+    },
+	{
+      "id" : "10038784",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10038784-teatro-escondite",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro. El Escondite",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=34a5d852ee904510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10038784-teatro-escondite/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE ESTUDIOS 2 PLANTA local 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10038784-teatro-escondite/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.707506391804827 40.41228849313228)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10038784-teatro-escondite/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41228849313228,
+        "longitude" : -3.707506391804827
+	  }
+
+    },
+	{
+      "id" : "10038751",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10038751-teatro-minima-espacio-escenico",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro. Mínima espacio escénico",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7420d852ee904510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10038751-teatro-minima-espacio-escenico/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE MALLORCA 4 PLANTA local 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10038751-teatro-minima-espacio-escenico/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.698011525994152 40.40704888094098)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10038751-teatro-minima-espacio-escenico/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40704888094098,
+        "longitude" : -3.698011525994152
+	  }
+
+    },
+	{
+      "id" : "10038763",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10038763-teatro-sala-trovador",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teatro. Sala Trovador",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8103d852ee904510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10038763-teatro-sala-trovador/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE SAN JOSE 3 PLANTA local 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10038763-teatro-sala-trovador/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6970120716680395 40.41298286862909)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10038763-teatro-sala-trovador/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41298286862909,
+        "longitude" : -3.6970120716680395
+	  }
+
+    },
+	{
+      "id" : "10037710",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037710-teseo-teatro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Teseo Teatro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f852a73970504510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037710-teseo-teatro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "RONDA SEGOVIA 61"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037710-teseo-teatro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7159050283874873 40.408489029770145)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10037710-teseo-teatro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.408489029770145,
+        "longitude" : -3.7159050283874873
+	  }
+
+    },
+	{
+      "id" : "10511907",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511907-theatre-for-the-people",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Theatre for the people",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0ad1fef1bacee510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511907-theatre-for-the-people/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "PLAZA CARLOS CAMBRONERO 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511907-theatre-for-the-people/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.703883251330829 40.42313947499592)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10511907-theatre-for-the-people/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42313947499592,
+        "longitude" : -3.703883251330829
+	  }
+
+    }
+  ]
+}

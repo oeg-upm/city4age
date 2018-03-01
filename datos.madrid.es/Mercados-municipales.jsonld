@@ -1,0 +1,1271 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "12424",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12424-mercado-municipal-alto-extremadura",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Alto de Extremadura",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=75e4e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12424-mercado-municipal-alto-extremadura/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "PASEO JESUITAS 44"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12424-mercado-municipal-alto-extremadura/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7351687013396324 40.40797174906472)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12424-mercado-municipal-alto-extremadura/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40797174906472,
+        "longitude" : -3.7351687013396324
+	  }
+
+    },
+	{
+      "id" : "12418",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12418-mercado-municipal-anton-martin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Antón Martín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cb05e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12418-mercado-municipal-anton-martin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE SANTA ISABEL 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12418-mercado-municipal-anton-martin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6988110198857145 40.411422452721546)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12418-mercado-municipal-anton-martin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.411422452721546,
+        "longitude" : -3.6988110198857145
+	  }
+
+    },
+	{
+      "id" : "12426",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12426-mercado-municipal-arguelles",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Argüelles",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1235e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12426-mercado-municipal-arguelles/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE ALTAMIRANO 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12426-mercado-municipal-arguelles/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7179024231789466 40.431197427341125)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12426-mercado-municipal-arguelles/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.431197427341125,
+        "longitude" : -3.7179024231789466
+	  }
+
+    },
+	{
+      "id" : "12405",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12405-mercado-municipal-bami",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Bami",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=be75e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12405-mercado-municipal-bami/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "PLAZA BAMI 32"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12405-mercado-municipal-bami/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.655377903084208 40.430694913121776)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12405-mercado-municipal-bami/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.430694913121776,
+        "longitude" : -3.655377903084208
+	  }
+
+    },
+	{
+      "id" : "12393",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12393-mercado-municipal-barcelo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Barceló",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=05a5e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12393-mercado-municipal-barcelo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE BARCELO 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12393-mercado-municipal-barcelo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6992767323438382 40.42680707802062)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12393-mercado-municipal-barcelo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42680707802062,
+        "longitude" : -3.6992767323438382
+	  }
+
+    },
+	{
+      "id" : "12413",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12413-mercado-municipal-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Chamartín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5bc5e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12413-mercado-municipal-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28016",
+		"street-address" : "CALLE BOLIVIA 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12413-mercado-municipal-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.678056977192461 40.457311867437326)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12413-mercado-municipal-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.457311867437326,
+        "longitude" : -3.678056977192461
+	  }
+
+    },
+	{
+      "id" : "12422",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12422-mercado-municipal-chamberi",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Chamberí",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a1f5e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12422-mercado-municipal-chamberi/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE ALONSO CANO 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12422-mercado-municipal-chamberi/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6978649027841857 40.43620300971715)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12422-mercado-municipal-chamberi/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43620300971715,
+        "longitude" : -3.6978649027841857
+	  }
+
+    },
+	{
+      "id" : "12414",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12414-mercado-municipal-diego-leon",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Diego de León",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f716e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12414-mercado-municipal-diego-leon/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE DIEGO DE LEON 26"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12414-mercado-municipal-diego-leon/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6824756273454726 40.43475434372196)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12414-mercado-municipal-diego-leon/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43475434372196,
+        "longitude" : -3.6824756273454726
+	  }
+
+    },
+	{
+      "id" : "12433",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12433-mercado-municipal-dona-carlota",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Doña Carlota",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4e36e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12433-mercado-municipal-dona-carlota/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CALLE DOCTOR LOZANO 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12433-mercado-municipal-dona-carlota/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6597537009742824 40.4031383496021)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12433-mercado-municipal-dona-carlota/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4031383496021,
+        "longitude" : -3.6597537009742824
+	  }
+
+    },
+	{
+      "id" : "12400",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12400-mercado-municipal-guillermo-osma",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Guillermo de Osma",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ea86e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12400-mercado-municipal-guillermo-osma/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE MIGUEL ARREDONDO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12400-mercado-municipal-guillermo-osma/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6960129848486107 40.3949437306698)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12400-mercado-municipal-guillermo-osma/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3949437306698,
+        "longitude" : -3.6960129848486107
+	  }
+
+    },
+	{
+      "id" : "12427",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12427-mercado-municipal-guzman-bueno",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Guzmán el Bueno",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=87d6e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12427-mercado-municipal-guzman-bueno/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE ANDRES MELLADO 43"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12427-mercado-municipal-guzman-bueno/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7145114819530365 40.43495717590039)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12427-mercado-municipal-guzman-bueno/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43495717590039,
+        "longitude" : -3.7145114819530365
+	  }
+
+    },
+	{
+      "id" : "4824028",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4824028-mercado-municipal-ibiza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Ibiza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9c5f5f962d888110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4824028-mercado-municipal-ibiza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "CALLE IBIZA 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4824028-mercado-municipal-ibiza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.677392762224429 40.41817157699025)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4824028-mercado-municipal-ibiza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41817157699025,
+        "longitude" : -3.677392762224429
+	  }
+
+    },
+	{
+      "id" : "12431",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12431-mercado-municipal-jesus-gran-poder",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Jesús del Gran Poder",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2427e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12431-mercado-municipal-jesus-gran-poder/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE JESUS DEL GRAN PODER 42"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12431-mercado-municipal-jesus-gran-poder/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7010971746900325 40.38639943136542)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12431-mercado-municipal-jesus-gran-poder/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38639943136542,
+        "longitude" : -3.7010971746900325
+	  }
+
+    },
+	{
+      "id" : "12425",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12425-mercado-municipal-guindalera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de La Guindalera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=31b6e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12425-mercado-municipal-guindalera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE ERASO 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12425-mercado-municipal-guindalera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.671056299540891 40.43410047219345)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12425-mercado-municipal-guindalera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43410047219345,
+        "longitude" : -3.671056299540891
+	  }
+
+    },
+	{
+      "id" : "12451",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12451-mercado-municipal-ventas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Las Ventas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1a7b72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12451-mercado-municipal-ventas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "CALLE VIRGEN DE LA ALEGRIA 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12451-mercado-municipal-ventas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6569261794988055 40.43351496197302)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12451-mercado-municipal-ventas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43351496197302,
+        "longitude" : -3.6569261794988055
+	  }
+
+    },
+	{
+      "id" : "12423",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12423-mercado-municipal-aguilas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Las Águilas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6db7e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12423-mercado-municipal-aguilas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE BLAS CABRERA 125"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12423-mercado-municipal-aguilas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7683778002246617 40.37771961975467)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12423-mercado-municipal-aguilas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37771961975467,
+        "longitude" : -3.7683778002246617
+	  }
+
+    },
+	{
+      "id" : "12406",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12406-mercado-municipal-mostenses",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Los Mostenses",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=531c72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12406-mercado-municipal-mostenses/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "PLAZA MOSTENSES 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12406-mercado-municipal-mostenses/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7089296405152186 40.423243776104)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12406-mercado-municipal-mostenses/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.423243776104,
+        "longitude" : -3.7089296405152186
+	  }
+
+    },
+	{
+      "id" : "12402",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12402-mercado-municipal-maravillas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Maravillas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b3e7e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12402-mercado-municipal-maravillas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE BRAVO MURILLO 122"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12402-mercado-municipal-maravillas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7034696566148426 40.449060922663605)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12402-mercado-municipal-maravillas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.449060922663605,
+        "longitude" : -3.7034696566148426
+	  }
+
+    },
+	{
+      "id" : "12407",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12407-mercado-municipal-mediodia-entrevias",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Mediodía - Entrevías",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1a0872081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12407-mercado-municipal-mediodia-entrevias/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE CAMPI&Ntilde;A 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12407-mercado-municipal-mediodia-entrevias/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6692420255769287 40.37831782244751)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12407-mercado-municipal-mediodia-entrevias/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37831782244751,
+        "longitude" : -3.6692420255769287
+	  }
+
+    },
+	{
+      "id" : "12436",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12436-mercado-municipal-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Moratalaz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=603872081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12436-mercado-municipal-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE CAÑADA 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12436-mercado-municipal-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.645440746968987 40.40493085829736)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12436-mercado-municipal-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40493085829736,
+        "longitude" : -3.645440746968987
+	  }
+
+    },
+	{
+      "id" : "12435",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12435-mercado-municipal-numancia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Numancia",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b65872081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12435-mercado-municipal-numancia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CALLE JOSEFA DIAZ 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12435-mercado-municipal-numancia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6579853920414527 40.393391586979924)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12435-mercado-municipal-numancia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.393391586979924,
+        "longitude" : -3.6579853920414527
+	  }
+
+    },
+	{
+      "id" : "12430",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12430-mercado-municipal-orcasitas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Orcasitas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0d7872081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12430-mercado-municipal-orcasitas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE VILLABONA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12430-mercado-municipal-orcasitas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.715179497757883 40.368880585172406)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12430-mercado-municipal-orcasitas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.368880585172406,
+        "longitude" : -3.715179497757883
+	  }
+
+    },
+	{
+      "id" : "4824300",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4824300-mercado-municipal-orcasur",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Orcasur",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=081042a0c0988110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4824300-mercado-municipal-orcasur/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "AVENIDA ORCASUR 51"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4824300-mercado-municipal-orcasur/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7010564570875686 40.36769677700071)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4824300-mercado-municipal-orcasur/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.36769677700071,
+        "longitude" : -3.7010564570875686
+	  }
+
+    },
+	{
+      "id" : "12394",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12394-mercado-municipal-pacifico",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Pacífico",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a9c872081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12394-mercado-municipal-pacifico/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "CALLE VALDERRIBAS 30"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12394-mercado-municipal-pacifico/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6755452423143433 40.40433546207187)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12394-mercado-municipal-pacifico/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40433546207187,
+        "longitude" : -3.6755452423143433
+	  }
+
+    },
+	{
+      "id" : "12412",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12412-mercado-municipal-prosperidad",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Prosperidad",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ffe872081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12412-mercado-municipal-prosperidad/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE LOPEZ DE HOYOS 81"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12412-mercado-municipal-prosperidad/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.674118079721278 40.4443619472988)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12412-mercado-municipal-prosperidad/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4443619472988,
+        "longitude" : -3.674118079721278
+	  }
+
+    },
+	{
+      "id" : "12434",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12434-mercado-municipal-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Puente de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=461972081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12434-mercado-municipal-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE MARTINEZ DE LA RIVA 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12434-mercado-municipal-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.667748162837308 40.39524554761876)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12434-mercado-municipal-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39524554761876,
+        "longitude" : -3.667748162837308
+	  }
+
+    },
+	{
+      "id" : "12428",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12428-mercado-municipal-puerta-bonita",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Puerta Bonita",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9c3972081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12428-mercado-municipal-puerta-bonita/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE MATILDE HERNANDEZ 100"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12428-mercado-municipal-puerta-bonita/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7381115427324576 40.386069987981855)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12428-mercado-municipal-puerta-bonita/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.386069987981855,
+        "longitude" : -3.7381115427324576
+	  }
+
+    },
+	{
+      "id" : "12417",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12417-mercado-municipal-san-anton",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de San Antón",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e26972081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12417-mercado-municipal-san-anton/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE AUGUSTO FIGUEROA 24"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12417-mercado-municipal-san-anton/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.697565301846024 40.422042629795236)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12417-mercado-municipal-san-anton/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.422042629795236,
+        "longitude" : -3.697565301846024
+	  }
+
+    },
+	{
+      "id" : "12450",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12450-mercado-municipal-san-cristobal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de San Cristóbal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=398972081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12450-mercado-municipal-san-cristobal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "CALLE CONDE DE TORRALBA 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12450-mercado-municipal-san-cristobal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6849469591835438 40.47843331496172)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12450-mercado-municipal-san-cristobal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47843331496172,
+        "longitude" : -3.6849469591835438
+	  }
+
+    },
+	{
+      "id" : "12420",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12420-mercado-municipal-san-enrique",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de San Enrique",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8fa972081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12420-mercado-municipal-san-enrique/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE SAN ENRIQUE 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12420-mercado-municipal-san-enrique/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7004877796909534 40.456033970000796)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12420-mercado-municipal-san-enrique/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.456033970000796,
+        "longitude" : -3.7004877796909534
+	  }
+
+    },
+	{
+      "id" : "12416",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12416-mercado-municipal-san-fernando-embajadores",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de San Fernando (Embajadores)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9466e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12416-mercado-municipal-san-fernando-embajadores/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE EMBAJADORES 41"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12416-mercado-municipal-san-fernando-embajadores/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7039098865773954 40.407598710636066)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12416-mercado-municipal-san-fernando-embajadores/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.407598710636066,
+        "longitude" : -3.7039098865773954
+	  }
+
+    },
+	{
+      "id" : "12396",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12396-mercado-municipal-san-isidro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de San Isidro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d5d972081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12396-mercado-municipal-san-isidro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE SAN PATRICIO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12396-mercado-municipal-san-isidro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7252599945910045 40.391763962998795)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12396-mercado-municipal-san-isidro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.391763962998795,
+        "longitude" : -3.7252599945910045
+	  }
+
+    },
+	{
+      "id" : "12410",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12410-mercado-municipal-san-pascual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de San Pascual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=412a72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12410-mercado-municipal-san-pascual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "CALLE VIRGEN DEL VAL 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12410-mercado-municipal-san-pascual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6536591990125484 40.43826322016393)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12410-mercado-municipal-san-pascual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43826322016393,
+        "longitude" : -3.6536591990125484
+	  }
+
+    },
+	{
+      "id" : "12439",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12439-mercado-municipal-santa-eugenia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Santa Eugenia",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=974a72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12439-mercado-municipal-santa-eugenia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE VIRGEN DE LAS VIÑAS 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12439-mercado-municipal-santa-eugenia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6069142380412744 40.38113023262807)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12439-mercado-municipal-santa-eugenia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38113023262807,
+        "longitude" : -3.6069142380412744
+	  }
+
+    },
+	{
+      "id" : "12399",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12399-mercado-municipal-santa-maria-cabeza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Santa María de la Cabeza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ed6a72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12399-mercado-municipal-santa-maria-cabeza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PASEO SANTA MARIA DE LA CABEZA 41"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12399-mercado-municipal-santa-maria-cabeza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6972853519882434 40.40291810276811)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12399-mercado-municipal-santa-maria-cabeza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40291810276811,
+        "longitude" : -3.6972853519882434
+	  }
+
+    },
+	{
+      "id" : "12441",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12441-mercado-municipal-tetuan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Tetuán",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=349a72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12441-mercado-municipal-tetuan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE MARQUES DE VIANA 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12441-mercado-municipal-tetuan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6988290271823754 40.4609899402179)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12441-mercado-municipal-tetuan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4609899402179,
+        "longitude" : -3.6988290271823754
+	  }
+
+    },
+	{
+      "id" : "12404",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12404-mercado-municipal-tirso-molina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Tirso de Molina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8aba72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12404-mercado-municipal-tirso-molina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "CALLE DOÑA URRACA 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12404-mercado-municipal-tirso-molina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7260532291020647 40.41295729782629)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12404-mercado-municipal-tirso-molina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41295729782629,
+        "longitude" : -3.7260532291020647
+	  }
+
+    },
+	{
+      "id" : "12408",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12408-mercado-municipal-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Usera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=270b72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12408-mercado-municipal-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE AMPARO USERA 46"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12408-mercado-municipal-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.706253056063665 40.38709779232295)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12408-mercado-municipal-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38709779232295,
+        "longitude" : -3.706253056063665
+	  }
+
+    },
+	{
+      "id" : "12443",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12443-mercado-municipal-valdezarza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Valdezarza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7d2b72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12443-mercado-municipal-valdezarza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "CALLE ANTONIO MACHADO 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12443-mercado-municipal-valdezarza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7195786099544046 40.46677250917085)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12443-mercado-municipal-valdezarza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46677250917085,
+        "longitude" : -3.7195786099544046
+	  }
+
+    },
+	{
+      "id" : "12403",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12403-mercado-municipal-vallehermoso",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Vallehermoso",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c35b72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12403-mercado-municipal-vallehermoso/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE VALLEHERMOSO 36"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12403-mercado-municipal-vallehermoso/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7085488662890986 40.43413801893949)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12403-mercado-municipal-vallehermoso/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43413801893949,
+        "longitude" : -3.7085488662890986
+	  }
+
+    },
+	{
+      "id" : "12409",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12409-mercado-municipal-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Vicálvaro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=672d6fdb2541f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12409-mercado-municipal-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "CALLE SAN CIPRIANO 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12409-mercado-municipal-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.608489919785478 40.40436544950609)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12409-mercado-municipal-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40436544950609,
+        "longitude" : -3.608489919785478
+	  }
+
+    },
+	{
+      "id" : "12438",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12438-mercado-municipal-villa-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Villa de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b6cb72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12438-mercado-municipal-villa-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE SIERRA VIEJA 61"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12438-mercado-municipal-villa-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.623949195193401 40.37857107320672)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12438-mercado-municipal-villa-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37857107320672,
+        "longitude" : -3.623949195193401
+	  }
+
+    },
+	{
+      "id" : "12437",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12437-mercado-municipal-villaverde-alto",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de Villaverde Alto",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0deb72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12437-mercado-municipal-villaverde-alto/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "PASEO ALBERTO PALACIOS 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12437-mercado-municipal-villaverde-alto/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7110317703364504 40.34630225051675)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12437-mercado-municipal-villaverde-alto/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.34630225051675,
+        "longitude" : -3.7110317703364504
+	  }
+
+    },
+	{
+      "id" : "12419",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12419-mercado-municipal-cebada",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de la Cebada",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7a47e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12419-mercado-municipal-cebada/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "PLAZA CEBADA 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12419-mercado-municipal-cebada/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7097706603113547 40.41129262886917)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12419-mercado-municipal-cebada/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41129262886917,
+        "longitude" : -3.7097706603113547
+	  }
+
+    },
+	{
+      "id" : "12398",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12398-mercado-municipal-paz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de la Paz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c077e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12398-mercado-municipal-paz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE AYALA 28"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12398-mercado-municipal-paz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6858115591230654 40.42772557961978)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12398-mercado-municipal-paz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42772557961978,
+        "longitude" : -3.6858115591230654
+	  }
+
+    },
+	{
+      "id" : "12442",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12442-mercado-municipal-remonta",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/Mercados",
+      "title" : "Mercado municipal de la Remonta",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1797e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12442-mercado-municipal-remonta/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE BRAVO MURILLO 327"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12442-mercado-municipal-remonta/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.696264958640338 40.463969366476455)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12442-mercado-municipal-remonta/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.463969366476455,
+        "longitude" : -3.696264958640338
+	  }
+
+    }
+  ]
+}

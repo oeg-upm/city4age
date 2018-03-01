@@ -1,0 +1,1933 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [
+	{
+      "id" : "4847190",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4847190-casa-museo-lope-vega",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Casa Museo Lope de Vega",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4eff8c46145e8110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4847190-casa-museo-lope-vega/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE CERVANTES 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4847190-casa-museo-lope-vega/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6974741545860015 40.414358466555235)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4847190-casa-museo-lope-vega/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.414358466555235,
+        "longitude" : -3.6974741545860015
+	  }
+
+    },
+
+	{
+      "id" : "4949641",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4949641-casita-museo-raton-perez",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Casita - Museo del Ratón Pérez",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=990950e86d4ca110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4949641-casita-museo-raton-perez/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE ARENAL 8 PLANTA 1.ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4949641-casita-museo-raton-perez/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7055288844865233 40.41704834412296)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4949641-casita-museo-raton-perez/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41704834412296,
+        "longitude" : -3.7055288844865233
+	  }
+
+    },
+
+	{
+      "id" : "5682031",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5682031-castillo-alameda",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Castillo de la Alameda",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fe43c4be8e688210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5682031-castillo-alameda/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "CALLE ANTONIO SANCHA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5682031-castillo-alameda/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5932903820278788 40.45835460563491)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5682031-castillo-alameda/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45835460563491,
+        "longitude" : -3.5932903820278788
+	  }
+
+    },
+
+	{
+      "id" : "2064",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2064-cason-buen-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Casón del Buen Retiro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f0443d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2064-cason-buen-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALFONSO XII 28"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2064-cason-buen-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.689232811717636 40.415263749471535)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2064-cason-buen-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.415263749471535,
+        "longitude" : -3.689232811717636
+	  }
+
+    },
+
+	{
+      "id" : "103331",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/103331-centro-social-cultural-casa-encendida",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Centro Social y Cultural La Casa Encendida",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c27f8899fc81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/103331-centro-social-cultural-casa-encendida/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "RONDA VALENCIA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/103331-centro-social-cultural-casa-encendida/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699779793558763 40.40595710517701)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/103331-centro-social-cultural-casa-encendida/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40595710517701,
+        "longitude" : -3.699779793558763
+	  }
+
+    },
+
+	{
+      "id" : "6469186",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6469186-ermita-san-antonio-florida-museo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Ermita de San Antonio de la Florida (Museo)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=75950204770e7310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6469186-ermita-san-antonio-florida-museo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "GLORIETA SAN ANTONIO DE LA FLORIDA 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6469186-ermita-san-antonio-florida-museo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.725725718176111 40.425256682855846)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6469186-ermita-san-antonio-florida-museo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.425256682855846,
+        "longitude" : -3.725725718176111
+	  }
+
+    },
+
+	{
+      "id" : "58353",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/58353-espacio-fundacion-telefonica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Espacio Fundación Telefónica",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=87748ed67151c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/58353-espacio-fundacion-telefonica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE FUENCARRAL 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/58353-espacio-fundacion-telefonica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7016034186955076 40.42041458612889)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/58353-espacio-fundacion-telefonica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42041458612889,
+        "longitude" : -3.7016034186955076
+	  }
+
+    },
+
+	{
+      "id" : "6017808",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6017808-fundacion-amyc-arte-moderno-contemporaneo-casa-museo-fuente-rey",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/FundacionesCulturales",
+      "title" : "Fundación AMYC (Arte Moderno y Contemporáneo). Casa - Museo Fuente del Rey",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5c1260101310f210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6017808-fundacion-amyc-arte-moderno-contemporaneo-casa-museo-fuente-rey/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28023",
+		"street-address" : "CALLE FUENTE DEL REY 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6017808-fundacion-amyc-arte-moderno-contemporaneo-casa-museo-fuente-rey/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7705836264842576 40.45546180290319)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6017808-fundacion-amyc-arte-moderno-contemporaneo-casa-museo-fuente-rey/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45546180290319,
+        "longitude" : -3.7705836264842576
+	  }
+
+    },
+
+	{
+      "id" : "3348",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3348-monasterio-descalzas-reales",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Monasterio de las Descalzas Reales",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=12e113db5b71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3348-monasterio-descalzas-reales/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "PLAZA DESCALZAS 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3348-monasterio-descalzas-reales/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.706213134639163 40.418233359889484)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3348-monasterio-descalzas-reales/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.418233359889484,
+        "longitude" : -3.706213134639163
+	  }
+
+    },
+
+	{
+      "id" : "5873478",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5873478-museo-abc",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo ABC",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f0103fee6537c210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5873478-museo-abc/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE AMANIEL 29"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5873478-museo-abc/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.709539260414957 40.42741121610518)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5873478-museo-abc/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42741121610518,
+        "longitude" : -3.709539260414957
+	  }
+
+    },
+
+	{
+      "id" : "2067",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2067-museo-africano-mundo-negro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo Africano Mundo Negro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6ab8ef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2067-museo-africano-mundo-negro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE ARTURO SORIA 101"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2067-museo-africano-mundo-negro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.65149172790308 40.449464654033605)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2067-museo-africano-mundo-negro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.449464654033605,
+        "longitude" : -3.65149172790308
+	  }
+
+    },
+
+	{
+      "id" : "2050",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2050-museo-arqueologico-nacional",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo Arqueológico Nacional",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8fd8ef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2050-museo-arqueologico-nacional/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE SERRANO 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2050-museo-arqueologico-nacional/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.688418705931963 40.42327763947072)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2050-museo-arqueologico-nacional/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42327763947072,
+        "longitude" : -3.688418705931963
+	  }
+
+    },
+
+	{
+      "id" : "2072",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2072-museo-casa-moneda",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo Casa de la Moneda",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=12f8ef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2072-museo-casa-moneda/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE DOCTOR ESQUERDO 36"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2072-museo-casa-moneda/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6691502061733674 40.42259797372905)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2072-museo-casa-moneda/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42259797372905,
+        "longitude" : -3.6691502061733674
+	  }
+
+    },
+
+	{
+      "id" : "4112",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4112-museo-cerralbo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo Cerralbo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a4efb0c40971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4112-museo-cerralbo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE VENTURA RODRIGUEZ 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4112-museo-cerralbo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7146170388153497 40.42376732078657)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4112-museo-cerralbo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42376732078657,
+        "longitude" : -3.7146170388153497
+	  }
+
+    },
+
+	{
+      "id" : "10091450",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10091450-museo-emt",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OrganismosEmpresasMunicipales",
+      "title" : "Museo EMT",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d56ad05b2a255510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10091450-museo-emt/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "CALLE MAURICIO LEGENDRE 40"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10091450-museo-emt/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6831595451893273 40.480173612860305)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10091450-museo-emt/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.480173612860305,
+        "longitude" : -3.6831595451893273
+	  }
+
+    },
+
+	{
+      "id" : "10237457",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10237457-museo-felix-canada",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo Félix Cañada",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cb22820a52799510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10237457-museo-felix-canada/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE ALENZA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10237457-museo-felix-canada/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.700796192332983 40.442581673356834)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10237457-museo-felix-canada/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.442581673356834,
+        "longitude" : -3.700796192332983
+	  }
+
+    },
+
+	{
+      "id" : "2074",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2074-museo-geominero",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo Geominero",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ff0bef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2074-museo-geominero/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE RIOS ROSAS 23"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2074-museo-geominero/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699670468881422 40.442047952073665)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2074-museo-geominero/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.442047952073665,
+        "longitude" : -3.699670468881422
+	  }
+
+    },
+
+	{
+      "id" : "18176",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18176-museo-ico",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo ICO",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2886444a2951c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18176-museo-ico/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ZORRILLA 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18176-museo-ico/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6977346235068373 40.41675330128869)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18176-museo-ico/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41675330128869,
+        "longitude" : -3.6977346235068373
+	  }
+
+    },
+
+	{
+      "id" : "6019032",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6019032-museo-canos-peral-estacion-metro-opera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo Los Caños del Peral. Estación de Metro Ópera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=435950262d50f210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6019032-museo-canos-peral-estacion-metro-opera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "PLAZA ISABEL II 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6019032-museo-canos-peral-estacion-metro-opera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.709202070089538 40.41775560280743)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6019032-museo-canos-peral-estacion-metro-opera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41775560280743,
+        "longitude" : -3.709202070089538
+	  }
+
+    },
+
+	{
+      "id" : "2053",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2053-museo-lazaro-galdiano",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Museo Lázaro Galdiano",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7d1aef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2053-museo-lazaro-galdiano/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE SERRANO 122"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2053-museo-lazaro-galdiano/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6861980129207894 40.436750328725985)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2053-museo-lazaro-galdiano/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.436750328725985,
+        "longitude" : -3.6861980129207894
+	  }
+
+    },
+
+	{
+      "id" : "5349304",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5349304-museo-nacional-centro-arte-reina-sofia-mncars",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo Nacional Centro de Arte Reina Sofía (MNCARS)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=69d8275bad5a1210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5349304-museo-nacional-centro-arte-reina-sofia-mncars/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE SANTA ISABEL 52"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5349304-museo-nacional-centro-arte-reina-sofia-mncars/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6940316511856017 40.40854131574014)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5349304-museo-nacional-centro-arte-reina-sofia-mncars/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40854131574014,
+        "longitude" : -3.6940316511856017
+	  }
+
+    },
+
+	{
+      "id" : "2099",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2099-museo-nacional-thyssen-bornemisza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Museo Nacional Thyssen-Bornemisza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0b8079262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2099-museo-nacional-thyssen-bornemisza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "PASEO PRADO 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2099-museo-nacional-thyssen-bornemisza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.694744831131079 40.41600553697803)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2099-museo-nacional-thyssen-bornemisza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41600553697803,
+        "longitude" : -3.694744831131079
+	  }
+
+    },
+
+	{
+      "id" : "2057",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2057-museo-nacional-antropologia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo Nacional de Antropología",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=456079262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2057-museo-nacional-antropologia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALFONSO XII 68"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2057-museo-nacional-antropologia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.688862923660605 40.407887537677716)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2057-museo-nacional-antropologia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.407887537677716,
+        "longitude" : -3.688862923660605
+	  }
+
+    },
+
+	{
+      "id" : "2055",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2055-museo-nacional-artes-decorativas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Museo Nacional de Artes Decorativas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=287079262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2055-museo-nacional-artes-decorativas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE MONTALBAN 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2055-museo-nacional-artes-decorativas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.689754685481908 40.417891279015194)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2055-museo-nacional-artes-decorativas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.417891279015194,
+        "longitude" : -3.689754685481908
+	  }
+
+    },
+
+	{
+      "id" : "2056",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2056-museo-nacional-ciencias-naturales",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Museo Nacional de Ciencias Naturales",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8edbef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2056-museo-nacional-ciencias-naturales/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE JOSE GUTIERREZ ABASCAL 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2056-museo-nacional-ciencias-naturales/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.690220716379925 40.44042007613476)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2056-museo-nacional-ciencias-naturales/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44042007613476,
+        "longitude" : -3.690220716379925
+	  }
+
+    },
+
+	{
+      "id" : "2076",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2076-museo-naval",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo Naval",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a30cef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2076-museo-naval/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "PASEO PRADO 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2076-museo-naval/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.692768317427539 40.41751289873052)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2076-museo-naval/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41751289873052,
+        "longitude" : -3.692768317427539
+	  }
+
+    },
+
+	{
+      "id" : "2085",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2085-museo-postal-telegrafico",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo Postal y Telegráfico",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c82cef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2085-museo-postal-telegrafico/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28023",
+		"street-address" : "CALLE TAPIA DE CASARIEGO 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2085-museo-postal-telegrafico/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7690721403206724 40.467706026917405)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2085-museo-postal-telegrafico/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.467706026917405,
+        "longitude" : -3.7690721403206724
+	  }
+
+    },
+
+	{
+      "id" : "4997114",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4997114-museo-sorolla",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo Sorolla",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6dd05e93aad9c110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4997114-museo-sorolla/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "PASEO GENERAL MARTINEZ CAMPOS 37"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4997114-museo-sorolla/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6923288211390055 40.43557863874977)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4997114-museo-sorolla/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43557863874977,
+        "longitude" : -3.6923288211390055
+	  }
+
+    },
+
+	{
+      "id" : "2077",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2077-museo-taurino-plaza-ventas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo Taurino de la Plaza de las Ventas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=958cef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2077-museo-taurino-plaza-ventas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE ALCALA 237"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2077-museo-taurino-plaza-ventas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.662872780933851 40.43157110306013)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2077-museo-taurino-plaza-ventas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43157110306013,
+        "longitude" : -3.662872780933851
+	  }
+
+    },
+
+	{
+      "id" : "2101",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2101-museo-tiflologico",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo Tiflológico",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=baacef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2101-museo-tiflologico/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE LA CORUÑA 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2101-museo-tiflologico/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7001960485997545 40.45519790204094)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2101-museo-tiflologico/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45519790204094,
+        "longitude" : -3.7001960485997545
+	  }
+
+    },
+
+	{
+      "id" : "2068",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2068-museo-aeronautica-astronautica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo de Aeronáutica y Astronáutica",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=90aaef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2068-museo-aeronautica-astronautica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28024",
+		"street-address" : "AUTOVIA A-5 10.700 Km. 10,5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2068-museo-aeronautica-astronautica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.798200034372686 40.3733013700739)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2068-museo-aeronautica-astronautica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3733013700739,
+        "longitude" : -3.798200034372686
+	  }
+
+    },
+
+	{
+      "id" : "2091",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2091-museo-america",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo de América",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c929ef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2091-museo-america/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28040",
+		"street-address" : "AVENIDA REYES CATOLICOS 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2091-museo-america/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.72186494128936 40.43792950973577)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2091-museo-america/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43792950973577,
+        "longitude" : -3.72186494128936
+	  }
+
+    },
+
+	{
+      "id" : "83922",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/83922-museo-arte-contemporaneo-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo de Arte Contemporáneo de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=84a55c2cdc41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/83922-museo-arte-contemporaneo-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE CONDE DUQUE 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/83922-museo-arte-contemporaneo-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7106116887809817 40.42737760210632)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/83922-museo-arte-contemporaneo-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42737760210632,
+        "longitude" : -3.7106116887809817
+	  }
+
+    },
+
+	{
+      "id" : "2069",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2069-museo-artes-tradiciones-populares-centro-cultural-corrala",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo de Artes y Tradiciones Populares. Centro Cultural La Corrala",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5c39ef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2069-museo-artes-tradiciones-populares-centro-cultural-corrala/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE CARLOS ARNICHES 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2069-museo-artes-tradiciones-populares-centro-cultural-corrala/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.708330456274069 40.40882397197274)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2069-museo-artes-tradiciones-populares-centro-cultural-corrala/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40882397197274,
+        "longitude" : -3.708330456274069
+	  }
+
+    },
+
+	{
+      "id" : "2092",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2092-museo-astronomia-geodesia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo de Astronomía y Geodesia",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee49ef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2092-museo-astronomia-geodesia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28040",
+		"street-address" : "PLAZA CIENCIAS 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2092-museo-astronomia-geodesia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7262214898219117 40.44942472705852)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2092-museo-astronomia-geodesia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44942472705852,
+        "longitude" : -3.7262214898219117
+	  }
+
+    },
+
+	{
+      "id" : "5727435",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5727435-museo-bomberos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo de Bomberos",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9f0966a8bba49210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5727435-museo-bomberos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CALLE BOADA 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5727435-museo-bomberos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6539313207612207 40.39453171263195)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5727435-museo-bomberos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39453171263195,
+        "longitude" : -3.6539313207612207
+	  }
+
+    },
+
+	{
+      "id" : "2090",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2090-museo-calcografia-nacional",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo de Calcografía Nacional",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7169ef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2090-museo-calcografia-nacional/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALA 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2090-museo-calcografia-nacional/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.700667044636178 40.41764548040709)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2090-museo-calcografia-nacional/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41764548040709,
+        "longitude" : -3.700667044636178
+	  }
+
+    },
+
+	{
+      "id" : "2084",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2084-museo-cera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo de Cera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9689ef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2084-museo-cera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "PASEO RECOLETOS 41"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2084-museo-cera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6914362030084815 40.424403779665376)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2084-museo-cera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.424403779665376,
+        "longitude" : -3.6914362030084815
+	  }
+
+    },
+
+	{
+      "id" : "2071",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2071-museo-escultura-al-aire-libre-castellana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Museo de Escultura al Aire Libre de la Castellana",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eca9ef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2071-museo-escultura-al-aire-libre-castellana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PASEO CASTELLANA 40"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2071-museo-escultura-al-aire-libre-castellana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6876122680805956 40.433219398671156)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2071-museo-escultura-al-aire-libre-castellana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.433219398671156,
+        "longitude" : -3.6876122680805956
+	  }
+
+    },
+
+	{
+      "id" : "2054",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2054-museo-historia-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Museo de Historia de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8f3079262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2054-museo-historia-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE FUENCARRAL 78"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2054-museo-historia-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.700845660719608 40.42577054821346)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2054-museo-historia-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42577054821346,
+        "longitude" : -3.700845660719608
+	  }
+
+    },
+
+	{
+      "id" : "4545827",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4545827-museo-historia-comunidad-judia-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo de Historia de la Comunidad Judía de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8f2a4a659ee71110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4545827-museo-historia-comunidad-judia-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE BALMES 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4545827-museo-historia-comunidad-judia-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.700013620203689 40.43534317115623)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4545827-museo-historia-comunidad-judia-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43534317115623,
+        "longitude" : -3.700013620203689
+	  }
+
+    },
+
+	{
+      "id" : "2095",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2095-museo-mineralogia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo de Mineralogía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=255aef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2095-museo-mineralogia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28049",
+		"street-address" : "CARRETERA COLMENAR VIEJO KM.19000 Facultad de Ciencias (Departamento de Química Agrícola, Geología y Geoquímica: Módulo C-VI, planta 4)."
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2095-museo-mineralogia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : null
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2095-museo-mineralogia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : null,
+        "longitude" : null
+	  }
+
+    },
+
+	{
+      "id" : "2112",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2112-museo-san-isidro-origenes-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo de San Isidro. Los Orígenes de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7b7aef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2112-museo-san-isidro-origenes-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "PLAZA SAN ANDRES 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2112-museo-san-isidro-origenes-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7108161027466378 40.41207900253883)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2112-museo-san-isidro-origenes-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41207900253883,
+        "longitude" : -3.7108161027466378
+	  }
+
+    },
+
+	{
+      "id" : "85301",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/85301-museo-sanidad-higiene-publica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo de Sanidad e Higiene Pública",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3e755c2cdc41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/85301-museo-sanidad-higiene-publica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "AVENIDA MONFORTE DE LEMOS 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/85301-museo-sanidad-higiene-publica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6900603941123107 40.47546597881768)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/85301-museo-sanidad-higiene-publica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47546597881768,
+        "longitude" : -3.6900603941123107
+	  }
+
+    },
+
+	{
+      "id" : "4591873",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4591873-museo-biblioteca-nacional-espana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo de la Biblioteca Nacional de España",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=05920d3b4c503110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4591873-museo-biblioteca-nacional-espana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "PASEO RECOLETOS 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4591873-museo-biblioteca-nacional-espana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.69084423390357 40.423001908945956)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4591873-museo-biblioteca-nacional-espana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.423001908945956,
+        "longitude" : -3.69084423390357
+	  }
+
+    },
+
+	{
+      "id" : "4566286",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4566286-museo-catedral-almudena",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo de la Catedral de la Almudena",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=82cb8d0e78d22110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4566286-museo-catedral-almudena/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE BAILEN 10 Entrada por un costado de la entrada principal de la catedral"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4566286-museo-catedral-almudena/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7136931154460564 40.415538770017406)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4566286-museo-catedral-almudena/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.415538770017406,
+        "longitude" : -3.7136931154460564
+	  }
+
+    },
+
+	{
+      "id" : "2073",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2073-museo-farmacia-hispana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo de la Farmacia Hispana",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=58f9ef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2073-museo-farmacia-hispana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28040",
+		"street-address" : "PLAZA RAMON Y CAJAL Facultad de Farmacia"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2073-museo-farmacia-hispana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7262160043788155 40.4445328804645)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2073-museo-farmacia-hispana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4445328804645,
+        "longitude" : -3.7262160043788155
+	  }
+
+    },
+
+	{
+      "id" : "2107",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2107-museo-guardia-civil",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo de la Guardia Civil",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=003aef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2107-museo-guardia-civil/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE GUZMAN EL BUENO 110"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2107-museo-guardia-civil/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.712300118990835 40.44438523242585)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2107-museo-guardia-civil/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44438523242585,
+        "longitude" : -3.712300118990835
+	  }
+
+    },
+
+	{
+      "id" : "2114",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2114-museo-real-academia-bellas-artes-san-fernando",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Museo de la Real Academia de Bellas Artes de San Fernando",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=924aef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2114-museo-real-academia-bellas-artes-san-fernando/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALA 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2114-museo-real-academia-bellas-artes-san-fernando/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7006553517170633 40.41765456031193)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2114-museo-real-academia-bellas-artes-san-fernando/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41765456031193,
+        "longitude" : -3.7006553517170633
+	  }
+
+    },
+
+	{
+      "id" : "2066",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2066-museo-ferrocarril-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Museo del Ferrocarril de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=091c4291ae91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2066-museo-ferrocarril-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PASEO DELICIAS 61"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2066-museo-ferrocarril-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.693817192160563 40.400281290485566)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2066-museo-ferrocarril-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.400281290485566,
+        "longitude" : -3.693817192160563
+	  }
+
+    },
+
+	{
+      "id" : "2058",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2058-museo-prado",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo del Prado",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=060079262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2058-museo-prado/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE RUIZ DE ALARCON 23"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2058-museo-prado/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.691325445518223 40.41358458131178)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2058-museo-prado/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41358458131178,
+        "longitude" : -3.691325445518223
+	  }
+
+    },
+
+	{
+      "id" : "2086",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2086-museo-reloj-grassy",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo del Reloj Grassy",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=daeaef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2086-museo-reloj-grassy/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2086-museo-reloj-grassy/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.69806583195521 40.41914770731552)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2086-museo-reloj-grassy/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41914770731552,
+        "longitude" : -3.69806583195521
+	  }
+
+    },
+
+	{
+      "id" : "2059",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2059-museo-romanticismo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo del Romanticismo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=706cef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2059-museo-romanticismo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE SAN MATEO 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2059-museo-romanticismo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6987835425963063 40.42585510296794)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2059-museo-romanticismo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42585510296794,
+        "longitude" : -3.6987835425963063
+	  }
+
+    },
+
+	{
+      "id" : "6337393",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6337393-museo-seguro-fundacion-mapfre",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo del Seguro. Fundación Mapfre",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=479b95f8c72d5310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6337393-museo-seguro-fundacion-mapfre/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE BARBARA DE BRAGANZA 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6337393-museo-seguro-fundacion-mapfre/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6922850587679505 40.42326356132727)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6337393-museo-seguro-fundacion-mapfre/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42326356132727,
+        "longitude" : -3.6922850587679505
+	  }
+
+    },
+
+	{
+      "id" : "2115",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2115-museo-traje-centro-investigacion-patrimonio-etnologico-cipe",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Museo del Traje. Centro de Investigación del Patrimonio Etnológico (CIPE)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=053c4291ae91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2115-museo-traje-centro-investigacion-patrimonio-etnologico-cipe/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28040",
+		"street-address" : "AVENIDA JUAN DE HERRERA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2115-museo-traje-centro-investigacion-patrimonio-etnologico-cipe/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7278378564088275 40.439657822278555)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2115-museo-traje-centro-investigacion-patrimonio-etnologico-cipe/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.439657822278555,
+        "longitude" : -3.7278378564088275
+	  }
+
+    },
+
+	{
+      "id" : "2062",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2062-palacio-real",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Palacio Real",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=47ddef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2062-palacio-real/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE BAILEN"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2062-palacio-real/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.712699107286406 40.42075212551193)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2062-palacio-real/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42075212551193,
+        "longitude" : -3.712699107286406
+	  }
+
+    },
+
+	{
+      "id" : "2061",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2061-palacio-real-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Palacio Real de El Pardo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9f9def4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2061-palacio-real-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28048",
+		"street-address" : "CALLE MANUEL ALONSO 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2061-palacio-real-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7762390614462853 40.520522342970146)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2061-palacio-real-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.520522342970146,
+        "longitude" : -3.7762390614462853
+	  }
+
+    },
+
+	{
+      "id" : "2063",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2063-palacio-liria",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Palacio de Liria",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=22bdef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2063-palacio-liria/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE PRINCESA 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2063-palacio-liria/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7125979731032404 40.42680681645222)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2063-palacio-liria/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42680681645222,
+        "longitude" : -3.7125979731032404
+	  }
+
+    },
+
+	{
+      "id" : "2079",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2079-panteon-hombres-ilustres",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Panteón de Hombres Ilustres",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=361cef4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2079-panteon-hombres-ilustres/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE JULIAN GAYARRE 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2079-panteon-hombres-ilustres/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.683413041846525 40.40622617519116)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2079-panteon-hombres-ilustres/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40622617519116,
+        "longitude" : -3.683413041846525
+	  }
+
+    },
+
+	{
+      "id" : "3362",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3362-parroquia-santa-cruz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Parroquia Santa Cruz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=40e0b069a541f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3362-parroquia-santa-cruz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE ATOCHA 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3362-parroquia-santa-cruz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.705255882048698 40.414608558946085)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3362-parroquia-santa-cruz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.414608558946085,
+        "longitude" : -3.705255882048698
+	  }
+
+    },
+
+	{
+      "id" : "2213",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2213-planetario-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Planetarios",
+      "title" : "Planetario de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c9c5b069a541f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2213-planetario-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "AVENIDA PLANETARIO 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2213-planetario-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.684956957448299 40.392279999540044)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2213-planetario-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.392279999540044,
+        "longitude" : -3.684956957448299
+	  }
+
+    },
+
+	{
+      "id" : "3359",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3359-real-basilica-san-francisco-grande",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Real Basílica San Francisco el Grande",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ef8d0713fb71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3359-real-basilica-san-francisco-grande/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE SAN BUENAVENTURA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3359-real-basilica-san-francisco-grande/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.714503845728281 40.41084005024222)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3359-real-basilica-san-francisco-grande/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41084005024222,
+        "longitude" : -3.714503845728281
+	  }
+
+    },
+
+	{
+      "id" : "2087",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2087-real-fabrica-tapices",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Real Fábrica de Tapices",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=53cbff632081c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2087-real-fabrica-tapices/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE FUENTERRABIA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2087-real-fabrica-tapices/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.682515969574079 40.406087329011655)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2087-real-fabrica-tapices/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.406087329011655,
+        "longitude" : -3.682515969574079
+	  }
+
+    },
+
+	{
+      "id" : "4707297",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4707297-real-monasterio-santa-isabel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Real Monasterio de Santa Isabel",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=545b544a249c6110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4707297-real-monasterio-santa-isabel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE SANTA ISABEL 48"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4707297-real-monasterio-santa-isabel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6994547941964946 40.41213027498252)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4707297-real-monasterio-santa-isabel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41213027498252,
+        "longitude" : -3.6994547941964946
+	  }
+
+    },
+
+	{
+      "id" : "3349",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3349-real-monasterio-encarnacion",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Real Monasterio de la Encarnación",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=72ad0713fb71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3349-real-monasterio-encarnacion/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "PLAZA ENCARNACION 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3349-real-monasterio-encarnacion/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.711567962866152 40.41967800877382)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3349-real-monasterio-encarnacion/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41967800877382,
+        "longitude" : -3.711567962866152
+	  }
+
+    },
+
+	{
+      "id" : "20605",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/20605-templo-debod",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Templo de Debod",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=13b432df1d51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/20605-templo-debod/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE FERRAZ 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/20605-templo-debod/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.716531855540272 40.42425096551599)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/20605-templo-debod/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42425096551599,
+        "longitude" : -3.716531855540272
+	  }
+
+    },
+
+	{
+      "id" : "7685664",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7685664-the-robot-museum-museo-robot",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "The Robot Museum (Museo del Robot)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e0b7b8dc8f719410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7685664-the-robot-museum-museo-robot/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE ALBERTO AGUILERA 1 PLANTA BAJA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7685664-the-robot-museum-museo-robot/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7068731815207014 40.42949061464909)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7685664-the-robot-museum-museo-robot/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42949061464909,
+        "longitude" : -3.7068731815207014
+	  }
+
+    },
+
+	{
+      "id" : "7071384",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7071384-yacimiento-paleontologico-estacion-metro-carpetana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Museos",
+      "title" : "Yacimiento paleontológico. Estación de Metro Carpetana",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=05fbb57fd3c70410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7071384-yacimiento-paleontologico-estacion-metro-carpetana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE VIA CARPETANA 328"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7071384-yacimiento-paleontologico-estacion-metro-carpetana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7428839286586184 40.39150793405899)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7071384-yacimiento-paleontologico-estacion-metro-carpetana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39150793405899,
+        "longitude" : -3.7428839286586184
+	  }
+
+    }
+  ]
+}

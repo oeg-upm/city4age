@@ -1,0 +1,56 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "6803",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6803-agencia-estatal-consejo-superior-investigaciones-cientificas-csic",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosInstitutosInvestigacion",
+      "title" : "Agencia Estatal Consejo Superior de Investigaciones Científicas (CSIC)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ec7f42be9971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6803-agencia-estatal-consejo-superior-investigaciones-cientificas-csic/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE SERRANO 117"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6803-agencia-estatal-consejo-superior-investigaciones-cientificas-csic/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.687752173017911 40.44116451864995)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6803-agencia-estatal-consejo-superior-investigaciones-cientificas-csic/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44116451864995,
+        "longitude" : -3.687752173017911
+	  }
+
+    }
+  ]
+}

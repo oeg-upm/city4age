@@ -1,0 +1,488 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "5900261",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5900261-comisaria-policia-oficina-tramitacion-dni-pasaporte-usera-villaverde-2",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasDNIPasaporte",
+      "title" : "Comisaría de Policía y Oficina de Tramitación del DNI y Pasaporte (Usera-Villaverde 2)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=acd07b86c030d210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5900261-comisaria-policia-oficina-tramitacion-dni-pasaporte-usera-villaverde-2/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE PRIMITIVA GA&Ntilde;AN 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5900261-comisaria-policia-oficina-tramitacion-dni-pasaporte-usera-villaverde-2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7092728771934276 40.38070988121351)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5900261-comisaria-policia-oficina-tramitacion-dni-pasaporte-usera-villaverde-2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38070988121351,
+        "longitude" : -3.7092728771934276
+	  }
+
+    },
+	{
+      "id" : "12336",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12336-comisaria-policia-oficina-tramitacion-dni-pasaporte-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasDNIPasaporte",
+      "title" : "Comisaría de Policía y Oficina de Tramitación DNI y Pasaporte (Carabanchel)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d59766051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12336-comisaria-policia-oficina-tramitacion-dni-pasaporte-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE PADRE AMIGO 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12336-comisaria-policia-oficina-tramitacion-dni-pasaporte-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.739998239377629 40.37976058045636)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12336-comisaria-policia-oficina-tramitacion-dni-pasaporte-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37976058045636,
+        "longitude" : -3.739998239377629
+	  }
+
+    },
+	{
+      "id" : "12331",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12331-comisaria-policia-oficina-tramitacion-dni-pasaporte-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasDNIPasaporte",
+      "title" : "Comisaría de Policía y Oficina de Tramitación DNI y Pasaporte (Chamartín)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bfb766051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12331-comisaria-policia-oficina-tramitacion-dni-pasaporte-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28016",
+		"street-address" : "AVENIDA PIO XII 48"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12331-comisaria-policia-oficina-tramitacion-dni-pasaporte-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.672973959296602 40.469152346150686)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12331-comisaria-policia-oficina-tramitacion-dni-pasaporte-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.469152346150686,
+        "longitude" : -3.672973959296602
+	  }
+
+    },
+	{
+      "id" : "12328",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12328-comisaria-policia-oficina-tramitacion-dni-pasaporte-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasDNIPasaporte",
+      "title" : "Comisaría de Policía y Oficina de Tramitación DNI y Pasaporte (Ciudad Lineal)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=99e766051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12328-comisaria-policia-oficina-tramitacion-dni-pasaporte-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "TRAVESIA VIRGEN DE LA ROCA 25"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12328-comisaria-policia-oficina-tramitacion-dni-pasaporte-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6564120450275017 40.4352025709564)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12328-comisaria-policia-oficina-tramitacion-dni-pasaporte-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4352025709564,
+        "longitude" : -3.6564120450275017
+	  }
+
+    },
+	{
+      "id" : "4646041",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4646041-comisaria-policia-oficina-tramitacion-dni-pasaporte-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasDNIPasaporte",
+      "title" : "Comisaría de Policía y Oficina de Tramitación DNI y Pasaporte (Fuencarral - El Pardo)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9106df5938815110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4646041-comisaria-policia-oficina-tramitacion-dni-pasaporte-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "CALLE GINZO DE LIMIA 35"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4646041-comisaria-policia-oficina-tramitacion-dni-pasaporte-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.704236657155663 40.47847053989486)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4646041-comisaria-policia-oficina-tramitacion-dni-pasaporte-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47847053989486,
+        "longitude" : -3.704236657155663
+	  }
+
+    },
+	{
+      "id" : "43979",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/43979-comisaria-policia-oficina-tramitacion-dni-pasaporte-hortaleza-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasDNIPasaporte",
+      "title" : "Comisaría de Policía y Oficina de Tramitación DNI y Pasaporte (Hortaleza - Barajas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e3887589f451c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/43979-comisaria-policia-oficina-tramitacion-dni-pasaporte-hortaleza-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE JAVIER DEL QUINTO "
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/43979-comisaria-policia-oficina-tramitacion-dni-pasaporte-hortaleza-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.642345049181705 40.46850680550201)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/43979-comisaria-policia-oficina-tramitacion-dni-pasaporte-hortaleza-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46850680550201,
+        "longitude" : -3.642345049181705
+	  }
+
+    },
+	{
+      "id" : "12343",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12343-comisaria-policia-oficina-tramitacion-dni-pasaporte-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasDNIPasaporte",
+      "title" : "Comisaría de Policía y Oficina de Tramitación DNI y Pasaporte (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8318efeac361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12343-comisaria-policia-oficina-tramitacion-dni-pasaporte-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "AVENIDA POBLADOS 51"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12343-comisaria-policia-oficina-tramitacion-dni-pasaporte-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.757602010619672 40.3821961594519)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12343-comisaria-policia-oficina-tramitacion-dni-pasaporte-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3821961594519,
+        "longitude" : -3.757602010619672
+	  }
+
+    },
+	{
+      "id" : "12327",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12327-comisaria-policia-oficina-tramitacion-dni-pasaporte-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasDNIPasaporte",
+      "title" : "Comisaría de Policía y Oficina de Tramitación DNI y Pasaporte (San Blas - Canillejas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2198efeac361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12327-comisaria-policia-oficina-tramitacion-dni-pasaporte-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE ALBERIQUE 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12327-comisaria-policia-oficina-tramitacion-dni-pasaporte-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.615917204538452 40.429236197826675)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12327-comisaria-policia-oficina-tramitacion-dni-pasaporte-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.429236197826675,
+        "longitude" : -3.615917204538452
+	  }
+
+    },
+	{
+      "id" : "4648324",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4648324-comisaria-policia-oficina-tramitacion-dni-pasaporte-villa-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasDNIPasaporte",
+      "title" : "Comisaría de Policía y Oficina de Tramitación DNI y Pasaporte (Villa de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e12ab40380725110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4648324-comisaria-policia-oficina-tramitacion-dni-pasaporte-villa-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "PLAZA REGIONES 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4648324-comisaria-policia-oficina-tramitacion-dni-pasaporte-villa-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6705986546441793 40.37969736641701)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4648324-comisaria-policia-oficina-tramitacion-dni-pasaporte-villa-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37969736641701,
+        "longitude" : -3.6705986546441793
+	  }
+
+    },
+	{
+      "id" : "36083",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36083-oficina-tramitacion-dni-pasaporte-usera-villaverde-1",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasDNIPasaporte",
+      "title" : "Oficina de Tramitación de DNI y Pasaporte (Usera-Villaverde 1)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5958444a2951c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36083-oficina-tramitacion-dni-pasaporte-usera-villaverde-1/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "PASEO GIGANTES Y CABEZUDOS 30"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36083-oficina-tramitacion-dni-pasaporte-usera-villaverde-1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6938620027962017 40.35756885956982)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36083-oficina-tramitacion-dni-pasaporte-usera-villaverde-1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.35756885956982,
+        "longitude" : -3.6938620027962017
+	  }
+
+    },
+	{
+      "id" : "4871662",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4871662-oficina-tramitacion-dni-pasaporte-arganzuela-mediodia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasDNIPasaporte",
+      "title" : "Oficina de Tramitación del DNI y Pasaporte (Arganzuela - Mediodia)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0d8117fb23919110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4871662-oficina-tramitacion-dni-pasaporte-arganzuela-mediodia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "PASEO VIRGEN DEL PUERTO 47"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4871662-oficina-tramitacion-dni-pasaporte-arganzuela-mediodia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7210257529006454 40.40903378877386)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4871662-oficina-tramitacion-dni-pasaporte-arganzuela-mediodia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40903378877386,
+        "longitude" : -3.7210257529006454
+	  }
+
+    },
+	{
+      "id" : "4648581",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4648581-oficina-tramitacion-dni-pasaporte-centro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasDNIPasaporte",
+      "title" : "Oficina de Tramitación del DNI y Pasaporte (Centro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e6f2ca7c89725110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4648581-oficina-tramitacion-dni-pasaporte-centro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE LUNA 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4648581-oficina-tramitacion-dni-pasaporte-centro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7068972211928237 40.422778742362766)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4648581-oficina-tramitacion-dni-pasaporte-centro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.422778742362766,
+        "longitude" : -3.7068972211928237
+	  }
+
+    },
+	{
+      "id" : "13060",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13060-oficina-tramitacion-dni-pasaporte-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasDNIPasaporte",
+      "title" : "Oficina de Tramitación del DNI y Pasaporte (Moratalaz)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=35e192355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13060-oficina-tramitacion-dni-pasaporte-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "CALLE DOCE DE OCTUBRE 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13060-oficina-tramitacion-dni-pasaporte-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.676814421836066 40.415742520403235)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13060-oficina-tramitacion-dni-pasaporte-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.415742520403235,
+        "longitude" : -3.676814421836066
+	  }
+
+    },
+	{
+      "id" : "13062",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13062-oficina-tramitacion-dni-pasaporte-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasDNIPasaporte",
+      "title" : "Oficina de Tramitación del DNI y Pasaporte (Puente de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2af192355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13062-oficina-tramitacion-dni-pasaporte-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE SIERRA CARBONERA 35"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13062-oficina-tramitacion-dni-pasaporte-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.664051929164085 40.39202356132293)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13062-oficina-tramitacion-dni-pasaporte-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39202356132293,
+        "longitude" : -3.664051929164085
+	  }
+
+    },
+	{
+      "id" : "6803890",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6803890-oficina-tramitacion-dni-pasaporte-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasDNIPasaporte",
+      "title" : "Oficina de Tramitación del DNI y Pasaporte (Retiro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=18a520d2828ac310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6803890-oficina-tramitacion-dni-pasaporte-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE MORATIN 43"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6803890-oficina-tramitacion-dni-pasaporte-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6948873325988494 40.412671332409396)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6803890-oficina-tramitacion-dni-pasaporte-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.412671332409396,
+        "longitude" : -3.6948873325988494
+	  }
+
+    },
+	{
+      "id" : "57008",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/57008-oficina-tramitacion-dni-pasaporte-santa-engracia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasDNIPasaporte",
+      "title" : "Oficina de Tramitación del DNI y Pasaporte (Santa Engracia)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b7c48ed67151c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/57008-oficina-tramitacion-dni-pasaporte-santa-engracia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE SANTA ENGRACIA 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/57008-oficina-tramitacion-dni-pasaporte-santa-engracia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6963617925460417 40.42993278699404)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/57008-oficina-tramitacion-dni-pasaporte-santa-engracia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42993278699404,
+        "longitude" : -3.6963617925460417
+	  }
+
+    },
+	{
+      "id" : "4812304",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4812304-oficina-tramitacion-dni-pasaporte-tetuan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasDNIPasaporte",
+      "title" : "Oficina de Tramitación del DNI y Pasaporte (Tetuán)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b27bae717e048110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4812304-oficina-tramitacion-dni-pasaporte-tetuan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "CALLE SANTA VALENTINA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4812304-oficina-tramitacion-dni-pasaporte-tetuan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6974103657923756 40.465232725997325)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4812304-oficina-tramitacion-dni-pasaporte-tetuan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.465232725997325,
+        "longitude" : -3.6974103657923756
+	  }
+
+    }
+  ]
+}

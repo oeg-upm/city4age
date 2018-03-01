@@ -1,0 +1,1622 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "5666239",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5666239-centro-adolescentes-jovenes-aspa-n-1",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosAdolescentesJovenes",
+      "title" : "Centro de Adolescentes y Jóvenes ASPA Nº 1",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a60df44795448210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5666239-centro-adolescentes-jovenes-aspa-n-1/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE CASTILLA 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5666239-centro-adolescentes-jovenes-aspa-n-1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7046559971852204 40.45312576018934)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5666239-centro-adolescentes-jovenes-aspa-n-1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45312576018934,
+        "longitude" : -3.7046559971852204
+	  }
+
+    },
+	{
+      "id" : "5685956",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5685956-centro-adolescentes-jovenes-aspa-n-2",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosAdolescentesJovenes",
+      "title" : "Centro de Adolescentes y Jóvenes ASPA Nº 2",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=12bce7db0d598210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5685956-centro-adolescentes-jovenes-aspa-n-2/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE BUITRAGO DE LOZOYA 21 CENTRO DE SERVICIOS SOCIALES DE FUENCARRAL"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5685956-centro-adolescentes-jovenes-aspa-n-2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.63373405120989 40.46010851897054)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5685956-centro-adolescentes-jovenes-aspa-n-2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46010851897054,
+        "longitude" : -3.63373405120989
+	  }
+
+    },
+	{
+      "id" : "5685966",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5685966-centro-adolescentes-jovenes-aspa-n-3",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosAdolescentesJovenes",
+      "title" : "Centro de Adolescentes y Jóvenes ASPA Nº 3",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=858fe7db0d598210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5685966-centro-adolescentes-jovenes-aspa-n-3/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "PASEO ALBERTO PALACIOS 13 ESQUINA PASEO DE LAS MORERAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5685966-centro-adolescentes-jovenes-aspa-n-3/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.710727398045707 40.34601035588372)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5685966-centro-adolescentes-jovenes-aspa-n-3/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.34601035588372,
+        "longitude" : -3.710727398045707
+	  }
+
+    },
+	{
+      "id" : "5686562",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5686562-centro-adolescentes-jovenes-aspa-n-4",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosAdolescentesJovenes",
+      "title" : "Centro de Adolescentes y Jóvenes ASPA Nº 4",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2bedb9aa16698210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5686562-centro-adolescentes-jovenes-aspa-n-4/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28054",
+		"street-address" : "CALLE PATRIMONIO DE LA HUMANIDAD 37 C/V PALAU DE LA MÚSICA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5686562-centro-adolescentes-jovenes-aspa-n-4/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7635483773274845 40.36210281029443)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5686562-centro-adolescentes-jovenes-aspa-n-4/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.36210281029443,
+        "longitude" : -3.7635483773274845
+	  }
+
+    },
+	{
+      "id" : "8278630",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8278630-centro-adolescentes-jovenes-aspa-n-5-canada-real",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosAdolescentesJovenes",
+      "title" : "Centro de Adolescentes y Jóvenes ASPA Nº 5 - CAÑADA REAL",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fa3c53c6862d0510VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8278630-centro-adolescentes-jovenes-aspa-n-5-canada-real/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28051",
+		"street-address" : "CARRETERA VERTEDERO MUNICIPAL VALDEMINGOMEZ 157"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8278630-centro-adolescentes-jovenes-aspa-n-5-canada-real/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5775721264139655 40.3415591020283)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8278630-centro-adolescentes-jovenes-aspa-n-5-canada-real/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3415591020283,
+        "longitude" : -3.5775721264139655
+	  }
+
+    },
+	{
+      "id" : "8278615",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8278615-centro-adolescentes-jovenes-aspa-n-5-sede-1",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosAdolescentesJovenes",
+      "title" : "Centro de Adolescentes y Jóvenes ASPA Nº 5 - Sede 1",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a0c4ee03f52d0510VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8278615-centro-adolescentes-jovenes-aspa-n-5-sede-1/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "CALLE VILLAJIMENA 73"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8278615-centro-adolescentes-jovenes-aspa-n-5-sede-1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6071458934505327 40.407411477525464)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8278615-centro-adolescentes-jovenes-aspa-n-5-sede-1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.407411477525464,
+        "longitude" : -3.6071458934505327
+	  }
+
+    },
+	{
+      "id" : "10616021",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10616021-centro-adolescentes-jovenes-aspa-n-5-sede-2",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosAdolescentesJovenes",
+      "title" : "Centro de Adolescentes y Jóvenes ASPA Nº 5 - Sede 2",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=575a96a69d471610VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10616021-centro-adolescentes-jovenes-aspa-n-5-sede-2/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "CALLE FUENTE DE SAN PEDRO 6 Anexo al CEIP Alfonso X"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10616021-centro-adolescentes-jovenes-aspa-n-5-sede-2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.603718607231581 40.40321927875762)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10616021-centro-adolescentes-jovenes-aspa-n-5-sede-2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40321927875762,
+        "longitude" : -3.603718607231581
+	  }
+
+    },
+	{
+      "id" : "10616645",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10616645-centro-adolescentes-jovenes-aspa-n-6",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosAdolescentesJovenes",
+      "title" : "Centro de Adolescentes y Jóvenes ASPA Nº 6",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5ae963a3bb571610VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10616645-centro-adolescentes-jovenes-aspa-n-6/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "AVENIDA MENENDEZ PELAYO 38"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10616645-centro-adolescentes-jovenes-aspa-n-6/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6805994471990275 40.40508945108821)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10616645-centro-adolescentes-jovenes-aspa-n-6/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40508945108821,
+        "longitude" : -3.6805994471990275
+	  }
+
+    },
+	{
+      "id" : "10617464",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10617464-centro-adolescentes-jovenes-aspa-n-7",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosAdolescentesJovenes",
+      "title" : "Centro de Adolescentes y Jóvenes ASPA Nº 7",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=837963c08ba71610VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10617464-centro-adolescentes-jovenes-aspa-n-7/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "CALLE BUITRAGO DEL LOZOYA 21 CENTRO DE SERVICIOS SOCIALES DE FUENCARRAL"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10617464-centro-adolescentes-jovenes-aspa-n-7/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.717348997790374 40.471650685886715)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10617464-centro-adolescentes-jovenes-aspa-n-7/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.471650685886715,
+        "longitude" : -3.717348997790374
+	  }
+
+    },
+	{
+      "id" : "161534",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161534-centro-apoyo-familias-caf-1",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionFamilia",
+      "title" : "Centro de Apoyo a las Familias CAF 1",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7f61ba61e681c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161534-centro-apoyo-familias-caf-1/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE HERMANOS ÁLVAREZ QUINTERO 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161534-centro-apoyo-familias-caf-1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.696647094545171 40.43358873095472)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161534-centro-apoyo-familias-caf-1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43358873095472,
+        "longitude" : -3.696647094545171
+	  }
+
+    },
+	{
+      "id" : "161541",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161541-centro-apoyo-familias-caf-2",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionFamilia",
+      "title" : "Centro de Apoyo a las Familias CAF 2",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c591ba61e681c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161541-centro-apoyo-familias-caf-2/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE FRANCISCO MOREJON 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161541-centro-apoyo-familias-caf-2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6233864042484667 40.45931333028378)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161541-centro-apoyo-familias-caf-2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45931333028378,
+        "longitude" : -3.6233864042484667
+	  }
+
+    },
+	{
+      "id" : "161546",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161546-centro-apoyo-familias-caf-3",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionFamilia",
+      "title" : "Centro de Apoyo a las Familias CAF 3",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1cb1ba61e681c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161546-centro-apoyo-familias-caf-3/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "AVENIDA RAFAELA YBARRA 41"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161546-centro-apoyo-familias-caf-3/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7107515747822353 40.38241253009179)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161546-centro-apoyo-familias-caf-3/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38241253009179,
+        "longitude" : -3.7107515747822353
+	  }
+
+    },
+	{
+      "id" : "168493",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/168493-centro-apoyo-familias-caf-4",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionFamilia",
+      "title" : "Centro de Apoyo a las Familias CAF 4",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=98a4085f5181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/168493-centro-apoyo-familias-caf-4/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE CONDE RODRIGUEZ SAN PEDRO 59"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/168493-centro-apoyo-familias-caf-4/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6702830279075456 40.38351004859704)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/168493-centro-apoyo-familias-caf-4/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38351004859704,
+        "longitude" : -3.6702830279075456
+	  }
+
+    },
+	{
+      "id" : "174539",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174539-centro-apoyo-familias-caf-5",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionFamilia",
+      "title" : "Centro de Apoyo a las Familias CAF 5",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e93e14c4d661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174539-centro-apoyo-familias-caf-5/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE FUENTE CARRANTONA 12 PLANTA BAJO"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174539-centro-apoyo-familias-caf-5/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.63629245358635 40.3995851224103)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174539-centro-apoyo-familias-caf-5/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3995851224103,
+        "longitude" : -3.63629245358635
+	  }
+
+    },
+	{
+      "id" : "174545",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174545-centro-apoyo-familias-caf-6",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionFamilia",
+      "title" : "Centro de Apoyo a las Familias CAF 6",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=306e14c4d661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174545-centro-apoyo-familias-caf-6/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "CALLE BUITRAGO DEL LOZOYA 22"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174545-centro-apoyo-familias-caf-6/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.716607833008478 40.47248462688415)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174545-centro-apoyo-familias-caf-6/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47248462688415,
+        "longitude" : -3.716607833008478
+	  }
+
+    },
+	{
+      "id" : "5563009",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5563009-centro-apoyo-familias-caf-7",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionFamilia",
+      "title" : "Centro de Apoyo a las Familias CAF 7",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=50eafd6c2ce86210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5563009-centro-apoyo-familias-caf-7/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE FUERTE DE NAVIDAD 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5563009-centro-apoyo-familias-caf-7/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7657241589764547 40.380566072889415)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5563009-centro-apoyo-familias-caf-7/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.380566072889415,
+        "longitude" : -3.7657241589764547
+	  }
+
+    },
+	{
+      "id" : "11238",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11238-centro-atencion-infancia-cai-1-centro-arganzuela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionInfancia",
+      "title" : "Centro de Atención a la Infancia CAI 1 Centro / Arganzuela",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e9181eb5f51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11238-centro-atencion-infancia-cai-1-centro-arganzuela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE PALOMA 23"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11238-centro-atencion-infancia-cai-1-centro-arganzuela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.711856501850917 40.407910420186084)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11238-centro-atencion-infancia-cai-1-centro-arganzuela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.407910420186084,
+        "longitude" : -3.711856501850917
+	  }
+
+    },
+	{
+      "id" : "10201656",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10201656-centro-atencion-infancia-cai-10-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionInfancia",
+      "title" : "Centro de Atención a la Infancia CAI 10 Villaverde",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c9239eb370ba8510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10201656-centro-atencion-infancia-cai-10-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE VILLALONSO 12 Centro Comunitario Villalonso"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10201656-centro-atencion-infancia-cai-10-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7090762235373784 40.349584576163586)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10201656-centro-atencion-infancia-cai-10-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.349584576163586,
+        "longitude" : -3.7090762235373784
+	  }
+
+    },
+	{
+      "id" : "10580290",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10580290-centro-atencion-infancia-cai-11-san-blas-canillejas-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionInfancia",
+      "title" : "Centro de Atención a la Infancia CAI 11 San Blas-Canillejas / Barajas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=78d1e94e1c870610VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10580290-centro-atencion-infancia-cai-11-san-blas-canillejas-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE LONGARES 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10580290-centro-atencion-infancia-cai-11-san-blas-canillejas-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.609319813351066 40.4310459405363)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10580290-centro-atencion-infancia-cai-11-san-blas-canillejas-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4310459405363,
+        "longitude" : -3.609319813351066
+	  }
+
+    },
+	{
+      "id" : "10580486",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10580486-centro-atencion-infancia-cai-12-retiro-salamanca-chamberi",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionInfancia",
+      "title" : "Centro de Atención a la Infancia CAI 12 Retiro / Salamanca / Chamberí",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ad18f2fb70970610VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10580486-centro-atencion-infancia-cai-12-retiro-salamanca-chamberi/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE VALLEHERMOSO 84 PLANTA BAJA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10580486-centro-atencion-infancia-cai-12-retiro-salamanca-chamberi/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7081914160378933 40.43827534543053)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10580486-centro-atencion-infancia-cai-12-retiro-salamanca-chamberi/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43827534543053,
+        "longitude" : -3.7081914160378933
+	  }
+
+    },
+	{
+      "id" : "11240",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11240-centro-atencion-infancia-cai-2-hortaleza-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionInfancia",
+      "title" : "Centro de Atención a la Infancia CAI 2 Hortaleza / Ciudad Lineal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=54c181eb5f51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11240-centro-atencion-infancia-cai-2-hortaleza-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE FRANCISCO MOREJON 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11240-centro-atencion-infancia-cai-2-hortaleza-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6230222100939606 40.45946844685338)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11240-centro-atencion-infancia-cai-2-hortaleza-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45946844685338,
+        "longitude" : -3.6230222100939606
+	  }
+
+    },
+	{
+      "id" : "5948219",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5948219-centro-atencion-infancia-cai-2-san-blas-canillejas-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionInfancia",
+      "title" : "Centro de Atención a la Infancia CAI 2 San Blas-Canillejas / Barajas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c90c4c8c750fd210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5948219-centro-atencion-infancia-cai-2-san-blas-canillejas-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE TORRE ARIAS 2 Centro de Servicios Sociales Torre Arias"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5948219-centro-atencion-infancia-cai-2-san-blas-canillejas-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6124519330001954 40.44620961485589)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5948219-centro-atencion-infancia-cai-2-san-blas-canillejas-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44620961485589,
+        "longitude" : -3.6124519330001954
+	  }
+
+    },
+	{
+      "id" : "11241",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11241-centro-atencion-infancia-cai-3-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionInfancia",
+      "title" : "Centro de Atención a la Infancia CAI 3 Usera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aae181eb5f51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11241-centro-atencion-infancia-cai-3-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE RICARDO BELTRAN Y ROZPIDE 33"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11241-centro-atencion-infancia-cai-3-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7178407050252598 40.379909257854415)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11241-centro-atencion-infancia-cai-3-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.379909257854415,
+        "longitude" : -3.7178407050252598
+	  }
+
+    },
+	{
+      "id" : "11239",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11239-centro-atencion-infancia-cai-4-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionInfancia",
+      "title" : "Centro de Atención a la Infancia CAI 4 Puente de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f01281eb5f51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11239-centro-atencion-infancia-cai-4-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "CALLE LUIS BUÑUEL 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11239-centro-atencion-infancia-cai-4-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.643747239178515 40.38674193188329)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11239-centro-atencion-infancia-cai-4-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38674193188329,
+        "longitude" : -3.643747239178515
+	  }
+
+    },
+	{
+      "id" : "5981440",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981440-centro-atencion-infancia-cai-4-villa-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionInfancia",
+      "title" : "Centro de Atención a la Infancia CAI 4 Villa de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=91f4c2164ea7e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981440-centro-atencion-infancia-cai-4-villa-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE FUENTIDUEÑA 16 Centro Comunitario Villa de Vallecas"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981440-centro-atencion-infancia-cai-4-villa-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6219089216132527 40.3706360093767)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981440-centro-atencion-infancia-cai-4-villa-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3706360093767,
+        "longitude" : -3.6219089216132527
+	  }
+
+    },
+	{
+      "id" : "34996",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/34996-centro-atencion-infancia-cai-5-tetuan-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionInfancia",
+      "title" : "Centro de Atención a la Infancia CAI 5 Tetuán / Chamartín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b5e6b3e42751c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/34996-centro-atencion-infancia-cai-5-tetuan-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "CALLE VIÑA VIRGEN 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/34996-centro-atencion-infancia-cai-5-tetuan-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6940951975368956 40.47318957937898)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/34996-centro-atencion-infancia-cai-5-tetuan-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47318957937898,
+        "longitude" : -3.6940951975368956
+	  }
+
+    },
+	{
+      "id" : "145005",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/145005-centro-atencion-infancia-cai-6-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionInfancia",
+      "title" : "Centro de Atención a la Infancia CAI 6 Latina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=207c654d9d91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/145005-centro-atencion-infancia-cai-6-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "CALLE ALVERJA 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/145005-centro-atencion-infancia-cai-6-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7550656029381297 40.4019245811102)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/145005-centro-atencion-infancia-cai-6-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4019245811102,
+        "longitude" : -3.7550656029381297
+	  }
+
+    },
+	{
+      "id" : "176514",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/176514-centro-atencion-infancia-cai-7-moratalaz-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionInfancia",
+      "title" : "Centro de Atención a la Infancia CAI 7 Moratalaz / Vicálvaro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fd5f4b6faa61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/176514-centro-atencion-infancia-cai-7-moratalaz-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "CALLE LADERA DE LOS ALMENDROS 6 Centro de Servicios Sociales Valdebernardo"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/176514-centro-atencion-infancia-cai-7-moratalaz-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.623339471293246 40.40316021249795)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/176514-centro-atencion-infancia-cai-7-moratalaz-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40316021249795,
+        "longitude" : -3.623339471293246
+	  }
+
+    },
+	{
+      "id" : "5563776",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5563776-centro-atencion-infancia-cai-8-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionInfancia",
+      "title" : "Centro de Atención a la Infancia CAI 8 Carabanchel",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f82806d66d296210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5563776-centro-atencion-infancia-cai-8-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE ZAIDA 36 Centro de Servicios Sociales Zaida"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5563776-centro-atencion-infancia-cai-8-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7360816376660386 40.39332622277917)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5563776-centro-atencion-infancia-cai-8-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39332622277917,
+        "longitude" : -3.7360816376660386
+	  }
+
+    },
+	{
+      "id" : "5563793",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5563793-centro-atencion-infancia-cai-9-fuencarral-pardo-moncloa-aravaca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionInfancia",
+      "title" : "Centro de Atención a la Infancia CAI 9 Fuencarral-El Pardo / Moncloa-Aravaca",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ca9c06d66d296210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5563793-centro-atencion-infancia-cai-9-fuencarral-pardo-moncloa-aravaca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "CALLE BUITRAGO DEL LOZOYA 22 Centro de Servicios Sociales San Vicente de Paúl"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5563793-centro-atencion-infancia-cai-9-fuencarral-pardo-moncloa-aravaca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.716607833008478 40.47248462688415)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5563793-centro-atencion-infancia-cai-9-fuencarral-pardo-moncloa-aravaca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47248462688415,
+        "longitude" : -3.716607833008478
+	  }
+
+    },
+	{
+      "id" : "6108331",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6108331-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-centro-2",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas  (de 3 a 12 años) del Distrito Centro 2",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=502191e282890310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6108331-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-centro-2/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE OLMO 4 COLEGIO ANTONO MORENO ROSALES"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6108331-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-centro-2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.701274799534028 40.41147059852911)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6108331-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-centro-2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41147059852911,
+        "longitude" : -3.701274799534028
+	  }
+
+    },
+	{
+      "id" : "170988",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170988-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas  (de 3 a 12 años) del Distrito Chamartín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7102085f5181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170988-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PRADILLO 2 EN ANTIGUO COLEGIO NICOLAS SALMERÓN"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170988-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6765545788553755 40.448626990491654)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170988-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.448626990491654,
+        "longitude" : -3.6765545788553755
+	  }
+
+    },
+	{
+      "id" : "6107330",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107330-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas  (de 3 a 12 años) del Distrito Ciudad Lineal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=486230faf8790310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107330-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "CALLE VIRGEN DEL VAL 3 COLEGIO CARLOS V"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107330-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6544038942331123 40.43724098714693)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107330-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43724098714693,
+        "longitude" : -3.6544038942331123
+	  }
+
+    },
+	{
+      "id" : "6107166",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107166-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-san-blas-canillejas-2",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas  (de 3 a 12 años) del Distrito San Blas-Canillejas 2",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=53c6861400690310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107166-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-san-blas-canillejas-2/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE CASTILLO DE UCLES 28 COLEGIO REPÚBLICA DE CHILE"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107166-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-san-blas-canillejas-2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6247839198679577 40.42809852476456)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107166-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-san-blas-canillejas-2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42809852476456,
+        "longitude" : -3.6247839198679577
+	  }
+
+    },
+	{
+      "id" : "5426327",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5426327-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-arganzuela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Arganzuela.",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=84252a2257ff3210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5426327-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-arganzuela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE MÉNDEZ ÁLVARO 16 COLEGIO MENÉNDEZ PELAYO"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5426327-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-arganzuela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.691396695437019 40.40557510310644)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5426327-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-arganzuela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40557510310644,
+        "longitude" : -3.691396695437019
+	  }
+
+    },
+	{
+      "id" : "6107406",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107406-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-carabanchel-1",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Carabanchel 1",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4f5008c10a790310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107406-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-carabanchel-1/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE BALEARES 18 COLEGIO PERÚ"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107406-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-carabanchel-1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.713263165805392 40.39379355659199)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107406-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-carabanchel-1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39379355659199,
+        "longitude" : -3.713263165805392
+	  }
+
+    },
+	{
+      "id" : "171026",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171026-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-carabanchel-2",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Carabanchel 2",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2bd1085f5181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171026-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-carabanchel-2/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE MONSEÑOR OSCAR ROMERO 17 COLEGIO CAPITÁN CORTÉS"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171026-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-carabanchel-2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7428500011276635 40.38091347738878)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171026-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-carabanchel-2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38091347738878,
+        "longitude" : -3.7428500011276635
+	  }
+
+    },
+	{
+      "id" : "169324",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/169324-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-centro-1",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Centro 1",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f333085f5181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/169324-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-centro-1/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE POZAS 14 EN CENTRO CRUZ ROJA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/169324-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-centro-1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.706580653418262 40.42519509776946)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/169324-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-centro-1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42519509776946,
+        "longitude" : -3.706580653418262
+	  }
+
+    },
+	{
+      "id" : "6108345",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6108345-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-chamberi",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Chamberí",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b2594d4263890310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6108345-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-chamberi/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "AVENIDA FILIPINAS 5 COLEGIO ASUNCIÓN RINCÓN"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6108345-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-chamberi/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7109560306579636 40.439925042084816)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6108345-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-chamberi/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.439925042084816,
+        "longitude" : -3.7109560306579636
+	  }
+
+    },
+	{
+      "id" : "170993",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170993-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Fuencarral-El Pardo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1e42085f5181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170993-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE HOSPITALET DE LLOBREGAT 2 CASA DE LOS NIÑOS"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170993-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6930393847546887 40.494411975075415)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170993-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.494411975075415,
+        "longitude" : -3.6930393847546887
+	  }
+
+    },
+	{
+      "id" : "171058",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171058-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Hortaleza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6472085f5181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171058-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE CARRION DE LOS CONDES 73 CENTRO JUVENIL SANTIAGO APOSTOL"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171058-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6581195337045274 40.4760846979538)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171058-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4760846979538,
+        "longitude" : -3.6581195337045274
+	  }
+
+    },
+	{
+      "id" : "171009",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171009-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-latina-1",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Latina 1",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ba92085f5181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171009-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-latina-1/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE LOS YEBENES 241"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171009-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-latina-1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.75017859491801 40.39162300173867)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171009-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-latina-1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39162300173867,
+        "longitude" : -3.75017859491801
+	  }
+
+    },
+	{
+      "id" : "6105543",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6105543-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-latina-2",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Latina 2",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=26f33ce806290310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6105543-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-latina-2/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "AVENIDA NUESTRA SEÑORA DE VALVANERA 120 COLEGIO REPÚBLICA DE URUGAY"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6105543-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-latina-2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.741232360556739 40.39347350069245)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6105543-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-latina-2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39347350069245,
+        "longitude" : -3.741232360556739
+	  }
+
+    },
+	{
+      "id" : "6106604",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6106604-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Moratalaz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f2159136f2390310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6106604-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE ARROYO FONTARRON 24 COLEGIO FONTARRÓN"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6106604-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6335755702199677 40.39511351284605)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6106604-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39511351284605,
+        "longitude" : -3.6335755702199677
+	  }
+
+    },
+	{
+      "id" : "170979",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170979-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-puente-vallecas-1",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Puente de Vallecas 1",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=01c2085f5181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170979-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-puente-vallecas-1/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "RONDA SUR 229 COLEGIO  GARCÍA MORENTE"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170979-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-puente-vallecas-1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.665482524950977 40.37336648575158)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170979-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-puente-vallecas-1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37336648575158,
+        "longitude" : -3.665482524950977
+	  }
+
+    },
+	{
+      "id" : "6108383",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6108383-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-puente-vallecas-2",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Puente de Vallecas 2",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e5b54d4263890310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6108383-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-puente-vallecas-2/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "CALLE PUERTO DE VIÑAMALA 3 COLEGIO JAVIER DE MIGUEL"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6108383-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-puente-vallecas-2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.658025612717286 40.385418305795156)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6108383-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-puente-vallecas-2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.385418305795156,
+        "longitude" : -3.658025612717286
+	  }
+
+    },
+	{
+      "id" : "6106345",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6106345-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Retiro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=81aed03950390310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6106345-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "CALLE LOPE DE RUEDA 48 COLEGIO NUESTRA SEÑORA DE LA ALMUDENA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6106345-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6778727223264904 40.419015614377635)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6106345-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.419015614377635,
+        "longitude" : -3.6778727223264904
+	  }
+
+    },
+	{
+      "id" : "171083",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171083-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-san-blas-canillejas-1",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito San Blas-Canillejas 1",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=57e2085f5181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171083-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-san-blas-canillejas-1/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE MUSAS 9 COLEGIO LA ALAMEDA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171083-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-san-blas-canillejas-1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6077320566891196 40.43801828833293)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171083-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-san-blas-canillejas-1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43801828833293,
+        "longitude" : -3.6077320566891196
+	  }
+
+    },
+	{
+      "id" : "5426500",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5426500-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-tetuan-1",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Tetuán 1",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cd24f7250cff3210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5426500-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-tetuan-1/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "CALLE MATILDE LANDA 30"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5426500-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-tetuan-1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6940834942003504 40.47319865861951)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5426500-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-tetuan-1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47319865861951,
+        "longitude" : -3.6940834942003504
+	  }
+
+    },
+	{
+      "id" : "6106536",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6106536-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-tetuan-2",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Tetuán 2",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0f2c2d6702390310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6106536-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-tetuan-2/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "AVENIDA DOCTOR FEDERICO RUBIO Y GALI 53 COLEGIO DOCTOR FEDERICO RUBIO"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6106536-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-tetuan-2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7113472292938066 40.45242712056568)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6106536-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-tetuan-2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45242712056568,
+        "longitude" : -3.7113472292938066
+	  }
+
+    },
+	{
+      "id" : "6108339",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6108339-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-usera-1",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Usera 1",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2e3591e282890310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6108339-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-usera-1/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE MIRASIERRA 29 COLEGIO JUAN SEBASTIAN EL CANO"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6108339-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-usera-1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.704765272620041 40.38904382319174)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6108339-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-usera-1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38904382319174,
+        "longitude" : -3.704765272620041
+	  }
+
+    },
+	{
+      "id" : "5426510",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5426510-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-usera-2",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Usera 2",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=44ecf15cbdff3210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5426510-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-usera-2/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE DOCTOR TOLOSA LATOUR 13 COLEGIO CIUDAD DE JAÉN"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5426510-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-usera-2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.70259563865373 40.373002813717804)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5426510-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-usera-2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.373002813717804,
+        "longitude" : -3.70259563865373
+	  }
+
+    },
+	{
+      "id" : "5426540",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5426540-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Vicalvaro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b592f15cbdff3210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5426540-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "CALLE FUENTE DE SAN PEDRO 6 COLEGIO ALFONSO X"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5426540-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.603718607231581 40.40321927875762)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5426540-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40321927875762,
+        "longitude" : -3.603718607231581
+	  }
+
+    },
+	{
+      "id" : "6107095",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107095-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-villa-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Villa de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fa89861400690310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107095-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-villa-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CAMINO SUERTE 23 COLEGIO FRANCISCO FATOU"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107095-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-villa-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.61843594276842 40.37598804157616)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107095-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-villa-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37598804157616,
+        "longitude" : -3.61843594276842
+	  }
+
+    },
+	{
+      "id" : "171077",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171077-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-villaverde-1",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Villaverde 1",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ad03085f5181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171077-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-villaverde-1/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE BENIMAMET 109 COLEGIO NAVAS DE TOLOSA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171077-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-villaverde-1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.685296004324213 40.344340447262475)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171077-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-villaverde-1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.344340447262475,
+        "longitude" : -3.685296004324213
+	  }
+
+    },
+	{
+      "id" : "6107234",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107234-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-villaverde-2",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas (de 3 a 12 años) del Distrito Villaverde 2",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0877554255790310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107234-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-villaverde-2/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CARRETERA CARABANCHEL A VILLAVERDE 109 COLEGIO CRISTOBAL COLÓN"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107234-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-villaverde-2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.706057974681441 40.35035079998796)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6107234-centro-dia-atencion-ninos-ninas-3-12-anos-distrito-villaverde-2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.35035079998796,
+        "longitude" : -3.706057974681441
+	  }
+
+    },
+	{
+      "id" : "173540",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173540-centro-dia-atencion-ninos-ninas-laboure-3-12-anos-distrito-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención a niños y niñas Labouré (de 3 a 12 años) del Distrito Moratalaz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9083085f5181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173540-centro-dia-atencion-ninos-ninas-laboure-3-12-anos-distrito-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE MARROQUINA 45"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173540-centro-dia-atencion-ninos-ninas-laboure-3-12-anos-distrito-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.648361782249456 40.408446072797005)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173540-centro-dia-atencion-ninos-ninas-laboure-3-12-anos-distrito-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.408446072797005,
+        "longitude" : -3.648361782249456
+	  }
+
+    },
+	{
+      "id" : "173553",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173553-centro-dia-atencion-ninos-ninas-rosalia-rendu-3-14-anos-distrito-centro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosDiaMenores",
+      "title" : "Centro de Día de atención para niños y niñas Rosalía Rendú (de 3 a 14 años) del Distrito Centro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e6a3085f5181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173553-centro-dia-atencion-ninos-ninas-rosalia-rendu-3-14-anos-distrito-centro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE ESPADA 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173553-centro-dia-atencion-ninos-ninas-rosalia-rendu-3-14-anos-distrito-centro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7043747060733887 40.4114877909952)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173553-centro-dia-atencion-ninos-ninas-rosalia-rendu-3-14-anos-distrito-centro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4114877909952,
+        "longitude" : -3.7043747060733887
+	  }
+
+    },
+	{
+      "id" : "5505290",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5505290-puntos-encuentro-familiar-pef",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMenoresFamilias/CentrosOrientacionAtencionFamilia",
+      "title" : "Puntos de Encuentro Familiar (PEF)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=edc72f99a9375210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5505290-puntos-encuentro-familiar-pef/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PASEO CHOPERA 41"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5505290-puntos-encuentro-familiar-pef/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6990213657093163 40.39415981141737)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5505290-puntos-encuentro-familiar-pef/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39415981141737,
+        "longitude" : -3.6990213657093163
+	  }
+
+    }
+  ]
+}

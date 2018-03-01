@@ -1,0 +1,2081 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "2392",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2392-auditorio-al-aire-libre-berlin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre Berlín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=34137b503a71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2392-auditorio-al-aire-libre-berlin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE SAN ERNESTO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2392-auditorio-al-aire-libre-berlin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6769497658700185 40.44922827996293)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2392-auditorio-al-aire-libre-berlin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44922827996293,
+        "longitude" : -3.6769497658700185
+	  }
+
+    },
+	{
+      "id" : "2395",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2395-auditorio-al-aire-libre-centro-cultural-pozo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Centro Cultural el Pozo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8cd27b503a71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2395-auditorio-al-aire-libre-centro-cultural-pozo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE ANDALUCES DEL POZO 1 con calle Cabo Machichaco"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2395-auditorio-al-aire-libre-centro-cultural-pozo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6607580022990196 40.372060226614956)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2395-auditorio-al-aire-libre-centro-cultural-pozo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.372060226614956,
+        "longitude" : -3.6607580022990196
+	  }
+
+    },
+	{
+      "id" : "2396",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2396-auditorio-al-aire-libre-entrevias",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Entrevías",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1fe27b503a71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2396-auditorio-al-aire-libre-entrevias/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "RONDA SUR  Altura calle Montánchez"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2396-auditorio-al-aire-libre-entrevias/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6713248649676786 40.3733417270423)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2396-auditorio-al-aire-libre-entrevias/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3733417270423,
+        "longitude" : -3.6713248649676786
+	  }
+
+    },
+	{
+      "id" : "122296",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122296-auditorio-al-aire-libre-jardin-campo-toro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Jardín Campo del Toro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7d03cbf06c81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122296-auditorio-al-aire-libre-jardin-campo-toro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "AVENIDA RAFAEL ALBERTI 13 esquina calle Andaluces"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122296-auditorio-al-aire-libre-jardin-campo-toro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6382516529937448 40.389925582492495)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122296-auditorio-al-aire-libre-jardin-campo-toro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.389925582492495,
+        "longitude" : -3.6382516529937448
+	  }
+
+    },
+	{
+      "id" : "122325",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122325-auditorio-al-aire-libre-parque-aluche",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Parque Aluche",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0023cbf06c81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122325-auditorio-al-aire-libre-parque-aluche/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE ILLESCAS 149"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122325-auditorio-al-aire-libre-parque-aluche/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7593572957930554 40.392680212409495)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122325-auditorio-al-aire-libre-parque-aluche/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.392680212409495,
+        "longitude" : -3.7593572957930554
+	  }
+
+    },
+	{
+      "id" : "10290753",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10290753-auditorio-al-aire-libre-parque-amos-acero",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Parque Amós Acero",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0688a0701d0da510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10290753-auditorio-al-aire-libre-parque-amos-acero/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE SIERRA DE ALQUIFE 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10290753-auditorio-al-aire-libre-parque-amos-acero/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6661371810507912 40.38840792931046)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10290753-auditorio-al-aire-libre-parque-amos-acero/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38840792931046,
+        "longitude" : -3.6661371810507912
+	  }
+
+    },
+	{
+      "id" : "2393",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2393-auditorio-al-aire-libre-parque-cerro-almodovar",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Parque Cerro Almodóvar",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eb437b503a71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2393-auditorio-al-aire-libre-parque-cerro-almodovar/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE MARCELINO CASTILLO 29"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2393-auditorio-al-aire-libre-parque-cerro-almodovar/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.744692836307442 40.39420802732146)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2393-auditorio-al-aire-libre-parque-cerro-almodovar/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39420802732146,
+        "longitude" : -3.744692836307442
+	  }
+
+    },
+	{
+      "id" : "2399",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2399-auditorio-al-aire-libre-parque-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Parque de Canillejas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=59337b503a71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2399-auditorio-al-aire-libre-parque-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE NECTAR 32"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2399-auditorio-al-aire-libre-parque-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6111693057729117 40.44260378345522)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2399-auditorio-al-aire-libre-parque-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44260378345522,
+        "longitude" : -3.6111693057729117
+	  }
+
+    },
+	{
+      "id" : "122295",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122295-auditorio-al-aire-libre-parque-bombilla",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Parque de La Bombilla",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9233cbf06c81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122295-auditorio-al-aire-libre-parque-bombilla/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "GLORIETA SAN ANTONIO DE LA FLORIDA 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122295-auditorio-al-aire-libre-parque-bombilla/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.725969994297979 40.426047943114646)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122295-auditorio-al-aire-libre-parque-bombilla/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.426047943114646,
+        "longitude" : -3.725969994297979
+	  }
+
+    },
+	{
+      "id" : "2387",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2387-auditorio-al-aire-libre-parque-vaguada",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Parque de la Vaguada",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7e537b503a71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2387-auditorio-al-aire-libre-parque-vaguada/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "PASEO VAGUADA 13 Avenida de Betanzos con Paseo de la Vaguada"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2387-auditorio-al-aire-libre-parque-vaguada/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7112978051427574 40.48016602497203)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2387-auditorio-al-aire-libre-parque-vaguada/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48016602497203,
+        "longitude" : -3.7112978051427574
+	  }
+
+    },
+	{
+      "id" : "2394",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2394-auditorio-al-aire-libre-parque-cruces",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Parque de las Cruces",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=93837b503a71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2394-auditorio-al-aire-libre-parque-cruces/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "AVENIDA POBLADOS 68"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2394-auditorio-al-aire-libre-parque-cruces/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.759489504920487 40.383472075956185)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2394-auditorio-al-aire-libre-parque-cruces/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.383472075956185,
+        "longitude" : -3.759489504920487
+	  }
+
+    },
+	{
+      "id" : "52514",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52514-auditorio-al-aire-libre-parque-olof-palme",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Parque de Olof Palme",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1185946be351c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52514-auditorio-al-aire-libre-parque-olof-palme/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE CERECINOS 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52514-auditorio-al-aire-libre-parque-olof-palme/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.712460441100476 40.384708341415276)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52514-auditorio-al-aire-libre-parque-olof-palme/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.384708341415276,
+        "longitude" : -3.712460441100476
+	  }
+
+    },
+	{
+      "id" : "6622017",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6622017-auditorio-al-aire-libre-parque-pradolongo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Parque de Pradolongo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0bae296aa2c9a310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6622017-auditorio-al-aire-libre-parque-pradolongo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "AVENIDA POBLADOS 169"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6622017-auditorio-al-aire-libre-parque-pradolongo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7067784594450583 40.3719863231287)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6622017-auditorio-al-aire-libre-parque-pradolongo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3719863231287,
+        "longitude" : -3.7067784594450583
+	  }
+
+    },
+	{
+      "id" : "2389",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2389-auditorio-al-aire-libre-parque-calero",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Parque del Calero",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c6237b503a71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2389-auditorio-al-aire-libre-parque-calero/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "CALLE JOSE DEL HIERRO 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2389-auditorio-al-aire-libre-parque-calero/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6504096146979457 40.43629956289038)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2389-auditorio-al-aire-libre-parque-calero/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43629956289038,
+        "longitude" : -3.6504096146979457
+	  }
+
+    },
+	{
+      "id" : "2388",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2388-auditorio-al-aire-libre-parque-enrique-tierno-galvan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Parque Enrique Tierno Galván",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=26937b503a71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2388-auditorio-al-aire-libre-parque-enrique-tierno-galvan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "AVENIDA PLANETARIO 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2388-auditorio-al-aire-libre-parque-enrique-tierno-galvan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.685391155439898 40.390944081814816)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2388-auditorio-al-aire-libre-parque-enrique-tierno-galvan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.390944081814816,
+        "longitude" : -3.685391155439898
+	  }
+
+    },
+	{
+      "id" : "6622049",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6622049-auditorio-al-aire-libre-parque-lineal-manzanares",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Parque Lineal del Manzanares",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6fb3296aa2c9a310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6622049-auditorio-al-aire-libre-parque-lineal-manzanares/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CAMINO PERALES 48"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6622049-auditorio-al-aire-libre-parque-lineal-manzanares/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6914252404682903 40.379565707685856)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6622049-auditorio-al-aire-libre-parque-lineal-manzanares/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.379565707685856,
+        "longitude" : -3.6914252404682903
+	  }
+
+    },
+	{
+      "id" : "52510",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52510-auditorio-al-aire-libre-pavones",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Pavones",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3845946be351c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52510-auditorio-al-aire-libre-pavones/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE HACIENDA DE PAVONES 209"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52510-auditorio-al-aire-libre-pavones/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6370875655785446 40.40142760716397)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52510-auditorio-al-aire-libre-pavones/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40142760716397,
+        "longitude" : -3.6370875655785446
+	  }
+
+    },
+	{
+      "id" : "2397",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2397-auditorio-al-aire-libre-pilar-garcia-pena-parque-pinar-rey",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Pilar García Peña (Parque Pinar del Rey)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b8a37b503a71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2397-auditorio-al-aire-libre-pilar-garcia-pena-parque-pinar-rey/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CARRETERA CANILLAS 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2397-auditorio-al-aire-libre-pilar-garcia-pena-parque-pinar-rey/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.65636755952747 40.46335596968574)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2397-auditorio-al-aire-libre-pilar-garcia-pena-parque-pinar-rey/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46335596968574,
+        "longitude" : -3.65636755952747
+	  }
+
+    },
+	{
+      "id" : "52515",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52515-auditorio-al-aire-libre-plaza-ermua",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Plaza de Ermua",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c8b5946be351c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52515-auditorio-al-aire-libre-plaza-ermua/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE GUETARIA 56"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52515-auditorio-al-aire-libre-plaza-ermua/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7158701313563736 40.37181328202843)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52515-auditorio-al-aire-libre-plaza-ermua/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37181328202843,
+        "longitude" : -3.7158701313563736
+	  }
+
+    },
+	{
+      "id" : "5452036",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5452036-auditorio-al-aire-libre-quiosco-musica-templete",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Quiosco de Música - Templete",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b6013e3860594210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5452036-auditorio-al-aire-libre-quiosco-musica-templete/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "PLAZA HUARTE DE SAN JUAN 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5452036-auditorio-al-aire-libre-quiosco-musica-templete/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.725711256326908 40.412941426753434)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5452036-auditorio-al-aire-libre-quiosco-musica-templete/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.412941426753434,
+        "longitude" : -3.725711256326908
+	  }
+
+    },
+	{
+      "id" : "5451510",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5451510-auditorio-al-aire-libre-templete-musica-parque-oeste",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Templete de Música - Parque del Oeste",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a1bebc3dfb094210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5451510-auditorio-al-aire-libre-templete-musica-parque-oeste/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE PROFESOR MARTIN ALMAGRO BASCH 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5451510-auditorio-al-aire-libre-templete-musica-parque-oeste/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.719327791504915 40.424449819646256)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5451510-auditorio-al-aire-libre-templete-musica-parque-oeste/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.424449819646256,
+        "longitude" : -3.719327791504915
+	  }
+
+    },
+	{
+      "id" : "5451503",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5451503-auditorio-al-aire-libre-templete-plaza-remonta",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio al aire libre. Templete. Plaza de la Remonta",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=85f18cc14b094210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5451503-auditorio-al-aire-libre-templete-plaza-remonta/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "PLAZA REMONTA 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5451503-auditorio-al-aire-libre-templete-plaza-remonta/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6976570794379433 40.463997008119094)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5451503-auditorio-al-aire-libre-templete-plaza-remonta/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.463997008119094,
+        "longitude" : -3.6976570794379433
+	  }
+
+    },
+	{
+      "id" : "10290812",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10290812-auditorio-anfiteatro-lourdes-guadalupe-mariano-marchante",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio Anfiteatro Lourdes Guadalupe y Mariano Marchante",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1dbca0701d0da510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10290812-auditorio-anfiteatro-lourdes-guadalupe-mariano-marchante/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "CALLE CASALARREINA 26"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10290812-auditorio-anfiteatro-lourdes-guadalupe-mariano-marchante/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.613590118065351 40.409266465742476)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10290812-auditorio-anfiteatro-lourdes-guadalupe-mariano-marchante/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.409266465742476,
+        "longitude" : -3.613590118065351
+	  }
+
+    },
+	{
+      "id" : "5989871",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5989871-auditorio-carmen-laforet-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio Carmen Laforet (Ciudad Lineal)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fca22248514ae210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5989871-auditorio-carmen-laforet-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE JAZMIN 46"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5989871-auditorio-carmen-laforet-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.665799020694628 40.47960826297022)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5989871-auditorio-carmen-laforet-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47960826297022,
+        "longitude" : -3.665799020694628
+	  }
+
+    },
+	{
+      "id" : "52513",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52513-auditorio-plaza-chamberi-templete",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio de la  Plaza de Chamberí - templete",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=36a5946be351c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52513-auditorio-plaza-chamberi-templete/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "PLAZA CHAMBERI 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52513-auditorio-plaza-chamberi-templete/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.697557153998127 40.43266432328108)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52513-auditorio-plaza-chamberi-templete/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43266432328108,
+        "longitude" : -3.697557153998127
+	  }
+
+    },
+	{
+      "id" : "161051",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161051-auditorio-municipal-espinillo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio Municipal el Espinillo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b6a9ba61e681c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161051-auditorio-municipal-espinillo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE TERTULIA 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161051-auditorio-municipal-espinillo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6927748531714824 40.36180966975026)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/161051-auditorio-municipal-espinillo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.36180966975026,
+        "longitude" : -3.6927748531714824
+	  }
+
+    },
+	{
+      "id" : "7034889",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7034889-auditorio-municipal-villa-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio Municipal Villa de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d8c31bbad23cf310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7034889-auditorio-municipal-villa-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE MONTE DE MONTJUICH 7 acceso por c/ Sierra Gorda c/v Sierra del Torcal"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7034889-auditorio-municipal-villa-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.617532420014534 40.38024517813902)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7034889-auditorio-municipal-villa-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38024517813902,
+        "longitude" : -3.617532420014534
+	  }
+
+    },
+	{
+      "id" : "2130",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2130-auditorio-nacional-musica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio Nacional de Música",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c4a4eb6fbd71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2130-auditorio-nacional-musica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PRINCIPE DE VERGARA 146"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2130-auditorio-nacional-musica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6779448874160314 40.44615938706209)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2130-auditorio-nacional-musica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44615938706209,
+        "longitude" : -3.6779448874160314
+	  }
+
+    },
+	{
+      "id" : "5304610",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5304610-cafe-central",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Café Central",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d3611cbd662c0210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5304610-cafe-central/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "PLAZA ANGEL 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5304610-cafe-central/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.701904023779484 40.414178504157086)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5304610-cafe-central/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.414178504157086,
+        "longitude" : -3.701904023779484
+	  }
+
+    },
+	{
+      "id" : "7035127",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035127-cafe-despertar",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Café El Despertar",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bed09ff0a73cf310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035127-cafe-despertar/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE TORRECILLA DEL LEAL 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035127-cafe-despertar/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699523952570967 40.41084156212642)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035127-cafe-despertar/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41084156212642,
+        "longitude" : -3.699523952570967
+	  }
+
+    },
+	{
+      "id" : "7035060",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035060-cafe-palma",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Café La Palma",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2000aa5a863cf310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035060-cafe-palma/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE PALMA 62"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035060-cafe-palma/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.708094409489715 40.42678043394236)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035060-cafe-palma/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42678043394236,
+        "longitude" : -3.708094409489715
+	  }
+
+    },
+	{
+      "id" : "52511",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52511-centro-cultural-auditorio-parque-paraiso-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Centro Cultural Auditorio Parque El Paraíso (San Blas - Canillejas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a395946be351c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52511-centro-cultural-auditorio-parque-paraiso-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "AVENIDA ARCENTALES 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52511-centro-cultural-auditorio-parque-paraiso-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.622184001035289 40.42996840999023)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52511-centro-cultural-auditorio-parque-paraiso-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42996840999023,
+        "longitude" : -3.622184001035289
+	  }
+
+    },
+	{
+      "id" : "4784573",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4784573-costello-cafe-nite-club",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Costello Café y Nite Club",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dec7d383f44e7110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4784573-costello-cafe-nite-club/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE CABALLERO DE GRACIA 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4784573-costello-cafe-nite-club/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7008035099107737 40.41943745242467)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4784573-costello-cafe-nite-club/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41943745242467,
+        "longitude" : -3.7008035099107737
+	  }
+
+    },
+	{
+      "id" : "10187391",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187391-florida-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Florida Retiro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c89d12e1c4d48510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187391-florida-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "PASEO REPUBLICA DE PANAMA 1 PARQUE EL RETIRO"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187391-florida-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6801029355530934 40.41808359382662)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187391-florida-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41808359382662,
+        "longitude" : -3.6801029355530934
+	  }
+
+    },
+	{
+      "id" : "7582981",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7582981-independance-club",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Independance Club",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=faa5f49cf9847410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7582981-independance-club/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE DOCTOR CORTEZO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7582981-independance-club/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7035866665452066 40.41390701433747)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7582981-independance-club/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41390701433747,
+        "longitude" : -3.7035866665452066
+	  }
+
+    },
+	{
+      "id" : "3936",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3936-sala-live",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "La Sala Live",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=71b21e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3936-sala-live/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "AVENIDA NUESTRA SEÑORA DE FATIMA 42"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3936-sala-live/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7474375780696736 40.38348754068021)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3936-sala-live/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38348754068021,
+        "longitude" : -3.7474375780696736
+	  }
+
+    },
+	{
+      "id" : "8158010",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8158010-nave-musica-matadero-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Nave de Música. Matadero Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=21a027f53e7de410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8158010-nave-musica-matadero-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PASEO CHOPERA 14 Matadero"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8158010-nave-musica-matadero-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.697259467865366 40.39241367848808)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8158010-nave-musica-matadero-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39241367848808,
+        "longitude" : -3.697259467865366
+	  }
+
+    },
+	{
+      "id" : "2390",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2390-pabellon-multiusos-madrid-arena-recinto-ferial-casa-campo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Pabellón Multiusos Madrid Arena (Recinto Ferial Casa de Campo)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c53179262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2390-pabellon-multiusos-madrid-arena-recinto-ferial-casa-campo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "AVENIDA PRINCIPAL 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2390-pabellon-multiusos-madrid-arena-recinto-ferial-casa-campo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7384704159174076 40.41352730435772)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2390-pabellon-multiusos-madrid-arena-recinto-ferial-casa-campo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41352730435772,
+        "longitude" : -3.7384704159174076
+	  }
+
+    },
+	{
+      "id" : "10290803",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10290803-recinto-ferial-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Recinto Ferial Vicálvaro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=883ba0701d0da510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10290803-recinto-ferial-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "PASEO POLIDEPORTIVO 142"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10290803-recinto-ferial-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5967323694208435 40.40612043638959)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10290803-recinto-ferial-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40612043638959,
+        "longitude" : -3.5967323694208435
+	  }
+
+    },
+	{
+      "id" : "7034958",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7034958-sala-bogui-jazz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala Bogui Jazz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=758e7f82c43cf310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7034958-sala-bogui-jazz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE BARQUILLO 29"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7034958-sala-bogui-jazz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.695665063664934 40.42295498321188)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7034958-sala-bogui-jazz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42295498321188,
+        "longitude" : -3.695665063664934
+	  }
+
+    },
+	{
+      "id" : "6907373",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6907373-sala-but",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala But",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d6c706172d21e310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6907373-sala-but/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE BARCELO 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6907373-sala-but/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699808218271451 40.42690296134917)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6907373-sala-but/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42690296134917,
+        "longitude" : -3.699808218271451
+	  }
+
+    },
+	{
+      "id" : "4072",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4072-sala-caracol",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala Caracol",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb6d7b503a71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4072-sala-caracol/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE BERNARDINO OBREGON 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4072-sala-caracol/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.700054055340394 40.40399146943472)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4072-sala-caracol/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40399146943472,
+        "longitude" : -3.700054055340394
+	  }
+
+    },
+	{
+      "id" : "5870929",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5870929-sala-caravan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala Caravan",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=874a3a351236c210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5870929-sala-caravan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "PASEO GENERAL MARTINEZ CAMPOS 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5870929-sala-caravan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.696038431827734 40.43515996633578)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5870929-sala-caravan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43515996633578,
+        "longitude" : -3.696038431827734
+	  }
+
+    },
+	{
+      "id" : "6261617",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6261617-sala-cats",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala Cats",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bf50b3649b134310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6261617-sala-cats/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE JULIAN ROMEA 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6261617-sala-cats/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.713202488642481 40.44274003088835)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6261617-sala-cats/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44274003088835,
+        "longitude" : -3.713202488642481
+	  }
+
+    },
+	{
+      "id" : "3891",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3891-sala-clamores",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala Clamores",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bfa7b069a541f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3891-sala-clamores/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE ALBURQUERQUE 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3891-sala-clamores/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7009483655353894 40.431121286721805)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3891-sala-clamores/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.431121286721805,
+        "longitude" : -3.7009483655353894
+	  }
+
+    },
+	{
+      "id" : "4651794",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4651794-sala-colonial-norte",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala Colonial Norte",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8db325bdd2145110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4651794-sala-colonial-norte/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "PASEO FLORIDA s/n"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4651794-sala-colonial-norte/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7209625681527148 40.42078197104075)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4651794-sala-colonial-norte/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42078197104075,
+        "longitude" : -3.7209625681527148
+	  }
+
+    },
+	{
+      "id" : "4919012",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4919012-sala-contraclub",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala Contraclub",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cdd1e822e5a0a110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4919012-sala-contraclub/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE BAILEN 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4919012-sala-contraclub/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7139441766173196 40.41252819937501)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4919012-sala-contraclub/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41252819937501,
+        "longitude" : -3.7139441766173196
+	  }
+
+    },
+	{
+      "id" : "71529",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/71529-sala-copernico",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala Copérnico",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=66065cee4051c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/71529-sala-copernico/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE FERNANDEZ DE LOS RIOS 67"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/71529-sala-copernico/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.713701064096741 40.43525047036905)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/71529-sala-copernico/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43525047036905,
+        "longitude" : -3.713701064096741
+	  }
+
+    },
+	{
+      "id" : "7034838",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7034838-sala-intruso",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala El Intruso",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=324dcb8f023cf310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7034838-sala-intruso/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE AUGUSTO FIGUEROA 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7034838-sala-intruso/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.700192322455185 40.42301774321945)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7034838-sala-intruso/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42301774321945,
+        "longitude" : -3.700192322455185
+	  }
+
+    },
+	{
+      "id" : "4923127",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4923127-sala-junco",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala El Junco",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=164c6dae2d92a110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4923127-sala-junco/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "PLAZA SANTA BARBARA 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4923127-sala-junco/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6963729868257307 40.42644622598295)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4923127-sala-junco/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42644622598295,
+        "longitude" : -3.6963729868257307
+	  }
+
+    },
+	{
+      "id" : "3917",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3917-sala-sol",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala El Sol",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c20eff632081c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3917-sala-sol/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE JARDINES 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3917-sala-sol/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7016354977769943 40.41896393620347)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3917-sala-sol/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41896393620347,
+        "longitude" : -3.7016354977769943
+	  }
+
+    },
+	{
+      "id" : "4676603",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4676603-sala-galileo-galilei",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala Galileo Galilei",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b0aea3fc6abe5110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4676603-sala-galileo-galilei/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE GALILEO 100"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4676603-sala-galileo-galilei/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.709844851840886 40.438535474658956)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4676603-sala-galileo-galilei/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.438535474658956,
+        "longitude" : -3.709844851840886
+	  }
+
+    },
+	{
+      "id" : "7035148",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035148-sala-gruta-77",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala Gruta 77",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2782ac07d83cf310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035148-sala-gruta-77/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE CUCLILLO 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035148-sala-gruta-77/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7314016068733746 40.390941489181294)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035148-sala-gruta-77/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.390941489181294,
+        "longitude" : -3.7314016068733746
+	  }
+
+    },
+	{
+      "id" : "7035133",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035133-sala-jimmy-jazz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala Jimmy Jazz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4af9ac07d83cf310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035133-sala-jimmy-jazz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "CALLE PAYASO FOFO 24"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035133-sala-jimmy-jazz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6605350707736317 40.39024188543581)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035133-sala-jimmy-jazz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39024188543581,
+        "longitude" : -3.6605350707736317
+	  }
+
+    },
+	{
+      "id" : "3908",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3908-sala-joy-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala Joy Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5c821e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3908-sala-joy-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE ARENAL 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3908-sala-joy-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.706496299663565 40.41713252694655)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3908-sala-joy-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41713252694655,
+        "longitude" : -3.706496299663565
+	  }
+
+    },
+	{
+      "id" : "7397298",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7397298-sala-chocita-loro-calle-doctor-urquiola",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala La Chocita del Loro. Calle Doctor Urquiola",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=df5ec0b5d45d4410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7397298-sala-chocita-loro-calle-doctor-urquiola/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE DOCTOR URQUIOLA 23"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7397298-sala-chocita-loro-calle-doctor-urquiola/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7436541570839834 40.387620073190725)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7397298-sala-chocita-loro-calle-doctor-urquiola/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.387620073190725,
+        "longitude" : -3.7436541570839834
+	  }
+
+    },
+	{
+      "id" : "7397202",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7397202-sala-chocita-loro-calle-gran-via",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala La Chocita del Loro. Calle Gran Vía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bfce2572f35d4410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7397202-sala-chocita-loro-calle-gran-via/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 70"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7397202-sala-chocita-loro-calle-gran-via/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.709478249954353 40.42272689593852)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7397202-sala-chocita-loro-calle-gran-via/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42272689593852,
+        "longitude" : -3.709478249954353
+	  }
+
+    },
+	{
+      "id" : "7397234",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7397234-sala-chocita-loro-calle-hermosilla",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala La Chocita del Loro. Calle Hermosilla",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=64452572f35d4410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7397234-sala-chocita-loro-calle-hermosilla/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE HERMOSILLA 77"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7397234-sala-chocita-loro-calle-hermosilla/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.67779065226415 40.42610621133237)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7397234-sala-chocita-loro-calle-hermosilla/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42610621133237,
+        "longitude" : -3.67779065226415
+	  }
+
+    },
+	{
+      "id" : "7326606",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7326606-sala-lemon",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala Lemon",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=51e99b8dada24410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7326606-sala-lemon/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "AVENIDA BRASIL 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7326606-sala-lemon/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.694056023965524 40.454487186392804)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7326606-sala-lemon/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.454487186392804,
+        "longitude" : -3.694056023965524
+	  }
+
+    },
+	{
+      "id" : "45318",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/45318-sala-marco-aldany-arena",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala Marco Aldany (Arena)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a44b7589f451c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/45318-sala-marco-aldany-arena/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE PRINCESA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/45318-sala-marco-aldany-arena/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7121377807968265 40.42453036844387)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/45318-sala-marco-aldany-arena/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42453036844387,
+        "longitude" : -3.7121377807968265
+	  }
+
+    },
+	{
+      "id" : "4676668",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4676668-sala-moby-dick",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala Moby Dick",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e2c1f1480bbe5110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4676668-sala-moby-dick/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "AVENIDA BRASIL 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4676668-sala-moby-dick/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.694056023965524 40.454487186392804)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4676668-sala-moby-dick/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.454487186392804,
+        "longitude" : -3.694056023965524
+	  }
+
+    },
+	{
+      "id" : "5942340",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5942340-sala-penelope",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala Penélope",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d2834ff84bbed210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5942340-sala-penelope/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE HILARION ESLAVA 36"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5942340-sala-penelope/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.716513924076727 40.435890728108525)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5942340-sala-penelope/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.435890728108525,
+        "longitude" : -3.716513924076727
+	  }
+
+    },
+	{
+      "id" : "7201258",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7201258-sala-shoko-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala Shôko Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a392d81f4c892410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7201258-sala-shoko-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE TOLEDO 86"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7201258-sala-shoko-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7106037876286355 40.40870191378051)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7201258-sala-shoko-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40870191378051,
+        "longitude" : -3.7106037876286355
+	  }
+
+    },
+	{
+      "id" : "106926",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/106926-sala-taboo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala Taboó",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=04cf2189cb81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/106926-sala-taboo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE SAN VICENTE FERRER 23"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/106926-sala-taboo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7031784227757 40.425639265705044)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/106926-sala-taboo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.425639265705044,
+        "longitude" : -3.7031784227757
+	  }
+
+    },
+	{
+      "id" : "7035002",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035002-sala-tempo-club",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Sala Tempo Club",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aec1b043653cf310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035002-sala-tempo-club/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE DUQUE DE OSUNA 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035002-sala-tempo-club/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.711910103061732 40.425297538012565)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7035002-sala-tempo-club/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.425297538012565,
+        "longitude" : -3.711910103061732
+	  }
+
+    },
+	{
+      "id" : "10187413",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187413-tablao-flamenco-cafe-ziryab",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Tablao Flamenco Café Ziryab",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=504212e1c4d48510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187413-tablao-flamenco-cafe-ziryab/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "PASEO ESPERANZA 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187413-tablao-flamenco-cafe-ziryab/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.705138659259797 40.402248850411304)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187413-tablao-flamenco-cafe-ziryab/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.402248850411304,
+        "longitude" : -3.705138659259797
+	  }
+
+    },
+	{
+      "id" : "10187560",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187560-tablao-flamenco-candela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Tablao Flamenco Candela",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=be49b096d9d48510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187560-tablao-flamenco-candela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE OLMO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187560-tablao-flamenco-candela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.70155764657445 40.411468882602335)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187560-tablao-flamenco-candela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.411468882602335,
+        "longitude" : -3.70155764657445
+	  }
+
+    },
+	{
+      "id" : "10187763",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187763-tablao-flamenco-cardamomo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Tablao Flamenco Cardamomo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1657b096d9d48510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187763-tablao-flamenco-cardamomo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ECHEGARAY 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187763-tablao-flamenco-cardamomo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699548238936712 40.415463057589214)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187763-tablao-flamenco-cardamomo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.415463057589214,
+        "longitude" : -3.699548238936712
+	  }
+
+    },
+	{
+      "id" : "7091909",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7091909-tablao-flamenco-casa-patas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Tablao Flamenco Casa Patas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bf256036342f0410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7091909-tablao-flamenco-casa-patas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE CA&Ntilde;IZARES 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7091909-tablao-flamenco-casa-patas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7017357416661167 40.412729068876004)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7091909-tablao-flamenco-casa-patas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.412729068876004,
+        "longitude" : -3.7017357416661167
+	  }
+
+    },
+	{
+      "id" : "10187520",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187520-tablao-flamenco-corral-moreria",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Tablao Flamenco Corral de la Morería",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d23712e1c4d48510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187520-tablao-flamenco-corral-moreria/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE MORERIA 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187520-tablao-flamenco-corral-moreria/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7142642886798996 40.412706403145705)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187520-tablao-flamenco-corral-moreria/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.412706403145705,
+        "longitude" : -3.7142642886798996
+	  }
+
+    },
+	{
+      "id" : "7091929",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7091929-tablao-flamenco-carboneras",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Tablao Flamenco Las Carboneras",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=87c76036342f0410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7091929-tablao-flamenco-carboneras/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "PLAZA CONDE DE MIRANDA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7091929-tablao-flamenco-carboneras/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7094414579182207 40.41473610515185)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7091929-tablao-flamenco-carboneras/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41473610515185,
+        "longitude" : -3.7094414579182207
+	  }
+
+    },
+	{
+      "id" : "10187547",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187547-tablao-flamenco-torres-bermejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Tablao Flamenco Torres Bermejas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8168b096d9d48510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187547-tablao-flamenco-torres-bermejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE MESONERO ROMANOS 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187547-tablao-flamenco-torres-bermejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7041793844860695 40.419885409942566)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187547-tablao-flamenco-torres-bermejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.419885409942566,
+        "longitude" : -3.7041793844860695
+	  }
+
+    },
+	{
+      "id" : "10187829",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187829-tablao-flamenco-villa-rosa",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Tablao Flamenco Villa Rosa",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=87fc62905fd48510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187829-tablao-flamenco-villa-rosa/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "PLAZA SANTA ANA 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187829-tablao-flamenco-villa-rosa/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7014284781662314 40.414920132021535)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187829-tablao-flamenco-villa-rosa/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.414920132021535,
+        "longitude" : -3.7014284781662314
+	  }
+
+    },
+	{
+      "id" : "3926",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3926-teatro-kapital",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Teatro Kapital",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee921e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3926-teatro-kapital/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE ATOCHA 125"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3926-teatro-kapital/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6931362362669597 40.40971786463593)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3926-teatro-kapital/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40971786463593,
+        "longitude" : -3.6931362362669597
+	  }
+
+    },
+	{
+      "id" : "2196",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2196-teatro-real",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Teatro Real",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6fc179262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2196-teatro-real/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "PLAZA ISABEL II 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2196-teatro-real/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7091902837192046 40.417755675106605)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2196-teatro-real/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.417755675106605,
+        "longitude" : -3.7091902837192046
+	  }
+
+    },
+	{
+      "id" : "183595",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183595-templete-parque-fuencarral",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Templete del Parque de Fuencarral",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4db40e4e6d41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183595-templete-parque-fuencarral/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "AVENIDA CAMPO DE CALATRAVA 31 ZONA DEL MIRADOR DEL PARQUE DE FUENCARRAL"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183595-templete-parque-fuencarral/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6884435557408377 40.500808752745556)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183595-templete-parque-fuencarral/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.500808752745556,
+        "longitude" : -3.6884435557408377
+	  }
+
+    }
+  ]
+}

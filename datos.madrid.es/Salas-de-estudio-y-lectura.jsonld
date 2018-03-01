@@ -1,0 +1,1460 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "1958",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1958-centro-cultural-san-juan-bautista-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Centro Cultural San Juan Bautista (Ciudad Lineal)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=618b1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1958-centro-cultural-san-juan-bautista-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE SAN NEMESIO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1958-centro-cultural-san-juan-bautista-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6580402287911937 40.45224737965276)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1958-centro-cultural-san-juan-bautista-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45224737965276,
+        "longitude" : -3.6580402287911937
+	  }
+
+    },
+	{
+      "id" : "4813751",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4813751-sala-estudio-alfonso-xii-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Alfonso XII (Fuencarral - El Pardo)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2e7a8917a2058110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4813751-sala-estudio-alfonso-xii-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28048",
+		"street-address" : "CALLE MIRA EL RIO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4813751-sala-estudio-alfonso-xii-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7779055687726535 40.519673311658686)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4813751-sala-estudio-alfonso-xii-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.519673311658686,
+        "longitude" : -3.7779055687726535
+	  }
+
+    },
+	{
+      "id" : "4813737",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4813737-sala-estudio-alfredo-kraus-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Alfredo Kraus (Fuencarral - El Pardo)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2ec62928b1058110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4813737-sala-estudio-alfredo-kraus-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "GLORIETA PRADERA DE VAQUERIZAS 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4813737-sala-estudio-alfredo-kraus-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7216054330053647 40.49082275610172)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4813737-sala-estudio-alfredo-kraus-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.49082275610172,
+        "longitude" : -3.7216054330053647
+	  }
+
+    },
+	{
+      "id" : "8041076",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041076-sala-estudio-almirante-churruca-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Almirante Churruca (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3ab67c6cd874d410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041076-sala-estudio-almirante-churruca-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28024",
+		"street-address" : "CALLE FUENTE DEL TIRO 72"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041076-sala-estudio-almirante-churruca-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7800773802118117 40.382992678408066)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041076-sala-estudio-almirante-churruca-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.382992678408066,
+        "longitude" : -3.7800773802118117
+	  }
+
+    },
+	{
+      "id" : "10415134",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10415134-sala-estudio-aravaca-moncloa-aravaca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Aravaca (Moncloa-Aravaca)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4b308cfd9a8ec510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10415134-sala-estudio-aravaca-moncloa-aravaca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28023",
+		"street-address" : "CALLE ZARZA 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10415134-sala-estudio-aravaca-moncloa-aravaca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.785855667139094 40.45843103553325)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10415134-sala-estudio-aravaca-moncloa-aravaca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45843103553325,
+        "longitude" : -3.785855667139094
+	  }
+
+    },
+	{
+      "id" : "4815112",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815112-sala-estudio-carril-conde-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Carril del Conde (Hortaleza)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cdc10e4d44558110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815112-sala-estudio-carril-conde-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE CARRIL DEL CONDE 57 ubicada en el Centro Cultural Carril del Conde"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815112-sala-estudio-carril-conde-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.654432812836867 40.46088946853693)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815112-sala-estudio-carril-conde-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46088946853693,
+        "longitude" : -3.654432812836867
+	  }
+
+    },
+	{
+      "id" : "6953036",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6953036-sala-estudio-centro-cultural-juvenil-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Centro Cultural Juvenil de Usera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9749b68f981ce310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6953036-sala-estudio-centro-cultural-juvenil-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE CUESTA 4 En el Centro Cultural Juvenil de Usera"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6953036-sala-estudio-centro-cultural-juvenil-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7074718790538297 40.389856130874605)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6953036-sala-estudio-centro-cultural-juvenil-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.389856130874605,
+        "longitude" : -3.7074718790538297
+	  }
+
+    },
+	{
+      "id" : "4812338",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4812338-sala-estudio-centro-dotacional-integrado-arganzuela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Centro Dotacional Integrado de Arganzuela",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=217024521f048110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4812338-sala-estudio-centro-dotacional-integrado-arganzuela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE CANARIAS 17 Ubicada en el Centro Dotacional Integrado Arganzuela"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4812338-sala-estudio-centro-dotacional-integrado-arganzuela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6955325387824014 40.40207279862862)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4812338-sala-estudio-centro-dotacional-integrado-arganzuela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40207279862862,
+        "longitude" : -3.6955325387824014
+	  }
+
+    },
+	{
+      "id" : "10510680",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10510680-sala-estudio-centro-sociocultural-greco-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Centro Sociocultural El Greco (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bbad79e15d7ee510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10510680-sala-estudio-centro-sociocultural-greco-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28024",
+		"street-address" : "CALLE EL GRECO 29 Con vuelta a calle Villamanín"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10510680-sala-estudio-centro-sociocultural-greco-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7800773802118117 40.382992678408066)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10510680-sala-estudio-centro-sociocultural-greco-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.382992678408066,
+        "longitude" : -3.7800773802118117
+	  }
+
+    },
+	{
+      "id" : "4815051",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815051-sala-estudio-centro-sociocultural-juvenil-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Centro Sociocultural Juvenil Moratalaz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=32c2b51383558110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815051-sala-estudio-centro-sociocultural-juvenil-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE FUENTE CARRANTONA 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815051-sala-estudio-centro-sociocultural-juvenil-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.636898142855895 40.39883403330691)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815051-sala-estudio-centro-sociocultural-juvenil-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39883403330691,
+        "longitude" : -3.636898142855895
+	  }
+
+    },
+	{
+      "id" : "4814996",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4814996-sala-estudio-centro-sociocultural-talleres-creatividad-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Centro Sociocultural Talleres de Creatividad (Puente de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ada6f5fea2558110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4814996-sala-estudio-centro-sociocultural-talleres-creatividad-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE SIERRA CARBONERA 74 Ubicada en el Centro Cultural Talleres de Creatividad"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4814996-sala-estudio-centro-sociocultural-talleres-creatividad-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.665329063724782 40.39009728291889)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4814996-sala-estudio-centro-sociocultural-talleres-creatividad-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39009728291889,
+        "longitude" : -3.665329063724782
+	  }
+
+    },
+	{
+      "id" : "8071924",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8071924-sala-estudio-ciudad-pegaso-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Ciudad Pegaso (San Blas - Canillejas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=df3576e159ead410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8071924-sala-estudio-ciudad-pegaso-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "AVENIDA SÉPTIMA 11 ubicado en el Centro Cultural Ciudad Pegaso"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8071924-sala-estudio-ciudad-pegaso-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5980969888187393 40.448428925762634)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8071924-sala-estudio-ciudad-pegaso-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.448428925762634,
+        "longitude" : -3.5980969888187393
+	  }
+
+    },
+	{
+      "id" : "4814317",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4814317-sala-estudio-canovas-castillo-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Cánovas del Castillo (Usera)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b10c750b1c058110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4814317-sala-estudio-canovas-castillo-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE JULIO AGUIRRE 10 y 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4814317-sala-estudio-canovas-castillo-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7000825227295007 40.38626143332092)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4814317-sala-estudio-canovas-castillo-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38626143332092,
+        "longitude" : -3.7000825227295007
+	  }
+
+    },
+	{
+      "id" : "4815414",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815414-sala-estudio-madrono-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio El Madroño (Vicálvaro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=62c0c0e48a558110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815414-sala-estudio-madrono-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "CALLE VILLARDONDIEGO 36"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815414-sala-estudio-madrono-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6086161200017157 40.405292721436055)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815414-sala-estudio-madrono-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.405292721436055,
+        "longitude" : -3.6086161200017157
+	  }
+
+    },
+	{
+      "id" : "5709413",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5709413-sala-estudio-torito-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio El Torito (Moratalaz)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3874efd1977f8210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5709413-sala-estudio-torito-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "AVENIDA MORATALAZ 130"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5709413-sala-estudio-torito-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.646536107063507 40.40609591857167)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5709413-sala-estudio-torito-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40609591857167,
+        "longitude" : -3.646536107063507
+	  }
+
+    },
+	{
+      "id" : "5753713",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753713-sala-estudio-fernando-lazaro-carreter-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Fernando Lázaro Carreter (Carabanchel)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b0bb1c35f67a9210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753713-sala-estudio-fernando-lazaro-carreter-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE VERDAD 29"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753713-sala-estudio-fernando-lazaro-carreter-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.717140510927299 40.39164343238081)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753713-sala-estudio-fernando-lazaro-carreter-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39164343238081,
+        "longitude" : -3.717140510927299
+	  }
+
+    },
+	{
+      "id" : "6924985",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6924985-sala-estudio-francisco-jose-gonzalez-tejera-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Francisco José González Tejera (Hortaleza)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dd6f094110a5e310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6924985-sala-estudio-francisco-jose-gonzalez-tejera-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE SANTA VIRGILIA 15 ubicada en el Centro Cultural Hortaleza"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6924985-sala-estudio-francisco-jose-gonzalez-tejera-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6420589279590887 40.47685971480448)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6924985-sala-estudio-francisco-jose-gonzalez-tejera-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47685971480448,
+        "longitude" : -3.6420589279590887
+	  }
+
+    },
+	{
+      "id" : "5753557",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753557-sala-estudio-galileo-chamberi",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Galileo (Chamberí)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=08a9964bd47a9210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753557-sala-estudio-galileo-chamberi/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE GALILEO 39"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753557-sala-estudio-galileo-chamberi/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7104543597957758 40.43371190964793)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753557-sala-estudio-galileo-chamberi/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43371190964793,
+        "longitude" : -3.7104543597957758
+	  }
+
+    },
+	{
+      "id" : "8071938",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8071938-sala-estudio-jose-luis-lopez-vazquez-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio José Luis López Vázquez (San Blas - Canillejas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9db676e159ead410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8071938-sala-estudio-jose-luis-lopez-vazquez-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE FEBRERO 4 ubicada en el Centro Cultural Jose Luis López Vázquez"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8071938-sala-estudio-jose-luis-lopez-vazquez-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.572741163820915 40.446818592300296)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8071938-sala-estudio-jose-luis-lopez-vazquez-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.446818592300296,
+        "longitude" : -3.572741163820915
+	  }
+
+    },
+	{
+      "id" : "4813757",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4813757-sala-estudio-julio-cortazar-moncloa-aravaca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Julio Cortázar (Moncloa-Aravaca)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=53918917a2058110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4813757-sala-estudio-julio-cortazar-moncloa-aravaca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "CALLE ANTONIO MACHADO 20 Ubicada en el Centro Cultural Julio Cortázar"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4813757-sala-estudio-julio-cortazar-moncloa-aravaca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7195669111891703 40.46678159096302)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4813757-sala-estudio-julio-cortazar-moncloa-aravaca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46678159096302,
+        "longitude" : -3.7195669111891703
+	  }
+
+    },
+	{
+      "id" : "8000760",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8000760-sala-estudio-lope-vega-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Lope de Vega (Puente de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a190e189b66dc410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8000760-sala-estudio-lope-vega-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE CONCEJO DE TEVERGA 1 PLANTA 2.ª Aula 5 Ubicada en el centro Cultural Lope de Vega"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8000760-sala-estudio-lope-vega-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6718658006661906 40.386293684801885)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8000760-sala-estudio-lope-vega-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.386293684801885,
+        "longitude" : -3.6718658006661906
+	  }
+
+    },
+	{
+      "id" : "4815257",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815257-sala-estudio-rosales",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Los Rosales",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1bcbc1e158558110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815257-sala-estudio-rosales/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "AVENIDA LOS ROSALES 133"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815257-sala-estudio-rosales/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6773064421969233 40.35074797433515)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815257-sala-estudio-rosales/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.35074797433515,
+        "longitude" : -3.6773064421969233
+	  }
+
+    },
+	{
+      "id" : "6468021",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6468021-sala-estudio-luis-garcia-berlanga-tetuan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Luis García Berlanga (Tetuán)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f5abe23a26bd7310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6468021-sala-estudio-luis-garcia-berlanga-tetuan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "CALLE VIÑA VIRGEN 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6468021-sala-estudio-luis-garcia-berlanga-tetuan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6940726509061683 40.46527083469685)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6468021-sala-estudio-luis-garcia-berlanga-tetuan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46527083469685,
+        "longitude" : -3.6940726509061683
+	  }
+
+    },
+	{
+      "id" : "4812602",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4812602-sala-estudio-luis-gonzaga-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Luis Gonzaga (Chamartín)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e653d0a471148110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4812602-sala-estudio-luis-gonzaga-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PRINCIPE DE VERGARA 142 ubicada en el Centro Sociocultural Luis Gonzaga"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4812602-sala-estudio-luis-gonzaga-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6780972922453685 40.44489723228663)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4812602-sala-estudio-luis-gonzaga-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44489723228663,
+        "longitude" : -3.6780972922453685
+	  }
+
+    },
+	{
+      "id" : "5753512",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753512-sala-estudio-maestro-alonso-salamanca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Maestro Alonso (Salamanca)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e894be85b37a9210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753512-sala-estudio-maestro-alonso-salamanca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE MAESTRO ALONSO 6 (ubicada en el Centro Cultural Maestro Alonso)"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753512-sala-estudio-maestro-alonso-salamanca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.664855511110751 40.42938854032785)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753512-sala-estudio-maestro-alonso-salamanca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42938854032785,
+        "longitude" : -3.664855511110751
+	  }
+
+    },
+	{
+      "id" : "4815260",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815260-sala-estudio-marconi",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Marconi",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fcffc1e158558110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815260-sala-estudio-marconi/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "ACCESO COLONIA MARCONI 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815260-sala-estudio-marconi/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.700809560921597 40.334751832113774)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815260-sala-estudio-marconi/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.334751832113774,
+        "longitude" : -3.700809560921597
+	  }
+
+    },
+	{
+      "id" : "8071910",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8071910-sala-estudio-miguel-cervantes-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Miguel de Cervantes (San Blas - Canillejas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4ef476e159ead410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8071910-sala-estudio-miguel-cervantes-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE ALIAGA 5 ubicada en el Centro Cultural Miguel de Cervantes"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8071910-sala-estudio-miguel-cervantes-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.611362970564875 40.43664778776818)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8071910-sala-estudio-miguel-cervantes-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43664778776818,
+        "longitude" : -3.611362970564875
+	  }
+
+    },
+	{
+      "id" : "5753637",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753637-sala-estudio-montecarmelo-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Montecarmelo (Fuencarral - El Pardo)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ae87964bd47a9210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753637-sala-estudio-montecarmelo-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28049",
+		"street-address" : "Avenida Santuario de Valverde 77"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753637-sala-estudio-montecarmelo-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.685946562681175 40.51635495615339)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753637-sala-estudio-montecarmelo-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.51635495615339,
+        "longitude" : -3.685946562681175
+	  }
+
+    },
+	{
+      "id" : "4814223",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4814223-sala-estudio-oporto-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Oporto (Carabanchel)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0295d1a2d9058110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4814223-sala-estudio-oporto-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "AVENIDA OPORTO 78"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4814223-sala-estudio-oporto-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.727740326743959 40.38684744124125)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4814223-sala-estudio-oporto-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38684744124125,
+        "longitude" : -3.727740326743959
+	  }
+
+    },
+	{
+      "id" : "4816516",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4816516-sala-estudio-palacete-quinta-berro-salamanca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Palacete Quinta del Berro (Salamanca)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1947371b6e958110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4816516-sala-estudio-palacete-quinta-berro-salamanca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE ENRIQUE D'ALMONTE 1 ubicada en el Centro Cultural Quinta del Berro"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4816516-sala-estudio-palacete-quinta-berro-salamanca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.662956288628484 40.42206608753629)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4816516-sala-estudio-palacete-quinta-berro-salamanca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42206608753629,
+        "longitude" : -3.662956288628484
+	  }
+
+    },
+	{
+      "id" : "4815493",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815493-sala-estudio-pilares-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Pilares (Barajas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=747e48136c558110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815493-sala-estudio-pilares-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "CALLE LOS PILARES 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815493-sala-estudio-pilares-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.577805996745736 40.47504564286)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815493-sala-estudio-pilares-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47504564286,
+        "longitude" : -3.577805996745736
+	  }
+
+    },
+	{
+      "id" : "5753811",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753811-sala-estudio-san-cristobal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio San Cristóbal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4ae90a3bb87a9210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753811-sala-estudio-san-cristobal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "PLAZA PINAZO 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753811-sala-estudio-san-cristobal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6914487380508842 40.34267317099495)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753811-sala-estudio-san-cristobal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.34267317099495,
+        "longitude" : -3.6914487380508842
+	  }
+
+    },
+	{
+      "id" : "5753730",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753730-sala-estudio-san-francisco-prensa-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio San Francisco La Prensa (Carabanchel)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=79ce1c35f67a9210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753730-sala-estudio-san-francisco-prensa-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE ALISEDA 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753730-sala-estudio-san-francisco-prensa-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.741628055164039 40.3769122761753)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753730-sala-estudio-san-francisco-prensa-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3769122761753,
+        "longitude" : -3.741628055164039
+	  }
+
+    },
+	{
+      "id" : "6478893",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6478893-sala-estudio-sanchinarro-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Sanchinarro (Hortaleza)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=459b10e528908310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6478893-sala-estudio-sanchinarro-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28050",
+		"street-address" : "CALLE PRINCESA DE EBOLI 29 ubicada en el Centro Cultural Sanchinarro"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6478893-sala-estudio-sanchinarro-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.655261744717257 40.49035310157377)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6478893-sala-estudio-sanchinarro-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.49035310157377,
+        "longitude" : -3.655261744717257
+	  }
+
+    },
+	{
+      "id" : "4815268",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815268-sala-estudio-santa-petronila",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Santa Petronila",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5b65c1e158558110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815268-sala-estudio-santa-petronila/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE MARIA MARTINEZ OVIOL 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815268-sala-estudio-santa-petronila/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.691508909255186 40.35087114162283)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815268-sala-estudio-santa-petronila/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.35087114162283,
+        "longitude" : -3.691508909255186
+	  }
+
+    },
+	{
+      "id" : "8026323",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8026323-sala-estudio-siena-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Siena (Ciudad Lineal)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e4e458caf0f1d410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8026323-sala-estudio-siena-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "CALLE SIENA 52 UBICADO EN EL CENTRO CULTURAL SIENA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8026323-sala-estudio-siena-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.651876723048774 40.43316516575713)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8026323-sala-estudio-siena-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43316516575713,
+        "longitude" : -3.651876723048774
+	  }
+
+    },
+	{
+      "id" : "8053162",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8053162-sala-estudio-teresa-calcuta-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Teresa de Calcuta (Barajas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cdee424fc257d410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8053162-sala-estudio-teresa-calcuta-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "PLAZA NAVIO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8053162-sala-estudio-teresa-calcuta-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.587638080172316 40.455320414179944)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8053162-sala-estudio-teresa-calcuta-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.455320414179944,
+        "longitude" : -3.587638080172316
+	  }
+
+    },
+	{
+      "id" : "4815389",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815389-sala-estudio-valdebernardo-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Valdebernardo (Vicálvaro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1dc9c0e48a558110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815389-sala-estudio-valdebernardo-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "BULEVAR INDALECIO PRIETO 21"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815389-sala-estudio-valdebernardo-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.621281890570377 40.39982891410407)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815389-sala-estudio-valdebernardo-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39982891410407,
+        "longitude" : -3.621281890570377
+	  }
+
+    },
+	{
+      "id" : "10107814",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107814-sala-estudio-lectura-arquitecto-juan-herrera-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio y lectura Arquitecto Juan de Herrera (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6a6c61366ded5510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107814-sala-estudio-lectura-arquitecto-juan-herrera-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "CALLE MARIA DEL CARMEN 65"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107814-sala-estudio-lectura-arquitecto-juan-herrera-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7327010920242043 40.40647389284976)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107814-sala-estudio-lectura-arquitecto-juan-herrera-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40647389284976,
+        "longitude" : -3.7327010920242043
+	  }
+
+    },
+	{
+      "id" : "10107379",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107379-sala-estudio-lectura-cayetano-pando-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio y lectura Cayetano Pando (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f565aea7089d5510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107379-sala-estudio-lectura-cayetano-pando-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "CALLE CAYETANO PANDO 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107379-sala-estudio-lectura-cayetano-pando-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.748466414403756 40.40512065478807)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107379-sala-estudio-lectura-cayetano-pando-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40512065478807,
+        "longitude" : -3.748466414403756
+	  }
+
+    },
+	{
+      "id" : "10107362",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107362-sala-estudio-lectura-cebreros-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio y lectura Cebreros (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7d52aea7089d5510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107362-sala-estudio-lectura-cebreros-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "CALLE CEBREROS 66"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107362-sala-estudio-lectura-cebreros-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.748466414403756 40.40512065478807)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107362-sala-estudio-lectura-cebreros-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40512065478807,
+        "longitude" : -3.748466414403756
+	  }
+
+    },
+	{
+      "id" : "10107702",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107702-sala-estudio-lectura-escritor-pedro-repide-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio y lectura Escritor Pedro de Répide (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5e0861366ded5510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107702-sala-estudio-lectura-escritor-pedro-repide-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "CALLE MARIA DEL CARMEN 65"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107702-sala-estudio-lectura-escritor-pedro-repide-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7327010920242043 40.40647389284976)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107702-sala-estudio-lectura-escritor-pedro-repide-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40647389284976,
+        "longitude" : -3.7327010920242043
+	  }
+
+    },
+	{
+      "id" : "8041409",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041409-sala-estudio-lectura-jose-luis-sampedro-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio y lectura José Luis Sampedro (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a3e91f61dd74d410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041409-sala-estudio-lectura-jose-luis-sampedro-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE CASTROSERNA 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041409-sala-estudio-lectura-jose-luis-sampedro-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7491601722547996 40.40179182285599)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041409-sala-estudio-lectura-jose-luis-sampedro-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40179182285599,
+        "longitude" : -3.7491601722547996
+	  }
+
+    },
+	{
+      "id" : "8041433",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041433-sala-estudio-lectura-latina-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio y lectura Latina (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9a9e1f61dd74d410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041433-sala-estudio-lectura-latina-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE RODRIGO DE ARANA 50"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041433-sala-estudio-lectura-latina-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7659493469010017 40.3796456555054)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041433-sala-estudio-lectura-latina-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3796456555054,
+        "longitude" : -3.7659493469010017
+	  }
+
+    },
+	{
+      "id" : "10107309",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107309-sala-estudio-lectura-maqueda-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio y lectura Maqueda (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=afacaea7089d5510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107309-sala-estudio-lectura-maqueda-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "CALLE MAQUEDA 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107309-sala-estudio-lectura-maqueda-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.747465416906973 40.407316328180464)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107309-sala-estudio-lectura-maqueda-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.407316328180464,
+        "longitude" : -3.747465416906973
+	  }
+
+    },
+	{
+      "id" : "8041448",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041448-sala-estudio-lectura-miguel-hernandez-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio y lectura Miguel Hernández (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b3431f61dd74d410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041448-sala-estudio-lectura-miguel-hernandez-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE SERRADILLA 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041448-sala-estudio-lectura-miguel-hernandez-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7819616113032115 40.378853797128336)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041448-sala-estudio-lectura-miguel-hernandez-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.378853797128336,
+        "longitude" : -3.7819616113032115
+	  }
+
+    },
+	{
+      "id" : "10107172",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107172-sala-estudio-lectura-paseo-extremadura-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio y lectura Paseo de Extremadura (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ae857f23530d5510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107172-sala-estudio-lectura-paseo-extremadura-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "PASEO EXTREMADURA 128"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107172-sala-estudio-lectura-paseo-extremadura-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7358157416157276 40.411111789264716)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10107172-sala-estudio-lectura-paseo-extremadura-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.411111789264716,
+        "longitude" : -3.7358157416157276
+	  }
+
+    },
+	{
+      "id" : "8041514",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041514-sala-estudio-lectura-sara-montiel-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio y lectura Sara Montiel (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2cfd68daae74d410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041514-sala-estudio-lectura-sara-montiel-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28024",
+		"street-address" : "CARRETERA BOADILLA DEL MONTE 40"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041514-sala-estudio-lectura-sara-montiel-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7666969961921692 40.398830008074896)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8041514-sala-estudio-lectura-sara-montiel-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.398830008074896,
+        "longitude" : -3.7666969961921692
+	  }
+
+    },
+	{
+      "id" : "7989332",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7989332-sala-estudio-lectura-centro-cultural-californias-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio y lectura del Centro Cultural Las Californias (Retiro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1626bbe4eb1cc410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7989332-sala-estudio-lectura-centro-cultural-californias-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "CALLE LUIS PEIDRO 2 ubicada en el Centro Cultural Luis Peidró"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7989332-sala-estudio-lectura-centro-cultural-californias-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6735395596361586 40.39701377469427)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7989332-sala-estudio-lectura-centro-cultural-californias-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39701377469427,
+        "longitude" : -3.6735395596361586
+	  }
+
+    },
+	{
+      "id" : "4815242",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815242-sala-estudio-agata",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Sala de estudio Ágata",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8a760c4d87558110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815242-sala-estudio-agata/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE DOCTOR MARTIN AREVALO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815242-sala-estudio-agata/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.708524395897377 40.34636268334182)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4815242-sala-estudio-agata/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.34636268334182,
+        "longitude" : -3.708524395897377
+	  }
+
+    },
+	{
+      "id" : "8637537",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8637537-salas-estudio-centro-social-clara-campoamor-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Salas de Estudio del Centro Social Clara Campoamor (Retiro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ad345442c6452510VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8637537-salas-estudio-centro-social-clara-campoamor-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "AVENIDA CIUDAD DE BARCELONA 162"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8637537-salas-estudio-centro-social-clara-campoamor-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.67728148137287 40.402370336363475)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8637537-salas-estudio-centro-social-clara-campoamor-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.402370336363475,
+        "longitude" : -3.67728148137287
+	  }
+
+    },
+	{
+      "id" : "5753771",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753771-salas-estudio-centro-cultural-pozo-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Salas de estudio Centro Cultural El Pozo (Puente de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9a831c35f67a9210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753771-salas-estudio-centro-cultural-pozo-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "AVENIDA DE LAS GLORIETAS 19 Ubicada en el Centro Cultural El Pozo"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753771-salas-estudio-centro-cultural-pozo-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6602546064905397 40.3735856436473)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5753771-salas-estudio-centro-cultural-pozo-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3735856436473,
+        "longitude" : -3.6602546064905397
+	  }
+
+    },
+	{
+      "id" : "7988710",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7988710-salas-estudio-mercado-ibiza-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Salas de estudio Mercado de Ibiza (Retiro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ddfec642771cc410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7988710-salas-estudio-mercado-ibiza-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "CALLE IBIZA 8 PLANTA 1ª ubicada en el Centro Cutural Mercado de Ibiza"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7988710-salas-estudio-mercado-ibiza-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6773809757021385 40.41817164604735)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7988710-salas-estudio-mercado-ibiza-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41817164604735,
+        "longitude" : -3.6773809757021385
+	  }
+
+    }
+  ]
+}

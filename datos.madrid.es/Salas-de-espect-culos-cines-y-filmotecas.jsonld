@@ -1,0 +1,894 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [
+	{
+      "id" : "10276080",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10276080-autocine-madrid-race",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Autocine Madrid RACE",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fea63d5e3af7a510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10276080-autocine-madrid-race/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE ANTONIO DE CABEZON 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10276080-autocine-madrid-race/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.678462261521739 40.485867911156085)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10276080-autocine-madrid-race/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.485867911156085,
+        "longitude" : -3.678462261521739
+	  }
+
+    },
+	{
+      "id" : "7381184",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7381184-centro-comercial-dreams-palacio-municipal-hielo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/PistasPatinaje",
+      "title" : "Centro Comercial Dreams - Palacio Municipal de Hielo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c599006aee194410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7381184-centro-comercial-dreams-palacio-municipal-hielo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE SILVANO 77"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7381184-centro-comercial-dreams-palacio-municipal-hielo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.635733711568097 40.46291274127404)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7381184-centro-comercial-dreams-palacio-municipal-hielo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46291274127404,
+        "longitude" : -3.635733711568097
+	  }
+
+    },
+	{
+      "id" : "17302",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17302-cine-acteon",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Acteón",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b6fb3d232e91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17302-cine-acteon/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE MONTERA 31"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17302-cine-acteon/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.702363924778316 40.41873428725416)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17302-cine-acteon/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41873428725416,
+        "longitude" : -3.702363924778316
+	  }
+
+    },
+	{
+      "id" : "55827",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/55827-cine-artesiete-alcala-full-hd",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Artesiete Alcalá Full HD",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f14c3d232e91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/55827-cine-artesiete-alcala-full-hd/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "CALLE ALCALA 414"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/55827-cine-artesiete-alcala-full-hd/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.638523962349189 40.437446906533594)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/55827-cine-artesiete-alcala-full-hd/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.437446906533594,
+        "longitude" : -3.638523962349189
+	  }
+
+    },
+	{
+      "id" : "6647175",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6647175-cine-artistic-metropol",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Artistic Metropol",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b69b2f335181b310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6647175-cine-artistic-metropol/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE CIGARRERAS 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6647175-cine-artistic-metropol/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.70742856791561 40.404856499695455)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6647175-cine-artistic-metropol/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.404856499695455,
+        "longitude" : -3.70742856791561
+	  }
+
+    },
+	{
+      "id" : "17319",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17319-cine-callao",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Callao",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=142255004e91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17319-cine-callao/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "PLAZA CALLAO 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17319-cine-callao/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7054891255917886 40.42001256069903)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17319-cine-callao/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42001256069903,
+        "longitude" : -3.7054891255917886
+	  }
+
+    },
+	{
+      "id" : "17321",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17321-cine-cinesa-capitol",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Cinesa Capitol",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6dac3d232e91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17321-cine-cinesa-capitol/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 41"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17321-cine-cinesa-capitol/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7065898195198486 40.42043827261684)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17321-cine-cinesa-capitol/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42043827261684,
+        "longitude" : -3.7065898195198486
+	  }
+
+    },
+	{
+      "id" : "17304",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17304-cine-cinesa-gavia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Cinesa La Gavia",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=390c3d232e91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17304-cine-cinesa-gavia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28051",
+		"street-address" : "CALLE ADOLFO BIOY CASARES 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17304-cine-cinesa-gavia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.597512351069017 40.367701522967664)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17304-cine-cinesa-gavia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.367701522967664,
+        "longitude" : -3.597512351069017
+	  }
+
+    },
+	{
+      "id" : "68001",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/68001-cine-cinesa-rosas-3d",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Cinesa Las Rosas 3D",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3c9255004e91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/68001-cine-cinesa-rosas-3d/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "AVENIDA GUADALAJARA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/68001-cine-cinesa-rosas-3d/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6225145335284066 40.41850711270872)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/68001-cine-cinesa-rosas-3d/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41850711270872,
+        "longitude" : -3.6225145335284066
+	  }
+
+    },
+	{
+      "id" : "33938",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/33938-cine-cinesa-mendez-alvaro-3d",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Cinesa Méndez Álvaro 3D",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b32e3d232e91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/33938-cine-cinesa-mendez-alvaro-3d/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE ACANTO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/33938-cine-cinesa-mendez-alvaro-3d/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6755496528510783 40.396524567021544)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/33938-cine-cinesa-mendez-alvaro-3d/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.396524567021544,
+        "longitude" : -3.6755496528510783
+	  }
+
+    },
+	{
+      "id" : "160926",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/160926-cine-cinesa-principe-pio",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Cinesa Príncipe Pío",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=de97051c8d91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/160926-cine-cinesa-principe-pio/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "PASEO FLORIDA Centro de Ocio, Cultura y Comercio Príncipe Pío"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/160926-cine-cinesa-principe-pio/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7209625681527148 40.42078197104075)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/160926-cine-cinesa-principe-pio/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42078197104075,
+        "longitude" : -3.7209625681527148
+	  }
+
+    },
+	{
+      "id" : "137916",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/137916-cine-cinesa-proyecciones-3d",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Cinesa Proyecciones 3D",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2f67051c8d91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/137916-cine-cinesa-proyecciones-3d/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE FUENCARRAL 136"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/137916-cine-cinesa-proyecciones-3d/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7032511074682977 40.43148568058066)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/137916-cine-cinesa-proyecciones-3d/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43148568058066,
+        "longitude" : -3.7032511074682977
+	  }
+
+    },
+	{
+      "id" : "17327",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17327-cine-conde-duque-alberto-aguilera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Conde Duque Alberto Aguilera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=72dc3d232e91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17327-cine-conde-duque-alberto-aguilera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE ALBERTO AGUILERA 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17327-cine-conde-duque-alberto-aguilera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.706593653591267 40.42981664825533)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17327-cine-conde-duque-alberto-aguilera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42981664825533,
+        "longitude" : -3.706593653591267
+	  }
+
+    },
+	{
+      "id" : "10187450",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187450-cine-conde-duque-auditorio-morasol",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Conde Duque Auditorio Morasol",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f8c312e1c4d48510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187450-cine-conde-duque-auditorio-morasol/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PRADILLO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187450-cine-conde-duque-auditorio-morasol/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6759848696172304 40.44826095436997)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10187450-cine-conde-duque-auditorio-morasol/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44826095436997,
+        "longitude" : -3.6759848696172304
+	  }
+
+    },
+	{
+      "id" : "124770",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/124770-cine-conde-duque-goya",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Conde Duque Goya",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e5ec654d9d91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/124770-cine-conde-duque-goya/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE GOYA 67"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/124770-cine-conde-duque-goya/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6796079845954734 40.425122566570735)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/124770-cine-conde-duque-goya/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.425122566570735,
+        "longitude" : -3.6796079845954734
+	  }
+
+    },
+	{
+      "id" : "24407",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24407-cine-conde-duque-santa-engracia-3d",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Conde Duque Santa Engracia 3D",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c2f255004e91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24407-cine-conde-duque-santa-engracia-3d/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE SANTA ENGRACIA 132"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24407-cine-conde-duque-santa-engracia-3d/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.701772948792809 40.442395567766845)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24407-cine-conde-duque-santa-engracia-3d/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.442395567766845,
+        "longitude" : -3.701772948792809
+	  }
+
+    },
+	{
+      "id" : "17314",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17314-cine-estudio-circulo-bellas-artes",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Estudio Círculo de Bellas Artes",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7cfc3d232e91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17314-cine-estudio-circulo-bellas-artes/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALA 42"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17314-cine-estudio-circulo-bellas-artes/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6966084554513072 40.418417756198565)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17314-cine-estudio-circulo-bellas-artes/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.418417756198565,
+        "longitude" : -3.6966084554513072
+	  }
+
+    },
+	{
+      "id" : "17366",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17366-cine-vaguada",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine La Vaguada",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8e8355004e91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17366-cine-vaguada/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE SANTIAGO DE COMPOSTELA C. COMERCIAL MADRID DOS LA VAGUADA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17366-cine-vaguada/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.698194594272782 40.48514678964862)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17366-cine-vaguada/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48514678964862,
+        "longitude" : -3.698194594272782
+	  }
+
+    },
+	{
+      "id" : "129467",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/129467-cine-mk2-palacio-hielo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine mk2 Palacio de Hielo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=442d654d9d91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/129467-cine-mk2-palacio-hielo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE SILVANO 77"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/129467-cine-mk2-palacio-hielo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.636003964017397 40.462803146661386)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/129467-cine-mk2-palacio-hielo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.462803146661386,
+        "longitude" : -3.636003964017397
+	  }
+
+    },
+	{
+      "id" : "17349",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17349-cine-palacio-prensa",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Palacio de la Prensa",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fe3d3d232e91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17349-cine-palacio-prensa/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "PLAZA CALLAO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17349-cine-palacio-prensa/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7055226978126132 40.41984118412432)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17349-cine-palacio-prensa/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41984118412432,
+        "longitude" : -3.7055226978126132
+	  }
+
+    },
+	{
+      "id" : "17351",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17351-cine-paz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Paz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f46d3d232e91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17351-cine-paz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE FUENCARRAL 125"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17351-cine-paz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7034098613735513 40.430881110367864)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17351-cine-paz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.430881110367864,
+        "longitude" : -3.7034098613735513
+	  }
+
+    },
+	{
+      "id" : "17355",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17355-cine-princesa",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Princesa",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fa8d3d232e91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17355-cine-princesa/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE PRINCESA 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17355-cine-princesa/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7128707959595735 40.424733058522776)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17355-cine-princesa/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.424733058522776,
+        "longitude" : -3.7128707959595735
+	  }
+
+    },
+	{
+      "id" : "17358",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17358-cine-renoir-plaza-espana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Renoir Plaza de España",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b1bd3d232e91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17358-cine-renoir-plaza-espana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE MARTIN DE LOS HEROS 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17358-cine-renoir-plaza-espana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7134211001030777 40.424378311873575)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17358-cine-renoir-plaza-espana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.424378311873575,
+        "longitude" : -3.7134211001030777
+	  }
+
+    },
+	{
+      "id" : "58576",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/58576-cine-renoir-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Renoir Retiro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b7dd3d232e91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/58576-cine-renoir-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "CALLE NARVAEZ 42"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/58576-cine-renoir-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6763627973897464 40.42007851600518)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/58576-cine-renoir-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42007851600518,
+        "longitude" : -3.6763627973897464
+	  }
+
+    },
+	{
+      "id" : "5787803",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5787803-cine-sala-berlanga",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Sala Berlanga",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=08025b888b3aa210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5787803-cine-sala-berlanga/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE ANDRES MELLADO 53"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5787803-cine-sala-berlanga/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7144273694875025 40.43592165987274)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5787803-cine-sala-berlanga/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43592165987274,
+        "longitude" : -3.7144273694875025
+	  }
+
+    },
+	{
+      "id" : "91099",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91099-cine-verdi-hd",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Verdi HD",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b63e3d232e91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91099-cine-verdi-hd/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE BRAVO MURILLO 28"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91099-cine-verdi-hd/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.70408281907753 40.43662476624267)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91099-cine-verdi-hd/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43662476624267,
+        "longitude" : -3.70408281907753
+	  }
+
+    },
+	{
+      "id" : "30455",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/30455-cine-victoria",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cine Victoria",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=394e3d232e91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/30455-cine-victoria/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE FRANCISCO SILVELA 48"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/30455-cine-victoria/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6737332830250886 40.43416598323624)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/30455-cine-victoria/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43416598323624,
+        "longitude" : -3.6737332830250886
+	  }
+
+    },
+	{
+      "id" : "5548871",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5548871-cines-yelmo-islazul",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cines Yelmo Islazul",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2bc4a4cc80056210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5548871-cines-yelmo-islazul/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28054",
+		"street-address" : "CALLE CALDERILLA 1 CENTRO COMERCIAL ISLAZUL"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5548871-cines-yelmo-islazul/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.737931015705989 40.3652060762759)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5548871-cines-yelmo-islazul/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3652060762759,
+        "longitude" : -3.737931015705989
+	  }
+
+    },
+	{
+      "id" : "4549928",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4549928-cinesa-manoteras",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cinesa Manoteras",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1eb86f91462a1110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4549928-cinesa-manoteras/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28050",
+		"street-address" : "AVENIDA MANOTERAS 40"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4549928-cinesa-manoteras/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6654142365599194 40.48604287095553)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4549928-cinesa-manoteras/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48604287095553,
+        "longitude" : -3.6654142365599194
+	  }
+
+    },
+	{
+      "id" : "6963310",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6963310-cineteca-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Cineteca Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2dbd1fe44c5ee310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6963310-cineteca-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PLAZA LEGAZPI 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6963310-cineteca-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6958079719260075 40.391053041229135)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6963310-cineteca-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.391053041229135,
+        "longitude" : -3.6958079719260075
+	  }
+
+    },
+	{
+      "id" : "2044",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2044-filmoteca-espanola-cine-dore",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Filmoteca Española. Cine Doré",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1c1f3d232e91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2044-filmoteca-espanola-cine-dore/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE SANTA ISABEL 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2044-filmoteca-espanola-cine-dore/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.69922751452095 40.411807323876616)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2044-filmoteca-espanola-cine-dore/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.411807323876616,
+        "longitude" : -3.69922751452095
+	  }
+
+    },
+	{
+      "id" : "43002",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/43002-pequeno-cine-estudio",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CinesFilmotecas",
+      "title" : "Pequeño Cine Estudio",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f77d3d232e91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/43002-pequeno-cine-estudio/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE MAGALLANES 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/43002-pequeno-cine-estudio/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.705430315372582 40.4324363685589)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/43002-pequeno-cine-estudio/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4324363685589,
+        "longitude" : -3.705430315372582
+	  }
+
+    }
+  ]
+}

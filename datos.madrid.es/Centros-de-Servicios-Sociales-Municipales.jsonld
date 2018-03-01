@@ -1,0 +1,1082 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "84763",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/84763-centro-comunitario-casino-reina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro Comunitario Casino de la Reina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=326f38d60b41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/84763-centro-comunitario-casino-reina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE CASINO 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/84763-centro-comunitario-casino-reina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7046086019457167 40.406792648617134)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/84763-centro-comunitario-casino-reina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.406792648617134,
+        "longitude" : -3.7046086019457167
+	  }
+
+    },
+	{
+      "id" : "10269952",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10269952-centro-socio-comunitario-colonias-historicas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro Socio Comunitario Colonias Históricas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fc8e5fb87db5a510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10269952-centro-socio-comunitario-colonias-historicas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28016",
+		"street-address" : "CALLE ENRIQUE JARDIEL PONCELA 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10269952-centro-socio-comunitario-colonias-historicas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6700725698826675 40.460889951689694)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10269952-centro-socio-comunitario-colonias-historicas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.460889951689694,
+        "longitude" : -3.6700725698826675
+	  }
+
+    },
+	{
+      "id" : "11962",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11962-centro-servicios-sociales-badalona",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Badalona",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7e42d4985261c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11962-centro-servicios-sociales-badalona/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE BADALONA 122"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11962-centro-servicios-sociales-badalona/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.696677139485103 40.49357929928593)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11962-centro-servicios-sociales-badalona/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.49357929928593,
+        "longitude" : -3.696677139485103
+	  }
+
+    },
+	{
+      "id" : "11977",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11977-centro-servicios-sociales-calahorra",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Calahorra",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=11b966051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11977-centro-servicios-sociales-calahorra/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "CALLE CALAHORRA 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11977-centro-servicios-sociales-calahorra/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6127431819124416 40.406847513994755)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11977-centro-servicios-sociales-calahorra/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.406847513994755,
+        "longitude" : -3.6127431819124416
+	  }
+
+    },
+	{
+      "id" : "11978",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11978-centro-servicios-sociales-concepcion-arenal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Concepción Arenal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ca8966051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11978-centro-servicios-sociales-concepcion-arenal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE JAVIER DEL QUINTO 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11978-centro-servicios-sociales-concepcion-arenal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6422084742926653 40.46655261519155)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11978-centro-servicios-sociales-concepcion-arenal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46655261519155,
+        "longitude" : -3.6422084742926653
+	  }
+
+    },
+	{
+      "id" : "11961",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11961-centro-servicios-sociales-dehesa-villa",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Dehesa de la Villa",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=67d966051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11961-centro-servicios-sociales-dehesa-villa/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "CALLE ANTONIO MACHADO 22"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11961-centro-servicios-sociales-dehesa-villa/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7195114936540987 40.46711526748946)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11961-centro-servicios-sociales-dehesa-villa/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46711526748946,
+        "longitude" : -3.7195114936540987
+	  }
+
+    },
+	{
+      "id" : "11954",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11954-centro-servicios-sociales-eduardo-minguito",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Eduardo Minguito",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6c3c66051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11954-centro-servicios-sociales-eduardo-minguito/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE LEONOR GONGORA 62"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11954-centro-servicios-sociales-eduardo-minguito/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.686539661954902 40.34854935708132)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11954-centro-servicios-sociales-eduardo-minguito/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.34854935708132,
+        "longitude" : -3.686539661954902
+	  }
+
+    },
+	{
+      "id" : "11957",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11957-centro-servicios-sociales-entrevias",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Entrevías",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bdf966051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11957-centro-servicios-sociales-entrevias/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE YUSTE 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11957-centro-servicios-sociales-entrevias/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6692821142332264 40.37641666740886)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11957-centro-servicios-sociales-entrevias/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37641666740886,
+        "longitude" : -3.6692821142332264
+	  }
+
+    },
+	{
+      "id" : "11979",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11979-centro-servicios-sociales-fuente-carrantona",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Fuente Carrantona",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=042a66051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11979-centro-servicios-sociales-fuente-carrantona/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE FUENTE CARRANTONA 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11979-centro-servicios-sociales-fuente-carrantona/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6354058846496793 40.40179722425483)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11979-centro-servicios-sociales-fuente-carrantona/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40179722425483,
+        "longitude" : -3.6354058846496793
+	  }
+
+    },
+	{
+      "id" : "6255479",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6255479-centro-servicios-sociales-fuerte-navidad",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Fuerte de Navidad",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ff96857d40ef3310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6255479-centro-servicios-sociales-fuerte-navidad/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE FUERTE DE NAVIDAD 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6255479-centro-servicios-sociales-fuerte-navidad/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7657241589764547 40.380566072889415)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6255479-centro-servicios-sociales-fuerte-navidad/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.380566072889415,
+        "longitude" : -3.7657241589764547
+	  }
+
+    },
+	{
+      "id" : "11981",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11981-centro-servicios-sociales-gallur",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Gallur",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a07a66051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11981-centro-servicios-sociales-gallur/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE GALLUR 24"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11981-centro-servicios-sociales-gallur/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.741242653897222 40.39763562192633)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11981-centro-servicios-sociales-gallur/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39763562192633,
+        "longitude" : -3.741242653897222
+	  }
+
+    },
+	{
+      "id" : "11966",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11966-centro-servicios-sociales-guindalera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Guindalera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f69a66051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11966-centro-servicios-sociales-guindalera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE PILAR DE ZARAGOZA 28"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11966-centro-servicios-sociales-guindalera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6691167784691703 40.43349910050292)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11966-centro-servicios-sociales-guindalera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43349910050292,
+        "longitude" : -3.6691167784691703
+	  }
+
+    },
+	{
+      "id" : "5886896",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5886896-centro-servicios-sociales-huerta-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Huerta de Villaverde",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9ecc8ef4e77ac210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5886896-centro-servicios-sociales-huerta-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE HUERTA DE VILLAVERDE (JUNTA MUNICIPAL DISTRITO) 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5886896-centro-servicios-sociales-huerta-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7092727813976794 40.348114880237965)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5886896-centro-servicios-sociales-huerta-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.348114880237965,
+        "longitude" : -3.7092727813976794
+	  }
+
+    },
+	{
+      "id" : "11970",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11970-centro-servicios-sociales-jose-villarreal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Jose Villarreal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=746966051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11970-centro-servicios-sociales-jose-villarreal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE GUILLERMO DE OSMA 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11970-centro-servicios-sociales-jose-villarreal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.697052144961612 40.39401854488283)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11970-centro-servicios-sociales-jose-villarreal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39401854488283,
+        "longitude" : -3.697052144961612
+	  }
+
+    },
+	{
+      "id" : "4821180",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4821180-centro-servicios-sociales-loyola-palacio",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Loyola de Palacio",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a4bea27cd8978110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4821180-centro-servicios-sociales-loyola-palacio/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE DE LA SILVINA 10 PLANTA 2ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4821180-centro-servicios-sociales-loyola-palacio/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6916666866352674 40.36631185725801)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4821180-centro-servicios-sociales-loyola-palacio/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.36631185725801,
+        "longitude" : -3.6916666866352674
+	  }
+
+    },
+	{
+      "id" : "11955",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11955-centro-servicios-sociales-luis-vives",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Luis Vives",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4dba66051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11955-centro-servicios-sociales-luis-vives/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "AVENIDA INSTITUCION LIBRE DE ENSE&Ntilde;ANZA 160"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11955-centro-servicios-sociales-luis-vives/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.628588601009724 40.423960764556284)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11955-centro-servicios-sociales-luis-vives/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.423960764556284,
+        "longitude" : -3.628588601009724
+	  }
+
+    },
+	{
+      "id" : "174917",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174917-centro-servicios-sociales-maravillas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Maravillas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=06fd14c4d661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174917-centro-servicios-sociales-maravillas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE SAN JOAQUIN 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174917-centro-servicios-sociales-maravillas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7014702220707294 40.42461360444157)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/174917-centro-servicios-sociales-maravillas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42461360444157,
+        "longitude" : -3.7014702220707294
+	  }
+
+    },
+	{
+      "id" : "11963",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11963-centro-servicios-sociales-marta-esquivias-tallada",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Marta Esquivias Tallada",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5a4a66051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11963-centro-servicios-sociales-marta-esquivias-tallada/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE PONTEVEDRA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11963-centro-servicios-sociales-marta-esquivias-tallada/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7104868511329454 40.43455855726328)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11963-centro-servicios-sociales-marta-esquivias-tallada/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43455855726328,
+        "longitude" : -3.7104868511329454
+	  }
+
+    },
+	{
+      "id" : "55076",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/55076-centro-servicios-sociales-maria-zayas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales María Zayas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5a56b3e42751c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/55076-centro-servicios-sociales-maria-zayas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "TRAVESIA MARIA ZAYAS 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/55076-centro-servicios-sociales-maria-zayas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7013601236182874 40.459398038881886)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/55076-centro-servicios-sociales-maria-zayas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.459398038881886,
+        "longitude" : -3.7013601236182874
+	  }
+
+    },
+	{
+      "id" : "11959",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11959-centro-servicios-sociales-monsenor-oscar-romero",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Monseñor Oscar Romero",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=93ea66051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11959-centro-servicios-sociales-monsenor-oscar-romero/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE MONSEÑOR OSCAR ROMERO 42"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11959-centro-servicios-sociales-monsenor-oscar-romero/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.744486133499755 40.381857918294784)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11959-centro-servicios-sociales-monsenor-oscar-romero/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.381857918294784,
+        "longitude" : -3.744486133499755
+	  }
+
+    },
+	{
+      "id" : "5211604",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5211604-centro-servicios-sociales-pablo-casals",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Pablo Casals",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f2b7e6ad5aade110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5211604-centro-servicios-sociales-pablo-casals/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE POBLADURA DEL VALLE 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5211604-centro-servicios-sociales-pablo-casals/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6196258294576653 40.42612627597509)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5211604-centro-servicios-sociales-pablo-casals/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42612627597509,
+        "longitude" : -3.6196258294576653
+	  }
+
+    },
+	{
+      "id" : "11972",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11972-centro-servicios-sociales-pablo-neruda",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Pablo Neruda",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e90b66051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11972-centro-servicios-sociales-pablo-neruda/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "CALLE GERARDO DIEGO 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11972-centro-servicios-sociales-pablo-neruda/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6444628142076514 40.385179370371446)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11972-centro-servicios-sociales-pablo-neruda/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.385179370371446,
+        "longitude" : -3.6444628142076514
+	  }
+
+    },
+	{
+      "id" : "165907",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165907-centro-servicios-sociales-plaza-eliptica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Plaza Elíptica",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=19369475d381c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165907-centro-servicios-sociales-plaza-eliptica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE ANTONIO DE LEYVA 86"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165907-centro-servicios-sociales-plaza-eliptica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.717365633719129 40.386209559998555)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165907-centro-servicios-sociales-plaza-eliptica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.386209559998555,
+        "longitude" : -3.717365633719129
+	  }
+
+    },
+	{
+      "id" : "11965",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11965-centro-servicios-sociales-puerta-toledo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Puerta de Toledo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=303b66051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11965-centro-servicios-sociales-puerta-toledo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE PALOMA 39"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11965-centro-servicios-sociales-puerta-toledo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.711582703514813 40.40765084302009)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11965-centro-servicios-sociales-puerta-toledo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40765084302009,
+        "longitude" : -3.711582703514813
+	  }
+
+    },
+	{
+      "id" : "11973",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11973-centro-servicios-sociales-ramon-perez-ayala",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Ramón Pérez de Ayala",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=865b66051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11973-centro-servicios-sociales-ramon-perez-ayala/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CALLE MARISMAS 24 c/v Ramón Pérez de Ayala s/n"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11973-centro-servicios-sociales-ramon-perez-ayala/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6534549961219147 40.401327256909376)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11973-centro-servicios-sociales-ramon-perez-ayala/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.401327256909376,
+        "longitude" : -3.6534549961219147
+	  }
+
+    },
+	{
+      "id" : "11971",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11971-centro-servicios-sociales-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Retiro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dc7b66051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11971-centro-servicios-sociales-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "CALLE JOSE MARTINEZ DE VELASCO 22"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11971-centro-servicios-sociales-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.667774590446818 40.41461489944016)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11971-centro-servicios-sociales-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41461489944016,
+        "longitude" : -3.667774590446818
+	  }
+
+    },
+	{
+      "id" : "49836",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/49836-centro-servicios-sociales-san-diego",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales San Diego",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=41b3598d1351c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/49836-centro-servicios-sociales-san-diego/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "CALLE JAVIER DE MIGUEL 10 C/V A C/ CARLOS MARTíN ALVAREZ"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/49836-centro-servicios-sociales-san-diego/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.663689575700872 40.38871930363662)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/49836-centro-servicios-sociales-san-diego/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38871930363662,
+        "longitude" : -3.663689575700872
+	  }
+
+    },
+	{
+      "id" : "11958",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11958-centro-servicios-sociales-san-filiberto",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales San Filiberto",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=79cb66051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11958-centro-servicios-sociales-san-filiberto/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE SAN FILIBERTO 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11958-centro-servicios-sociales-san-filiberto/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7151818881165277 40.38581767783423)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11958-centro-servicios-sociales-san-filiberto/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38581767783423,
+        "longitude" : -3.7151818881165277
+	  }
+
+    },
+	{
+      "id" : "5865468",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5865468-centro-servicios-sociales-san-vicente-paul",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales San Vicente de Paul",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4efaf29b4725c210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5865468-centro-servicios-sociales-san-vicente-paul/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "CALLE BUITRAGO DEL LOZOYA 22"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5865468-centro-servicios-sociales-san-vicente-paul/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.716607833008478 40.47248462688415)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5865468-centro-servicios-sociales-san-vicente-paul/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47248462688415,
+        "longitude" : -3.716607833008478
+	  }
+
+    },
+	{
+      "id" : "6552184",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6552184-centro-servicios-sociales-santa-felicidad",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Santa Felicidad",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a27519363a099310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6552184-centro-servicios-sociales-santa-felicidad/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "CALLE SANTA FELICIDAD 37"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6552184-centro-servicios-sociales-santa-felicidad/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6503555607280367 40.42457010006919)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6552184-centro-servicios-sociales-santa-felicidad/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42457010006919,
+        "longitude" : -3.6503555607280367
+	  }
+
+    },
+	{
+      "id" : "11967",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11967-centro-servicios-sociales-santa-hortensia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Santa Hortensia",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cfeb66051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11967-centro-servicios-sociales-santa-hortensia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE SANTA HORTENSIA 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11967-centro-servicios-sociales-santa-hortensia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6691931472225465 40.44476894081767)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11967-centro-servicios-sociales-santa-hortensia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44476894081767,
+        "longitude" : -3.6691931472225465
+	  }
+
+    },
+	{
+      "id" : "36367",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36367-centro-servicios-sociales-teresa-calcuta",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Teresa de Calcuta",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a086b3e42751c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36367-centro-servicios-sociales-teresa-calcuta/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "PLAZA NAVIO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36367-centro-servicios-sociales-teresa-calcuta/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.587638001688095 40.45531140556268)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36367-centro-servicios-sociales-teresa-calcuta/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45531140556268,
+        "longitude" : -3.587638001688095
+	  }
+
+    },
+	{
+      "id" : "11974",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11974-centro-servicios-sociales-torre-arias",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Torre Arias",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=23ab66051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11974-centro-servicios-sociales-torre-arias/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE TORRE ARIAS 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11974-centro-servicios-sociales-torre-arias/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6123577639630957 40.446228131783236)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11974-centro-servicios-sociales-torre-arias/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.446228131783236,
+        "longitude" : -3.6123577639630957
+	  }
+
+    },
+	{
+      "id" : "5169789",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5169789-centro-servicios-sociales-valdebernardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Valdebernardo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a6fb665e5dead110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5169789-centro-servicios-sociales-valdebernardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "CALLE LADERA DE LOS ALMENDROS 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5169789-centro-servicios-sociales-valdebernardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.623339471293246 40.40316021249795)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5169789-centro-servicios-sociales-valdebernardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40316021249795,
+        "longitude" : -3.623339471293246
+	  }
+
+    },
+	{
+      "id" : "5711384",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5711384-centro-servicios-sociales-vicente-ferrer",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Vicente Ferrer",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=299dd12d14209210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5711384-centro-servicios-sociales-vicente-ferrer/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "CALLE MATILDE LANDA 30"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5711384-centro-servicios-sociales-vicente-ferrer/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6940834942003504 40.47319865861951)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5711384-centro-servicios-sociales-vicente-ferrer/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47319865861951,
+        "longitude" : -3.6940834942003504
+	  }
+
+    },
+	{
+      "id" : "11968",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11968-centro-servicios-sociales-villa-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Villa de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=161c66051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11968-centro-servicios-sociales-villa-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE PE&Ntilde;A VEIGA 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11968-centro-servicios-sociales-villa-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6232420703605728 40.377259553937364)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11968-centro-servicios-sociales-villa-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.377259553937364,
+        "longitude" : -3.6232420703605728
+	  }
+
+    },
+	{
+      "id" : "11960",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11960-centro-servicios-sociales-yebenes",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Yébenes",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b26c66051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11960-centro-servicios-sociales-yebenes/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE LOS YEBENES 241"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11960-centro-servicios-sociales-yebenes/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7512812696024738 40.391183407465824)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11960-centro-servicios-sociales-yebenes/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.391183407465824,
+        "longitude" : -3.7512812696024738
+	  }
+
+    },
+	{
+      "id" : "5211603",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5211603-centro-servicios-sociales-zaida",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Centro de Servicios Sociales Zaida",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=88516a937aade110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5211603-centro-servicios-sociales-zaida/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE ZAIDA 36"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5211603-centro-servicios-sociales-zaida/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7360816376660386 40.39332622277917)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5211603-centro-servicios-sociales-zaida/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39332622277917,
+        "longitude" : -3.7360816376660386
+	  }
+
+    },
+	{
+      "id" : "10045041",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10045041-punto-atencion-social-centro-municipal-mayores-castilla",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/CentrosServiciosSociales",
+      "title" : "Punto de Atención Social - Centro Municipal de Mayores Castilla",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3aaf678c36a24510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10045041-punto-atencion-social-centro-municipal-mayores-castilla/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PASEO CASTELLANA 304"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10045041-punto-atencion-social-centro-municipal-mayores-castilla/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.68487922341459 40.48105532122308)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10045041-punto-atencion-social-centro-municipal-mayores-castilla/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48105532122308,
+        "longitude" : -3.68487922341459
+	  }
+
+    }
+  ]
+}

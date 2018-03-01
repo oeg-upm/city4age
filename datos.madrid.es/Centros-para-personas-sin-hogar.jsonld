@@ -1,0 +1,353 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "4619827",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4619827-centro-abierto-ii-personas-hogar-geranios",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/AlberguesSocialesCentrosAcogida",
+      "title" : "Centro Abierto II para personas sin hogar 'Geranios'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cbb7f0ff65204110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4619827-centro-abierto-ii-personas-hogar-geranios/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "CALLE GERANIOS 26"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4619827-centro-abierto-ii-personas-hogar-geranios/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.693562914914793 40.47190449342552)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4619827-centro-abierto-ii-personas-hogar-geranios/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47190449342552,
+        "longitude" : -3.693562914914793
+	  }
+
+    },
+	{
+      "id" : "4730799",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4730799-centro-abierto-municipal-personas-hogar-catalina-laboure",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/AlberguesSocialesCentrosAcogida",
+      "title" : "Centro Abierto Municipal para Personas Sin Hogar 'Catalina Labouré'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4b0551ed741a7110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4730799-centro-abierto-municipal-personas-hogar-catalina-laboure/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE POZAS 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4730799-centro-abierto-municipal-personas-hogar-catalina-laboure/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.70657424322161 40.42458252295717)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4730799-centro-abierto-municipal-personas-hogar-catalina-laboure/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42458252295717,
+        "longitude" : -3.70657424322161
+	  }
+
+    },
+	{
+      "id" : "166878",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/166878-centro-abierto-personas-hogar-rosa",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/AlberguesSocialesCentrosAcogida",
+      "title" : "Centro Abierto para Personas Sin Hogar La Rosa",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1830085f5181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/166878-centro-abierto-personas-hogar-rosa/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "PASEO REY 36"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/166878-centro-abierto-personas-hogar-rosa/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.723624033247992 40.426044632775124)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/166878-centro-abierto-personas-hogar-rosa/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.426044632775124,
+        "longitude" : -3.723624033247992
+	  }
+
+    },
+	{
+      "id" : "5428135",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5428135-centro-acogida-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/AlberguesSocialesCentrosAcogida",
+      "title" : "Centro de Acogida 'Ciudad Lineal'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=af2fb3690e404210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5428135-centro-acogida-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "PASEO GENERAL MARTINEZ CAMPOS 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5428135-centro-acogida-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.695941329828033 40.43489028042732)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5428135-centro-acogida-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43489028042732,
+        "longitude" : -3.695941329828033
+	  }
+
+    },
+	{
+      "id" : "4564055",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4564055-centro-acogida-municipal-personas-hogar-juan-luis-vives",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/AlberguesSocialesCentrosAcogida",
+      "title" : "Centro de Acogida Municipal Para Personas Sin Hogar 'Juan Luis Vives'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e13853a201322110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4564055-centro-acogida-municipal-personas-hogar-juan-luis-vives/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28052",
+		"street-address" : "CALLE ALCALDE JUAN DE MATA SEVILLANO 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4564055-centro-acogida-municipal-personas-hogar-juan-luis-vives/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5851334414349343 40.39904451044602)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4564055-centro-acogida-municipal-personas-hogar-juan-luis-vives/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39904451044602,
+        "longitude" : -3.5851334414349343
+	  }
+
+    },
+	{
+      "id" : "11850",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11850-centro-acogida-municipal-personas-hogar-san-isidro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/AlberguesSocialesCentrosAcogida",
+      "title" : "Centro de Acogida Municipal Para Personas Sin Hogar San Isidro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2bec66051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11850-centro-acogida-municipal-personas-hogar-san-isidro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "PASEO REY 34"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11850-centro-acogida-municipal-personas-hogar-san-isidro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7225889519675133 40.425159213661665)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11850-centro-acogida-municipal-personas-hogar-san-isidro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.425159213661665,
+        "longitude" : -3.7225889519675133
+	  }
+
+    },
+	{
+      "id" : "11856",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11856-centro-acogida-municipal-personas-hogar-puerta-abierta",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/AlberguesSocialesCentrosAcogida",
+      "title" : "Centro de Acogida Municipal para Personas Sin Hogar - Puerta Abierta",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d4cc66051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11856-centro-acogida-municipal-personas-hogar-puerta-abierta/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE PINAR DE SAN JOSE 104"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11856-centro-acogida-municipal-personas-hogar-puerta-abierta/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.776049860378445 40.36362321657026)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11856-centro-acogida-municipal-personas-hogar-puerta-abierta/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.36362321657026,
+        "longitude" : -3.776049860378445
+	  }
+
+    },
+	{
+      "id" : "6323009",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6323009-centro-acogida-emergencia-personas-hogar-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/AlberguesSocialesCentrosAcogida",
+      "title" : "Centro de Acogida de Emergencia para personas sin hogar Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=35060e1cbf585310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6323009-centro-acogida-emergencia-personas-hogar-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CAMINO POZO DEL TIO RAIMUNDO 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6323009-centro-acogida-emergencia-personas-hogar-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6500028877976223 40.37321128214791)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6323009-centro-acogida-emergencia-personas-hogar-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37321128214791,
+        "longitude" : -3.6500028877976223
+	  }
+
+    },
+	{
+      "id" : "6322988",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322988-centro-dia-acogida-emergencia-personas-hogar-pinar-san-jose",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/AlberguesSocialesCentrosAcogida",
+      "title" : "Centro de Día Acogida de Emergencia para personas sin hogar Pinar de San José",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7b520e1cbf585310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322988-centro-dia-acogida-emergencia-personas-hogar-pinar-san-jose/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE PINAR DE SAN JOSE 106"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322988-centro-dia-acogida-emergencia-personas-hogar-pinar-san-jose/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.776461943528168 40.363611441480245)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322988-centro-dia-acogida-emergencia-personas-hogar-pinar-san-jose/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.363611441480245,
+        "longitude" : -3.776461943528168
+	  }
+
+    },
+	{
+      "id" : "5309217",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5309217-centro-acogida-familias-inmigrantes-valdelatas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/AlberguesSocialesCentrosAcogida",
+      "title" : "Centro de acogida a familias inmigrantes - Valdelatas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bf6b1d53a63d0210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5309217-centro-acogida-familias-inmigrantes-valdelatas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28049",
+		"street-address" : "CARRETERA M-607 1410"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5309217-centro-acogida-familias-inmigrantes-valdelatas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.689032503640983 40.52606619329818)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5309217-centro-acogida-familias-inmigrantes-valdelatas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52606619329818,
+        "longitude" : -3.689032503640983
+	  }
+
+    },
+	{
+      "id" : "5433188",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5433188-hijas-caridad-programa-integral-vicente-paul",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/AlberguesSocialesCentrosAcogida",
+      "title" : "Hijas de la Caridad. Programa integral Vicente de Paul",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8955414496324210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5433188-hijas-caridad-programa-integral-vicente-paul/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "PASEO GENERAL MARTINEZ CAMPOS 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5433188-hijas-caridad-programa-integral-vicente-paul/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.695941329828033 40.43489028042732)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5433188-hijas-caridad-programa-integral-vicente-paul/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43489028042732,
+        "longitude" : -3.695941329828033
+	  }
+
+    },
+	{
+      "id" : "5755755",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5755755-piso-apoyo-al-tratamiento-personas-hogar",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial/AlberguesSocialesCentrosAcogida",
+      "title" : "Piso de Apoyo al Tratamiento para Personas Sin Hogar",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a167282b2e0b9210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5755755-piso-apoyo-al-tratamiento-personas-hogar/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PLAZA GENERAL MAROTO 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5755755-piso-apoyo-al-tratamiento-personas-hogar/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.697799792975827 40.39339240890342)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5755755-piso-apoyo-al-tratamiento-personas-hogar/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39339240890342,
+        "longitude" : -3.697799792975827
+	  }
+
+    }
+  ]
+}

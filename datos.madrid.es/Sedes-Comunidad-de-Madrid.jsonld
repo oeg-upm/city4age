@@ -1,0 +1,3296 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "13048",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13048-agencia-vivienda-social-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Agencia de la vivienda social de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f8bc92355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13048-agencia-vivienda-social-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE BASILICA 23"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13048-agencia-vivienda-social-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6976216380211238 40.44916843564588)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13048-agencia-vivienda-social-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44916843564588,
+        "longitude" : -3.6976216380211238
+	  }
+
+    },
+	{
+      "id" : "514",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/514-agencia-vivienda-social-madrid-oficina-asistencia-materia-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Agencia de la vivienda social de Madrid. Oficina de Asistencia en Materia de Registro.",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=732529ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/514-agencia-vivienda-social-madrid-oficina-asistencia-materia-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE BASILICA 23"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/514-agencia-vivienda-social-madrid-oficina-asistencia-materia-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.697633429906681 40.44916836448063)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/514-agencia-vivienda-social-madrid-oficina-asistencia-materia-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44916836448063,
+        "longitude" : -3.697633429906681
+	  }
+
+    },
+	{
+      "id" : "10123688",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10123688-agencia-vivienda-social-comunidad-madrid-oficina-auxiliar-materia-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Agencia de Vivienda Social de la Comunidad de Madrid. Oficina Auxiliar en Materia de Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5a41b9be79bb6510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10123688-agencia-vivienda-social-comunidad-madrid-oficina-auxiliar-materia-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "AVENIDA ASTURIAS 39"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10123688-agencia-vivienda-social-comunidad-madrid-oficina-auxiliar-materia-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6960257996561263 40.46936717881205)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10123688-agencia-vivienda-social-comunidad-madrid-oficina-auxiliar-materia-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46936717881205,
+        "longitude" : -3.6960257996561263
+	  }
+
+    },
+	{
+      "id" : "6629707",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6629707-agencia-reeducacion-reinsercion-menor-infractor-oficina-asistencia-materia-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OficinasRegistro",
+      "title" : "Agencia para la Reeducación y Reinserción del Menor Infractor. Oficina de Asistencia en Materia de Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cf9e0e34f51ca310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6629707-agencia-reeducacion-reinsercion-menor-infractor-oficina-asistencia-materia-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE ALBASANZ 2 PLANTA 1ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6629707-agencia-reeducacion-reinsercion-menor-infractor-oficina-asistencia-materia-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.635162133483521 40.43478073452486)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6629707-agencia-reeducacion-reinsercion-menor-infractor-oficina-asistencia-materia-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43478073452486,
+        "longitude" : -3.635162133483521
+	  }
+
+    },
+	{
+      "id" : "1738",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1738-archivo-historico-protocolos-madrid-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ArchivosCentrosDocumentacion",
+      "title" : "Archivo Histórico de Protocolos de Madrid. Comunidad de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f4ef76172d71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1738-archivo-historico-protocolos-madrid-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE RAMIREZ DE PRADO 3 Complejo El Águila"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1738-archivo-historico-protocolos-madrid-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.690042467266191 40.39990747999322)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1738-archivo-historico-protocolos-madrid-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39990747999322,
+        "longitude" : -3.690042467266191
+	  }
+
+    },
+	{
+      "id" : "24",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24-asamblea-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/ConsejeriasAsambleaPresidenciaCAM",
+      "title" : "Asamblea de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=de85ff632081c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24-asamblea-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "PLAZA ASAMBLEA DE MADRID 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24-asamblea-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.663497038184888 40.38230592719368)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24-asamblea-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38230592719368,
+        "longitude" : -3.663497038184888
+	  }
+
+    },
+	{
+      "id" : "4649",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4649-boletin-oficial-comunidad-madrid-bocm",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Boletín Oficial de la Comunidad de Madrid (BOCM)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7306821c3771c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4649-boletin-oficial-comunidad-madrid-bocm/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE FORTUNY 51"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4649-boletin-oficial-comunidad-madrid-bocm/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.690265374866929 40.43441079647657)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4649-boletin-oficial-comunidad-madrid-bocm/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43441079647657,
+        "longitude" : -3.690265374866929
+	  }
+
+    },
+	{
+      "id" : "526",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/526-boletin-oficial-comunidad-madrid-oficina-asistencia-materia-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Boletín Oficial de la Comunidad de Madrid. Oficina de Asistencia en Materia de Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6a2229ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/526-boletin-oficial-comunidad-madrid-oficina-asistencia-materia-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE FORTUNY 51"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/526-boletin-oficial-comunidad-madrid-oficina-asistencia-materia-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6902771641925005 40.434410726082795)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/526-boletin-oficial-comunidad-madrid-oficina-asistencia-materia-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.434410726082795,
+        "longitude" : -3.6902771641925005
+	  }
+
+    },
+	{
+      "id" : "12763",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12763-camara-agraria-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Cámara Agraria de la Comunidad de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=810ce35bba51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12763-camara-agraria-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "PASEO PUERTA DEL ANGEL 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12763-camara-agraria-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.730994973159607 40.41543968069928)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12763-camara-agraria-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41543968069928,
+        "longitude" : -3.730994973159607
+	  }
+
+    },
+	{
+      "id" : "4934471",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4934471-camara-cuentas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Cámara de Cuentas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=572af9035cc6a110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4934471-camara-cuentas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE RAMIREZ DE ARELLANO 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4934471-camara-cuentas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6543280188371408 40.4488720575275)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4934471-camara-cuentas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4488720575275,
+        "longitude" : -3.6543280188371408
+	  }
+
+    },
+	{
+      "id" : "4539132",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4539132-centro-apoyo-encuentro-familiar-mariam-suarez-caef",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Centro de Apoyo y Encuentro Familiar Mariam Suárez (CAEF)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3e5cd4c03ff41110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4539132-centro-apoyo-encuentro-familiar-mariam-suarez-caef/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE DONOSO CORTES 27 PLANTA 3ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4539132-centro-apoyo-encuentro-familiar-mariam-suarez-caef/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7089232635480336 40.43610869741667)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4539132-centro-apoyo-encuentro-familiar-mariam-suarez-caef/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43610869741667,
+        "longitude" : -3.7089232635480336
+	  }
+
+    },
+	{
+      "id" : "2019",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2019-centro-documentacion-europea-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ArchivosCentrosDocumentacion",
+      "title" : "Centro de Documentación Europea de la Comunidad de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8f0d1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2019-centro-documentacion-europea-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE CASTELLO 123"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2019-centro-documentacion-europea-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.680589924721377 40.43833303230266)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2019-centro-documentacion-europea-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43833303230266,
+        "longitude" : -3.680589924721377
+	  }
+
+    },
+	{
+      "id" : "7614775",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7614775-comision-asistencia-juridica-gratuita-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Comisión de Asistencia Jurídica Gratuita. Comunidad de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=62dc50bdc8118410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7614775-comision-asistencia-juridica-gratuita-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7614775-comision-asistencia-juridica-gratuita-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6997355882566687 40.41989437276771)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7614775-comision-asistencia-juridica-gratuita-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41989437276771,
+        "longitude" : -3.6997355882566687
+	  }
+
+    },
+	{
+      "id" : "10121532",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121532-comunidad-madrid-direccion-general-contratacion-patrimonio-tesoreria-contratacion-publica-patrimonio",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Comunidad de Madrid. Dirección General de Contratación, Patrimonio y Tesorería (Contratación Pública y Patrimonio)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=639cc77460496510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121532-comunidad-madrid-direccion-general-contratacion-patrimonio-tesoreria-contratacion-publica-patrimonio/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE SANTA CATALINA 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121532-comunidad-madrid-direccion-general-contratacion-patrimonio-tesoreria-contratacion-publica-patrimonio/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.697865075046422 40.41568944659875)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121532-comunidad-madrid-direccion-general-contratacion-patrimonio-tesoreria-contratacion-publica-patrimonio/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41568944659875,
+        "longitude" : -3.697865075046422
+	  }
+
+    },
+	{
+      "id" : "10121553",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121553-comunidad-madrid-direccion-general-contratacion-patrimonio-tesoreria-planificacion-financiera-tesoreria",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Comunidad de Madrid. Dirección General de Contratación, Patrimonio y Tesorería (Planificación Financiera y Tesorería)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d01ec77460496510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121553-comunidad-madrid-direccion-general-contratacion-patrimonio-tesoreria-planificacion-financiera-tesoreria/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "PLAZA CHAMBERI 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121553-comunidad-madrid-direccion-general-contratacion-patrimonio-tesoreria-planificacion-financiera-tesoreria/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6967414811967236 40.432453025638914)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121553-comunidad-madrid-direccion-general-contratacion-patrimonio-tesoreria-planificacion-financiera-tesoreria/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.432453025638914,
+        "longitude" : -3.6967414811967236
+	  }
+
+    },
+	{
+      "id" : "10121564",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121564-comunidad-madrid-direccion-general-trabajo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Comunidad de Madrid. Dirección General de Trabajo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=89bec77460496510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121564-comunidad-madrid-direccion-general-trabajo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE PRINCESA 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121564-comunidad-madrid-direccion-general-trabajo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7131912490101877 40.42493828974175)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121564-comunidad-madrid-direccion-general-trabajo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42493828974175,
+        "longitude" : -3.7131912490101877
+	  }
+
+    },
+	{
+      "id" : "507",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/507-comunidad-madrid-oficina-atencion-al-contribuyente",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Comunidad de Madrid. Oficina de Atención al Contribuyente",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0644b3e0dcd4f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/507-comunidad-madrid-oficina-atencion-al-contribuyente/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "PASEO GENERAL MARTINEZ CAMPOS 30"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/507-comunidad-madrid-oficina-atencion-al-contribuyente/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6940319103932873 40.43494680453378)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/507-comunidad-madrid-oficina-atencion-al-contribuyente/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43494680453378,
+        "longitude" : -3.6940319103932873
+	  }
+
+    },
+	{
+      "id" : "486",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/486-comunidad-madrid-oficina-general-asistencia-materia-registro-oficina-atencion-al-ciudadano",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Comunidad de Madrid. Oficina General de Asistencia en Materia de Registro y Oficina de Atención al Ciudadano",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=635329ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/486-comunidad-madrid-oficina-general-asistencia-materia-registro-oficina-atencion-al-ciudadano/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/486-comunidad-madrid-oficina-general-asistencia-materia-registro-oficina-atencion-al-ciudadano/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.69845590908408 40.41925345989746)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/486-comunidad-madrid-oficina-general-asistencia-materia-registro-oficina-atencion-al-ciudadano/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41925345989746,
+        "longitude" : -3.69845590908408
+	  }
+
+    },
+	{
+      "id" : "4594868",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4594868-comunidad-madrid-oficina-general-asistencia-materia-registro-2-oficina-atencion-al-ciudadano",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Comunidad de Madrid. Oficina General de Asistencia en Materia de Registro - 2 y Oficina de Atención al Ciudadano",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aab7c871def13110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4594868-comunidad-madrid-oficina-general-asistencia-materia-registro-2-oficina-atencion-al-ciudadano/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "PLAZA CHAMBERI 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4594868-comunidad-madrid-oficina-general-asistencia-materia-registro-2-oficina-atencion-al-ciudadano/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6967414811967236 40.432453025638914)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4594868-comunidad-madrid-oficina-general-asistencia-materia-registro-2-oficina-atencion-al-ciudadano/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.432453025638914,
+        "longitude" : -3.6967414811967236
+	  }
+
+    },
+	{
+      "id" : "8172800",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8172800-consejeria-cultura-turismo-deportes",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OficinasRegistro",
+      "title" : "Consejería de Cultura, Turismo y Deportes",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4ea07d7eb8a3f410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8172800-consejeria-cultura-turismo-deportes/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALA 31 PLANTA 8ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8172800-consejeria-cultura-turismo-deportes/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.698282419963324 40.4184346851189)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8172800-consejeria-cultura-turismo-deportes/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4184346851189,
+        "longitude" : -3.698282419963324
+	  }
+
+    },
+	{
+      "id" : "4916",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4916-consejeria-cultura-turismo-deportes-direccion-general-juventud-deporte",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Cultura, Turismo y Deportes. Dirección General de Juventud y Deporte",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=868aa4ea6871c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4916-consejeria-cultura-turismo-deportes-direccion-general-juventud-deporte/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "PASEO RECOLETOS 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4916-consejeria-cultura-turismo-deportes-direccion-general-juventud-deporte/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6910867893716044 40.422513971271414)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4916-consejeria-cultura-turismo-deportes-direccion-general-juventud-deporte/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.422513971271414,
+        "longitude" : -3.6910867893716044
+	  }
+
+    },
+	{
+      "id" : "6645454",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6645454-consejeria-cultura-turismo-deportes-direccion-general-promocion-cultural",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/ConsejeriasAsambleaPresidenciaCAM",
+      "title" : "Consejería de Cultura, Turismo y Deportes. Dirección General de Promoción Cultural",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=be5eb3ccef80b310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6645454-consejeria-cultura-turismo-deportes-direccion-general-promocion-cultural/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALA 31"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6645454-consejeria-cultura-turismo-deportes-direccion-general-promocion-cultural/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6982941133384717 40.41842560545147)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6645454-consejeria-cultura-turismo-deportes-direccion-general-promocion-cultural/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41842560545147,
+        "longitude" : -3.6982941133384717
+	  }
+
+    },
+	{
+      "id" : "8821",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8821-consejeria-cultura-turismo-deportes-direccion-general-turismo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Cultura, Turismo y Deportes. Dirección General de Turismo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ce264b6faa61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8821-consejeria-cultura-turismo-deportes-direccion-general-turismo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALA 31 PLANTA 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8821-consejeria-cultura-turismo-deportes-direccion-general-turismo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.698282419963324 40.4184346851189)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8821-consejeria-cultura-turismo-deportes-direccion-general-turismo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4184346851189,
+        "longitude" : -3.698282419963324
+	  }
+
+    },
+	{
+      "id" : "5326711",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5326711-consejeria-economia-empleo-hacienda",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/ConsejeriasAsambleaPresidenciaCAM",
+      "title" : "Consejería de Economía, Empleo y Hacienda",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d0b64cd813f11210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5326711-consejeria-economia-empleo-hacienda/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CARRERA SAN JERONIMO 13 PLANTA 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5326711-consejeria-economia-empleo-hacienda/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6995251961382034 40.4166523909566)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5326711-consejeria-economia-empleo-hacienda/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4166523909566,
+        "longitude" : -3.6995251961382034
+	  }
+
+    },
+	{
+      "id" : "12764",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12764-consejeria-economia-empleo-hacienda-direccion-general-comercio-consumo-comercio",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Economía, Empleo y Hacienda . Dirección General de Comercio y Consumo (Comercio)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7abb7d448b51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12764-consejeria-economia-empleo-hacienda-direccion-general-comercio-consumo-comercio/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE ALBASANZ 14 PLANTA Baja"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12764-consejeria-economia-empleo-hacienda-direccion-general-comercio-consumo-comercio/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6325187761129207 40.435786221411675)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12764-consejeria-economia-empleo-hacienda-direccion-general-comercio-consumo-comercio/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.435786221411675,
+        "longitude" : -3.6325187761129207
+	  }
+
+    },
+	{
+      "id" : "10121669",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121669-consejeria-economia-empleo-hacienda-direccion-general-comercio-consumo-consumo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Economía, Empleo y Hacienda . Dirección General de Comercio y Consumo (Consumo)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dcebe8e52c796510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121669-consejeria-economia-empleo-hacienda-direccion-general-comercio-consumo-consumo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : " GENERAL DIAZ PORLIER 35 PLANTA Baja"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121669-consejeria-economia-empleo-hacienda-direccion-general-comercio-consumo-consumo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6770787729552854 40.42800228004145)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121669-consejeria-economia-empleo-hacienda-direccion-general-comercio-consumo-consumo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42800228004145,
+        "longitude" : -3.6770787729552854
+	  }
+
+    },
+	{
+      "id" : "1649",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1649-consejeria-economia-empleo-hacienda-direccion-general-industria-energia-minas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Economía, Empleo y Hacienda . Dirección General de Industria, Energía y Minas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6a021e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1649-consejeria-economia-empleo-hacienda-direccion-general-industria-energia-minas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28016",
+		"street-address" : "CALLE CARDENAL MARCELO SPINOLA 14 Edificio F-4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1649-consejeria-economia-empleo-hacienda-direccion-general-industria-energia-minas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.670946141449996 40.46689387387109)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1649-consejeria-economia-empleo-hacienda-direccion-general-industria-energia-minas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46689387387109,
+        "longitude" : -3.670946141449996
+	  }
+
+    },
+	{
+      "id" : "8830",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8830-consejeria-economia-empleo-hacienda-area-ferias-artesania",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Economía, Empleo y Hacienda. Área de Ferias y Artesanía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6e3a224e0d61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8830-consejeria-economia-empleo-hacienda-area-ferias-artesania/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE ALBASANZ 14 PLANTA Bajo"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8830-consejeria-economia-empleo-hacienda-area-ferias-artesania/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6325187761129207 40.435786221411675)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8830-consejeria-economia-empleo-hacienda-area-ferias-artesania/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.435786221411675,
+        "longitude" : -3.6325187761129207
+	  }
+
+    },
+	{
+      "id" : "12390",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12390-consejeria-economia-empleo-hacienda-area-gestion-juego",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Economía, Empleo y Hacienda. Área de Gestión del Juego",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=812a14c4d661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12390-consejeria-economia-empleo-hacienda-area-gestion-juego/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "PLAZA CHAMBERI 8 PLANTA BAJA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12390-consejeria-economia-empleo-hacienda-area-gestion-juego/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6967414811967236 40.432453025638914)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12390-consejeria-economia-empleo-hacienda-area-gestion-juego/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.432453025638914,
+        "longitude" : -3.6967414811967236
+	  }
+
+    },
+	{
+      "id" : "510",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/510-consejeria-economia-empleo-hacienda-direccion-general-industria-energia-minas-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Consejería de Economía, Empleo y Hacienda. Dirección General de Industria, Energía y Minas. Oficina de Asistencia en Materia de Registro y Punto de Información y Atención a la Ciudadanía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=126229ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/510-consejeria-economia-empleo-hacienda-direccion-general-industria-energia-minas-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28016",
+		"street-address" : "CALLE CARDENAL MARCELO SPINOLA 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/510-consejeria-economia-empleo-hacienda-direccion-general-industria-energia-minas-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.670946141449996 40.46689387387109)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/510-consejeria-economia-empleo-hacienda-direccion-general-industria-energia-minas-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46689387387109,
+        "longitude" : -3.670946141449996
+	  }
+
+    },
+	{
+      "id" : "17378",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17378-consejeria-economia-empleo-hacienda-direccion-general-tributos-ordenacion-gestion-juego",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Economía, Empleo y Hacienda. Dirección General de Tributos y Ordenación y Gestión del Juego",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ef0fb3e0dcd4f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17378-consejeria-economia-empleo-hacienda-direccion-general-tributos-ordenacion-gestion-juego/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "PASEO GENERAL MARTINEZ CAMPOS 30"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17378-consejeria-economia-empleo-hacienda-direccion-general-tributos-ordenacion-gestion-juego/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6940319103932873 40.43494680453378)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17378-consejeria-economia-empleo-hacienda-direccion-general-tributos-ordenacion-gestion-juego/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43494680453378,
+        "longitude" : -3.6940319103932873
+	  }
+
+    },
+	{
+      "id" : "25548",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25548-consejeria-economia-empleo-hacienda-direccion-general-tributos-ordenacion-gestion-juego-oficina-auxiliar-materia-registro-punto-informacion-atencion-ciudadania",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Consejería de Economía, Empleo y Hacienda. Dirección General de Tributos y Ordenación y Gestión del Juego. Oficina Auxiliar en Materia de Registro y Punto de Información y Atención a la Ciudadanía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0954b3e0dcd4f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25548-consejeria-economia-empleo-hacienda-direccion-general-tributos-ordenacion-gestion-juego-oficina-auxiliar-materia-registro-punto-informacion-atencion-ciudadania/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "PASEO GENERAL MARTINEZ CAMPOS 30 PLANTA Baja y primera"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25548-consejeria-economia-empleo-hacienda-direccion-general-tributos-ordenacion-gestion-juego-oficina-auxiliar-materia-registro-punto-informacion-atencion-ciudadania/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6940319103932873 40.43494680453378)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25548-consejeria-economia-empleo-hacienda-direccion-general-tributos-ordenacion-gestion-juego-oficina-auxiliar-materia-registro-punto-informacion-atencion-ciudadania/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43494680453378,
+        "longitude" : -3.6940319103932873
+	  }
+
+    },
+	{
+      "id" : "17950",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17950-consejeria-economia-empleo-hacienda-direccion-general-servicio-publico-empleo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Economía, Empleo y Hacienda. Dirección General del Servicio Público de Empleo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9fdb7d448b51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17950-consejeria-economia-empleo-hacienda-direccion-general-servicio-publico-empleo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE VIA LUSITANA 21 PLANTA quinta"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17950-consejeria-economia-empleo-hacienda-direccion-general-servicio-publico-empleo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.73098901529386 40.37566468929668)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17950-consejeria-economia-empleo-hacienda-direccion-general-servicio-publico-empleo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37566468929668,
+        "longitude" : -3.73098901529386
+	  }
+
+    },
+	{
+      "id" : "56823",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56823-consejeria-economia-empleo-hacienda-oficina-auxiliar-materia-registro-direccion-general-comercio-consumo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Consejería de Economía, Empleo y Hacienda. Oficina Auxiliar en Materia de Registro de la Dirección General de Comercio y Consumo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7fc68ed67151c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56823-consejeria-economia-empleo-hacienda-oficina-auxiliar-materia-registro-direccion-general-comercio-consumo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE GENERAL DIAZ PORLIER 35"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56823-consejeria-economia-empleo-hacienda-oficina-auxiliar-materia-registro-direccion-general-comercio-consumo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6770787729552854 40.42800228004145)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56823-consejeria-economia-empleo-hacienda-oficina-auxiliar-materia-registro-direccion-general-comercio-consumo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42800228004145,
+        "longitude" : -3.6770787729552854
+	  }
+
+    },
+	{
+      "id" : "8146012",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8146012-consejeria-economia-empleo-hacienda-oficina-auxiliar-materia-registro-direccion-general-trabajo-punto-informacion-atencion-ciudadania",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Economía, Empleo y Hacienda. Oficina Auxiliar en Materia de Registro de la Dirección General de Trabajo y Punto de Información y Atención a la Ciudadanía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0cc2d4c6e478e410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8146012-consejeria-economia-empleo-hacienda-oficina-auxiliar-materia-registro-direccion-general-trabajo-punto-informacion-atencion-ciudadania/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE PRINCESA 5 PLANTA Baja"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8146012-consejeria-economia-empleo-hacienda-oficina-auxiliar-materia-registro-direccion-general-trabajo-punto-informacion-atencion-ciudadania/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7131912490101877 40.42493828974177)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8146012-consejeria-economia-empleo-hacienda-oficina-auxiliar-materia-registro-direccion-general-trabajo-punto-informacion-atencion-ciudadania/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42493828974177,
+        "longitude" : -3.7131912490101877
+	  }
+
+    },
+	{
+      "id" : "8145993",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8145993-consejeria-economia-empleo-hacienda-oficina-auxiliar-materia-registro-punto-informacion-atencion-ciudadania",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Economía, Empleo y Hacienda. Oficina Auxiliar en Materia de Registro y Punto de Información y Atención a la Ciudadanía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c57bd4c6e478e410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8145993-consejeria-economia-empleo-hacienda-oficina-auxiliar-materia-registro-punto-informacion-atencion-ciudadania/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE VIA LUSITANA 21"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8145993-consejeria-economia-empleo-hacienda-oficina-auxiliar-materia-registro-punto-informacion-atencion-ciudadania/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.73098901529386 40.37566468929668)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8145993-consejeria-economia-empleo-hacienda-oficina-auxiliar-materia-registro-punto-informacion-atencion-ciudadania/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37566468929668,
+        "longitude" : -3.73098901529386
+	  }
+
+    },
+	{
+      "id" : "509",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/509-consejeria-economia-empleo-hacienda-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Consejería de Economía, Empleo y Hacienda. Oficina de Asistencia en Materia de Registro y Punto de Información y Atención a la Ciudadanía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d96429ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/509-consejeria-economia-empleo-hacienda-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE ALBASANZ 16 PLANTA Baja"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/509-consejeria-economia-empleo-hacienda-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.631072348320731 40.43619052387026)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/509-consejeria-economia-empleo-hacienda-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43619052387026,
+        "longitude" : -3.631072348320731
+	  }
+
+    },
+	{
+      "id" : "123207",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/123207-consejeria-economia-empleo-hacienda-subdireccion-general-valoraciones",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Economía, Empleo y Hacienda. Subdirección General de Valoraciones",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c294b3e0dcd4f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/123207-consejeria-economia-empleo-hacienda-subdireccion-general-valoraciones/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE ZURBANO 51"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/123207-consejeria-economia-empleo-hacienda-subdireccion-general-valoraciones/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6932993013837145 40.434789038126205)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/123207-consejeria-economia-empleo-hacienda-subdireccion-general-valoraciones/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.434789038126205,
+        "longitude" : -3.6932993013837145
+	  }
+
+    },
+	{
+      "id" : "6779",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6779-consejeria-educacion-investigacion",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/ConsejeriasAsambleaPresidenciaCAM",
+      "title" : "Consejería de Educación e Investigación",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=60f8a4ea6871c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6779-consejeria-educacion-investigacion/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALA 30 y 32"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6779-consejeria-educacion-investigacion/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.698054844889035 40.418084706748786)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6779-consejeria-educacion-investigacion/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.418084706748786,
+        "longitude" : -3.698054844889035
+	  }
+
+    },
+	{
+      "id" : "6808",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6808-consejeria-educacion-investigacion-centro-informacion-asesoramiento-universitario",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Educación e Investigación. Centro de Información y Asesoramiento Universitario",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6e503b54d771c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6808-consejeria-educacion-investigacion-centro-informacion-asesoramiento-universitario/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALA 32 PLANTA BAJA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6808-consejeria-educacion-investigacion-centro-informacion-asesoramiento-universitario/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6977961943642472 40.41814933142848)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6808-consejeria-educacion-investigacion-centro-informacion-asesoramiento-universitario/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41814933142848,
+        "longitude" : -3.6977961943642472
+	  }
+
+    },
+	{
+      "id" : "6785",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6785-consejeria-educacion-investigacion-direccion-area-territorial-madrid-capital",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Educación e Investigación. Dirección del Área Territorial de Madrid Capital",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=616aa4ea6871c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6785-consejeria-educacion-investigacion-direccion-area-territorial-madrid-capital/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE VITRUVIO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6785-consejeria-educacion-investigacion-direccion-area-territorial-madrid-capital/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6899999224507427 40.441889862744986)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6785-consejeria-educacion-investigacion-direccion-area-territorial-madrid-capital/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.441889862744986,
+        "longitude" : -3.6899999224507427
+	  }
+
+    },
+	{
+      "id" : "64629",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/64629-consejeria-educacion-investigacion-direccion-general-becas-ayudas-al-estudio",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Educación e Investigación. Dirección General de Becas y Ayudas al Estudio",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=54c4f0bde551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/64629-consejeria-educacion-investigacion-direccion-general-becas-ayudas-al-estudio/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALA 32 PLANTA 4.ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/64629-consejeria-educacion-investigacion-direccion-general-becas-ayudas-al-estudio/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6977961943642472 40.41814933142848)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/64629-consejeria-educacion-investigacion-direccion-general-becas-ayudas-al-estudio/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41814933142848,
+        "longitude" : -3.6977961943642472
+	  }
+
+    },
+	{
+      "id" : "6789",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6789-consejeria-educacion-investigacion-direccion-general-educacion-infantil-primaria-secundaria",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Educación e Investigación. Dirección General de Educación Infantil, Primaria y Secundaria",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bb3e7b503a71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6789-consejeria-educacion-investigacion-direccion-general-educacion-infantil-primaria-secundaria/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 20 PLANTA 4.ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6789-consejeria-educacion-investigacion-direccion-general-educacion-infantil-primaria-secundaria/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7001373656418055 40.41999103979251)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6789-consejeria-educacion-investigacion-direccion-general-educacion-infantil-primaria-secundaria/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41999103979251,
+        "longitude" : -3.7001373656418055
+	  }
+
+    },
+	{
+      "id" : "6793",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6793-consejeria-educacion-investigacion-direccion-general-formacion-profesional-ensenanzas-regimen-especial",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Educación e Investigación. Dirección General de Formación Profesional y Enseñanzas de Régimen Especial",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4e4e7b503a71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6793-consejeria-educacion-investigacion-direccion-general-formacion-profesional-ensenanzas-regimen-especial/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6793-consejeria-educacion-investigacion-direccion-general-formacion-profesional-ensenanzas-regimen-especial/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7001373656418055 40.41999103979251)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6793-consejeria-educacion-investigacion-direccion-general-formacion-profesional-ensenanzas-regimen-especial/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41999103979251,
+        "longitude" : -3.7001373656418055
+	  }
+
+    },
+	{
+      "id" : "56830",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56830-consejeria-educacion-investigacion-oficina-auxiliar-materia-registro-direccion-area-territorial-madrid-capital",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Consejería de Educación e Investigación. Oficina Auxiliar en materia de Registro de la Dirección del Área Territorial de Madrid Capital",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ecb68ed67151c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56830-consejeria-educacion-investigacion-oficina-auxiliar-materia-registro-direccion-area-territorial-madrid-capital/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE VITRUVIO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56830-consejeria-educacion-investigacion-oficina-auxiliar-materia-registro-direccion-area-territorial-madrid-capital/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6899999224507427 40.441889862744986)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56830-consejeria-educacion-investigacion-oficina-auxiliar-materia-registro-direccion-area-territorial-madrid-capital/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.441889862744986,
+        "longitude" : -3.6899999224507427
+	  }
+
+    },
+	{
+      "id" : "6158378",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6158378-consejeria-educacion-investigacion-oficina-auxiliar-materia-registro-punto-informacion-atencion-ciudadania",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Consejería de Educación e Investigación. Oficina Auxiliar en materia de Registro y Punto de Información y Atención a la Ciudadanía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c9d6ec3fcfaf1310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6158378-consejeria-educacion-investigacion-oficina-auxiliar-materia-registro-punto-informacion-atencion-ciudadania/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE SANTA HORTENSIA 30"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6158378-consejeria-educacion-investigacion-oficina-auxiliar-materia-registro-punto-informacion-atencion-ciudadania/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6668180434405215 40.44426915216284)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6158378-consejeria-educacion-investigacion-oficina-auxiliar-materia-registro-punto-informacion-atencion-ciudadania/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44426915216284,
+        "longitude" : -3.6668180434405215
+	  }
+
+    },
+	{
+      "id" : "168568",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/168568-consejeria-educacion-investigacion-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Consejería de Educación e Investigación. Oficina de Asistencia en materia de Registro y Punto de Información y Atención a la Ciudadanía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9fed29ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/168568-consejeria-educacion-investigacion-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/168568-consejeria-educacion-investigacion-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7001372722495316 40.41998203131926)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/168568-consejeria-educacion-investigacion-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41998203131926,
+        "longitude" : -3.7001372722495316
+	  }
+
+    },
+	{
+      "id" : "29",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/29-consejeria-medio-ambiente-administracion-local-ordenacion-territorio",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/ConsejeriasAsambleaPresidenciaCAM",
+      "title" : "Consejería de Medio Ambiente, Administración Local y Ordenación del Territorio",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fa16085f5181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/29-consejeria-medio-ambiente-administracion-local-ordenacion-territorio/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALÁ 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/29-consejeria-medio-ambiente-administracion-local-ordenacion-territorio/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699511793302036 40.41763445777782)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/29-consejeria-medio-ambiente-administracion-local-ordenacion-territorio/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41763445777782,
+        "longitude" : -3.699511793302036
+	  }
+
+    },
+	{
+      "id" : "13933",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13933-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-area-conservacion-flora-fauna",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Medio Ambiente, Administración Local y Ordenación del Territorio. Área de Conservación de Flora y Fauna",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ca4bd4985261c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13933-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-area-conservacion-flora-fauna/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALÁ 16 PLANTA 2ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13933-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-area-conservacion-flora-fauna/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6995234863731157 40.41762537798734)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13933-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-area-conservacion-flora-fauna/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41762537798734,
+        "longitude" : -3.6995234863731157
+	  }
+
+    },
+	{
+      "id" : "502",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/502-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-area-proteccion-animal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Medio Ambiente, Administración Local y Ordenación del Territorio. Área de Protección Animal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2428e3914381c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/502-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-area-proteccion-animal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VÍA 3 PLANTA 6ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/502-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-area-proteccion-animal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.69845590908408 40.41925345989746)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/502-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-area-proteccion-animal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41925345989746,
+        "longitude" : -3.69845590908408
+	  }
+
+    },
+	{
+      "id" : "5818971",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5818971-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-departamento-expedicion-licencias-permisos-caza-pesca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Medio Ambiente, Administración Local y Ordenación del Territorio. Departamento de Expedición de Licencias y Permisos de Caza y Pesca",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2bbb2ec71026b210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5818971-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-departamento-expedicion-licencias-permisos-caza-pesca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VÍA 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5818971-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-departamento-expedicion-licencias-permisos-caza-pesca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.69845590908408 40.41925345989746)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5818971-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-departamento-expedicion-licencias-permisos-caza-pesca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41925345989746,
+        "longitude" : -3.69845590908408
+	  }
+
+    },
+	{
+      "id" : "4989612",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4989612-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-direccion-general-medio-ambiente",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Medio Ambiente, Administración Local y Ordenación del Territorio. Dirección General de Medio Ambiente",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e93c444adba6c110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4989612-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-direccion-general-medio-ambiente/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALÁ 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4989612-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-direccion-general-medio-ambiente/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699511793302036 40.41763445777782)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4989612-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-direccion-general-medio-ambiente/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41763445777782,
+        "longitude" : -3.699511793302036
+	  }
+
+    },
+	{
+      "id" : "6633841",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6633841-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-oficina-informacion-urbanistica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Medio Ambiente, Administración Local y Ordenación del Territorio. Oficina de Información Urbanística",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=40b1f8cd56ada310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6633841-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-oficina-informacion-urbanistica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALA 16 PLANTA 5ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6633841-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-oficina-informacion-urbanistica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699511793302036 40.41763445777782)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6633841-consejeria-medio-ambiente-administracion-local-ordenacion-territorio-oficina-informacion-urbanistica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41763445777782,
+        "longitude" : -3.699511793302036
+	  }
+
+    },
+	{
+      "id" : "12204",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12204-consejeria-politicas-sociales-familia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/ConsejeriasAsambleaPresidenciaCAM",
+      "title" : "Consejería de Políticas Sociales y Familia",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e8cef5177659f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12204-consejeria-politicas-sociales-familia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "CALLE O´DONNELL 50"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12204-consejeria-politicas-sociales-familia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6711392764494044 40.42109995172939)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12204-consejeria-politicas-sociales-familia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42109995172939,
+        "longitude" : -3.6711392764494044
+	  }
+
+    },
+	{
+      "id" : "20272",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/20272-consejeria-politicas-sociales-familia-direccion-general-atencion-dependencia-al-mayor",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Políticas Sociales y Familia. Dirección General de Atención a la Dependencia y al Mayor",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3185395961e4f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/20272-consejeria-politicas-sociales-familia-direccion-general-atencion-dependencia-al-mayor/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28036",
+		"street-address" : "CALLE AGUSTIN DE FOXA 31 PLANTA 6ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/20272-consejeria-politicas-sociales-familia-direccion-general-atencion-dependencia-al-mayor/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.684594014919827 40.471561570529644)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/20272-consejeria-politicas-sociales-familia-direccion-general-atencion-dependencia-al-mayor/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.471561570529644,
+        "longitude" : -3.684594014919827
+	  }
+
+    },
+	{
+      "id" : "173962",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173962-consejeria-politicas-sociales-familia-direccion-general-servicios-sociales-integracion-social",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Políticas Sociales y Familia. Dirección General de Servicios Sociales e Integración Social",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cfde14c4d661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173962-consejeria-politicas-sociales-familia-direccion-general-servicios-sociales-integracion-social/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE LOS MADRAZO 34 PLANTA 1ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173962-consejeria-politicas-sociales-familia-direccion-general-servicios-sociales-integracion-social/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.695196679542211 40.41753435860763)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173962-consejeria-politicas-sociales-familia-direccion-general-servicios-sociales-integracion-social/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41753435860763,
+        "longitude" : -3.695196679542211
+	  }
+
+    },
+	{
+      "id" : "6142108",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6142108-consejeria-politicas-sociales-familia-oficina-auxiliar-asistencia-materia-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Consejería de Políticas Sociales y Familia. Oficina Auxiliar  de asistencia en materia de Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8a4ac5691a151310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6142108-consejeria-politicas-sociales-familia-oficina-auxiliar-asistencia-materia-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28036",
+		"street-address" : "CALLE MANUEL DE FALLA 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6142108-consejeria-politicas-sociales-familia-oficina-auxiliar-asistencia-materia-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.687743514545726 40.45535374367845)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6142108-consejeria-politicas-sociales-familia-oficina-auxiliar-asistencia-materia-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45535374367845,
+        "longitude" : -3.687743514545726
+	  }
+
+    },
+	{
+      "id" : "7394681",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7394681-consejeria-politicas-sociales-familia-oficina-auxiliar-materia-registro-calle-agustin-foxa",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Políticas Sociales y Familia. Oficina Auxiliar en materia de Registro calle Agustín de Foxá",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=815ad10ed6fc4410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7394681-consejeria-politicas-sociales-familia-oficina-auxiliar-materia-registro-calle-agustin-foxa/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28036",
+		"street-address" : "CALLE AGUSTIN DE FOXA 31"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7394681-consejeria-politicas-sociales-familia-oficina-auxiliar-materia-registro-calle-agustin-foxa/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.684594014919827 40.471561570529644)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7394681-consejeria-politicas-sociales-familia-oficina-auxiliar-materia-registro-calle-agustin-foxa/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.471561570529644,
+        "longitude" : -3.684594014919827
+	  }
+
+    },
+	{
+      "id" : "6143250",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6143250-consejeria-politicas-sociales-familia-oficina-auxiliar-materia-registro-calle-madrazo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Consejería de Políticas Sociales y Familia. Oficina auxiliar en materia de Registro calle Los Madrazo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6f6fb2eb4ea61310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6143250-consejeria-politicas-sociales-familia-oficina-auxiliar-materia-registro-calle-madrazo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE LOS MADRAZO 34 PLANTA ENTREPLANTA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6143250-consejeria-politicas-sociales-familia-oficina-auxiliar-materia-registro-calle-madrazo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.695196679542211 40.41753435860763)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6143250-consejeria-politicas-sociales-familia-oficina-auxiliar-materia-registro-calle-madrazo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41753435860763,
+        "longitude" : -3.695196679542211
+	  }
+
+    },
+	{
+      "id" : "10124106",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10124106-consejeria-politicas-sociales-familia-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania-calle-donnell",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Políticas Sociales y Familia. Oficina de asistencia en materia de Registro y Punto de Información y Atención a la Ciudadanía calle O'Donnell",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bd5f8e15ac0c6510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10124106-consejeria-politicas-sociales-familia-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania-calle-donnell/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "CALLE O'DONNELL 50"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10124106-consejeria-politicas-sociales-familia-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania-calle-donnell/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.671127847506437 40.421136054257815)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10124106-consejeria-politicas-sociales-familia-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania-calle-donnell/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.421136054257815,
+        "longitude" : -3.671127847506437
+	  }
+
+    },
+	{
+      "id" : "6617777",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6617777-consejeria-presidencia-justicia-portavocia-gobierno",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/ConsejeriasAsambleaPresidenciaCAM",
+      "title" : "Consejería de Presidencia, Justicia y Portavocía de Gobierno",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d027d77d05d8a310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6617777-consejeria-presidencia-justicia-portavocia-gobierno/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "PLAZA PONTEJOS 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6617777-consejeria-presidencia-justicia-portavocia-gobierno/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.704149281491792 40.415867561087374)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6617777-consejeria-presidencia-justicia-portavocia-gobierno/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.415867561087374,
+        "longitude" : -3.704149281491792
+	  }
+
+    },
+	{
+      "id" : "12392",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12392-consejeria-presidencia-justicia-portavocia-gobierno-area-espectaculos-publicos-actividades-recreativas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Presidencia, Justicia y Portavocía de Gobierno. Área de Espectáculos Públicos y Actividades Recreativas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fe0a14c4d661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12392-consejeria-presidencia-justicia-portavocia-gobierno-area-espectaculos-publicos-actividades-recreativas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 6 PLANTA 3ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12392-consejeria-presidencia-justicia-portavocia-gobierno-area-espectaculos-publicos-actividades-recreativas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6979030531718258 40.41936490701793)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12392-consejeria-presidencia-justicia-portavocia-gobierno-area-espectaculos-publicos-actividades-recreativas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41936490701793,
+        "longitude" : -3.6979030531718258
+	  }
+
+    },
+	{
+      "id" : "4904213",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4904213-consejeria-presidencia-justicia-portavocia-gobierno-comunidad-madrid-oficina-asistencia-materia-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Consejería de Presidencia, Justicia y Portavocía del Gobierno de la Comunidad de Madrid. Oficina de Asistencia en Materia de Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dc2e30e5dde99110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4904213-consejeria-presidencia-justicia-portavocia-gobierno-comunidad-madrid-oficina-asistencia-materia-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE CARRETAS 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4904213-consejeria-presidencia-justicia-portavocia-gobierno-comunidad-madrid-oficina-asistencia-materia-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.703361210547823 40.41602551182745)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4904213-consejeria-presidencia-justicia-portavocia-gobierno-comunidad-madrid-oficina-asistencia-materia-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41602551182745,
+        "longitude" : -3.703361210547823
+	  }
+
+    },
+	{
+      "id" : "17939",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17939-consejeria-presidencia-justicia-portavocia-gobierno-area-fundaciones-asociaciones",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Presidencia, Justicia y Portavocía del Gobierno. Área de Fundaciones y Asociaciones",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ccf232df1d51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17939-consejeria-presidencia-justicia-portavocia-gobierno-area-fundaciones-asociaciones/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 6 PLANTA 3ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17939-consejeria-presidencia-justicia-portavocia-gobierno-area-fundaciones-asociaciones/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6979030531718258 40.41936490701793)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17939-consejeria-presidencia-justicia-portavocia-gobierno-area-fundaciones-asociaciones/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41936490701793,
+        "longitude" : -3.6979030531718258
+	  }
+
+    },
+	{
+      "id" : "61492",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/61492-consejeria-presidencia-justicia-portavocia-gobierno-oficina-auxiliar-asistencia-materia-registro-punto-informacion-atencion-al-ciudadano",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Presidencia, Justicia y Portavocía del Gobierno. Oficina Auxiliar de Asistencia en Materia de Registro y Punto de Información y Atención al Ciudadano",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=155c8ed67151c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/61492-consejeria-presidencia-justicia-portavocia-gobierno-oficina-auxiliar-asistencia-materia-registro-punto-informacion-atencion-al-ciudadano/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 18 PLANTA Baja"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/61492-consejeria-presidencia-justicia-portavocia-gobierno-oficina-auxiliar-asistencia-materia-registro-punto-informacion-atencion-al-ciudadano/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6998890963079516 40.41992047069557)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/61492-consejeria-presidencia-justicia-portavocia-gobierno-oficina-auxiliar-asistencia-materia-registro-punto-informacion-atencion-al-ciudadano/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41992047069557,
+        "longitude" : -3.6998890963079516
+	  }
+
+    },
+	{
+      "id" : "6692306",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6692306-consejeria-presidencia-justicia-portavocia-oficina-auxiliar-asistencia-materia-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Consejería de Presidencia, Justicia y Portavocía. Oficina Auxiliar de Asistencia en Materia de Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9728078852f8b310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6692306-consejeria-presidencia-justicia-portavocia-oficina-auxiliar-asistencia-materia-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE CABALLERO DE GRACIA 32"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6692306-consejeria-presidencia-justicia-portavocia-oficina-auxiliar-asistencia-materia-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.698700726170567 40.418990718453216)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6692306-consejeria-presidencia-justicia-portavocia-oficina-auxiliar-asistencia-materia-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.418990718453216,
+        "longitude" : -3.698700726170567
+	  }
+
+    },
+	{
+      "id" : "9366",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9366-consejeria-sanidad",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/ConsejeriasAsambleaPresidenciaCAM",
+      "title" : "Consejería de Sanidad",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=01054b6faa61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9366-consejeria-sanidad/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE ADUANA 29"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9366-consejeria-sanidad/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.700357500126398 40.418485196819184)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9366-consejeria-sanidad/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.418485196819184,
+        "longitude" : -3.700357500126398
+	  }
+
+    },
+	{
+      "id" : "8101423",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8101423-consejeria-sanidad-oficina-auxiliar-asistencia-materia-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OficinasRegistro",
+      "title" : "Consejería de Sanidad. Oficina auxiliar de asistencia en materia de Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c26f10bca550e410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8101423-consejeria-sanidad-oficina-auxiliar-asistencia-materia-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE ESPRONCEDA 24 PLANTA 5ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8101423-consejeria-sanidad-oficina-auxiliar-asistencia-materia-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6967420896749132 40.44050708089837)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8101423-consejeria-sanidad-oficina-auxiliar-asistencia-materia-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44050708089837,
+        "longitude" : -3.6967420896749132
+	  }
+
+    },
+	{
+      "id" : "56833",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56833-consejeria-sanidad-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Consejería de Sanidad. Oficina de asistencia en materia de Registro y Punto de Información y Atención a la Ciudadanía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4c278ed67151c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56833-consejeria-sanidad-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE ADUANA 29"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56833-consejeria-sanidad-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.700357500126398 40.418485196819184)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56833-consejeria-sanidad-oficina-asistencia-materia-registro-punto-informacion-atencion-ciudadania/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.418485196819184,
+        "longitude" : -3.700357500126398
+	  }
+
+    },
+	{
+      "id" : "9365",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9365-consejeria-sanidad-seccion-suministro-medicamentos-extranjeros",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Sanidad. Sección de Suministro de Medicamentos Extranjeros",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=491a224e0d61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9365-consejeria-sanidad-seccion-suministro-medicamentos-extranjeros/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE SAGASTA 6 PLANTA Baja"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9365-consejeria-sanidad-seccion-suministro-medicamentos-extranjeros/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.701122858250546 40.42862472915037)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9365-consejeria-sanidad-seccion-suministro-medicamentos-extranjeros/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42862472915037,
+        "longitude" : -3.701122858250546
+	  }
+
+    },
+	{
+      "id" : "62927",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/62927-consejeria-sanidad-servicio-registros-oficiales-salud-publica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Sanidad. Servicio de Registros Oficiales de Salud Pública",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e6d4f0bde551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/62927-consejeria-sanidad-servicio-registros-oficiales-salud-publica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "CALLE O'DONNELL 55 PLANTA 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/62927-consejeria-sanidad-servicio-registros-oficiales-salud-publica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6714023531659077 40.42147680417171)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/62927-consejeria-sanidad-servicio-registros-oficiales-salud-publica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42147680417171,
+        "longitude" : -3.6714023531659077
+	  }
+
+    },
+	{
+      "id" : "25",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25-consejeria-transportes-vivienda-infraestructuras",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/ConsejeriasAsambleaPresidenciaCAM",
+      "title" : "Consejería de Transportes, Vivienda e Infraestructuras",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1046085f5181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25-consejeria-transportes-vivienda-infraestructuras/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE MAUDES 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25-consejeria-transportes-vivienda-infraestructuras/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.701214400005444 40.445380936775926)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25-consejeria-transportes-vivienda-infraestructuras/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.445380936775926,
+        "longitude" : -3.701214400005444
+	  }
+
+    },
+	{
+      "id" : "5354032",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5354032-consejeria-transportes-vivienda-infraestructuras-direccion-general-vivienda-rehabilitacion-area-subvenciones-vivienda",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Transportes, Vivienda e Infraestructuras . Dirección General Vivienda y Rehabilitación. Área de Subvenciones de Vivienda",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a26e300dfb4c1210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5354032-consejeria-transportes-vivienda-infraestructuras-direccion-general-vivienda-rehabilitacion-area-subvenciones-vivienda/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE MAUDES 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5354032-consejeria-transportes-vivienda-infraestructuras-direccion-general-vivienda-rehabilitacion-area-subvenciones-vivienda/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.701214400005444 40.445380936775926)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5354032-consejeria-transportes-vivienda-infraestructuras-direccion-general-vivienda-rehabilitacion-area-subvenciones-vivienda/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.445380936775926,
+        "longitude" : -3.701214400005444
+	  }
+
+    },
+	{
+      "id" : "13837",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13837-consejeria-transportes-vivienda-infraestructuras-direccion-general-transportes",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Transportes, Vivienda e Infraestructuras. Dirección General de Transportes",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0d5581eb5f51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13837-consejeria-transportes-vivienda-infraestructuras-direccion-general-transportes/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE ORENSE 60"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13837-consejeria-transportes-vivienda-infraestructuras-direccion-general-transportes/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.694007450743159 40.460082056631514)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13837-consejeria-transportes-vivienda-infraestructuras-direccion-general-transportes/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.460082056631514,
+        "longitude" : -3.694007450743159
+	  }
+
+    },
+	{
+      "id" : "13025",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13025-consejeria-transportes-vivienda-infraestructuras-direccion-general-vivienda-rehabilitacion",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Transportes, Vivienda e Infraestructuras. Dirección General de Vivienda y Rehabilitación",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e7ab7d448b51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13025-consejeria-transportes-vivienda-infraestructuras-direccion-general-vivienda-rehabilitacion/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE MAUDES 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13025-consejeria-transportes-vivienda-infraestructuras-direccion-general-vivienda-rehabilitacion/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.701214400005444 40.445380936775926)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13025-consejeria-transportes-vivienda-infraestructuras-direccion-general-vivienda-rehabilitacion/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.445380936775926,
+        "longitude" : -3.701214400005444
+	  }
+
+    },
+	{
+      "id" : "180647",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180647-consejeria-transportes-vivienda-infraestructuras-direccion-general-vivienda-rehabilitacion-area-calificaciones",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Consejería de Transportes, Vivienda e Infraestructuras. Dirección General Vivienda y Rehabilitación. Área de Calificaciones",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=04ff0e4e6d41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180647-consejeria-transportes-vivienda-infraestructuras-direccion-general-vivienda-rehabilitacion-area-calificaciones/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE MAUDES 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180647-consejeria-transportes-vivienda-infraestructuras-direccion-general-vivienda-rehabilitacion-area-calificaciones/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.701214400005444 40.445380936775926)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180647-consejeria-transportes-vivienda-infraestructuras-direccion-general-vivienda-rehabilitacion-area-calificaciones/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.445380936775926,
+        "longitude" : -3.701214400005444
+	  }
+
+    },
+	{
+      "id" : "525",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/525-consejeria-transportes-vivienda-infraestructuras-oficina-auxiliar-materia-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Consejería de Transportes, Vivienda e Infraestructuras. Oficina Auxiliar en Materia de Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fc3229ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/525-consejeria-transportes-vivienda-infraestructuras-oficina-auxiliar-materia-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE ORENSE 60"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/525-consejeria-transportes-vivienda-infraestructuras-oficina-auxiliar-materia-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.694007450743159 40.460082056631514)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/525-consejeria-transportes-vivienda-infraestructuras-oficina-auxiliar-materia-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.460082056631514,
+        "longitude" : -3.694007450743159
+	  }
+
+    },
+	{
+      "id" : "17728",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17728-consejeria-transportes-vivienda-infraestructuras-oficina-auxiliar-materia-registro-direccion-general-vivienda-rehabilitacion",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Consejería de Transportes, Vivienda e Infraestructuras. Oficina Auxiliar en Materia de Registro de la Dirección General de Vivienda y Rehabilitación",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=210792355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17728-consejeria-transportes-vivienda-infraestructuras-oficina-auxiliar-materia-registro-direccion-general-vivienda-rehabilitacion/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE BRAGANZA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17728-consejeria-transportes-vivienda-infraestructuras-oficina-auxiliar-materia-registro-direccion-general-vivienda-rehabilitacion/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7209030864543537 40.3842776343469)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/17728-consejeria-transportes-vivienda-infraestructuras-oficina-auxiliar-materia-registro-direccion-general-vivienda-rehabilitacion/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3842776343469,
+        "longitude" : -3.7209030864543537
+	  }
+
+    },
+	{
+      "id" : "513",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/513-consejeria-transportes-vivienda-infraestructuras-oficina-asistencia-materia-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Consejería de Transportes, Vivienda e Infraestructuras. Oficina de Asistencia en Materia de Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a6c429ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/513-consejeria-transportes-vivienda-infraestructuras-oficina-asistencia-materia-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE MAUDES 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/513-consejeria-transportes-vivienda-infraestructuras-oficina-asistencia-materia-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.701214400005444 40.445380936775926)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/513-consejeria-transportes-vivienda-infraestructuras-oficina-asistencia-materia-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.445380936775926,
+        "longitude" : -3.701214400005444
+	  }
+
+    },
+	{
+      "id" : "166913",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/166913-consejeria-transportes-vivienda-infraestructuras-oficina-informacion-vivienda-ovicam-oficina-auxiliar-materia-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Consejería de Transportes, Vivienda e Infraestructuras. Oficina de Información de Vivienda. (OVICAM). Oficina Auxiliar en Materia de Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a47229ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/166913-consejeria-transportes-vivienda-infraestructuras-oficina-informacion-vivienda-ovicam-oficina-auxiliar-materia-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "AVENIDA ASTURIAS 28"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/166913-consejeria-transportes-vivienda-infraestructuras-oficina-informacion-vivienda-ovicam-oficina-auxiliar-materia-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6949167512596386 40.46934682518777)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/166913-consejeria-transportes-vivienda-infraestructuras-oficina-informacion-vivienda-ovicam-oficina-auxiliar-materia-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46934682518777,
+        "longitude" : -3.6949167512596386
+	  }
+
+    },
+	{
+      "id" : "527",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/527-consorcio-regional-transportes-oficina-asistencia-materia-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Consorcio Regional de Transportes. Oficina de Asistencia en Materia de Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=39d429ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/527-consorcio-regional-transportes-oficina-asistencia-materia-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "PLAZA DESCUBRIDOR DIEGO DE ORDAS 3 PLANTA 1ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/527-consorcio-regional-transportes-oficina-asistencia-materia-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7001767319685652 40.44083768001438)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/527-consorcio-regional-transportes-oficina-asistencia-materia-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44083768001438,
+        "longitude" : -3.7001767319685652
+	  }
+
+    },
+	{
+      "id" : "7611547",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7611547-decanato-registro-reparto-civil",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Decanato. Registro y Reparto Civil",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b72d86b9236f7410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7611547-decanato-registro-reparto-civil/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE POETA JOAN MARAGALL 66"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7611547-decanato-registro-reparto-civil/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.691302250903921 40.464269423507)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7611547-decanato-registro-reparto-civil/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.464269423507,
+        "longitude" : -3.691302250903921
+	  }
+
+    },
+	{
+      "id" : "12268",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12268-ente-derecho-publico-agencia-madrilena-tutela-adultos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Ente de Derecho Público Agencia Madrileña para la Tutela de Adultos",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=224fd4985261c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12268-ente-derecho-publico-agencia-madrilena-tutela-adultos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE GUZMAN EL BUENO 24"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12268-ente-derecho-publico-agencia-madrilena-tutela-adultos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.713203692670127 40.43281209736822)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12268-ente-derecho-publico-agencia-madrilena-tutela-adultos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43281209736822,
+        "longitude" : -3.713203692670127
+	  }
+
+    },
+	{
+      "id" : "7612881",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612881-fiscalia-registro-civil",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Fiscalía. Registro Civil",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8441206337df7410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612881-fiscalia-registro-civil/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PRADILLO 66"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612881-fiscalia-registro-civil/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6682549717771638 40.45005364568936)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612881-fiscalia-registro-civil/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45005364568936,
+        "longitude" : -3.6682549717771638
+	  }
+
+    },
+	{
+      "id" : "14261",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/14261-instituto-estadistica-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Instituto de Estadística de la Comunidad de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b11d5a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/14261-instituto-estadistica-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE ALBASANZ 16 PLANTA 2ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/14261-instituto-estadistica-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.631072348320731 40.43619052387026)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/14261-instituto-estadistica-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43619052387026,
+        "longitude" : -3.631072348320731
+	  }
+
+    },
+	{
+      "id" : "56824",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56824-instituto-regional-seguridad-salud-trabajo-irsst-oficina-asistencia-materia-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Instituto Regional de Seguridad y Salud en el Trabajo (IRSST). Oficina de Asistencia en Materia de Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=61578ed67151c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56824-instituto-regional-seguridad-salud-trabajo-irsst-oficina-asistencia-materia-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE VENTURA RODRIGUEZ 7 PLANTA 2ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56824-instituto-regional-seguridad-salud-trabajo-irsst-oficina-asistencia-materia-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.713737002455046 40.42526825572236)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56824-instituto-regional-seguridad-salud-trabajo-irsst-oficina-asistencia-materia-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42526825572236,
+        "longitude" : -3.713737002455046
+	  }
+
+    },
+	{
+      "id" : "13865",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13865-juntas-arbitrales-transporte-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Juntas Arbitrales del Transporte de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=889d5a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13865-juntas-arbitrales-transporte-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE ORENSE 60 PLANTA 1ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13865-juntas-arbitrales-transporte-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.694007450743159 40.460082056631514)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13865-juntas-arbitrales-transporte-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.460082056631514,
+        "longitude" : -3.694007450743159
+	  }
+
+    },
+	{
+      "id" : "4550859",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4550859-observatorio-regional-inmigracion",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Observatorio Regional de la Inmigración",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=85b071e85c1b1110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4550859-observatorio-regional-inmigracion/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE LOS MADRAZO 34"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4550859-observatorio-regional-inmigracion/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6951612277202304 40.41752556273083)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4550859-observatorio-regional-inmigracion/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41752556273083,
+        "longitude" : -3.6951612277202304
+	  }
+
+    },
+	{
+      "id" : "167376",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/167376-oficina-auxiliar-asistencia-materia-registro-direccion-general-recursos-humanos-relaciones-laborales-sermas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Oficina auxiliar de asistencia en materia de Registro de la Dirección General de Recursos Humanos y Relaciones Laborales (SERMAS)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5ef429ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/167376-oficina-auxiliar-asistencia-materia-registro-direccion-general-recursos-humanos-relaciones-laborales-sermas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE SAGASTA 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/167376-oficina-auxiliar-asistencia-materia-registro-direccion-general-recursos-humanos-relaciones-laborales-sermas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.701122858250546 40.42862472915037)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/167376-oficina-auxiliar-asistencia-materia-registro-direccion-general-recursos-humanos-relaciones-laborales-sermas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42862472915037,
+        "longitude" : -3.701122858250546
+	  }
+
+    },
+	{
+      "id" : "25570",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25570-oficina-asistencia-materia-registro-agencia-madrilena-atencion-social-amas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Oficina de asistencia en materia de Registro de la Agencia Madrileña de Atención Social (AMAS)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=efd792355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25570-oficina-asistencia-materia-registro-agencia-madrilena-atencion-social-amas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28036",
+		"street-address" : "CALLE AGUSTIN DE FOXA 31 PLANTA CALLE"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25570-oficina-asistencia-materia-registro-agencia-madrilena-atencion-social-amas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.684594014919827 40.471561570529644)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25570-oficina-asistencia-materia-registro-agencia-madrilena-atencion-social-amas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.471561570529644,
+        "longitude" : -3.684594014919827
+	  }
+
+    },
+	{
+      "id" : "6142042",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6142042-oficina-asistencia-materia-registro-agencia-madrilena-tutela-adultos-amta",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OficinasRegistro",
+      "title" : "Oficina de asistencia en materia de Registro de la Agencia Madrileña para la Tutela de Adultos (AMTA)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=876403e798151310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6142042-oficina-asistencia-materia-registro-agencia-madrilena-tutela-adultos-amta/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE GUZMAN EL BUENO 24 PLANTA 2ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6142042-oficina-asistencia-materia-registro-agencia-madrilena-tutela-adultos-amta/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.713203692670127 40.43281209736822)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6142042-oficina-asistencia-materia-registro-agencia-madrilena-tutela-adultos-amta/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43281209736822,
+        "longitude" : -3.713203692670127
+	  }
+
+    },
+	{
+      "id" : "10121730",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121730-oficina-asistencia-materia-registro-agencia-administracion-digital-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Oficina de Asistencia en Materia de Registro de la Agencia para la Administración Digital de la Comunidad de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a793739dee796510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121730-oficina-asistencia-materia-registro-agencia-administracion-digital-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE EMBAJADORES 181"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121730-oficina-asistencia-materia-registro-agencia-administracion-digital-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.692914369827133 40.39152988042475)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10121730-oficina-asistencia-materia-registro-agencia-administracion-digital-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39152988042475,
+        "longitude" : -3.692914369827133
+	  }
+
+    },
+	{
+      "id" : "10123006",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10123006-oficina-asistencia-materia-registro-consejeria-medio-ambiente-administracion-local-ordenacion-territorio",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Oficina de Asistencia en Materia de Registro de la Consejería de Medio Ambiente, Administración Local y Ordenación del Territorio",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a6459ce1d91b6510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10123006-oficina-asistencia-materia-registro-consejeria-medio-ambiente-administracion-local-ordenacion-territorio/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALÁ 16 PLANTA BAJA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10123006-oficina-asistencia-materia-registro-consejeria-medio-ambiente-administracion-local-ordenacion-territorio/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699511793302036 40.41763445777782)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10123006-oficina-asistencia-materia-registro-consejeria-medio-ambiente-administracion-local-ordenacion-territorio/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41763445777782,
+        "longitude" : -3.699511793302036
+	  }
+
+    },
+	{
+      "id" : "5334285",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5334285-oficina-asistencia-materia-registro-instituto-madrileno-investigacion-desarrollo-rural-agrario-alimentario-imidra",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Oficina de Asistencia en Materia de Registro del Instituto Madrileño de Investigación y Desarrollo Rural, Agrario y Alimentario (IMIDRA)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2404ca8d44851210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5334285-oficina-asistencia-materia-registro-instituto-madrileno-investigacion-desarrollo-rural-agrario-alimentario-imidra/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALÁ 16 PLANTA 1ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5334285-oficina-asistencia-materia-registro-instituto-madrileno-investigacion-desarrollo-rural-agrario-alimentario-imidra/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699511793302036 40.41763445777782)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5334285-oficina-asistencia-materia-registro-instituto-madrileno-investigacion-desarrollo-rural-agrario-alimentario-imidra/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41763445777782,
+        "longitude" : -3.699511793302036
+	  }
+
+    },
+	{
+      "id" : "25580",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25580-oficina-asistencia-materia-registro-punto-informacion-atencion-al-ciudadano-servicio-madrileno-salud-sermas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Oficina de asistencia en materia de Registro y Punto de información y atención al ciudadano del Servicio Madrileño de Salud (SERMAS)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5dc792355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25580-oficina-asistencia-materia-registro-punto-informacion-atencion-al-ciudadano-servicio-madrileno-salud-sermas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "PLAZA CARLOS TRIAS BERTRAN 7 EDIFICIO SOLLUBE"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25580-oficina-asistencia-materia-registro-punto-informacion-atencion-al-ciudadano-servicio-madrileno-salud-sermas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6938533030858203 40.4508307533172)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25580-oficina-asistencia-materia-registro-punto-informacion-atencion-al-ciudadano-servicio-madrileno-salud-sermas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4508307533172,
+        "longitude" : -3.6938533030858203
+	  }
+
+    },
+	{
+      "id" : "8214555",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8214555-oficina-atencion-al-refugiado-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Oficina de Atención al Refugiado de la Comunidad de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1d0bccd213eff410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8214555-oficina-atencion-al-refugiado-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE JARDINES 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8214555-oficina-atencion-al-refugiado-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.70174092195967 40.41890023308047)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8214555-oficina-atencion-al-refugiado-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41890023308047,
+        "longitude" : -3.70174092195967
+	  }
+
+    },
+	{
+      "id" : "6809",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6809-oficina-deposito-legal-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Oficina de Depósito Legal. Comunidad de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c75f42be9971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6809-oficina-deposito-legal-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE RAMIREZ DE PRADO 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6809-oficina-deposito-legal-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6900541585894713 40.399898401147595)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6809-oficina-deposito-legal-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.399898401147595,
+        "longitude" : -3.6900541585894713
+	  }
+
+    },
+	{
+      "id" : "5626993",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5626993-oficina-informacion-al-mayor-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Oficina de Información al Mayor de la Comunidad de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=12e9bd46c8497210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5626993-oficina-informacion-al-mayor-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28036",
+		"street-address" : "CALLE AGUSTIN DE FOXA 31"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5626993-oficina-informacion-al-mayor-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.684594014919827 40.471561570529644)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5626993-oficina-informacion-al-mayor-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.471561570529644,
+        "longitude" : -3.684594014919827
+	  }
+
+    },
+	{
+      "id" : "10086954",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10086954-oficina-informacion-dependencia-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Oficina de Información de la Dependencia de la Comunidad de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4c4ee3e6c2f25510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10086954-oficina-informacion-dependencia-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28036",
+		"street-address" : "CALLE AGUSTIN DE FOXA 31"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10086954-oficina-informacion-dependencia-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.684594014919827 40.471561570529644)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10086954-oficina-informacion-dependencia-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.471561570529644,
+        "longitude" : -3.684594014919827
+	  }
+
+    },
+	{
+      "id" : "18242",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18242-oficina-informacion-vivienda-publica-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Oficina de Información de Vivienda Pública de la Comunidad de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c07a444a2951c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18242-oficina-informacion-vivienda-publica-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE BRAGANZA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18242-oficina-informacion-vivienda-publica-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7209030864543537 40.3842776343469)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18242-oficina-informacion-vivienda-publica-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3842776343469,
+        "longitude" : -3.7209030864543537
+	  }
+
+    },
+	{
+      "id" : "7977356",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7977356-oficina-rehabilitacion-edificios",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Oficina de Rehabilitación de Edificios",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=792ece80d32ac410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7977356-oficina-rehabilitacion-edificios/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE BRAGANZA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7977356-oficina-rehabilitacion-edificios/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7209030864543537 40.3842776343469)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7977356-oficina-rehabilitacion-edificios/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3842776343469,
+        "longitude" : -3.7209030864543537
+	  }
+
+    },
+	{
+      "id" : "166187",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/166187-oficina-vivienda-madrid-avenida-asturias-28",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Oficina de Vivienda de Madrid - Avenida de Asturias, 28",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cd998f90a581c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/166187-oficina-vivienda-madrid-avenida-asturias-28/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "AVENIDA ASTURIAS 28"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/166187-oficina-vivienda-madrid-avenida-asturias-28/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6949284538214027 40.469337745863335)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/166187-oficina-vivienda-madrid-avenida-asturias-28/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.469337745863335,
+        "longitude" : -3.6949284538214027
+	  }
+
+    },
+	{
+      "id" : "10498447",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10498447-oficina-vivienda-madrid-avenida-asturias-30",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Oficina de Vivienda de Madrid - Avenida de Asturias, 30",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0ab51859dd8be510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10498447-oficina-vivienda-madrid-avenida-asturias-30/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "AVENIDA ASTURIAS 30"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10498447-oficina-vivienda-madrid-avenida-asturias-30/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6949284538214027 40.469337745863335)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10498447-oficina-vivienda-madrid-avenida-asturias-30/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.469337745863335,
+        "longitude" : -3.6949284538214027
+	  }
+
+    },
+	{
+      "id" : "9417",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9417-oficina-regional-coordinacion-trasplantes",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Oficina Regional de Coordinación de Trasplantes",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=47b61c7a2c61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9417-oficina-regional-coordinacion-trasplantes/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "PLAZA CARLOS TRIAS BERTRAN 7 PLANTA 3ª EDIFICIO SOLLUBE"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9417-oficina-regional-coordinacion-trasplantes/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6938533030858203 40.4508307533172)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9417-oficina-regional-coordinacion-trasplantes/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4508307533172,
+        "longitude" : -3.6938533030858203
+	  }
+
+    },
+	{
+      "id" : "50296",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/50296-oficina-regional-coordinacion-oncologica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Oficina Regional de Coordinación Oncológica",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=caa7e7510551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/50296-oficina-regional-coordinacion-oncologica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "PLAZA CARLOS TRIAS BERTRAN 7 PLANTA 7ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/50296-oficina-regional-coordinacion-oncologica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6938533030858203 40.4508307533172)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/50296-oficina-regional-coordinacion-oncologica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4508307533172,
+        "longitude" : -3.6938533030858203
+	  }
+
+    },
+	{
+      "id" : "13038",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13038-oficina-regional-subastas-judiciales",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Oficina Regional de Subastas Judiciales",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4d7292355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13038-oficina-regional-subastas-judiciales/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE POETA JOAN MARAGALL 66"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13038-oficina-regional-subastas-judiciales/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.691302250903921 40.464269423507)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13038-oficina-regional-subastas-judiciales/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.464269423507,
+        "longitude" : -3.691302250903921
+	  }
+
+    },
+	{
+      "id" : "9409",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9409-organismo-autonomo-agencia-madrilena-atencion-social",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OrganismosEmpresasCAM",
+      "title" : "Organismo Autónomo Agencia Madrileña de Atención Social",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=41db224e0d61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9409-organismo-autonomo-agencia-madrilena-atencion-social/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28036",
+		"street-address" : "CALLE AGUSTIN DE FOXA 31"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9409-organismo-autonomo-agencia-madrilena-atencion-social/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.684594014919827 40.471561570529644)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9409-organismo-autonomo-agencia-madrilena-atencion-social/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.471561570529644,
+        "longitude" : -3.684594014919827
+	  }
+
+    },
+	{
+      "id" : "166244",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/166244-organismo-autonomo-instituto-madrileno-investigacion-desarrollo-rural-agrario-alimentario-imidra",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Organismo Autónomo Instituto Madrileño de Investigación y Desarrollo Rural, Agrario y Alimentario (IMIDRA)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8d2c8f90a581c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/166244-organismo-autonomo-instituto-madrileno-investigacion-desarrollo-rural-agrario-alimentario-imidra/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALÁ 16 PLANTA 1ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/166244-organismo-autonomo-instituto-madrileno-investigacion-desarrollo-rural-agrario-alimentario-imidra/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699511793302036 40.41763445777782)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/166244-organismo-autonomo-instituto-madrileno-investigacion-desarrollo-rural-agrario-alimentario-imidra/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41763445777782,
+        "longitude" : -3.699511793302036
+	  }
+
+    },
+	{
+      "id" : "42035",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/42035-organismo-autonomo-instituto-regional-seguridad-salud-trabajo-irsst",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Organismo Autónomo Instituto Regional de Seguridad y Salud en el Trabajo (IRSST)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a3bfe7510551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/42035-organismo-autonomo-instituto-regional-seguridad-salud-trabajo-irsst/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE VENTURA RODRIGUEZ 7 PLANTA 2ª, 3ª, 5ª y 6ª planta"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/42035-organismo-autonomo-instituto-regional-seguridad-salud-trabajo-irsst/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.713737002455046 40.42526825572236)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/42035-organismo-autonomo-instituto-regional-seguridad-salud-trabajo-irsst/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42526825572236,
+        "longitude" : -3.713737002455046
+	  }
+
+    },
+	{
+      "id" : "33190",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/33190-organo-gestion-personalidad-juridica-instituto-regional-arbitraje-consumo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Órgano de Gestión sin personalidad jurídica Instituto Regional de Arbitraje de Consumo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6d816f065851c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/33190-organo-gestion-personalidad-juridica-instituto-regional-arbitraje-consumo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE GENERAL DIAZ PORLIER 35"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/33190-organo-gestion-personalidad-juridica-instituto-regional-arbitraje-consumo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6770787729552854 40.42800228004145)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/33190-organo-gestion-personalidad-juridica-instituto-regional-arbitraje-consumo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42800228004145,
+        "longitude" : -3.6770787729552854
+	  }
+
+    },
+	{
+      "id" : "23",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/23-presidencia-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/ConsejeriasAsambleaPresidenciaCAM",
+      "title" : "Presidencia de la Comunidad de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ad5029ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/23-presidencia-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "PLAZA PUERTA DEL SOL 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/23-presidencia-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7038145261485296 40.416545277662664)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/23-presidencia-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.416545277662664,
+        "longitude" : -3.7038145261485296
+	  }
+
+    },
+	{
+      "id" : "64616",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/64616-punto-informacion-atencion-al-ciudadano-consejeria-medio-ambiente-administracion-local-ordenacion-territorio",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Punto de Información y Atención al Ciudadano de la Consejería de Medio Ambiente, Administración Local y Ordenación del Territorio",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0b0af0bde551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/64616-punto-informacion-atencion-al-ciudadano-consejeria-medio-ambiente-administracion-local-ordenacion-territorio/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALÁ 16 PLANTA BAJA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/64616-punto-informacion-atencion-al-ciudadano-consejeria-medio-ambiente-administracion-local-ordenacion-territorio/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699511793302036 40.41763445777782)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/64616-punto-informacion-atencion-al-ciudadano-consejeria-medio-ambiente-administracion-local-ordenacion-territorio/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41763445777782,
+        "longitude" : -3.699511793302036
+	  }
+
+    },
+	{
+      "id" : "8154847",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8154847-registro-auxiliar-direccion-general-administracion-local",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid",
+      "title" : "Registro Auxiliar de la Dirección General de Administración Local",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3ef1c8526b9be410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8154847-registro-auxiliar-direccion-general-administracion-local/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE ALCALÁ GALIANO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8154847-registro-auxiliar-direccion-general-administracion-local/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6918252466596844 40.42670776464404)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8154847-registro-auxiliar-direccion-general-administracion-local/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42670776464404,
+        "longitude" : -3.6918252466596844
+	  }
+
+    },
+	{
+      "id" : "9207",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9207-registro-identificacion-animales-compania-riac",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OficinasRegistro",
+      "title" : "Registro de identificación de animales de compañía (RIAC)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a4b71c7a2c61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9207-registro-identificacion-animales-compania-riac/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE MAESTRO RIPOLL 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9207-registro-identificacion-animales-compania-riac/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.690174665531935 40.442834765371316)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9207-registro-identificacion-animales-compania-riac/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.442834765371316,
+        "longitude" : -3.690174665531935
+	  }
+
+    },
+	{
+      "id" : "190401",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190401-registro-instrucciones-previas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OficinasRegistro",
+      "title" : "Registro de Instrucciones Previas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0eda8697114cf010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190401-registro-instrucciones-previas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE SAGASTA 6 PLANTA 1ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190401-registro-instrucciones-previas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.701122858250546 40.42862472915037)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190401-registro-instrucciones-previas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42862472915037,
+        "longitude" : -3.701122858250546
+	  }
+
+    },
+	{
+      "id" : "539",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/539-registro-uniones-hecho",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OficinasRegistro",
+      "title" : "Registro de Uniones de Hecho",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=96f229ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/539-registro-uniones-hecho/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 18 PLANTA Baja"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/539-registro-uniones-hecho/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6998890963079516 40.41992047069557)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/539-registro-uniones-hecho/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41992047069557,
+        "longitude" : -3.6998890963079516
+	  }
+
+    },
+	{
+      "id" : "24605",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24605-registro-especial-arrendamientos-rusticos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OficinasRegistro",
+      "title" : "Registro Especial de Arrendamientos Rústicos",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fd5792355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24605-registro-especial-arrendamientos-rusticos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALÁ 16 PLANTA BAJA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24605-registro-especial-arrendamientos-rusticos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699511793302036 40.41763445777782)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24605-registro-especial-arrendamientos-rusticos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41763445777782,
+        "longitude" : -3.699511793302036
+	  }
+
+    },
+	{
+      "id" : "18067",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18067-registro-general-comerciantes-ambulantes-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OficinasRegistro",
+      "title" : "Registro General de Comerciantes Ambulantes. Comunidad de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a32b444a2951c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18067-registro-general-comerciantes-ambulantes-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : " ALBASANZ 14 PLANTA Baja"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18067-registro-general-comerciantes-ambulantes-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.631072348320731 40.43619052387026)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18067-registro-general-comerciantes-ambulantes-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43619052387026,
+        "longitude" : -3.631072348320731
+	  }
+
+    },
+	{
+      "id" : "98520",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/98520-registro-territorial-propiedad-intelectual-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OficinasRegistro",
+      "title" : "Registro Territorial de la Propiedad Intelectual. Comunidad de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=377e4f36ff81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/98520-registro-territorial-propiedad-intelectual-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE SANTA CATALINA 6 PLANTA Entreplanta derecha"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/98520-registro-territorial-propiedad-intelectual-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.697865075046422 40.41568944659875)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/98520-registro-territorial-propiedad-intelectual-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41568944659875,
+        "longitude" : -3.697865075046422
+	  }
+
+    },
+	{
+      "id" : "190607",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190607-servicio-informacion-al-drogodependiente-sajiad",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Servicio de Información al Drogodependiente (SAJIAD)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=44d6dfb1f5010110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190607-servicio-informacion-al-drogodependiente-sajiad/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PLAZA CASTILLA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190607-servicio-informacion-al-drogodependiente-sajiad/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6902025083603656 40.46514986607197)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190607-servicio-informacion-al-drogodependiente-sajiad/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46514986607197,
+        "longitude" : -3.6902025083603656
+	  }
+
+    },
+	{
+      "id" : "21707",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/21707-servicio-madrileno-salud",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ComunidadMadrid/OtrasEntidadesCAM",
+      "title" : "Servicio Madrileño de Salud",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2d5332df1d51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/21707-servicio-madrileno-salud/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "PLAZA CARLOS TRIAS BERTRAN 7 PLANTA 7ª EDIFICIO SOLLUBE II"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/21707-servicio-madrileno-salud/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6938533030858203 40.4508307533172)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/21707-servicio-madrileno-salud/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4508307533172,
+        "longitude" : -3.6938533030858203
+	  }
+
+    }
+  ]
+}

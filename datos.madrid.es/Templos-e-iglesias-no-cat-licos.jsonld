@@ -1,0 +1,2621 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [{
+      "id" : "7066142",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7066142-asamblea-cristiana-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Asamblea Cristiana de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=03758105e2260410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7066142-asamblea-cristiana-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "CALLE ALORA 7 PLANTA Bajo"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7066142-asamblea-cristiana-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.64034744917085 40.386040079971394)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7066142-asamblea-cristiana-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.386040079971394,
+        "longitude" : -3.64034744917085
+	  }
+
+    },
+{
+      "id" : "1364",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1364-asociacion-betel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Asociación Betel",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9de076172d71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1364-asociacion-betel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE ANTONIA RODRíGUEZ SACRISTÁN 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1364-asociacion-betel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.745081414178666 40.372799948839976)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1364-asociacion-betel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.372799948839976,
+        "longitude" : -3.745081414178666
+	  }
+
+    },
+{
+      "id" : "4530770",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4530770-asociacion-darse-dar-ayuda-reinsercion-social-espana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Asociación Darse - Dar Ayuda para la Reinserción Social España",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=358393b8cb901110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4530770-asociacion-darse-dar-ayuda-reinsercion-social-espana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CAMINO ALTO DE SAN ISIDRO 16 PLANTA 2º C C"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4530770-asociacion-darse-dar-ayuda-reinsercion-social-espana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.72281263104335 40.3964910317842)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4530770-asociacion-darse-dar-ayuda-reinsercion-social-espana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3964910317842,
+        "longitude" : -3.72281263104335
+	  }
+
+    },
+{
+      "id" : "3387",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3387-catedral-anglicana-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Catedral Anglicana de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=94ef13db5b71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3387-catedral-anglicana-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE BENEFICENCIA 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3387-catedral-anglicana-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.698682579292043 40.42635120982088)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3387-catedral-anglicana-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42635120982088,
+        "longitude" : -3.698682579292043
+	  }
+
+    },
+{
+      "id" : "3388",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3388-catedral-ortodoxa-griega",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Catedral Ortodoxa Griega",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=82547b503a71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3388-catedral-ortodoxa-griega/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28016",
+		"street-address" : "CALLE NICARAGUA 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3388-catedral-ortodoxa-griega/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.672905343222746 40.45754917910687)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3388-catedral-ortodoxa-griega/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45754917910687,
+        "longitude" : -3.672905343222746
+	  }
+
+    },
+{
+      "id" : "3751",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3751-centro-cultural-islamico-mezquita-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Centro Cultural Islámico. Mezquita de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a3b71e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3751-centro-cultural-islamico-mezquita-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "CALLE SALVADOR DE MADARIAGA 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3751-centro-cultural-islamico-mezquita-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6573640044493407 40.438521492191306)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3751-centro-cultural-islamico-mezquita-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.438521492191306,
+        "longitude" : -3.6573640044493407
+	  }
+
+    },
+{
+      "id" : "7066102",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7066102-centro-evangelizacion-anuncio-paz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Centro de Evangelización Anuncio de Paz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=17bb8105e2260410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7066102-centro-evangelizacion-anuncio-paz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE PUERTO DEL MONASTERIO 10 PLANTA BAJO"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7066102-centro-evangelizacion-anuncio-paz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.665233691809319 40.39477355030102)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7066102-centro-evangelizacion-anuncio-paz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39477355030102,
+        "longitude" : -3.665233691809319
+	  }
+
+    },
+{
+      "id" : "7065996",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065996-comunidad-cristiana-maranatha",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Comunidad Cristiana Maranatha",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=429604a5d0260410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065996-comunidad-cristiana-maranatha/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "CALLE GRANADA 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065996-comunidad-cristiana-maranatha/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6800894670027358 40.40503855717772)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065996-comunidad-cristiana-maranatha/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40503855717772,
+        "longitude" : -3.6800894670027358
+	  }
+
+    },
+{
+      "id" : "3386",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3386-iglesia-anglicana-episcopal-san-jorge",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Anglicana Episcopal de San Jorge",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=48047b503a71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3386-iglesia-anglicana-episcopal-san-jorge/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE NUÑEZ DE BALBOA 43"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3386-iglesia-anglicana-episcopal-san-jorge/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.68277143067568 40.42669852639718)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3386-iglesia-anglicana-episcopal-san-jorge/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42669852639718,
+        "longitude" : -3.68277143067568
+	  }
+
+    },
+{
+      "id" : "7063835",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063835-iglesia-bautista-alameda-osuna",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Bautista Alameda de Osuna",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bd9c1ea949750410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063835-iglesia-bautista-alameda-osuna/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "CALLE JOAQUIN IBARRA 46"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063835-iglesia-bautista-alameda-osuna/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.592907109932939 40.455005219463864)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063835-iglesia-bautista-alameda-osuna/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.455005219463864,
+        "longitude" : -3.592907109932939
+	  }
+
+    },
+{
+      "id" : "7063848",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063848-iglesia-bautista-barrio-pilar",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Bautista Barrio del Pilar",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d7521ea949750410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063848-iglesia-bautista-barrio-pilar/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "CALLE GINZO DE LIMIA 44"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063848-iglesia-bautista-barrio-pilar/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.703163788451918 40.47854013481567)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063848-iglesia-bautista-barrio-pilar/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47854013481567,
+        "longitude" : -3.703163788451918
+	  }
+
+    },
+{
+      "id" : "7063869",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063869-iglesia-bautista-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Bautista de Usera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9d28ec795b750410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063869-iglesia-bautista-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE MADRIDEJOS 41"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063869-iglesia-bautista-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7098425934998946 40.38448119553993)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063869-iglesia-bautista-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38448119553993,
+        "longitude" : -3.7098425934998946
+	  }
+
+    },
+{
+      "id" : "7064915",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064915-iglesia-bautista-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Bautista de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=19bdb607bec50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064915-iglesia-bautista-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CALLE SAN VIRGILIO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064915-iglesia-bautista-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6630979420842595 40.39566870843571)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064915-iglesia-bautista-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39566870843571,
+        "longitude" : -3.6630979420842595
+	  }
+
+    },
+{
+      "id" : "3385",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3385-iglesia-bautista-buen-pastor",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Bautista El Buen Pastor",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=27ff13db5b71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3385-iglesia-bautista-buen-pastor/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "PLAZA GETAFE 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3385-iglesia-bautista-buen-pastor/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6721947831541484 40.444238011956884)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3385-iglesia-bautista-buen-pastor/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.444238011956884,
+        "longitude" : -3.6721947831541484
+	  }
+
+    },
+{
+      "id" : "3742",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3742-iglesia-bautista-general-lacy",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Bautista General Lacy",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ede51e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3742-iglesia-bautista-general-lacy/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE GENERAL LACY 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3742-iglesia-bautista-general-lacy/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.690928534913438 40.403586898197894)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3742-iglesia-bautista-general-lacy/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.403586898197894,
+        "longitude" : -3.690928534913438
+	  }
+
+    },
+{
+      "id" : "7064565",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064565-iglesia-bautista-pueblo-nuevo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Bautista Pueblo Nuevo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0304efba3c850410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064565-iglesia-bautista-pueblo-nuevo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "CALLE GUTIERRE DE CETINA 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064565-iglesia-bautista-pueblo-nuevo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.644196517698973 40.43387488622842)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064565-iglesia-bautista-pueblo-nuevo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43387488622842,
+        "longitude" : -3.644196517698973
+	  }
+
+    },
+{
+      "id" : "7064568",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064568-iglesia-celebracion-cristiana-comunidad-sendero-cruz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Celebración Cristiana (Comunidad Sendero de la Cruz)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f5e7efba3c850410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064568-iglesia-celebracion-cristiana-comunidad-sendero-cruz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE MIGUEL FLETA 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064568-iglesia-celebracion-cristiana-comunidad-sendero-cruz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.631374057578604 40.43189156564133)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064568-iglesia-celebracion-cristiana-comunidad-sendero-cruz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43189156564133,
+        "longitude" : -3.631374057578604
+	  }
+
+    },
+{
+      "id" : "7064593",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064593-iglesia-cenfol-espana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia CENFOL España",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=beddb8d07d850410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064593-iglesia-cenfol-espana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE ALEJANDRO VILLEGAS 34 PLANTA local"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064593-iglesia-cenfol-espana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6488243746464377 40.46517332828151)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064593-iglesia-cenfol-espana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46517332828151,
+        "longitude" : -3.6488243746464377
+	  }
+
+    },
+{
+      "id" : "7064594",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064594-iglesia-centro-cristiano-adonay",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Centro Cristiano Adonay",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e65fb8d07d850410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064594-iglesia-centro-cristiano-adonay/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE MARIA MARTINEZ OVIOL 17 B"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064594-iglesia-centro-cristiano-adonay/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.691253820762234 40.35010688886286)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064594-iglesia-centro-cristiano-adonay/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.35010688886286,
+        "longitude" : -3.691253820762234
+	  }
+
+    },
+{
+      "id" : "7064614",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064614-iglesia-comunidad-cristiana-fe",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Comunidad Cristiana de Fe",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5c77b8d07d850410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064614-iglesia-comunidad-cristiana-fe/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28036",
+		"street-address" : "CALLE MANUEL FERRERO 5 Local"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064614-iglesia-comunidad-cristiana-fe/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6845607169672094 40.468282503897264)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064614-iglesia-comunidad-cristiana-fe/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.468282503897264,
+        "longitude" : -3.6845607169672094
+	  }
+
+    },
+{
+      "id" : "18298",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18298-iglesia-cristiana-adventista-septimo-dia-madrid-alenza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cristiana Adventista del Séptimo Día. Madrid Alenza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=435f6f065851c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18298-iglesia-cristiana-adventista-septimo-dia-madrid-alenza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE ALENZA 6 PLANTA Baja"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18298-iglesia-cristiana-adventista-septimo-dia-madrid-alenza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7004998266858435 40.44356545097694)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18298-iglesia-cristiana-adventista-septimo-dia-madrid-alenza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44356545097694,
+        "longitude" : -3.7004998266858435
+	  }
+
+    },
+{
+      "id" : "190017",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190017-iglesia-cristiana-adventista-septimo-dia-madrid-aluche",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cristiana Adventista del Séptimo Día. Madrid Aluche",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=08470bf21677f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190017-iglesia-cristiana-adventista-septimo-dia-madrid-aluche/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE LOS YEBENES 255"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190017-iglesia-cristiana-adventista-septimo-dia-madrid-aluche/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7515803449309417 40.38946974102784)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190017-iglesia-cristiana-adventista-septimo-dia-madrid-aluche/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38946974102784,
+        "longitude" : -3.7515803449309417
+	  }
+
+    },
+{
+      "id" : "190019",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190019-iglesia-cristiana-adventista-septimo-dia-madrid-beneficencia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cristiana Adventista del Séptimo Día. Madrid Beneficencia",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ed570bf21677f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190019-iglesia-cristiana-adventista-septimo-dia-madrid-beneficencia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE BENEFICENCIA 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190019-iglesia-cristiana-adventista-septimo-dia-madrid-beneficencia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.698682579292043 40.42635120982088)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190019-iglesia-cristiana-adventista-septimo-dia-madrid-beneficencia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42635120982088,
+        "longitude" : -3.698682579292043
+	  }
+
+    },
+{
+      "id" : "190024",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190024-iglesia-cristiana-adventista-septimo-dia-madrid-calatrava",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cristiana Adventista del Séptimo Día. Madrid Calatrava",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3a870bf21677f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190024-iglesia-cristiana-adventista-septimo-dia-madrid-calatrava/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE SECOYA 19 POLIGONO INDUSTRIAL AGUACATE"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190024-iglesia-cristiana-adventista-septimo-dia-madrid-calatrava/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.744912867450059 40.36926045846844)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190024-iglesia-cristiana-adventista-septimo-dia-madrid-calatrava/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.36926045846844,
+        "longitude" : -3.744912867450059
+	  }
+
+    },
+{
+      "id" : "8353139",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8353139-iglesia-cristiana-adventista-septimo-dia-madrid-eben-ezer",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cristiana Adventista del Séptimo Día. Madrid Eben-Ezer",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=925691f81c421510VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8353139-iglesia-cristiana-adventista-septimo-dia-madrid-eben-ezer/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE RUSIA 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8353139-iglesia-cristiana-adventista-septimo-dia-madrid-eben-ezer/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.610095282640812 40.42423100660826)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8353139-iglesia-cristiana-adventista-septimo-dia-madrid-eben-ezer/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42423100660826,
+        "longitude" : -3.610095282640812
+	  }
+
+    },
+{
+      "id" : "4578472",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4578472-iglesia-cristiana-adventista-septimo-dia-madrid-emaus",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cristiana Adventista del Séptimo Día. Madrid Emaús",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d6d9493662e92110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4578472-iglesia-cristiana-adventista-septimo-dia-madrid-emaus/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE RUSIA 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4578472-iglesia-cristiana-adventista-septimo-dia-madrid-emaus/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.610095282640812 40.42423100660826)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4578472-iglesia-cristiana-adventista-septimo-dia-madrid-emaus/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42423100660826,
+        "longitude" : -3.610095282640812
+	  }
+
+    },
+{
+      "id" : "6893233",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6893233-iglesia-cristiana-adventista-septimo-dia-madrid-grupo-brasileno",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cristiana Adventista del Séptimo Día. Madrid Grupo brasileño",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f1d689f2b4eed310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6893233-iglesia-cristiana-adventista-septimo-dia-madrid-grupo-brasileno/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "TRAVESIA JUAN FRANCISCO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6893233-iglesia-cristiana-adventista-septimo-dia-madrid-grupo-brasileno/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7323234966679735 40.38685454268195)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6893233-iglesia-cristiana-adventista-septimo-dia-madrid-grupo-brasileno/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38685454268195,
+        "longitude" : -3.7323234966679735
+	  }
+
+    },
+{
+      "id" : "8352971",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8352971-iglesia-cristiana-adventista-septimo-dia-madrid-noviciado-horeb",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cristiana Adventista del Séptimo Día. Madrid Noviciado de Horeb",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=384fcef44b421510VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8352971-iglesia-cristiana-adventista-septimo-dia-madrid-noviciado-horeb/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE MARQUESA DE ARG&Uuml;ESO 24"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8352971-iglesia-cristiana-adventista-septimo-dia-madrid-noviciado-horeb/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.723877858559506 40.39143027890694)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8352971-iglesia-cristiana-adventista-septimo-dia-madrid-noviciado-horeb/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39143027890694,
+        "longitude" : -3.723877858559506
+	  }
+
+    },
+{
+      "id" : "190054",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190054-iglesia-cristiana-adventista-septimo-dia-madrid-resurreccion",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cristiana Adventista del Séptimo Día. Madrid Resurrección",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=23e70bf21677f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190054-iglesia-cristiana-adventista-septimo-dia-madrid-resurreccion/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE AUSTRIA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190054-iglesia-cristiana-adventista-septimo-dia-madrid-resurreccion/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.60803688991874 40.424737348819995)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190054-iglesia-cristiana-adventista-septimo-dia-madrid-resurreccion/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.424737348819995,
+        "longitude" : -3.60803688991874
+	  }
+
+    },
+{
+      "id" : "190014",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190014-iglesia-cristiana-adventista-septimo-dia-madrid-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cristiana Adventista del Séptimo Día. Madrid Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=26f70bf21677f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190014-iglesia-cristiana-adventista-septimo-dia-madrid-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "CALLE DOCTOR BELLIDO 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190014-iglesia-cristiana-adventista-septimo-dia-madrid-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6673969388303247 40.38473396152094)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190014-iglesia-cristiana-adventista-septimo-dia-madrid-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38473396152094,
+        "longitude" : -3.6673969388303247
+	  }
+
+    },
+{
+      "id" : "190059",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190059-iglesia-cristiana-adventista-septimo-dia-madrid-ventas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cristiana Adventista del Séptimo Día. Madrid Ventas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0a08d5bfd677f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190059-iglesia-cristiana-adventista-septimo-dia-madrid-ventas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "CALLE HERMANOS GOMEZ 32"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190059-iglesia-cristiana-adventista-septimo-dia-madrid-ventas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6498796531677073 40.430239463904734)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190059-iglesia-cristiana-adventista-septimo-dia-madrid-ventas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.430239463904734,
+        "longitude" : -3.6498796531677073
+	  }
+
+    },
+{
+      "id" : "23684",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/23684-iglesia-cristiana-evangelica-aluche",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cristiana Evangélica de Aluche",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bf9b92355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/23684-iglesia-cristiana-evangelica-aluche/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE NUESTRA SEÑORA DE LA LUZ 118"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/23684-iglesia-cristiana-evangelica-aluche/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.751536019050476 40.38654208091557)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/23684-iglesia-cristiana-evangelica-aluche/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38654208091557,
+        "longitude" : -3.751536019050476
+	  }
+
+    },
+{
+      "id" : "7065980",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065980-iglesia-cristiana-evangelica-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cristiana Evangélica de Chamartín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=474204a5d0260410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065980-iglesia-cristiana-evangelica-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28016",
+		"street-address" : "CALLE VÍCTOR DE LA SERNA 58"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065980-iglesia-cristiana-evangelica-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.671869586880974 40.45776241085655)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065980-iglesia-cristiana-evangelica-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45776241085655,
+        "longitude" : -3.671869586880974
+	  }
+
+    },
+{
+      "id" : "7063730",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063730-iglesia-cristiana-evangelica-hortaleza-eben-ezer",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cristiana Evangélica en Hortaleza (Eben Ezer)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=924b7b05a8350410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063730-iglesia-cristiana-evangelica-hortaleza-eben-ezer/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE SANTA VIRGILIA 5 POSTERIOR"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063730-iglesia-cristiana-evangelica-hortaleza-eben-ezer/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6436863685291523 40.47803083728167)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063730-iglesia-cristiana-evangelica-hortaleza-eben-ezer/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47803083728167,
+        "longitude" : -3.6436863685291523
+	  }
+
+    },
+{
+      "id" : "7064620",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064620-iglesia-cristiana-hosanna",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cristiana Hosanna",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=149a5bddd0950410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064620-iglesia-cristiana-hosanna/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE ALFARO 34"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064620-iglesia-cristiana-hosanna/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.737012505590283 40.39008603694386)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064620-iglesia-cristiana-hosanna/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39008603694386,
+        "longitude" : -3.737012505590283
+	  }
+
+    },
+{
+      "id" : "7064624",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064624-iglesia-cristiana-reformada",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cristiana Reformada",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a5cc5bddd0950410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064624-iglesia-cristiana-reformada/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "CALLE CESAR GONZÁLEZ RUANO 25"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064624-iglesia-cristiana-reformada/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6531796217016983 40.439878546069856)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064624-iglesia-cristiana-reformada/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.439878546069856,
+        "longitude" : -3.6531796217016983
+	  }
+
+    },
+{
+      "id" : "7064802",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064802-iglesia-cristiana-shalom-adonai",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cristiana Shalom Adonai",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=98296bbcdbc50410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064802-iglesia-cristiana-shalom-adonai/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "PLAZA MONDARIZ 10 Local 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064802-iglesia-cristiana-shalom-adonai/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7050349888320526 40.478096305847544)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064802-iglesia-cristiana-shalom-adonai/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.478096305847544,
+        "longitude" : -3.7050349888320526
+	  }
+
+    },
+{
+      "id" : "7065928",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065928-iglesia-cristiana-verbo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cristiana Verbo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=003ff181df160410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065928-iglesia-cristiana-verbo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE CIRCE 32"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065928-iglesia-cristiana-verbo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.608556691010076 40.42486074067447)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065928-iglesia-cristiana-verbo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42486074067447,
+        "longitude" : -3.608556691010076
+	  }
+
+    },
+{
+      "id" : "7064883",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064883-iglesia-cuerpo-cristo-don-pedro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cuerpo de Cristo, Don Pedro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a8319bd56dc50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064883-iglesia-cuerpo-cristo-don-pedro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE DON PEDRO 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064883-iglesia-cuerpo-cristo-don-pedro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7127680071804763 40.41164356061595)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064883-iglesia-cuerpo-cristo-don-pedro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41164356061595,
+        "longitude" : -3.7127680071804763
+	  }
+
+    },
+{
+      "id" : "7064876",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064876-iglesia-cuerpo-cristo-general-ricardos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Cuerpo de Cristo, General Ricardos",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=335d9bd56dc50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064876-iglesia-cuerpo-cristo-general-ricardos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE GENERAL RICARDOS 188"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064876-iglesia-cuerpo-cristo-general-ricardos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7353691693981794 40.38632169648766)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064876-iglesia-cuerpo-cristo-general-ricardos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38632169648766,
+        "longitude" : -3.7353691693981794
+	  }
+
+    },
+{
+      "id" : "7064897",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064897-iglesia-cristo-iee",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia de Cristo IEE",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=03479bd56dc50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064897-iglesia-cristo-iee/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE BRAVO MURILLO 85"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064897-iglesia-cristo-iee/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7042284365191245 40.4449301823601)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064897-iglesia-cristo-iee/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4449301823601,
+        "longitude" : -3.7042284365191245
+	  }
+
+    },
+{
+      "id" : "7064917",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064917-iglesia-cristo-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia de Cristo - Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4fb3b607bec50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064917-iglesia-cristo-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE TERUEL 25"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064917-iglesia-cristo-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7010649675352028 40.45142687862351)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064917-iglesia-cristo-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45142687862351,
+        "longitude" : -3.7010649675352028
+	  }
+
+    },
+{
+      "id" : "7064921",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064921-iglesia-dios-verbo-dios",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia de Dios (Verbo de Dios)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=646b0ac0dfc50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064921-iglesia-dios-verbo-dios/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE PUERTO DE POZAZAL 25"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064921-iglesia-dios-verbo-dios/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6304610133031003 40.37954477665532)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064921-iglesia-dios-verbo-dios/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37954477665532,
+        "longitude" : -3.6304610133031003
+	  }
+
+    },
+{
+      "id" : "7064962",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064962-iglesia-filadelfia-orcasur",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia de Filadelfia Orcasur",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6b760ac0dfc50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064962-iglesia-filadelfia-orcasur/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE ALBU&Ntilde;UELAS 4 PLANTA 4ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064962-iglesia-filadelfia-orcasur/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7003447903871853 40.3660794472724)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064962-iglesia-filadelfia-orcasur/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3660794472724,
+        "longitude" : -3.7003447903871853
+	  }
+
+    },
+{
+      "id" : "3740",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3740-iglesia-jesus",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia de Jesús",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=04750a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3740-iglesia-jesus/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE CALATRAVA 25"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3740-iglesia-jesus/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7120824876404446 40.40922435030059)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3740-iglesia-jesus/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40922435030059,
+        "longitude" : -3.7120824876404446
+	  }
+
+    },
+{
+      "id" : "147971",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/147971-iglesia-cienciologia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia de la Cienciología",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0606ac2e6481c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/147971-iglesia-cienciologia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE SANTA CATALINA 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/147971-iglesia-cienciologia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6977564880686664 40.41544685773238)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/147971-iglesia-cienciologia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41544685773238,
+        "longitude" : -3.6977564880686664
+	  }
+
+    },
+{
+      "id" : "7065029",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065029-iglesia-elegidos-dios",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia de Los Elegidos de Dios",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fdea3ddd32d50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065029-iglesia-elegidos-dios/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE FARO 8 Local 4, Posterior"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065029-iglesia-elegidos-dios/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7264778892367456 40.38119767358174)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065029-iglesia-elegidos-dios/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38119767358174,
+        "longitude" : -3.7264778892367456
+	  }
+
+    },
+{
+      "id" : "7065000",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065000-iglesia-hermanos-vaguada",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia de los Hermanos en La Vaguada",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3c33c91fc0d50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065000-iglesia-hermanos-vaguada/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "CALLE PUERTO DE MASPALOMAS 22 Posterior"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065000-iglesia-hermanos-vaguada/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7138237216851797 40.4791594681295)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065000-iglesia-hermanos-vaguada/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4791594681295,
+        "longitude" : -3.7138237216851797
+	  }
+
+    },
+{
+      "id" : "7063734",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063734-iglesia-dios-es-amor-union-cristiana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Dios es Amor - Unión Cristiana",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dd257b05a8350410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063734-iglesia-dios-es-amor-union-cristiana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "CALLE PRUDENCIO ALVARO 46"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063734-iglesia-dios-es-amor-union-cristiana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.644274105325617 40.43829788787747)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063734-iglesia-dios-es-amor-union-cristiana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43829788787747,
+        "longitude" : -3.644274105325617
+	  }
+
+    },
+{
+      "id" : "18306",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18306-iglesia-ejercito-salvacion-hermosilla",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Ejército de Salvación, Hermosilla",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8d9f6f065851c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18306-iglesia-ejercito-salvacion-hermosilla/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE HERMOSILLA 126"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18306-iglesia-ejercito-salvacion-hermosilla/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6678581814924507 40.42545230198005)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18306-iglesia-ejercito-salvacion-hermosilla/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42545230198005,
+        "longitude" : -3.6678581814924507
+	  }
+
+    },
+{
+      "id" : "7065093",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065093-iglesia-buen-pastor-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia El Buen Pastor de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7d373ddd32d50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065093-iglesia-buen-pastor-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CAMINO VALDERRIBAS 96 Nave"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065093-iglesia-buen-pastor-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.660560405682932 40.398863439810455)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065093-iglesia-buen-pastor-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.398863439810455,
+        "longitude" : -3.660560405682932
+	  }
+
+    },
+{
+      "id" : "7065383",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065383-iglesia-emanuel-c-orcasitas-orcasur",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Emanuel (U.C.E) Orcasitas (Orcasur)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b96691af6d50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065383-iglesia-emanuel-c-orcasitas-orcasur/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "AVENIDA ORCASUR 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065383-iglesia-emanuel-c-orcasitas-orcasur/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.70056603706231 40.37038446580724)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065383-iglesia-emanuel-c-orcasitas-orcasur/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37038446580724,
+        "longitude" : -3.70056603706231
+	  }
+
+    },
+{
+      "id" : "7065435",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065435-iglesia-espanola-reformada-episcopal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Española Reformada Episcopal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=37d53bf7d7d50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065435-iglesia-espanola-reformada-episcopal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE BENEFICENCIA 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065435-iglesia-espanola-reformada-episcopal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.698682579292043 40.42635120982088)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065435-iglesia-espanola-reformada-episcopal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42635120982088,
+        "longitude" : -3.698682579292043
+	  }
+
+    },
+{
+      "id" : "7065547",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065547-iglesia-evangelica-casa-oracion",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Evangélica Casa de Oración",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=75ab8fd21ad50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065547-iglesia-evangelica-casa-oracion/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "CALLE FELIPE DE DIEGO 3 Bloque A, posterior"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065547-iglesia-evangelica-casa-oracion/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.663021565402853 40.379470784588214)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065547-iglesia-evangelica-casa-oracion/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.379470784588214,
+        "longitude" : -3.663021565402853
+	  }
+
+    },
+{
+      "id" : "7065462",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065462-iglesia-evangelica-casa-oracion-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Evangélica Casa de Oración de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=644198d978d50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065462-iglesia-evangelica-casa-oracion-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE LONDRES 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065462-iglesia-evangelica-casa-oracion-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6694502641980313 40.43146112930494)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065462-iglesia-evangelica-casa-oracion-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43146112930494,
+        "longitude" : -3.6694502641980313
+	  }
+
+    },
+{
+      "id" : "7065574",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065574-iglesia-evangelica-china-espanola",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Evangélica China Española",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5ff28fd21ad50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065574-iglesia-evangelica-china-espanola/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE CAROLINAS 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065574-iglesia-evangelica-china-espanola/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.704895759227494 40.451241419899205)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065574-iglesia-evangelica-china-espanola/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.451241419899205,
+        "longitude" : -3.704895759227494
+	  }
+
+    },
+{
+      "id" : "7063679",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063679-iglesia-evangelica-cristo-vive",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Evangélica Cristo Vive",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2224216f16350410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063679-iglesia-evangelica-cristo-vive/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE TALIA 32"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063679-iglesia-evangelica-cristo-vive/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6142317394076233 40.447416389559166)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063679-iglesia-evangelica-cristo-vive/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.447416389559166,
+        "longitude" : -3.6142317394076233
+	  }
+
+    },
+{
+      "id" : "7065594",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065594-iglesia-evangelica-hermanos-shadday",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Evangélica de Hermanos El Shadday",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=352afe5dfad50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065594-iglesia-evangelica-hermanos-shadday/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE MARIA PEDRAZA 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065594-iglesia-evangelica-hermanos-shadday/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7093874627751746 40.453349071696216)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065594-iglesia-evangelica-hermanos-shadday/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.453349071696216,
+        "longitude" : -3.7093874627751746
+	  }
+
+    },
+{
+      "id" : "7065598",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065598-iglesia-evangelica-nazareno",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Evangélica del Nazareno",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ef5dfe5dfad50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065598-iglesia-evangelica-nazareno/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE PELICANO 26"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065598-iglesia-evangelica-nazareno/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.728283631976347 40.383690841533735)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065598-iglesia-evangelica-nazareno/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.383690841533735,
+        "longitude" : -3.728283631976347
+	  }
+
+    },
+{
+      "id" : "7065706",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065706-iglesia-evangelica-eben-ezer-dios-es-amor",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Evangélica Eben Ezer Dios es amor",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=61a794d12cd50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065706-iglesia-evangelica-eben-ezer-dios-es-amor/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "AVENIDA ALBUFERA 46"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065706-iglesia-evangelica-eben-ezer-dios-es-amor/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6658030852598196 40.396355872399226)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065706-iglesia-evangelica-eben-ezer-dios-es-amor/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.396355872399226,
+        "longitude" : -3.6658030852598196
+	  }
+
+    },
+{
+      "id" : "7063733",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063733-iglesia-evangelica-encuetro-dios",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Evangélica Encuetro con Dios",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f0fe7b05a8350410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063733-iglesia-evangelica-encuetro-dios/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE JOSE DEL PRADO Y PALACIO 1 Local 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063733-iglesia-evangelica-encuetro-dios/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.653903803273293 40.40995541329681)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063733-iglesia-evangelica-encuetro-dios/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40995541329681,
+        "longitude" : -3.653903803273293
+	  }
+
+    },
+{
+      "id" : "3741",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3741-iglesia-evangelica-espanola-salvador",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Evangélica Española El Salvador",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5b850a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3741-iglesia-evangelica-espanola-salvador/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE NOVICIADO 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3741-iglesia-evangelica-espanola-salvador/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7081171132637802 40.4255730852911)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3741-iglesia-evangelica-espanola-salvador/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4255730852911,
+        "longitude" : -3.7081171132637802
+	  }
+
+    },
+{
+      "id" : "7065792",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065792-iglesia-evangelica-fuente-vida",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Evangélica Fuente de la Vida",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e9e95ac33d160410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065792-iglesia-evangelica-fuente-vida/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE SIERRA CARBONERA 31"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065792-iglesia-evangelica-fuente-vida/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.663983360780897 40.39224017330228)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065792-iglesia-evangelica-fuente-vida/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39224017330228,
+        "longitude" : -3.663983360780897
+	  }
+
+    },
+{
+      "id" : "7063724",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063724-iglesia-evangelica-nueva-vida",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Evangélica Nueva Vida",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4996e44317350410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063724-iglesia-evangelica-nueva-vida/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE ARGOS 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063724-iglesia-evangelica-nueva-vida/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.634945071142653 40.436772923362945)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063724-iglesia-evangelica-nueva-vida/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.436772923362945,
+        "longitude" : -3.634945071142653
+	  }
+
+    },
+{
+      "id" : "7064948",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064948-iglesia-evangelica-pentecostal-amistad-cristiana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Evangélica Pentecostal Amistad Cristiana",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=64f10ac0dfc50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064948-iglesia-evangelica-pentecostal-amistad-cristiana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE VALLEHERMOSO 70"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064948-iglesia-evangelica-pentecostal-amistad-cristiana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.708286842692643 40.437256742788904)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7064948-iglesia-evangelica-pentecostal-amistad-cristiana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.437256742788904,
+        "longitude" : -3.708286842692643
+	  }
+
+    },
+{
+      "id" : "18304",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18304-iglesia-evangelica-pentecostal-bethel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Evangélica Pentecostal Bethel",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a2cf6f065851c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18304-iglesia-evangelica-pentecostal-bethel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE FERNANDO DIAZ DE MENDOZA 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18304-iglesia-evangelica-pentecostal-bethel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7130323684423163 40.39425444284573)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18304-iglesia-evangelica-pentecostal-bethel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39425444284573,
+        "longitude" : -3.7130323684423163
+	  }
+
+    },
+{
+      "id" : "7063715",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063715-iglesia-evangelica-pentecostal-salem",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Evangélica Pentecostal Salem",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6fb1e44317350410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063715-iglesia-evangelica-pentecostal-salem/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE CIDRO 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063715-iglesia-evangelica-pentecostal-salem/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7461462154794596 40.36788312377922)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7063715-iglesia-evangelica-pentecostal-salem/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.36788312377922,
+        "longitude" : -3.7461462154794596
+	  }
+
+    },
+{
+      "id" : "7065603",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065603-iglesia-evangelica-pueblo-nuevo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Evangélica Pueblo Nuevo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d6adfe5dfad50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065603-iglesia-evangelica-pueblo-nuevo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "CALLE VILLACARLOS 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065603-iglesia-evangelica-pueblo-nuevo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6062299408865495 40.405980938654075)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065603-iglesia-evangelica-pueblo-nuevo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.405980938654075,
+        "longitude" : -3.6062299408865495
+	  }
+
+    },
+{
+      "id" : "7065052",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065052-iglesia-evangelio-cuadrangular-vida-nueva-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Evangelio Cuadrangular Vida Nueva Usera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=db313ddd32d50410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065052-iglesia-evangelio-cuadrangular-vida-nueva-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE MONEDEROS 22"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065052-iglesia-evangelio-cuadrangular-vida-nueva-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7016044995191493 40.387603572276106)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065052-iglesia-evangelio-cuadrangular-vida-nueva-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.387603572276106,
+        "longitude" : -3.7016044995191493
+	  }
+
+    },
+{
+      "id" : "7065794",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065794-iglesia-filadelfia-centro-cielos-abiertos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Filadelfia del Centro Cielos Abiertos",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ac0a5ac33d160410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065794-iglesia-filadelfia-centro-cielos-abiertos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE RODRIGO DE GUEVARA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065794-iglesia-filadelfia-centro-cielos-abiertos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.708936586322557 40.409306745878865)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065794-iglesia-filadelfia-centro-cielos-abiertos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.409306745878865,
+        "longitude" : -3.708936586322557
+	  }
+
+    },
+{
+      "id" : "7065841",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065841-iglesia-internacional-alianza-amor",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Internacional Alianza de Amor",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3f915ac33d160410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065841-iglesia-internacional-alianza-amor/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE ANTONIO GONZALEZ PORRAS 25"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065841-iglesia-internacional-alianza-amor/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7178606509833854 40.39066598347717)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065841-iglesia-internacional-alianza-amor/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39066598347717,
+        "longitude" : -3.7178606509833854
+	  }
+
+    },
+{
+      "id" : "7065892",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065892-iglesia-resurreccion-iee",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Resurrección IEE",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=306150adce160410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065892-iglesia-resurreccion-iee/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE BUTRON 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065892-iglesia-resurreccion-iee/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.608556691010076 40.42486074067447)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065892-iglesia-resurreccion-iee/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42486074067447,
+        "longitude" : -3.608556691010076
+	  }
+
+    },
+{
+      "id" : "7065908",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065908-iglesia-servidores-vida",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Servidores de Vida",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=95f550adce160410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065908-iglesia-servidores-vida/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE CASTROJERIZ 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065908-iglesia-servidores-vida/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7390081955917442 40.3872624683693)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065908-iglesia-servidores-vida/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3872624683693,
+        "longitude" : -3.7390081955917442
+	  }
+
+    },
+{
+      "id" : "7065947",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065947-iglesia-tabernaculo-alabanza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Tabernáculo de Alabanza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c944f181df160410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065947-iglesia-tabernaculo-alabanza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28052",
+		"street-address" : "CALLE BARCA 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065947-iglesia-tabernaculo-alabanza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5941165757961326 40.399476185079024)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065947-iglesia-tabernaculo-alabanza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.399476185079024,
+        "longitude" : -3.5941165757961326
+	  }
+
+    },
+{
+      "id" : "7065918",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065918-iglesia-templo-dios",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Iglesia Templo de Dios",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c70bf181df160410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065918-iglesia-templo-dios/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE MARQUESA DE ARG&Uuml;ESO 22"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065918-iglesia-templo-dios/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7238429956192007 40.391475542527616)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7065918-iglesia-templo-dios/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.391475542527616,
+        "longitude" : -3.7238429956192007
+	  }
+
+    },
+{
+      "id" : "3752",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3752-mezquita-abu-bakr",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Mezquita Abu Bakr",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=11a71e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3752-mezquita-abu-bakr/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE ANASTASIO HERRERO 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3752-mezquita-abu-bakr/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7011324720320573 40.45678681584004)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/3752-mezquita-abu-bakr/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45678681584004,
+        "longitude" : -3.7011324720320573
+	  }
+
+    },
+{
+      "id" : "189958",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189958-testigos-cristianos-jehova-avenida-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Avenida Moratalaz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=daca6dd8f677f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189958-testigos-cristianos-jehova-avenida-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "AVENIDA MORATALAZ 143 LOCAL 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189958-testigos-cristianos-jehova-avenida-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.64807785428665 40.40710531270078)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189958-testigos-cristianos-jehova-avenida-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40710531270078,
+        "longitude" : -3.64807785428665
+	  }
+
+    },
+{
+      "id" : "189353",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189353-testigos-cristianos-jehova-calle-arroyo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Calle Arroyo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a823784e0cc4f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189353-testigos-cristianos-jehova-calle-arroyo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "CALLE ARROYO 23 PLANTA BAJA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189353-testigos-cristianos-jehova-calle-arroyo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7025298582429698 40.46978728598973)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189353-testigos-cristianos-jehova-calle-arroyo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46978728598973,
+        "longitude" : -3.7025298582429698
+	  }
+
+    },
+{
+      "id" : "189354",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189354-testigos-cristianos-jehova-calle-artistas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Calle Artistas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e33784e0cc4f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189354-testigos-cristianos-jehova-calle-artistas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE ARTISTAS 22 PLANTA BAJO"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189354-testigos-cristianos-jehova-calle-artistas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7015290370510474 40.44728893529121)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189354-testigos-cristianos-jehova-calle-artistas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44728893529121,
+        "longitude" : -3.7015290370510474
+	  }
+
+    },
+{
+      "id" : "5713730",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5713730-testigos-cristianos-jehova-calle-carrascales",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Calle Carrascales",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=13c13b49d7619210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5713730-testigos-cristianos-jehova-calle-carrascales/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE CARRASCALES 12 DERECHA PLANTA BAJA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5713730-testigos-cristianos-jehova-calle-carrascales/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7082093955604063 40.38152721787896)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5713730-testigos-cristianos-jehova-calle-carrascales/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38152721787896,
+        "longitude" : -3.7082093955604063
+	  }
+
+    },
+{
+      "id" : "189389",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189389-testigos-cristianos-jehova-calle-chantada",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Calle Chantada",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f493784e0cc4f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189389-testigos-cristianos-jehova-calle-chantada/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "CALLE CHANTADA 43 LOCAL 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189389-testigos-cristianos-jehova-calle-chantada/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7161763610140874 40.47295576678733)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189389-testigos-cristianos-jehova-calle-chantada/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47295576678733,
+        "longitude" : -3.7161763610140874
+	  }
+
+    },
+{
+      "id" : "189398",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189398-testigos-cristianos-jehova-calle-doctor-gomez-ulla",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Calle Doctor Gómez Ulla",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=11c3784e0cc4f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189398-testigos-cristianos-jehova-calle-doctor-gomez-ulla/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE DOCTOR GÓMEZ ULLA 16 PLANTA BAJA IZQUIERDA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189398-testigos-cristianos-jehova-calle-doctor-gomez-ulla/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.667513892714285 40.4299768268144)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189398-testigos-cristianos-jehova-calle-doctor-gomez-ulla/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4299768268144,
+        "longitude" : -3.667513892714285
+	  }
+
+    },
+{
+      "id" : "189402",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189402-testigos-cristianos-jehova-calle-guamo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Calle Guamo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dbe3784e0cc4f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189402-testigos-cristianos-jehova-calle-guamo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE GUAMO 2 PLANTA BAJA LOCAL 1 BIS"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189402-testigos-cristianos-jehova-calle-guamo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6329921848042237 40.472423257425966)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189402-testigos-cristianos-jehova-calle-guamo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.472423257425966,
+        "longitude" : -3.6329921848042237
+	  }
+
+    },
+{
+      "id" : "189356",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189356-testigos-cristianos-jehova-calle-hilario-sangrador",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Calle Hilario Sangrador",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1673784e0cc4f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189356-testigos-cristianos-jehova-calle-hilario-sangrador/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "CALLE HILARIO SANGRADOR 8 PLANTA BAJA IZQUIERDA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189356-testigos-cristianos-jehova-calle-hilario-sangrador/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7424991074388743 40.407960942737944)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189356-testigos-cristianos-jehova-calle-hilario-sangrador/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.407960942737944,
+        "longitude" : -3.7424991074388743
+	  }
+
+    },
+{
+      "id" : "189403",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189403-testigos-cristianos-jehova-calle-ignacio-ellacuria",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Calle Ignacio Ellacuría",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3104784e0cc4f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189403-testigos-cristianos-jehova-calle-ignacio-ellacuria/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "CALLE IGNACIO ELLACURÍA 3 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189403-testigos-cristianos-jehova-calle-ignacio-ellacuria/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6565765500624257 40.42908450325943)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189403-testigos-cristianos-jehova-calle-ignacio-ellacuria/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42908450325943,
+        "longitude" : -3.6565765500624257
+	  }
+
+    },
+{
+      "id" : "189404",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189404-testigos-cristianos-jehova-calle-jacobinia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Calle Jacobinia",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9614784e0cc4f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189404-testigos-cristianos-jehova-calle-jacobinia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE JACOBINIA 70"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189404-testigos-cristianos-jehova-calle-jacobinia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7538276002522437 40.377563130203534)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189404-testigos-cristianos-jehova-calle-jacobinia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.377563130203534,
+        "longitude" : -3.7538276002522437
+	  }
+
+    },
+{
+      "id" : "5713929",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5713929-testigos-cristianos-jehova-calle-pedroneras",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Calle Las Pedroñeras",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2ae45159bd619210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5713929-testigos-cristianos-jehova-calle-pedroneras/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE LAS PEDRO&Ntilde;ERAS 46 LOCAL"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5713929-testigos-cristianos-jehova-calle-pedroneras/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.630892617916542 40.46740772482656)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5713929-testigos-cristianos-jehova-calle-pedroneras/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46740772482656,
+        "longitude" : -3.630892617916542
+	  }
+
+    },
+{
+      "id" : "5713667",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5713667-testigos-cristianos-jehova-calle-luis-ruiz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Calle Luis Ruiz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c9a65068d6619210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5713667-testigos-cristianos-jehova-calle-luis-ruiz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "CALLE LUIS RUIZ 75 PUERTA 19"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5713667-testigos-cristianos-jehova-calle-luis-ruiz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6360652956995043 40.4280279977347)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5713667-testigos-cristianos-jehova-calle-luis-ruiz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4280279977347,
+        "longitude" : -3.6360652956995043
+	  }
+
+    },
+{
+      "id" : "189415",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189415-testigos-cristianos-jehova-calle-marcudos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Calle Marcudos",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1c64784e0cc4f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189415-testigos-cristianos-jehova-calle-marcudos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE MARCUDOS 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189415-testigos-cristianos-jehova-calle-marcudos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.701720159931242 40.38853080646351)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189415-testigos-cristianos-jehova-calle-marcudos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38853080646351,
+        "longitude" : -3.701720159931242
+	  }
+
+    },
+{
+      "id" : "189957",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189957-testigos-cristianos-jehova-calle-martin-vargas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Calle Martín de Vargas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d0ea6dd8f677f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189957-testigos-cristianos-jehova-calle-martin-vargas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE MARTIN DE VARGAS 26 PLANTA BAJA IZQUIERDA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189957-testigos-cristianos-jehova-calle-martin-vargas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.701734952593744 40.40244073010048)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189957-testigos-cristianos-jehova-calle-martin-vargas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40244073010048,
+        "longitude" : -3.701734952593744
+	  }
+
+    },
+{
+      "id" : "189961",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189961-testigos-cristianos-jehova-calle-perez-herrera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Calle Pérez Herrera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c6fa6dd8f677f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189961-testigos-cristianos-jehova-calle-perez-herrera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PÉREZ HERRERA 2 PLANTA BAJA  NÚMERO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189961-testigos-cristianos-jehova-calle-perez-herrera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6726225307291167 40.44692921715811)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189961-testigos-cristianos-jehova-calle-perez-herrera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44692921715811,
+        "longitude" : -3.6726225307291167
+	  }
+
+    },
+{
+      "id" : "189410",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189410-testigos-cristianos-jehova-calle-puerto-pozazal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Calle Puerto de Pozazal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=458e813cbcc4f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189410-testigos-cristianos-jehova-calle-puerto-pozazal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE PUERTO DE POZAZAL 1 PLANTA BAJA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189410-testigos-cristianos-jehova-calle-puerto-pozazal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6290579482359915 40.37941728069035)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189410-testigos-cristianos-jehova-calle-puerto-pozazal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37941728069035,
+        "longitude" : -3.6290579482359915
+	  }
+
+    },
+{
+      "id" : "189966",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189966-testigos-cristianos-jehova-calle-san-moises",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Calle San Moisés",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e73b6dd8f677f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189966-testigos-cristianos-jehova-calle-san-moises/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "CALLE SAN MOISÉS 39 PLANTA BAJA B"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189966-testigos-cristianos-jehova-calle-san-moises/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.665580023171385 40.382077738308396)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189966-testigos-cristianos-jehova-calle-san-moises/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.382077738308396,
+        "longitude" : -3.665580023171385
+	  }
+
+    },
+{
+      "id" : "189968",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189968-testigos-cristianos-jehova-calle-santa-ana-baja",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Calle Santa Ana Baja",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ed4b6dd8f677f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189968-testigos-cristianos-jehova-calle-santa-ana-baja/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE SANTA ANA BAJA 48 PLANTA BAJA PUERTA C"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189968-testigos-cristianos-jehova-calle-santa-ana-baja/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6907430902200686 40.4971824538909)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189968-testigos-cristianos-jehova-calle-santa-ana-baja/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4971824538909,
+        "longitude" : -3.6907430902200686
+	  }
+
+    },
+{
+      "id" : "5713689",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5713689-testigos-cristianos-jehova-calle-tembleque",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Calle Tembleque",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0d24972577619210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5713689-testigos-cristianos-jehova-calle-tembleque/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28024",
+		"street-address" : "CALLE TEMBLEQUE 64 PLANTA BAJA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5713689-testigos-cristianos-jehova-calle-tembleque/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.760316231056669 40.3951784294787)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5713689-testigos-cristianos-jehova-calle-tembleque/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3951784294787,
+        "longitude" : -3.760316231056669
+	  }
+
+    },
+{
+      "id" : "189351",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189351-testigos-cristianos-jehova-calle-venancio-martin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/TemplosOtrasReligiones",
+      "title" : "Testigos Cristianos de Jehová. Calle Venancio Martín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2903784e0cc4f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189351-testigos-cristianos-jehova-calle-venancio-martin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CALLE VENANCIO MARTIN 19 PLANTA BAJO "
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189351-testigos-cristianos-jehova-calle-venancio-martin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6614706779617716 40.39795732762339)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189351-testigos-cristianos-jehova-calle-venancio-martin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39795732762339,
+        "longitude" : -3.6614706779617716
+	  }
+
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "6776",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6776-fundacion-general-universidad-complutense-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/FundacionesEducativas",
+      "title" : "Fundación General de la Universidad Complutense de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=57e07b503a71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6776-fundacion-general-universidad-complutense-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28040",
+		"street-address" : "CALLE DOCTOR SEVERO OCHOA 7 PLANTA Baja"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6776-fundacion-general-universidad-complutense-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7228442760539 40.443499961072426)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6776-fundacion-general-universidad-complutense-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.443499961072426,
+        "longitude" : -3.7228442760539
+	  }
+
+    },
+	{
+      "id" : "6556",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6556-fundacion-residencia-estudiantes",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/FundacionesCulturales",
+      "title" : "Fundación Residencia de Estudiantes",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c231b0c40971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6556-fundacion-residencia-estudiantes/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE PINAR 21"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6556-fundacion-residencia-estudiantes/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6880652813540573 40.44064914183142)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6556-fundacion-residencia-estudiantes/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44064914183142,
+        "longitude" : -3.6880652813540573
+	  }
+
+    },
+	{
+      "id" : "4961029",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4961029-universidad-pontificia-salamanca-campus-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Universidades",
+      "title" : "Universidad Pontificia de Salamanca. Campus de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7b854a220362b110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4961029-universidad-pontificia-salamanca-campus-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28040",
+		"street-address" : "PASEO JUAN XXIII 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4961029-universidad-pontificia-salamanca-campus-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.720123319232856 40.44487730169275)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4961029-universidad-pontificia-salamanca-campus-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44487730169275,
+        "longitude" : -3.720123319232856
+	  }
+
+    },
+	{
+      "id" : "64117",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/64117-updea-universidad-adultos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEducacion/CentrosEducacionAdultos",
+      "title" : "UPDEA, Universidad de Adultos",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=92b4784e0cc4f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/64117-updea-universidad-adultos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE BARCELO 13 PLANTA 1ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/64117-updea-universidad-adultos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6993499795636278 40.42704987871803)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/64117-updea-universidad-adultos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42704987871803,
+        "longitude" : -3.6993499795636278
+	  }
+
+    }
+  ]
+}

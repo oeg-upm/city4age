@@ -1,0 +1,159 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [      "id" : "6996740",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6996740-aspaym-madrid-asociacion-paraplejicos-personas-gran-discapacidad-fisica-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad",
+      "title" : "ASPAYM Madrid (Asociación de Parapléjicos y Personas con Gran Discapacidad Física de la Comunidad de Madrid)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fedcaee55f14f310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6996740-aspaym-madrid-asociacion-paraplejicos-personas-gran-discapacidad-fisica-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CAMINO VALDERRIBAS 115"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6996740-aspaym-madrid-asociacion-paraplejicos-personas-gran-discapacidad-fisica-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6561342020450107 40.394474188113975)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6996740-aspaym-madrid-asociacion-paraplejicos-personas-gran-discapacidad-fisica-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.394474188113975,
+        "longitude" : -3.6561342020450107
+	  }
+
+    },
+      "id" : "1417",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1417-atenpace-residencia-centro-rehabilitacion-jovenes-adultos-paraliticos-cerebrales-y-residencial-atencion-al-paralitico-cerebral-atenpace",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+      "title" : "ATENPACE Residencia y Centro de rehabilitación y  para jóvenes y adultos paralíticos cerebrales y  y residencial de Atención al Paralítico Cerebral (ATENPACE)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f25376172d71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1417-atenpace-residencia-centro-rehabilitacion-jovenes-adultos-paraliticos-cerebrales-y-residencial-atencion-al-paralitico-cerebral-atenpace/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "CALLE ISLAS MARQUESAS 27"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1417-atenpace-residencia-centro-rehabilitacion-jovenes-adultos-paraliticos-cerebrales-y-residencial-atencion-al-paralitico-cerebral-atenpace/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7263818702595626 40.47636052326793)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1417-atenpace-residencia-centro-rehabilitacion-jovenes-adultos-paraliticos-cerebrales-y-residencial-atencion-al-paralitico-cerebral-atenpace/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47636052326793,
+        "longitude" : -3.7263818702595626
+	  }
+
+    },
+      "id" : "14240",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/14240-administracion-carabanchel-aeat",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasAgenciaTributariaEstatal",
+      "title" : "Administración Carabanchel. AEAT",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5a7c3633dcd4f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/14240-administracion-carabanchel-aeat/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE AGUACATE 27"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/14240-administracion-carabanchel-aeat/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.745762895769815 40.37050724506866)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/14240-administracion-carabanchel-aeat/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37050724506866,
+        "longitude" : -3.745762895769815
+	  }
+
+    },
+      "id" : "14254",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/14254-administracion-guzman-bueno-aeat",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasAgenciaTributariaEstatal",
+      "title" : "Administración Guzmán el Bueno. AEAT",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a38d3633dcd4f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/14254-administracion-guzman-bueno-aeat/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE GUZMAN EL BUENO 139"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/14254-administracion-guzman-bueno-aeat/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.712488398890277 40.445465151700915)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/14254-administracion-guzman-bueno-aeat/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.445465151700915,
+        "longitude" : -3.712488398890277
+	  }
+
+    },
+      "id" : "14243",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/14243-administracion-maria-molina-aeat",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasAgenciaTributariaEstatal",
+      "title" : "Administración María de Molina. AEAT",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c7cd3633dcd4f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/14243-administracion-maria-molina-aeat/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE NU&Ntilde;EZ DE BALBOA 116"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/14243-administracion-maria-molina-aeat/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6816865411926583 40.43717341675041)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/14243-administracion-maria-molina-aeat/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43717341675041,
+        "longitude" : -3.6816865411926583
+	  }
+
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "5949409",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5949409-agencia-zona-arganzuela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasEmpleo",
+      "title" : "Agencia de Zona de Arganzuela",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=845d9744cc0fd210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5949409-agencia-zona-arganzuela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "RONDA TOLEDO 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5949409-agencia-zona-arganzuela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7101176695620346 40.40618236504102)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5949409-agencia-zona-arganzuela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40618236504102,
+        "longitude" : -3.7101176695620346
+	  }
+
+    },
+	{
+      "id" : "5666151",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5666151-agencia-zona-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasEmpleo",
+      "title" : "Agencia de Zona de Barajas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=81e1cf4ee3448210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5666151-agencia-zona-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "AVENIDA CANTABRIA 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5666151-agencia-zona-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.587632115472542 40.45463575922803)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5666151-agencia-zona-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45463575922803,
+        "longitude" : -3.587632115472542
+	  }
+
+    },
+	{
+      "id" : "5520471",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5520471-agencia-zona-latina-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasEmpleo",
+      "title" : "Agencia de Zona de Latina-Carabanchel",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d01487d2102a5210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5520471-agencia-zona-latina-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE ALHAMBRA 89"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5520471-agencia-zona-latina-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7435487965445384 40.396251437915055)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5520471-agencia-zona-latina-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.396251437915055,
+        "longitude" : -3.7435487965445384
+	  }
+
+    },
+	{
+      "id" : "4514901",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4514901-agencia-zona-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasEmpleo",
+      "title" : "Agencia de Zona de Retiro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=65c9d91db2790110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4514901-agencia-zona-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "AVENIDA CIUDAD DE BARCELONA 164"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4514901-agencia-zona-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6772931748500297 40.40236125879463)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4514901-agencia-zona-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40236125879463,
+        "longitude" : -3.6772931748500297
+	  }
+
+    },
+	{
+      "id" : "172696",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/172696-agencia-zona-tetuan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasEmpleo",
+      "title" : "Agencia de Zona de Tetuán",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bd12ff632081c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/172696-agencia-zona-tetuan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE JUAN PANTOJA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/172696-agencia-zona-tetuan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.703857334297647 40.4500495518789)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/172696-agencia-zona-tetuan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4500495518789,
+        "longitude" : -3.703857334297647
+	  }
+
+    },
+	{
+      "id" : "172694",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/172694-agencia-zona-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasEmpleo",
+      "title" : "Agencia de Zona de Vicálvaro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f7613f6b3d91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/172694-agencia-zona-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "AVENIDA DAROCA 327"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/172694-agencia-zona-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6094163274740048 40.40385606143898)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/172694-agencia-zona-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40385606143898,
+        "longitude" : -3.6094163274740048
+	  }
+
+    },
+	{
+      "id" : "172693",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/172693-agencia-zona-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasEmpleo",
+      "title" : "Agencia de Zona de Villaverde",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5a62ff632081c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/172693-agencia-zona-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "AVENIDA OROVILLA 54"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/172693-agencia-zona-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6898445513068863 40.358565879253504)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/172693-agencia-zona-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.358565879253504,
+        "longitude" : -3.6898445513068863
+	  }
+
+    },
+	{
+      "id" : "185152",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185152-centro-agencia-empleo-jerte",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasEmpleo",
+      "title" : "Centro de la Agencia para el Empleo Jerte",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cb8dad69b8e5d010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185152-centro-agencia-empleo-jerte/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE JERTE 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185152-centro-agencia-empleo-jerte/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.715552056000273 40.41077050441227)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185152-centro-agencia-empleo-jerte/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41077050441227,
+        "longitude" : -3.715552056000273
+	  }
+
+    },
+	{
+      "id" : "185153",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185153-centro-agencia-empleo-carmenes",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasEmpleo",
+      "title" : "Centro de la Agencia para el Empleo Los Cármenes",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=066dad69b8e5d010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185153-centro-agencia-empleo-carmenes/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE ALHAMBRA 89 C/ GALLUR, 50"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185153-centro-agencia-empleo-carmenes/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.743523249563964 40.39607142096176)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185153-centro-agencia-empleo-carmenes/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39607142096176,
+        "longitude" : -3.743523249563964
+	  }
+
+    },
+	{
+      "id" : "5520488",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5520488-centro-especializado-sector-alimentario",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasEmpleo",
+      "title" : "Centro Especializado en el Sector Alimentario",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=da78d06e632a5210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5520488-centro-especializado-sector-alimentario/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : " Mercamadrid "
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5520488-centro-especializado-sector-alimentario/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.661552967638453 40.359397848252364)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5520488-centro-especializado-sector-alimentario/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.359397848252364,
+        "longitude" : -3.661552967638453
+	  }
+
+    }
+  ]
+}

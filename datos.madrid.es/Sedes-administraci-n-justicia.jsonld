@@ -1,0 +1,1946 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "7611750",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7611750-archivo-judicial-territorial-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ArchivosCentrosDocumentacion",
+      "title" : "Archivo Judicial Territorial de la Comunidad de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=034f40628a7f7410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7611750-archivo-judicial-territorial-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE GONZALEZ DAVILA 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7611750-archivo-judicial-territorial-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6388450845880547 40.37541763097039)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7611750-archivo-judicial-territorial-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37541763097039,
+        "longitude" : -3.6388450845880547
+	  }
+
+    },
+	{
+      "id" : "66672",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/66672-audiencia-nacional-juzgados-centrales-instruccion",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Audiencia Nacional. Juzgados Centrales de Instrucción",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ba4708de2f41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/66672-audiencia-nacional-juzgados-centrales-instruccion/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE GARCIA GUTIERREZ 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/66672-audiencia-nacional-juzgados-centrales-instruccion/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6929960000180335 40.42591696701239)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/66672-audiencia-nacional-juzgados-centrales-instruccion/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42591696701239,
+        "longitude" : -3.6929960000180335
+	  }
+
+    },
+	{
+      "id" : "66625",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/66625-audiencia-nacional-sala-contencioso-administrativo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/AudienciasTribunales",
+      "title" : "Audiencia Nacional. Sala de lo Contencioso - Administrativo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=18c968540e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/66625-audiencia-nacional-sala-contencioso-administrativo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE GOYA 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/66625-audiencia-nacional-sala-contencioso-administrativo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6849359430118414 40.42508211473968)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/66625-audiencia-nacional-sala-contencioso-administrativo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42508211473968,
+        "longitude" : -3.6849359430118414
+	  }
+
+    },
+	{
+      "id" : "542",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/542-audiencia-nacional-sala-penal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/AudienciasTribunales",
+      "title" : "Audiencia Nacional. Sala de lo Penal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=95011076c081c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/542-audiencia-nacional-sala-penal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE GARCIA GUTIERREZ 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/542-audiencia-nacional-sala-penal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6929960000180335 40.42591696701239)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/542-audiencia-nacional-sala-penal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42591696701239,
+        "longitude" : -3.6929960000180335
+	  }
+
+    },
+	{
+      "id" : "6273949",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6273949-audiencia-nacional-sala-social-unica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/AudienciasTribunales",
+      "title" : "Audiencia Nacional. Sala de lo Social Única",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dd3f68c5a8064310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6273949-audiencia-nacional-sala-social-unica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE GOYA 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6273949-audiencia-nacional-sala-social-unica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6849359430118414 40.42508211473968)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6273949-audiencia-nacional-sala-social-unica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42508211473968,
+        "longitude" : -3.6849359430118414
+	  }
+
+    },
+	{
+      "id" : "544",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/544-audiencia-provincial-madrid-calle-ferraz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/AudienciasTribunales",
+      "title" : "Audiencia Provincial de Madrid. Calle Ferraz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=28111076c081c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/544-audiencia-provincial-madrid-calle-ferraz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE FERRAZ 41"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/544-audiencia-provincial-madrid-calle-ferraz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7200578683787673 40.428796632588956)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/544-audiencia-provincial-madrid-calle-ferraz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.428796632588956,
+        "longitude" : -3.7200578683787673
+	  }
+
+    },
+	{
+      "id" : "4596060",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4596060-audiencia-provincial-madrid-calle-francisco-gervas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/AudienciasTribunales",
+      "title" : "Audiencia Provincial de Madrid. Calle Francisco Gervás",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=faca579f42923110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4596060-audiencia-provincial-madrid-calle-francisco-gervas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE FRANCISCO GERVAS 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4596060-audiencia-provincial-madrid-calle-francisco-gervas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.693037267216853 40.460934721665055)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4596060-audiencia-provincial-madrid-calle-francisco-gervas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.460934721665055,
+        "longitude" : -3.693037267216853
+	  }
+
+    },
+	{
+      "id" : "543",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/543-audiencia-provincial-madrid-calle-santiago-compostela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/AudienciasTribunales",
+      "title" : "Audiencia Provincial de Madrid. Calle Santiago de Compostela",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ba211076c081c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/543-audiencia-provincial-madrid-calle-santiago-compostela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "CALLE SANTIAGO DE COMPOSTELA 96"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/543-audiencia-provincial-madrid-calle-santiago-compostela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7200392972598286 40.477877678025976)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/543-audiencia-provincial-madrid-calle-santiago-compostela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.477877678025976,
+        "longitude" : -3.7200392972598286
+	  }
+
+    },
+	{
+      "id" : "4596085",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4596085-audiencia-provincial-madrid-paseo-general-martinez-campos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/AudienciasTribunales",
+      "title" : "Audiencia Provincial de Madrid. Paseo del General Martínez Campos",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7dc7579f42923110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4596085-audiencia-provincial-madrid-paseo-general-martinez-campos/address",
+		"@type" : "vcard:Address",
+		"locality" : null,
+		"postal-code" : "28010",
+		"street-address" : "PASEO GENERAL MARTINEZ CAMPOS 27"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4596085-audiencia-provincial-madrid-paseo-general-martinez-campos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6945533325873194 40.435204934487246)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4596085-audiencia-provincial-madrid-paseo-general-martinez-campos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.435204934487246,
+        "longitude" : -3.6945533325873194
+	  }
+
+    },
+	{
+      "id" : "51493",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51493-clinica-medico-forense",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Clínica Médico Forense",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ef42e7510551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51493-clinica-medico-forense/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PLAZA CASTILLA 1 PLANTA BAJA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51493-clinica-medico-forense/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6902025083603656 40.46514986607197)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51493-clinica-medico-forense/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46514986607197,
+        "longitude" : -3.6902025083603656
+	  }
+
+    },
+	{
+      "id" : "185214",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185214-consejo-general-notariado",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Consejo General del Notariado",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6d5089e2c9e5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185214-consejo-general-notariado/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "PASEO GENERAL MARTINEZ CAMPOS 46 PLANTA 6ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185214-consejo-general-notariado/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.691757015135603 40.43500548463525)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185214-consejo-general-notariado/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43500548463525,
+        "longitude" : -3.691757015135603
+	  }
+
+    },
+	{
+      "id" : "8037447",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8037447-consejo-general-poder-judicial-sede-central",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Consejo General del Poder Judicial. Sede central",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=15e792540b14d410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8037447-consejo-general-poder-judicial-sede-central/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE MARQUES DE LA ENSENADA 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8037447-consejo-general-poder-judicial-sede-central/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.692517980456627 40.42413604278863)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8037447-consejo-general-poder-judicial-sede-central/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42413604278863,
+        "longitude" : -3.692517980456627
+	  }
+
+    },
+	{
+      "id" : "1633",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1633-consejo-general-poder-judicial-servicio-atencion-ciudadania",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Consejo General del Poder Judicial. Servicio de atención a la ciudadanía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=adc01e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1633-consejo-general-poder-judicial-servicio-atencion-ciudadania/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE TRAFALGAR 27 -29"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1633-consejo-general-poder-judicial-servicio-atencion-ciudadania/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7015380968709986 40.43341500950279)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1633-consejo-general-poder-judicial-servicio-atencion-ciudadania/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43341500950279,
+        "longitude" : -3.7015380968709986
+	  }
+
+    },
+	{
+      "id" : "6909447",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6909447-decanato-instruccion-ejecucion-penales",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Decanato. Instrucción y ejecución penales",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=18bd05e17f71e310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6909447-decanato-instruccion-ejecucion-penales/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PLAZA CASTILLA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6909447-decanato-instruccion-ejecucion-penales/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6902025083603656 40.46514986607197)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6909447-decanato-instruccion-ejecucion-penales/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46514986607197,
+        "longitude" : -3.6902025083603656
+	  }
+
+    },
+	{
+      "id" : "7611547",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7611547-decanato-registro-reparto-civil",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Decanato. Registro y Reparto Civil",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b72d86b9236f7410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7611547-decanato-registro-reparto-civil/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE POETA JOAN MARAGALL 66"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7611547-decanato-registro-reparto-civil/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.691302250903921 40.464269423507)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7611547-decanato-registro-reparto-civil/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.464269423507,
+        "longitude" : -3.691302250903921
+	  }
+
+    },
+	{
+      "id" : "5185507",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5185507-fiscalia-tribunal-supremo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Fiscalía del Tribunal Supremo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=196a0afbaecfd110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5185507-fiscalia-tribunal-supremo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE FORTUNY 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5185507-fiscalia-tribunal-supremo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.690984085212356 40.42860469149395)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5185507-fiscalia-tribunal-supremo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42860469149395,
+        "longitude" : -3.690984085212356
+	  }
+
+    },
+	{
+      "id" : "4995093",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4995093-fiscalia-provincial-madrid-sede-poeta-joan-maragall",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Fiscalía Provincial de Madrid. Sede Poeta Joan Maragall",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7969591a7349c110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4995093-fiscalia-provincial-madrid-sede-poeta-joan-maragall/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE POETA JOAN MARAGALL 53"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4995093-fiscalia-provincial-madrid-sede-poeta-joan-maragall/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6917783409820517 40.4635368482201)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4995093-fiscalia-provincial-madrid-sede-poeta-joan-maragall/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4635368482201,
+        "longitude" : -3.6917783409820517
+	  }
+
+    },
+	{
+      "id" : "7612132",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612132-fiscalia-superior-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Fiscalía Superior Comunidad de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=70887985458f7410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612132-fiscalia-superior-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE GENERAL CASTA&Ntilde;OS 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612132-fiscalia-superior-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6942329136485843 40.42468431758989)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612132-fiscalia-superior-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42468431758989,
+        "longitude" : -3.6942329136485843
+	  }
+
+    },
+	{
+      "id" : "7612817",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612817-fiscalia-contencioso-administrativo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Fiscalía. Contencioso Administrativo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bab4bceef5df7410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612817-fiscalia-contencioso-administrativo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE BARQUILLO 23"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612817-fiscalia-contencioso-administrativo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6956946714498695 40.42239624481564)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612817-fiscalia-contencioso-administrativo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42239624481564,
+        "longitude" : -3.6956946714498695
+	  }
+
+    },
+	{
+      "id" : "7612449",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612449-fiscalia-delitos-economicos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Fiscalía. Delitos Económicos",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d5a3307f57cf7410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612449-fiscalia-delitos-economicos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE POETA JOAN MARAGALL 53"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612449-fiscalia-delitos-economicos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6917783409820517 40.4635368482201)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612449-fiscalia-delitos-economicos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4635368482201,
+        "longitude" : -3.6917783409820517
+	  }
+
+    },
+	{
+      "id" : "7612483",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612483-fiscalia-ejecutorias-penales",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Fiscalía. Ejecutorias Penales",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ac795457f8cf7410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612483-fiscalia-ejecutorias-penales/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE POETA JOAN MARAGALL 53"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612483-fiscalia-ejecutorias-penales/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6917783409820517 40.4635368482201)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612483-fiscalia-ejecutorias-penales/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4635368482201,
+        "longitude" : -3.6917783409820517
+	  }
+
+    },
+	{
+      "id" : "7612716",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612716-fiscalia-enjuiciamiento-penal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Fiscalía. Enjuiciamiento Penal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=698c66dad3df7410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612716-fiscalia-enjuiciamiento-penal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE JULIAN CAMARILLO 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612716-fiscalia-enjuiciamiento-penal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6321134335539744 40.434049694580374)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612716-fiscalia-enjuiciamiento-penal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.434049694580374,
+        "longitude" : -3.6321134335539744
+	  }
+
+    },
+	{
+      "id" : "7612611",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612611-fiscalia-guardia-instruccion",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Fiscalía. Guardia e Instrucción",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f732fb250ecf7410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612611-fiscalia-guardia-instruccion/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PLAZA CASTILLA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612611-fiscalia-guardia-instruccion/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6902025083603656 40.46514986607197)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612611-fiscalia-guardia-instruccion/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46514986607197,
+        "longitude" : -3.6902025083603656
+	  }
+
+    },
+	{
+      "id" : "7612496",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612496-fiscalia-incapacidades-tutelas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Fiscalía. Incapacidades y Tutelas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=72ee5457f8cf7410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612496-fiscalia-incapacidades-tutelas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE VENTURA RODRIGUEZ 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612496-fiscalia-incapacidades-tutelas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.713737002455046 40.42526825572236)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612496-fiscalia-incapacidades-tutelas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42526825572236,
+        "longitude" : -3.713737002455046
+	  }
+
+    },
+	{
+      "id" : "7612837",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612837-fiscalia-laboral",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Fiscalía. Laboral",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9fab206337df7410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612837-fiscalia-laboral/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE POETA JOAN MARAGALL 53"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612837-fiscalia-laboral/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6917783409820517 40.4635368482201)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612837-fiscalia-laboral/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4635368482201,
+        "longitude" : -3.6917783409820517
+	  }
+
+    },
+	{
+      "id" : "7612881",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612881-fiscalia-registro-civil",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Fiscalía. Registro Civil",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8441206337df7410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612881-fiscalia-registro-civil/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PRADILLO 66"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612881-fiscalia-registro-civil/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6682549717771638 40.45005364568936)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612881-fiscalia-registro-civil/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45005364568936,
+        "longitude" : -3.6682549717771638
+	  }
+
+    },
+	{
+      "id" : "7612943",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612943-fiscalia-seccion-civil",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Fiscalía. Sección Civil",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f9779812b8df7410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612943-fiscalia-seccion-civil/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE FRANCISCO GERVAS 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612943-fiscalia-seccion-civil/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.693037267216853 40.460934721665055)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612943-fiscalia-seccion-civil/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.460934721665055,
+        "longitude" : -3.693037267216853
+	  }
+
+    },
+	{
+      "id" : "7612756",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612756-fiscalia-violencia-familiar",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Fiscalía. Violencia Familiar",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d318e7e015df7410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612756-fiscalia-violencia-familiar/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE MANUEL TOVAR 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612756-fiscalia-violencia-familiar/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6864551939262027 40.487514393271496)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612756-fiscalia-violencia-familiar/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.487514393271496,
+        "longitude" : -3.6864551939262027
+	  }
+
+    },
+	{
+      "id" : "4585407",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4585407-informacion-general-juzgados-policia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Información General para Juzgados y Policía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=019981da1d2d2110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4585407-informacion-general-juzgados-policia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE POETA JOAN MARAGALL 66"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4585407-informacion-general-juzgados-policia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.691302250903921 40.464269423507)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4585407-informacion-general-juzgados-policia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.464269423507,
+        "longitude" : -3.691302250903921
+	  }
+
+    },
+	{
+      "id" : "9367",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9367-instituto-anatomico-forense",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Instituto Anatómico Forense",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=82241c7a2c61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9367-instituto-anatomico-forense/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28040",
+		"street-address" : "CALLE DOCTOR SEVERO OCHOA Pabellón 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9367-instituto-anatomico-forense/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7245794518496913 40.44257018029963)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9367-instituto-anatomico-forense/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44257018029963,
+        "longitude" : -3.7245794518496913
+	  }
+
+    },
+	{
+      "id" : "10098633",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10098633-juzgado-central-penal-unico",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/AudienciasTribunales",
+      "title" : "Juzgado Central de lo Penal Único",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4ed1a94194d75510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10098633-juzgado-central-penal-unico/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE GARCIA GUTIERREZ 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10098633-juzgado-central-penal-unico/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6929960000180335 40.42591696701239)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10098633-juzgado-central-penal-unico/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42591696701239,
+        "longitude" : -3.6929960000180335
+	  }
+
+    },
+	{
+      "id" : "91189",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91189-juzgado-central-menores-unico",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgado Central de Menores Único",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b4f35c2cdc41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91189-juzgado-central-menores-unico/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE GOYA 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91189-juzgado-central-menores-unico/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6849359430118414 40.42508211473968)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91189-juzgado-central-menores-unico/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42508211473968,
+        "longitude" : -3.6849359430118414
+	  }
+
+    },
+	{
+      "id" : "7613531",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7613531-juzgado-guardia-plaza-castilla",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Juzgado de Guardia. Plaza de Castilla",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c77743b5e1c08410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7613531-juzgado-guardia-plaza-castilla/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PLAZA CASTILLA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7613531-juzgado-guardia-plaza-castilla/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6902025083603656 40.46514986607197)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7613531-juzgado-guardia-plaza-castilla/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46514986607197,
+        "longitude" : -3.6902025083603656
+	  }
+
+    },
+	{
+      "id" : "6273888",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6273888-juzgado-penal-avenida-institucion-libre-ensenanza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgado de lo Penal. Avenida Institución Libre de Enseñanza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a2aedf4d86064310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6273888-juzgado-penal-avenida-institucion-libre-ensenanza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "AVENIDA INSTITUCION LIBRE DE ENSE&Ntilde;ANZA 37"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6273888-juzgado-penal-avenida-institucion-libre-ensenanza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.633381487828208 40.43223193741772)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6273888-juzgado-penal-avenida-institucion-libre-ensenanza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43223193741772,
+        "longitude" : -3.633381487828208
+	  }
+
+    },
+	{
+      "id" : "91192",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91192-juzgados-centrales-contencioso-administrativo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgados Centrales de lo Contencioso - Administrativo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0db35c2cdc41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91192-juzgados-centrales-contencioso-administrativo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE GOYA 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91192-juzgados-centrales-contencioso-administrativo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6849359430118414 40.42508211473968)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91192-juzgados-centrales-contencioso-administrativo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42508211473968,
+        "longitude" : -3.6849359430118414
+	  }
+
+    },
+	{
+      "id" : "551",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/551-juzgados-instruccion-plaza-castilla",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgados de Instrucción. Plaza de Castilla",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a757e0e1f181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/551-juzgados-instruccion-plaza-castilla/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PLAZA CASTILLA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/551-juzgados-instruccion-plaza-castilla/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6902025083603656 40.46514986607197)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/551-juzgados-instruccion-plaza-castilla/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46514986607197,
+        "longitude" : -3.6902025083603656
+	  }
+
+    },
+	{
+      "id" : "45344",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/45344-juzgados-contencioso-administrativo-calle-gran-via-19",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgados de lo Contencioso - Administrativo. Calle Gran Vía, 19",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4d60e7510551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/45344-juzgados-contencioso-administrativo-calle-gran-via-19/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 19"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/45344-juzgados-contencioso-administrativo-calle-gran-via-19/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7008785305479455 40.41985141345496)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/45344-juzgados-contencioso-administrativo-calle-gran-via-19/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41985141345496,
+        "longitude" : -3.7008785305479455
+	  }
+
+    },
+	{
+      "id" : "187210",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/187210-juzgados-contencioso-administrativo-calle-gran-via-52",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgados de lo Contencioso - Administrativo. Calle Gran Vía, 52",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e10ad2bec675e010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/187210-juzgados-contencioso-administrativo-calle-gran-via-52/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 52"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/187210-juzgados-contencioso-administrativo-calle-gran-via-52/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.706891279894373 40.42108508035208)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/187210-juzgados-contencioso-administrativo-calle-gran-via-52/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42108508035208,
+        "longitude" : -3.706891279894373
+	  }
+
+    },
+	{
+      "id" : "163710",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/163710-juzgados-mercantil-calle-gran-via",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgados de lo Mercantil. Calle Gran Vía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8e69ab080581c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/163710-juzgados-mercantil-calle-gran-via/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 52"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/163710-juzgados-mercantil-calle-gran-via/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.706891279894373 40.42108508035208)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/163710-juzgados-mercantil-calle-gran-via/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42108508035208,
+        "longitude" : -3.706891279894373
+	  }
+
+    },
+	{
+      "id" : "120343",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/120343-juzgados-penal-calle-julian-camarillo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgados de lo Penal. Calle Julián Camarillo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d244e8ae8d81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/120343-juzgados-penal-calle-julian-camarillo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE JULIAN CAMARILLO 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/120343-juzgados-penal-calle-julian-camarillo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6321134335539744 40.434049694580374)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/120343-juzgados-penal-calle-julian-camarillo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.434049694580374,
+        "longitude" : -3.6321134335539744
+	  }
+
+    },
+	{
+      "id" : "6273905",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6273905-juzgados-penal-calle-manuel-tovar",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgados de lo Penal. Calle Manuel Tovar",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8046df4d86064310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6273905-juzgados-penal-calle-manuel-tovar/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE MANUEL TOVAR 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6273905-juzgados-penal-calle-manuel-tovar/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6864669925481093 40.487514323190794)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6273905-juzgados-penal-calle-manuel-tovar/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.487514323190794,
+        "longitude" : -3.6864669925481093
+	  }
+
+    },
+	{
+      "id" : "120378",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/120378-juzgados-penal-plaza-castilla",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgados de lo Penal. Plaza de Castilla",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8a74e8ae8d81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/120378-juzgados-penal-plaza-castilla/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PLAZA CASTILLA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/120378-juzgados-penal-plaza-castilla/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6902025083603656 40.46514986607197)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/120378-juzgados-penal-plaza-castilla/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46514986607197,
+        "longitude" : -3.6902025083603656
+	  }
+
+    },
+	{
+      "id" : "549",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/549-juzgados-social",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgados de lo Social",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cc77e0e1f181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/549-juzgados-social/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE PRINCESA 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/549-juzgados-social/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7128591034859424 40.42474213964734)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/549-juzgados-social/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42474213964734,
+        "longitude" : -3.7128591034859424
+	  }
+
+    },
+	{
+      "id" : "548",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/548-juzgados-menores",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgados de Menores",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e1a7e0e1f181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/548-juzgados-menores/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "AVENIDA INSTITUCION LIBRE DE ENSE&Ntilde;ANZA 37"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/548-juzgados-menores/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.633381487828208 40.43223193741772)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/548-juzgados-menores/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43223193741772,
+        "longitude" : -3.633381487828208
+	  }
+
+    },
+	{
+      "id" : "162803",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/162803-juzgados-primera-instancia-calle-francisco-gervas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgados de Primera Instancia. Calle Francisco Gervás",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=23adab080581c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/162803-juzgados-primera-instancia-calle-francisco-gervas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE FRANCISCO GERVAS 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/162803-juzgados-primera-instancia-calle-francisco-gervas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.693037267216853 40.460934721665055)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/162803-juzgados-primera-instancia-calle-francisco-gervas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.460934721665055,
+        "longitude" : -3.693037267216853
+	  }
+
+    },
+	{
+      "id" : "10514777",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10514777-juzgados-primera-instancia-calle-gran-via",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgados de Primera Instancia. Calle Gran Vía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e82fa5f5c950f510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10514777-juzgados-primera-instancia-calle-gran-via/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 52"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10514777-juzgados-primera-instancia-calle-gran-via/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.706891279894373 40.42108508035208)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10514777-juzgados-primera-instancia-calle-gran-via/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42108508035208,
+        "longitude" : -3.706891279894373
+	  }
+
+    },
+	{
+      "id" : "133121",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133121-juzgados-primera-instancia-calle-maria-molina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgados de Primera Instancia. Calle María de Molina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7cbd5f463b81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133121-juzgados-primera-instancia-calle-maria-molina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE MARIA DE MOLINA 42"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133121-juzgados-primera-instancia-calle-maria-molina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.682538415107482 40.43746568785974)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133121-juzgados-primera-instancia-calle-maria-molina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43746568785974,
+        "longitude" : -3.682538415107482
+	  }
+
+    },
+	{
+      "id" : "550",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/550-juzgados-primera-instancia-calle-poeta-joan-maragall",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgados de Primera Instancia. Calle Poeta Joan Maragall",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=74b7e0e1f181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/550-juzgados-primera-instancia-calle-poeta-joan-maragall/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE POETA JOAN MARAGALL 66"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/550-juzgados-primera-instancia-calle-poeta-joan-maragall/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.691302250903921 40.464269423507)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/550-juzgados-primera-instancia-calle-poeta-joan-maragall/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.464269423507,
+        "longitude" : -3.691302250903921
+	  }
+
+    },
+	{
+      "id" : "162894",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/162894-juzgados-primera-instancia-calle-princesa-3",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgados de Primera Instancia. Calle Princesa, 3",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=337fab080581c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/162894-juzgados-primera-instancia-calle-princesa-3/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE PRINCESA 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/162894-juzgados-primera-instancia-calle-princesa-3/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7128591034859424 40.42474213964734)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/162894-juzgados-primera-instancia-calle-princesa-3/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42474213964734,
+        "longitude" : -3.7128591034859424
+	  }
+
+    },
+	{
+      "id" : "10158201",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10158201-juzgados-primera-instancia-calle-princesa-5",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgados de Primera Instancia. Calle Princesa, 5",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e7d34811e997510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10158201-juzgados-primera-instancia-calle-princesa-5/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE PRINCESA 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10158201-juzgados-primera-instancia-calle-princesa-5/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7131912490101877 40.42493828974175)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10158201-juzgados-primera-instancia-calle-princesa-5/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42493828974175,
+        "longitude" : -3.7131912490101877
+	  }
+
+    },
+	{
+      "id" : "91177",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91177-juzgados-primera-instancia-calle-ventura-rodriguez",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgados de Primera Instancia. Calle Ventura Rodríguez",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=47045c2cdc41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91177-juzgados-primera-instancia-calle-ventura-rodriguez/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE VENTURA RODRIGUEZ 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91177-juzgados-primera-instancia-calle-ventura-rodriguez/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.713737002455046 40.42526825572236)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91177-juzgados-primera-instancia-calle-ventura-rodriguez/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42526825572236,
+        "longitude" : -3.713737002455046
+	  }
+
+    },
+	{
+      "id" : "555",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/555-juzgados-vigilancia-penitenciaria",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgados de Vigilancia Penitenciaria",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=511829ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/555-juzgados-vigilancia-penitenciaria/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PLAZA CASTILLA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/555-juzgados-vigilancia-penitenciaria/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6902025083603656 40.46514986607197)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/555-juzgados-vigilancia-penitenciaria/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46514986607197,
+        "longitude" : -3.6902025083603656
+	  }
+
+    },
+	{
+      "id" : "171720",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171720-juzgados-violencia-mujer",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Juzgados de Violencia sobre la Mujer",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=094829ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171720-juzgados-violencia-mujer/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE MANUEL TOVAR 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171720-juzgados-violencia-mujer/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6864669925481093 40.487514323190794)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171720-juzgados-violencia-mujer/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.487514323190794,
+        "longitude" : -3.6864669925481093
+	  }
+
+    },
+	{
+      "id" : "4585406",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4585406-juzgados-informacion-civil",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Juzgados. Información Civil",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=79833dfa7c2d2110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4585406-juzgados-informacion-civil/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE POETA JOAN MARAGALL 66"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4585406-juzgados-informacion-civil/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.691302250903921 40.464269423507)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4585406-juzgados-informacion-civil/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.464269423507,
+        "longitude" : -3.691302250903921
+	  }
+
+    },
+	{
+      "id" : "190630",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190630-juzgados-informacion-penal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Juzgados. Información Penal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=05d1dfb1f5010110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190630-juzgados-informacion-penal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PLAZA CASTILLA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190630-juzgados-informacion-penal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6902025083603656 40.46514986607197)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190630-juzgados-informacion-penal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46514986607197,
+        "longitude" : -3.6902025083603656
+	  }
+
+    },
+	{
+      "id" : "190609",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190609-localizacion-permanente-arrestos-fin-semana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/Juzgados",
+      "title" : "Localización permanente y arrestos fin de semana",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ecc36580d4010110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190609-localizacion-permanente-arrestos-fin-semana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PLAZA CASTILLA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190609-localizacion-permanente-arrestos-fin-semana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6902025083603656 40.46514986607197)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190609-localizacion-permanente-arrestos-fin-semana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46514986607197,
+        "longitude" : -3.6902025083603656
+	  }
+
+    },
+	{
+      "id" : "12373",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12373-ministerio-justicia-centro-atencion-al-ciudadano",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Ministerio de Justicia. Centro de atención al ciudadano",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=783c72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12373-ministerio-justicia-centro-atencion-al-ciudadano/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE BOLSA 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12373-ministerio-justicia-centro-atencion-al-ciudadano/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7046231120517605 40.414963769846764)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12373-ministerio-justicia-centro-atencion-al-ciudadano/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.414963769846764,
+        "longitude" : -3.7046231120517605
+	  }
+
+    },
+	{
+      "id" : "7610951",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7610951-oficina-apoyo-decanato-civil",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Oficina de Apoyo a Decanato Civil",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8fbe19b3413f7410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7610951-oficina-apoyo-decanato-civil/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE PRINCESA 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7610951-oficina-apoyo-decanato-civil/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7128591034859424 40.42474213964734)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7610951-oficina-apoyo-decanato-civil/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42474213964734,
+        "longitude" : -3.7128591034859424
+	  }
+
+    },
+	{
+      "id" : "5259537",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5259537-oficina-atencion-al-ciudadano-juzgados-tribunales-comunidad-madrid-poeta-joan-maragall",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Oficina de Atención al Ciudadano. Juzgados y Tribunales de la Comunidad de Madrid. Poeta Joan Maragall",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dc4b25933a2bf110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5259537-oficina-atencion-al-ciudadano-juzgados-tribunales-comunidad-madrid-poeta-joan-maragall/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE POETA JOAN MARAGALL 66"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5259537-oficina-atencion-al-ciudadano-juzgados-tribunales-comunidad-madrid-poeta-joan-maragall/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.691302250903921 40.464269423507)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5259537-oficina-atencion-al-ciudadano-juzgados-tribunales-comunidad-madrid-poeta-joan-maragall/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.464269423507,
+        "longitude" : -3.691302250903921
+	  }
+
+    },
+	{
+      "id" : "7615603",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7615603-oficina-graduados-sociales",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Oficina de Graduados Sociales",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d15ea18c00218410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7615603-oficina-graduados-sociales/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE PRINCESA 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7615603-oficina-graduados-sociales/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7128591034859424 40.42474213964734)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7615603-oficina-graduados-sociales/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42474213964734,
+        "longitude" : -3.7128591034859424
+	  }
+
+    },
+	{
+      "id" : "190601",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190601-oficina-peritos-judiciales",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Oficina de Peritos Judiciales",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f69c942e76010110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190601-oficina-peritos-judiciales/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PLAZA CASTILLA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190601-oficina-peritos-judiciales/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6902025083603656 40.46514986607197)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190601-oficina-peritos-judiciales/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46514986607197,
+        "longitude" : -3.6902025083603656
+	  }
+
+    },
+	{
+      "id" : "5378170",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5378170-registro-civil-central-servicio-certificados",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Registro Civil Central. Servicio de Certificados",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f41ab02c9d362210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5378170-registro-civil-central-servicio-certificados/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE MONTERA 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5378170-registro-civil-central-servicio-certificados/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7025911279071764 40.417913084061304)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5378170-registro-civil-central-servicio-certificados/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.417913084061304,
+        "longitude" : -3.7025911279071764
+	  }
+
+    },
+	{
+      "id" : "7613091",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7613091-secretaria-equipos-psicosociales",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Secretaría de Equipos Psicosociales",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4f9a32796fb08410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7613091-secretaria-equipos-psicosociales/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE FRANCISCO GERVAS 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7613091-secretaria-equipos-psicosociales/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.693037267216853 40.460934721665055)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7613091-secretaria-equipos-psicosociales/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.460934721665055,
+        "longitude" : -3.693037267216853
+	  }
+
+    },
+	{
+      "id" : "190607",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190607-servicio-informacion-al-drogodependiente-sajiad",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Servicio de Información al Drogodependiente (SAJIAD)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=44d6dfb1f5010110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190607-servicio-informacion-al-drogodependiente-sajiad/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PLAZA CASTILLA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190607-servicio-informacion-al-drogodependiente-sajiad/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6902025083603656 40.46514986607197)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190607-servicio-informacion-al-drogodependiente-sajiad/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46514986607197,
+        "longitude" : -3.6902025083603656
+	  }
+
+    },
+	{
+      "id" : "7612083",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612083-servicio-orientacion-juridica-poeta-joan-maragall-66",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia",
+      "title" : "Servicio de Orientación Jurídica. Poeta Joan Maragall 66",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e149a7ace38f7410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612083-servicio-orientacion-juridica-poeta-joan-maragall-66/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE POETA JOAN MARAGALL 66"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612083-servicio-orientacion-juridica-poeta-joan-maragall-66/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.691302250903921 40.464269423507)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7612083-servicio-orientacion-juridica-poeta-joan-maragall-66/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.464269423507,
+        "longitude" : -3.691302250903921
+	  }
+
+    },
+	{
+      "id" : "540",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/540-tribunal-constitucional",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/AudienciasTribunales",
+      "title" : "Tribunal Constitucional",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a0bde3914381c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/540-tribunal-constitucional/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE DOMENICO SCARLATTI 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/540-tribunal-constitucional/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.717067275176147 40.441364772012385)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/540-tribunal-constitucional/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.441364772012385,
+        "longitude" : -3.717067275176147
+	  }
+
+    },
+	{
+      "id" : "547",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/547-tribunal-rota-nunciatura-apostolica-espana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/AudienciasTribunales",
+      "title" : "Tribunal de la Rota de la Nunciatura Apostólica en España",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=33cde3914381c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/547-tribunal-rota-nunciatura-apostolica-espana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE NUNCIO 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/547-tribunal-rota-nunciatura-apostolica-espana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.709520510051051 40.41328516379057)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/547-tribunal-rota-nunciatura-apostolica-espana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41328516379057,
+        "longitude" : -3.709520510051051
+	  }
+
+    },
+	{
+      "id" : "545",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/545-tribunal-superior-justicia-madrid-calle-general-castanos-1",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/AudienciasTribunales",
+      "title" : "Tribunal Superior de Justicia de Madrid. Calle General Castaños 1",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c5dde3914381c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/545-tribunal-superior-justicia-madrid-calle-general-castanos-1/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE GENERAL CASTA&Ntilde;OS 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/545-tribunal-superior-justicia-madrid-calle-general-castanos-1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6942329136485843 40.42468431758989)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/545-tribunal-superior-justicia-madrid-calle-general-castanos-1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42468431758989,
+        "longitude" : -3.6942329136485843
+	  }
+
+    },
+	{
+      "id" : "6823762",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6823762-tribunal-superior-justicia-madrid-calle-genova",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/AudienciasTribunales",
+      "title" : "Tribunal Superior de Justicia de Madrid. Calle Genova",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0ef1dee0f5dec310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6823762-tribunal-superior-justicia-madrid-calle-genova/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE GENOVA 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6823762-tribunal-superior-justicia-madrid-calle-genova/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6946803456370647 40.42692487878086)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6823762-tribunal-superior-justicia-madrid-calle-genova/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42692487878086,
+        "longitude" : -3.6946803456370647
+	  }
+
+    },
+	{
+      "id" : "546",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/546-tribunal-superior-justicia-madrid-paseo-general-martinez-campos-27",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/EntidadesAdministracionJusticia/AudienciasTribunales",
+      "title" : "Tribunal Superior de Justicia de Madrid. Paseo General Martínez Campos 27",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=58ede3914381c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/546-tribunal-superior-justicia-madrid-paseo-general-martinez-campos-27/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "PASEO GENERAL MARTINEZ CAMPOS 27"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/546-tribunal-superior-justicia-madrid-paseo-general-martinez-campos-27/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6945533325873194 40.435204934487246)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/546-tribunal-superior-justicia-madrid-paseo-general-martinez-campos-27/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.435204934487246,
+        "longitude" : -3.6945533325873194
+	  }
+
+    },
+	{
+      "id" : "541",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/541-tribunal-supremo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Tribunal Supremo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eafde3914381c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/541-tribunal-supremo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE MARQUES DE LA ENSENADA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/541-tribunal-supremo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.692871513780515 40.424124915522775)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/541-tribunal-supremo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.424124915522775,
+        "longitude" : -3.692871513780515
+	  }
+
+    }
+  ]
+}

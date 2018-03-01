@@ -1,0 +1,1514 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "13470",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13470-aparcamiento-mixto-arquitecto-ribera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Arquitecto Ribera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a50e15cbed51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13470-aparcamiento-mixto-arquitecto-ribera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE BARCELO 2"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13470-aparcamiento-mixto-arquitecto-ribera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6996173701222492 40.426687899755734)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13470-aparcamiento-mixto-arquitecto-ribera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.426687899755734,
+        "longitude" : -3.6996173701222492
+	  }
+
+    },
+	{
+      "id" : "59060",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/59060-aparcamiento-mixto-avenida-america-intercambiador",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Avenida de América (intercambiador)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3f3bc2c6e051c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/59060-aparcamiento-mixto-avenida-america-intercambiador/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PRADENA DEL RINCON 4 c/v avenida de América"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/59060-aparcamiento-mixto-avenida-america-intercambiador/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6766217383743345 40.43886083125741)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/59060-aparcamiento-mixto-avenida-america-intercambiador/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43886083125741,
+        "longitude" : -3.6766217383743345
+	  }
+
+    },
+	{
+      "id" : "5898885",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5898885-aparcamiento-mixto-avenida-portugal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosPublicos",
+      "title" : "Aparcamiento mixto. Avenida de Portugal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c313e26f2b3fc210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5898885-aparcamiento-mixto-avenida-portugal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "AVENIDA PORTUGAL 155"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5898885-aparcamiento-mixto-avenida-portugal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7378318857463158 40.411180021966345)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5898885-aparcamiento-mixto-avenida-portugal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.411180021966345,
+        "longitude" : -3.7378318857463158
+	  }
+
+    },
+	{
+      "id" : "13475",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13475-aparcamiento-mixto-brasil",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Brasil",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb2e15cbed51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13475-aparcamiento-mixto-brasil/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE GENERAL YAG&Uuml;E 11"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13475-aparcamiento-mixto-brasil/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.694131675088486 40.45610834965894)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13475-aparcamiento-mixto-brasil/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45610834965894,
+        "longitude" : -3.694131675088486
+	  }
+
+    },
+	{
+      "id" : "183747",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183747-aparcamiento-mixto-casino-reina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Casino de la Reina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c5f4bdc85c01c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183747-aparcamiento-mixto-casino-reina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE CASINO 3"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183747-aparcamiento-mixto-casino-reina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7046086019457167 40.406792648617134)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183747-aparcamiento-mixto-casino-reina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.406792648617134,
+        "longitude" : -3.7046086019457167
+	  }
+
+    },
+	{
+      "id" : "13477",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13477-aparcamiento-mixto-condesa-gavia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Condesa de Gavia",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7e5f15cbed51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13477-aparcamiento-mixto-condesa-gavia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "PLAZA CONDESA DE GAVIA"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13477-aparcamiento-mixto-condesa-gavia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7019164121880888 40.44938567948415)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13477-aparcamiento-mixto-condesa-gavia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44938567948415,
+        "longitude" : -3.7019164121880888
+	  }
+
+    },
+	{
+      "id" : "24103",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24103-aparcamiento-mixto-corazon-maria-ii",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Corazón de María II",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b74e6545f951c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24103-aparcamiento-mixto-corazon-maria-ii/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE CORAZON DE MARIA 46"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24103-aparcamiento-mixto-corazon-maria-ii/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.666902094780133 40.444421820483264)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24103-aparcamiento-mixto-corazon-maria-ii/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.444421820483264,
+        "longitude" : -3.666902094780133
+	  }
+
+    },
+	{
+      "id" : "81736",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/81736-aparcamiento-mixto-corona-boreal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Corona Boreal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=db8bc2c6e051c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/81736-aparcamiento-mixto-corona-boreal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28023",
+		"street-address" : "CALLE PEREZ DE VICTORIA "
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/81736-aparcamiento-mixto-corona-boreal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.78317943069732 40.45852127134047)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/81736-aparcamiento-mixto-corona-boreal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45852127134047,
+        "longitude" : -3.78317943069732
+	  }
+
+    },
+	{
+      "id" : "183748",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183748-aparcamiento-mixto-daoiz-velarde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Daoíz y Velarde",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0f85bdc85c01c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183748-aparcamiento-mixto-daoiz-velarde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "AVENIDA CIUDAD DE BARCELONA 3"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183748-aparcamiento-mixto-daoiz-velarde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.683557034656531 40.40531540835356)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183748-aparcamiento-mixto-daoiz-velarde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40531540835356,
+        "longitude" : -3.683557034656531
+	  }
+
+    },
+	{
+      "id" : "44724",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/44724-aparcamiento-mixto-diaz-porlier",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Díaz Porlier",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9e69946be351c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/44724-aparcamiento-mixto-diaz-porlier/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE DIEGO DE LEON 62"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/44724-aparcamiento-mixto-diaz-porlier/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.675728293375598 40.434415601006386)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/44724-aparcamiento-mixto-diaz-porlier/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.434415601006386,
+        "longitude" : -3.675728293375598
+	  }
+
+    },
+	{
+      "id" : "36269",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36269-aparcamiento-mixto-encuentro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Encuentro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c3e12c798651c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36269-aparcamiento-mixto-encuentro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "PLAZA ENCUENTRO 1"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36269-aparcamiento-mixto-encuentro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.652048809515808 40.40581270738191)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36269-aparcamiento-mixto-encuentro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40581270738191,
+        "longitude" : -3.652048809515808
+	  }
+
+    },
+	{
+      "id" : "13464",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13464-aparcamiento-mixto-felipe-ii",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Felipe II",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=425e15cbed51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13464-aparcamiento-mixto-felipe-ii/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "CALLE ANTONIA MERCE 5"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13464-aparcamiento-mixto-felipe-ii/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.673433652213169 40.42422175692137)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13464-aparcamiento-mixto-felipe-ii/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42422175692137,
+        "longitude" : -3.673433652213169
+	  }
+
+    },
+	{
+      "id" : "13462",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13462-aparcamiento-mixto-fuencarral",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Fuencarral",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=987e15cbed51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13462-aparcamiento-mixto-fuencarral/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE FUENCARRAL 111"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13462-aparcamiento-mixto-fuencarral/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7027941027177986 40.42948845687032)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13462-aparcamiento-mixto-fuencarral/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42948845687032,
+        "longitude" : -3.7027941027177986
+	  }
+
+    },
+	{
+      "id" : "13515",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13515-aparcamiento-mixto-general-yague",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. General Yagüe",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee9e15cbed51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13515-aparcamiento-mixto-general-yague/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "AVENIDA BRASIL 15"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13515-aparcamiento-mixto-general-yague/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.694067405537416 40.45673936450418)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13515-aparcamiento-mixto-general-yague/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45673936450418,
+        "longitude" : -3.694067405537416
+	  }
+
+    },
+	{
+      "id" : "36270",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36270-aparcamiento-mixto-hernani",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Hernani",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d0712c798651c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36270-aparcamiento-mixto-hernani/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE HERNANI 60"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36270-aparcamiento-mixto-hernani/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7033919552673127 40.448394729978006)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36270-aparcamiento-mixto-hernani/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.448394729978006,
+        "longitude" : -3.7033919552673127
+	  }
+
+    },
+	{
+      "id" : "13459",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13459-aparcamiento-mixto-jacinto-benavente",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Jacinto Benavente",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c48f15cbed51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13459-aparcamiento-mixto-jacinto-benavente/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "PLAZA JACINTO BENAVENTE 6"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13459-aparcamiento-mixto-jacinto-benavente/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.70332112917586 40.41444016371457)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13459-aparcamiento-mixto-jacinto-benavente/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41444016371457,
+        "longitude" : -3.70332112917586
+	  }
+
+    },
+	{
+      "id" : "13479",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13479-aparcamiento-mixto-jose-castan-tobenas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. José Castán Tobeñas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=35ce15cbed51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13479-aparcamiento-mixto-jose-castan-tobenas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE CAPITAN HAYA 57"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13479-aparcamiento-mixto-jose-castan-tobenas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6916467875121377 40.46451060463543)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13479-aparcamiento-mixto-jose-castan-tobenas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46451060463543,
+        "longitude" : -3.6916467875121377
+	  }
+
+    },
+	{
+      "id" : "6143690",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6143690-aparcamiento-mixto-marques-salamanca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Marqués de Salamanca",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cb5b1b2bb5b61310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6143690-aparcamiento-mixto-marques-salamanca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "PLAZA MARQUES DE SALAMANCA 8"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6143690-aparcamiento-mixto-marques-salamanca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6792137901324056 40.43046723981028)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6143690-aparcamiento-mixto-marques-salamanca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43046723981028,
+        "longitude" : -3.6792137901324056
+	  }
+
+    },
+	{
+      "id" : "182188",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182188-aparcamiento-mixto-miguel-yuste",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Miguel Yuste",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1c15bdc85c01c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182188-aparcamiento-mixto-miguel-yuste/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE MIGUEL YUSTE 11"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182188-aparcamiento-mixto-miguel-yuste/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.625049272913964 40.4402052387976)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182188-aparcamiento-mixto-miguel-yuste/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4402052387976,
+        "longitude" : -3.625049272913964
+	  }
+
+    },
+	{
+      "id" : "5517342",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5517342-aparcamiento-mixto-orense",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Orense",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eee35ed15bb95210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5517342-aparcamiento-mixto-orense/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE SOR ANGELA DE LA CRUZ 27"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5517342-aparcamiento-mixto-orense/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6962330375922363 40.45973534025835)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5517342-aparcamiento-mixto-orense/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45973534025835,
+        "longitude" : -3.6962330375922363
+	  }
+
+    },
+	{
+      "id" : "52114",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52114-aparcamiento-mixto-pedro-zerolo-antes-denominado-vazquez-mella",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Pedro Zerolo \u201cantes denominado Vázquez de Mella\u201d",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e499946be351c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52114-aparcamiento-mixto-pedro-zerolo-antes-denominado-vazquez-mella/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "PLAZA PEDRO ZEROLO 1"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52114-aparcamiento-mixto-pedro-zerolo-antes-denominado-vazquez-mella/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699899832865304 40.4209564450911)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52114-aparcamiento-mixto-pedro-zerolo-antes-denominado-vazquez-mella/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4209564450911,
+        "longitude" : -3.699899832865304
+	  }
+
+    },
+	{
+      "id" : "33440",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/33440-aparcamiento-mixto-plaza-oriente",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Plaza de Oriente",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7db12c798651c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/33440-aparcamiento-mixto-plaza-oriente/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "PLAZA ORIENTE 1"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/33440-aparcamiento-mixto-plaza-oriente/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7116407088004757 40.417632509561116)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/33440-aparcamiento-mixto-plaza-oriente/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.417632509561116,
+        "longitude" : -3.7116407088004757
+	  }
+
+    },
+	{
+      "id" : "36271",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36271-aparcamiento-mixto-presidente-carmona",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Presidente Carmona",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8a412c798651c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36271-aparcamiento-mixto-presidente-carmona/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "AVENIDA PRESIDENTE CARMONA 3"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36271-aparcamiento-mixto-presidente-carmona/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6975262417380064 40.45362846199134)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36271-aparcamiento-mixto-presidente-carmona/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45362846199134,
+        "longitude" : -3.6975262417380064
+	  }
+
+    },
+	{
+      "id" : "13476",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13476-aparcamiento-mixto-recoletos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Recoletos",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=283f15cbed51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13476-aparcamiento-mixto-recoletos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "PASEO RECOLETOS 4"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13476-aparcamiento-mixto-recoletos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.691974283683488 40.42054469225109)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13476-aparcamiento-mixto-recoletos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42054469225109,
+        "longitude" : -3.691974283683488
+	  }
+
+    },
+	{
+      "id" : "24193",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24193-aparcamiento-mixto-republica-dominicana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. República Dominicana",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aabe6545f951c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24193-aparcamiento-mixto-republica-dominicana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28016",
+		"street-address" : "PLAZA REPUBLICA DOMINICANA 6"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24193-aparcamiento-mixto-republica-dominicana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6765275895176677 40.45887037458626)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24193-aparcamiento-mixto-republica-dominicana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45887037458626,
+        "longitude" : -3.6765275895176677
+	  }
+
+    },
+	{
+      "id" : "167692",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/167692-aparcamiento-mixto-san-cayetano",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. San Cayetano",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a284ff632081c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/167692-aparcamiento-mixto-san-cayetano/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "PLAZA SAN CAYETANO 1"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/167692-aparcamiento-mixto-san-cayetano/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6700799322371056 40.43432235224971)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/167692-aparcamiento-mixto-san-cayetano/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43432235224971,
+        "longitude" : -3.6700799322371056
+	  }
+
+    },
+	{
+      "id" : "19053",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19053-aparcamiento-mixto-sanchez-bustillo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Sánchez Bustillo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=27912c798651c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19053-aparcamiento-mixto-sanchez-bustillo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE SANCHEZ BUSTILLO 1"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19053-aparcamiento-mixto-sanchez-bustillo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6940145592988043 40.40917205238472)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19053-aparcamiento-mixto-sanchez-bustillo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40917205238472,
+        "longitude" : -3.6940145592988043
+	  }
+
+    },
+	{
+      "id" : "7416748",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7416748-aparcamiento-mixto-serrano-i",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Serrano I",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bd61f94ae1d15410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7416748-aparcamiento-mixto-serrano-i/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE JUAN BRAVO 4"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7416748-aparcamiento-mixto-serrano-i/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6857697780390155 40.43289700914247)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7416748-aparcamiento-mixto-serrano-i/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43289700914247,
+        "longitude" : -3.6857697780390155
+	  }
+
+    },
+	{
+      "id" : "7417028",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7417028-aparcamiento-mixto-serrano-ii",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Serrano II",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bc096f1c35d15410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7417028-aparcamiento-mixto-serrano-ii/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE JOSE ORTEGA Y GASSET 1"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7417028-aparcamiento-mixto-serrano-ii/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.688281097618061 40.43059379257075)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7417028-aparcamiento-mixto-serrano-ii/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43059379257075,
+        "longitude" : -3.688281097618061
+	  }
+
+    },
+	{
+      "id" : "7417052",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7417052-aparcamiento-mixto-serrano-iii",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Serrano III",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9a1c6f1c35d15410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7417052-aparcamiento-mixto-serrano-iii/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE JORGE JUAN 1"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7417052-aparcamiento-mixto-serrano-iii/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6897747066093993 40.42446775888825)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7417052-aparcamiento-mixto-serrano-iii/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42446775888825,
+        "longitude" : -3.6897747066093993
+	  }
+
+    },
+	{
+      "id" : "13460",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13460-aparcamiento-mixto-sevilla",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Sevilla",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9dd67339ae51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13460-aparcamiento-mixto-sevilla/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALA 17"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13460-aparcamiento-mixto-sevilla/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6998082261071747 40.41780383567921)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13460-aparcamiento-mixto-sevilla/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41780383567921,
+        "longitude" : -3.6998082261071747
+	  }
+
+    },
+	{
+      "id" : "13458",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13458-aparcamiento-mixto-velazquez-ayala",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Velázquez - Ayala",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8bee15cbed51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13458-aparcamiento-mixto-velazquez-ayala/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE VELAZQUEZ 47"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13458-aparcamiento-mixto-velazquez-ayala/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6841676172873936 40.427203787185476)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13458-aparcamiento-mixto-velazquez-ayala/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.427203787185476,
+        "longitude" : -3.6841676172873936
+	  }
+
+    },
+	{
+      "id" : "13457",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13457-aparcamiento-mixto-velazquez-jorge-juan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Velázquez - Jorge Juan",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d11f15cbed51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13457-aparcamiento-mixto-velazquez-jorge-juan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE VELAZQUEZ 25"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13457-aparcamiento-mixto-velazquez-jorge-juan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.684339253399854 40.4243649253884)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13457-aparcamiento-mixto-velazquez-jorge-juan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4243649253884,
+        "longitude" : -3.684339253399854
+	  }
+
+    },
+	{
+      "id" : "183607",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183607-aparcamiento-mixto-verdaguer-garcia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento mixto. Verdaguer y García",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6245bdc85c01c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183607-aparcamiento-mixto-verdaguer-garcia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "CALLE VERDAGUER Y GARCIA 1"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183607-aparcamiento-mixto-verdaguer-garcia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.656505118007155 40.43992277144076)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183607-aparcamiento-mixto-verdaguer-garcia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43992277144076,
+        "longitude" : -3.656505118007155
+	  }
+
+    },
+	{
+      "id" : "10489514",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10489514-aparcamiento-publico-disuasorio-estadio-metropolitano-sur-es-02b",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosPublicos",
+      "title" : "Aparcamiento público disuasorio Estadio Metropolitano Sur ES-02b",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=975b89a80c49e510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10489514-aparcamiento-publico-disuasorio-estadio-metropolitano-sur-es-02b/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "AVENIDA ARCENTALES 37"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10489514-aparcamiento-publico-disuasorio-estadio-metropolitano-sur-es-02b/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.598831 40.434154)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10489514-aparcamiento-publico-disuasorio-estadio-metropolitano-sur-es-02b/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.434154,
+        "longitude" : -3.598831
+	  }
+
+    },
+	{
+      "id" : "13452",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13452-aparcamiento-publico-almagro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosPublicos",
+      "title" : "Aparcamiento público. Almagro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e167339ae51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13452-aparcamiento-publico-almagro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE ALMAGRO 13"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13452-aparcamiento-publico-almagro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6931471299523446 40.43030345785862)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13452-aparcamiento-publico-almagro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43030345785862,
+        "longitude" : -3.6931471299523446
+	  }
+
+    },
+	{
+      "id" : "7393089",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7393089-aparcamiento-publico-auditorio-nacional-musica-principe-vergara",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosPublicos",
+      "title" : "Aparcamiento público. Auditorio Nacional de Música (Príncipe de Vergara)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ed88f25e040c4410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7393089-aparcamiento-publico-auditorio-nacional-musica-principe-vergara/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE CARTAGENA 176"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7393089-aparcamiento-publico-auditorio-nacional-musica-principe-vergara/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6777018495296048 40.44426892073378)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7393089-aparcamiento-publico-auditorio-nacional-musica-principe-vergara/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44426892073378,
+        "longitude" : -3.6777018495296048
+	  }
+
+    },
+	{
+      "id" : "13473",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13473-aparcamiento-publico-descalzas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento público. Descalzas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=98e77339ae51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13473-aparcamiento-publico-descalzas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "PLAZA DESCALZAS 4"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13473-aparcamiento-publico-descalzas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.706306013191402 40.41809765692244)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13473-aparcamiento-publico-descalzas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41809765692244,
+        "longitude" : -3.706306013191402
+	  }
+
+    },
+	{
+      "id" : "24809",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24809-aparcamiento-publico-fernandez-shaw",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosPublicos",
+      "title" : "Aparcamiento público. Fernández Shaw",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e6e6545f951c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24809-aparcamiento-publico-fernandez-shaw/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "CALLE CARLOS Y GUILLERMO FERNANDEZ SHAW "
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24809-aparcamiento-publico-fernandez-shaw/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.669292239090564 40.406002468696784)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24809-aparcamiento-publico-fernandez-shaw/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.406002468696784,
+        "longitude" : -3.669292239090564
+	  }
+
+    },
+	{
+      "id" : "13478",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13478-aparcamiento-publico-glorieta-puerta-toledo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosPublicos",
+      "title" : "Aparcamiento público. Glorieta Puerta de Toledo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5f477339ae51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13478-aparcamiento-publico-glorieta-puerta-toledo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE CAPITAN SALAZAR MARTINEZ 2"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13478-aparcamiento-publico-glorieta-puerta-toledo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7100131737859567 40.40745328367243)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13478-aparcamiento-publico-glorieta-puerta-toledo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40745328367243,
+        "longitude" : -3.7100131737859567
+	  }
+
+    },
+	{
+      "id" : "13467",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13467-aparcamiento-publico-cortes",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosPublicos",
+      "title" : "Aparcamiento público. Las Cortes",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=42c77339ae51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13467-aparcamiento-publico-cortes/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "PLAZA LAS CORTES"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13467-aparcamiento-publico-cortes/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.695367083138702 40.41576756093728)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13467-aparcamiento-publico-cortes/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41576756093728,
+        "longitude" : -3.695367083138702
+	  }
+
+    },
+	{
+      "id" : "13449",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13449-aparcamiento-publico-luna-tudescos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosPublicos",
+      "title" : "Aparcamiento público. Luna - Tudescos",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=54467339ae51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13449-aparcamiento-publico-luna-tudescos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "PLAZA SANTA MARIA SOLEDAD TORRES ACOSTA 2"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13449-aparcamiento-publico-luna-tudescos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.705563118253955 40.4214535549175)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13449-aparcamiento-publico-luna-tudescos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4214535549175,
+        "longitude" : -3.705563118253955
+	  }
+
+    },
+	{
+      "id" : "13469",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13469-aparcamiento-publico-marques-urquijo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosPublicos",
+      "title" : "Aparcamiento público. Marqués de Urquijo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aa667339ae51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13469-aparcamiento-publico-marques-urquijo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE MARQUES DE URQUIJO 27"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13469-aparcamiento-publico-marques-urquijo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.719111078507027 40.42955928333471)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13469-aparcamiento-publico-marques-urquijo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42955928333471,
+        "longitude" : -3.719111078507027
+	  }
+
+    },
+	{
+      "id" : "13465",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13465-aparcamiento-publico-montalban",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento público. Montalbán",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f0967339ae51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13465-aparcamiento-publico-montalban/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE MONTALBAN 4"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13465-aparcamiento-publico-montalban/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.691123387515545 40.41802725000116)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13465-aparcamiento-publico-montalban/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41802725000116,
+        "longitude" : -3.691123387515545
+	  }
+
+    },
+	{
+      "id" : "13451",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13451-aparcamiento-publico-mostenses",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosPublicos",
+      "title" : "Aparcamiento público. Mostenses",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fe0881eb5f51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13451-aparcamiento-publico-mostenses/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE GARCIA MOLINAS 4"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13451-aparcamiento-publico-mostenses/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.708830424647755 40.4227759148193)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13451-aparcamiento-publico-mostenses/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4227759148193,
+        "longitude" : -3.708830424647755
+	  }
+
+    },
+	{
+      "id" : "88141",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/88141-aparcamiento-publico-museo-ciudad",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosPublicos",
+      "title" : "Aparcamiento público. Museo de la Ciudad",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bdc7bdc85c01c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/88141-aparcamiento-publico-museo-ciudad/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PRINCIPE DE VERGARA 134"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/88141-aparcamiento-publico-museo-ciudad/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6782263814004565 40.44366224087455)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/88141-aparcamiento-publico-museo-ciudad/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44366224087455,
+        "longitude" : -3.6782263814004565
+	  }
+
+    },
+	{
+      "id" : "13450",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13450-aparcamiento-publico-olavide",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosPublicos",
+      "title" : "Aparcamiento público. Olavide",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=453881eb5f51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13450-aparcamiento-publico-olavide/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "PLAZA OLAVIDE 17"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13450-aparcamiento-publico-olavide/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7011542013121264 40.43277769820206)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13450-aparcamiento-publico-olavide/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43277769820206,
+        "longitude" : -3.7011542013121264
+	  }
+
+    },
+	{
+      "id" : "13454",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13454-aparcamiento-publico-plaza-colon",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosPublicos",
+      "title" : "Aparcamiento público. Plaza de Colón",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a5777339ae51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13454-aparcamiento-publico-plaza-colon/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE GOYA 2"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13454-aparcamiento-publico-plaza-colon/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6887800207651495 40.42518540300912)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13454-aparcamiento-publico-plaza-colon/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42518540300912,
+        "longitude" : -3.6887800207651495
+	  }
+
+    },
+	{
+      "id" : "13463",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13463-aparcamiento-publico-plaza-espana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosResidentes",
+      "title" : "Aparcamiento público. Plaza de España",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb977339ae51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13463-aparcamiento-publico-plaza-espana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "PLAZA ESPA&Ntilde;A 20"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13463-aparcamiento-publico-plaza-espana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7116577340508523 40.42372251184839)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13463-aparcamiento-publico-plaza-espana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42372251184839,
+        "longitude" : -3.7116577340508523
+	  }
+
+    },
+	{
+      "id" : "13472",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13472-aparcamiento-publico-plaza-carmen",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosPublicos",
+      "title" : "Aparcamiento público. Plaza del Carmen",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8ec881eb5f51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13472-aparcamiento-publico-plaza-carmen/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "PLAZA CARMEN 10"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13472-aparcamiento-publico-plaza-carmen/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.703068586180966 40.41848676016168)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13472-aparcamiento-publico-plaza-carmen/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41848676016168,
+        "longitude" : -3.703068586180966
+	  }
+
+    },
+	{
+      "id" : "13474",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13474-aparcamiento-publico-plaza-rey",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosPublicos",
+      "title" : "Aparcamiento público. Plaza del Rey",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d4f881eb5f51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13474-aparcamiento-publico-plaza-rey/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "PLAZA REY 1"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13474-aparcamiento-publico-plaza-rey/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.69587231093941 40.42018796139455)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13474-aparcamiento-publico-plaza-rey/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42018796139455,
+        "longitude" : -3.69587231093941
+	  }
+
+    },
+	{
+      "id" : "13466",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13466-aparcamiento-publico-plaza-mayor",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosPublicos",
+      "title" : "Aparcamiento público. Plaza Mayor",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b1981eb5f51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13466-aparcamiento-publico-plaza-mayor/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE FELIPE III 11"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13466-aparcamiento-publico-plaza-mayor/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.706895619414367 40.41586882022003)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13466-aparcamiento-publico-plaza-mayor/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41586882022003,
+        "longitude" : -3.706895619414367
+	  }
+
+    },
+	{
+      "id" : "13456",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13456-aparcamiento-publico-santa-ana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosPublicos",
+      "title" : "Aparcamiento público. Santa Ana",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9b5881eb5f51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13456-aparcamiento-publico-santa-ana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "PLAZA SANTA ANA 16"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13456-aparcamiento-publico-santa-ana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.700897645451053 40.41487830605113)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13456-aparcamiento-publico-santa-ana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41487830605113,
+        "longitude" : -3.700897645451053
+	  }
+
+    },
+	{
+      "id" : "13468",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13468-aparcamiento-publico-velazquez-juan-bravo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosPublicos",
+      "title" : "Aparcamiento público. Velázquez - Juan Bravo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e3077339ae51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13468-aparcamiento-publico-velazquez-juan-bravo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE VELAZQUEZ 88"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13468-aparcamiento-publico-velazquez-juan-bravo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.683449815935094 40.431991827319116)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13468-aparcamiento-publico-velazquez-juan-bravo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.431991827319116,
+        "longitude" : -3.683449815935094
+	  }
+
+    },
+	{
+      "id" : "13453",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13453-aparcamiento-publico-villa-paris",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AparcamientosPublicos",
+      "title" : "Aparcamiento público. Villa de París",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=38a881eb5f51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13453-aparcamiento-publico-villa-paris/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE MARQUES DE LA ENSENADA 1"
+	  },
+        "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13453-aparcamiento-publico-villa-paris/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6923416648619947 40.42533530030625)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13453-aparcamiento-publico-villa-paris/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42533530030625,
+        "longitude" : -3.6923416648619947
+	  }
+
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [
+	{
+      "id" : "7805",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7805-centro-turismo-plaza-mayor",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Centro de Turismo Plaza Mayor",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b0a093e5fd61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7805-centro-turismo-plaza-mayor/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "PLAZA MAYOR 27 Casa de la Panadería"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7805-centro-turismo-plaza-mayor/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7074257084323636 40.41583855082183)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7805-centro-turismo-plaza-mayor/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41583855082183,
+        "longitude" : -3.7074257084323636
+	  }
+
+    },
+	{
+      "id" : "5631196",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5631196-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-2-salas-5-6",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid -  Barajas Terminal 2 (Entre salas 5 y 6)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=88dfad2e06ea7210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5631196-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-2-salas-5-6/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "AVENIDA HISPANIDAD Aeropuerto de Barajas. Salas 5 y 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5631196-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-2-salas-5-6/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5859807207200376 40.45188738242834)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5631196-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-2-salas-5-6/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45188738242834,
+        "longitude" : -3.5859807207200376
+	  }
+
+    },
+	{
+      "id" : "178759",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/178759-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-4-sala-10",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid - Barajas Terminal 4 (Sala 10)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8f871c7a2c61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/178759-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-4-sala-10/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "AVENIDA HISPANIDAD Aeropuerto de Barajas. Salas 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/178759-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-4-sala-10/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5859807207200376 40.45188738242834)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/178759-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-4-sala-10/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45188738242834,
+        "longitude" : -3.5859807207200376
+	  }
+
+    },
+	{
+      "id" : "10085167",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085167-punto-informacion-turistica-atocha-junto-al-museo-reina-sofia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Punto de Información Turística. Atocha (junto al museo Reina Sofía)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8321a9a7e3525510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085167-punto-informacion-turistica-atocha-junto-al-museo-reina-sofia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "RONDA ATOCHA 1 junto al museo Reina Sofía"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085167-punto-informacion-turistica-atocha-junto-al-museo-reina-sofia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6941708773769997 40.40718011197082)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085167-punto-informacion-turistica-atocha-junto-al-museo-reina-sofia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40718011197082,
+        "longitude" : -3.6941708773769997
+	  }
+
+    },
+	{
+      "id" : "7050847",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7050847-punto-informacion-turistica-centrocentro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Punto de Información Turística. Centrocentro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=81c63eebd56ff310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7050847-punto-informacion-turistica-centrocentro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "PLAZA CIBELES 1 Palacio de Cibeles"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7050847-punto-informacion-turistica-centrocentro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.692206111679657 40.419011767401095)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7050847-punto-informacion-turistica-centrocentro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.419011767401095,
+        "longitude" : -3.692206111679657
+	  }
+
+    },
+	{
+      "id" : "10085202",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085202-punto-informacion-turistica-estadio-santiago-bernabeu",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Punto de Información Turística. Estadio Santiago Bernabéu",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2da4a9a7e3525510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085202-punto-informacion-turistica-estadio-santiago-bernabeu/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PASEO CASTELLANA 138 junto al Estadio Santiago Bernabéu"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085202-punto-informacion-turistica-estadio-santiago-bernabeu/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.69008606793658 40.451465916355055)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085202-punto-informacion-turistica-estadio-santiago-bernabeu/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.451465916355055,
+        "longitude" : -3.69008606793658
+	  }
+
+    },
+	{
+      "id" : "10085398",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085398-punto-informacion-turistica-paseo-prado",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Punto de Información Turística. Paseo del Prado",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1f6bdae9bb525510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085398-punto-informacion-turistica-paseo-prado/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "PLAZA NEPTUNO 1 FRENTE AL MUSEO DEL PRADO"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085398-punto-informacion-turistica-paseo-prado/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.692184322678944 40.41688576337496)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085398-punto-informacion-turistica-paseo-prado/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41688576337496,
+        "longitude" : -3.692184322678944
+	  }
+
+    },
+	{
+      "id" : "171082",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171082-punto-informacion-turistica-plaza-callao",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Punto de Información Turística. Plaza de Callao",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=acf029ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171082-punto-informacion-turistica-plaza-callao/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "PLAZA CALLAO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171082-punto-informacion-turistica-plaza-callao/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7061346665078845 40.41974735763767)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171082-punto-informacion-turistica-plaza-callao/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41974735763767,
+        "longitude" : -3.7061346665078845
+	  }
+
+    },
+	{
+      "id" : "4629416",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4629416-punto-informacion-turistica-recoletos-colon",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Punto de Información Turística. Recoletos-Colón",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d4f94e40c7294110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4629416-punto-informacion-turistica-recoletos-colon/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "PASEO RECOLETOS 23"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4629416-punto-informacion-turistica-recoletos-colon/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6921839265043257 40.422597498148065)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4629416-punto-informacion-turistica-recoletos-colon/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.422597498148065,
+        "longitude" : -3.6921839265043257
+	  }
+
+    }
+  ]
+}

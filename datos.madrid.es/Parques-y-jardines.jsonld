@@ -1,0 +1,2513 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "6070995",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6070995-jardines-gregorio-ordonez",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines Gregorio Ordóñez",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2fba3c8f758ff210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6070995-jardines-gregorio-ordonez/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE PRINCIPE DE VERGARA 68"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6070995-jardines-gregorio-ordonez/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6785954778654113 40.43346186779773)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6070995-jardines-gregorio-ordonez/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43346186779773,
+        "longitude" : -3.6785954778654113
+	  }
+
+    },
+	{
+      "id" : "5964519",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964519-jardines-calles-raimundo-fernandez-villaverde-ponzano-maudes",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines calles Raimundo Fernández Villaverde, Ponzano y Maudes",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a1c51eadb333e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964519-jardines-calles-raimundo-fernandez-villaverde-ponzano-maudes/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE RAIMUNDO FERNANDEZ VILLAVERDE 32"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964519-jardines-calles-raimundo-fernandez-villaverde-ponzano-maudes/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6989699295578347 40.44613326792272)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964519-jardines-calles-raimundo-fernandez-villaverde-ponzano-maudes/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44613326792272,
+        "longitude" : -3.6989699295578347
+	  }
+
+    },
+	{
+      "id" : "5896013",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5896013-jardines-buen-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines/ParquesHistoricos",
+      "title" : "Jardines de El Buen Retiro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=499561945d9ec210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5896013-jardines-buen-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "PLAZA INDEPENDENCIA 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5896013-jardines-buen-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.68793370943788 40.41964087412762)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5896013-jardines-buen-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41964087412762,
+        "longitude" : -3.68793370943788
+	  }
+
+    },
+	{
+      "id" : "5979527",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5979527-jardines-jose-luis-jimenez-manso",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines de José Luis Jiménez Manso",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6b4d31811a17e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5979527-jardines-jose-luis-jimenez-manso/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE CAMINO DE LOS VINATEROS 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5979527-jardines-jose-luis-jimenez-manso/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.660501733743551 40.410944943237865)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5979527-jardines-jose-luis-jimenez-manso/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.410944943237865,
+        "longitude" : -3.660501733743551
+	  }
+
+    },
+	{
+      "id" : "5965620",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965620-jardines-peron",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines de Perón",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=73f370530083e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965620-jardines-peron/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "AVENIDA GENERAL PERON 21"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965620-jardines-peron/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6957817548357257 40.45257591499544)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965620-jardines-peron/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45257591499544,
+        "longitude" : -3.6957817548357257
+	  }
+
+    },
+	{
+      "id" : "6010175",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010175-jardines-sabatini",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines de Sabatini",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=20baf389ed2ee210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010175-jardines-sabatini/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE BAILEN 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010175-jardines-sabatini/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.713185308888602 40.419911287101144)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010175-jardines-sabatini/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.419911287101144,
+        "longitude" : -3.713185308888602
+	  }
+
+    },
+	{
+      "id" : "5965246",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965246-jardines-san-fernando",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines de San Fernando",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9e6e121dcd33e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965246-jardines-san-fernando/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28036",
+		"street-address" : "AVENIDA ALBERTO ALCOCER 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965246-jardines-san-fernando/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.687352342212426 40.45978849094378)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965246-jardines-san-fernando/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45978849094378,
+        "longitude" : -3.687352342212426
+	  }
+
+    },
+	{
+      "id" : "5965719",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965719-jardines-avenida-brasil",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines de la Avenida de Brasil",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d398680e2383e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965719-jardines-avenida-brasil/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "AVENIDA BRASIL 31"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965719-jardines-avenida-brasil/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6934625569379387 40.458706953002235)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965719-jardines-avenida-brasil/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.458706953002235,
+        "longitude" : -3.6934625569379387
+	  }
+
+    },
+	{
+      "id" : "5965967",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965967-jardines-basilica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines de la Basílica",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=58df433bf683e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965967-jardines-basilica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE BASILICA 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965967-jardines-basilica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.695615530710886 40.44903638127448)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965967-jardines-basilica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44903638127448,
+        "longitude" : -3.695615530710886
+	  }
+
+    },
+	{
+      "id" : "5964911",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964911-jardines-plaza-conde-valle-suchil",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines de la Plaza Conde del Valle de Suchil",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7c3042197833e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964911-jardines-plaza-conde-valle-suchil/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE RODRIGUEZ SAN PEDRO 3 B"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964911-jardines-plaza-conde-valle-suchil/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7064685006782208 40.43137597367309)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964911-jardines-plaza-conde-valle-suchil/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43137597367309,
+        "longitude" : -3.7064685006782208
+	  }
+
+    },
+	{
+      "id" : "5963489",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5963489-jardines-plaza-chamberi",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines de la Plaza de Chamberí",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d3d6ee4002e2e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5963489-jardines-plaza-chamberi/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "PLAZA CHAMBERI 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5963489-jardines-plaza-chamberi/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.697594475998512 40.43285328749453)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5963489-jardines-plaza-chamberi/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43285328749453,
+        "longitude" : -3.697594475998512
+	  }
+
+    },
+	{
+      "id" : "5963151",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5963151-jardines-plaza-olavide",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines de la Plaza de Olavide",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=091b882aacd2e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5963151-jardines-plaza-olavide/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "PLAZA OLAVIDE 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5963151-jardines-plaza-olavide/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7007855621824293 40.43247362678542)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5963151-jardines-plaza-olavide/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43247362678542,
+        "longitude" : -3.7007855621824293
+	  }
+
+    },
+	{
+      "id" : "6010975",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010975-jardines-plaza-oriente-lepanto-cabo-noval",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines de la Plaza de Oriente, Lepanto y Cabo Noval",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5089e51ecd6ee210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010975-jardines-plaza-oriente-lepanto-cabo-noval/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE BAILEN 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010975-jardines-plaza-oriente-lepanto-cabo-noval/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.712838830603048 40.41835486065351)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010975-jardines-plaza-oriente-lepanto-cabo-noval/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41835486065351,
+        "longitude" : -3.712838830603048
+	  }
+
+    },
+	{
+      "id" : "6067949",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6067949-jardines-plaza-villa-paris",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines de la Plaza de la Villa de París",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1e069432ff3ef210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6067949-jardines-plaza-villa-paris/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE GENERAL CASTAÑOS 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6067949-jardines-plaza-villa-paris/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6934468983675846 40.42620255233654)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6067949-jardines-plaza-villa-paris/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42620255233654,
+        "longitude" : -3.6934468983675846
+	  }
+
+    },
+	{
+      "id" : "6009972",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6009972-jardines-vega",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines de la Vega",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=44ed25154c2ee210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6009972-jardines-vega/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CUESTA VEGA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6009972-jardines-vega/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7154411142835397 40.41476219795408)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6009972-jardines-vega/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41476219795408,
+        "longitude" : -3.7154411142835397
+	  }
+
+    },
+	{
+      "id" : "5990847",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5990847-jardines-calle-teresita-gonzalez-quevedo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines de la calle Teresita González Quevedo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5a4e4eff905ae210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5990847-jardines-calle-teresita-gonzalez-quevedo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "PLAZA SAN AMARO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5990847-jardines-calle-teresita-gonzalez-quevedo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6970275649098454 40.45558642017734)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5990847-jardines-calle-teresita-gonzalez-quevedo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45558642017734,
+        "longitude" : -3.6970275649098454
+	  }
+
+    },
+	{
+      "id" : "6011090",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6011090-jardines-vistillas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines de las Vistillas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ff7261226f6ee210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6011090-jardines-vistillas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE MORERIA 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6011090-jardines-vistillas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7143597156687056 40.41281392212301)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6011090-jardines-vistillas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41281392212301,
+        "longitude" : -3.7143597156687056
+	  }
+
+    },
+	{
+      "id" : "6011574",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6011574-jardines-arquitecto-ribera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines del Arquitecto Ribera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7c696da6957ee210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6011574-jardines-arquitecto-ribera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE BARCELO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6011574-jardines-arquitecto-ribera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7002981748621955 40.42640449792336)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6011574-jardines-arquitecto-ribera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42640449792336,
+        "longitude" : -3.7002981748621955
+	  }
+
+    },
+	{
+      "id" : "6010463",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010463-jardines-descubrimiento",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines del Descubrimiento",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=185afce3b03ee210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010463-jardines-descubrimiento/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE GOYA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010463-jardines-descubrimiento/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6887800207651495 40.42518540300912)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010463-jardines-descubrimiento/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42518540300912,
+        "longitude" : -3.6887800207651495
+	  }
+
+    },
+	{
+      "id" : "6076087",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6076087-jardines-doctor-fleming",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines del Doctor Fleming",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b8a6a4e95e700310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6076087-jardines-doctor-fleming/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28036",
+		"street-address" : "CALLE DOCTOR FLEMING 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6076087-jardines-doctor-fleming/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6893863385035783 40.45454215758879)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6076087-jardines-doctor-fleming/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45454215758879,
+        "longitude" : -3.6893863385035783
+	  }
+
+    },
+	{
+      "id" : "5965543",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965543-jardines-mundial-castellana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines del Mundial. Castellana",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f87202f3ad73e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965543-jardines-mundial-castellana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PASEO CASTELLANA 142 B"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965543-jardines-mundial-castellana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6893833082867062 40.4530917282714)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965543-jardines-mundial-castellana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4530917282714,
+        "longitude" : -3.6893833082867062
+	  }
+
+    },
+	{
+      "id" : "6011769",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6011769-jardines-principe-anglona",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardines del Príncipe de Anglona",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8019ed1da87ee210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6011769-jardines-principe-anglona/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "PLAZA PAJA 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6011769-jardines-principe-anglona/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.711466649831885 40.413417349090764)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6011769-jardines-principe-anglona/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.413417349090764,
+        "longitude" : -3.711466649831885
+	  }
+
+    },
+	{
+      "id" : "6081387",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6081387-jardin-botanico-pradolongo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines/ColeccionesBotanicas",
+      "title" : "Jardín Botánico de Pradolongo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f8ed0cb2b5120310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6081387-jardin-botanico-pradolongo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "AVENIDA RAFAELA YBARRA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6081387-jardin-botanico-pradolongo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.712180056298639 40.373745996607155)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6081387-jardin-botanico-pradolongo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.373745996607155,
+        "longitude" : -3.712180056298639
+	  }
+
+    },
+	{
+      "id" : "5962990",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5962990-jardin-concejal-alejandro-munoz-revenga",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardín Concejal Alejandro Muñoz Revenga",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=724bdcbc2ad2e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5962990-jardin-concejal-alejandro-munoz-revenga/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE MELENDEZ VALDES 32"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5962990-jardin-concejal-alejandro-munoz-revenga/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.712227582685096 40.43304334055123)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5962990-jardin-concejal-alejandro-munoz-revenga/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43304334055123,
+        "longitude" : -3.712227582685096
+	  }
+
+    },
+	{
+      "id" : "5983740",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5983740-jardin-dionisio-ridruejo-parque-martala",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardín Dionisio Ridruejo (Parque de Martala)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f6719706b5f8e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5983740-jardin-dionisio-ridruejo-parque-martala/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "AVENIDA MORATALAZ 183"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5983740-jardin-dionisio-ridruejo-parque-martala/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.643898652734279 40.40882236801765)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5983740-jardin-dionisio-ridruejo-parque-martala/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40882236801765,
+        "longitude" : -3.643898652734279
+	  }
+
+    },
+	{
+      "id" : "5964859",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964859-jardin-dona-concha-piquer",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardín Doña Concha Piquer",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3181025c5733e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964859-jardin-dona-concha-piquer/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "PASEO IMPERIAL 93"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964859-jardin-dona-concha-piquer/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.714965086287463 40.402080397498985)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964859-jardin-dona-concha-piquer/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.402080397498985,
+        "longitude" : -3.714965086287463
+	  }
+
+    },
+	{
+      "id" : "5964601",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964601-jardin-fachada-piramides-i",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardín Fachada Pirámides I",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f5e35c528233e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964601-jardin-fachada-piramides-i/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "PASEO ACACIAS 60"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964601-jardin-fachada-piramides-i/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.713132255123738 40.40148810908036)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964601-jardin-fachada-piramides-i/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40148810908036,
+        "longitude" : -3.713132255123738
+	  }
+
+    },
+	{
+      "id" : "5986859",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5986859-jardin-historico-capricho-alameda-osuna",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines/ParquesHistoricos",
+      "title" : "Jardín Histórico El Capricho de la Alameda Osuna",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9db6fb010e99e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5986859-jardin-historico-capricho-alameda-osuna/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "PASEO ALAMEDA DE OSUNA 25"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5986859-jardin-historico-capricho-alameda-osuna/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6000964360303476 40.45446361509569)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5986859-jardin-historico-capricho-alameda-osuna/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45446361509569,
+        "longitude" : -3.6000964360303476
+	  }
+
+    },
+	{
+      "id" : "5994445",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5994445-jardin-jazmin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardín Jazmín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cae5e8d9af8be210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5994445-jardin-jazmin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE ROQUETAS DE MAR 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5994445-jardin-jazmin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.660098332215654 40.481785094079584)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5994445-jardin-jazmin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.481785094079584,
+        "longitude" : -3.660098332215654
+	  }
+
+    },
+	{
+      "id" : "6010978",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010978-jardin-palacio-reilly",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardín Palacio O'Reilly",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=28dec79b4a5ee210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010978-jardin-palacio-reilly/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "PLAZA CRUZ VERDE 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010978-jardin-palacio-reilly/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7118283820550775 40.41418990040181)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010978-jardin-palacio-reilly/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41418990040181,
+        "longitude" : -3.7118283820550775
+	  }
+
+    },
+	{
+      "id" : "5963709",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5963709-jardin-embajadores-m-30-madronos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardín de Embajadores M-30 (Madroños)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4edc357e87e2e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5963709-jardin-embajadores-m-30-madronos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE PUERTO DE LA CRUZ VERDE 29"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5963709-jardin-embajadores-m-30-madronos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.685817452497564 40.38418473435094)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5963709-jardin-embajadores-m-30-madronos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38418473435094,
+        "longitude" : -3.685817452497564
+	  }
+
+    },
+	{
+      "id" : "6011067",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6011067-jardin-larra",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardín de Larra",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=04de61226f6ee210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6011067-jardin-larra/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE FACTOR 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6011067-jardin-larra/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.712793771176405 40.41631909566782)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6011067-jardin-larra/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41631909566782,
+        "longitude" : -3.712793771176405
+	  }
+
+    },
+	{
+      "id" : "5967788",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5967788-jardin-bellas-artes-jardin-museo-nacional-ciencias-naturales",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardín de las Bellas Artes (Jardín Museo Nacional de Ciencias Naturales)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1777c5ab4774e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5967788-jardin-bellas-artes-jardin-museo-nacional-ciencias-naturales/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PASEO CASTELLANA 78 B"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5967788-jardin-bellas-artes-jardin-museo-nacional-ciencias-naturales/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6905481652485355 40.4390037057741)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5967788-jardin-bellas-artes-jardin-museo-nacional-ciencias-naturales/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4390037057741,
+        "longitude" : -3.6905481652485355
+	  }
+
+    },
+	{
+      "id" : "5978923",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5978923-jardin-bulevar-pena-gorbea",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardín del Bulevar de Peña Gorbea",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1aaf38317117e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5978923-jardin-bulevar-pena-gorbea/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE PEÑA GORBEA 17 B"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5978923-jardin-bulevar-pena-gorbea/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6670346724676173 40.3957812018463)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5978923-jardin-bulevar-pena-gorbea/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3957812018463,
+        "longitude" : -3.6670346724676173
+	  }
+
+    },
+	{
+      "id" : "5964328",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964328-jardin-maestro-padilla",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardín del Maestro Padilla",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=40538ced5a23e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964328-jardin-maestro-padilla/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE SAN ALEJANDRO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964328-jardin-maestro-padilla/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7213308239798675 40.404491323444994)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5964328-jardin-maestro-padilla/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.404491323444994,
+        "longitude" : -3.7213308239798675
+	  }
+
+    },
+	{
+      "id" : "5981891",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981891-jardin-templo-debod",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardín del Templo de Debod",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c9c8f88faab7e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981891-jardin-templo-debod/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE FERRAZ 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981891-jardin-templo-debod/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.716531855540272 40.42425096551599)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981891-jardin-templo-debod/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42425096551599,
+        "longitude" : -3.716531855540272
+	  }
+
+    },
+	{
+      "id" : "5981149",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981149-jardin-torero",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Jardín el Torero",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee1a6a14ec67e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981149-jardin-torero/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE TORERO 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981149-jardin-torero/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7056345651289417 40.39218269145896)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981149-jardin-torero/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39218269145896,
+        "longitude" : -3.7056345651289417
+	  }
+
+    },
+	{
+      "id" : "1984",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1984-pabellon-jardines-cecilio-rodriguez",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Pabellón de los Jardines de Cecilio Rodríguez",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0d8def4d7f71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1984-pabellon-jardines-cecilio-rodriguez/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "PASEO URUGUAY  Entrada por la Puerta de Granada, frente a Avda. de Menéndez Pelayo, 67"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1984-pabellon-jardines-cecilio-rodriguez/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.676499075231239 40.41250110617827)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1984-pabellon-jardines-cecilio-rodriguez/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41250110617827,
+        "longitude" : -3.676499075231239
+	  }
+
+    },
+	{
+      "id" : "6004296",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6004296-palacio-cristal-arganzuela-invernadero",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines/ColeccionesBotanicas",
+      "title" : "Palacio de Cristal de la Arganzuela (Invernadero)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7d855cf8438de210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6004296-palacio-cristal-arganzuela-invernadero/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PASEO CHOPERA 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6004296-palacio-cristal-arganzuela-invernadero/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.698565632659468 40.3933877847248)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6004296-palacio-cristal-arganzuela-invernadero/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3933877847248,
+        "longitude" : -3.698565632659468
+	  }
+
+    },
+	{
+      "id" : "5966148",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5966148-parque-agustin-rodriguez-sahagun",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Agustín Rodríguez Sahagún",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a7a655b6e783e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5966148-parque-agustin-rodriguez-sahagun/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "PASEO DIRECCION 301"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5966148-parque-agustin-rodriguez-sahagun/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7038792453996385 40.47022952429582)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5966148-parque-agustin-rodriguez-sahagun/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47022952429582,
+        "longitude" : -3.7038792453996385
+	  }
+
+    },
+	{
+      "id" : "10289409",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10289409-parque-alfredo-kraus",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Alfredo Kraus",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=14a8d36de4cca510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10289409-parque-alfredo-kraus/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE MAR ADRIATICO 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10289409-parque-alfredo-kraus/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6393251567222045 40.47098300036034)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10289409-parque-alfredo-kraus/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47098300036034,
+        "longitude" : -3.6393251567222045
+	  }
+
+    },
+	{
+      "id" : "5993604",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5993604-parque-almansa",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Almansa",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=667c1544198be210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5993604-parque-almansa/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28040",
+		"street-address" : "CALLE ALMANSA 97"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5993604-parque-almansa/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7133420888843105 40.449252672650985)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5993604-parque-almansa/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.449252672650985,
+        "longitude" : -3.7133420888843105
+	  }
+
+    },
+	{
+      "id" : "5984172",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5984172-parque-aluche",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Aluche",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c5b4abb9e009e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5984172-parque-aluche/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28024",
+		"street-address" : "CALLE TEMBLEQUE 45"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5984172-parque-aluche/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7592814565910553 40.394320359418835)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5984172-parque-aluche/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.394320359418835,
+        "longitude" : -3.7592814565910553
+	  }
+
+    },
+	{
+      "id" : "5986186",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5986186-parque-aluche-poblados",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Aluche - Poblados",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f96136c32a59e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5986186-parque-aluche-poblados/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE GUAREÑA 22"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5986186-parque-aluche-poblados/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.765190215590101 40.38543450752234)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5986186-parque-aluche-poblados/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38543450752234,
+        "longitude" : -3.765190215590101
+	  }
+
+    },
+	{
+      "id" : "5981072",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981072-parque-alzola",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Alzola",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=82a58b930b67e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981072-parque-alzola/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE BEASAIN 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981072-parque-alzola/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7136655626692887 40.36716919688689)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981072-parque-alzola/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.36716919688689,
+        "longitude" : -3.7136655626692887
+	  }
+
+    },
+	{
+      "id" : "5994520",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5994520-parque-antonio-pirala",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Antonio Pirala",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d77f1a2a419be210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5994520-parque-antonio-pirala/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "CALLE ANTONIO PIRALA 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5994520-parque-antonio-pirala/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.659649292346212 40.428652595625735)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5994520-parque-antonio-pirala/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.428652595625735,
+        "longitude" : -3.659649292346212
+	  }
+
+    },
+	{
+      "id" : "5962985",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5962985-parque-anunciacion",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Anunciación",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=18f52d0109d2e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5962985-parque-anunciacion/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "CALLE ANUNCIACION 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5962985-parque-anunciacion/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.67583331713166 40.41192841997151)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5962985-parque-anunciacion/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41192841997151,
+        "longitude" : -3.67583331713166
+	  }
+
+    },
+	{
+      "id" : "5985636",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5985636-parque-arquitecto-antonio-palacios",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Arquitecto Antonio Palacios",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a4e39f4e0f49e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5985636-parque-arquitecto-antonio-palacios/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE FENELON 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5985636-parque-arquitecto-antonio-palacios/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6087501533089923 40.43847239256322)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5985636-parque-arquitecto-antonio-palacios/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43847239256322,
+        "longitude" : -3.6087501533089923
+	  }
+
+    },
+	{
+      "id" : "5979932",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5979932-parque-arroyo-fontarron",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Arroyo Fontarrón",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=38c946a92b57e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5979932-parque-arroyo-fontarron/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE ARROYO FONTARRON 22"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5979932-parque-arroyo-fontarron/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6361646051817518 40.39476596114844)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5979932-parque-arroyo-fontarron/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39476596114844,
+        "longitude" : -3.6361646051817518
+	  }
+
+    },
+	{
+      "id" : "5993155",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5993155-parque-arroyo-fresno",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Arroyo Fresno",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=915fc8c5494be210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5993155-parque-arroyo-fresno/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "AVENIDA VENTISQUERO DE LA CONDESA 43"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5993155-parque-arroyo-fresno/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7169069720385446 40.49284296962057)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5993155-parque-arroyo-fresno/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.49284296962057,
+        "longitude" : -3.7169069720385446
+	  }
+
+    },
+	{
+      "id" : "5992721",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5992721-parque-arroyo-pinos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Arroyo de los Pinos",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3b97545fb44be210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5992721-parque-arroyo-pinos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "CALLE JOAQUIN LORENZO 21"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5992721-parque-arroyo-pinos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7241915440169024 40.47343735166941)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5992721-parque-arroyo-pinos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47343735166941,
+        "longitude" : -3.7241915440169024
+	  }
+
+    },
+	{
+      "id" : "5982306",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5982306-parque-avenida-portugal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Avenida de Portugal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4838d459b008e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5982306-parque-avenida-portugal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "AUTOVIA A-5 300"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5982306-parque-avenida-portugal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7356620312409365 40.41214880704316)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5982306-parque-avenida-portugal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41214880704316,
+        "longitude" : -3.7356620312409365
+	  }
+
+    },
+	{
+      "id" : "5977882",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5977882-parque-azorin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Azorín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dcdc36e498c6e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5977882-parque-azorin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "AVENIDA ALBUFERA 142"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5977882-parque-azorin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6545377410677498 40.39144717132174)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5977882-parque-azorin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39144717132174,
+        "longitude" : -3.6545377410677498
+	  }
+
+    },
+	{
+      "id" : "5983153",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5983153-parque-barrio-musas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Barrio Las Musas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bf326ca7fd08e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5983153-parque-barrio-musas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "AVENIDA NIZA 55 B"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5983153-parque-barrio-musas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.607628369908832 40.43173953068984)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5983153-parque-barrio-musas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43173953068984,
+        "longitude" : -3.607628369908832
+	  }
+
+    },
+	{
+      "id" : "6064773",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6064773-parque-begona",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Begoña",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8b240b11e59df210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6064773-parque-begona/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE SAN MODESTO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6064773-parque-begona/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.687220746230517 40.48390626699566)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6064773-parque-begona/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48390626699566,
+        "longitude" : -3.687220746230517
+	  }
+
+    },
+	{
+      "id" : "5991086",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991086-parque-biosaludable",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Biosaludable",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4cefff6b235ae210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991086-parque-biosaludable/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "PASEO ALAMEDA DE OSUNA 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991086-parque-biosaludable/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6036483614197765 40.452057731817305)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991086-parque-biosaludable/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.452057731817305,
+        "longitude" : -3.6036483614197765
+	  }
+
+    },
+	{
+      "id" : "5995307",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5995307-parque-camino-vasares",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Camino de Vasares",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b0c8b404aa9be210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5995307-parque-camino-vasares/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CAMINO VASARES 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5995307-parque-camino-vasares/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.617866520556781 40.38328847671297)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5995307-parque-camino-vasares/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38328847671297,
+        "longitude" : -3.617866520556781
+	  }
+
+    },
+	{
+      "id" : "5977653",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5977653-parque-campo-paloma",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Campo de la Paloma",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9dfae2fa26c6e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5977653-parque-campo-paloma/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "AVENIDA RAFAEL ALBERTI 38"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5977653-parque-campo-paloma/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.643762543356842 40.38339946706653)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5977653-parque-campo-paloma/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38339946706653,
+        "longitude" : -3.643762543356842
+	  }
+
+    },
+	{
+      "id" : "5982718",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5982718-parque-cerro-almodovar",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Cerro Almodóvar",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0568fda02908e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5982718-parque-cerro-almodovar/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE MARCELINO CASTILLO 29"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5982718-parque-cerro-almodovar/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.744713323980896 40.393928614376)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5982718-parque-cerro-almodovar/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.393928614376,
+        "longitude" : -3.744713323980896
+	  }
+
+    },
+	{
+      "id" : "5995330",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5995330-parque-cerro-penabel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Cerro Peñabel",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4ffeb404aa9be210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5995330-parque-cerro-penabel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "CALLE CANDIDO MATEOS 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5995330-parque-cerro-penabel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.718181785566969 40.47406043289477)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5995330-parque-cerro-penabel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47406043289477,
+        "longitude" : -3.718181785566969
+	  }
+
+    },
+	{
+      "id" : "5978133",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5978133-parque-cerro-tio-pio",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Cerro del Tío Pío",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=956bf5edd607e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5978133-parque-cerro-tio-pio/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CALLE BENJAMIN PALENCIA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5978133-parque-cerro-tio-pio/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.655239797848888 40.39701982315709)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5978133-parque-cerro-tio-pio/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39701982315709,
+        "longitude" : -3.655239797848888
+	  }
+
+    },
+	{
+      "id" : "5991635",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991635-parque-cerro-aguila",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Cerro Águila",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=129b315b7b3be210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991635-parque-cerro-aguila/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28023",
+		"street-address" : "CAMINO CERRO DEL AGUILA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991635-parque-cerro-aguila/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.761757187185669 40.45190771190827)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991635-parque-cerro-aguila/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45190771190827,
+        "longitude" : -3.761757187185669
+	  }
+
+    },
+	{
+      "id" : "5979417",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5979417-parque-ciudad-angeles",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Ciudad de los Ángeles",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ca515ce64717e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5979417-parque-ciudad-angeles/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE ANOETA 14 B"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5979417-parque-ciudad-angeles/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6963807727286353 40.352850949880235)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5979417-parque-ciudad-angeles/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.352850949880235,
+        "longitude" : -3.6963807727286353
+	  }
+
+    },
+	{
+      "id" : "5991699",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991699-parque-cuesta-galban",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Cuesta del Galbán",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c37e65ba3d3be210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991699-parque-cuesta-galban/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28023",
+		"street-address" : "CUESTA GALBAN 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991699-parque-cuesta-galban/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.768070614824996 40.45019927443574)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991699-parque-cuesta-galban/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45019927443574,
+        "longitude" : -3.768070614824996
+	  }
+
+    },
+	{
+      "id" : "6457169",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6457169-parque-cuna-verde-vicalvaro-zona-a",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Cuña Verde de Vicálvaro. Zona A",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=402f9191ce6b7310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6457169-parque-cuna-verde-vicalvaro-zona-a/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "AVENIDA DAROCA 300"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6457169-parque-cuna-verde-vicalvaro-zona-a/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.618025439807104 40.40969329689759)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6457169-parque-cuna-verde-vicalvaro-zona-a/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40969329689759,
+        "longitude" : -3.618025439807104
+	  }
+
+    },
+	{
+      "id" : "5984224",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5984224-parque-cuna-verde-vicalvaro-zona-b",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Cuña Verde de Vicálvaro. Zona B",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2030b8c8d109e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5984224-parque-cuna-verde-vicalvaro-zona-b/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "AVENIDA DAROCA 299"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5984224-parque-cuna-verde-vicalvaro-zona-b/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.616890442862423 40.40930295868704)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5984224-parque-cuna-verde-vicalvaro-zona-b/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40930295868704,
+        "longitude" : -3.616890442862423
+	  }
+
+    },
+	{
+      "id" : "6010361",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010361-parque-dalieda-san-francisco",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines/ColeccionesBotanicas",
+      "title" : "Parque Dalieda de San Francisco",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ffe7a3575e2ee210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010361-parque-dalieda-san-francisco/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "AVENIDA GRAN VIA DE SAN FRANCISCO 29"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010361-parque-dalieda-san-francisco/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7121666160537057 40.40714274084601)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6010361-parque-dalieda-san-francisco/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40714274084601,
+        "longitude" : -3.7121666160537057
+	  }
+
+    },
+	{
+      "id" : "5982087",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5982087-parque-dehesa-villa",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines/ParquesHistoricos",
+      "title" : "Parque Dehesa de la Villa",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c2e013a90fb7e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5982087-parque-dehesa-villa/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28040",
+		"street-address" : "CARRETERA DEHESA DE LA VILLA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5982087-parque-dehesa-villa/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7207253118064827 40.45817981904011)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5982087-parque-dehesa-villa/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45817981904011,
+        "longitude" : -3.7207253118064827
+	  }
+
+    },
+	{
+      "id" : "5987289",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5987289-parque-duque-ahumada",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Duque de Ahumada",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9445ff7fa5a9e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5987289-parque-duque-ahumada/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "CALLE LAGO VAN 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5987289-parque-duque-ahumada/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6062315414157613 40.4048457851104)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5987289-parque-duque-ahumada/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4048457851104,
+        "longitude" : -3.6062315414157613
+	  }
+
+    },
+	{
+      "id" : "5994901",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5994901-parque-calero",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque El Calero",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ba9545b9b59be210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5994901-parque-calero/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "CALLE JOSE DEL HIERRO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5994901-parque-calero/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6519351470803567 40.43555222953495)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5994901-parque-calero/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43555222953495,
+        "longitude" : -3.6519351470803567
+	  }
+
+    },
+	{
+      "id" : "5995399",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5995399-parque-cedral",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque El Cedral",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=505093e51b9be210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5995399-parque-cedral/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE ARTURO SORIA 233"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5995399-parque-cedral/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6650441004626564 40.462882951414265)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5995399-parque-cedral/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.462882951414265,
+        "longitude" : -3.6650441004626564
+	  }
+
+    },
+	{
+      "id" : "5981476",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981476-parque-cruce",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque El Cruce",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=03ff24622fa7e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981476-parque-cruce/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE ALCOCER 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981476-parque-cruce/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6944891243298597 40.350970403692386)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981476-parque-cruce/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.350970403692386,
+        "longitude" : -3.6944891243298597
+	  }
+
+    },
+	{
+      "id" : "6012426",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6012426-parque-emir-mohamed-i",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Emir Mohamed I",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6671a26fbf7ee210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6012426-parque-emir-mohamed-i/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CUESTA RAMON 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6012426-parque-emir-mohamed-i/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7147888896558188 40.41438785232736)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6012426-parque-emir-mohamed-i/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41438785232736,
+        "longitude" : -3.7147888896558188
+	  }
+
+    },
+	{
+      "id" : "5991419",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991419-parque-emperatriz-maria-austria",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Emperatriz María de Austria",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=57fc4fc4583be210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991419-parque-emperatriz-maria-austria/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE VIA LUSITANA 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991419-parque-emperatriz-maria-austria/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7227552919050586 40.382311100280766)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991419-parque-emperatriz-maria-austria/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.382311100280766,
+        "longitude" : -3.7227552919050586
+	  }
+
+    },
+	{
+      "id" : "5965783",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965783-parque-enrique-tierno-galvan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Enrique Tierno Galván",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e09f680e2383e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965783-parque-enrique-tierno-galvan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE MENESES 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965783-parque-enrique-tierno-galvan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.681620654746187 40.39210151448589)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5965783-parque-enrique-tierno-galvan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39210151448589,
+        "longitude" : -3.681620654746187
+	  }
+
+    },
+	{
+      "id" : "5979033",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5979033-parque-entrevias-forestal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Entrevías Forestal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5be77fb92217e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5979033-parque-entrevias-forestal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE EMBAJADORES 251"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5979033-parque-entrevias-forestal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6670181171393064 40.36782603611024)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5979033-parque-entrevias-forestal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.36782603611024,
+        "longitude" : -3.6670181171393064
+	  }
+
+    },
+	{
+      "id" : "5978478",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5978478-parque-entrevias-urbano",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Entrevías Urbano",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0190f1d80c07e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5978478-parque-entrevias-urbano/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "RONDA SUR 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5978478-parque-entrevias-urbano/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6698091602059613 40.37253969509114)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5978478-parque-entrevias-urbano/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37253969509114,
+        "longitude" : -3.6698091602059613
+	  }
+
+    },
+	{
+      "id" : "5986948",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5986948-parque-este-valdebernardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Este de Valdebernardo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ef74c9728e99e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5986948-parque-este-valdebernardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "AVENIDA DEMOCRACIA 25"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5986948-parque-este-valdebernardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6183833916362733 40.393429973468265)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5986948-parque-este-valdebernardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.393429973468265,
+        "longitude" : -3.6183833916362733
+	  }
+
+    },
+	{
+      "id" : "5991581",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991581-parque-eugenia-montijo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Eugenia de Montijo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4d86dd17d93be210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991581-parque-eugenia-montijo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE PARQUE EUGENIA DE MONTIJO 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991581-parque-eugenia-montijo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7527174453988774 40.37942623334737)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5991581-parque-eugenia-montijo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37942623334737,
+        "longitude" : -3.7527174453988774
+	  }
+
+    },
+	{
+      "id" : "6009920",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6009920-parque-eva-duarte",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Eva Duarte",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a55f223d4b2ee210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6009920-parque-eva-duarte/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE DOCTOR GOMEZ ULLA 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6009920-parque-eva-duarte/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.668031432543624 40.42985671996897)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6009920-parque-eva-duarte/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42985671996897,
+        "longitude" : -3.668031432543624
+	  }
+
+    },
+	{
+      "id" : "7923966",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7923966-parque-felipe-vi",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines/ParquesForestales",
+      "title" : "Parque Felipe VI",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=65eda830bd9eb410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7923966-parque-felipe-vi/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28055",
+		"street-address" : "AVENIDA LAS FUERZAS ARMADAS 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7923966-parque-felipe-vi/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.641451621738692 40.48494412599755)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7923966-parque-felipe-vi/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48494412599755,
+        "longitude" : -3.641451621738692
+	  }
+
+    },
+	{
+      "id" : "6451513",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6451513-parque-forestal-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines/ParquesForestales",
+      "title" : "Parque Forestal de Vicálvaro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ac3691cda0d97310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6451513-parque-forestal-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "PASEO POLIDEPORTIVO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6451513-parque-forestal-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.60626801415248 40.41022401774968)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6451513-parque-forestal-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41022401774968,
+        "longitude" : -3.60626801415248
+	  }
+
+    },
+	{
+      "id" : "5968930",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5968930-parque-felix-rodriguez-fuente",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Félix Rodríguez de la Fuente",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f1b7e63d0384e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5968930-parque-felix-rodriguez-fuente/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PADRE CLARET 38"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5968930-parque-felix-rodriguez-fuente/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6653500732558792 40.45205238274073)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5968930-parque-felix-rodriguez-fuente/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45205238274073,
+        "longitude" : -3.6653500732558792
+	  }
+
+    },
+	{
+      "id" : "5982998",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5982998-parque-general-fanjul-santa-margarita",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque General Fanjul - Santa Margarita",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=972c17fe7c08e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5982998-parque-general-fanjul-santa-margarita/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "AVENIDA DE LAS ÁGUILAS 144"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5982998-parque-general-fanjul-santa-margarita/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7834984766161837 40.38033890061462)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5982998-parque-general-fanjul-santa-margarita/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38033890061462,
+        "longitude" : -3.7834984766161837
+	  }
+
+    },
+	{
+      "id" : "6004533",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6004533-parque-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Hortaleza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b482c897848de210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6004533-parque-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CARRETERA ESTACION DE HORTALEZA 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6004533-parque-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.650809942180937 40.48024318499327)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6004533-parque-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48024318499327,
+        "longitude" : -3.650809942180937
+	  }
+
+    },
+	{
+      "id" : "5981830",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981830-parque-huerta-obispo-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Huerta del Obispo (Villaverde)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2899b20479b7e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981830-parque-huerta-obispo-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE PALOMARES 34"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981830-parque-huerta-obispo-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.712145719392749 40.346980092315505)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5981830-parque-huerta-obispo-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.346980092315505,
+        "longitude" : -3.712145719392749
+	  }
+
+    },
+	{
+      "id" : "5987836",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5987836-parque-juan-carlos-i",
+      "@type" : null,
+      "title" : "Parque Juan Carlos I",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8d9a78a0dea9e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5987836-parque-juan-carlos-i/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID 28042",
+		"postal-code" : "28042",
+		"street-address" : "GLORIETA S.A.R. DON JUAN DE BORBON Y BATTEMBERG, 5   5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5987836-parque-juan-carlos-i/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6148888706303586 40.45999848510341)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5987836-parque-juan-carlos-i/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45999848510341,
+        "longitude" : -3.6148888706303586
+	  }
+
+    },
+	{
+      "id" : "5996223",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5996223-parque-juan-pablo-ii",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Juan Pablo II",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ea452f20e2ebe210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5996223-parque-juan-pablo-ii/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "AVENIDA MACHUPICHU 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5996223-parque-juan-pablo-ii/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.623539375307719 40.45544764269407)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5996223-parque-juan-pablo-ii/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45544764269407,
+        "longitude" : -3.623539375307719
+	  }
+
+    },
+	{
+      "id" : "5993167",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5993167-parque-rinconada",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque La Rinconada",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=60ce7016894be210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5993167-parque-rinconada/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28023",
+		"street-address" : "CALLE HIENDELAENCINA 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5993167-parque-rinconada/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7664554910416252 40.45750725687833)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5993167-parque-rinconada/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45750725687833,
+        "longitude" : -3.7664554910416252
+	  }
+
+    },
+	{
+      "id" : "5978304",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5978304-parque-vina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque La Viña",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=848eeef66907e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5978304-parque-vina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE TIMOTEO PEREZ RUBIO 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5978304-parque-vina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.67430914572838 40.38556774381467)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5978304-parque-vina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38556774381467,
+        "longitude" : -3.67430914572838
+	  }
+
+    },
+	{
+      "id" : "5984737",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5984737-parque-ladera-almendros",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Ladera de los Almendros",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=60d548147809e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5984737-parque-ladera-almendros/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "AUTOVÍA M - 40 "
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5984737-parque-ladera-almendros/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : null
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5984737-parque-ladera-almendros/geometry",
+		"@type" : "geo:Point",
+		"latitude" : null,
+        "longitude" : null
+	  }
+
+    },
+	{
+      "id" : "5977748",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5977748-parque-lineal-palomeras",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesJardines",
+      "title" : "Parque Lineal de Palomeras",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d757e2fa26c6e210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5977748-parque-lineal-palomeras/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "AVENIDA ALBUFERA 293"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5977748-parque-lineal-palomeras/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6363631773029352 40.38581882868559)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5977748-parque-lineal-palomeras/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38581882868559,
+        "longitude" : -3.6363631773029352
+	  }
+
+    }
+  ]
+}

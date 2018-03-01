@@ -1,0 +1,354 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [
+	{
+      "id" : "12357",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12357-parque-bomberos-10-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesBomberos",
+      "title" : "Parque de Bomberos 10. Villaverde",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=163e72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12357-parque-bomberos-10-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE SAN NORBERTO 54"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12357-parque-bomberos-10-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.70700829179349 40.33986735099649)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12357-parque-bomberos-10-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.33986735099649,
+        "longitude" : -3.70700829179349
+	  }
+
+    },
+	{
+      "id" : "12356",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12356-parque-bomberos-11-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesBomberos",
+      "title" : "Parque de Bomberos 11. Hortaleza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6c5e72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12356-parque-bomberos-11-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE MESENA 146"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12356-parque-bomberos-11-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.665083966588485 40.47409889540651)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12356-parque-bomberos-11-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47409889540651,
+        "longitude" : -3.665083966588485
+	  }
+
+    },
+	{
+      "id" : "12358",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12358-parque-bomberos-12-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesBomberos",
+      "title" : "Parque de Bomberos 12. Latina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b28e72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12358-parque-bomberos-12-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "AVENIDA POBLADOS 48"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12358-parque-bomberos-12-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7650894764871374 40.38798474057904)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12358-parque-bomberos-12-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38798474057904,
+        "longitude" : -3.7650894764871374
+	  }
+
+    },
+	{
+      "id" : "12350",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12350-parque-bomberos-1-chamberi",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesBomberos",
+      "title" : "Parque de Bomberos 1. Chamberí",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cf0e72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12350-parque-bomberos-1-chamberi/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE SANTA ENGRACIA 118"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12350-parque-bomberos-1-chamberi/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7008188436972183 40.44022117656201)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12350-parque-bomberos-1-chamberi/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44022117656201,
+        "longitude" : -3.7008188436972183
+	  }
+
+    },
+	{
+      "id" : "12349",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12349-parque-bomberos-2-salamanca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesBomberos",
+      "title" : "Parque de Bomberos 2. Salamanca",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=09ae72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12349-parque-bomberos-2-salamanca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE RUFINO BLANCO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12349-parque-bomberos-2-salamanca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.667110358891228 40.42851068346943)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12349-parque-bomberos-2-salamanca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42851068346943,
+        "longitude" : -3.667110358891228
+	  }
+
+    },
+	{
+      "id" : "12347",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12347-parque-bomberos-3-centro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesBomberos",
+      "title" : "Parque de Bomberos 3. Centro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5fce72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12347-parque-bomberos-3-centro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "RONDA SEGOVIA 95"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12347-parque-bomberos-3-centro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7122827517211396 40.406979862465434)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12347-parque-bomberos-3-centro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.406979862465434,
+        "longitude" : -3.7122827517211396
+	  }
+
+    },
+	{
+      "id" : "12354",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12354-parque-bomberos-4-tetuan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesBomberos",
+      "title" : "Parque de Bomberos 4. Tetuán",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a5fe72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12354-parque-bomberos-4-tetuan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "CALLE EMILIA 40"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12354-parque-bomberos-4-tetuan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.696051732686216 40.47073638501196)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12354-parque-bomberos-4-tetuan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47073638501196,
+        "longitude" : -3.696051732686216
+	  }
+
+    },
+	{
+      "id" : "12353",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12353-parque-bomberos-5-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesBomberos",
+      "title" : "Parque de Bomberos 5. Usera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb1f72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12353-parque-bomberos-5-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "PASEO SANTA MARIA DE LA CABEZA 95"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12353-parque-bomberos-5-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.706823031743194 40.3920312875048)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12353-parque-bomberos-5-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3920312875048,
+        "longitude" : -3.706823031743194
+	  }
+
+    },
+	{
+      "id" : "12348",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12348-parque-bomberos-6-centro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesBomberos",
+      "title" : "Parque de Bomberos 6. Centro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=424f72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12348-parque-bomberos-6-centro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE SAN BERNARDO 68"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12348-parque-bomberos-6-centro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7065496222694208 40.42673583114157)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12348-parque-bomberos-6-centro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42673583114157,
+        "longitude" : -3.7065496222694208
+	  }
+
+    },
+	{
+      "id" : "12352",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12352-parque-bomberos-7-san-blas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesBomberos",
+      "title" : "Parque de Bomberos 7. San Blas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=986f72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12352-parque-bomberos-7-san-blas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "AVENIDA HELLIN 52"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12352-parque-bomberos-7-san-blas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6154373664644375 40.42832883917418)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12352-parque-bomberos-7-san-blas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42832883917418,
+        "longitude" : -3.6154373664644375
+	  }
+
+    },
+	{
+      "id" : "12355",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12355-parque-bomberos-8-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesBomberos",
+      "title" : "Parque de Bomberos 8. Puente de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee8f72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12355-parque-bomberos-8-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CALLE PIO FELIPE 24"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12355-parque-bomberos-8-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6531308970881393 40.39461731837056)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12355-parque-bomberos-8-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39461731837056,
+        "longitude" : -3.6531308970881393
+	  }
+
+    },
+	{
+      "id" : "12351",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12351-parque-bomberos-9-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ParquesBomberos",
+      "title" : "Parque de Bomberos 9. Fuencarral - El Pardo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=35bf72081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12351-parque-bomberos-9-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "AVENIDA MONFORTE DE LEMOS 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12351-parque-bomberos-9-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699664083422411 40.48008388609038)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12351-parque-bomberos-9-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48008388609038,
+        "longitude" : -3.699664083422411
+	  }
+
+    }
+  ]
+}

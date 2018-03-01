@@ -1,0 +1,839 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "138563",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138563-agente-igualdad-arganzuela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Arganzuela",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d08ca5f17981c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138563-agente-igualdad-arganzuela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE GUILLERMO DE OSMA 14 Centro de Servicios Sociales"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138563-agente-igualdad-arganzuela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6977414672784543 40.394590968453905)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138563-agente-igualdad-arganzuela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.394590968453905,
+        "longitude" : -3.6977414672784543
+	  }
+
+    },
+	{
+      "id" : "138564",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138564-agente-igualdad-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Barajas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=27aca5f17981c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138564-agente-igualdad-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "PLAZA MERCURIO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138564-agente-igualdad-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.577768444536064 40.47479357890765)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138564-agente-igualdad-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47479357890765,
+        "longitude" : -3.577768444536064
+	  }
+
+    },
+	{
+      "id" : "138565",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138565-agente-igualdad-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Carabanchel",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7dcca5f17981c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138565-agente-igualdad-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE COMANDANTE FONTANES 8 C/ CALLE GENERAL RICARDOS. Espacio de Igualdad María de Maeztu"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138565-agente-igualdad-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7219395095828647 40.395280262214236)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138565-agente-igualdad-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.395280262214236,
+        "longitude" : -3.7219395095828647
+	  }
+
+    },
+	{
+      "id" : "138566",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138566-agente-igualdad-centro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Centro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c3fca5f17981c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138566-agente-igualdad-centro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE CASINO 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138566-agente-igualdad-centro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7046086019457167 40.406792648617134)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138566-agente-igualdad-centro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.406792648617134,
+        "longitude" : -3.7046086019457167
+	  }
+
+    },
+	{
+      "id" : "138567",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138567-agente-igualdad-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Chamartín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=560da5f17981c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138567-agente-igualdad-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE SANTA HORTENSIA 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138567-agente-igualdad-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6691931472225465 40.44476894081767)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138567-agente-igualdad-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44476894081767,
+        "longitude" : -3.6691931472225465
+	  }
+
+    },
+	{
+      "id" : "138568",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138568-agente-igualdad-chamberi",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Chamberí",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e81da5f17981c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138568-agente-igualdad-chamberi/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE ANDRES MELLADO 44 Espacio de Igualdad María Zambrano"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138568-agente-igualdad-chamberi/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7143358486689415 40.433958260960964)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138568-agente-igualdad-chamberi/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.433958260960964,
+        "longitude" : -3.7143358486689415
+	  }
+
+    },
+	{
+      "id" : "63178",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63178-agente-igualdad-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Ciudad Lineal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4e472dfe4351c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63178-agente-igualdad-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "CALLE ASCAO 6 Centro Municipal de Mayores Ascao"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63178-agente-igualdad-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6413497414718736 40.42958439423385)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63178-agente-igualdad-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42958439423385,
+        "longitude" : -3.6413497414718736
+	  }
+
+    },
+	{
+      "id" : "73401",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/73401-agente-igualdad-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Fuencarral - El Pardo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=97a70e4e6d41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/73401-agente-igualdad-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "GLORIETA PRADERA DE VAQUERIZAS "
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/73401-agente-igualdad-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7216054330053647 40.49082275610172)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/73401-agente-igualdad-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.49082275610172,
+        "longitude" : -3.7216054330053647
+	  }
+
+    },
+	{
+      "id" : "81263",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/81263-agente-igualdad-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Hortaleza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c3fac2c6e051c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/81263-agente-igualdad-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE SANTA VIRGILIA 15 PLANTA 1º Radicada en el Centro Cultural Hortaleza"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/81263-agente-igualdad-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6420589279590887 40.47685971480448)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/81263-agente-igualdad-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47685971480448,
+        "longitude" : -3.6420589279590887
+	  }
+
+    },
+	{
+      "id" : "63175",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63175-agente-igualdad-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Latina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=94772dfe4351c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63175-agente-igualdad-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE FUERTE DE NAVIDAD 15 CENTRO DE SERVICIOS SOCIALES FUERTE DE NAVIDAD"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63175-agente-igualdad-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7657241589764547 40.380566072889415)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63175-agente-igualdad-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.380566072889415,
+        "longitude" : -3.7657241589764547
+	  }
+
+    },
+	{
+      "id" : "138569",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138569-agente-igualdad-moncloa-aravaca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Moncloa - Aravaca",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3f3da5f17981c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138569-agente-igualdad-moncloa-aravaca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE ANDRES MELLADO 44 Espacio de Igualdad María Zambrano"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138569-agente-igualdad-moncloa-aravaca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7143358486689415 40.433958260960964)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138569-agente-igualdad-moncloa-aravaca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.433958260960964,
+        "longitude" : -3.7143358486689415
+	  }
+
+    },
+	{
+      "id" : "138570",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138570-agente-igualdad-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Moratalaz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=856da5f17981c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138570-agente-igualdad-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE ARROYO BELINCOSO 9 Centro Sociocultural Eduardo Chillida"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138570-agente-igualdad-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6532030794103223 40.40940081192276)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138570-agente-igualdad-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40940081192276,
+        "longitude" : -3.6532030794103223
+	  }
+
+    },
+	{
+      "id" : "63177",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63177-agente-igualdad-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Puente de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ea972dfe4351c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63177-agente-igualdad-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE PEÑA GORBEA 22 EN CENTRO MAYORES CASA BULEVAR"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63177-agente-igualdad-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.666404419309755 40.395199245245)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63177-agente-igualdad-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.395199245245,
+        "longitude" : -3.666404419309755
+	  }
+
+    },
+	{
+      "id" : "138571",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138571-agente-igualdad-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Retiro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=187da5f17981c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138571-agente-igualdad-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "AVENIDA CIUDAD DE BARCELONA 162"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138571-agente-igualdad-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6772931748500297 40.40236125879463)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138571-agente-igualdad-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40236125879463,
+        "longitude" : -3.6772931748500297
+	  }
+
+    },
+	{
+      "id" : "138572",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138572-agente-igualdad-salamanca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Salamanca",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aa8da5f17981c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138572-agente-igualdad-salamanca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE VELAZQUEZ 52"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138572-agente-igualdad-salamanca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.683768008487216 40.42732326877904)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138572-agente-igualdad-salamanca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42732326877904,
+        "longitude" : -3.683768008487216
+	  }
+
+    },
+	{
+      "id" : "73414",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/73414-agente-igualdad-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. San Blas-Canillejas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=edc70e4e6d41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/73414-agente-igualdad-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE SAN ROMAN DEL VALLE 8 EN EL CENTRO CULTURAL ANTONIO MACHADO"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/73414-agente-igualdad-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6218113860909074 40.420231627534996)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/73414-agente-igualdad-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.420231627534996,
+        "longitude" : -3.6218113860909074
+	  }
+
+    },
+	{
+      "id" : "4595019",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4595019-agente-igualdad-tetuan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Tetuán",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=27c4763060423110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4595019-agente-igualdad-tetuan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE BRAVO MURILLO 133 Espacio de Igualdad Hermanas Mirabal. Entrada por Juan Pantoja, 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4595019-agente-igualdad-tetuan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7037047897267947 40.45012255255781)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4595019-agente-igualdad-tetuan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45012255255781,
+        "longitude" : -3.7037047897267947
+	  }
+
+    },
+	{
+      "id" : "138573",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138573-agente-igualdad-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Usera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f0bda5f17981c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138573-agente-igualdad-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "AVENIDA RAFAELA YBARRA 41 Junta Municipal del Distrito de Usera (2ª planta)"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138573-agente-igualdad-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7107515747822353 40.38241253009179)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138573-agente-igualdad-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38241253009179,
+        "longitude" : -3.7107515747822353
+	  }
+
+    },
+	{
+      "id" : "4595556",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4595556-agente-igualdad-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Vicálvaro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c75b0ae76d423110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4595556-agente-igualdad-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "AVENIDA REAL 14 PLANTA 2ª. Centro Social Polivalente"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4595556-agente-igualdad-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6072956236529956 40.40260594659392)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4595556-agente-igualdad-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40260594659392,
+        "longitude" : -3.6072956236529956
+	  }
+
+    },
+	{
+      "id" : "138574",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138574-agente-igualdad-villa-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Villa de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=47dda5f17981c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138574-agente-igualdad-villa-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE MANUEL VELEZ 10 Centro Cultural Francisco Fatou 1ª planta"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138574-agente-igualdad-villa-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6231221291844182 40.379584554687334)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/138574-agente-igualdad-villa-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.379584554687334,
+        "longitude" : -3.6231221291844182
+	  }
+
+    },
+	{
+      "id" : "63179",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63179-agente-igualdad-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/AgentesIgualdad",
+      "title" : "Agente de Igualdad. Villaverde",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=31c72dfe4351c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63179-agente-igualdad-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE MARIA MARTINEZ OVIOL 12 EN CENTRO SOCIOCULTURAL SANTA PETRONILA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63179-agente-igualdad-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.691508909255186 40.35087114162283)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63179-agente-igualdad-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.35087114162283,
+        "longitude" : -3.691508909255186
+	  }
+
+    },
+	{
+      "id" : "5433767",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5433767-atencion-victimas-explotacion-sexual-concepcion-arenal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMujeres/ViolenciaGenero",
+      "title" : "Atención Víctimas Explotación Sexual Concepción Arenal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=26c2a65f73424210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5433767-atencion-victimas-explotacion-sexual-concepcion-arenal/address",
+		"@type" : "vcard:Address",
+		"locality" : "Madrid",
+		"postal-code" : "28038",
+		"street-address" : "CALLE ROGELIO FOLGUERAS 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5433767-atencion-victimas-explotacion-sexual-concepcion-arenal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6594376840027296 40.39369863197678)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5433767-atencion-victimas-explotacion-sexual-concepcion-arenal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39369863197678,
+        "longitude" : -3.6594376840027296
+	  }
+
+    },
+	{
+      "id" : "4524868",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4524868-espacio-igualdad-clara-campoamor",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+      "title" : "Espacio de Igualdad Clara Campoamor",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8b8896d2d8ed0110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4524868-espacio-igualdad-clara-campoamor/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE MARIA MARTINEZ OVIOL 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4524868-espacio-igualdad-clara-campoamor/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.691508909255186 40.35087114162283)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4524868-espacio-igualdad-clara-campoamor/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.35087114162283,
+        "longitude" : -3.691508909255186
+	  }
+
+    },
+	{
+      "id" : "4525098",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4525098-espacio-igualdad-dulce-chacon",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+      "title" : "Espacio de Igualdad Dulce Chacón",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=82986a073fed0110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4525098-espacio-igualdad-dulce-chacon/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE MAREAS 34"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4525098-espacio-igualdad-dulce-chacon/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7149416291006703 40.3497106325215)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4525098-espacio-igualdad-dulce-chacon/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3497106325215,
+        "longitude" : -3.7149416291006703
+	  }
+
+    },
+	{
+      "id" : "6621710",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6621710-espacio-igualdad-hermanas-mirabal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+      "title" : "Espacio de Igualdad Hermanas Mirabal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=689c8c0000c9a310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6621710-espacio-igualdad-hermanas-mirabal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE BRAVO MURILLO 133"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6621710-espacio-igualdad-hermanas-mirabal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7037047897267947 40.45012255255781)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6621710-espacio-igualdad-hermanas-mirabal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45012255255781,
+        "longitude" : -3.7037047897267947
+	  }
+
+    },
+	{
+      "id" : "185268",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185268-espacio-igualdad-maria-zambrano",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+      "title" : "Espacio de Igualdad María Zambrano",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=306b89e2c9e5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185268-espacio-igualdad-maria-zambrano/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE ANDRES MELLADO 44"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185268-espacio-igualdad-maria-zambrano/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7143358486689415 40.433958260960964)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185268-espacio-igualdad-maria-zambrano/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.433958260960964,
+        "longitude" : -3.7143358486689415
+	  }
+
+    },
+	{
+      "id" : "4664906",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4664906-espacio-igualdad-maria-maeztu",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+      "title" : "Espacio de Igualdad María de Maeztu",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=63431203d9e85110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4664906-espacio-igualdad-maria-maeztu/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE COMANDANTE FONTANES 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4664906-espacio-igualdad-maria-maeztu/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7219395095828647 40.395280262214236)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4664906-espacio-igualdad-maria-maeztu/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.395280262214236,
+        "longitude" : -3.7219395095828647
+	  }
+
+    },
+	{
+      "id" : "165256",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165256-punto-municipal-i-observatorio-regional-violencia-genero",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+      "title" : "Punto Municipal I del Observatorio Regional de Violencia de Género",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9bab8f90a581c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165256-punto-municipal-i-observatorio-regional-violencia-genero/address",
+		"@type" : "vcard:Address",
+		"locality" : null,
+		"postal-code" : "",
+		"street-address" : "- "
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165256-punto-municipal-i-observatorio-regional-violencia-genero/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : null
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165256-punto-municipal-i-observatorio-regional-violencia-genero/geometry",
+		"@type" : "geo:Point",
+		"latitude" : null,
+        "longitude" : null
+	  }
+
+    },
+	{
+      "id" : "7135449",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7135449-punto-municipal-ii-observatorio-regional-violencia-genero",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+      "title" : "Punto Municipal II del Observatorio Regional de Violencia de Género",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=62e450ca39791410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7135449-punto-municipal-ii-observatorio-regional-violencia-genero/address",
+		"@type" : "vcard:Address",
+		"locality" : null,
+		"postal-code" : "",
+		"street-address" : "- "
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7135449-punto-municipal-ii-observatorio-regional-violencia-genero/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : null
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7135449-punto-municipal-ii-observatorio-regional-violencia-genero/geometry",
+		"@type" : "geo:Point",
+		"latitude" : null,
+        "longitude" : null
+	  }
+
+    },
+	{
+      "id" : "185182",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185182-servicio-atencion-mujeres-victimas-violencia-genero-s-v-g-24-horas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocial",
+      "title" : "Servicio de Atención a Mujeres Víctimas de Violencia de Género (S.A.V.G. 24 Horas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=764157258ae5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185182-servicio-atencion-mujeres-victimas-violencia-genero-s-v-g-24-horas/address",
+		"@type" : "vcard:Address",
+		"locality" : null,
+		"postal-code" : "",
+		"street-address" : "0 "
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185182-servicio-atencion-mujeres-victimas-violencia-genero-s-v-g-24-horas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : null
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185182-servicio-atencion-mujeres-victimas-violencia-genero-s-v-g-24-horas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : null,
+        "longitude" : null
+	  }
+
+    }
+  ]
+}

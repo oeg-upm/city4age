@@ -1,0 +1,353 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "6616",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6616-escuela-oficial-idiomas-madrid-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzaIdiomas",
+      "title" : "Escuela Oficial de Idiomas de Madrid - Carabanchel",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=82c0a4ea6871c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6616-escuela-oficial-idiomas-madrid-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE PORTALEGRE 52"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6616-escuela-oficial-idiomas-madrid-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7246340187667677 40.38832642007782)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6616-escuela-oficial-idiomas-madrid-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38832642007782,
+        "longitude" : -3.7246340187667677
+	  }
+
+    },
+	{
+      "id" : "6118469",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6118469-escuela-oficial-idiomas-madrid-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzaIdiomas",
+      "title" : "Escuela Oficial de Idiomas de Madrid - Ciudad Lineal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=738247f979fd0310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6118469-escuela-oficial-idiomas-madrid-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "CALLE CARLOTA O'NEILL 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6118469-escuela-oficial-idiomas-madrid-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6499818563927504 40.44330197979908)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6118469-escuela-oficial-idiomas-madrid-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44330197979908,
+        "longitude" : -3.6499818563927504
+	  }
+
+    },
+	{
+      "id" : "6662",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6662-escuela-oficial-idiomas-madrid-embajadores",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzaIdiomas",
+      "title" : "Escuela Oficial de Idiomas de Madrid - Embajadores",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a7e0a4ea6871c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6662-escuela-oficial-idiomas-madrid-embajadores/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE EMBAJADORES 68"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6662-escuela-oficial-idiomas-madrid-embajadores/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.703707165043153 40.406239576909144)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6662-escuela-oficial-idiomas-madrid-embajadores/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.406239576909144,
+        "longitude" : -3.703707165043153
+	  }
+
+    },
+	{
+      "id" : "6114038",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6114038-escuela-oficial-idiomas-madrid-jesus-maestro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzaIdiomas",
+      "title" : "Escuela Oficial de Idiomas de Madrid - Jesús Maestro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=38724d106f6b0310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6114038-escuela-oficial-idiomas-madrid-jesus-maestro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE JESUS MAESTRO 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6114038-escuela-oficial-idiomas-madrid-jesus-maestro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.711422497399746 40.44055280261112)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6114038-escuela-oficial-idiomas-madrid-jesus-maestro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44055280261112,
+        "longitude" : -3.711422497399746
+	  }
+
+    },
+	{
+      "id" : "6661",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6661-escuela-oficial-idiomas-madrid-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzaIdiomas",
+      "title" : "Escuela Oficial de Idiomas de Madrid - Moratalaz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5f11a4ea6871c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6661-escuela-oficial-idiomas-madrid-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE VALDEBERNARDO 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6661-escuela-oficial-idiomas-madrid-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.63309996975464 40.39843146459067)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6661-escuela-oficial-idiomas-madrid-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39843146459067,
+        "longitude" : -3.63309996975464
+	  }
+
+    },
+	{
+      "id" : "6617",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6617-escuela-oficial-idiomas-madrid-san-blas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzaIdiomas",
+      "title" : "Escuela Oficial de Idiomas de Madrid - San Blas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e131a4ea6871c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6617-escuela-oficial-idiomas-madrid-san-blas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE ARTIFICES"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6617-escuela-oficial-idiomas-madrid-san-blas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6185534339595433 40.424879760074234)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6617-escuela-oficial-idiomas-madrid-san-blas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.424879760074234,
+        "longitude" : -3.6185534339595433
+	  }
+
+    },
+	{
+      "id" : "6663",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6663-escuela-oficial-idiomas-madrid-tribunal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzaIdiomas",
+      "title" : "Escuela Oficial de Idiomas de Madrid - Tribunal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3af0a4ea6871c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6663-escuela-oficial-idiomas-madrid-tribunal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE SANTA BRIGIDA 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6663-escuela-oficial-idiomas-madrid-tribunal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699900698501113 40.42445194531467)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6663-escuela-oficial-idiomas-madrid-tribunal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42445194531467,
+        "longitude" : -3.699900698501113
+	  }
+
+    },
+	{
+      "id" : "6618",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6618-escuela-oficial-idiomas-madrid-valdezarza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzaIdiomas",
+      "title" : "Escuela Oficial de Idiomas de Madrid - Valdezarza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7441a4ea6871c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6618-escuela-oficial-idiomas-madrid-valdezarza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "CALLE ISLA MALAITA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6618-escuela-oficial-idiomas-madrid-valdezarza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.72201749768645 40.473117622127866)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6618-escuela-oficial-idiomas-madrid-valdezarza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.473117622127866,
+        "longitude" : -3.72201749768645
+	  }
+
+    },
+	{
+      "id" : "6650",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6650-escuela-oficial-idiomas-madrid-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzaIdiomas",
+      "title" : "Escuela Oficial de Idiomas de Madrid - Villaverde",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0751a4ea6871c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6650-escuela-oficial-idiomas-madrid-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE FERNANDO ORTIZ 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6650-escuela-oficial-idiomas-madrid-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7027950597553976 40.367253786749025)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6650-escuela-oficial-idiomas-madrid-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.367253786749025,
+        "longitude" : -3.7027950597553976
+	  }
+
+    },
+	{
+      "id" : "4620440",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4620440-extension-escuela-oficial-idiomas-madrid-ciudad-lineal-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzaIdiomas",
+      "title" : "Extensión Escuela Oficial de Idiomas de Madrid - Ciudad Lineal en Barajas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f594cb42d3704110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4620440-extension-escuela-oficial-idiomas-madrid-ciudad-lineal-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "CALLE ANTONIO SANCHA 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4620440-extension-escuela-oficial-idiomas-madrid-ciudad-lineal-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5888370717050853 40.460269269312455)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4620440-extension-escuela-oficial-idiomas-madrid-ciudad-lineal-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.460269269312455,
+        "longitude" : -3.5888370717050853
+	  }
+
+    },
+	{
+      "id" : "4620845",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4620845-extension-escuela-oficial-idiomas-madrid-moratalaz-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzaIdiomas",
+      "title" : "Extensión Escuela Oficial de Idiomas de Madrid - Moratalaz en Puente de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cba45af5f1614110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4620845-extension-escuela-oficial-idiomas-madrid-moratalaz-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "RONDA SUR 229"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4620845-extension-escuela-oficial-idiomas-madrid-moratalaz-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.665482524950977 40.37336648575158)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4620845-extension-escuela-oficial-idiomas-madrid-moratalaz-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37336648575158,
+        "longitude" : -3.665482524950977
+	  }
+
+    },
+	{
+      "id" : "5726383",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5726383-extension-escuela-oficial-idiomas-madrid-villaverde-espinillo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzaIdiomas",
+      "title" : "Extensión Escuela Oficial de Idiomas de Madrid - Villaverde en El Espinillo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0d397a9d2a549210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5726383-extension-escuela-oficial-idiomas-madrid-villaverde-espinillo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE ALIANZA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5726383-extension-escuela-oficial-idiomas-madrid-villaverde-espinillo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6923427241919202 40.35755994620206)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5726383-extension-escuela-oficial-idiomas-madrid-villaverde-espinillo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.35755994620206,
+        "longitude" : -3.6923427241919202
+	  }
+
+    }
+  ]
+}

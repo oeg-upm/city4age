@@ -1,0 +1,2243 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "61278",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/61278-centro-dia-concertado-casablanca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Concertado 'Casablanca'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0c198ed67151c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/61278-centro-dia-concertado-casablanca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28023",
+		"street-address" : "AVENIDA VICTORIA 74"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/61278-centro-dia-concertado-casablanca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.826372463894 40.47124744928332)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/61278-centro-dia-concertado-casablanca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47124744928332,
+        "longitude" : -3.826372463894
+	  }
+
+    },
+	{
+      "id" : "77408",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/77408-centro-dia-concertado-centro-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Concertado 'Centro Madrid'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=54e88ed67151c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/77408-centro-dia-concertado-centro-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28024",
+		"street-address" : "CALLE SESEÑA 32"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/77408-centro-dia-concertado-centro-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7618992126482502 40.398672531809765)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/77408-centro-dia-concertado-centro-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.398672531809765,
+        "longitude" : -3.7618992126482502
+	  }
+
+    },
+	{
+      "id" : "11776",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11776-centro-dia-concertado-centro-medico-psicogeriatrico",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Concertado 'Centro Médico Psicogeriátrico'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5186d4985261c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11776-centro-dia-concertado-centro-medico-psicogeriatrico/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE DOCTOR GOMEZ ULLA 22"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11776-centro-dia-concertado-centro-medico-psicogeriatrico/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.667109125113171 40.43077195810396)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11776-centro-dia-concertado-centro-medico-psicogeriatrico/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43077195810396,
+        "longitude" : -3.667109125113171
+	  }
+
+    },
+	{
+      "id" : "5420440",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5420440-centro-dia-concertado-doctor-espina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Concertado 'Doctor Espina'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c7c8004786cc3210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5420440-centro-dia-concertado-doctor-espina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE DOCTOR ESPINA 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5420440-centro-dia-concertado-doctor-espina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.72793552048858 40.38965704522436)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5420440-centro-dia-concertado-doctor-espina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38965704522436,
+        "longitude" : -3.72793552048858
+	  }
+
+    },
+	{
+      "id" : "60986",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/60986-centro-dia-concertado-edad-dorada",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Concertado 'Edad Dorada'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=79488ed67151c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/60986-centro-dia-concertado-edad-dorada/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "PLAZA GENERAL VARA DE REY 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/60986-centro-dia-concertado-edad-dorada/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7086772240833703 40.40929932684141)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/60986-centro-dia-concertado-edad-dorada/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40929932684141,
+        "longitude" : -3.7086772240833703
+	  }
+
+    },
+	{
+      "id" : "165570",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165570-centro-dia-concertado-bosque",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Concertado 'El Bosque'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f59f8f90a581c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165570-centro-dia-concertado-bosque/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE LOS PEÑASCALES 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165570-centro-dia-concertado-bosque/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6663226180670008 40.423947643400474)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165570-centro-dia-concertado-bosque/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.423947643400474,
+        "longitude" : -3.6663226180670008
+	  }
+
+    },
+	{
+      "id" : "116392",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/116392-centro-dia-concertado-florencia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Concertado 'Florencia'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ffaa8899fc81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/116392-centro-dia-concertado-florencia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE FLORENCIA 24"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/116392-centro-dia-concertado-florencia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6272625412717243 40.40176060620903)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/116392-centro-dia-concertado-florencia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40176060620903,
+        "longitude" : -3.6272625412717243
+	  }
+
+    },
+	{
+      "id" : "57670",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/57670-centro-dia-concertado-garbosol",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Concertado 'Garbosol'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e6388ed67151c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/57670-centro-dia-concertado-garbosol/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE JOSE DEL PINO JIMENEZ 54"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/57670-centro-dia-concertado-garbosol/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7161821683026086 40.345648842216264)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/57670-centro-dia-concertado-garbosol/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.345648842216264,
+        "longitude" : -3.7161821683026086
+	  }
+
+    },
+	{
+      "id" : "5438226",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5438226-centro-dia-concertado-geriacen",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Concertado 'Geriacen'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6fdd895bab834210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5438226-centro-dia-concertado-geriacen/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE VIRGEN DE ARANZAZU 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5438226-centro-dia-concertado-geriacen/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.689829122091437 40.48514297066639)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5438226-centro-dia-concertado-geriacen/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48514297066639,
+        "longitude" : -3.689829122091437
+	  }
+
+    },
+	{
+      "id" : "37545",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/37545-centro-dia-concertado-javier",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Concertado 'Javier'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c6a3b3e42751c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/37545-centro-dia-concertado-javier/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "CALLE EMILIA 37"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/37545-centro-dia-concertado-javier/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6967269715369455 40.47101159443573)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/37545-centro-dia-concertado-javier/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47101159443573,
+        "longitude" : -3.6967269715369455
+	  }
+
+    },
+	{
+      "id" : "5420355",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5420355-centro-dia-concertado-laguna",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Concertado 'Laguna'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=89c184de71cc3210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5420355-centro-dia-concertado-laguna/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE CONCEJAL FRANCISCO JOSE JIMENEZ MARTIN 128"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5420355-centro-dia-concertado-laguna/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.747048371818592 40.40050818289482)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5420355-centro-dia-concertado-laguna/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40050818289482,
+        "longitude" : -3.747048371818592
+	  }
+
+    },
+	{
+      "id" : "5438236",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5438236-centro-dia-concertado-quavitae-albufera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Concertado 'Quavitae Albufera'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d233895bab834210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5438236-centro-dia-concertado-quavitae-albufera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE SIERRA DE ALCUBIERRE 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5438236-centro-dia-concertado-quavitae-albufera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.667904105178595 40.39194732029242)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5438236-centro-dia-concertado-quavitae-albufera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39194732029242,
+        "longitude" : -3.667904105178595
+	  }
+
+    },
+	{
+      "id" : "5419656",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5419656-centro-dia-concertado-quavitae-centro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Concertado 'Quavitae Centro'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=514f1c85e47c3210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5419656-centro-dia-concertado-quavitae-centro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE SAN BERNARDO 39"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5419656-centro-dia-concertado-quavitae-centro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7075890942619667 40.423558295641016)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5419656-centro-dia-concertado-quavitae-centro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.423558295641016,
+        "longitude" : -3.7075890942619667
+	  }
+
+    },
+	{
+      "id" : "133978",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133978-centro-dia-concertado-quavitae-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Concertado 'Quavitae Chamartín'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a2d015a11a81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133978-centro-dia-concertado-quavitae-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE ANTONIO SALCES 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133978-centro-dia-concertado-quavitae-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6706265956286868 40.4454363094352)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133978-centro-dia-concertado-quavitae-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4454363094352,
+        "longitude" : -3.6706265956286868
+	  }
+
+    },
+	{
+      "id" : "11777",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11777-centro-dia-concertado-quecios",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Concertado 'Quecios'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=679866051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11777-centro-dia-concertado-quecios/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE CARLOS DOMINGO 19"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11777-centro-dia-concertado-quecios/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7454995654293217 40.39150010908912)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11777-centro-dia-concertado-quecios/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39150010908912,
+        "longitude" : -3.7454995654293217
+	  }
+
+    },
+	{
+      "id" : "77410",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/77410-centro-dia-concertado-reina-sofia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Concertado 'Reina Sofía'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=79098ed67151c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/77410-centro-dia-concertado-reina-sofia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE INFANTA MERCEDES 26"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/77410-centro-dia-concertado-reina-sofia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6983481951101194 40.4555604310988)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/77410-centro-dia-concertado-reina-sofia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4555604310988,
+        "longitude" : -3.6983481951101194
+	  }
+
+    },
+	{
+      "id" : "5420447",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5420447-centro-dia-concertado-rosaleda",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Concertado 'Rosaleda'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ef7c004786cc3210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5420447-centro-dia-concertado-rosaleda/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE BELZUNEGUI 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5420447-centro-dia-concertado-rosaleda/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7388729786385966 40.375965939298865)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5420447-centro-dia-concertado-rosaleda/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.375965939298865,
+        "longitude" : -3.7388729786385966
+	  }
+
+    },
+	{
+      "id" : "5417821",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5417821-centro-dia-concertado-sageco",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Concertado 'Sageco'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a0cc730858db3210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5417821-centro-dia-concertado-sageco/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE INFANTA MERCEDES 26"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5417821-centro-dia-concertado-sageco/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6983481951101194 40.4555604310988)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5417821-centro-dia-concertado-sageco/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4555604310988,
+        "longitude" : -3.6983481951101194
+	  }
+
+    },
+	{
+      "id" : "5438217",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5438217-centro-dia-concertado-sanvital",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Concertado 'Sanvital'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bb5c895bab834210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5438217-centro-dia-concertado-sanvital/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "CALLE ROSALIA DE CASTRO 80"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5438217-centro-dia-concertado-sanvital/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7337736098964642 40.48346692636297)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5438217-centro-dia-concertado-sanvital/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48346692636297,
+        "longitude" : -3.7337736098964642
+	  }
+
+    },
+	{
+      "id" : "4563830",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4563830-centro-dia-municipal-acuario",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Acuario'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4ce04d4adb222110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4563830-centro-dia-municipal-acuario/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "CALLE ACUARIO 27"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4563830-centro-dia-municipal-acuario/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5796914517468617 40.474801968086524)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4563830-centro-dia-municipal-acuario/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.474801968086524,
+        "longitude" : -3.5796914517468617
+	  }
+
+    },
+	{
+      "id" : "115892",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/115892-centro-dia-municipal-almorox",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Almorox'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6d9a8899fc81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/115892-centro-dia-municipal-almorox/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE ALMOROX 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/115892-centro-dia-municipal-almorox/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7119816320051995 40.463369121522504)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/115892-centro-dia-municipal-almorox/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.463369121522504,
+        "longitude" : -3.7119816320051995
+	  }
+
+    },
+	{
+      "id" : "96764",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/96764-centro-dia-municipal-arganzuela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Arganzuela'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9ef677d35f81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/96764-centro-dia-municipal-arganzuela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE CANARIAS 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/96764-centro-dia-municipal-arganzuela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6955325387824014 40.40207279862862)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/96764-centro-dia-municipal-arganzuela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40207279862862,
+        "longitude" : -3.6955325387824014
+	  }
+
+    },
+	{
+      "id" : "11774",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11774-centro-dia-municipal-ascao",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Ascao'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a7a6d4985261c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11774-centro-dia-municipal-ascao/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "CALLE ASCAO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11774-centro-dia-municipal-ascao/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6399224619608535 40.43074546065829)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11774-centro-dia-municipal-ascao/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43074546065829,
+        "longitude" : -3.6399224619608535
+	  }
+
+    },
+	{
+      "id" : "4572630",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4572630-centro-dia-municipal-aurora-villa",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Aurora Villa'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=40599fb186072110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4572630-centro-dia-municipal-aurora-villa/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE MERCEDES ARTEAGA 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4572630-centro-dia-municipal-aurora-villa/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.721534053950492 40.393724223671555)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4572630-centro-dia-municipal-aurora-villa/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.393724223671555,
+        "longitude" : -3.721534053950492
+	  }
+
+    },
+	{
+      "id" : "91397",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91397-centro-dia-municipal-canal-panama",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Canal de Panamá'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ab9138d60b41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91397-centro-dia-municipal-canal-panama/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "CALLE CANAL DE PANAMA 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91397-centro-dia-municipal-canal-panama/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.651155675752811 40.44030437921839)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91397-centro-dia-municipal-canal-panama/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44030437921839,
+        "longitude" : -3.651155675752811
+	  }
+
+    },
+	{
+      "id" : "122328",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122328-centro-dia-municipal-casa-campo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Casa de Campo'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=87b98899fc81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122328-centro-dia-municipal-casa-campo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "CALLE PRINCIPAL DE PROVINCIAS 21"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122328-centro-dia-municipal-casa-campo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.736633830449523 40.41263811665935)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122328-centro-dia-municipal-casa-campo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41263811665935,
+        "longitude" : -3.736633830449523
+	  }
+
+    },
+	{
+      "id" : "91383",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91383-centro-dia-municipal-casino-reina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Casino de la Reina'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f1c138d60b41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91383-centro-dia-municipal-casino-reina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE CASINO 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91383-centro-dia-municipal-casino-reina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.705643094864955 40.4065430951499)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/91383-centro-dia-municipal-casino-reina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4065430951499,
+        "longitude" : -3.705643094864955
+	  }
+
+    },
+	{
+      "id" : "122316",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122316-centro-dia-municipal-ciudad-pegaso",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Ciudad Pegaso'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ddd98899fc81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122316-centro-dia-municipal-ciudad-pegaso/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "AVENIDA QUINTA 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122316-centro-dia-municipal-ciudad-pegaso/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5962132255605614 40.447438655156404)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122316-centro-dia-municipal-ciudad-pegaso/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.447438655156404,
+        "longitude" : -3.5962132255605614
+	  }
+
+    },
+	{
+      "id" : "11781",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11781-centro-dia-municipal-concepcion-arenal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Concepción Arenal'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=44f6d4985261c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11781-centro-dia-municipal-concepcion-arenal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE JAVIER DEL QUINTO 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11781-centro-dia-municipal-concepcion-arenal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6422084742926653 40.46655261519155)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11781-centro-dia-municipal-concepcion-arenal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46655261519155,
+        "longitude" : -3.6422084742926653
+	  }
+
+    },
+	{
+      "id" : "116780",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/116780-centro-dia-municipal-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'El Pardo'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eb590a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/116780-centro-dia-municipal-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28048",
+		"street-address" : "CALLE GENERAL URRUTIA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/116780-centro-dia-municipal-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7746186974995117 40.51512789839167)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/116780-centro-dia-municipal-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.51512789839167,
+        "longitude" : -3.7746186974995117
+	  }
+
+    },
+	{
+      "id" : "11772",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11772-centro-dia-municipal-entrevias",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Entrevías'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e047d4985261c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11772-centro-dia-municipal-entrevias/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE YUSTE 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11772-centro-dia-municipal-entrevias/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6692821142332264 40.37641666740886)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11772-centro-dia-municipal-entrevias/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37641666740886,
+        "longitude" : -3.6692821142332264
+	  }
+
+    },
+	{
+      "id" : "11767",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11767-centro-dia-municipal-escuelas-san-anton",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Escuelas de San Antón'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=129aae7cb2e4f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11767-centro-dia-municipal-escuelas-san-anton/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE SANTA BRIGIDA 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11767-centro-dia-municipal-escuelas-san-anton/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699216366809547 40.424393022972225)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11767-centro-dia-municipal-escuelas-san-anton/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.424393022972225,
+        "longitude" : -3.699216366809547
+	  }
+
+    },
+	{
+      "id" : "4567892",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4567892-centro-dia-municipal-esfinge",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Esfinge'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e9f711162242110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4567892-centro-dia-municipal-esfinge/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE ESFINGE 35 PLANTA baja"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4567892-centro-dia-municipal-esfinge/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6108894098812616 40.445551214890436)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4567892-centro-dia-municipal-esfinge/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.445551214890436,
+        "longitude" : -3.6108894098812616
+	  }
+
+    },
+	{
+      "id" : "39259",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/39259-centro-dia-municipal-francisco-goya",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Francisco de Goya'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dfff598d1351c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/39259-centro-dia-municipal-francisco-goya/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE ALFREDO ALEIX 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/39259-centro-dia-municipal-francisco-goya/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7539642790914662 40.368688282089266)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/39259-centro-dia-municipal-francisco-goya/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.368688282089266,
+        "longitude" : -3.7539642790914662
+	  }
+
+    },
+	{
+      "id" : "11780",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11780-centro-dia-municipal-fray-luis-leon",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Fray Luis de León'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3767d4985261c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11780-centro-dia-municipal-fray-luis-leon/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE MANRESA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11780-centro-dia-municipal-fray-luis-leon/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6905565775639646 40.49165208732234)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11780-centro-dia-municipal-fray-luis-leon/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.49165208732234,
+        "longitude" : -3.6905565775639646
+	  }
+
+    },
+	{
+      "id" : "11773",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11773-centro-dia-municipal-fatima-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Fátima de Madrid'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=800866051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11773-centro-dia-municipal-fatima-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CALLE SIERRA DE LOS FILABRES 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11773-centro-dia-municipal-fatima-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6668360432503273 40.39834092743854)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11773-centro-dia-municipal-fatima-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39834092743854,
+        "longitude" : -3.6668360432503273
+	  }
+
+    },
+	{
+      "id" : "134020",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/134020-centro-dia-municipal-gallur",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Gallur'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=037d15a11a81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/134020-centro-dia-municipal-gallur/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE GALLUR 417"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/134020-centro-dia-municipal-gallur/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7413882211857974 40.396940990995056)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/134020-centro-dia-municipal-gallur/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.396940990995056,
+        "longitude" : -3.7413882211857974
+	  }
+
+    },
+	{
+      "id" : "11770",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11770-centro-dia-municipal-jose-manuel-bringas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'José Manuel Bringas'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d3b7d4985261c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11770-centro-dia-municipal-jose-manuel-bringas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE CAMINO VIEJO DE VILLAVERDE 26"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11770-centro-dia-municipal-jose-manuel-bringas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7110473302029954 40.370203377828695)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11770-centro-dia-municipal-jose-manuel-bringas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.370203377828695,
+        "longitude" : -3.7110473302029954
+	  }
+
+    },
+	{
+      "id" : "4576033",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4576033-centro-dia-municipal-jose-villareal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'José Villareal'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=76fb58098b982110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4576033-centro-dia-municipal-jose-villareal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE GUILLERMO DE OSMA 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4576033-centro-dia-municipal-jose-villareal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6977414672784543 40.394590968453905)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4576033-centro-dia-municipal-jose-villareal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.394590968453905,
+        "longitude" : -3.6977414672784543
+	  }
+
+    },
+	{
+      "id" : "4724544",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4724544-centro-dia-municipal-juan-pablo-ii",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Juan Pablo II'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=211a349579187110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4724544-centro-dia-municipal-juan-pablo-ii/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28016",
+		"street-address" : "CALLE PALMITO 1 PLANTA BAJA C/V A MADRE DE DIOS"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4724544-centro-dia-municipal-juan-pablo-ii/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6742781738117163 40.46273936326158)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4724544-centro-dia-municipal-juan-pablo-ii/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46273936326158,
+        "longitude" : -3.6742781738117163
+	  }
+
+    },
+	{
+      "id" : "11768",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11768-centro-dia-municipal-guindalera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'La Guindalera'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=760b3d232e91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11768-centro-dia-municipal-guindalera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE PILAR DE ZARAGOZA 28"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11768-centro-dia-municipal-guindalera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6691167784691703 40.43349910050292)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11768-centro-dia-municipal-guindalera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43349910050292,
+        "longitude" : -3.6691167784691703
+	  }
+
+    },
+	{
+      "id" : "187785",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/187785-centro-dia-municipal-remonta",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'La Remonta'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee22c7202677f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/187785-centro-dia-municipal-remonta/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "PLAZA REMONTA 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/187785-centro-dia-municipal-remonta/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.697380682148999 40.46350318260671)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/187785-centro-dia-municipal-remonta/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46350318260671,
+        "longitude" : -3.697380682148999
+	  }
+
+    },
+	{
+      "id" : "114377",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/114377-centro-dia-municipal-leneros",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Leñeros'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7a2a8899fc81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/114377-centro-dia-municipal-leneros/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE LEÑEROS 25 PLANTA 2ª y 3ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/114377-centro-dia-municipal-leneros/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7093713617566357 40.45406088024461)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/114377-centro-dia-municipal-leneros/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45406088024461,
+        "longitude" : -3.7093713617566357
+	  }
+
+    },
+	{
+      "id" : "4596681",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4596681-centro-dia-municipal-luis-peidro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Luis Peidró'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b87907d8b923110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4596681-centro-dia-municipal-luis-peidro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "CALLE LUIS PEIDRO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4596681-centro-dia-municipal-luis-peidro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6735395596361586 40.39701377469427)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4596681-centro-dia-municipal-luis-peidro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39701377469427,
+        "longitude" : -3.6735395596361586
+	  }
+
+    },
+	{
+      "id" : "5439859",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5439859-centro-dia-municipal-miguel-delibes",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Miguel Delibes'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bed22f513bd44210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5439859-centro-dia-municipal-miguel-delibes/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "AVENIDA FELICIDAD 24"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5439859-centro-dia-municipal-miguel-delibes/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.688763441324268 40.35879755119779)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5439859-centro-dia-municipal-miguel-delibes/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.35879755119779,
+        "longitude" : -3.688763441324268
+	  }
+
+    },
+	{
+      "id" : "5423852",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5423852-centro-dia-municipal-mora-rubielos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Mora de Rubielos'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e4c168375b6e3210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5423852-centro-dia-municipal-mora-rubielos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "PLAZA VILLA DE CANILLEJAS 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5423852-centro-dia-municipal-mora-rubielos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.611040332969437 40.44528915549158)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5423852-centro-dia-municipal-mora-rubielos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44528915549158,
+        "longitude" : -3.611040332969437
+	  }
+
+    },
+	{
+      "id" : "190718",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190718-centro-dia-municipal-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Moratalaz'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=df65c948ff940110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190718-centro-dia-municipal-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE ARROYO BELINCOSO 13 PLANTA 3ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190718-centro-dia-municipal-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.653030570418376 40.40984323076443)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190718-centro-dia-municipal-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40984323076443,
+        "longitude" : -3.653030570418376
+	  }
+
+    },
+	{
+      "id" : "122271",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122271-centro-dia-municipal-orcasur",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Orcasur'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9f24051c8d91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122271-centro-dia-municipal-orcasur/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "AVENIDA ORCASUR 60"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122271-centro-dia-municipal-orcasur/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.700129656851365 40.36805374722897)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/122271-centro-dia-municipal-orcasur/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.36805374722897,
+        "longitude" : -3.700129656851365
+	  }
+
+    },
+	{
+      "id" : "4572725",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4572725-centro-dia-municipal-pablo-casals",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Pablo Casals'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=985ed57431072110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4572725-centro-dia-municipal-pablo-casals/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE POBLADURA DEL VALLE 13 PLANTA BAJA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4572725-centro-dia-municipal-pablo-casals/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6221612539614485 40.427500053220186)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4572725-centro-dia-municipal-pablo-casals/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.427500053220186,
+        "longitude" : -3.6221612539614485
+	  }
+
+    },
+	{
+      "id" : "11771",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11771-centro-dia-municipal-pablo-neruda",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Pablo Neruda'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2ad7d4985261c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11771-centro-dia-municipal-pablo-neruda/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "CALLE GERARDO DIEGO 8 C/V A C/ LOS EXTREMEñOS"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11771-centro-dia-municipal-pablo-neruda/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6444628142076514 40.385179370371446)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11771-centro-dia-municipal-pablo-neruda/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.385179370371446,
+        "longitude" : -3.6444628142076514
+	  }
+
+    },
+	{
+      "id" : "4573114",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4573114-centro-dia-municipal-pamplona",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Pamplona'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=763bdcb32b072110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4573114-centro-dia-municipal-pamplona/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE PAMPLONA 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4573114-centro-dia-municipal-pamplona/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7052961676738767 40.454572302505326)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4573114-centro-dia-municipal-pamplona/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.454572302505326,
+        "longitude" : -3.7052961676738767
+	  }
+
+    },
+	{
+      "id" : "117735",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/117735-centro-dia-municipal-parque-querol",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Parque Querol'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=177a8899fc81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/117735-centro-dia-municipal-parque-querol/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE VELEZ RUBIO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/117735-centro-dia-municipal-parque-querol/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.663900705431897 40.476132715285665)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/117735-centro-dia-municipal-parque-querol/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.476132715285665,
+        "longitude" : -3.663900705431897
+	  }
+
+    },
+	{
+      "id" : "63228",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63228-centro-dia-municipal-penagrande",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Peñagrande'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2620598d1351c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63228-centro-dia-municipal-penagrande/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "CALLE ISLA MALAITA 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63228-centro-dia-municipal-penagrande/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7213821176789006 40.47437383352743)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63228-centro-dia-municipal-penagrande/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47437383352743,
+        "longitude" : -3.7213821176789006
+	  }
+
+    },
+	{
+      "id" : "11782",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11782-centro-dia-municipal-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Retiro'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9a17d4985261c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11782-centro-dia-municipal-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "CALLE JOSE MARTINEZ DE VELASCO 22"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11782-centro-dia-municipal-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.667774590446818 40.41461489944016)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11782-centro-dia-municipal-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41461489944016,
+        "longitude" : -3.667774590446818
+	  }
+
+    },
+	{
+      "id" : "134044",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/134044-centro-dia-municipal-san-vicente-paul",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'San Vicente de Paúl'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=599d15a11a81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/134044-centro-dia-municipal-san-vicente-paul/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE ANTONIA LANCHA 54"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/134044-centro-dia-municipal-san-vicente-paul/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7230547190101255 40.386075026633925)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/134044-centro-dia-municipal-san-vicente-paul/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.386075026633925,
+        "longitude" : -3.7230547190101255
+	  }
+
+    },
+	{
+      "id" : "11779",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11779-centro-dia-municipal-santa-engracia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Santa Engracia'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a2890a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11779-centro-dia-municipal-santa-engracia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE SANTA ENGRACIA 118"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11779-centro-dia-municipal-santa-engracia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.700733879498953 40.439987457420344)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11779-centro-dia-municipal-santa-engracia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.439987457420344,
+        "longitude" : -3.700733879498953
+	  }
+
+    },
+	{
+      "id" : "36624",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36624-centro-dia-municipal-teresa-calcuta",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Teresa de Calcuta'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8c53b3e42751c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36624-centro-dia-municipal-teresa-calcuta/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "PLAZA NAVIO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36624-centro-dia-municipal-teresa-calcuta/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.587638001688095 40.45531140556268)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/36624-centro-dia-municipal-teresa-calcuta/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45531140556268,
+        "longitude" : -3.587638001688095
+	  }
+
+    },
+	{
+      "id" : "134543",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/134543-centro-dia-municipal-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Vicálvaro'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=afbd15a11a81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/134543-centro-dia-municipal-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "AVENIDA DAROCA 342"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/134543-centro-dia-municipal-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.609330588862229 40.403496149688735)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/134543-centro-dia-municipal-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.403496149688735,
+        "longitude" : -3.609330588862229
+	  }
+
+    },
+	{
+      "id" : "23709",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/23709-centro-dia-municipal-villa-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal 'Villa de Vallecas'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9ebfe35bba51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/23709-centro-dia-municipal-villa-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE FUENTIDUEÑA 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/23709-centro-dia-municipal-villa-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6219089216132527 40.3706360093767)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/23709-centro-dia-municipal-villa-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3706360093767,
+        "longitude" : -3.6219089216132527
+	  }
+
+    },
+	{
+      "id" : "5418184",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5418184-centro-dia-municipal-alzheimer-almorox",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'Almorox'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1632c1b3302c3210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5418184-centro-dia-municipal-alzheimer-almorox/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE ALMOROX 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5418184-centro-dia-municipal-alzheimer-almorox/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.711969837673185 40.463369194172294)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5418184-centro-dia-municipal-alzheimer-almorox/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.463369194172294,
+        "longitude" : -3.711969837673185
+	  }
+
+    },
+	{
+      "id" : "5420397",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5420397-centro-dia-municipal-alzheimer-aurora-villa",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'Aurora Villa'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9823c76e62cc3210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5420397-centro-dia-municipal-alzheimer-aurora-villa/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE MERCEDES ARTEAGA 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5420397-centro-dia-municipal-alzheimer-aurora-villa/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.721534053950492 40.393724223671555)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5420397-centro-dia-municipal-alzheimer-aurora-villa/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.393724223671555,
+        "longitude" : -3.721534053950492
+	  }
+
+    },
+	{
+      "id" : "4564016",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4564016-centro-dia-municipal-alzheimer-carmen-conde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'Carmen Conde'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=39c1a2d7fe222110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4564016-centro-dia-municipal-alzheimer-carmen-conde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE AVE MARIA 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4564016-centro-dia-municipal-alzheimer-carmen-conde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.700312140810963 40.41183679549594)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4564016-centro-dia-municipal-alzheimer-carmen-conde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41183679549594,
+        "longitude" : -3.700312140810963
+	  }
+
+    },
+	{
+      "id" : "4563721",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4563721-centro-dia-municipal-alzheimer-carmen-laforet",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'Carmen Laforet'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=42b0fca4c9222110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4563721-centro-dia-municipal-alzheimer-carmen-laforet/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE DALIA 11 con vuelta a C/ Jazmin"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4563721-centro-dia-municipal-alzheimer-carmen-laforet/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.666981869808204 40.479916756373086)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4563721-centro-dia-municipal-alzheimer-carmen-laforet/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.479916756373086,
+        "longitude" : -3.666981869808204
+	  }
+
+    },
+	{
+      "id" : "173589",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173589-centro-dia-municipal-alzheimer-castillo-ucles",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'Castillo de Uclés'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d4b1085f5181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173589-centro-dia-municipal-alzheimer-castillo-ucles/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE CASTILLO DE UCLES 35 PLANTA 1ª ESQUINA VIRGEN DE LA OLIVA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173589-centro-dia-municipal-alzheimer-castillo-ucles/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6232433423754538 40.43106180744466)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/173589-centro-dia-municipal-alzheimer-castillo-ucles/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43106180744466,
+        "longitude" : -3.6232433423754538
+	  }
+
+    },
+	{
+      "id" : "5423893",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5423893-centro-dia-municipal-alzheimer-ciudad-pegaso",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'Ciudad Pegaso'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7d8ac2287c6e3210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5423893-centro-dia-municipal-alzheimer-ciudad-pegaso/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "AVENIDA QUINTA 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5423893-centro-dia-municipal-alzheimer-ciudad-pegaso/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5962132255605614 40.447438655156404)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5423893-centro-dia-municipal-alzheimer-ciudad-pegaso/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.447438655156404,
+        "longitude" : -3.5962132255605614
+	  }
+
+    },
+	{
+      "id" : "5423948",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5423948-centro-dia-municipal-alzheimer-esfinge",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'Esfinge'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3f8873823f6e3210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5423948-centro-dia-municipal-alzheimer-esfinge/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE ESFINGE 35 PLANTA baja"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5423948-centro-dia-municipal-alzheimer-esfinge/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6108894098812616 40.445551214890436)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5423948-centro-dia-municipal-alzheimer-esfinge/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.445551214890436,
+        "longitude" : -3.6108894098812616
+	  }
+
+    },
+	{
+      "id" : "10047444",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10047444-centro-dia-municipal-alzheimer-fatima-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'Fátima de Madrid'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0cdd458845334510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10047444-centro-dia-municipal-alzheimer-fatima-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CALLE SIERRA DE LOS FILABRES 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10047444-centro-dia-municipal-alzheimer-fatima-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6668360432503273 40.39834092743854)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10047444-centro-dia-municipal-alzheimer-fatima-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39834092743854,
+        "longitude" : -3.6668360432503273
+	  }
+
+    },
+	{
+      "id" : "5439294",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5439294-centro-dia-municipal-alzheimer-isaac-rabin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'Isaac Rabin'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=668e305442d44210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5439294-centro-dia-municipal-alzheimer-isaac-rabin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "AVENIDA MORATALAZ 134"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5439294-centro-dia-municipal-alzheimer-isaac-rabin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6466819181608603 40.406554566008076)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5439294-centro-dia-municipal-alzheimer-isaac-rabin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.406554566008076,
+        "longitude" : -3.6466819181608603
+	  }
+
+    },
+	{
+      "id" : "67158",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/67158-centro-dia-municipal-alzheimer-jazmin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'Jazmín'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=279068540e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/67158-centro-dia-municipal-alzheimer-jazmin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE JAZMÍN 48 PLANTA BAJA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/67158-centro-dia-municipal-alzheimer-jazmin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6655883599552794 40.47978064651559)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/67158-centro-dia-municipal-alzheimer-jazmin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47978064651559,
+        "longitude" : -3.6655883599552794
+	  }
+
+    },
+	{
+      "id" : "5416286",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5416286-centro-dia-municipal-alzheimer-jose-villareal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'José Villareal'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5e5dcbfc3b7b3210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5416286-centro-dia-municipal-alzheimer-jose-villareal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE GUILLERMO DE OSMA 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5416286-centro-dia-municipal-alzheimer-jose-villareal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6977414672784543 40.394590968453905)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5416286-centro-dia-municipal-alzheimer-jose-villareal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.394590968453905,
+        "longitude" : -3.6977414672784543
+	  }
+
+    },
+	{
+      "id" : "4961354",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4961354-centro-dia-municipal-alzheimer-magdalena",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'La Magdalena'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0b999b221ca2b110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4961354-centro-dia-municipal-alzheimer-magdalena/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE MONSEÑOR OSCAR ROMERO 75"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4961354-centro-dia-municipal-alzheimer-magdalena/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.749557129336097 40.3823296679393)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4961354-centro-dia-municipal-alzheimer-magdalena/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3823296679393,
+        "longitude" : -3.749557129336097
+	  }
+
+    },
+	{
+      "id" : "5417178",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5417178-centro-dia-municipal-alzheimer-leneros",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'Leñeros'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e4225438eacb3210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5417178-centro-dia-municipal-alzheimer-leneros/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE LEÑEROS 25"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5417178-centro-dia-municipal-alzheimer-leneros/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7093713617566357 40.45406088024461)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5417178-centro-dia-municipal-alzheimer-leneros/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45406088024461,
+        "longitude" : -3.7093713617566357
+	  }
+
+    },
+	{
+      "id" : "4653332",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4653332-centro-dia-municipal-alzheimer-loyola-palacio",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'Loyola de Palacio'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c918fa6773b45110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4653332-centro-dia-municipal-alzheimer-loyola-palacio/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE SILVINA 16 PLANTA BAJA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4653332-centro-dia-municipal-alzheimer-loyola-palacio/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.691758695831246 40.36609508795193)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4653332-centro-dia-municipal-alzheimer-loyola-palacio/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.36609508795193,
+        "longitude" : -3.691758695831246
+	  }
+
+    },
+	{
+      "id" : "5416733",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5416733-centro-dia-municipal-alzheimer-luis-peidro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'Luis Peidró'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=06b5a6eae18b3210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5416733-centro-dia-municipal-alzheimer-luis-peidro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "CALLE LUIS PEIDRO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5416733-centro-dia-municipal-alzheimer-luis-peidro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6735395596361586 40.39701377469427)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5416733-centro-dia-municipal-alzheimer-luis-peidro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39701377469427,
+        "longitude" : -3.6735395596361586
+	  }
+
+    },
+	{
+      "id" : "4557784",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4557784-centro-dia-municipal-alzheimer-margarita-retuerto",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'Margarita Retuerto'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dc182eb6daae1110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4557784-centro-dia-municipal-alzheimer-margarita-retuerto/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE FRANCISCO ALTIMIRAS 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4557784-centro-dia-municipal-alzheimer-margarita-retuerto/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6637111034337244 40.43409783062514)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4557784-centro-dia-municipal-alzheimer-margarita-retuerto/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43409783062514,
+        "longitude" : -3.6637111034337244
+	  }
+
+    },
+	{
+      "id" : "10255310",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10255310-centro-dia-municipal-alzheimer-miguel-delibes",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'Miguel Delibes'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f42426b36530a510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10255310-centro-dia-municipal-alzheimer-miguel-delibes/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "AVENIDA FELICIDAD 24"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10255310-centro-dia-municipal-alzheimer-miguel-delibes/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.688763441324268 40.35879755119779)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10255310-centro-dia-municipal-alzheimer-miguel-delibes/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.35879755119779,
+        "longitude" : -3.688763441324268
+	  }
+
+    },
+	{
+      "id" : "10047540",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10047540-centro-dia-municipal-alzheimer-nicanor-barroso",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'Nicanor Barroso'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=378cf0e738334510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10047540-centro-dia-municipal-alzheimer-nicanor-barroso/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE ENCOMIENDA DE PALACIOS 190 PLANTA 3ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10047540-centro-dia-municipal-alzheimer-nicanor-barroso/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6420364042780338 40.398886698528045)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10047540-centro-dia-municipal-alzheimer-nicanor-barroso/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.398886698528045,
+        "longitude" : -3.6420364042780338
+	  }
+
+    },
+	{
+      "id" : "5423929",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5423929-centro-dia-municipal-alzheimer-pablo-casals",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'Pablo Casals'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1d08163b8d6e3210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5423929-centro-dia-municipal-alzheimer-pablo-casals/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE POBLADURA DEL VALLE 13 PLANTA BAJA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5423929-centro-dia-municipal-alzheimer-pablo-casals/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6221612539614485 40.427500053220186)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5423929-centro-dia-municipal-alzheimer-pablo-casals/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.427500053220186,
+        "longitude" : -3.6221612539614485
+	  }
+
+    },
+	{
+      "id" : "5417626",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5417626-centro-dia-municipal-alzheimer-pamplona",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'Pamplona'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b3a8b4bbd5db3210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5417626-centro-dia-municipal-alzheimer-pamplona/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE PAMPLONA 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5417626-centro-dia-municipal-alzheimer-pamplona/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7052961676738767 40.454572302505326)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5417626-centro-dia-municipal-alzheimer-pamplona/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.454572302505326,
+        "longitude" : -3.7052961676738767
+	  }
+
+    },
+	{
+      "id" : "5439280",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5439280-centro-dia-municipal-alzheimer-san-crispin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'San Crispín'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f50c305442d44210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5439280-centro-dia-municipal-alzheimer-san-crispin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "CALLE OBERTURA 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5439280-centro-dia-municipal-alzheimer-san-crispin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.726380575865842 40.414901194300604)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5439280-centro-dia-municipal-alzheimer-san-crispin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.414901194300604,
+        "longitude" : -3.726380575865842
+	  }
+
+    },
+	{
+      "id" : "4998057",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4998057-centro-dia-municipal-alzheimer-vocal-vecino-justo-sierra",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día Municipal de Alzheimer 'Vocal Vecino Justo Sierra'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=abb6ff4092dac110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4998057-centro-dia-municipal-alzheimer-vocal-vecino-justo-sierra/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE FERMIN CABALLERO 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4998057-centro-dia-municipal-alzheimer-vocal-vecino-justo-sierra/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7014132625735168 40.48604621183578)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4998057-centro-dia-municipal-alzheimer-vocal-vecino-justo-sierra/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48604621183578,
+        "longitude" : -3.7014132625735168
+	  }
+
+    },
+	{
+      "id" : "188403",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/188403-centro-dia-alzheimer-inicio-temprano-doctor-salgado-alba",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialMayores/CentrosDiaMayores",
+      "title" : "Centro de Día de Alzheimer de Inicio Temprano 'Doctor Salgado Alba'",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cd0a654d9d91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/188403-centro-dia-alzheimer-inicio-temprano-doctor-salgado-alba/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE GENERAL RICARDOS 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/188403-centro-dia-alzheimer-inicio-temprano-doctor-salgado-alba/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.717855298759602 40.396819213992465)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/188403-centro-dia-alzheimer-inicio-temprano-doctor-salgado-alba/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.396819213992465,
+        "longitude" : -3.717855298759602
+	  }
+
+    }
+  ]
+}

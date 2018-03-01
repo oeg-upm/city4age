@@ -1,0 +1,1595 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "6430067",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6430067-bibliobus-numero-10-recorrido-semanal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Bibliobuses",
+      "title" : "Bibliobús número 10. Recorrido semanal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=734a6e6b06637310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6430067-bibliobus-numero-10-recorrido-semanal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "",
+		"street-address" : "Servicio itinerante "
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6430067-bibliobus-numero-10-recorrido-semanal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : null
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6430067-bibliobus-numero-10-recorrido-semanal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : null,
+        "longitude" : null
+	  }
+
+    },
+	{
+      "id" : "6431159",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6431159-bibliobus-numero-11-recorrido-semanal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Bibliobuses",
+      "title" : "Bibliobús número 11. Recorrido semanal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1d69b5f1cea37310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6431159-bibliobus-numero-11-recorrido-semanal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "",
+		"street-address" : "Servicio itinerante "
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6431159-bibliobus-numero-11-recorrido-semanal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : null
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6431159-bibliobus-numero-11-recorrido-semanal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : null,
+        "longitude" : null
+	  }
+
+    },
+	{
+      "id" : "6432104",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6432104-bibliobus-numero-12-recorrido-semanal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Bibliobuses",
+      "title" : "Bibliobús número 12. Recorrido semanal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7a70ded3cbb37310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6432104-bibliobus-numero-12-recorrido-semanal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "",
+		"street-address" : "Servicio itinerante "
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6432104-bibliobus-numero-12-recorrido-semanal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : null
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6432104-bibliobus-numero-12-recorrido-semanal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : null,
+        "longitude" : null
+	  }
+
+    },
+	{
+      "id" : "6435986",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6435986-bibliobus-numero-13-recorrido-semanal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Bibliobuses",
+      "title" : "Bibliobús número 13. Recorrido semanal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=18cc33935b957310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6435986-bibliobus-numero-13-recorrido-semanal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "",
+		"street-address" : "Servicio itinerante "
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6435986-bibliobus-numero-13-recorrido-semanal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : null
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6435986-bibliobus-numero-13-recorrido-semanal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : null,
+        "longitude" : null
+	  }
+
+    },
+	{
+      "id" : "7110421",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7110421-bibliobus-numero-2-recorrido-quincenal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Bibliobuses",
+      "title" : "Bibliobús número 2. Recorrido quincenal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=88626db26d531410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7110421-bibliobus-numero-2-recorrido-quincenal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "",
+		"street-address" : "Servicio itinerante "
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7110421-bibliobus-numero-2-recorrido-quincenal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : null
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7110421-bibliobus-numero-2-recorrido-quincenal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : null,
+        "longitude" : null
+	  }
+
+    },
+	{
+      "id" : "6427915",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6427915-bibliobus-numero-6-recorrido-semanal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Bibliobuses",
+      "title" : "Bibliobús número 6. Recorrido semanal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a92128420e037310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6427915-bibliobus-numero-6-recorrido-semanal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "",
+		"street-address" : "Servicio itinerante "
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6427915-bibliobus-numero-6-recorrido-semanal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : null
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6427915-bibliobus-numero-6-recorrido-semanal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : null,
+        "longitude" : null
+	  }
+
+    },
+	{
+      "id" : "6429143",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6429143-bibliobus-numero-9-recorrido-semanal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Bibliobuses",
+      "title" : "Bibliobús número 9. Recorrido semanal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a60438972b537310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6429143-bibliobus-numero-9-recorrido-semanal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "",
+		"street-address" : "Servicio itinerante "
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6429143-bibliobus-numero-9-recorrido-semanal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : null
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6429143-bibliobus-numero-9-recorrido-semanal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : null,
+        "longitude" : null
+	  }
+
+    },
+	{
+      "id" : "1771",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1771-biblioteca-publica-acuna",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Acuña",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e9ad995a8bf5d010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1771-biblioteca-publica-acuna/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE QUINTANA 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1771-biblioteca-publica-acuna/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7169600607379985 40.427942010682415)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1771-biblioteca-publica-acuna/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.427942010682415,
+        "longitude" : -3.7169600607379985
+	  }
+
+    },
+	{
+      "id" : "1767",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1767-biblioteca-publica-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Canillejas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a8cd995a8bf5d010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1767-biblioteca-publica-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE MUSAS 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1767-biblioteca-publica-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6083782410803944 40.43776263645119)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1767-biblioteca-publica-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43776263645119,
+        "longitude" : -3.6083782410803944
+	  }
+
+    },
+	{
+      "id" : "5765642",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5765642-biblioteca-publica-carabanchel-luis-rosales",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Carabanchel Luis Rosales",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7a73f884ad3f9210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5765642-biblioteca-publica-carabanchel-luis-rosales/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE ANTONIA RODRIGUEZ SACRISTAN 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5765642-biblioteca-publica-carabanchel-luis-rosales/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7480802097487653 40.373420234648606)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5765642-biblioteca-publica-carabanchel-luis-rosales/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.373420234648606,
+        "longitude" : -3.7480802097487653
+	  }
+
+    },
+	{
+      "id" : "1798",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1798-biblioteca-publica-centro-pedro-salinas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Centro Pedro Salinas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=67ed995a8bf5d010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1798-biblioteca-publica-centro-pedro-salinas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "GLORIETA PUERTA DE TOLEDO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1798-biblioteca-publica-centro-pedro-salinas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.711046518464516 40.40709558029403)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1798-biblioteca-publica-centro-pedro-salinas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40709558029403,
+        "longitude" : -3.711046518464516
+	  }
+
+    },
+	{
+      "id" : "1764",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1764-biblioteca-publica-chamberi-jose-luis-sampedro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Chamberí José Luis Sampedro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5a2279262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1764-biblioteca-publica-chamberi-jose-luis-sampedro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE FELIPE EL HERMOSO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1764-biblioteca-publica-chamberi-jose-luis-sampedro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6996132452669075 40.43539063992494)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1764-biblioteca-publica-chamberi-jose-luis-sampedro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43539063992494,
+        "longitude" : -3.6996132452669075
+	  }
+
+    },
+	{
+      "id" : "1774",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1774-biblioteca-publica-elena-fortun-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Elena Fortún (Retiro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=44213d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1774-biblioteca-publica-elena-fortun-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "CALLE DOCTOR ESQUERDO 189"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1774-biblioteca-publica-elena-fortun-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.672414651864732 40.40356992125351)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1774-biblioteca-publica-elena-fortun-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40356992125351,
+        "longitude" : -3.672414651864732
+	  }
+
+    },
+	{
+      "id" : "66904",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/66904-biblioteca-publica-fuencarral-pardo-rafael-alberti",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Fuencarral - El Pardo. Rafael Alberti",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=260e995a8bf5d010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/66904-biblioteca-publica-fuencarral-pardo-rafael-alberti/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE SANGENJO 38"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/66904-biblioteca-publica-fuencarral-pardo-rafael-alberti/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6984002338920092 40.48791129077104)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/66904-biblioteca-publica-fuencarral-pardo-rafael-alberti/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48791129077104,
+        "longitude" : -3.6984002338920092
+	  }
+
+    },
+	{
+      "id" : "1770",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1770-biblioteca-publica-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Hortaleza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e42e995a8bf5d010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1770-biblioteca-publica-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE ABERTURA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1770-biblioteca-publica-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6496247031818596 40.47723185032398)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1770-biblioteca-publica-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47723185032398,
+        "longitude" : -3.6496247031818596
+	  }
+
+    },
+	{
+      "id" : "25526",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25526-biblioteca-publica-latina-antonio-mingote",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Latina - Antonio Mingote",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c73e995a8bf5d010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25526-biblioteca-publica-latina-antonio-mingote/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE RAFAEL FINAT 51"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25526-biblioteca-publica-latina-antonio-mingote/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.769445829090458 40.37944226151668)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/25526-biblioteca-publica-latina-antonio-mingote/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37944226151668,
+        "longitude" : -3.769445829090458
+	  }
+
+    },
+	{
+      "id" : "1773",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1773-biblioteca-publica-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Moratalaz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=457e995a8bf5d010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1773-biblioteca-publica-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE CORREGIDOR ALONSO DE TOBAR 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1773-biblioteca-publica-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.649450874958104 40.404043531769375)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1773-biblioteca-publica-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.404043531769375,
+        "longitude" : -3.649450874958104
+	  }
+
+    },
+	{
+      "id" : "1757",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1757-biblioteca-publica-municipal-aluche-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Aluche (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7f0e3d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1757-biblioteca-publica-municipal-aluche-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE CAMARENA 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1757-biblioteca-publica-municipal-aluche-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7562716852987847 40.39597072367931)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1757-biblioteca-publica-municipal-aluche-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39597072367931,
+        "longitude" : -3.7562716852987847
+	  }
+
+    },
+	{
+      "id" : "1755",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1755-biblioteca-publica-municipal-ana-maria-matute-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Ana María Matute (Carabanchel)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=628e3d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1755-biblioteca-publica-municipal-ana-maria-matute-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE DE LOS COMUNEROS DE CASTILLA 30"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1755-biblioteca-publica-municipal-ana-maria-matute-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7207386328562357 40.3975850662447)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1755-biblioteca-publica-municipal-ana-maria-matute-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3975850662447,
+        "longitude" : -3.7207386328562357
+	  }
+
+    },
+	{
+      "id" : "1762",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1762-biblioteca-publica-municipal-buenavista-salamanca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Buenavista (Salamanca)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c53e3d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1762-biblioteca-publica-municipal-buenavista-salamanca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "AVENIDA TOREROS 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1762-biblioteca-publica-municipal-buenavista-salamanca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.670929243543714 40.43199309720514)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1762-biblioteca-publica-municipal-buenavista-salamanca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43199309720514,
+        "longitude" : -3.670929243543714
+	  }
+
+    },
+	{
+      "id" : "1745",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1745-biblioteca-publica-municipal-canillejas-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Canillejas (San Blas-Canillejas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eb9e995a8bf5d010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1745-biblioteca-publica-municipal-canillejas-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE BOLTAÑA 23 EN CENTRO CULTURAL BUERO VALLEJO"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1745-biblioteca-publica-municipal-canillejas-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6117933204271098 40.44640229188281)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1745-biblioteca-publica-municipal-canillejas-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44640229188281,
+        "longitude" : -3.6117933204271098
+	  }
+
+    },
+	{
+      "id" : "1794",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1794-biblioteca-publica-municipal-ciudad-lineal-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Ciudad Lineal (Ciudad Lineal)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=82ce995a8bf5d010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1794-biblioteca-publica-municipal-ciudad-lineal-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "AVENIDA INSTITUCIÓN LIBRE DE ENSEÑANZA (ANTIGUA CALLE HERMANOS GARCÍA NOBLEJAS) 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1794-biblioteca-publica-municipal-ciudad-lineal-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.637346971302506 40.43641736294729)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1794-biblioteca-publica-municipal-ciudad-lineal-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43641736294729,
+        "longitude" : -3.637346971302506
+	  }
+
+    },
+	{
+      "id" : "1882",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1882-biblioteca-publica-municipal-conde-duque-centro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Conde Duque (Centro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=13ec3d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1882-biblioteca-publica-municipal-conde-duque-centro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE CONDE DUQUE 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1882-biblioteca-publica-municipal-conde-duque-centro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7105999955473625 40.42738668300474)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1882-biblioteca-publica-municipal-conde-duque-centro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42738668300474,
+        "longitude" : -3.7105999955473625
+	  }
+
+    },
+	{
+      "id" : "51188",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51188-biblioteca-publica-municipal-damaso-alonso-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Dámaso Alonso (Chamartín)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5870007f8441f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51188-biblioteca-publica-municipal-damaso-alonso-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28036",
+		"street-address" : "CALLE MANUEL FERRERO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51188-biblioteca-publica-municipal-damaso-alonso-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6846112774442705 40.467453379213175)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51188-biblioteca-publica-municipal-damaso-alonso-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.467453379213175,
+        "longitude" : -3.6846112774442705
+	  }
+
+    },
+	{
+      "id" : "6893633",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6893633-biblioteca-publica-municipal-eugenio-trias-casa-fieras-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Eugenio Trías. Casa de Fieras de El Retiro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e791bed05ceed310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6893633-biblioteca-publica-municipal-eugenio-trias-casa-fieras-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "PASEO FERNAN NUÑEZ 24"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6893633-biblioteca-publica-municipal-eugenio-trias-casa-fieras-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6795930368034804 40.4166091081099)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6893633-biblioteca-publica-municipal-eugenio-trias-casa-fieras-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4166091081099,
+        "longitude" : -3.6795930368034804
+	  }
+
+    },
+	{
+      "id" : "167128",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/167128-biblioteca-publica-municipal-francisco-ayala-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Francisco Ayala (Vicálvaro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f05279262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/167128-biblioteca-publica-municipal-francisco-ayala-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "BULEVAR INDALECIO PRIETO 21"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/167128-biblioteca-publica-municipal-francisco-ayala-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.621281890570377 40.39982891410407)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/167128-biblioteca-publica-municipal-francisco-ayala-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39982891410407,
+        "longitude" : -3.621281890570377
+	  }
+
+    },
+	{
+      "id" : "1760",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1760-biblioteca-publica-municipal-francisco-ibanez-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Francisco Ibáñez (Chamartín)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0fce3d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1760-biblioteca-publica-municipal-francisco-ibanez-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE MANTUANO 51"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1760-biblioteca-publica-municipal-francisco-ibanez-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6762309620097398 40.44810636195716)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1760-biblioteca-publica-municipal-francisco-ibanez-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44810636195716,
+        "longitude" : -3.6762309620097398
+	  }
+
+    },
+	{
+      "id" : "1754",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1754-biblioteca-publica-municipal-gabriel-garcia-marquez-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Gabriel García Márquez (Usera)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e4bf3d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1754-biblioteca-publica-municipal-gabriel-garcia-marquez-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "PLAZA PUEBLO 2 CENTRO CULTURAL ORCASUR"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1754-biblioteca-publica-municipal-gabriel-garcia-marquez-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.701141063083806 40.366768324753416)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1754-biblioteca-publica-municipal-gabriel-garcia-marquez-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.366768324753416,
+        "longitude" : -3.701141063083806
+	  }
+
+    },
+	{
+      "id" : "1748",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1748-biblioteca-publica-municipal-gerardo-diego-villa-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Gerardo Diego (Villa de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ca903d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1748-biblioteca-publica-municipal-gerardo-diego-villa-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE MONTE AYA 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1748-biblioteca-publica-municipal-gerardo-diego-villa-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6227296605039516 40.37790196240434)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1748-biblioteca-publica-municipal-gerardo-diego-villa-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37790196240434,
+        "longitude" : -3.6227296605039516
+	  }
+
+    },
+	{
+      "id" : "79941",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/79941-biblioteca-publica-municipal-gloria-fuertes-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Gloria Fuertes (Barajas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1f64c2c6e051c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/79941-biblioteca-publica-municipal-gloria-fuertes-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "AVENIDA LOGROÑO 179"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/79941-biblioteca-publica-municipal-gloria-fuertes-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5937461811785347 40.46055947228695)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/79941-biblioteca-publica-municipal-gloria-fuertes-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46055947228695,
+        "longitude" : -3.5937461811785347
+	  }
+
+    },
+	{
+      "id" : "1750",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1750-biblioteca-publica-municipal-huerta-salud-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Huerta de la Salud (Hortaleza)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9c5879262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1750-biblioteca-publica-municipal-huerta-salud-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE MAR DE LAS ANTILLAS 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1750-biblioteca-publica-municipal-huerta-salud-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.64667257750353 40.47571688103069)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1750-biblioteca-publica-municipal-huerta-salud-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47571688103069,
+        "longitude" : -3.64667257750353
+	  }
+
+    },
+	{
+      "id" : "5975465",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5975465-biblioteca-publica-municipal-ivan-vargas-centro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Iván de Vargas (Centro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0b60e92be3c5e210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5975465-biblioteca-publica-municipal-ivan-vargas-centro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE SAN JUSTO 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5975465-biblioteca-publica-municipal-ivan-vargas-centro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7098591212735883 40.41410290844665)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5975465-biblioteca-publica-municipal-ivan-vargas-centro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41410290844665,
+        "longitude" : -3.7098591212735883
+	  }
+
+    },
+	{
+      "id" : "115056",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/115056-biblioteca-publica-municipal-jose-hierro-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal José Hierro (San Blas-Canillejas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=338879262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/115056-biblioteca-publica-municipal-jose-hierro-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE MARIA SEVILLA DIAGO 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/115056-biblioteca-publica-municipal-jose-hierro-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6105662311927453 40.433291625973624)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/115056-biblioteca-publica-municipal-jose-hierro-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.433291625973624,
+        "longitude" : -3.6105662311927453
+	  }
+
+    },
+	{
+      "id" : "1790",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1790-biblioteca-publica-municipal-jose-saramago-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal José Saramago (Fuencarral-El Pardo)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=70d879262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1790-biblioteca-publica-municipal-jose-saramago-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "AVENIDA MONFORTE DE LEMOS 38"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1790-biblioteca-publica-municipal-jose-saramago-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7094408342979954 40.47860087334554)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1790-biblioteca-publica-municipal-jose-saramago-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47860087334554,
+        "longitude" : -3.7094408342979954
+	  }
+
+    },
+	{
+      "id" : "1756",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1756-biblioteca-publica-municipal-chata-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal La Chata (Carabanchel)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d9a879262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1756-biblioteca-publica-municipal-chata-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE GENERAL RICARDOS 252 Antiguo Mercado de Carabanchel"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1756-biblioteca-publica-municipal-chata-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7420633861175796 40.38330593504341)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1756-biblioteca-publica-municipal-chata-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38330593504341,
+        "longitude" : -3.7420633861175796
+	  }
+
+    },
+	{
+      "id" : "51849",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51849-biblioteca-publica-municipal-elipa-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal La Elipa (Ciudad Lineal)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=697c598d1351c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51849-biblioteca-publica-municipal-elipa-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "CALLE NUESTRA SEÑORA DEL VILLAR 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51849-biblioteca-publica-municipal-elipa-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.651841641389484 40.42342659084215)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51849-biblioteca-publica-municipal-elipa-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42342659084215,
+        "longitude" : -3.651841641389484
+	  }
+
+    },
+	{
+      "id" : "185595",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185595-biblioteca-publica-municipal-manuel-vazquez-montalban-tetuan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Manuel Vázquez Montalbán (Tetuán)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b5ca89e2c9e5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185595-biblioteca-publica-municipal-manuel-vazquez-montalban-tetuan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE FRANCOS RODRIGUEZ 67"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185595-biblioteca-publica-municipal-manuel-vazquez-montalban-tetuan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.710539712535917 40.45749513485957)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185595-biblioteca-publica-municipal-manuel-vazquez-montalban-tetuan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45749513485957,
+        "longitude" : -3.710539712535917
+	  }
+
+    },
+	{
+      "id" : "7697128",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7697128-biblioteca-publica-municipal-mario-vargas-llosa-centro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Mario Vargas Llosa (Centro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6c4dbc2658739410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7697128-biblioteca-publica-municipal-mario-vargas-llosa-centro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE BARCELO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7697128-biblioteca-publica-municipal-mario-vargas-llosa-centro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699722994908341 40.426642215368176)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7697128-biblioteca-publica-municipal-mario-vargas-llosa-centro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.426642215368176,
+        "longitude" : -3.699722994908341
+	  }
+
+    },
+	{
+      "id" : "10395362",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10395362-biblioteca-publica-municipal-maria-lejarraga-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal María Lejárraga (Hortaleza)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d862492de8c8c510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10395362-biblioteca-publica-municipal-maria-lejarraga-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28050",
+		"street-address" : "CALLE PRINCESA DE EBOLI 29"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10395362-biblioteca-publica-municipal-maria-lejarraga-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.655356751728003 40.49041562546542)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10395362-biblioteca-publica-municipal-maria-lejarraga-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.49041562546542,
+        "longitude" : -3.655356751728003
+	  }
+
+    },
+	{
+      "id" : "1759",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1759-biblioteca-publica-municipal-maria-zambrano-tetuan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal María Zambrano (Tetuán)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=74703d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1759-biblioteca-publica-municipal-maria-zambrano-tetuan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "PLAZA DONOSO 5 En el Centro Cultural Eduardo Úrculo"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1759-biblioteca-publica-municipal-maria-zambrano-tetuan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6976620067964996 40.46903299144094)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1759-biblioteca-publica-municipal-maria-zambrano-tetuan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46903299144094,
+        "longitude" : -3.6976620067964996
+	  }
+
+    },
+	{
+      "id" : "1752",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1752-biblioteca-publica-municipal-miguel-delibes-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Miguel Delibes (Moratalaz)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9e8f3d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1752-biblioteca-publica-municipal-miguel-delibes-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE ARROYO BELINCOSO 11 JUNTO A CENTRO CULTURAL EDUARDO CHILLIDA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1752-biblioteca-publica-municipal-miguel-delibes-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6529822109115133 40.40971737692924)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1752-biblioteca-publica-municipal-miguel-delibes-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40971737692924,
+        "longitude" : -3.6529822109115133
+	  }
+
+    },
+	{
+      "id" : "186714",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/186714-biblioteca-publica-municipal-pablo-neruda-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Pablo Neruda (Ciudad Lineal)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d5c548d20675e010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/186714-biblioteca-publica-municipal-pablo-neruda-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "CALLE ASCAO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/186714-biblioteca-publica-municipal-pablo-neruda-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6416899839787695 40.42941133441142)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/186714-biblioteca-publica-municipal-pablo-neruda-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42941133441142,
+        "longitude" : -3.6416899839787695
+	  }
+
+    },
+	{
+      "id" : "1753",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1753-biblioteca-publica-municipal-portazgo-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Portazgo (Puente de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=89a40a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1753-biblioteca-publica-municipal-portazgo-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CALLE CANTALAPIEDRA 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1753-biblioteca-publica-municipal-portazgo-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6554147649183943 40.393189968014696)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1753-biblioteca-publica-municipal-portazgo-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.393189968014696,
+        "longitude" : -3.6554147649183943
+	  }
+
+    },
+	{
+      "id" : "1792",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1792-biblioteca-publica-municipal-pozo-tio-raimundo-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Pozo del Tío Raimundo (Puente de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d7203d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1792-biblioteca-publica-municipal-pozo-tio-raimundo-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "AVENIDA GLORIETAS 19 EN C. CULTURAL POZO TIO RAIMUNDO"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1792-biblioteca-publica-municipal-pozo-tio-raimundo-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6602546064905397 40.3735856436473)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1792-biblioteca-publica-municipal-pozo-tio-raimundo-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3735856436473,
+        "longitude" : -3.6602546064905397
+	  }
+
+    },
+	{
+      "id" : "1763",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1763-biblioteca-publica-municipal-pio-baroja-arganzuela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Pío Baroja (Arganzuela)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=17f879262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1763-biblioteca-publica-municipal-pio-baroja-arganzuela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE ARGANDA 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1763-biblioteca-publica-municipal-pio-baroja-arganzuela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7074488154950584 40.40003652682007)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1763-biblioteca-publica-municipal-pio-baroja-arganzuela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40003652682007,
+        "longitude" : -3.7074488154950584
+	  }
+
+    },
+	{
+      "id" : "1746",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1746-biblioteca-publica-municipal-san-blas-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal San Blas (San Blas-Canillejas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2e403d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1746-biblioteca-publica-municipal-san-blas-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE SAN ROMAN DEL VALLE 8 CENTRO CULTURAL ANTONIO MACHADO"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1746-biblioteca-publica-municipal-san-blas-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6218113860909074 40.420231627534996)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1746-biblioteca-publica-municipal-san-blas-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.420231627534996,
+        "longitude" : -3.6218113860909074
+	  }
+
+    },
+	{
+      "id" : "1761",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1761-biblioteca-publica-municipal-vallecas-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Vallecas (Puente de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=11c03d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1761-biblioteca-publica-municipal-vallecas-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE PUERTO DEL MONASTERIO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1761-biblioteca-publica-municipal-vallecas-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.665554302127492 40.395023959810636)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1761-biblioteca-publica-municipal-vallecas-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.395023959810636,
+        "longitude" : -3.665554302127492
+	  }
+
+    },
+	{
+      "id" : "1747",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1747-biblioteca-publica-municipal-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Vicálvaro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=67e03d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1747-biblioteca-publica-municipal-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "CALLE VILLARDONDIEGO 36 CENTRO CULTURAL EL MADROÑO"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1747-biblioteca-publica-municipal-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6086278232922804 40.405283650744316)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1747-biblioteca-publica-municipal-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.405283650744316,
+        "longitude" : -3.6086278232922804
+	  }
+
+    },
+	{
+      "id" : "5768564",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5768564-biblioteca-publica-municipal-angel-gonzalez-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Ángel González (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ec750a2153ef9210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5768564-biblioteca-publica-municipal-angel-gonzalez-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28024",
+		"street-address" : "CALLE GRANJA DE TORREHERMOSA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5768564-biblioteca-publica-municipal-angel-gonzalez-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7664885474841556 40.397074625115906)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5768564-biblioteca-publica-municipal-angel-gonzalez-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.397074625115906,
+        "longitude" : -3.7664885474841556
+	  }
+
+    },
+	{
+      "id" : "1800",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1800-biblioteca-publica-puente-vallecas-miguel-hernandez",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Puente de Vallecas Miguel Hernández",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=535979262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1800-biblioteca-publica-puente-vallecas-miguel-hernandez/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "AVENIDA RAFAEL ALBERTI 36"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1800-biblioteca-publica-puente-vallecas-miguel-hernandez/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6429247082087737 40.38449423079662)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1800-biblioteca-publica-puente-vallecas-miguel-hernandez/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38449423079662,
+        "longitude" : -3.6429247082087737
+	  }
+
+    },
+	{
+      "id" : "1777",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1777-biblioteca-publica-ruiz-egea",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Ruiz Egea",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b2413d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1777-biblioteca-publica-ruiz-egea/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE RAIMUNDO FERNANDEZ VILLAVERDE 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1777-biblioteca-publica-ruiz-egea/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7028897237155656 40.446595985821794)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1777-biblioteca-publica-ruiz-egea/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.446595985821794,
+        "longitude" : -3.7028897237155656
+	  }
+
+    },
+	{
+      "id" : "1765",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1765-biblioteca-publica-salamanca-manuel-alvar",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Salamanca - Manuel Alvar",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d51979262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1765-biblioteca-publica-salamanca-manuel-alvar/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE AZCONA 42"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1765-biblioteca-publica-salamanca-manuel-alvar/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.66897244650415 40.43440083847048)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1765-biblioteca-publica-salamanca-manuel-alvar/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43440083847048,
+        "longitude" : -3.66897244650415
+	  }
+
+    },
+	{
+      "id" : "123303",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/123303-biblioteca-publica-usera-jose-hierro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Usera - José Hierro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=943979262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/123303-biblioteca-publica-usera-jose-hierro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "AVENIDA RAFAELA YBARRA 43"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/123303-biblioteca-publica-usera-jose-hierro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7106164073640233 40.38188182427109)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/123303-biblioteca-publica-usera-jose-hierro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38188182427109,
+        "longitude" : -3.7106164073640233
+	  }
+
+    },
+	{
+      "id" : "181101",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181101-biblioteca-publica-villa-vallecas-luis-martin-santos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Villa de Vallecas - Luis Martín Santos",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=09ac38d60b41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181101-biblioteca-publica-villa-vallecas-luis-martin-santos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "PLAZA ANTONIO MARIA SEGOVIA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181101-biblioteca-publica-villa-vallecas-luis-martin-santos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.613674447421734 40.38091437280583)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181101-biblioteca-publica-villa-vallecas-luis-martin-santos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38091437280583,
+        "longitude" : -3.613674447421734
+	  }
+
+    },
+	{
+      "id" : "86719",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/86719-biblioteca-publica-villaverde-maria-moliner",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Villaverde - María Moliner",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=127979262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/86719-biblioteca-publica-villaverde-maria-moliner/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE VILLALONSO 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/86719-biblioteca-publica-villaverde-maria-moliner/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.710123586489839 40.34952409541233)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/86719-biblioteca-publica-villaverde-maria-moliner/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.34952409541233,
+        "longitude" : -3.710123586489839
+	  }
+
+    },
+	{
+      "id" : "10318420",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10318420-biblioteca-regional-joaquin-leguina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Regional Joaquín Leguina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=71c2f95a5875b510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10318420-biblioteca-regional-joaquin-leguina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE RAMIREZ DE PRADO 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10318420-biblioteca-regional-joaquin-leguina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.690042467266191 40.39990747999322)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10318420-biblioteca-regional-joaquin-leguina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39990747999322,
+        "longitude" : -3.690042467266191
+	  }
+
+    },
+	{
+      "id" : "1788",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1788-casa-san-cristobal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Casa San Cristobal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dcdb3d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1788-casa-san-cristobal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE ROCAFORT 101"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1788-casa-san-cristobal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.686807481597248 40.34244856729781)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1788-casa-san-cristobal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.34244856729781,
+        "longitude" : -3.686807481597248
+	  }
+
+    },
+	{
+      "id" : "103331",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/103331-centro-social-cultural-casa-encendida",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Centro Social y Cultural La Casa Encendida",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c27f8899fc81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/103331-centro-social-cultural-casa-encendida/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "RONDA VALENCIA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/103331-centro-social-cultural-casa-encendida/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699779793558763 40.40595710517701)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/103331-centro-social-cultural-casa-encendida/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40595710517701,
+        "longitude" : -3.699779793558763
+	  }
+
+    }
+  ]
+}

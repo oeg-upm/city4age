@@ -1,0 +1,596 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "180720",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180720-junta-municipal-distrito-arganzuela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Arganzuela",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3ca05c2cdc41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180720-junta-municipal-distrito-arganzuela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PASEO CHOPERA 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180720-junta-municipal-distrito-arganzuela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.698565632659468 40.3933877847248)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180720-junta-municipal-distrito-arganzuela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3933877847248,
+        "longitude" : -3.698565632659468
+	  }
+
+    },
+	{
+      "id" : "179947",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/179947-junta-municipal-distrito-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Barajas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=82d05c2cdc41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/179947-junta-municipal-distrito-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "PLAZA MERCURIO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/179947-junta-municipal-distrito-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.577768444536064 40.47479357890765)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/179947-junta-municipal-distrito-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47479357890765,
+        "longitude" : -3.577768444536064
+	  }
+
+    },
+	{
+      "id" : "184332",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184332-junta-municipal-distrito-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Carabanchel",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=63688aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184332-junta-municipal-distrito-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "PLAZA CARABANCHEL 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184332-junta-municipal-distrito-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7413135828951924 40.38046387365159)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184332-junta-municipal-distrito-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38046387365159,
+        "longitude" : -3.7413135828951924
+	  }
+
+    },
+	{
+      "id" : "184108",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184108-junta-municipal-distrito-centro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Centro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0ba88aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184108-junta-municipal-distrito-centro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE MAYOR 72"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184108-junta-municipal-distrito-centro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7108053614187186 40.41553854185091)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184108-junta-municipal-distrito-centro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41553854185091,
+        "longitude" : -3.7108053614187186
+	  }
+
+    },
+	{
+      "id" : "182884",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182884-junta-municipal-distrito-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Chamartín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4cd88aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182884-junta-municipal-distrito-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PRINCIPE DE VERGARA 142"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182884-junta-municipal-distrito-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6780972922453685 40.44489723228663)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182884-junta-municipal-distrito-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44489723228663,
+        "longitude" : -3.6780972922453685
+	  }
+
+    },
+	{
+      "id" : "183017",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183017-junta-municipal-distrito-chamberi",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Chamberí",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3fae0a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183017-junta-municipal-distrito-chamberi/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "PLAZA CHAMBERI 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183017-junta-municipal-distrito-chamberi/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6971367503492316 40.43305424706676)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183017-junta-municipal-distrito-chamberi/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43305424706676,
+        "longitude" : -3.6971367503492316
+	  }
+
+    },
+	{
+      "id" : "180085",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180085-junta-municipal-distrito-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Ciudad Lineal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f5de0a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180085-junta-municipal-distrito-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "AVENIDA INSTITUCION LIBRE DE ENSE&Ntilde;ANZA 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180085-junta-municipal-distrito-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.636977491626707 40.43599597484312)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180085-junta-municipal-distrito-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43599597484312,
+        "longitude" : -3.636977491626707
+	  }
+
+    },
+	{
+      "id" : "180292",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180292-junta-municipal-distrito-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Fuencarral - El Pardo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bcfe0a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180292-junta-municipal-distrito-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "AVENIDA MONFORTE DE LEMOS 40"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180292-junta-municipal-distrito-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.709841173334448 40.478526343687925)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180292-junta-municipal-distrito-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.478526343687925,
+        "longitude" : -3.709841173334448
+	  }
+
+    },
+	{
+      "id" : "182798",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182798-junta-municipal-distrito-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Hortaleza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=732f0a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182798-junta-municipal-distrito-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CARRETERA CANILLAS 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182798-junta-municipal-distrito-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6571542769919407 40.46299114016909)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182798-junta-municipal-distrito-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46299114016909,
+        "longitude" : -3.6571542769919407
+	  }
+
+    },
+	{
+      "id" : "181206",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181206-junta-municipal-distrito-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Latina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3a4f0a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181206-junta-municipal-distrito-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "AVENIDA LAS AGUILAS 2 A"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181206-junta-municipal-distrito-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.764218505722328 40.3849364255536)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181206-junta-municipal-distrito-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3849364255536,
+        "longitude" : -3.764218505722328
+	  }
+
+    },
+	{
+      "id" : "184319",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184319-junta-municipal-distrito-moncloa-aravaca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Moncloa - Aravaca",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=925a6fdb2541f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184319-junta-municipal-distrito-moncloa-aravaca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "PLAZA MONCLOA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184319-junta-municipal-distrito-moncloa-aravaca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.718876324432256 40.43519137700088)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184319-junta-municipal-distrito-moncloa-aravaca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43519137700088,
+        "longitude" : -3.718876324432256
+	  }
+
+    },
+	{
+      "id" : "180007",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180007-junta-municipal-distrito-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Moratalaz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f08a6fdb2541f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180007-junta-municipal-distrito-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE FUENTE CARRANTONA 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180007-junta-municipal-distrito-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6368959356337216 40.39859980911487)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180007-junta-municipal-distrito-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39859980911487,
+        "longitude" : -3.6368959356337216
+	  }
+
+    },
+	{
+      "id" : "182203",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182203-junta-municipal-distrito-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Puente de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b4ca6fdb2541f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182203-junta-municipal-distrito-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "AVENIDA ALBUFERA 42"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182203-junta-municipal-distrito-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6663361506752064 40.39664109245883)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182203-junta-municipal-distrito-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39664109245883,
+        "longitude" : -3.6663361506752064
+	  }
+
+    },
+	{
+      "id" : "179741",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/179741-junta-municipal-distrito-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Retiro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=27098aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/179741-junta-municipal-distrito-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "AVENIDA CIUDAD DE BARCELONA 162"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/179741-junta-municipal-distrito-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6772931748500297 40.40236125879463)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/179741-junta-municipal-distrito-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40236125879463,
+        "longitude" : -3.6772931748500297
+	  }
+
+    },
+	{
+      "id" : "180855",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180855-junta-municipal-distrito-salamanca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Salamanca",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f37f0a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180855-junta-municipal-distrito-salamanca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE VELAZQUEZ 52"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180855-junta-municipal-distrito-salamanca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.683768008487216 40.42732326877904)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180855-junta-municipal-distrito-salamanca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42732326877904,
+        "longitude" : -3.683768008487216
+	  }
+
+    },
+	{
+      "id" : "183638",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183638-junta-municipal-distrito-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de San Blas - Canillejas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ba9f0a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183638-junta-municipal-distrito-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "AVENIDA ARCENTALES 28"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183638-junta-municipal-distrito-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6096102461466093 40.43448586473581)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183638-junta-municipal-distrito-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43448586473581,
+        "longitude" : -3.6096102461466093
+	  }
+
+    },
+	{
+      "id" : "184158",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184158-junta-municipal-distrito-tetuan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Tetuán",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=71cf0a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184158-junta-municipal-distrito-tetuan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE BRAVO MURILLO 357"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184158-junta-municipal-distrito-tetuan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.693764227321566 40.465101515878985)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/184158-junta-municipal-distrito-tetuan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.465101515878985,
+        "longitude" : -3.693764227321566
+	  }
+
+    },
+	{
+      "id" : "181626",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181626-junta-municipal-distrito-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Usera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=38ef0a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181626-junta-municipal-distrito-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "AVENIDA RAFAELA YBARRA 41"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181626-junta-municipal-distrito-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7107515747822353 40.38241253009179)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181626-junta-municipal-distrito-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38241253009179,
+        "longitude" : -3.7107515747822353
+	  }
+
+    },
+	{
+      "id" : "183031",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183031-junta-municipal-distrito-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Vicálvaro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fe000a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183031-junta-municipal-distrito-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "PLAZA DON ANTONIO DE ANDRES 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183031-junta-municipal-distrito-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6059845330840714 40.402270479784896)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183031-junta-municipal-distrito-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.402270479784896,
+        "longitude" : -3.6059845330840714
+	  }
+
+    },
+	{
+      "id" : "182354",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182354-junta-municipal-distrito-villa-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Villa de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b5300a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182354-junta-municipal-distrito-villa-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "PASEO FEDERICO GARCIA LORCA 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182354-junta-municipal-distrito-villa-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.621454785869909 40.3788998244401)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182354-junta-municipal-distrito-villa-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3788998244401,
+        "longitude" : -3.621454785869909
+	  }
+
+    },
+	{
+      "id" : "181739",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181739-junta-municipal-distrito-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/Distritos",
+      "title" : "Junta Municipal del Distrito de Villaverde",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7c500a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181739-junta-municipal-distrito-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE ARROYO BUENO 53"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181739-junta-municipal-distrito-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.71120030905872 40.348895848554626)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181739-junta-municipal-distrito-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.348895848554626,
+        "longitude" : -3.71120030905872
+	  }
+
+    }
+  ]
+}

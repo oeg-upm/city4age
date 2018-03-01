@@ -1,0 +1,650 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "76204",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76204-oficina-municipal-informacion-al-consumidor-omic-distrito-arganzuela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Arganzuela",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f960827a9e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76204-oficina-municipal-informacion-al-consumidor-omic-distrito-arganzuela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PASEO CHOPERA 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76204-oficina-municipal-informacion-al-consumidor-omic-distrito-arganzuela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.698565632659468 40.3933877847248)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76204-oficina-municipal-informacion-al-consumidor-omic-distrito-arganzuela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3933877847248,
+        "longitude" : -3.698565632659468
+	  }
+
+    },
+	{
+      "id" : "120964",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/120964-oficina-municipal-informacion-al-consumidor-omic-distrito-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Barajas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b6938899fc81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/120964-oficina-municipal-informacion-al-consumidor-omic-distrito-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "PLAZA MERCURIO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/120964-oficina-municipal-informacion-al-consumidor-omic-distrito-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.577768444536064 40.47479357890765)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/120964-oficina-municipal-informacion-al-consumidor-omic-distrito-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47479357890765,
+        "longitude" : -3.577768444536064
+	  }
+
+    },
+	{
+      "id" : "76205",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76205-oficina-municipal-informacion-al-consumidor-omic-distrito-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Carabanchel",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4090827a9e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76205-oficina-municipal-informacion-al-consumidor-omic-distrito-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "PLAZA CARABANCHEL 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76205-oficina-municipal-informacion-al-consumidor-omic-distrito-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7413135828951924 40.38046387365159)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76205-oficina-municipal-informacion-al-consumidor-omic-distrito-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38046387365159,
+        "longitude" : -3.7413135828951924
+	  }
+
+    },
+	{
+      "id" : "76209",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76209-oficina-municipal-informacion-al-consumidor-omic-distrito-centro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Centro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=96b0827a9e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76209-oficina-municipal-informacion-al-consumidor-omic-distrito-centro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE MAYOR 72"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76209-oficina-municipal-informacion-al-consumidor-omic-distrito-centro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7108053614187186 40.41553854185091)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76209-oficina-municipal-informacion-al-consumidor-omic-distrito-centro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41553854185091,
+        "longitude" : -3.7108053614187186
+	  }
+
+    },
+	{
+      "id" : "76211",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76211-oficina-municipal-informacion-al-consumidor-omic-distrito-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Chamartín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=27f6007f8441f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76211-oficina-municipal-informacion-al-consumidor-omic-distrito-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PRINCIPE DE VERGARA 142"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76211-oficina-municipal-informacion-al-consumidor-omic-distrito-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6780972922453685 40.44489723228663)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76211-oficina-municipal-informacion-al-consumidor-omic-distrito-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44489723228663,
+        "longitude" : -3.6780972922453685
+	  }
+
+    },
+	{
+      "id" : "76212",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76212-oficina-municipal-informacion-al-consumidor-omic-distrito-chamberi",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Chamberí",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3301827a9e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76212-oficina-municipal-informacion-al-consumidor-omic-distrito-chamberi/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE RAIMUNDO FERNANDEZ VILLAVERDE 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76212-oficina-municipal-informacion-al-consumidor-omic-distrito-chamberi/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7027481328112994 40.44658783768792)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76212-oficina-municipal-informacion-al-consumidor-omic-distrito-chamberi/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44658783768792,
+        "longitude" : -3.7027481328112994
+	  }
+
+    },
+	{
+      "id" : "76196",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76196-oficina-municipal-informacion-al-consumidor-omic-distrito-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Ciudad Lineal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8921827a9e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76196-oficina-municipal-informacion-al-consumidor-omic-distrito-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE HERMANOS GARCIA NOBLEJAS 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76196-oficina-municipal-informacion-al-consumidor-omic-distrito-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6370244805015153 40.435977697860075)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76196-oficina-municipal-informacion-al-consumidor-omic-distrito-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.435977697860075,
+        "longitude" : -3.6370244805015153
+	  }
+
+    },
+	{
+      "id" : "76203",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76203-oficina-municipal-informacion-al-consumidor-omic-distrito-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Fuencarral -El Pardo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=df41827a9e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76203-oficina-municipal-informacion-al-consumidor-omic-distrito-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "AVENIDA MONFORTE DE LEMOS 40"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76203-oficina-municipal-informacion-al-consumidor-omic-distrito-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.709841173334448 40.478526343687925)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76203-oficina-municipal-informacion-al-consumidor-omic-distrito-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.478526343687925,
+        "longitude" : -3.709841173334448
+	  }
+
+    },
+	{
+      "id" : "76213",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76213-oficina-municipal-informacion-al-consumidor-omic-distrito-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Hortaleza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2671827a9e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76213-oficina-municipal-informacion-al-consumidor-omic-distrito-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CARRETERA CANILLAS 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76213-oficina-municipal-informacion-al-consumidor-omic-distrito-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6571542769919407 40.46299114016909)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76213-oficina-municipal-informacion-al-consumidor-omic-distrito-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46299114016909,
+        "longitude" : -3.6571542769919407
+	  }
+
+    },
+	{
+      "id" : "76214",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76214-oficina-municipal-informacion-al-consumidor-omic-distrito-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Latina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e7ec0a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76214-oficina-municipal-informacion-al-consumidor-omic-distrito-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE FUERTE DE NAVIDAD 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76214-oficina-municipal-informacion-al-consumidor-omic-distrito-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7657241589764547 40.380566072889415)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76214-oficina-municipal-informacion-al-consumidor-omic-distrito-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.380566072889415,
+        "longitude" : -3.7657241589764547
+	  }
+
+    },
+	{
+      "id" : "76201",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76201-oficina-municipal-informacion-al-consumidor-omic-distrito-moncloa-aravaca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Moncloa - Aravaca",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fbe655004e91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76201-oficina-municipal-informacion-al-consumidor-omic-distrito-moncloa-aravaca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "PLAZA MONCLOA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76201-oficina-municipal-informacion-al-consumidor-omic-distrito-moncloa-aravaca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.718876324432256 40.43519137700088)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76201-oficina-municipal-informacion-al-consumidor-omic-distrito-moncloa-aravaca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43519137700088,
+        "longitude" : -3.718876324432256
+	  }
+
+    },
+	{
+      "id" : "76217",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76217-oficina-municipal-informacion-al-consumidor-omic-distrito-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Moratalaz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1737007f8441f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76217-oficina-municipal-informacion-al-consumidor-omic-distrito-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE FUENTE CARRANTONA 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76217-oficina-municipal-informacion-al-consumidor-omic-distrito-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.636848463271078 40.39856403422721)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76217-oficina-municipal-informacion-al-consumidor-omic-distrito-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39856403422721,
+        "longitude" : -3.636848463271078
+	  }
+
+    },
+	{
+      "id" : "76202",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76202-oficina-municipal-informacion-al-consumidor-omic-distrito-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Puente de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6f02827a9e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76202-oficina-municipal-informacion-al-consumidor-omic-distrito-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "AVENIDA ALBUFERA 42"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76202-oficina-municipal-informacion-al-consumidor-omic-distrito-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6663361506752064 40.39664109245883)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76202-oficina-municipal-informacion-al-consumidor-omic-distrito-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39664109245883,
+        "longitude" : -3.6663361506752064
+	  }
+
+    },
+	{
+      "id" : "76219",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76219-oficina-municipal-informacion-al-consumidor-omic-distrito-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Retiro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b532827a9e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76219-oficina-municipal-informacion-al-consumidor-omic-distrito-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "AVENIDA CIUDAD DE BARCELONA 162"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76219-oficina-municipal-informacion-al-consumidor-omic-distrito-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6772931748500297 40.40236125879463)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76219-oficina-municipal-informacion-al-consumidor-omic-distrito-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40236125879463,
+        "longitude" : -3.6772931748500297
+	  }
+
+    },
+	{
+      "id" : "76222",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76222-oficina-municipal-informacion-al-consumidor-omic-distrito-salamanca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Salamanca",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0c52827a9e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76222-oficina-municipal-informacion-al-consumidor-omic-distrito-salamanca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE VELAZQUEZ 52 PLANTA 4ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76222-oficina-municipal-informacion-al-consumidor-omic-distrito-salamanca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.683768008487216 40.42732326877904)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76222-oficina-municipal-informacion-al-consumidor-omic-distrito-salamanca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42732326877904,
+        "longitude" : -3.683768008487216
+	  }
+
+    },
+	{
+      "id" : "76230",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76230-oficina-municipal-informacion-al-consumidor-omic-distrito-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de San Blas - Canillejas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5282827a9e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76230-oficina-municipal-informacion-al-consumidor-omic-distrito-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "AVENIDA ARCENTALES 28"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76230-oficina-municipal-informacion-al-consumidor-omic-distrito-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6096219543135817 40.434476793953166)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76230-oficina-municipal-informacion-al-consumidor-omic-distrito-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.434476793953166,
+        "longitude" : -3.6096219543135817
+	  }
+
+    },
+	{
+      "id" : "76059",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76059-oficina-municipal-informacion-al-consumidor-omic-distrito-tetuan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Tetuán",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a8a2827a9e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76059-oficina-municipal-informacion-al-consumidor-omic-distrito-tetuan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE BRAVO MURILLO 357"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76059-oficina-municipal-informacion-al-consumidor-omic-distrito-tetuan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.693764134631911 40.465092507464036)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76059-oficina-municipal-informacion-al-consumidor-omic-distrito-tetuan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.465092507464036,
+        "longitude" : -3.693764134631911
+	  }
+
+    },
+	{
+      "id" : "76231",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76231-oficina-municipal-informacion-al-consumidor-omic-distrito-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Usera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fec2827a9e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76231-oficina-municipal-informacion-al-consumidor-omic-distrito-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "AVENIDA RAFAELA YBARRA 41"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76231-oficina-municipal-informacion-al-consumidor-omic-distrito-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7107515747822353 40.38241253009179)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76231-oficina-municipal-informacion-al-consumidor-omic-distrito-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38241253009179,
+        "longitude" : -3.7107515747822353
+	  }
+
+    },
+	{
+      "id" : "76194",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76194-oficina-municipal-informacion-al-consumidor-omic-distrito-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Vicálvaro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=45f2827a9e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76194-oficina-municipal-informacion-al-consumidor-omic-distrito-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "AVENIDA REAL 36"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76194-oficina-municipal-informacion-al-consumidor-omic-distrito-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.608502779994315 40.40317618188981)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76194-oficina-municipal-informacion-al-consumidor-omic-distrito-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40317618188981,
+        "longitude" : -3.608502779994315
+	  }
+
+    },
+	{
+      "id" : "76199",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76199-oficina-municipal-informacion-al-consumidor-omic-distrito-villa-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Villa de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1667007f8441f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76199-oficina-municipal-informacion-al-consumidor-omic-distrito-villa-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "PASEO FEDERICO GARCIA LORCA 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76199-oficina-municipal-informacion-al-consumidor-omic-distrito-villa-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.621454785869909 40.3788998244401)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76199-oficina-municipal-informacion-al-consumidor-omic-distrito-villa-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3788998244401,
+        "longitude" : -3.621454785869909
+	  }
+
+    },
+	{
+      "id" : "76232",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76232-oficina-municipal-informacion-al-consumidor-omic-distrito-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor (OMIC). Distrito de Villaverde",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e143827a9e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76232-oficina-municipal-informacion-al-consumidor-omic-distrito-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE ARROYO BUENO 53"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76232-oficina-municipal-informacion-al-consumidor-omic-distrito-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.71120030905872 40.348895848554626)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/76232-oficina-municipal-informacion-al-consumidor-omic-distrito-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.348895848554626,
+        "longitude" : -3.71120030905872
+	  }
+
+    },
+	{
+      "id" : "6451699",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6451699-oficina-municipal-informacion-al-consumidor-central-omic",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Oficina Municipal de Información al Consumidor Central (OMIC)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e59400b1c3d97310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6451699-oficina-municipal-informacion-al-consumidor-central-omic/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PRINCIPE DE VERGARA 140 (Antiguo Museo de la Ciudad)"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6451699-oficina-municipal-informacion-al-consumidor-central-omic/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.67813993012987 40.44444653179131)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6451699-oficina-municipal-informacion-al-consumidor-central-omic/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44444653179131,
+        "longitude" : -3.67813993012987
+	  }
+
+    },
+	{
+      "id" : "10264681",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10264681-unidad-codigos-buenas-practicas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionConsumidor",
+      "title" : "Unidad de Códigos de Buenas Prácticas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=851d856607c3a510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10264681-unidad-codigos-buenas-practicas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PRINCIPE DE VERGARA 140 (Antiguo Museo de la Ciudad)"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10264681-unidad-codigos-buenas-practicas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.67813993012987 40.44444653179131)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10264681-unidad-codigos-buenas-practicas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44444653179131,
+        "longitude" : -3.67813993012987
+	  }
+
+    }
+  ]
+}

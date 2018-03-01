@@ -1,0 +1,1595 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "7805",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7805-centro-turismo-plaza-mayor",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Centro de Turismo Plaza Mayor",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b0a093e5fd61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7805-centro-turismo-plaza-mayor/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "PLAZA MAYOR 27 Casa de la Panadería"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7805-centro-turismo-plaza-mayor/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7074257084323636 40.41583855082183)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7805-centro-turismo-plaza-mayor/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41583855082183,
+        "longitude" : -3.7074257084323636
+	  }
+
+    },
+	{
+      "id" : "75606",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/75606-oficina-central-reservas-informacion-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina Central de Reservas e Información de la Comunidad de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aff896e2cf41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/75606-oficina-central-reservas-informacion-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE RECOLETOS 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/75606-oficina-central-reservas-informacion-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.690966796832336 40.422307480609525)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/75606-oficina-central-reservas-informacion-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.422307480609525,
+        "longitude" : -3.690966796832336
+	  }
+
+    },
+	{
+      "id" : "7836",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7836-oficina-joven-comunidad-madrid-tive-calle-fernando-catolico",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina Joven Comunidad de Madrid. TIVE. Calle de Fernando el Católico",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=397e19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7836-oficina-joven-comunidad-madrid-tive-calle-fernando-catolico/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE FERNANDO EL CATOLICO 88"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7836-oficina-joven-comunidad-madrid-tive-calle-fernando-catolico/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.717795251173153 40.43442331966472)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7836-oficina-joven-comunidad-madrid-tive-calle-fernando-catolico/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43442331966472,
+        "longitude" : -3.717795251173153
+	  }
+
+    },
+	{
+      "id" : "4917035",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4917035-oficina-joven-comunidad-madrid-tive-calle-recoletos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina Joven Comunidad de Madrid. TIVE. Calle de Recoletos",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=145f8558aa00a110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4917035-oficina-joven-comunidad-madrid-tive-calle-recoletos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE RECOLETOS 1 c/v paseo de Recoletos, 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4917035-oficina-joven-comunidad-madrid-tive-calle-recoletos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6909434067579525 40.42232563847626)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4917035-oficina-joven-comunidad-madrid-tive-calle-recoletos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42232563847626,
+        "longitude" : -3.6909434067579525
+	  }
+
+    },
+	{
+      "id" : "1637",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1637-oficina-turismo-xunta-galicia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo Xunta de Galicia",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b6f40a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1637-oficina-turismo-xunta-galicia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE CASADO DEL ALISAL 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1637-oficina-turismo-xunta-galicia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6906090973201957 40.413841115871094)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1637-oficina-turismo-xunta-galicia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.413841115871094,
+        "longitude" : -3.6906090973201957
+	  }
+
+    },
+	{
+      "id" : "10127255",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10127255-oficina-turismo-andalucia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Andalucía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d0abc974d4ae6510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10127255-oficina-turismo-andalucia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "AVENIDA FELIPE II 15 PLANTA Iª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10127255-oficina-turismo-andalucia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.673810495427334 40.424183525039)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10127255-oficina-turismo-andalucia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.424183525039,
+        "longitude" : -3.673810495427334
+	  }
+
+    },
+	{
+      "id" : "27402",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/27402-oficina-turismo-andorra",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Andorra",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eb68444a2951c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/27402-oficina-turismo-andorra/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "CALLE ALCALA 73"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/27402-oficina-turismo-andorra/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6873880759267004 40.420463942385524)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/27402-oficina-turismo-andorra/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.420463942385524,
+        "longitude" : -3.6873880759267004
+	  }
+
+    },
+	{
+      "id" : "8132913",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8132913-oficina-turismo-austria",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Austria",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b659eddb85d6e410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8132913-oficina-turismo-austria/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE JUAN ALVAREZ MENDIZABAL 1 PLANTA 6º"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8132913-oficina-turismo-austria/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7137893492193244 40.42352919018361)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8132913-oficina-turismo-austria/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42352919018361,
+        "longitude" : -3.7137893492193244
+	  }
+
+    },
+	{
+      "id" : "127469",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/127469-oficina-turismo-brasil",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Brasil",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b15d47048781c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/127469-oficina-turismo-brasil/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE ALMAGRO 28 PLANTA 2ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/127469-oficina-turismo-brasil/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.692768600492918 40.43017960044132)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/127469-oficina-turismo-brasil/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43017960044132,
+        "longitude" : -3.692768600492918
+	  }
+
+    },
+	{
+      "id" : "7844",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7844-oficina-turismo-castilla-leon",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Castilla - León",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c93c19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7844-oficina-turismo-castilla-leon/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "CALLE ALCALÁ 105"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7844-oficina-turismo-castilla-leon/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6828394778643716 40.42177018095319)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7844-oficina-turismo-castilla-leon/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42177018095319,
+        "longitude" : -3.6828394778643716
+	  }
+
+    },
+	{
+      "id" : "7846",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7846-oficina-turismo-cataluna",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Cataluña",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5c4c19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7846-oficina-turismo-cataluna/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALÁ 44 PLANTA 4ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7846-oficina-turismo-cataluna/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6959697554881874 40.4182053857487)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7846-oficina-turismo-cataluna/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4182053857487,
+        "longitude" : -3.6959697554881874
+	  }
+
+    },
+	{
+      "id" : "7843",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7843-oficina-turismo-china",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de China",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0dad19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7843-oficina-turismo-china/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE GRAN VIA 39 PLANTA 8º Izqda"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7843-oficina-turismo-china/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.705324957516307 40.42009464369331)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7843-oficina-turismo-china/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42009464369331,
+        "longitude" : -3.705324957516307
+	  }
+
+    },
+	{
+      "id" : "7837",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7837-oficina-turismo-cuba",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Cuba",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=048c19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7837-oficina-turismo-cuba/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28036",
+		"street-address" : "PASEO HABANA 50 PLANTA Bajo D"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7837-oficina-turismo-cuba/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6864959795755223 40.4509737804771)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7837-oficina-turismo-cuba/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4509737804771,
+        "longitude" : -3.6864959795755223
+	  }
+
+    },
+	{
+      "id" : "7814",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7814-oficina-turismo-francia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Francia",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bbbc19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7814-oficina-turismo-francia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE SERRANO 19 PLANTA 2º Izquierda"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7814-oficina-turismo-francia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.687950710749652 40.42593809069401)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7814-oficina-turismo-francia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42593809069401,
+        "longitude" : -3.687950710749652
+	  }
+
+    },
+	{
+      "id" : "8132923",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8132923-oficina-turismo-gran-bretana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Gran Bretaña",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fc37eddb85d6e410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8132923-oficina-turismo-gran-bretana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PASEO CASTELLANA 259 Torre Espacio"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8132923-oficina-turismo-gran-bretana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6872691224974417 40.47592404926307)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8132923-oficina-turismo-gran-bretana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47592404926307,
+        "longitude" : -3.6872691224974417
+	  }
+
+    },
+	{
+      "id" : "6416785",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6416785-oficina-turismo-guatemala",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Guatemala",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=df5f44e4373f6310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6416785-oficina-turismo-guatemala/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE FERNANDO EL SANTO 27 PLANTA 3º B"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6416785-oficina-turismo-guatemala/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.69060179113649 40.42811147922819)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6416785-oficina-turismo-guatemala/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42811147922819,
+        "longitude" : -3.69060179113649
+	  }
+
+    },
+	{
+      "id" : "8132990",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8132990-oficina-turismo-holanda",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Holanda",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d320ac7ab6d6e410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8132990-oficina-turismo-holanda/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PASEO CASTELLANA 141 PLANTA 19 DESPACHO 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8132990-oficina-turismo-holanda/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6872691224974417 40.47592404926307)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8132990-oficina-turismo-holanda/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47592404926307,
+        "longitude" : -3.6872691224974417
+	  }
+
+    },
+	{
+      "id" : "7821",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7821-oficina-turismo-irlanda",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Irlanda",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f50d19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7821-oficina-turismo-irlanda/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PASEO CASTELLANA 46 PLANTA 2ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7821-oficina-turismo-irlanda/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6878816351465096 40.43419977951646)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7821-oficina-turismo-irlanda/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43419977951646,
+        "longitude" : -3.6878816351465096
+	  }
+
+    },
+	{
+      "id" : "39693",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/39693-oficina-turismo-iran",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Irán",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=66e6e7510551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/39693-oficina-turismo-iran/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE MARIA DE MOLINA 26 PLANTA 1ª Izqda."
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/39693-oficina-turismo-iran/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6848033506224906 40.4375784193194)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/39693-oficina-turismo-iran/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4375784193194,
+        "longitude" : -3.6848033506224906
+	  }
+
+    },
+	{
+      "id" : "7822",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7822-oficina-turismo-israel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Israel",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=881d19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7822-oficina-turismo-israel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE "
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7822-oficina-turismo-israel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.702046638888977 40.42789840100491)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7822-oficina-turismo-israel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42789840100491,
+        "longitude" : -3.702046638888977
+	  }
+
+    },
+	{
+      "id" : "7823",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7823-oficina-turismo-italia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Italia",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1b2d19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7823-oficina-turismo-italia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PASEO CASTELLANA 114 1 PLANTA 4º 1º"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7823-oficina-turismo-italia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6862183867739926 40.436434892176365)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7823-oficina-turismo-italia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.436434892176365,
+        "longitude" : -3.6862183867739926
+	  }
+
+    },
+	{
+      "id" : "7834",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7834-oficina-turismo-jordania",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Jordania",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ad3d19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7834-oficina-turismo-jordania/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE VILLANUEVA 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7834-oficina-turismo-jordania/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.687598129527758 40.4225708087371)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7834-oficina-turismo-jordania/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4225708087371,
+        "longitude" : -3.687598129527758
+	  }
+
+    },
+	{
+      "id" : "5801458",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5801458-oficina-turismo-rioja",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de La Rioja",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5558bc4e9ef0b210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5801458-oficina-turismo-rioja/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE SERRANO 25"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5801458-oficina-turismo-rioja/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.687839531572201 40.426596411628736)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5801458-oficina-turismo-rioja/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.426596411628736,
+        "longitude" : -3.687839531572201
+	  }
+
+    },
+	{
+      "id" : "52471",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52471-oficina-turismo-malta",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Malta",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f8f6e7510551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52471-oficina-turismo-malta/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PASEO CASTELLANA 45 PLANTA 6ª Derecha"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52471-oficina-turismo-malta/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.689677189614338 40.43569358766222)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52471-oficina-turismo-malta/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43569358766222,
+        "longitude" : -3.689677189614338
+	  }
+
+    },
+	{
+      "id" : "7824",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7824-oficina-turismo-marruecos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Marruecos",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9fbd19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7824-oficina-turismo-marruecos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE VENTURA RODRIGUEZ 24 PLANTA 1º Izq."
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7824-oficina-turismo-marruecos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.714574560417809 40.42420902572595)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7824-oficina-turismo-marruecos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42420902572595,
+        "longitude" : -3.714574560417809
+	  }
+
+    },
+	{
+      "id" : "7825",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7825-oficina-turismo-mexico",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de México",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=22dd19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7825-oficina-turismo-mexico/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CARRERA SAN JERONIMO 46 PLANTA 2ª A"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7825-oficina-turismo-mexico/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.697338423479512 40.41605298613373)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7825-oficina-turismo-mexico/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41605298613373,
+        "longitude" : -3.697338423479512
+	  }
+
+    },
+	{
+      "id" : "27326",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/27326-oficina-turismo-noruega",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Noruega",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7e78444a2951c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/27326-oficina-turismo-noruega/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PLAZA COLON 2 PLANTA 20 Torre II"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/27326-oficina-turismo-noruega/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6909305470033527 40.42567707652306)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/27326-oficina-turismo-noruega/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42567707652306,
+        "longitude" : -3.6909305470033527
+	  }
+
+    },
+	{
+      "id" : "5405170",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5405170-oficina-turismo-nueva-york",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Nueva York",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2e68a3eee7553210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5405170-oficina-turismo-nueva-york/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE BRAVO MURILLO 101 PLANTA 6ª OFICINA 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5405170-oficina-turismo-nueva-york/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.700501765839506 40.43466453809479)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5405170-oficina-turismo-nueva-york/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43466453809479,
+        "longitude" : -3.700501765839506
+	  }
+
+    },
+	{
+      "id" : "7826",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7826-oficina-turismo-peru",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Perú",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b4ed19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7826-oficina-turismo-peru/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "PLAZA MARQUES DE SALAMANCA 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7826-oficina-turismo-peru/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6792883340980196 40.429674007218026)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7826-oficina-turismo-peru/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.429674007218026,
+        "longitude" : -3.6792883340980196
+	  }
+
+    },
+	{
+      "id" : "7835",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7835-oficina-turismo-polonia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Polonia",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=47fd19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7835-oficina-turismo-polonia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE PRINCESA 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7835-oficina-turismo-polonia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7128591034859424 40.42474213964734)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7835-oficina-turismo-polonia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42474213964734,
+        "longitude" : -3.7128591034859424
+	  }
+
+    },
+	{
+      "id" : "5405234",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5405234-oficina-turismo-portugal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Portugal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f3ad9a4aca553210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5405234-oficina-turismo-portugal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE LAGASCA 88 PLANTA 4ª B"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5405234-oficina-turismo-portugal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6847491581278606 40.42991206232817)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5405234-oficina-turismo-portugal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42991206232817,
+        "longitude" : -3.6847491581278606
+	  }
+
+    },
+	{
+      "id" : "7828",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7828-oficina-turismo-puerto-rico",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Puerto Rico",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d90e19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7828-oficina-turismo-puerto-rico/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE CLAUDIO COELLO 22 PLANTA 1º B"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7828-oficina-turismo-puerto-rico/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.686789938909185 40.42308011875367)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7828-oficina-turismo-puerto-rico/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42308011875367,
+        "longitude" : -3.686789938909185
+	  }
+
+    },
+	{
+      "id" : "181856",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181856-oficina-turismo-republica-checa",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de República Checa",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c9980e4e6d41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181856-oficina-turismo-republica-checa/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28016",
+		"street-address" : "AVENIDA PIO XII 22"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181856-oficina-turismo-republica-checa/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.674926102930997 40.466195029254166)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181856-oficina-turismo-republica-checa/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.466195029254166,
+        "longitude" : -3.674926102930997
+	  }
+
+    },
+	{
+      "id" : "7829",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7829-oficina-turismo-republica-dominicana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de República Dominicana",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6c1e19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7829-oficina-turismo-republica-dominicana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE SERRANO 114 PLANTA 2º Ext. Izqda."
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7829-oficina-turismo-republica-dominicana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.686270282394151 40.43574088970734)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7829-oficina-turismo-republica-dominicana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43574088970734,
+        "longitude" : -3.686270282394151
+	  }
+
+    },
+	{
+      "id" : "63189",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63189-oficina-turismo-seychelles",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Seychelles",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1e17e7510551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63189-oficina-turismo-seychelles/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE PRINCESA 40 HOTEL HUSA PRINCESA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63189-oficina-turismo-seychelles/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.715255790482151 40.429538155017795)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63189-oficina-turismo-seychelles/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.429538155017795,
+        "longitude" : -3.715255790482151
+	  }
+
+    },
+	{
+      "id" : "5359801",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5359801-oficina-turismo-tahiti",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Tahití",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=90192b0194de1210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5359801-oficina-turismo-tahiti/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE SERRANO 19 PLANTA 2º Izquierda"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5359801-oficina-turismo-tahiti/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.687950710749652 40.42593809069401)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5359801-oficina-turismo-tahiti/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42593809069401,
+        "longitude" : -3.687950710749652
+	  }
+
+    },
+	{
+      "id" : "7832",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7832-oficina-turismo-turquia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Turquia",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a66e19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7832-oficina-turismo-turquia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ANTONIO MAURA 18 PLANTA 2º D"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7832-oficina-turismo-turquia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6897865586854928 40.416395587157496)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7832-oficina-turismo-turquia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.416395587157496,
+        "longitude" : -3.6897865586854928
+	  }
+
+    },
+	{
+      "id" : "7841",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7841-oficina-turismo-tunez",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Túnez",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=145e19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7841-oficina-turismo-tunez/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE ALBERTO AGUILERA 11 PLANTA 1º C"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7841-oficina-turismo-tunez/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7087142557455817 40.42967754133076)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7841-oficina-turismo-tunez/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42967754133076,
+        "longitude" : -3.7087142557455817
+	  }
+
+    },
+	{
+      "id" : "5405423",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5405423-oficina-turismo-venezuela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de Venezuela",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2457116bb1653210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5405423-oficina-turismo-venezuela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE POETA JOAN MARAGALL 1 PLANTA 13 EDIFICIO EUROCENTRO"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5405423-oficina-turismo-venezuela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6928523641457414 40.453269184872156)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5405423-oficina-turismo-venezuela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.453269184872156,
+        "longitude" : -3.6928523641457414
+	  }
+
+    },
+	{
+      "id" : "7804",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7804-oficina-turismo-comunidad-madrid-aeropuerto-adolfo-suarez-madrid-barajas-terminal-t1",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de la Comunidad de Madrid. Aeropuerto Adolfo Suárez Madrid Barajas. Terminal T1",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=305d19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7804-oficina-turismo-comunidad-madrid-aeropuerto-adolfo-suarez-madrid-barajas-terminal-t1/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "AEROPUERTO BARAJAS Llegadas Internacionales (T1)"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7804-oficina-turismo-comunidad-madrid-aeropuerto-adolfo-suarez-madrid-barajas-terminal-t1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5698214842707134 40.4641393496236)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7804-oficina-turismo-comunidad-madrid-aeropuerto-adolfo-suarez-madrid-barajas-terminal-t1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4641393496236,
+        "longitude" : -3.5698214842707134
+	  }
+
+    },
+	{
+      "id" : "190857",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190857-oficina-turismo-comunidad-madrid-aeropuerto-adolfo-suarez-madrid-barajas-terminal-t4",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de la Comunidad de Madrid. Aeropuerto Adolfo Suárez Madrid Barajas. Terminal T4",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=28aa8f79e9c70110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190857-oficina-turismo-comunidad-madrid-aeropuerto-adolfo-suarez-madrid-barajas-terminal-t4/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "AVENIDA HISPANIDAD 2 LLEGADAS INTERNACIONALES T4. Sala 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190857-oficina-turismo-comunidad-madrid-aeropuerto-adolfo-suarez-madrid-barajas-terminal-t4/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5859807207200376 40.45188738242834)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190857-oficina-turismo-comunidad-madrid-aeropuerto-adolfo-suarez-madrid-barajas-terminal-t4/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45188738242834,
+        "longitude" : -3.5859807207200376
+	  }
+
+    },
+	{
+      "id" : "6192812",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6192812-oficina-turismo-comunidad-madrid-calle-alcala-31",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de la Comunidad de Madrid. Calle Alcalá 31",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9a0b992ad93d2310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6192812-oficina-turismo-comunidad-madrid-calle-alcala-31/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALA 31"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6192812-oficina-turismo-comunidad-madrid-calle-alcala-31/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6982941133384717 40.41842560545147)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6192812-oficina-turismo-comunidad-madrid-calle-alcala-31/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41842560545147,
+        "longitude" : -3.6982941133384717
+	  }
+
+    },
+	{
+      "id" : "7808",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7808-oficina-turismo-comunidad-madrid-calle-duque-medinaceli",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de la Comunidad de Madrid. Calle Duque de Medinaceli",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c26d19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7808-oficina-turismo-comunidad-madrid-calle-duque-medinaceli/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE DUQUE DE MEDINACELI 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7808-oficina-turismo-comunidad-madrid-calle-duque-medinaceli/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6959869173057225 40.415295360876854)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7808-oficina-turismo-comunidad-madrid-calle-duque-medinaceli/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.415295360876854,
+        "longitude" : -3.6959869173057225
+	  }
+
+    },
+	{
+      "id" : "68611",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/68611-oficina-turismo-comunidad-madrid-estacion-atocha",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de la Comunidad de Madrid. Estación de Atocha",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3f1f96e2cf41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/68611-oficina-turismo-comunidad-madrid-estacion-atocha/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PLAZA EMPERADOR CARLOS V 3 VESTÍBULO DEL AVE"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/68611-oficina-turismo-comunidad-madrid-estacion-atocha/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6923163004968975 40.4079119564538)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/68611-oficina-turismo-comunidad-madrid-estacion-atocha/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4079119564538,
+        "longitude" : -3.6923163004968975
+	  }
+
+    },
+	{
+      "id" : "7807",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7807-oficina-turismo-comunidad-madrid-estacion-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de la Comunidad de Madrid. Estación de Chamartín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=557d19d41471c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7807-oficina-turismo-comunidad-madrid-estacion-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28036",
+		"street-address" : "CALLE AGUSTIN DE FOXA VESTÍBULO. PUERTA 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7807-oficina-turismo-comunidad-madrid-estacion-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.688361018296722 40.46732300072765)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7807-oficina-turismo-comunidad-madrid-estacion-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46732300072765,
+        "longitude" : -3.688361018296722
+	  }
+
+    },
+	{
+      "id" : "6368119",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6368119-oficina-turismo-comunidad-madrid-ifema-feria-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Oficina de Turismo de la Comunidad de Madrid. Ifema. Feria de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1286c040b8f36310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6368119-oficina-turismo-comunidad-madrid-ifema-feria-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "AVENIDA PARTENON 5 FERIA DE MADRID. PASILLO CENTRAL"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6368119-oficina-turismo-comunidad-madrid-ifema-feria-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6164023947650836 40.46428771594393)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6368119-oficina-turismo-comunidad-madrid-ifema-feria-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46428771594393,
+        "longitude" : -3.6164023947650836
+	  }
+
+    },
+	{
+      "id" : "5631196",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5631196-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-2-salas-5-6",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid -  Barajas Terminal 2 (Entre salas 5 y 6)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=88dfad2e06ea7210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5631196-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-2-salas-5-6/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "AVENIDA HISPANIDAD Aeropuerto de Barajas. Salas 5 y 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5631196-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-2-salas-5-6/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5859807207200376 40.45188738242834)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5631196-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-2-salas-5-6/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45188738242834,
+        "longitude" : -3.5859807207200376
+	  }
+
+    },
+	{
+      "id" : "178759",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/178759-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-4-sala-10",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid - Barajas Terminal 4 (Sala 10)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8f871c7a2c61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/178759-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-4-sala-10/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "AVENIDA HISPANIDAD Aeropuerto de Barajas. Salas 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/178759-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-4-sala-10/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5859807207200376 40.45188738242834)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/178759-punto-informacion-turistica-aeropuerto-adolfo-suarez-madrid-barajas-terminal-4-sala-10/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45188738242834,
+        "longitude" : -3.5859807207200376
+	  }
+
+    },
+	{
+      "id" : "10129487",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10129487-punto-informacion-turistica-sol-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Punto de Información Turística Sol. Comunidad de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4360fa765cef6510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10129487-punto-informacion-turistica-sol-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "PLAZA PUERTA DEL SOL 1 VESTÍBULO DEL INTERCAMBIADOR DE TRANSPORTES DE SOL"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10129487-punto-informacion-turistica-sol-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7022740027977377 40.416887979993966)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10129487-punto-informacion-turistica-sol-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.416887979993966,
+        "longitude" : -3.7022740027977377
+	  }
+
+    },
+	{
+      "id" : "10510149",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10510149-punto-informacion-turistica-estacion-metro-aeropuerto-t4",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Punto de Información Turística de la estación de Metro Aeropuerto T4",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e9eeff40fe6ee510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10510149-punto-informacion-turistica-estacion-metro-aeropuerto-t4/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "AVENIDA HISPANIDAD 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10510149-punto-informacion-turistica-estacion-metro-aeropuerto-t4/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5859807207200376 40.45188738242834)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10510149-punto-informacion-turistica-estacion-metro-aeropuerto-t4/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45188738242834,
+        "longitude" : -3.5859807207200376
+	  }
+
+    },
+	{
+      "id" : "10085167",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085167-punto-informacion-turistica-atocha-junto-al-museo-reina-sofia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Punto de Información Turística. Atocha (junto al museo Reina Sofía)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8321a9a7e3525510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085167-punto-informacion-turistica-atocha-junto-al-museo-reina-sofia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "RONDA ATOCHA 1 junto al museo Reina Sofía"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085167-punto-informacion-turistica-atocha-junto-al-museo-reina-sofia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6941708773769997 40.40718011197082)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085167-punto-informacion-turistica-atocha-junto-al-museo-reina-sofia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40718011197082,
+        "longitude" : -3.6941708773769997
+	  }
+
+    },
+	{
+      "id" : "7050847",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7050847-punto-informacion-turistica-centrocentro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Punto de Información Turística. Centrocentro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=81c63eebd56ff310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7050847-punto-informacion-turistica-centrocentro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "PLAZA CIBELES 1 Palacio de Cibeles"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7050847-punto-informacion-turistica-centrocentro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.692206111679657 40.419011767401095)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7050847-punto-informacion-turistica-centrocentro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.419011767401095,
+        "longitude" : -3.692206111679657
+	  }
+
+    },
+	{
+      "id" : "10085202",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085202-punto-informacion-turistica-estadio-santiago-bernabeu",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Punto de Información Turística. Estadio Santiago Bernabéu",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2da4a9a7e3525510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085202-punto-informacion-turistica-estadio-santiago-bernabeu/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28046",
+		"street-address" : "PASEO CASTELLANA 138 junto al Estadio Santiago Bernabéu"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085202-punto-informacion-turistica-estadio-santiago-bernabeu/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.69008606793658 40.451465916355055)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085202-punto-informacion-turistica-estadio-santiago-bernabeu/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.451465916355055,
+        "longitude" : -3.69008606793658
+	  }
+
+    },
+	{
+      "id" : "10085398",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085398-punto-informacion-turistica-paseo-prado",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Punto de Información Turística. Paseo del Prado",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1f6bdae9bb525510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085398-punto-informacion-turistica-paseo-prado/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "PLAZA NEPTUNO 1 FRENTE AL MUSEO DEL PRADO"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085398-punto-informacion-turistica-paseo-prado/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.692184322678944 40.41688576337496)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10085398-punto-informacion-turistica-paseo-prado/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41688576337496,
+        "longitude" : -3.692184322678944
+	  }
+
+    },
+	{
+      "id" : "171082",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171082-punto-informacion-turistica-plaza-callao",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Punto de Información Turística. Plaza de Callao",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=acf029ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171082-punto-informacion-turistica-plaza-callao/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "PLAZA CALLAO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171082-punto-informacion-turistica-plaza-callao/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7061346665078845 40.41974735763767)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171082-punto-informacion-turistica-plaza-callao/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41974735763767,
+        "longitude" : -3.7061346665078845
+	  }
+
+    },
+	{
+      "id" : "4629416",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4629416-punto-informacion-turistica-recoletos-colon",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Punto de Información Turística. Recoletos-Colón",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d4f94e40c7294110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4629416-punto-informacion-turistica-recoletos-colon/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "PASEO RECOLETOS 23"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4629416-punto-informacion-turistica-recoletos-colon/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6921839265043257 40.422597498148065)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4629416-punto-informacion-turistica-recoletos-colon/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.422597498148065,
+        "longitude" : -3.6921839265043257
+	  }
+
+    },
+	{
+      "id" : "4629537",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4629537-servicio-atencion-al-turista-extranjero-sate-comisaria-centro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OtrasEntidadesAdministrativasAyto",
+      "title" : "Servicio de Atención al Turista Extranjero (SATE). Comisaría de Centro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d37386bde6594110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4629537-servicio-atencion-al-turista-extranjero-sate-comisaria-centro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE LEGANITOS 19 Comisaría"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4629537-servicio-atencion-al-turista-extranjero-sate-comisaria-centro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7101852392954386 40.421578408057876)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4629537-servicio-atencion-al-turista-extranjero-sate-comisaria-centro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.421578408057876,
+        "longitude" : -3.7101852392954386
+	  }
+
+    },
+	{
+      "id" : "4977096",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4977096-unidad-movil-informacion-turistica-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasTurismo",
+      "title" : "Unidad Móvil de información turística de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=83f9cb82f05db110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4977096-unidad-movil-informacion-turistica-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "",
+		"street-address" : "Punto itinerante "
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4977096-unidad-movil-informacion-turistica-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : null
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4977096-unidad-movil-informacion-turistica-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : null,
+        "longitude" : null
+	  }
+
+    }
+  ]
+}

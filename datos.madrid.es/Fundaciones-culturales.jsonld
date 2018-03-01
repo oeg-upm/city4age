@@ -1,0 +1,245 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "6963388",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6963388-casa-lector",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/FundacionesCulturales",
+      "title" : "Casa del Lector",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9eee15d21d5ee310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6963388-casa-lector/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PASEO CHOPERA 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6963388-casa-lector/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6985778802913103 40.393432756132874)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6963388-casa-lector/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.393432756132874,
+        "longitude" : -3.6985778802913103
+	  }
+
+    },
+	{
+      "id" : "6017808",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6017808-fundacion-amyc-arte-moderno-contemporaneo-casa-museo-fuente-rey",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/FundacionesCulturales",
+      "title" : "Fundación AMYC (Arte Moderno y Contemporáneo). Casa - Museo Fuente del Rey",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5c1260101310f210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6017808-fundacion-amyc-arte-moderno-contemporaneo-casa-museo-fuente-rey/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28023",
+		"street-address" : "CALLE FUENTE DEL REY 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6017808-fundacion-amyc-arte-moderno-contemporaneo-casa-museo-fuente-rey/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7705836264842576 40.45546180290319)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6017808-fundacion-amyc-arte-moderno-contemporaneo-casa-museo-fuente-rey/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45546180290319,
+        "longitude" : -3.7705836264842576
+	  }
+
+    },
+	{
+      "id" : "162905",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/162905-fundacion-bbva-palacio-marques-salamanca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Fundación BBVA. Palacio del Marqués de Salamanca",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c43a8f90a581c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/162905-fundacion-bbva-palacio-marques-salamanca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "PASEO RECOLETOS 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/162905-fundacion-bbva-palacio-marques-salamanca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6910993927829567 40.42144182034705)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/162905-fundacion-bbva-palacio-marques-salamanca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42144182034705,
+        "longitude" : -3.6910993927829567
+	  }
+
+    },
+	{
+      "id" : "10073709",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10073709-fundacion-carlos-amberes",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/FundacionesCulturales",
+      "title" : "Fundación Carlos de Amberes",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=32cadce9e42e4510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10073709-fundacion-carlos-amberes/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE CLAUDIO COELLO 99"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10073709-fundacion-carlos-amberes/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6858475243382625 40.43126591448084)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10073709-fundacion-carlos-amberes/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43126591448084,
+        "longitude" : -3.6858475243382625
+	  }
+
+    },
+	{
+      "id" : "4541622",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4541622-fundacion-diario-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/FundacionesCulturales",
+      "title" : "Fundación Diario Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=26c4cd86fda51110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4541622-fundacion-diario-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE LARRA 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4541622-fundacion-diario-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.70018326843891 40.42782862030167)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4541622-fundacion-diario-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42782862030167,
+        "longitude" : -3.70018326843891
+	  }
+
+    },
+	{
+      "id" : "5711633",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5711633-fundacion-japon-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/FundacionesCulturales",
+      "title" : "Fundación Japón, Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=797df99f5a209210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5711633-fundacion-japon-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE Mayor 69 PLANTA 2ª Palacio de Cañete"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5711633-fundacion-japon-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6949920154426517 40.428571657782996)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5711633-fundacion-japon-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.428571657782996,
+        "longitude" : -3.6949920154426517
+	  }
+
+    },
+	{
+      "id" : "6556",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6556-fundacion-residencia-estudiantes",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/FundacionesCulturales",
+      "title" : "Fundación Residencia de Estudiantes",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c231b0c40971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6556-fundacion-residencia-estudiantes/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE PINAR 21"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6556-fundacion-residencia-estudiantes/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6880652813540573 40.44064914183142)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6556-fundacion-residencia-estudiantes/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44064914183142,
+        "longitude" : -3.6880652813540573
+	  }
+
+    },
+	{
+      "id" : "7652753",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7652753-fundacion-sindical-ateneo-cultural-primero-mayo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/FundacionesCulturales",
+      "title" : "Fundación Sindical Ateneo Cultural Primero de Mayo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3c009a01421b8410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7652753-fundacion-sindical-ateneo-cultural-primero-mayo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE SEBASTIAN HERRERA 14 PLANTA 1ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7652753-fundacion-sindical-ateneo-cultural-primero-mayo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.698969368752397 40.40394397729758)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7652753-fundacion-sindical-ateneo-cultural-primero-mayo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40394397729758,
+        "longitude" : -3.698969368752397
+	  }
+
+    }
+  ]
+}

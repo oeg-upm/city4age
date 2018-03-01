@@ -1,0 +1,758 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "19487",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19487-mercadillo-via-publica-uva-hortaleza-distrito-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública UVA Hortaleza (Distrito Hortaleza)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f75f92355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19487-mercadillo-via-publica-uva-hortaleza-distrito-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CARRETERA ESTACION DE HORTALEZA 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19487-mercadillo-via-publica-uva-hortaleza-distrito-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6515575746954614 40.479473210968706)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19487-mercadillo-via-publica-uva-hortaleza-distrito-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.479473210968706,
+        "longitude" : -3.6515575746954614
+	  }
+
+    },
+	{
+      "id" : "19633",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19633-mercadillo-via-publica-camino-cruces-distrito-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de Camino de las Cruces (Distrito Carabanchel)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=65bf92355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19633-mercadillo-via-publica-camino-cruces-distrito-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CAMINO CRUCES 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19633-mercadillo-via-publica-camino-cruces-distrito-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7554092617091417 40.37467890972045)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19633-mercadillo-via-publica-camino-cruces-distrito-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37467890972045,
+        "longitude" : -3.7554092617091417
+	  }
+
+    },
+	{
+      "id" : "19542",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19542-mercadillo-via-publica-pardo-distrito-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de El Pardo (Distrito Fuencarral - El Pardo)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=18cf92355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19542-mercadillo-via-publica-pardo-distrito-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28048",
+		"street-address" : "CALLE SAN LEANDRO 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19542-mercadillo-via-publica-pardo-distrito-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7756892543609064 40.51788643866983)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19542-mercadillo-via-publica-pardo-distrito-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.51788643866983,
+        "longitude" : -3.7756892543609064
+	  }
+
+    },
+	{
+      "id" : "19629",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19629-mercadillo-via-publica-orcasur-distrito-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de Orcasur (Distrito Usera)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9d5092355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19629-mercadillo-via-publica-orcasur-distrito-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "AVENIDA ORCASUR 60"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19629-mercadillo-via-publica-orcasur-distrito-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7001297500715613 40.36806275578338)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19629-mercadillo-via-publica-orcasur-distrito-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.36806275578338,
+        "longitude" : -3.7001297500715613
+	  }
+
+    },
+	{
+      "id" : "63209",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63209-mercadillo-via-publica-parque-cornisa-distrito-centro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de Parque de la Cornisa (Distrito Centro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=68f2e7510551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63209-mercadillo-via-publica-parque-cornisa-distrito-centro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "PLAZA CAMPILLO DEL MUNDO NUEVO 3 B"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63209-mercadillo-via-publica-parque-cornisa-distrito-centro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.707987344713689 40.40644768286364)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/63209-mercadillo-via-publica-parque-cornisa-distrito-centro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40644768286364,
+        "longitude" : -3.707987344713689
+	  }
+
+    },
+	{
+      "id" : "19529",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19529-mercadillo-via-publica-rafael-finat-distrito-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de Rafael Finat (Distrito Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d21092355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19529-mercadillo-via-publica-rafael-finat-distrito-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "AVENIDA POBLADOS 62"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19529-mercadillo-via-publica-rafael-finat-distrito-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7612257496008246 40.38491112027893)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19529-mercadillo-via-publica-rafael-finat-distrito-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38491112027893,
+        "longitude" : -3.7612257496008246
+	  }
+
+    },
+	{
+      "id" : "19476",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19476-mercadillo-via-publica-san-cristobal-angeles-distrito-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de San Cristóbal de los Ángeles (Distrito Villaverde)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a59092355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19476-mercadillo-via-publica-san-cristobal-angeles-distrito-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE BURJASOT 1 A"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19476-mercadillo-via-publica-san-cristobal-angeles-distrito-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.686887364713823 40.34452019989438)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19476-mercadillo-via-publica-san-cristobal-angeles-distrito-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.34452019989438,
+        "longitude" : -3.686887364713823
+	  }
+
+    },
+	{
+      "id" : "19536",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19536-mercadillo-via-publica-san-restituto-distrito-moncloa-aravaca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de San Restituto (Distrito Moncloa-Aravaca)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=58a092355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19536-mercadillo-via-publica-san-restituto-distrito-moncloa-aravaca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE SAN RESTITUTO 24"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19536-mercadillo-via-publica-san-restituto-distrito-moncloa-aravaca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7118692033210126 40.46500944601515)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19536-mercadillo-via-publica-san-restituto-distrito-moncloa-aravaca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46500944601515,
+        "longitude" : -3.7118692033210126
+	  }
+
+    },
+	{
+      "id" : "19484",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19484-mercadillo-via-publica-santa-ana-distrito-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de Santa Ana (Distrito Fuencarral - El Pardo)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0bb092355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19484-mercadillo-via-publica-santa-ana-distrito-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE SAN CUGAT DEL VALLES 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19484-mercadillo-via-publica-santa-ana-distrito-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6953071080027495 40.496893825424046)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19484-mercadillo-via-publica-santa-ana-distrito-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.496893825424046,
+        "longitude" : -3.6953071080027495
+	  }
+
+    },
+	{
+      "id" : "19491",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19491-mercadillo-via-publica-villaverde-alto",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de Villaverde Alto",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c50192355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19491-mercadillo-via-publica-villaverde-alto/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "PASEO FERROVIARIOS 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19491-mercadillo-via-publica-villaverde-alto/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.715870883860481 40.34738953464962)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19491-mercadillo-via-publica-villaverde-alto/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.34738953464962,
+        "longitude" : -3.715870883860481
+	  }
+
+    },
+	{
+      "id" : "19489",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19489-mercadillo-via-publica-via-lusitana-distrito-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de Vía Lusitana (Distrito Carabanchel)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=13f092355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19489-mercadillo-via-publica-via-lusitana-distrito-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE VIA LUSITANA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19489-mercadillo-via-publica-via-lusitana-distrito-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7210449941102177 40.38322268627912)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19489-mercadillo-via-publica-via-lusitana-distrito-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38322268627912,
+        "longitude" : -3.7210449941102177
+	  }
+
+    },
+	{
+      "id" : "19548",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19548-mercadillo-via-publica-avenida-asturias-distrito-tetuan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de avenida de Asturias (Distrito Tetuán)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ea4092355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19548-mercadillo-via-publica-avenida-asturias-distrito-tetuan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "AVENIDA ASTURIAS 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19548-mercadillo-via-publica-avenida-asturias-distrito-tetuan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.690220214214766 40.46687948276402)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19548-mercadillo-via-publica-avenida-asturias-distrito-tetuan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46687948276402,
+        "longitude" : -3.690220214214766
+	  }
+
+    },
+	{
+      "id" : "21200",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/21200-mercadillo-via-publica-avenida-felipe-ii-distrito-salamanca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de avenida de Felipe II (Distrito Salamanca)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=009f92355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/21200-mercadillo-via-publica-avenida-felipe-ii-distrito-salamanca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "AVENIDA FELIPE II "
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/21200-mercadillo-via-publica-avenida-felipe-ii-distrito-salamanca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6761810611835473 40.42429581104769)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/21200-mercadillo-via-publica-avenida-felipe-ii-distrito-salamanca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42429581104769,
+        "longitude" : -3.6761810611835473
+	  }
+
+    },
+	{
+      "id" : "19732",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19732-mercadillo-via-publica-calle-alcorisa-camino-silvano-distrito-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de la calle Alcorisa - camino Silvano (Distrito Hortaleza)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cadf92355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19732-mercadillo-via-publica-calle-alcorisa-camino-silvano-distrito-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE SILVANO 71"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19732-mercadillo-via-publica-calle-alcorisa-camino-silvano-distrito-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6404378797404813 40.46145434282499)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19732-mercadillo-via-publica-calle-alcorisa-camino-silvano-distrito-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46145434282499,
+        "longitude" : -3.6404378797404813
+	  }
+
+    },
+	{
+      "id" : "19734",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19734-mercadillo-via-publica-calle-aragoneses-distrito-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de la calle Aragoneses (Distrito Puente Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aa6f92355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19734-mercadillo-via-publica-calle-aragoneses-distrito-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "CALLE ARAGONESES 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19734-mercadillo-via-publica-calle-aragoneses-distrito-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.643929214820054 40.38234447287553)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19734-mercadillo-via-publica-calle-aragoneses-distrito-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38234447287553,
+        "longitude" : -3.643929214820054
+	  }
+
+    },
+	{
+      "id" : "19731",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19731-mercadillo-via-publica-calle-ayerbe-distrito-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de la calle Ayerbe (Distrito Barajas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b2af92355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19731-mercadillo-via-publica-calle-ayerbe-distrito-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "CALLE AYERBE 22"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19731-mercadillo-via-publica-calle-ayerbe-distrito-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5774640906620263 40.470939251480736)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19731-mercadillo-via-publica-calle-ayerbe-distrito-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.470939251480736,
+        "longitude" : -3.5774640906620263
+	  }
+
+    },
+	{
+      "id" : "19549",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19549-mercadillo-via-publica-calle-fontarron-distrito-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de la calle Fontarrón (Distrito Puente de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7def92355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19549-mercadillo-via-publica-calle-fontarron-distrito-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CALLE RAMON PEREZ DE AYALA 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19549-mercadillo-via-publica-calle-fontarron-distrito-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.650944698027474 40.39885490923299)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19549-mercadillo-via-publica-calle-fontarron-distrito-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39885490923299,
+        "longitude" : -3.650944698027474
+	  }
+
+    },
+	{
+      "id" : "19547",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19547-mercadillo-via-publica-calle-gandhi-distrito-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de la calle Gandhi (Distrito Ciudad Lineal)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=200092355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19547-mercadillo-via-publica-calle-gandhi-distrito-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "CALLE GANDHI 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19547-mercadillo-via-publica-calle-gandhi-distrito-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6339196583262754 40.424255982276584)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19547-mercadillo-via-publica-calle-gandhi-distrito-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.424255982276584,
+        "longitude" : -3.6339196583262754
+	  }
+
+    },
+	{
+      "id" : "19736",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19736-mercadillo-via-publica-calle-gorrion-distrito-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de la calle Gorrión (Distrito Carabanchel)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=852092355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19736-mercadillo-via-publica-calle-gorrion-distrito-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE VICENTE QUESADA 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19736-mercadillo-via-publica-calle-gorrion-distrito-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.730158356659085 40.396922359390835)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19736-mercadillo-via-publica-calle-gorrion-distrito-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.396922359390835,
+        "longitude" : -3.730158356659085
+	  }
+
+    },
+	{
+      "id" : "19531",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19531-mercadillo-via-publica-calle-san-roman-valle-distrito-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de la calle San Román del Valle (Distrito San Blas - Canillejas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5d7f92355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19531-mercadillo-via-publica-calle-san-roman-valle-distrito-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE SAN ROMAN DEL VALLE 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19531-mercadillo-via-publica-calle-san-roman-valle-distrito-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.621741078700336 40.42027705095574)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19531-mercadillo-via-publica-calle-san-roman-valle-distrito-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42027705095574,
+        "longitude" : -3.621741078700336
+	  }
+
+    },
+	{
+      "id" : "19537",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19537-mercadillo-via-publica-calle-santa-genoveva-distrito-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de la calle Santa Genoveva (Distrito Ciudad Lineal)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bdc092355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19537-mercadillo-via-publica-calle-santa-genoveva-distrito-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "AVENIDA TRECE ROSAS 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19537-mercadillo-via-publica-calle-santa-genoveva-distrito-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6471182978336296 40.42627295716398)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19537-mercadillo-via-publica-calle-santa-genoveva-distrito-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42627295716398,
+        "longitude" : -3.6471182978336296
+	  }
+
+    },
+	{
+      "id" : "19486",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19486-mercadillo-via-publica-calle-sierra-gorda-distrito-villa-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de la calle Sierra Gorda (Distrito Villa de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=60e092355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19486-mercadillo-via-publica-calle-sierra-gorda-distrito-villa-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE SIERRA GORDA 31"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19486-mercadillo-via-publica-calle-sierra-gorda-distrito-villa-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6169511425751266 40.38109513840808)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19486-mercadillo-via-publica-calle-sierra-gorda-distrito-villa-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38109513840808,
+        "longitude" : -3.6169511425751266
+	  }
+
+    },
+	{
+      "id" : "19550",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19550-mercadillo-via-publica-calle-villablanca-distrito-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de la calle Villablanca (Distrito Vicálvaro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f28092355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19550-mercadillo-via-publica-calle-villablanca-distrito-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "CALLE VILLABLANCA 87"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19550-mercadillo-via-publica-calle-villablanca-distrito-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.597996097245818 40.40509588019403)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19550-mercadillo-via-publica-calle-villablanca-distrito-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40509588019403,
+        "longitude" : -3.597996097245818
+	  }
+
+    },
+	{
+      "id" : "19530",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19530-mercadillo-via-publica-colonia-ciudad-angeles-distrito-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de la colonia Ciudad de los Ángeles (Distrito Villaverde)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=383092355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19530-mercadillo-via-publica-colonia-ciudad-angeles-distrito-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "PASEO GIGANTES Y CABEZUDOS 54"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19530-mercadillo-via-publica-colonia-ciudad-angeles-distrito-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6938424734230515 40.35451487853377)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19530-mercadillo-via-publica-colonia-ciudad-angeles-distrito-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.35451487853377,
+        "longitude" : -3.6938424734230515
+	  }
+
+    },
+	{
+      "id" : "181296",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181296-mercadillo-via-publica-colonia-marconi-distrito-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de la colonia Marconi (Distrito Villaverde)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=96645c2cdc41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181296-mercadillo-via-publica-colonia-marconi-distrito-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE SAN EUSTAQUIO 29"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181296-mercadillo-via-publica-colonia-marconi-distrito-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.701082788141882 40.33271410365036)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181296-mercadillo-via-publica-colonia-marconi-distrito-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.33271410365036,
+        "longitude" : -3.701082788141882
+	  }
+
+    },
+	{
+      "id" : "19631",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19631-mercadillo-via-publica-ronda-sur-distrito-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública de ronda del Sur (Distrito Puente de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=407092355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19631-mercadillo-via-publica-ronda-sur-distrito-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "RONDA SUR 231"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19631-mercadillo-via-publica-ronda-sur-distrito-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6631527179191012 40.37362311563833)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19631-mercadillo-via-publica-ronda-sur-distrito-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37362311563833,
+        "longitude" : -3.6631527179191012
+	  }
+
+    },
+	{
+      "id" : "21199",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/21199-mercadillo-via-publica-rastro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Comercios/MercadillosViaPublica",
+      "title" : "Mercadillo en la vía pública. El Rastro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=781192355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/21199-mercadillo-via-publica-rastro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE RIBERA DE CURTIDORES 19"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/21199-mercadillo-via-publica-rastro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7071850660071277 40.408614766057475)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/21199-mercadillo-via-publica-rastro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.408614766057475,
+        "longitude" : -3.7071850660071277
+	  }
+
+    }
+  ]
+}

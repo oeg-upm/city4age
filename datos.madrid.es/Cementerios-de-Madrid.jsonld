@@ -1,0 +1,650 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "9204",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9204-cementerio-britanico-british-cemetery",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio Británico (British Cemetery)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a0307a7e0a61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9204-cementerio-britanico-british-cemetery/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE COMANDANTE FONTANES 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9204-cementerio-britanico-british-cemetery/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.722633997992097 40.395212860537896)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9204-cementerio-britanico-british-cemetery/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.395212860537896,
+        "longitude" : -3.722633997992097
+	  }
+
+    },
+	{
+      "id" : "9189",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9189-cementerio-civil",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio Civil",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5e91f2d8c559f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9189-cementerio-civil/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "AVENIDA DAROCA 90"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9189-cementerio-civil/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6482030278949904 40.42751913746381)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9189-cementerio-civil/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42751913746381,
+        "longitude" : -3.6482030278949904
+	  }
+
+    },
+	{
+      "id" : "9205",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9205-cementerio-cristo-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio Cristo de El Pardo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4d707a7e0a61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9205-cementerio-cristo-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28048",
+		"street-address" : "CARRETERA CRISTO DE EL PARDO 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9205-cementerio-cristo-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7886095756711633 40.519411567887154)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9205-cementerio-cristo-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.519411567887154,
+        "longitude" : -3.7886095756711633
+	  }
+
+    },
+	{
+      "id" : "9193",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9193-cementerio-aravaca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio de Aravaca",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=99c1f2d8c559f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9193-cementerio-aravaca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28023",
+		"street-address" : "CAMINO ZARZUELA 26"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9193-cementerio-aravaca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7870732983676145 40.46574702347528)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9193-cementerio-aravaca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46574702347528,
+        "longitude" : -3.7870732983676145
+	  }
+
+    },
+	{
+      "id" : "9186",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9186-cementerio-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio de Barajas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9102f2d8c559f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9186-cementerio-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "CARRETERA CEMENTERIO NUEVO 60"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9186-cementerio-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.58691492041717 40.481990715777975)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9186-cementerio-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.481990715777975,
+        "longitude" : -3.58691492041717
+	  }
+
+    },
+	{
+      "id" : "9188",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9188-cementerio-canillas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio de Canillas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8252f2d8c559f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9188-cementerio-canillas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE SILVANO 69"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9188-cementerio-canillas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6409071636750134 40.46119048092996)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9188-cementerio-canillas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46119048092996,
+        "longitude" : -3.6409071636750134
+	  }
+
+    },
+	{
+      "id" : "9187",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9187-cementerio-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio de Canillejas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6a22f2d8c559f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9187-cementerio-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE NECTAR 34"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9187-cementerio-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6103138628823834 40.443193889855884)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9187-cementerio-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.443193889855884,
+        "longitude" : -3.6103138628823834
+	  }
+
+    },
+	{
+      "id" : "9190",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9190-cementerio-carabanchel-alto",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio de Carabanchel Alto",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6f417a7e0a61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9190-cementerio-carabanchel-alto/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28054",
+		"street-address" : "CALLE VIA LUSITANA 55"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9190-cementerio-carabanchel-alto/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.740262790092704 40.36733534193104)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9190-cementerio-carabanchel-alto/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.36733534193104,
+        "longitude" : -3.740262790092704
+	  }
+
+    },
+	{
+      "id" : "9195",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9195-cementerio-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio de El Pardo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9867b47a0559f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9195-cementerio-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28048",
+		"street-address" : "CARRETERA EL PARDO A COLMENAR VIEJO 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9195-cementerio-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7855425467019455 40.53679250322743)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9195-cementerio-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53679250322743,
+        "longitude" : -3.7855425467019455
+	  }
+
+    },
+	{
+      "id" : "9185",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9185-cementerio-fuencarral",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio de Fuencarral",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bf87b47a0559f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9185-cementerio-fuencarral/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28049",
+		"street-address" : "AVENIDA MONTECARMELO 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9185-cementerio-fuencarral/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.700539259907993 40.50638464823704)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9185-cementerio-fuencarral/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.50638464823704,
+        "longitude" : -3.700539259907993
+	  }
+
+    },
+	{
+      "id" : "9184",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9184-cementerio-almudena",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio de La Almudena",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=76b7b47a0559f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9184-cementerio-almudena/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "AVENIDA DAROCA 90"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9184-cementerio-almudena/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6482030278949904 40.42751913746381)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9184-cementerio-almudena/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42751913746381,
+        "longitude" : -3.6482030278949904
+	  }
+
+    },
+	{
+      "id" : "9192",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9192-cementerio-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=83e7b47a0559f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9192-cementerio-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE PICO DE LA CIERVA 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9192-cementerio-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.617874639300285 40.377729803940355)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9192-cementerio-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.377729803940355,
+        "longitude" : -3.617874639300285
+	  }
+
+    },
+	{
+      "id" : "9194",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9194-cementerio-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio de Villaverde",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3d08f5177659f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9194-cementerio-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "AVENIDA RAFAELA YBARRA 137"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9194-cementerio-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7129764698434657 40.35542554813529)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9194-cementerio-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.35542554813529,
+        "longitude" : -3.7129764698434657
+	  }
+
+    },
+	{
+      "id" : "75675",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/75675-cementerio-parroquial-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio Parroquial Barajas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f7cf68540e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/75675-cementerio-parroquial-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "CALLE ACUARIO 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/75675-cementerio-parroquial-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.578424572687106 40.47426777581313)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/75675-cementerio-parroquial-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47426777581313,
+        "longitude" : -3.578424572687106
+	  }
+
+    },
+	{
+      "id" : "9203",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9203-cementerio-parroquial-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio Parroquial de Hortaleza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=14327a7e0a61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9203-cementerio-parroquial-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "AVENIDA BUCARAMANGA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9203-cementerio-parroquial-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.638733299407961 40.47201329604833)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9203-cementerio-parroquial-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47201329604833,
+        "longitude" : -3.638733299407961
+	  }
+
+    },
+	{
+      "id" : "9202",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9202-cementerio-parroquial-santa-maria-antigua",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio Parroquial de Santa María La Antigua",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a6427a7e0a61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9202-cementerio-parroquial-santa-maria-antigua/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "CALLE SAN CIPRIANO 74"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9202-cementerio-parroquial-santa-maria-antigua/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6009374823407354 40.403224757362324)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9202-cementerio-parroquial-santa-maria-antigua/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.403224757362324,
+        "longitude" : -3.6009374823407354
+	  }
+
+    },
+	{
+      "id" : "4832719",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4832719-cementerio-parroquial-nuestra-senora-alameda",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio Parroquial Nuestra Señora de la Alameda",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5a4e692fd67a8110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4832719-cementerio-parroquial-nuestra-senora-alameda/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "AVENIDA LOGROÑO 48"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4832719-cementerio-parroquial-nuestra-senora-alameda/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.592309118272398 40.46077405225064)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4832719-cementerio-parroquial-nuestra-senora-alameda/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46077405225064,
+        "longitude" : -3.592309118272398
+	  }
+
+    },
+	{
+      "id" : "9200",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9200-cementerio-parroquial-san-sebastian-martir",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio Parroquial San Sebastián Mártir",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=81227a7e0a61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9200-cementerio-parroquial-san-sebastian-martir/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE MONSEÑOR OSCAR ROMERO 92"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9200-cementerio-parroquial-san-sebastian-martir/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.752527715032225 40.3824905560394)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9200-cementerio-parroquial-san-sebastian-martir/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3824905560394,
+        "longitude" : -3.752527715032225
+	  }
+
+    },
+	{
+      "id" : "9197",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9197-cementerio-sacramental-san-isidro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio Sacramental de San Isidro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=39527a7e0a61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9197-cementerio-sacramental-san-isidro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "PASEO ERMITA DEL SANTO 78"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9197-cementerio-sacramental-san-isidro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.731694431697469 40.39948924109738)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9197-cementerio-sacramental-san-isidro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39948924109738,
+        "longitude" : -3.731694431697469
+	  }
+
+    },
+	{
+      "id" : "9196",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9196-cementerio-sacramental-san-justo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio Sacramental de San Justo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cb627a7e0a61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9196-cementerio-sacramental-san-justo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "PASEO ERMITA DEL SANTO 70"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9196-cementerio-sacramental-san-justo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.724962034139464 40.40353167080908)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9196-cementerio-sacramental-san-justo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40353167080908,
+        "longitude" : -3.724962034139464
+	  }
+
+    },
+	{
+      "id" : "9198",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9198-cementerio-sacramental-san-lorenzo-san-jose",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio Sacramental de San Lorenzo y San José",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5e727a7e0a61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9198-cementerio-sacramental-san-lorenzo-san-jose/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE VERDAD"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9198-cementerio-sacramental-san-lorenzo-san-jose/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7164181723332494 40.39463892294164)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9198-cementerio-sacramental-san-lorenzo-san-jose/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39463892294164,
+        "longitude" : -3.7164181723332494
+	  }
+
+    },
+	{
+      "id" : "9199",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9199-cementerio-sacramental-santa-maria",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio Sacramental de Santa María",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e0927a7e0a61c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9199-cementerio-sacramental-santa-maria/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE COMUNEROS DE CASTILLA 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9199-cementerio-sacramental-santa-maria/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.722716863463 40.39855470657746)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9199-cementerio-sacramental-santa-maria/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39855470657746,
+        "longitude" : -3.722716863463
+	  }
+
+    },
+	{
+      "id" : "9191",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9191-cementerio-sur",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Cementerios",
+      "title" : "Cementerio Sur",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5438f5177659f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9191-cementerio-sur/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28054",
+		"street-address" : "CALLE ILDEFONSO GONZALEZ VALENCIA 6 PUERTA PRINCIPAL"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9191-cementerio-sur/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7218357507795914 40.367902282318504)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/9191-cementerio-sur/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.367902282318504,
+        "longitude" : -3.7218357507795914
+	  }
+
+    }
+  ]
+}

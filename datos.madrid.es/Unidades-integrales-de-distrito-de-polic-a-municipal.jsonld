@@ -1,0 +1,623 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "7497459",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7497459-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-arganzuela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Arganzuela",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6a8b1a9ba8736410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7497459-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-arganzuela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PASEO CHOPERA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7497459-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-arganzuela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.702541299775232 40.39612047546934)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7497459-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-arganzuela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39612047546934,
+        "longitude" : -3.702541299775232
+	  }
+
+    },
+	{
+      "id" : "6913389",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6913389-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Barajas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dfb54fd0f603e310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6913389-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "CALLE TRESPADERNE 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6913389-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5811044713320173 40.45259668427249)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6913389-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45259668427249,
+        "longitude" : -3.5811044713320173
+	  }
+
+    },
+	{
+      "id" : "6322837",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322837-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Carabanchel",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f3bfde294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322837-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE ALBOX 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322837-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7447818443986804 40.37447757037338)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322837-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37447757037338,
+        "longitude" : -3.7447818443986804
+	  }
+
+    },
+	{
+      "id" : "6322846",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322846-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-centro-norte",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Centro - Norte",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7fe1de294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322846-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-centro-norte/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "PLAZA SANTA MARIA SOLEDAD TORRES ACOSTA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322846-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-centro-norte/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.705563118253955 40.4214535549175)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322846-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-centro-norte/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4214535549175,
+        "longitude" : -3.705563118253955
+	  }
+
+    },
+	{
+      "id" : "6322861",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322861-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-centro-sur",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Centro - Sur",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=55b5de294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322861-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-centro-sur/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE MONTERA 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322861-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-centro-sur/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7026373363773 40.41782271283005)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322861-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-centro-sur/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41782271283005,
+        "longitude" : -3.7026373363773
+	  }
+
+    },
+	{
+      "id" : "6322843",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322843-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Chamartín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4a51de294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322843-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PRINCIPE DE VERGARA 142"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322843-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6780972922453685 40.44489723228663)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322843-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44489723228663,
+        "longitude" : -3.6780972922453685
+	  }
+
+    },
+	{
+      "id" : "6322855",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322855-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-chamberi",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Chamberí",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a814de294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322855-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-chamberi/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE RAIMUNDO FERNANDEZ VILLAVERDE 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322855-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-chamberi/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7027481328112994 40.44658783768792)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322855-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-chamberi/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44658783768792,
+        "longitude" : -3.7027481328112994
+	  }
+
+    },
+	{
+      "id" : "6322838",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322838-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Ciudad Lineal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f8ffde294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322838-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "CALLE JOSE ARCONES GIL 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322838-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6384030576589517 40.43463675619067)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322838-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43463675619067,
+        "longitude" : -3.6384030576589517
+	  }
+
+    },
+	{
+      "id" : "6322839",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322839-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Fuencarral - El Pardo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fc30de294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322839-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "AVENIDA SOTO PALACIOS 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322839-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6839350432489524 40.48799779953855)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322839-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48799779953855,
+        "longitude" : -3.6839350432489524
+	  }
+
+    },
+	{
+      "id" : "6322850",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322850-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Hortaleza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=93d2de294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322850-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE AREQUIPA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322850-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.642007014477437 40.46893210570389)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322850-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46893210570389,
+        "longitude" : -3.642007014477437
+	  }
+
+    },
+	{
+      "id" : "6322854",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322854-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Latina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f3d3de294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322854-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE RODRIGO DE ARANA 50"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322854-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7659492448759053 40.3796366471018)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322854-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3796366471018,
+        "longitude" : -3.7659492448759053
+	  }
+
+    },
+	{
+      "id" : "6322857",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322857-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-moncloa-aravaca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Moncloa-Aravaca",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=28a4de294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322857-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-moncloa-aravaca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE FRANCISCO Y JACINTO ALCANTARA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322857-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-moncloa-aravaca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7242795119747836 40.42670719570918)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322857-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-moncloa-aravaca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42670719570918,
+        "longitude" : -3.7242795119747836
+	  }
+
+    },
+	{
+      "id" : "6322860",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322860-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Moratalaz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d575de294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322860-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE FUENTE CARRANTONA 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322860-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6369530687522795 40.398410303499055)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322860-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.398410303499055,
+        "longitude" : -3.6369530687522795
+	  }
+
+    },
+	{
+      "id" : "6322851",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322851-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Puente de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8523de294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322851-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "CALLE PUERTO DE CARDOSO 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322851-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.653841535049231 40.38768530645969)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322851-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38768530645969,
+        "longitude" : -3.653841535049231
+	  }
+
+    },
+	{
+      "id" : "6322848",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322848-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Retiro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1f32de294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322848-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "CALLE COCHERAS 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322848-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6767729958448934 40.39984176364749)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322848-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39984176364749,
+        "longitude" : -3.6767729958448934
+	  }
+
+    },
+	{
+      "id" : "6322859",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322859-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-salamanca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Salamanca",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7335de294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322859-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-salamanca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE PEDRO HEREDIA 34"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322859-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-salamanca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6623634166822514 40.43012356817602)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322859-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-salamanca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43012356817602,
+        "longitude" : -3.6623634166822514
+	  }
+
+    },
+	{
+      "id" : "6322852",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322852-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito San Blas-Canillejas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1e63de294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322852-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE ESTOCOLMO 91"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322852-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6047825149612094 40.43386257026589)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322852-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43386257026589,
+        "longitude" : -3.6047825149612094
+	  }
+
+    },
+	{
+      "id" : "6322840",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322840-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-tetuan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Tetuán",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d280de294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322840-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-tetuan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "AVENIDA ASTURIAS 68"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322840-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-tetuan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699219112932764 40.47244698732512)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322840-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-tetuan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47244698732512,
+        "longitude" : -3.699219112932764
+	  }
+
+    },
+	{
+      "id" : "6322836",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322836-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Usera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7e5fde294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322836-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE DOCTOR TOLOSA LATOUR 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322836-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7033646424165747 40.374457614717656)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322836-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.374457614717656,
+        "longitude" : -3.7033646424165747
+	  }
+
+    },
+	{
+      "id" : "6322849",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322849-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Vicálvaro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3e72de294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322849-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "PASEO POLIDEPORTIVO 138"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322849-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.59797437686375 40.40663654691994)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322849-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40663654691994,
+        "longitude" : -3.59797437686375
+	  }
+
+    },
+	{
+      "id" : "6322844",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322844-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-villa-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Villa de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=80a1de294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322844-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-villa-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE REAL DE ARGANDA 64"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322844-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-villa-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6142474191270058 40.379145542145515)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322844-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-villa-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.379145542145515,
+        "longitude" : -3.6142474191270058
+	  }
+
+    },
+	{
+      "id" : "6322856",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322856-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasPoliciaMunicipal",
+      "title" : "Oficina de Atención al Ciudadano (OAC). Policía Municipal. Unidad Integral de Distrito Villaverde",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c364de294e585310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322856-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CARRETERA CARABANCHEL A VILLAVERDE 105 C/V a la calle de la Laguna Rodrigo"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322856-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.706879172113004 40.351183634231326)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6322856-oficina-atencion-al-ciudadano-oac-policia-municipal-unidad-integral-distrito-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.351183634231326,
+        "longitude" : -3.706879172113004
+	  }
+
+    }
+  ]
+}

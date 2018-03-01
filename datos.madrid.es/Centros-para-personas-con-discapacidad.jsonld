@@ -1,0 +1,1946 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "1417",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1417-atenpace-residencia-centro-rehabilitacion-jovenes-adultos-paraliticos-cerebrales-y-residencial-atencion-al-paralitico-cerebral-atenpace",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+      "title" : "ATENPACE Residencia y Centro de rehabilitación y  para jóvenes y adultos paralíticos cerebrales y  y residencial de Atención al Paralítico Cerebral (ATENPACE)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f25376172d71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1417-atenpace-residencia-centro-rehabilitacion-jovenes-adultos-paraliticos-cerebrales-y-residencial-atencion-al-paralitico-cerebral-atenpace/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "CALLE ISLAS MARQUESAS 27"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1417-atenpace-residencia-centro-rehabilitacion-jovenes-adultos-paraliticos-cerebrales-y-residencial-atencion-al-paralitico-cerebral-atenpace/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7263818702595626 40.47636052326793)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1417-atenpace-residencia-centro-rehabilitacion-jovenes-adultos-paraliticos-cerebrales-y-residencial-atencion-al-paralitico-cerebral-atenpace/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47636052326793,
+        "longitude" : -3.7263818702595626
+	  }
+
+    },
+	{
+      "id" : "10607889",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10607889-afanias-espacio-abierto-centro-dia-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Afanias Espacio Abierto, centro de día para personas con discapacidad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bf86ffbd81741610VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10607889-afanias-espacio-abierto-centro-dia-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "CALLE HERVAS 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10607889-afanias-espacio-abierto-centro-dia-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.743111431397358 40.406241800167095)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10607889-afanias-espacio-abierto-centro-dia-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.406241800167095,
+        "longitude" : -3.743111431397358
+	  }
+
+    },
+	{
+      "id" : "7827523",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827523-alicia-koplowitz-centro-dia-residencial-esclerosis-multiple-comunidad-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/ResidenciasPersonasDiscapacidad",
+      "title" : "Alicia Koplowitz Centro de Día y Residencial de Esclerosis Múltiple de la Comunidad de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7e9f7c8c2e9ca410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827523-alicia-koplowitz-centro-dia-residencial-esclerosis-multiple-comunidad-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "BULEVAR JOSE PRAT 40"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827523-alicia-koplowitz-centro-dia-residencial-esclerosis-multiple-comunidad-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6197515223307275 40.39614339736402)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827523-alicia-koplowitz-centro-dia-residencial-esclerosis-multiple-comunidad-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39614339736402,
+        "longitude" : -3.6197515223307275
+	  }
+
+    },
+	{
+      "id" : "11917",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11917-aluche-centro-ocupacional-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Aluche, centro ocupacional para personas con discapacidad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f72466051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11917-aluche-centro-ocupacional-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE RAFAEL FINAT 48"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11917-aluche-centro-ocupacional-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.771529019692818 40.378239183007324)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11917-aluche-centro-ocupacional-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.378239183007324,
+        "longitude" : -3.771529019692818
+	  }
+
+    },
+	{
+      "id" : "10610592",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10610592-ameb-centro-rehabilitacion-personas-discapacidad-fisica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad",
+      "title" : "Ameb, centro de rehabilitación, para personas con discapacidad física",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c79fef2b16151610VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10610592-ameb-centro-rehabilitacion-personas-discapacidad-fisica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE JOSE DE CADALSO 94"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10610592-ameb-centro-rehabilitacion-personas-discapacidad-fisica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7682512599929416 40.37525920409048)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10610592-ameb-centro-rehabilitacion-personas-discapacidad-fisica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37525920409048,
+        "longitude" : -3.7682512599929416
+	  }
+
+    },
+	{
+      "id" : "10610720",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10610720-asociacion-esclerosis-multiple-madrid-centro-rehabilitacion-personas-discapacidad-fisica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad",
+      "title" : "Asociación esclerosis múltiple Madrid, centro de rehabilitación para personas con discapacidad física",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2e94ef2b16151610VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10610720-asociacion-esclerosis-multiple-madrid-centro-rehabilitacion-personas-discapacidad-fisica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "calle SAngenjo 36 PLANTA 1º"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10610720-asociacion-esclerosis-multiple-madrid-centro-rehabilitacion-personas-discapacidad-fisica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.636823746093877 40.45308767054584)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10610720-asociacion-esclerosis-multiple-madrid-centro-rehabilitacion-personas-discapacidad-fisica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45308767054584,
+        "longitude" : -3.636823746093877
+	  }
+
+    },
+	{
+      "id" : "133361",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133361-barajas-centro-ocupacional-residencia-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Barajas, centro ocupacional y residencia para personas con discapacidad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ae9715a11a81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133361-barajas-centro-ocupacional-residencia-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "CALLE ZAOREJAS 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133361-barajas-centro-ocupacional-residencia-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5514657324864976 40.44943556636194)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133361-barajas-centro-ocupacional-residencia-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44943556636194,
+        "longitude" : -3.5514657324864976
+	  }
+
+    },
+	{
+      "id" : "10605428",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605428-carmen-sevilla-centro-dia-residencia-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Carmen Sevilla, centro de día, residencia para personas con discapacidad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=944bf81878231610VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605428-carmen-sevilla-centro-dia-residencia-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "CALLE GABRIEL MONTERO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605428-carmen-sevilla-centro-dia-residencia-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.631038633473549 40.4245996910244)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605428-carmen-sevilla-centro-dia-residencia-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4245996910244,
+        "longitude" : -3.631038633473549
+	  }
+
+    },
+	{
+      "id" : "133475",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133475-casa-santa-teresa-residencia-centro-ocupacional-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Casa Santa Teresa, residencia y centro ocupacional para personas con discapacidad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=31575f463b81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133475-casa-santa-teresa-residencia-centro-ocupacional-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28036",
+		"street-address" : "CALLE PONIENTE 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133475-casa-santa-teresa-residencia-centro-ocupacional-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.681904777790508 40.46810000629408)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133475-casa-santa-teresa-residencia-centro-ocupacional-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46810000629408,
+        "longitude" : -3.681904777790508
+	  }
+
+    },
+	{
+      "id" : "10610621",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10610621-centro-dato-ii-centro-rehabilitacion-personas-discapacidad-fisica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad",
+      "title" : "Centro Dato II, centro de rehabilitación para personas con discapacidad física",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f623ef2b16151610VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10610621-centro-dato-ii-centro-rehabilitacion-personas-discapacidad-fisica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "RONDA AVUTARDA 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10610621-centro-dato-ii-centro-rehabilitacion-personas-discapacidad-fisica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.636823746093877 40.45308767054584)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10610621-centro-dato-ii-centro-rehabilitacion-personas-discapacidad-fisica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45308767054584,
+        "longitude" : -3.636823746093877
+	  }
+
+    },
+	{
+      "id" : "10608730",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608730-centro-dato-centro-rehabilitacion-personas-discapacidad-fisica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro Dato, Centro de rehabilitación para personas con discapacidad física",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d6fb3eb6a4c41610VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608730-centro-dato-centro-rehabilitacion-personas-discapacidad-fisica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE ANDARRIOS 19"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608730-centro-dato-centro-rehabilitacion-personas-discapacidad-fisica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.632408448277035 40.455402990893305)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608730-centro-dato-centro-rehabilitacion-personas-discapacidad-fisica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.455402990893305,
+        "longitude" : -3.632408448277035
+	  }
+
+    },
+	{
+      "id" : "133712",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133712-centro-ocupacional-personas-discapacidad-intelectual-estar-calle-yebenes",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro Ocupacional para personas con discapacidad intelectual Estar. Calle Los Yébenes",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=50886da0aa81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133712-centro-ocupacional-personas-discapacidad-intelectual-estar-calle-yebenes/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE LOS YEBENES 241 PLANTA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133712-centro-ocupacional-personas-discapacidad-intelectual-estar-calle-yebenes/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7512812696024738 40.391183407465824)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133712-centro-ocupacional-personas-discapacidad-intelectual-estar-calle-yebenes/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.391183407465824,
+        "longitude" : -3.7512812696024738
+	  }
+
+    },
+	{
+      "id" : "133823",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133823-centro-dia-funprodami",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+      "title" : "Centro de Día Funprodami",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=32dd15a11a81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133823-centro-dia-funprodami/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "CALLE GARCIA MIRANDA 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133823-centro-dia-funprodami/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6641521212637627 40.38303190435413)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133823-centro-dia-funprodami/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38303190435413,
+        "longitude" : -3.6641521212637627
+	  }
+
+    },
+	{
+      "id" : "51238",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51238-centro-dia-ocupacional-discapacitados-intelectuales-pardo-valcarce",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro de Día y ocupacional para discapacitados intelectuales Pardo Valcarce",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e965598d1351c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51238-centro-dia-ocupacional-discapacitados-intelectuales-pardo-valcarce/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28049",
+		"street-address" : "CALLE MONASTERIO DE LAS HUELGAS 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51238-centro-dia-ocupacional-discapacitados-intelectuales-pardo-valcarce/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7079930058533064 40.50249241884712)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51238-centro-dia-ocupacional-discapacitados-intelectuales-pardo-valcarce/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.50249241884712,
+        "longitude" : -3.7079930058533064
+	  }
+
+    },
+	{
+      "id" : "35004",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/35004-centro-recuperacion-personas-discapacidad-fisica-crmf-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+      "title" : "Centro de Recuperación de  Personas con Discapacidad Física (CRMF) de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fc85b3e42751c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/35004-centro-recuperacion-personas-discapacidad-fisica-crmf-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CAMINO VALDERRIBAS 113"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/35004-centro-recuperacion-personas-discapacidad-fisica-crmf-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6569615118564247 40.39473075429985)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/35004-centro-recuperacion-personas-discapacidad-fisica-crmf-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39473075429985,
+        "longitude" : -3.6569615118564247
+	  }
+
+    },
+	{
+      "id" : "2022",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2022-centro-referencia-estatal-autonomia-personal-ayudas-tecnicas-ceapat",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ArchivosCentrosDocumentacion",
+      "title" : "Centro de Referencia Estatal de Autonomía Personal y Ayudas Técnicas (CEAPAT)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=afdd1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2022-centro-referencia-estatal-autonomia-personal-ayudas-tecnicas-ceapat/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "CALLE EXTREMEÑOS 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2022-centro-referencia-estatal-autonomia-personal-ayudas-tecnicas-ceapat/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6457857104179094 40.38553235441293)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2022-centro-referencia-estatal-autonomia-personal-ayudas-tecnicas-ceapat/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38553235441293,
+        "longitude" : -3.6457857104179094
+	  }
+
+    },
+	{
+      "id" : "77520",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/77520-centro-dia-discapacitados-fisicos-arguelles",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+      "title" : "Centro de día para discapacitados físicos Argüelles",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0c588ed67151c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/77520-centro-dia-discapacitados-fisicos-arguelles/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE ANDRES MELLADO 31"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/77520-centro-dia-discapacitados-fisicos-arguelles/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7145917775331463 40.433632354786965)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/77520-centro-dia-discapacitados-fisicos-arguelles/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.433632354786965,
+        "longitude" : -3.7145917775331463
+	  }
+
+    },
+	{
+      "id" : "1143",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1143-centro-dia-ocupacional-personas-discapacidad-intelectual-manos-tendidas-arganzuela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro de día y ocupacional para personas con discapacidad intelectual Manos Tendidas Arganzuela",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d9ce1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1143-centro-dia-ocupacional-personas-discapacidad-intelectual-manos-tendidas-arganzuela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE RICARDO DAMAS 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1143-centro-dia-ocupacional-personas-discapacidad-intelectual-manos-tendidas-arganzuela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6946831366154322 40.38707778743185)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1143-centro-dia-ocupacional-personas-discapacidad-intelectual-manos-tendidas-arganzuela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38707778743185,
+        "longitude" : -3.6946831366154322
+	  }
+
+    },
+	{
+      "id" : "133636",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133636-centro-dia-residencia-personas-discapacidad-intelectual-dos-mayo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+      "title" : "Centro de día y residencia para personas con discapacidad intelectual Dos de Mayo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7e7e15a11a81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133636-centro-dia-residencia-personas-discapacidad-intelectual-dos-mayo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28050",
+		"street-address" : "CALLE OÑA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133636-centro-dia-residencia-personas-discapacidad-intelectual-dos-mayo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6692759234018726 40.488759291577466)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133636-centro-dia-residencia-personas-discapacidad-intelectual-dos-mayo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.488759291577466,
+        "longitude" : -3.6692759234018726
+	  }
+
+    },
+	{
+      "id" : "7190893",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7190893-centro-dia-ocupacional-residencia-3-olivos-personas-discapacidad-intelectual-fundacion-sindrome-down",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro de día, ocupacional y residencia 3 Olivos para personas con discapacidad intelectual de la Fundación Síndrome de Down",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4b4cdffb91072410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7190893-centro-dia-ocupacional-residencia-3-olivos-personas-discapacidad-intelectual-fundacion-sindrome-down/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE CUEVA DE MONTESINOS 45"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7190893-centro-dia-ocupacional-residencia-3-olivos-personas-discapacidad-intelectual-fundacion-sindrome-down/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6921978697844042 40.499795345175585)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7190893-centro-dia-ocupacional-residencia-3-olivos-personas-discapacidad-intelectual-fundacion-sindrome-down/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.499795345175585,
+        "longitude" : -3.6921978697844042
+	  }
+
+    },
+	{
+      "id" : "39745",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/39745-centro-dia-ocupacional-residencia-personas-discapacidad-intelectual-gotze",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro de día, ocupacional y residencia para personas con discapacidad intelectual Götze",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=043bf0bde551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/39745-centro-dia-ocupacional-residencia-personas-discapacidad-intelectual-gotze/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28023",
+		"street-address" : "CARRETERA CASTILLA 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/39745-centro-dia-ocupacional-residencia-personas-discapacidad-intelectual-gotze/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.762794547009638 40.449783762790766)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/39745-centro-dia-ocupacional-residencia-personas-discapacidad-intelectual-gotze/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.449783762790766,
+        "longitude" : -3.762794547009638
+	  }
+
+    },
+	{
+      "id" : "133674",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133674-centro-dia-ocupacional-residencia-personas-discapacidad-intelectual-san-vicente",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro de día, ocupacional y residencia para personas con discapacidad intelectual San Vicente",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=30ff15a11a81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133674-centro-dia-ocupacional-residencia-personas-discapacidad-intelectual-san-vicente/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "AVENIDA RAFAELA YBARRA 75"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133674-centro-dia-ocupacional-residencia-personas-discapacidad-intelectual-san-vicente/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7115108307648805 40.37843484951819)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133674-centro-dia-ocupacional-residencia-personas-discapacidad-intelectual-san-vicente/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37843484951819,
+        "longitude" : -3.7115108307648805
+	  }
+
+    },
+	{
+      "id" : "133523",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133523-centro-dia-ocupacional-residencia-personas-discapacidad-intelectual-angel-guarda",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro de día, ocupacional y residencia para personas con discapacidad intelectual Ángel de la Guarda",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0db615a11a81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133523-centro-dia-ocupacional-residencia-personas-discapacidad-intelectual-angel-guarda/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "AVENIDA DAROCA 60"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133523-centro-dia-ocupacional-residencia-personas-discapacidad-intelectual-angel-guarda/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6525226176295886 40.42924259133015)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133523-centro-dia-ocupacional-residencia-personas-discapacidad-intelectual-angel-guarda/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42924259133015,
+        "longitude" : -3.6525226176295886
+	  }
+
+    },
+	{
+      "id" : "10608768",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608768-centro-rehabilitacion-integral-femm-personas-discapacidad-fisica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad",
+      "title" : "Centro de rehabilitación integral de la FEMM para personas con discapacidad física",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4a4d3eb6a4c41610VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608768-centro-rehabilitacion-integral-femm-personas-discapacidad-fisica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "AVENIDA ASTURIAS 35"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608768-centro-rehabilitacion-integral-femm-personas-discapacidad-fisica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6954859236722464 40.468981171236365)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608768-centro-rehabilitacion-integral-femm-personas-discapacidad-fisica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.468981171236365,
+        "longitude" : -3.6954859236722464
+	  }
+
+    },
+	{
+      "id" : "7191610",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7191610-centro-ocupacional-afade",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro ocupacional Afade",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8c17c067ba072410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7191610-centro-ocupacional-afade/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "AVENIDA RAFAEL ALBERTI 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7191610-centro-ocupacional-afade/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6382994160654505 40.39124064781942)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7191610-centro-ocupacional-afade/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39124064781942,
+        "longitude" : -3.6382994160654505
+	  }
+
+    },
+	{
+      "id" : "179797",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/179797-centro-ocupacional-afanias-victorias",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro ocupacional Afanias las Victorias",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6ecfdef5ab41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/179797-centro-ocupacional-afanias-victorias/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE FRAY JUNIPERO SERRA 27 PLANTA BAJO"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/179797-centro-ocupacional-afanias-victorias/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7002805981898588 40.464476636565784)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/179797-centro-ocupacional-afanias-victorias/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.464476636565784,
+        "longitude" : -3.7002805981898588
+	  }
+
+    },
+	{
+      "id" : "7192542",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7192542-centro-ocupacional-fundacion-prodis-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro ocupacional Fundación Prodis para personas con discapacidad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ce229e3465572410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7192542-centro-ocupacional-fundacion-prodis-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "BULEVAR INDALECIO PRIETO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7192542-centro-ocupacional-fundacion-prodis-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6196350459744657 40.40528825008823)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7192542-centro-ocupacional-fundacion-prodis-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40528825008823,
+        "longitude" : -3.6196350459744657
+	  }
+
+    },
+	{
+      "id" : "7827408",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827408-centro-ocupacional-jardines-espana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro ocupacional Jardines de España",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1a97fb625b9ca410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827408-centro-ocupacional-jardines-espana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28050",
+		"street-address" : "AVENIDA BURGOS 85"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827408-centro-ocupacional-jardines-espana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.674061858174957 40.489470209915496)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827408-centro-ocupacional-jardines-espana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.489470209915496,
+        "longitude" : -3.674061858174957
+	  }
+
+    },
+	{
+      "id" : "7827380",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827380-centro-ocupacional-san-fernando",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro ocupacional San Fernando",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6fdbfb625b9ca410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827380-centro-ocupacional-san-fernando/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE CRISTO DE LA VICTORIA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827380-centro-ocupacional-san-fernando/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6997701685582576 40.38226328626074)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827380-centro-ocupacional-san-fernando/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38226328626074,
+        "longitude" : -3.6997701685582576
+	  }
+
+    },
+	{
+      "id" : "11941",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11941-centro-ocupacional-discapacitados-intelectuales-san-pedro-apostol",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro ocupacional para discapacitados intelectuales San Pedro Apostol",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9bb466051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11941-centro-ocupacional-discapacitados-intelectuales-san-pedro-apostol/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "PLAZA JUBILADO 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11941-centro-ocupacional-discapacitados-intelectuales-san-pedro-apostol/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5769721317735548 40.47410386462123)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11941-centro-ocupacional-discapacitados-intelectuales-san-pedro-apostol/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47410386462123,
+        "longitude" : -3.5769721317735548
+	  }
+
+    },
+	{
+      "id" : "35013",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/35013-centro-ocupacional-personas-discapacidad-intelectual-amanecer",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro ocupacional para personas con discapacidad intelectual Amanecer",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e087b3e42751c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/35013-centro-ocupacional-personas-discapacidad-intelectual-amanecer/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE MATILDE DIEZ 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/35013-centro-ocupacional-personas-discapacidad-intelectual-amanecer/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.673814833189555 40.44587722865534)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/35013-centro-ocupacional-personas-discapacidad-intelectual-amanecer/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44587722865534,
+        "longitude" : -3.673814833189555
+	  }
+
+    },
+	{
+      "id" : "133713",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133713-centro-ocupacional-personas-discapacidad-intelectual-estar-5-calle-camino-hormigueras",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro ocupacional para personas con discapacidad intelectual Estar 5. Calle Camino Hormigueras",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=06986da0aa81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133713-centro-ocupacional-personas-discapacidad-intelectual-estar-5-calle-camino-hormigueras/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CAMINO HORMIGUERAS 122 PLANTA 4 Q1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133713-centro-ocupacional-personas-discapacidad-intelectual-estar-5-calle-camino-hormigueras/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.644499097070304 40.37415200820221)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133713-centro-ocupacional-personas-discapacidad-intelectual-estar-5-calle-camino-hormigueras/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37415200820221,
+        "longitude" : -3.644499097070304
+	  }
+
+    },
+	{
+      "id" : "7191581",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7191581-centro-ocupacional-personas-discapacidad-intelectual-i-s-f-s",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro ocupacional para personas con discapacidad intelectual I.S.F.A.S.",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7f6bc067ba072410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7191581-centro-ocupacional-personas-discapacidad-intelectual-i-s-f-s/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "0",
+		"street-address" : "CARRETERA VENTA DE LA RUBIA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7191581-centro-ocupacional-personas-discapacidad-intelectual-i-s-f-s/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : null
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7191581-centro-ocupacional-personas-discapacidad-intelectual-i-s-f-s/geometry",
+		"@type" : "geo:Point",
+		"latitude" : null,
+        "longitude" : null
+	  }
+
+    },
+	{
+      "id" : "133490",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133490-centro-ocupacional-personas-discapacidad-intelectual-juan-austria",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro ocupacional para personas con discapacidad intelectual Juan de Austria",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5a696da0aa81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133490-centro-ocupacional-personas-discapacidad-intelectual-juan-austria/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "CALLE ARTURO SORIA 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133490-centro-ocupacional-personas-discapacidad-intelectual-juan-austria/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.638574248331316 40.439023208828694)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133490-centro-ocupacional-personas-discapacidad-intelectual-juan-austria/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.439023208828694,
+        "longitude" : -3.638574248331316
+	  }
+
+    },
+	{
+      "id" : "11937",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11937-centro-ocupacional-personas-discapacidad-intelectual-nazaret",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro ocupacional para personas con discapacidad intelectual Nazaret",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8a7466051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11937-centro-ocupacional-personas-discapacidad-intelectual-nazaret/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28050",
+		"street-address" : "AVENIDA MANOTERAS 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11937-centro-ocupacional-personas-discapacidad-intelectual-nazaret/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.671130231917999 40.488937726051674)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11937-centro-ocupacional-personas-discapacidad-intelectual-nazaret/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.488937726051674,
+        "longitude" : -3.671130231917999
+	  }
+
+    },
+	{
+      "id" : "56940",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56940-centro-ocupacional-personas-discapacidad-intelectual-pintor-rosales",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro ocupacional para personas con discapacidad intelectual Pintor Rosales",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=637a8ed67151c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56940-centro-ocupacional-personas-discapacidad-intelectual-pintor-rosales/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE MARQUES DE URQUIJO 47"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56940-centro-ocupacional-personas-discapacidad-intelectual-pintor-rosales/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7211317554048358 40.42889804715094)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56940-centro-ocupacional-personas-discapacidad-intelectual-pintor-rosales/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42889804715094,
+        "longitude" : -3.7211317554048358
+	  }
+
+    },
+	{
+      "id" : "133488",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133488-centro-ocupacional-residencia-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro ocupacional y residencia Carabanchel",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dfd86da0aa81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133488-centro-ocupacional-residencia-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE GENERAL RICARDOS 177"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133488-centro-ocupacional-residencia-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7364997414123096 40.385197375260255)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133488-centro-ocupacional-residencia-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.385197375260255,
+        "longitude" : -3.7364997414123096
+	  }
+
+    },
+	{
+      "id" : "7191232",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7191232-centro-ocupacional-angeles-urbanos-hortaleza-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Centro ocupacional Ángeles Urbanos Hortaleza para personas con discapacidad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b9848f0794072410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7191232-centro-ocupacional-angeles-urbanos-hortaleza-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE JOSE ALVAREZ DE TOLEDO 6 - 8 PLANTA Baja"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7191232-centro-ocupacional-angeles-urbanos-hortaleza-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6291942919461477 40.4623809566974)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7191232-centro-ocupacional-angeles-urbanos-hortaleza-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4623809566974,
+        "longitude" : -3.6291942919461477
+	  }
+
+    },
+	{
+      "id" : "108506",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/108506-cepri-peineta-residencia-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/ResidenciasPersonasDiscapacidad",
+      "title" : "Cepri La Peineta, residencia para personas con discapacidad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eb6e15a11a81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/108506-cepri-peineta-residencia-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE ZURICH 41"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/108506-cepri-peineta-residencia-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6038725870466695 40.42308348985996)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/108506-cepri-peineta-residencia-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42308348985996,
+        "longitude" : -3.6038725870466695
+	  }
+
+    },
+	{
+      "id" : "133522",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133522-ciudad-lineal-centro-ocupacional-residencia-personas-discapaciad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Ciudad Lineal, centro ocupacional, Residencia para personas con discapaciad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e3186da0aa81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133522-ciudad-lineal-centro-ocupacional-residencia-personas-discapaciad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "CALLE JOSEFA VALCARCEL 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133522-ciudad-lineal-centro-ocupacional-residencia-personas-discapaciad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.649095952119552 40.448045699169)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133522-ciudad-lineal-centro-ocupacional-residencia-personas-discapaciad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.448045699169,
+        "longitude" : -3.649095952119552
+	  }
+
+    },
+	{
+      "id" : "10605457",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605457-conjunto-residencial-fuentes-residencia-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Conjunto residencial Las Fuentes, residencia para personas con discapacidad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=74cef81878231610VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605457-conjunto-residencial-fuentes-residencia-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE VICENTE MORALES 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605457-conjunto-residencial-fuentes-residencia-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.636184523065201 40.461912532518056)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605457-conjunto-residencial-fuentes-residencia-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.461912532518056,
+        "longitude" : -3.636184523065201
+	  }
+
+    },
+	{
+      "id" : "10605400",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605400-disma-centro-ocupacional-centro-dia-residencia-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Disma, centro ocupacional, centro de día, residencia para personas con discapacidad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f48af81878231610VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605400-disma-centro-ocupacional-centro-dia-residencia-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "CALLE BAHIA DE POLLENSA 25"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605400-disma-centro-ocupacional-centro-dia-residencia-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5917816026576035 40.46473190259812)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605400-disma-centro-ocupacional-centro-dia-residencia-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46473190259812,
+        "longitude" : -3.5917816026576035
+	  }
+
+    },
+	{
+      "id" : "35067",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/35067-doctor-quintero-lumbreras-residencia-centro-ocupacional-centro-dia-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+      "title" : "Doctor Quintero Lumbreras, residencia, centro ocupacional y centro de día para personas con discapacidad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4ca7b3e42751c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/35067-doctor-quintero-lumbreras-residencia-centro-ocupacional-centro-dia-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "0",
+		"street-address" : "CARRETERA COLMENAR VIEJO 13.600"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/35067-doctor-quintero-lumbreras-residencia-centro-ocupacional-centro-dia-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : null
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/35067-doctor-quintero-lumbreras-residencia-centro-ocupacional-centro-dia-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : null,
+        "longitude" : null
+	  }
+
+    },
+	{
+      "id" : "11942",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11942-enco-centro-dia-centro-ocupacional-personas-discapacidad-intelectual-fundacion-aprocor-fromista",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "ENCO, centro de día, centro ocupacional personas con discapacidad intelectual Fundación Aprocor Fromista",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ad3466051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11942-enco-centro-dia-centro-ocupacional-personas-discapacidad-intelectual-fundacion-aprocor-fromista/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28050",
+		"street-address" : "CALLE FROMISTA 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11942-enco-centro-dia-centro-ocupacional-personas-discapacidad-intelectual-fundacion-aprocor-fromista/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.67467246143936 40.51037635796487)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11942-enco-centro-dia-centro-ocupacional-personas-discapacidad-intelectual-fundacion-aprocor-fromista/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.51037635796487,
+        "longitude" : -3.67467246143936
+	  }
+
+    },
+	{
+      "id" : "7827516",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827516-estudios-asura-residencia-discapacitados",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/ResidenciasPersonasDiscapacidad",
+      "title" : "Estudios Asura Residencia para Discapacitados",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=44cc7c8c2e9ca410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827516-estudios-asura-residencia-discapacitados/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE ASURA 74"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827516-estudios-asura-residencia-discapacitados/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6532409731306004 40.45595928183679)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827516-estudios-asura-residencia-discapacitados/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45595928183679,
+        "longitude" : -3.6532409731306004
+	  }
+
+    },
+	{
+      "id" : "7828344",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7828344-estudios-sobradiel-residencia-personas-discapacidad",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/ResidenciasPersonasDiscapacidad",
+      "title" : "Estudios Sobradiel Residencia para personas con discapacidad",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1c3a0e4553eca410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7828344-estudios-sobradiel-residencia-personas-discapacidad/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "RONDA SOBRADIEL 83"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7828344-estudios-sobradiel-residencia-personas-discapacidad/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.646304439483452 40.45331359169497)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7828344-estudios-sobradiel-residencia-personas-discapacidad/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45331359169497,
+        "longitude" : -3.646304439483452
+	  }
+
+    },
+	{
+      "id" : "6858752",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6858752-federacion-autismo-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad",
+      "title" : "Federación Autismo Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=55dc5b6fb395d310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6858752-federacion-autismo-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE COSTA BRAVA 31037068"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6858752-federacion-autismo-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.710334655987315 40.49288355330488)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6858752-federacion-autismo-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.49288355330488,
+        "longitude" : -3.710334655987315
+	  }
+
+    },
+	{
+      "id" : "10605448",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605448-fundacion-alas-madrid-centro-ocupacional-residencia-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Fundación ALAS Madrid, centro ocupacional, residencia para personas con discapacidad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b6ef81878231610VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605448-fundacion-alas-madrid-centro-ocupacional-residencia-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE ENCOMIENDA DE PALACIOS 235"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605448-fundacion-alas-madrid-centro-ocupacional-residencia-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.635794572225089 40.39771732231811)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10605448-fundacion-alas-madrid-centro-ocupacional-residencia-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39771732231811,
+        "longitude" : -3.635794572225089
+	  }
+
+    },
+	{
+      "id" : "7190391",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7190391-fundacion-betesda-gran-via-hortaleza-centro-dia-centro-residencial",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+      "title" : "Fundación Betesda Gran Vía de Hortaleza Centro de Día, Centro Residencial",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e4bd0deb6cf62410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7190391-fundacion-betesda-gran-via-hortaleza-centro-dia-centro-residencial/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "AVENIDA GRAN VIA DE HORTALEZA 27"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7190391-fundacion-betesda-gran-via-hortaleza-centro-dia-centro-residencial/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.651040562118116 40.4674761751366)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7190391-fundacion-betesda-gran-via-hortaleza-centro-dia-centro-residencial/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4674761751366,
+        "longitude" : -3.651040562118116
+	  }
+
+    },
+	{
+      "id" : "7192500",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7192500-fundacion-juan-xxiii-roncalli-centro-dia-ocupacional",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Fundación Juan XXIII Roncalli, centro de día y ocupacional",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c6d4085304572410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7192500-fundacion-juan-xxiii-roncalli-centro-dia-ocupacional/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "AVENIDA GRAN VIA DEL ESTE 1 PLANTA BAJO"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7192500-fundacion-juan-xxiii-roncalli-centro-dia-ocupacional/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.595313927334039 40.4029655566785)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7192500-fundacion-juan-xxiii-roncalli-centro-dia-ocupacional/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4029655566785,
+        "longitude" : -3.595313927334039
+	  }
+
+    },
+	{
+      "id" : "11928",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11928-fundacion-nuestra-senora-camino-residencia-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Fundación Nuestra Señora del Camino, residencia para personas con discapacidad intelectual.",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=309466051361c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11928-fundacion-nuestra-senora-camino-residencia-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE COLLADO DE TIROBARRA 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11928-fundacion-nuestra-senora-camino-residencia-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7159634482691497 40.495110057716886)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11928-fundacion-nuestra-senora-camino-residencia-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.495110057716886,
+        "longitude" : -3.7159634482691497
+	  }
+
+    },
+	{
+      "id" : "10608686",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608686-fundacion-rehabilitacion-lesionado-medular-residencia-personas-discapacidad-fisica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Fundación para la rehabilitación del lesionado medular, residencia para personas con discapacidad física",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b4a83eb6a4c41610VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608686-fundacion-rehabilitacion-lesionado-medular-residencia-personas-discapacidad-fisica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CAMINO VALDERRIBAS 115"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608686-fundacion-rehabilitacion-lesionado-medular-residencia-personas-discapacidad-fisica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6561267016339087 40.3944778539194)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608686-fundacion-rehabilitacion-lesionado-medular-residencia-personas-discapacidad-fisica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3944778539194,
+        "longitude" : -3.6561267016339087
+	  }
+
+    },
+	{
+      "id" : "12168",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12168-hospital-fundacion-instituto-san-jose-centro-rehabilitacion-discapacitados-fisicos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Hospital Fundación Instituto San José, centro de rehabilitación Discapacitados físicos",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e8e3e1635561c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12168-hospital-fundacion-instituto-san-jose-centro-rehabilitacion-discapacitados-fisicos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28054",
+		"street-address" : "CALLE PINAR DE SAN JOSE 98"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12168-hospital-fundacion-instituto-san-jose-centro-rehabilitacion-discapacitados-fisicos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.774901548263788 40.36208135098422)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/12168-hospital-fundacion-instituto-san-jose-centro-rehabilitacion-discapacitados-fisicos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.36208135098422,
+        "longitude" : -3.774901548263788
+	  }
+
+    },
+	{
+      "id" : "10613790",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10613790-instituto-psicopediatria-doctor-quintero-lumbreeras-centro-cupacional-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Instituto psicopediatría doctor Quintero Lumbreeras, centro cupacional para personas con discapacidad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=11dc2ab96da61610VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10613790-instituto-psicopediatria-doctor-quintero-lumbreeras-centro-cupacional-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28049",
+		"street-address" : "CARRETERA COLMENAR VIEJO 13.6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10613790-instituto-psicopediatria-doctor-quintero-lumbreeras-centro-cupacional-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7140517146418874 40.56299317375062)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10613790-instituto-psicopediatria-doctor-quintero-lumbreeras-centro-cupacional-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.56299317375062,
+        "longitude" : -3.7140517146418874
+	  }
+
+    },
+	{
+      "id" : "10610019",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10610019-lescer-centro-rehabilitacion-personas-discapacidad-fisica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Lescer, centro de rehabilitación para personas con discapacidad física",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=57ad7a56a9051610VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10610019-lescer-centro-rehabilitacion-personas-discapacidad-fisica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "AVENIDA FUENTELARREYNA 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10610019-lescer-centro-rehabilitacion-personas-discapacidad-fisica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7491332374752018 40.47369912152337)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10610019-lescer-centro-rehabilitacion-personas-discapacidad-fisica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47369912152337,
+        "longitude" : -3.7491332374752018
+	  }
+
+    },
+	{
+      "id" : "133640",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133640-mirasierra-centro-dia-residencia-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosDiasPersonasDiscapacidad",
+      "title" : "Mirasierra, Centro de día y residencia para personas con discapacidad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=551015a11a81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133640-mirasierra-centro-dia-residencia-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE LA MASO 40"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133640-mirasierra-centro-dia-residencia-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.714174858198665 40.48891397639459)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/133640-mirasierra-centro-dia-residencia-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48891397639459,
+        "longitude" : -3.714174858198665
+	  }
+
+    },
+	{
+      "id" : "7827509",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827509-nuestra-senora-camino-iii-centro-ocupacional",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Nuestra Señora del Camino III, Centro ocupacional",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ad45dfec3c9ca410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827509-nuestra-senora-camino-iii-centro-ocupacional/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "CALLE NUEVA CALEDONIA 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827509-nuestra-senora-camino-iii-centro-ocupacional/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7214278540928607 40.46211235641)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827509-nuestra-senora-camino-iii-centro-ocupacional/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46211235641,
+        "longitude" : -3.7214278540928607
+	  }
+
+    },
+	{
+      "id" : "10607888",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10607888-nuestra-senora-camino-centro-ocupacional-centro-dia-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Nuestra Señora del Camino, centro ocupacional, centro de día para personas con discapacidad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5e36ffbd81741610VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10607888-nuestra-senora-camino-centro-ocupacional-centro-dia-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE DIONISIO INCA YUPANQUI 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10607888-nuestra-senora-camino-centro-ocupacional-centro-dia-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6323714862737186 40.461875888579776)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10607888-nuestra-senora-camino-centro-ocupacional-centro-dia-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.461875888579776,
+        "longitude" : -3.6323714862737186
+	  }
+
+    },
+	{
+      "id" : "10608714",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608714-parkinson-madrid-centro-integral-madrid-retiro-centro-rehabilitacion-personas-discapacidad-fisica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Parkinson Madrid, centro integral Madrid Retiro, centro de rehabilitación para personas con discapacidad física",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9c2a3eb6a4c41610VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608714-parkinson-madrid-centro-integral-madrid-retiro-centro-rehabilitacion-personas-discapacidad-fisica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE POETA ESTEBAN DE VILLEGAS 12 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608714-parkinson-madrid-centro-integral-madrid-retiro-centro-rehabilitacion-personas-discapacidad-fisica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6804515927774135 40.40814835842319)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608714-parkinson-madrid-centro-integral-madrid-retiro-centro-rehabilitacion-personas-discapacidad-fisica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40814835842319,
+        "longitude" : -3.6804515927774135
+	  }
+
+    },
+	{
+      "id" : "10608702",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608702-polibea-centro-rehabilitacion-discapacidad-fisica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad",
+      "title" : "Polibea, centro de rehabilitación con discapacidad física",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=46793eb6a4c41610VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608702-polibea-centro-rehabilitacion-discapacidad-fisica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "RONDA SOBRADIEL 36"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608702-polibea-centro-rehabilitacion-discapacidad-fisica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6376082547182045 40.45331397647663)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608702-polibea-centro-rehabilitacion-discapacidad-fisica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45331397647663,
+        "longitude" : -3.6376082547182045
+	  }
+
+    },
+	{
+      "id" : "10608506",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608506-ponce-leon-centro-ocupacional-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Ponce de León, Centro ocupacional para personas con discapacidad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7a10c0a43fb41610VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608506-ponce-leon-centro-ocupacional-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE EDUARDO BARREIROS 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608506-ponce-leon-centro-ocupacional-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.696174835478501 40.37240634440121)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10608506-ponce-leon-centro-ocupacional-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37240634440121,
+        "longitude" : -3.696174835478501
+	  }
+
+    },
+	{
+      "id" : "10612875",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10612875-primer-paso-centro-ocupacional-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Primer Paso, centro ocupacional para personas con discapacidad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b8563dc9e561610VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10612875-primer-paso-centro-ocupacional-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28023",
+		"street-address" : "CALLE TAPIA DE CASARIEGO 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10612875-primer-paso-centro-ocupacional-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.774080179397656 40.464941828201596)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10612875-primer-paso-centro-ocupacional-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.464941828201596,
+        "longitude" : -3.774080179397656
+	  }
+
+    },
+	{
+      "id" : "6818168",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6818168-residencia-belisana-para-personas-discapacidad-intelectual-no-grave",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/ResidenciasPersonasDiscapacidad",
+      "title" : "Residencia Belisana para para personas con discapacidad intelectual no grave",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=54e1f6ac0b2dc310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6818168-residencia-belisana-para-personas-discapacidad-intelectual-no-grave/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE BELISANA 22"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6818168-residencia-belisana-para-personas-discapacidad-intelectual-no-grave/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.653168175953767 40.45818491514092)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6818168-residencia-belisana-para-personas-discapacidad-intelectual-no-grave/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45818491514092,
+        "longitude" : -3.653168175953767
+	  }
+
+    },
+	{
+      "id" : "11919",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11919-residencia-personas-discapacidad-fisica-confederacion-estatal-minusvalidos-fisicos-espana-cocemfe",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/ResidenciasPersonasDiscapacidad",
+      "title" : "Residencia para personas con discapacidad física de la Confederación Estatal de Minusválidos Físicos de España COCEMFE",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f88072081661c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11919-residencia-personas-discapacidad-fisica-confederacion-estatal-minusvalidos-fisicos-espana-cocemfe/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE EUGENIO SALAZAR 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11919-residencia-personas-discapacidad-fisica-confederacion-estatal-minusvalidos-fisicos-espana-cocemfe/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.672903416156509 40.44435100627275)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/11919-residencia-personas-discapacidad-fisica-confederacion-estatal-minusvalidos-fisicos-espana-cocemfe/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44435100627275,
+        "longitude" : -3.672903416156509
+	  }
+
+    },
+	{
+      "id" : "35179",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/35179-residencia-personas-discapacidad-intelectual-san-martin-porres",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/ResidenciasPersonasDiscapacidad",
+      "title" : "Residencia para personas con discapacidad intelectual San Martín de Porres",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=389b444a2951c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/35179-residencia-personas-discapacidad-intelectual-san-martin-porres/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28023",
+		"street-address" : "CALLE WALMAN 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/35179-residencia-personas-discapacidad-intelectual-san-martin-porres/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.8242111422888856 40.47200161350008)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/35179-residencia-personas-discapacidad-intelectual-san-martin-porres/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47200161350008,
+        "longitude" : -3.8242111422888856
+	  }
+
+    },
+	{
+      "id" : "4849820",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4849820-residencia-centro-rehabilitacion-duques-lugo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad",
+      "title" : "Residencia y Centro de Rehabilitación Duques de Lugo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=775b92b6b4ae8110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4849820-residencia-centro-rehabilitacion-duques-lugo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28024",
+		"street-address" : "CALLE ADONIS 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4849820-residencia-centro-rehabilitacion-duques-lugo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.773910285133272 40.3866197264309)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4849820-residencia-centro-rehabilitacion-duques-lugo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3866197264309,
+        "longitude" : -3.773910285133272
+	  }
+
+    },
+	{
+      "id" : "7827714",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827714-residencia-centro-rehabilitacion-recuperacion-medinaceli-ramirez-tome",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/ResidenciasPersonasDiscapacidad",
+      "title" : "Residencia y Centro de rehabilitación y recuperación Medinaceli Ramírez Tomé",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b6598e738bdca410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827714-residencia-centro-rehabilitacion-recuperacion-medinaceli-ramirez-tome/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CALLE RAMIREZ TOME 38"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827714-residencia-centro-rehabilitacion-recuperacion-medinaceli-ramirez-tome/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6465118794444407 40.388780583826545)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7827714-residencia-centro-rehabilitacion-recuperacion-medinaceli-ramirez-tome/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.388780583826545,
+        "longitude" : -3.6465118794444407
+	  }
+
+    },
+	{
+      "id" : "7191698",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7191698-san-alfonso-centro-dia-ocupacional-residencia-fundacion-ande",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "San Alfonso, Centro de día, ocupacional y residencia Fundación Ande",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ec7b7006ac072410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7191698-san-alfonso-centro-dia-ocupacional-residencia-fundacion-ande/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "AVENIDA RAFAELA YBARRA 75 PLANTA BAJO"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7191698-san-alfonso-centro-dia-ocupacional-residencia-fundacion-ande/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7115108307648805 40.37843484951819)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7191698-san-alfonso-centro-dia-ocupacional-residencia-fundacion-ande/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37843484951819,
+        "longitude" : -3.7115108307648805
+	  }
+
+    },
+	{
+      "id" : "34541",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/34541-taller-centro-ocupacional-personas-discapacidad-intelectual-aprocor-i",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Taller centro ocupacional para personas con discapacidad intelectual Aprocor I",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9697b3e42751c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/34541-taller-centro-ocupacional-personas-discapacidad-intelectual-aprocor-i/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE ESTEBAN PALACIOS 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/34541-taller-centro-ocupacional-personas-discapacidad-intelectual-aprocor-i/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6222171438810635 40.4578601719814)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/34541-taller-centro-ocupacional-personas-discapacidad-intelectual-aprocor-i/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4578601719814,
+        "longitude" : -3.6222171438810635
+	  }
+
+    },
+	{
+      "id" : "7193047",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7193047-taller-ocupacional-ii-ademo-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Taller ocupacional II Ademo para personas con discapacidad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e707107d4d572410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7193047-taller-ocupacional-ii-ademo-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE CAMINO DE LOS VINATEROS 59"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7193047-taller-ocupacional-ii-ademo-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6526723679582753 40.41058399693762)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7193047-taller-ocupacional-ii-ademo-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41058399693762,
+        "longitude" : -3.6526723679582753
+	  }
+
+    },
+	{
+      "id" : "4852632",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4852632-unidad-san-camilo-san-nicolas-fundacion-instituto-san-jose-residencia-centro-dia-ocupacional-personas-discapacidad-intelectual",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosAtencionSocialPersonasDiscapacidad/CentrosOcupacionalesPersonasDiscapacidad",
+      "title" : "Unidad San Camilo y San Nicolás. Fundación Instituto San José, Residencia, centro de día y ocupacional para personas con discapacidad intelectual",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=598ceba6910f8110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4852632-unidad-san-camilo-san-nicolas-fundacion-instituto-san-jose-residencia-centro-dia-ocupacional-personas-discapacidad-intelectual/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28054",
+		"street-address" : "CALLE PINAR DE SAN JOSE 98"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4852632-unidad-san-camilo-san-nicolas-fundacion-instituto-san-jose-residencia-centro-dia-ocupacional-personas-discapacidad-intelectual/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.774901548263788 40.36208135098422)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4852632-unidad-san-camilo-san-nicolas-fundacion-instituto-san-jose-residencia-centro-dia-ocupacional-personas-discapacidad-intelectual/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.36208135098422,
+        "longitude" : -3.774901548263788
+	  }
+
+    }
+  ]
+}

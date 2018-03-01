@@ -1,0 +1,1298 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "171184",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171184-agencia-empleo-madrid-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Agencia  para el Empleo de Madrid. Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bd6529ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171184-agencia-empleo-madrid-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "PASEO PONTONES 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171184-agencia-empleo-madrid-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7153038821293856 40.405141382206395)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/171184-agencia-empleo-madrid-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.405141382206395,
+        "longitude" : -3.7153038821293856
+	  }
+
+    },
+	{
+      "id" : "170729",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170729-agencia-tributaria-madrid-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Agencia Tributaria de Madrid. Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=408529ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170729-agencia-tributaria-madrid-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE SACRAMENTO 3 PLANTA BAJA"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170729-agencia-tributaria-madrid-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7110890097804248 40.41449174864591)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170729-agencia-tributaria-madrid-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41449174864591,
+        "longitude" : -3.7110890097804248
+	  }
+
+    },
+	{
+      "id" : "5627235",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5627235-agencia-actividades-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Agencia de Actividades. Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f7c6f4061d497210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5627235-agencia-actividades-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE BUSTAMANTE 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5627235-agencia-actividades-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6882686006118175 40.400449587879166)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5627235-agencia-actividades-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.400449587879166,
+        "longitude" : -3.6882686006118175
+	  }
+
+    },
+	{
+      "id" : "182340",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182340-direccion-general-gestion-vigilancia-circulacion-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Dirección General de Gestión y Vigilancia de la Circulación. Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=efdb0e4e6d41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182340-direccion-general-gestion-vigilancia-circulacion-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE ALBARRACIN 33"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182340-direccion-general-gestion-vigilancia-circulacion-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6310855640348203 40.432559809835496)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182340-direccion-general-gestion-vigilancia-circulacion-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.432559809835496,
+        "longitude" : -3.6310855640348203
+	  }
+
+    },
+	{
+      "id" : "8614218",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8614218-gerencia-ciudad-personal-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Gerencia de la Ciudad (Personal). Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c2cd97b25cb02510VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8614218-gerencia-ciudad-personal-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE BUSTAMANTE 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8614218-gerencia-ciudad-personal-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6882686006118175 40.400449587879166)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8614218-gerencia-ciudad-personal-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.400449587879166,
+        "longitude" : -3.6882686006118175
+	  }
+
+    },
+	{
+      "id" : "8614208",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8614208-gerencia-ciudad-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Gerencia de la Ciudad. Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c4b997b25cb02510VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8614208-gerencia-ciudad-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE MONTALBAN 1 Palacio de Cibeles"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8614208-gerencia-ciudad-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.69213979278398 40.418291440980205)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8614208-gerencia-ciudad-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.418291440980205,
+        "longitude" : -3.69213979278398
+	  }
+
+    },
+	{
+      "id" : "170733",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170733-informatica-ayuntamiento-madrid-iam-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Informática del Ayuntamiento de Madrid (IAM). Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d29529ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170733-informatica-ayuntamiento-madrid-iam-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE ALBARRACIN 33"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170733-informatica-ayuntamiento-madrid-iam-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6310855640348203 40.432559809835496)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170733-informatica-ayuntamiento-madrid-iam-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.432559809835496,
+        "longitude" : -3.6310855640348203
+	  }
+
+    },
+	{
+      "id" : "170990",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170990-madrid-salud-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Madrid Salud. Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=65a529ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170990-madrid-salud-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "AVENIDA MEDITERRANEO 62"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170990-madrid-salud-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.666485680189555 40.40582949013793)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170990-madrid-salud-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40582949013793,
+        "longitude" : -3.666485680189555
+	  }
+
+    },
+	{
+      "id" : "332",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/332-oficina-auxiliar-atencion-ciudadania-aravaca-oficina-atencion-ciudadania-linea-madrid-moncloa-aravaca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina Auxiliar de Atención a la Ciudadanía de Aravaca. Oficina de Atención a la Ciudadanía Línea Madrid Moncloa - Aravaca.",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=367d29ea9281c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/332-oficina-auxiliar-atencion-ciudadania-aravaca-oficina-atencion-ciudadania-linea-madrid-moncloa-aravaca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28023",
+		"street-address" : "CALLE ZARZA 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/332-oficina-auxiliar-atencion-ciudadania-aravaca-oficina-atencion-ciudadania-linea-madrid-moncloa-aravaca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.78586746040826 40.45843095535268)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/332-oficina-auxiliar-atencion-ciudadania-aravaca-oficina-atencion-ciudadania-linea-madrid-moncloa-aravaca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45843095535268,
+        "longitude" : -3.78586746040826
+	  }
+
+    },
+	{
+      "id" : "24242",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24242-oficina-auxiliar-atencion-ciudadania-pardo-oficina-atencion-ciudadania-linea-madrid-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina Auxiliar de Atención a la Ciudadanía de El Pardo. Oficina de Atención a la Ciudadanía Línea Madrid Fuencarral - El Pardo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=73210a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24242-oficina-auxiliar-atencion-ciudadania-pardo-oficina-atencion-ciudadania-linea-madrid-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28048",
+		"street-address" : "PLAZA EL PARDO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24242-oficina-auxiliar-atencion-ciudadania-pardo-oficina-atencion-ciudadania-linea-madrid-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.777365185426138 40.51990216989406)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24242-oficina-auxiliar-atencion-ciudadania-pardo-oficina-atencion-ciudadania-linea-madrid-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.51990216989406,
+        "longitude" : -3.777365185426138
+	  }
+
+    },
+	{
+      "id" : "24245",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24245-oficina-auxiliar-atencion-ciudadania-valverde-oficina-atencion-ciudadania-linea-madrid-distrito-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina Auxiliar de Atención a la Ciudadanía de Valverde. Oficina de Atención a la Ciudadanía Línea Madrid. Distrito de Fuencarral - El Pardo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=76310a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24245-oficina-auxiliar-atencion-ciudadania-valverde-oficina-atencion-ciudadania-linea-madrid-distrito-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "PLAZA ISLAS AZORES 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24245-oficina-auxiliar-atencion-ciudadania-valverde-oficina-atencion-ciudadania-linea-madrid-distrito-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.687983425734921 40.49504578261263)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/24245-oficina-auxiliar-atencion-ciudadania-valverde-oficina-atencion-ciudadania-linea-madrid-distrito-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.49504578261263,
+        "longitude" : -3.687983425734921
+	  }
+
+    },
+	{
+      "id" : "185422",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185422-oficina-central-atencion-ciudadania-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina Central de Atención a la Ciudadanía. Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e025ad69b8e5d010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185422-oficina-central-atencion-ciudadania-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "AVENIDA REINA VICTORIA 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185422-oficina-central-atencion-ciudadania-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7048484168298685 40.44671018525247)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/185422-oficina-central-atencion-ciudadania-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44671018525247,
+        "longitude" : -3.7048484168298685
+	  }
+
+    },
+	{
+      "id" : "5321993",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5321993-oficina-atencion-integral-al-contribuyente-calle-hierro-27-legazpi",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención Integral al Contribuyente. Calle Hierro, 27 (Legazpi)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e25edf836af01210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5321993-oficina-atencion-integral-al-contribuyente-calle-hierro-27-legazpi/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE HIERRO 27"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5321993-oficina-atencion-integral-al-contribuyente-calle-hierro-27-legazpi/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.690501580631827 40.39063439598594)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5321993-oficina-atencion-integral-al-contribuyente-calle-hierro-27-legazpi/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39063439598594,
+        "longitude" : -3.690501580631827
+	  }
+
+    },
+	{
+      "id" : "5620158",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5620158-oficina-atencion-integral-al-contribuyente-calle-raimundo-fernandez-villaverde-32",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención Integral al Contribuyente. Calle Raimundo Fernández Villaverde, 32",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=401f5361e8b67210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5620158-oficina-atencion-integral-al-contribuyente-calle-raimundo-fernandez-villaverde-32/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE RAIMUNDO FERNANDEZ VILLAVERDE 32"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5620158-oficina-atencion-integral-al-contribuyente-calle-raimundo-fernandez-villaverde-32/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6989699295578347 40.44613326792272)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5620158-oficina-atencion-integral-al-contribuyente-calle-raimundo-fernandez-villaverde-32/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44613326792272,
+        "longitude" : -3.6989699295578347
+	  }
+
+    },
+	{
+      "id" : "8628334",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8628334-oficina-atencion-integral-al-contribuyente-calle-ramon-power-24",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención Integral al Contribuyente. Calle Ramón Power, 24",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ce533233b8f32510VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8628334-oficina-atencion-integral-al-contribuyente-calle-ramon-power-24/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE RAMON POWER 24"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8628334-oficina-atencion-integral-al-contribuyente-calle-ramon-power-24/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.63236531637309 40.463444731027394)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8628334-oficina-atencion-integral-al-contribuyente-calle-ramon-power-24/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.463444731027394,
+        "longitude" : -3.63236531637309
+	  }
+
+    },
+	{
+      "id" : "180717",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180717-oficina-atencion-ciudadania-linea-madrid-distrito-arganzuela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Arganzuela",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=67da8aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180717-oficina-atencion-ciudadania-linea-madrid-distrito-arganzuela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PASEO CHOPERA 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180717-oficina-atencion-ciudadania-linea-madrid-distrito-arganzuela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.698565632659468 40.3933877847248)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180717-oficina-atencion-ciudadania-linea-madrid-distrito-arganzuela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3933877847248,
+        "longitude" : -3.698565632659468
+	  }
+
+    },
+	{
+      "id" : "180005",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180005-oficina-atencion-ciudadania-linea-madrid-distrito-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Barajas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7a0b8aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180005-oficina-atencion-ciudadania-linea-madrid-distrito-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "PLAZA MERCURIO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180005-oficina-atencion-ciudadania-linea-madrid-distrito-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.577768444536064 40.47479357890765)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180005-oficina-atencion-ciudadania-linea-madrid-distrito-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47479357890765,
+        "longitude" : -3.577768444536064
+	  }
+
+    },
+	{
+      "id" : "4706011",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4706011-oficina-atencion-ciudadania-linea-madrid-distrito-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Carabanchel",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9c8fa5a18b3c6110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4706011-oficina-atencion-ciudadania-linea-madrid-distrito-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "AVENIDA PLAZA DE TOROS 17 B"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4706011-oficina-atencion-ciudadania-linea-madrid-distrito-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7399577712175667 40.385751879834054)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4706011-oficina-atencion-ciudadania-linea-madrid-distrito-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.385751879834054,
+        "longitude" : -3.7399577712175667
+	  }
+
+    },
+	{
+      "id" : "5727898",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5727898-oficina-atencion-ciudadania-linea-madrid-distrito-centro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Centro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=70141da64ba49210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5727898-oficina-atencion-ciudadania-linea-madrid-distrito-centro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE ATOCHA 70"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5727898-oficina-atencion-ciudadania-linea-madrid-distrito-centro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.697739488614288 40.41151901471168)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5727898-oficina-atencion-ciudadania-linea-madrid-distrito-centro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41151901471168,
+        "longitude" : -3.697739488614288
+	  }
+
+    },
+	{
+      "id" : "182853",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182853-oficina-atencion-ciudadania-linea-madrid-distrito-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Chamartín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=614b8aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182853-oficina-atencion-ciudadania-linea-madrid-distrito-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PRINCIPE DE VERGARA 142"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182853-oficina-atencion-ciudadania-linea-madrid-distrito-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6780972922453685 40.44489723228663)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182853-oficina-atencion-ciudadania-linea-madrid-distrito-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44489723228663,
+        "longitude" : -3.6780972922453685
+	  }
+
+    },
+	{
+      "id" : "183012",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183012-oficina-atencion-ciudadania-linea-madrid-distrito-chamberi",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Chamberí",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=499b8aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183012-oficina-atencion-ciudadania-linea-madrid-distrito-chamberi/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "AVENIDA REINA VICTORIA 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183012-oficina-atencion-ciudadania-linea-madrid-distrito-chamberi/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7048363430688873 40.446683231882865)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183012-oficina-atencion-ciudadania-linea-madrid-distrito-chamberi/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.446683231882865,
+        "longitude" : -3.7048363430688873
+	  }
+
+    },
+	{
+      "id" : "180078",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180078-oficina-atencion-ciudadania-linea-madrid-distrito-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Ciudad Lineal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=50eb8aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180078-oficina-atencion-ciudadania-linea-madrid-distrito-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "AVENIDA INSTITUCION LIBRE DE ENSE&Ntilde;ANZA 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180078-oficina-atencion-ciudadania-linea-madrid-distrito-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6369662067437245 40.4359990280135)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180078-oficina-atencion-ciudadania-linea-madrid-distrito-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4359990280135,
+        "longitude" : -3.6369662067437245
+	  }
+
+    },
+	{
+      "id" : "180291",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180291-oficina-atencion-ciudadania-linea-madrid-distrito-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Fuencarral - El Pardo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eb0c8aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180291-oficina-atencion-ciudadania-linea-madrid-distrito-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "AVENIDA MONFORTE DE LEMOS 40"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180291-oficina-atencion-ciudadania-linea-madrid-distrito-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.709841173334448 40.478526343687925)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180291-oficina-atencion-ciudadania-linea-madrid-distrito-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.478526343687925,
+        "longitude" : -3.709841173334448
+	  }
+
+    },
+	{
+      "id" : "182794",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182794-oficina-atencion-ciudadania-linea-madrid-distrito-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Hortaleza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0a8c8aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182794-oficina-atencion-ciudadania-linea-madrid-distrito-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CARRETERA CANILLAS 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182794-oficina-atencion-ciudadania-linea-madrid-distrito-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6571542769919407 40.46299114016909)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182794-oficina-atencion-ciudadania-linea-madrid-distrito-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46299114016909,
+        "longitude" : -3.6571542769919407
+	  }
+
+    },
+	{
+      "id" : "181203",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181203-oficina-atencion-ciudadania-linea-madrid-distrito-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Latina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8bcc8aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181203-oficina-atencion-ciudadania-linea-madrid-distrito-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "AVENIDA LAS AGUILAS 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181203-oficina-atencion-ciudadania-linea-madrid-distrito-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.764218505722328 40.3849364255536)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181203-oficina-atencion-ciudadania-linea-madrid-distrito-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3849364255536,
+        "longitude" : -3.764218505722328
+	  }
+
+    },
+	{
+      "id" : "4618663",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4618663-oficina-atencion-ciudadania-linea-madrid-distrito-moncloa-aravaca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Moncloa - Aravaca",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1d6607151bcf3110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4618663-oficina-atencion-ciudadania-linea-madrid-distrito-moncloa-aravaca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "PLAZA MONCLOA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4618663-oficina-atencion-ciudadania-linea-madrid-distrito-moncloa-aravaca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.718876324432256 40.43519137700088)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4618663-oficina-atencion-ciudadania-linea-madrid-distrito-moncloa-aravaca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43519137700088,
+        "longitude" : -3.718876324432256
+	  }
+
+    },
+	{
+      "id" : "180014",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180014-oficina-atencion-ciudadania-linea-madrid-distrito-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Moratalaz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7e5d8aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180014-oficina-atencion-ciudadania-linea-madrid-distrito-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE FUENTE CARRANTONA 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180014-oficina-atencion-ciudadania-linea-madrid-distrito-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6368959356337216 40.39859980911487)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180014-oficina-atencion-ciudadania-linea-madrid-distrito-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39859980911487,
+        "longitude" : -3.6368959356337216
+	  }
+
+    },
+	{
+      "id" : "182199",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182199-oficina-atencion-ciudadania-linea-madrid-distrito-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Puente de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0ced8aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182199-oficina-atencion-ciudadania-linea-madrid-distrito-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "AVENIDA ALBUFERA 42"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182199-oficina-atencion-ciudadania-linea-madrid-distrito-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6663361506752064 40.39664109245883)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182199-oficina-atencion-ciudadania-linea-madrid-distrito-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39664109245883,
+        "longitude" : -3.6663361506752064
+	  }
+
+    },
+	{
+      "id" : "180011",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180011-oficina-atencion-ciudadania-linea-madrid-distrito-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Retiro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a74e8aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180011-oficina-atencion-ciudadania-linea-madrid-distrito-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "AVENIDA CIUDAD DE BARCELONA 162 Entrada por el edificio nuevo de la Junta de distrito de Retiro."
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180011-oficina-atencion-ciudadania-linea-madrid-distrito-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6772931748500297 40.40236125879463)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180011-oficina-atencion-ciudadania-linea-madrid-distrito-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40236125879463,
+        "longitude" : -3.6772931748500297
+	  }
+
+    },
+	{
+      "id" : "180854",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180854-oficina-atencion-ciudadania-linea-madrid-distrito-salamanca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Salamanca",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c3ae8aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180854-oficina-atencion-ciudadania-linea-madrid-distrito-salamanca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE VELAZQUEZ 52"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180854-oficina-atencion-ciudadania-linea-madrid-distrito-salamanca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.683768008487216 40.42732326877904)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/180854-oficina-atencion-ciudadania-linea-madrid-distrito-salamanca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42732326877904,
+        "longitude" : -3.683768008487216
+	  }
+
+    },
+	{
+      "id" : "183637",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183637-oficina-atencion-ciudadania-linea-madrid-distrito-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de San Blas - Canillejas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e2fe8aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183637-oficina-atencion-ciudadania-linea-madrid-distrito-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "AVENIDA ARCENTALES 28"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183637-oficina-atencion-ciudadania-linea-madrid-distrito-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6096219543135817 40.434476793953166)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183637-oficina-atencion-ciudadania-linea-madrid-distrito-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.434476793953166,
+        "longitude" : -3.6096219543135817
+	  }
+
+    },
+	{
+      "id" : "4533790",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4533790-oficina-atencion-ciudadania-linea-madrid-distrito-tetuan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Tetuán",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=567c1b7dd5621110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4533790-oficina-atencion-ciudadania-linea-madrid-distrito-tetuan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "CALLE SIMANCAS 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4533790-oficina-atencion-ciudadania-linea-madrid-distrito-tetuan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6940418104349586 40.465712459445)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4533790-oficina-atencion-ciudadania-linea-madrid-distrito-tetuan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.465712459445,
+        "longitude" : -3.6940418104349586
+	  }
+
+    },
+	{
+      "id" : "181625",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181625-oficina-atencion-ciudadania-linea-madrid-distrito-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Usera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bf6f8aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181625-oficina-atencion-ciudadania-linea-madrid-distrito-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "AVENIDA RAFAELA YBARRA 41"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181625-oficina-atencion-ciudadania-linea-madrid-distrito-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7107515747822353 40.38241253009179)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181625-oficina-atencion-ciudadania-linea-madrid-distrito-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38241253009179,
+        "longitude" : -3.7107515747822353
+	  }
+
+    },
+	{
+      "id" : "183881",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183881-oficina-atencion-ciudadania-linea-madrid-distrito-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Vicálvaro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1eef8aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183881-oficina-atencion-ciudadania-linea-madrid-distrito-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "PLAZA DON ANTONIO DE ANDRES 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183881-oficina-atencion-ciudadania-linea-madrid-distrito-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6059845330840714 40.402270479784896)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/183881-oficina-atencion-ciudadania-linea-madrid-distrito-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.402270479784896,
+        "longitude" : -3.6059845330840714
+	  }
+
+    },
+	{
+      "id" : "182351",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182351-oficina-atencion-ciudadania-linea-madrid-distrito-villa-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Villa de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1e308aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182351-oficina-atencion-ciudadania-linea-madrid-distrito-villa-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "PASEO FEDERICO GARCIA LORCA 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182351-oficina-atencion-ciudadania-linea-madrid-distrito-villa-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.621454785869909 40.3788998244401)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182351-oficina-atencion-ciudadania-linea-madrid-distrito-villa-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3788998244401,
+        "longitude" : -3.621454785869909
+	  }
+
+    },
+	{
+      "id" : "181738",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181738-oficina-atencion-ciudadania-linea-madrid-distrito-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Distrito de Villaverde",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=69a08aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181738-oficina-atencion-ciudadania-linea-madrid-distrito-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE ARROYO BUENO 53"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181738-oficina-atencion-ciudadania-linea-madrid-distrito-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.71120030905872 40.348895848554626)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/181738-oficina-atencion-ciudadania-linea-madrid-distrito-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.348895848554626,
+        "longitude" : -3.71120030905872
+	  }
+
+    },
+	{
+      "id" : "5262382",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5262382-oficina-atencion-ciudadania-linea-madrid-numancia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Numancia",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7978b5ddd36cf110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5262382-oficina-atencion-ciudadania-linea-madrid-numancia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CALLE MONTE OLIVETI 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5262382-oficina-atencion-ciudadania-linea-madrid-numancia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6670669926439974 40.39786211392555)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5262382-oficina-atencion-ciudadania-linea-madrid-numancia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39786211392555,
+        "longitude" : -3.6670669926439974
+	  }
+
+    },
+	{
+      "id" : "190825",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190825-oficina-atencion-ciudadania-linea-madrid-sanchinarro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Atención a la Ciudadanía. Línea Madrid. Sanchinarro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c2b3f5ae13d60110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190825-oficina-atencion-ciudadania-linea-madrid-sanchinarro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28050",
+		"street-address" : "CALLE PRINCESA DE EBOLI 29 En el Centro Cultural Sanchinarro"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190825-oficina-atencion-ciudadania-linea-madrid-sanchinarro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.655356751728003 40.490415625465424)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190825-oficina-atencion-ciudadania-linea-madrid-sanchinarro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.490415625465424,
+        "longitude" : -3.655356751728003
+	  }
+
+    },
+	{
+      "id" : "6235699",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6235699-oficina-registro-centro-servicios-sociales-distrito-salamanca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Oficina de Registro del Centro de Servicios Sociales del Distrito de Salamanca",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=818c22cf28ba3310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6235699-oficina-registro-centro-servicios-sociales-distrito-salamanca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE PILAR DE ZARAGOZA 28"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6235699-oficina-registro-centro-servicios-sociales-distrito-salamanca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6692117173820793 40.43356161415441)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6235699-oficina-registro-centro-servicios-sociales-distrito-salamanca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43356161415441,
+        "longitude" : -3.6692117173820793
+	  }
+
+    },
+	{
+      "id" : "165622",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165622-tribunal-economico-administrativo-municipal-madrid-teamm-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Tribunal Económico - Administrativo Municipal de Madrid (TEAMM). Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=104c8f90a581c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165622-tribunal-economico-administrativo-municipal-madrid-teamm-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE MAYOR 83"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165622-tribunal-economico-administrativo-municipal-madrid-teamm-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7142410548302625 40.41496781668602)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165622-tribunal-economico-administrativo-municipal-madrid-teamm-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41496781668602,
+        "longitude" : -3.7142410548302625
+	  }
+
+    },
+	{
+      "id" : "137451",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/137451-area-gobierno-cultura-deportes-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Área de Gobierno de Cultura y Deportes. Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ca365f463b81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/137451-area-gobierno-cultura-deportes-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE MONTALBAN 1 Palacio de Cibeles"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/137451-area-gobierno-cultura-deportes-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.69213979278398 40.418291440980205)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/137451-area-gobierno-cultura-deportes-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.418291440980205,
+        "longitude" : -3.69213979278398
+	  }
+
+    },
+	{
+      "id" : "13027",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13027-area-gobierno-desarrollo-urbano-sostenible-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Área de Gobierno de Desarrollo Urbano Sostenible. Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=138792355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13027-area-gobierno-desarrollo-urbano-sostenible-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "CALLE RIBERA DEL SENA 21 Edificio Apot. Campo de las Naciones"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13027-area-gobierno-desarrollo-urbano-sostenible-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6176904004491814 40.46196552804162)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13027-area-gobierno-desarrollo-urbano-sostenible-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46196552804162,
+        "longitude" : -3.6176904004491814
+	  }
+
+    },
+	{
+      "id" : "165082",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165082-area-gobierno-economia-hacienda-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Área de Gobierno de Economía y Hacienda. Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fa1c8f90a581c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165082-area-gobierno-economia-hacienda-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALCALA 45"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165082-area-gobierno-economia-hacienda-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6962972780019454 40.41910431789079)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165082-area-gobierno-economia-hacienda-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41910431789079,
+        "longitude" : -3.6962972780019454
+	  }
+
+    },
+	{
+      "id" : "165116",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165116-area-gobierno-equidad-derechos-sociales-empleo-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Área de Gobierno de Equidad, Derechos Sociales y Empleo. Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4f6179262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165116-area-gobierno-equidad-derechos-sociales-empleo-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PASEO CHOPERA 41"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165116-area-gobierno-equidad-derechos-sociales-empleo-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6990213657093163 40.39415981141737)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/165116-area-gobierno-equidad-derechos-sociales-empleo-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39415981141737,
+        "longitude" : -3.6990213657093163
+	  }
+
+    },
+	{
+      "id" : "167306",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/167306-area-gobierno-medio-ambiente-movilidad-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Área de Gobierno de Medio Ambiente y Movilidad. Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cc0d8c89dd91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/167306-area-gobierno-medio-ambiente-movilidad-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE MONTALBAN 1 Palacio de Cibeles"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/167306-area-gobierno-medio-ambiente-movilidad-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.69213979278398 40.418291440980205)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/167306-area-gobierno-medio-ambiente-movilidad-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.418291440980205,
+        "longitude" : -3.69213979278398
+	  }
+
+    },
+	{
+      "id" : "8614228",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8614228-area-gobierno-portavoz-coordinacion-junta-gobierno-relaciones-pleno-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Área de Gobierno de Portavoz, Coordinación de la Junta de Gobierno y Relaciones con el Pleno. Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3ac197b25cb02510VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8614228-area-gobierno-portavoz-coordinacion-junta-gobierno-relaciones-pleno-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE MONTALBAN 1 Palacio de Cibeles"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8614228-area-gobierno-portavoz-coordinacion-junta-gobierno-relaciones-pleno-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.69213979278398 40.418291440980205)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8614228-area-gobierno-portavoz-coordinacion-junta-gobierno-relaciones-pleno-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.418291440980205,
+        "longitude" : -3.69213979278398
+	  }
+
+    },
+	{
+      "id" : "169832",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/169832-area-gobierno-salud-seguridad-emergencias-registro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AyuntamientoMadrid/OficinasMunicipalesRegistro",
+      "title" : "Área de Gobierno de Salud, Seguridad y Emergencias. Registro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7ba8ac5b3759f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/169832-area-gobierno-salud-seguridad-emergencias-registro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PRINCIPE DE VERGARA 140"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/169832-area-gobierno-salud-seguridad-emergencias-registro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.67813993012987 40.44444653179131)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/169832-area-gobierno-salud-seguridad-emergencias-registro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44444653179131,
+        "longitude" : -3.67813993012987
+	  }
+
+    }
+  ]
+}

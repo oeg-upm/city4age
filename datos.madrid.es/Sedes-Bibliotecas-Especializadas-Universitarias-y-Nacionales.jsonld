@@ -1,0 +1,245 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "10367361",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10367361-biblioteca-defensor-pueblo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasEspecializadasUniversitarias",
+      "title" : "Biblioteca del Defensor del Pueblo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=139ac21d2343c510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10367361-biblioteca-defensor-pueblo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE FORTUNY 22"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10367361-biblioteca-defensor-pueblo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.690017893133342 40.433268128292234)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10367361-biblioteca-defensor-pueblo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.433268128292234,
+        "longitude" : -3.690017893133342
+	  }
+
+    },
+	{
+      "id" : "6990025",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6990025-biblioteca-digital-memoriademadrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasEspecializadasUniversitarias",
+      "title" : "Biblioteca Digital memoriademadrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b85bdc54a823f310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6990025-biblioteca-digital-memoriademadrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE CONDE DUQUE 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6990025-biblioteca-digital-memoriademadrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.710240346719518 40.427938443518215)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6990025-biblioteca-digital-memoriademadrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.427938443518215,
+        "longitude" : -3.710240346719518
+	  }
+
+    },
+	{
+      "id" : "1881",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1881-biblioteca-historica-municipal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasEspecializadasUniversitarias",
+      "title" : "Biblioteca Histórica Municipal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ccbc3d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1881-biblioteca-historica-municipal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE CONDE DUQUE 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1881-biblioteca-historica-municipal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7106116887809817 40.42737760210632)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1881-biblioteca-historica-municipal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42737760210632,
+        "longitude" : -3.7106116887809817
+	  }
+
+    },
+	{
+      "id" : "6779450",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6779450-biblioteca-musical-victor-espinos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasEspecializadasUniversitarias",
+      "title" : "Biblioteca Musical Víctor Espinós",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d482270f58c6c310VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6779450-biblioteca-musical-victor-espinos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE CONDE DUQUE 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6779450-biblioteca-musical-victor-espinos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7106116887809817 40.42737760210632)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6779450-biblioteca-musical-victor-espinos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42737760210632,
+        "longitude" : -3.7106116887809817
+	  }
+
+    },
+	{
+      "id" : "1744",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1744-biblioteca-nacional-espana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Biblioteca Nacional de España",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b8d995a8bf5d010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1744-biblioteca-nacional-espana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "PASEO RECOLETOS 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1744-biblioteca-nacional-espana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.69084423390357 40.423001908945956)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1744-biblioteca-nacional-espana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.423001908945956,
+        "longitude" : -3.69084423390357
+	  }
+
+    },
+	{
+      "id" : "1882",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1882-biblioteca-publica-municipal-conde-duque-centro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasPublicas",
+      "title" : "Biblioteca Pública Municipal Conde Duque (Centro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=13ec3d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1882-biblioteca-publica-municipal-conde-duque-centro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE CONDE DUQUE 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1882-biblioteca-publica-municipal-conde-duque-centro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7105999955473625 40.42738668300474)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1882-biblioteca-publica-municipal-conde-duque-centro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42738668300474,
+        "longitude" : -3.7105999955473625
+	  }
+
+    },
+	{
+      "id" : "7611539",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7611539-biblioteca-tecnica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/ArchivosCentrosDocumentacion",
+      "title" : "Biblioteca Técnica",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f1e9f9a9236f7410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7611539-biblioteca-tecnica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE MONTALBAN 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7611539-biblioteca-tecnica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.69213979278398 40.418291440980205)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7611539-biblioteca-tecnica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.418291440980205,
+        "longitude" : -3.69213979278398
+	  }
+
+    },
+	{
+      "id" : "2047",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2047-hemeroteca-municipal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/BibliotecasEspecializadasUniversitarias",
+      "title" : "Hemeroteca Municipal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=11951e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2047-hemeroteca-municipal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE CONDE DUQUE 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2047-hemeroteca-municipal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.710182353581842 40.42802889001877)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/2047-hemeroteca-municipal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42802889001877,
+        "longitude" : -3.710182353581842
+	  }
+
+    }
+  ]
+}

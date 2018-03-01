@@ -1,0 +1,2269 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [
+	{
+      "id" : "82635",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/82635-oficina-correos-oficina-principal-paseo-prado",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Oficina Principal. Paseo del Prado",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a2f75c2cdc41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/82635-oficina-correos-oficina-principal-paseo-prado/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "PASEO PRADO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/82635-oficina-correos-oficina-principal-paseo-prado/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6925902666626356 40.41854099651124)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/82635-oficina-correos-oficina-principal-paseo-prado/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41854099651124,
+        "longitude" : -3.6925902666626356
+	  }
+
+    },
+
+	{
+      "id" : "13784",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13784-oficina-correos-sucursal-01-calle-villanueva",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 01. Calle Villanueva",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d6e15a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13784-oficina-correos-sucursal-01-calle-villanueva/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "CALLE VILLANUEVA 30"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13784-oficina-correos-sucursal-01-calle-villanueva/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.685049063528736 40.42228864280001)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13784-oficina-correos-sucursal-01-calle-villanueva/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42228864280001,
+        "longitude" : -3.685049063528736
+	  }
+
+    },
+
+	{
+      "id" : "13809",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13809-oficina-correos-sucursal-02-calle-luis-vives",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 02. Calle Luis Vives",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=69725a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13809-oficina-correos-sucursal-02-calle-luis-vives/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE LUIS VIVES 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13809-oficina-correos-sucursal-02-calle-luis-vives/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6760145515878233 40.44416168318113)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13809-oficina-correos-sucursal-02-calle-luis-vives/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44416168318113,
+        "longitude" : -3.6760145515878233
+	  }
+
+    },
+
+	{
+      "id" : "13767",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13767-oficina-correos-sucursal-03-calle-maudes",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 03. Calle Maudes",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c6235a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13767-oficina-correos-sucursal-03-calle-maudes/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE MAUDES 39"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13767-oficina-correos-sucursal-03-calle-maudes/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.703715639815907 40.44550988114284)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13767-oficina-correos-sucursal-03-calle-maudes/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44550988114284,
+        "longitude" : -3.703715639815907
+	  }
+
+    },
+
+	{
+      "id" : "106863",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/106863-oficina-correos-sucursal-04-calle-general-ricardos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 04. Calle General Ricardos",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ea2dad452e81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/106863-oficina-correos-sucursal-04-calle-general-ricardos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE GENERAL RICARDOS 212"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/106863-oficina-correos-sucursal-04-calle-general-ricardos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7377163886744555 40.38548691946827)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/106863-oficina-correos-sucursal-04-calle-general-ricardos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38548691946827,
+        "longitude" : -3.7377163886744555
+	  }
+
+    },
+
+	{
+      "id" : "13812",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13812-oficina-correos-sucursal-05-carrera-san-francisco",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 05. Carrera de San Francisco",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=94b45a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13812-oficina-correos-sucursal-05-carrera-san-francisco/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CARRERA SAN FRANCISCO 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13812-oficina-correos-sucursal-05-carrera-san-francisco/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7132760022595477 40.41064042343712)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13812-oficina-correos-sucursal-05-carrera-san-francisco/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41064042343712,
+        "longitude" : -3.7132760022595477
+	  }
+
+    },
+
+	{
+      "id" : "13811",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13811-oficina-correos-sucursal-06-calle-claudio-coello",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 06. Calle Claudio Coello",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1c555a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13811-oficina-correos-sucursal-06-calle-claudio-coello/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE CLAUDIO COELLO 100"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13811-oficina-correos-sucursal-06-calle-claudio-coello/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.685422234456886 40.43350267478166)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13811-oficina-correos-sucursal-06-calle-claudio-coello/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43350267478166,
+        "longitude" : -3.685422234456886
+	  }
+
+    },
+
+	{
+      "id" : "13775",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13775-oficina-correos-sucursal-07-calle-palos-frontera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 07. Calle Palos de la Frontera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c4c55a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13775-oficina-correos-sucursal-07-calle-palos-frontera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE PALOS DE LA FRONTERA 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13775-oficina-correos-sucursal-07-calle-palos-frontera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699922592201462 40.4026769418955)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13775-oficina-correos-sucursal-07-calle-palos-frontera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4026769418955,
+        "longitude" : -3.699922592201462
+	  }
+
+    },
+
+	{
+      "id" : "13770",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13770-oficina-correos-sucursal-08-calle-martin-heros",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 08. Calle Martín de los Heros",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b9d55a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13770-oficina-correos-sucursal-08-calle-martin-heros/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE MARTIN DE LOS HEROS 57"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13770-oficina-correos-sucursal-08-calle-martin-heros/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7169986778512643 40.42824807790194)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13770-oficina-correos-sucursal-08-calle-martin-heros/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42824807790194,
+        "longitude" : -3.7169986778512643
+	  }
+
+    },
+
+	{
+      "id" : "13810",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13810-oficina-correos-sucursal-09-calle-martires-concepcionistas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 09. Calle Mártires Concepcionistas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aee55a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13810-oficina-correos-sucursal-09-calle-martires-concepcionistas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE MÁRTIRES CONCEPCIONISTAS 21"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13810-oficina-correos-sucursal-09-calle-martires-concepcionistas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.670760028296249 40.4292012794091)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13810-oficina-correos-sucursal-09-calle-martires-concepcionistas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4292012794091,
+        "longitude" : -3.670760028296249
+	  }
+
+    },
+
+	{
+      "id" : "8113033",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8113033-oficina-correos-sucursal-101-c-tertulia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 101. C/ Tertulia",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0b927ab146f2e410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8113033-oficina-correos-sucursal-101-c-tertulia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE TERTULIA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8113033-oficina-correos-sucursal-101-c-tertulia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6928475712211712 40.363160603573405)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8113033-oficina-correos-sucursal-101-c-tertulia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.363160603573405,
+        "longitude" : -3.6928475712211712
+	  }
+
+    },
+
+	{
+      "id" : "5778561",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5778561-oficina-correos-sucursal-102-avenida-ensanche-vallecas-106-108",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 102. Avenida Ensanche de Vallecas, 106-108",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1cd622796b14a210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5778561-oficina-correos-sucursal-102-avenida-ensanche-vallecas-106-108/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28051",
+		"street-address" : "AVENIDA ENSANCHE DE VALLECAS 106 TAMBIÉN NÚMERO 106"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5778561-oficina-correos-sucursal-102-avenida-ensanche-vallecas-106-108/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.595793125705428 40.3610616365892)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5778561-oficina-correos-sucursal-102-avenida-ensanche-vallecas-106-108/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3610616365892,
+        "longitude" : -3.595793125705428
+	  }
+
+    },
+
+	{
+      "id" : "13776",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13776-oficina-correos-sucursal-10-calle-alburquerque",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 10. Calle Alburquerque",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cbf15a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13776-oficina-correos-sucursal-10-calle-alburquerque/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28010",
+		"street-address" : "CALLE ALBURQUERQUE 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13776-oficina-correos-sucursal-10-calle-alburquerque/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7027868433305215 40.43105607085537)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13776-oficina-correos-sucursal-10-calle-alburquerque/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43105607085537,
+        "longitude" : -3.7027868433305215
+	  }
+
+    },
+
+	{
+      "id" : "18543",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18543-oficina-correos-sucursal-11-calle-turismundo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 11. Calle Turismundo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b8a76f065851c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18543-oficina-correos-sucursal-11-calle-turismundo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "CALLE TURISMUNDO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18543-oficina-correos-sucursal-11-calle-turismundo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7350782767377364 40.41157594135425)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18543-oficina-correos-sucursal-11-calle-turismundo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41157594135425,
+        "longitude" : -3.7350782767377364
+	  }
+
+    },
+
+	{
+      "id" : "62882",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/62882-oficina-correos-sucursal-12-calle-via-dublin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 12. Calle Vía de Dublín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7ee3e7510551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/62882-oficina-correos-sucursal-12-calle-via-dublin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "CALLE VIA DE DUBLIN 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/62882-oficina-correos-sucursal-12-calle-via-dublin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6141328647012476 40.462461961305245)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/62882-oficina-correos-sucursal-12-calle-via-dublin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.462461961305245,
+        "longitude" : -3.6141328647012476
+	  }
+
+    },
+
+	{
+      "id" : "13808",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13808-oficina-correos-sucursal-13-avenida-america",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 13. Avenida América",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b0125a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13808-oficina-correos-sucursal-13-avenida-america/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "AVENIDA AMÉRICA 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13808-oficina-correos-sucursal-13-avenida-america/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.677261878974946 40.43802825312316)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13808-oficina-correos-sucursal-13-avenida-america/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43802825312316,
+        "longitude" : -3.677261878974946
+	  }
+
+    },
+
+	{
+      "id" : "41364",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/41364-oficina-correos-sucursal-14-hipercor-campo-naciones",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 14. Hipercor Campo de las Naciones",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6304e7510551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/41364-oficina-correos-sucursal-14-hipercor-campo-naciones/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "AVENIDA ANDES 50"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/41364-oficina-correos-sucursal-14-hipercor-campo-naciones/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.618254399613972 40.45658413851202)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/41364-oficina-correos-sucursal-14-hipercor-campo-naciones/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45658413851202,
+        "longitude" : -3.618254399613972
+	  }
+
+    },
+
+	{
+      "id" : "13803",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13803-oficina-correos-sucursal-15-calle-jacinto-verdaguer",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 15. Calle Jacinto Verdaguer",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a5225a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13803-oficina-correos-sucursal-15-calle-jacinto-verdaguer/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE JACINTO VERDAGUER 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13803-oficina-correos-sucursal-15-calle-jacinto-verdaguer/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.714232582817688 40.39632813120035)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13803-oficina-correos-sucursal-15-calle-jacinto-verdaguer/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39632813120035,
+        "longitude" : -3.714232582817688
+	  }
+
+    },
+
+	{
+      "id" : "13788",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13788-oficina-correos-sucursal-17-calle-tomas-borras",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 17. Calle Tomas Borras",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9a325a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13788-oficina-correos-sucursal-17-calle-tomas-borras/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE TOMAS BORRAS 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13788-oficina-correos-sucursal-17-calle-tomas-borras/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.69681883306182 40.395389331093625)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13788-oficina-correos-sucursal-17-calle-tomas-borras/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.395389331093625,
+        "longitude" : -3.69681883306182
+	  }
+
+    },
+
+	{
+      "id" : "13785",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13785-oficina-correos-sucursal-18-calle-pizarro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 18. Calle Pizarro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8f425a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13785-oficina-correos-sucursal-18-calle-pizarro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE PIZARRO 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13785-oficina-correos-sucursal-18-calle-pizarro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7057949627989046 40.4233350277461)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13785-oficina-correos-sucursal-18-calle-pizarro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4233350277461,
+        "longitude" : -3.7057949627989046
+	  }
+
+    },
+
+	{
+      "id" : "13774",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13774-oficina-correos-sucursal-19-calle-chile",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 19. Calle Chile",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=74625a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13774-oficina-correos-sucursal-19-calle-chile/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28016",
+		"street-address" : "CALLE CHILE 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13774-oficina-correos-sucursal-19-calle-chile/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6759747205260793 40.455486229328116)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13774-oficina-correos-sucursal-19-calle-chile/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.455486229328116,
+        "longitude" : -3.6759747205260793
+	  }
+
+    },
+
+	{
+      "id" : "13779",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13779-oficina-correos-sucursal-20-calle-alcalde-lopez-casero",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 20. Calle Alcalde López Casero",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5e825a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13779-oficina-correos-sucursal-20-calle-alcalde-lopez-casero/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "CALLE ALCALDE LOPEZ CASERO 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13779-oficina-correos-sucursal-20-calle-alcalde-lopez-casero/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6556315263731323 40.43253131803819)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13779-oficina-correos-sucursal-20-calle-alcalde-lopez-casero/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43253131803819,
+        "longitude" : -3.6556315263731323
+	  }
+
+    },
+
+	{
+      "id" : "13789",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13789-oficina-correos-sucursal-21-calle-antonio-arias",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 21. Calle Antonio Arias",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=43a25a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13789-oficina-correos-sucursal-21-calle-antonio-arias/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "CALLE ANTONIO ARIAS 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13789-oficina-correos-sucursal-21-calle-antonio-arias/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6716242209111143 40.41770973340183)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13789-oficina-correos-sucursal-21-calle-antonio-arias/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41770973340183,
+        "longitude" : -3.6716242209111143
+	  }
+
+    },
+
+	{
+      "id" : "13798",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13798-oficina-correos-sucursal-24-plaza-parroco-luis-calleja",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 24. Plaza Párroco Luis Calleja",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=38b25a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13798-oficina-correos-sucursal-24-plaza-parroco-luis-calleja/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "PLAZA PARROCO LUIS CALLEJA 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13798-oficina-correos-sucursal-24-plaza-parroco-luis-calleja/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.611637366926721 40.44480851973684)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13798-oficina-correos-sucursal-24-plaza-parroco-luis-calleja/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44480851973684,
+        "longitude" : -3.611637366926721
+	  }
+
+    },
+
+	{
+      "id" : "13778",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13778-oficina-correos-sucursal-25-calle-mariano-fernandez",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 25. Calle Mariano Fernández",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2dc25a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13778-oficina-correos-sucursal-25-calle-mariano-fernandez/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE MARIANO FERNANDEZ 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13778-oficina-correos-sucursal-25-calle-mariano-fernandez/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.702976306097833 40.456036880513324)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13778-oficina-correos-sucursal-25-calle-mariano-fernandez/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.456036880513324,
+        "longitude" : -3.702976306097833
+	  }
+
+    },
+
+	{
+      "id" : "7570296",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7570296-oficina-correos-sucursal-26-calle-longares",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 26. Calle Longares",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=75cbd38d57017410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7570296-oficina-correos-sucursal-26-calle-longares/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE LONGARES 30"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7570296-oficina-correos-sucursal-26-calle-longares/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.609457861209005 40.42936052063876)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7570296-oficina-correos-sucursal-26-calle-longares/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42936052063876,
+        "longitude" : -3.609457861209005
+	  }
+
+    },
+
+	{
+      "id" : "13804",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13804-oficina-correos-sucursal-27-calle-dobla",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 27. Calle Dobla",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=12e25a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13804-oficina-correos-sucursal-27-calle-dobla/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28054",
+		"street-address" : "CALLE DOBLA 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13804-oficina-correos-sucursal-27-calle-dobla/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7402575220798893 40.37223632777724)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13804-oficina-correos-sucursal-27-calle-dobla/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37223632777724,
+        "longitude" : -3.7402575220798893
+	  }
+
+    },
+
+	{
+      "id" : "13794",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13794-oficina-correos-sucursal-29-calle-arturo-soria",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 29. Calle Arturo Soria",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d1135a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13794-oficina-correos-sucursal-29-calle-arturo-soria/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE ARTURO SORIA 189"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13794-oficina-correos-sucursal-29-calle-arturo-soria/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6593991388496887 40.45855494230495)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13794-oficina-correos-sucursal-29-calle-arturo-soria/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45855494230495,
+        "longitude" : -3.6593991388496887
+	  }
+
+    },
+
+	{
+      "id" : "13790",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13790-oficina-correos-sucursal-30-calle-pedro-jimenez",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 30. Calle Pedro Jiménez",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bb335a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13790-oficina-correos-sucursal-30-calle-pedro-jimenez/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE PEDRO JIMENEZ 19"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13790-oficina-correos-sucursal-30-calle-pedro-jimenez/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7075991694921315 40.34345839137021)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13790-oficina-correos-sucursal-30-calle-pedro-jimenez/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.34345839137021,
+        "longitude" : -3.7075991694921315
+	  }
+
+    },
+
+	{
+      "id" : "13772",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13772-oficina-correos-sucursal-31-calle-islas-palaos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 31. Calle Islas Palaos",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a0535a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13772-oficina-correos-sucursal-31-calle-islas-palaos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE ISLAS PALAOS 30"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13772-oficina-correos-sucursal-31-calle-islas-palaos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.686392998161953 40.497622783455064)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13772-oficina-correos-sucursal-31-calle-islas-palaos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.497622783455064,
+        "longitude" : -3.686392998161953
+	  }
+
+    },
+
+	{
+      "id" : "13760",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13760-oficina-correos-sucursal-32-plaza-rogelio-enriquez",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 32. Plaza Rogelio Enriquez",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=95635a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13760-oficina-correos-sucursal-32-plaza-rogelio-enriquez/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28048",
+		"street-address" : "PLAZA ROGELIO ENRIQUEZ 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13760-oficina-correos-sucursal-32-plaza-rogelio-enriquez/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7768941155830973 40.518977425401516)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13760-oficina-correos-sucursal-32-plaza-rogelio-enriquez/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.518977425401516,
+        "longitude" : -3.7768941155830973
+	  }
+
+    },
+
+	{
+      "id" : "13817",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13817-oficina-correos-sucursal-33-calle-caroli",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 33. Calle Caroli",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8a735a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13817-oficina-correos-sucursal-33-calle-caroli/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28023",
+		"street-address" : "CALLE CAROLI 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13817-oficina-correos-sucursal-33-calle-caroli/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.784783842171217 40.458555434052016)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13817-oficina-correos-sucursal-33-calle-caroli/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.458555434052016,
+        "longitude" : -3.784783842171217
+	  }
+
+    },
+
+	{
+      "id" : "13802",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13802-oficina-correos-sucursal-34-calle-san-magin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 34. Calle San Magin",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7f835a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13802-oficina-correos-sucursal-34-calle-san-magin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE SAN MAGIN 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13802-oficina-correos-sucursal-34-calle-san-magin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.715497070125072 40.38442832856387)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13802-oficina-correos-sucursal-34-calle-san-magin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38442832856387,
+        "longitude" : -3.715497070125072
+	  }
+
+    },
+
+	{
+      "id" : "13793",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13793-oficina-correos-sucursal-35-avenida-institucion-libre-ensenanza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 35. Avenida Institución Libre de Enseñanza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=64a35a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13793-oficina-correos-sucursal-35-avenida-institucion-libre-ensenanza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "AVENIDA INSTITUCION LIBRE DE ENSE&Ntilde;ANZA 30"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13793-oficina-correos-sucursal-35-avenida-institucion-libre-ensenanza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6357715399753845 40.4343899961733)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13793-oficina-correos-sucursal-35-avenida-institucion-libre-ensenanza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4343899961733,
+        "longitude" : -3.6357715399753845
+	  }
+
+    },
+
+	{
+      "id" : "13783",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13783-oficina-correos-sucursal-36-calle-orense",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 36. Calle Orense",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=59b35a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13783-oficina-correos-sucursal-36-calle-orense/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE ORENSE 55"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13783-oficina-correos-sucursal-36-calle-orense/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6948634973218035 40.45616701557968)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13783-oficina-correos-sucursal-36-calle-orense/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45616701557968,
+        "longitude" : -3.6948634973218035
+	  }
+
+    },
+
+	{
+      "id" : "7570569",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7570569-oficina-correos-sucursal-37-calle-marques-corbera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 37. Calle Marqués de Corbera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=804424f16a017410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7570569-oficina-correos-sucursal-37-calle-marques-corbera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "AVENIDA MARQUES DE CORBERA 27"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7570569-oficina-correos-sucursal-37-calle-marques-corbera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.654020574856041 40.42445032543812)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7570569-oficina-correos-sucursal-37-calle-marques-corbera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42445032543812,
+        "longitude" : -3.654020574856041
+	  }
+
+    },
+
+	{
+      "id" : "13796",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13796-oficina-correos-sucursal-38-calle-sierra-gador",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 38. Calle Sierra de Gador",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=33e35a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13796-oficina-correos-sucursal-38-calle-sierra-gador/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE SIERRA GADOR 50"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13796-oficina-correos-sucursal-38-calle-sierra-gador/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6237668860430077 40.38051802743598)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13796-oficina-correos-sucursal-38-calle-sierra-gador/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38051802743598,
+        "longitude" : -3.6237668860430077
+	  }
+
+    },
+
+	{
+      "id" : "13787",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13787-oficina-correos-sucursal-39-calle-arroyo-media-legua",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 39. Calle Arroyo de la Media Legua",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=28f35a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13787-oficina-correos-sucursal-39-calle-arroyo-media-legua/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE ARROYO DE LA MEDIA LEGUA 56"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13787-oficina-correos-sucursal-39-calle-arroyo-media-legua/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6556260950915007 40.410116832157726)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13787-oficina-correos-sucursal-39-calle-arroyo-media-legua/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.410116832157726,
+        "longitude" : -3.6556260950915007
+	  }
+
+    },
+
+	{
+      "id" : "13764",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13764-oficina-correos-sucursal-40-calle-tellez",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 40. Calle Tellez",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1d045a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13764-oficina-correos-sucursal-40-calle-tellez/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "CALLE TELLEZ 27"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13764-oficina-correos-sucursal-40-calle-tellez/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6788229825703045 40.40214507889863)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13764-oficina-correos-sucursal-40-calle-tellez/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40214507889863,
+        "longitude" : -3.6788229825703045
+	  }
+
+    },
+
+	{
+      "id" : "13780",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13780-oficina-correos-sucursal-41-calle-sahara",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 41. Calle Sahara",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=02245a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13780-oficina-correos-sucursal-41-calle-sahara/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE SAHARA 42"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13780-oficina-correos-sucursal-41-calle-sahara/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6921507776079387 40.354912408099764)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13780-oficina-correos-sucursal-41-calle-sahara/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.354912408099764,
+        "longitude" : -3.6921507776079387
+	  }
+
+    },
+
+	{
+      "id" : "13759",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13759-oficina-correos-sucursal-42-centro-comercial-madrid-2-vaguada",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 42. Centro Comercial Madrid-2 La Vaguada",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f6345a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13759-oficina-correos-sucursal-42-centro-comercial-madrid-2-vaguada/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "AVENIDA MONFORTE DE LEMOS 36"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13759-oficina-correos-sucursal-42-centro-comercial-madrid-2-vaguada/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7085263503376233 40.47914701983195)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13759-oficina-correos-sucursal-42-centro-comercial-madrid-2-vaguada/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47914701983195,
+        "longitude" : -3.7085263503376233
+	  }
+
+    },
+
+	{
+      "id" : "23999",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/23999-oficina-correos-sucursal-43-calle-sanguino",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 43. Calle Sanguiño",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5bb192355c51c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/23999-oficina-correos-sucursal-43-calle-sanguino/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE SANGUI&Ntilde;O 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/23999-oficina-correos-sucursal-43-calle-sanguino/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.764821538244423 40.382004489585164)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/23999-oficina-correos-sucursal-43-calle-sanguino/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.382004489585164,
+        "longitude" : -3.764821538244423
+	  }
+
+    },
+
+	{
+      "id" : "41331",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/41331-oficina-correos-sucursal-44-calle-padre-rubio",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 44. Calle Padre Rubio",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5814e7510551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/41331-oficina-correos-sucursal-44-calle-padre-rubio/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "CALLE PADRE RUBIO 43"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/41331-oficina-correos-sucursal-44-calle-padre-rubio/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6938715745495254 40.47094769092549)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/41331-oficina-correos-sucursal-44-calle-padre-rubio/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47094769092549,
+        "longitude" : -3.6938715745495254
+	  }
+
+    },
+
+	{
+      "id" : "13765",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13765-oficina-correos-sucursal-45-avenida-valladolid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 45. Avenida Valladolid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eb445a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13765-oficina-correos-sucursal-45-avenida-valladolid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "AVENIDA VALLADOLID 39"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13765-oficina-correos-sucursal-45-avenida-valladolid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7293539335967014 40.428287907724204)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13765-oficina-correos-sucursal-45-avenida-valladolid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.428287907724204,
+        "longitude" : -3.7293539335967014
+	  }
+
+    },
+
+	{
+      "id" : "13782",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13782-oficina-correos-sucursal-46-calle-blasco-garay",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 46. Calle Blasco de Garay",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d0645a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13782-oficina-correos-sucursal-46-calle-blasco-garay/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE BLASCO DE GARAY 74"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13782-oficina-correos-sucursal-46-calle-blasco-garay/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.711183709383551 40.436914633278164)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13782-oficina-correos-sucursal-46-calle-blasco-garay/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.436914633278164,
+        "longitude" : -3.711183709383551
+	  }
+
+    },
+
+	{
+      "id" : "13795",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13795-oficina-correos-sucursal-47-calle-mar-caspio",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 47. Calle Mar Caspio",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c5745a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13795-oficina-correos-sucursal-47-calle-mar-caspio/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE MAR CASPIO 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13795-oficina-correos-sucursal-47-calle-mar-caspio/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6435212631999603 40.47309484120047)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13795-oficina-correos-sucursal-47-calle-mar-caspio/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47309484120047,
+        "longitude" : -3.6435212631999603
+	  }
+
+    },
+
+	{
+      "id" : "13797",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13797-oficina-correos-sucursal-49-calle-condesa-vega-pozo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 49. Calle Condesa Vega del Pozo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=af945a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13797-oficina-correos-sucursal-49-calle-condesa-vega-pozo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "CALLE CONDESA VEGA DEL POZO 29"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13797-oficina-correos-sucursal-49-calle-condesa-vega-pozo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6061465317515884 40.40325162175052)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13797-oficina-correos-sucursal-49-calle-condesa-vega-pozo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40325162175052,
+        "longitude" : -3.6061465317515884
+	  }
+
+    },
+
+	{
+      "id" : "13801",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13801-oficina-correos-sucursal-50-avenida-padre-piquer",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 50. Avenida Padre Piquer",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=89c45a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13801-oficina-correos-sucursal-50-avenida-padre-piquer/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28024",
+		"street-address" : "AVENIDA PADRE PIQUER 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13801-oficina-correos-sucursal-50-avenida-padre-piquer/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7673972000306515 40.39407759203575)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13801-oficina-correos-sucursal-50-avenida-padre-piquer/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39407759203575,
+        "longitude" : -3.7673972000306515
+	  }
+
+    },
+
+	{
+      "id" : "13769",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13769-oficina-correos-sucursal-51-calle-virgen-aranzazu",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 51. Calle Virgen de Aranzazu",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7ed45a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13769-oficina-correos-sucursal-51-calle-virgen-aranzazu/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE VIRGEN DE ARANZAZU 31"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13769-oficina-correos-sucursal-51-calle-virgen-aranzazu/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6896607289972585 40.48713495141185)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13769-oficina-correos-sucursal-51-calle-virgen-aranzazu/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48713495141185,
+        "longitude" : -3.6896607289972585
+	  }
+
+    },
+
+	{
+      "id" : "13762",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13762-oficina-correos-sucursal-52-calle-monte-olivetti",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 52. Calle Monte Olivetti",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=63f45a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13762-oficina-correos-sucursal-52-calle-monte-olivetti/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CALLE MONTE OLIVETI 29"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13762-oficina-correos-sucursal-52-calle-monte-olivetti/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6665122141546047 40.39776621323686)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13762-oficina-correos-sucursal-52-calle-monte-olivetti/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39776621323686,
+        "longitude" : -3.6665122141546047
+	  }
+
+    },
+
+	{
+      "id" : "13758",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13758-oficina-correos-sucursal-53-calle-conde-penalver",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 53. Calle Conde de Peñalver",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=58055a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13758-oficina-correos-sucursal-53-calle-conde-penalver/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28006",
+		"street-address" : "CALLE CONDE DE PE&Ntilde;ALVER 19"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13758-oficina-correos-sucursal-53-calle-conde-penalver/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6757798786868143 40.426613479485574)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13758-oficina-correos-sucursal-53-calle-conde-penalver/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.426613479485574,
+        "longitude" : -3.6757798786868143
+	  }
+
+    },
+
+	{
+      "id" : "13781",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13781-oficina-correos-sucursal-54-avenida-cardenal-herrera-oria",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 54. Avenida Cardenal Herrera Oria",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4d155a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13781-oficina-correos-sucursal-54-avenida-cardenal-herrera-oria/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "AVENIDA CARDENAL HERRERA ORIA 241"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13781-oficina-correos-sucursal-54-avenida-cardenal-herrera-oria/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7193222784377014 40.48144067449088)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13781-oficina-correos-sucursal-54-avenida-cardenal-herrera-oria/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48144067449088,
+        "longitude" : -3.7193222784377014
+	  }
+
+    },
+
+	{
+      "id" : "18408",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18408-oficina-correos-sucursal-55-calle-sierra-carbonera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 55. Calle Sierra Carbonera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=adb76f065851c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18408-oficina-correos-sucursal-55-calle-sierra-carbonera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE SIERRA CARBONERA 75"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18408-oficina-correos-sucursal-55-calle-sierra-carbonera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.66537202327526 40.389673608230616)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/18408-oficina-correos-sucursal-55-calle-sierra-carbonera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.389673608230616,
+        "longitude" : -3.66537202327526
+	  }
+
+    },
+
+	{
+      "id" : "13800",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13800-oficina-correos-sucursal-56-calle-carlina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 56. Calle Carlina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=32355a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13800-oficina-correos-sucursal-56-calle-carlina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "CALLE CARLINA 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13800-oficina-correos-sucursal-56-calle-carlina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7512542282537744 40.40465212230587)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13800-oficina-correos-sucursal-56-calle-carlina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40465212230587,
+        "longitude" : -3.7512542282537744
+	  }
+
+    },
+
+	{
+      "id" : "4956864",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4956864-oficina-correos-sucursal-57-plaza-movimiento-ciudadano",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 57. Plaza Movimiento Ciudadano",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5ea4b72ebb10b110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4956864-oficina-correos-sucursal-57-plaza-movimiento-ciudadano/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "PLAZA MOVIMIENTO CIUDADANO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4956864-oficina-correos-sucursal-57-plaza-movimiento-ciudadano/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7082003347653036 40.37053616654782)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4956864-oficina-correos-sucursal-57-plaza-movimiento-ciudadano/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37053616654782,
+        "longitude" : -3.7082003347653036
+	  }
+
+    },
+
+	{
+      "id" : "41403",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/41403-oficina-correos-sucursal-58-universidad-autonoma-cantoblanco",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 58. Universidad Autónoma Cantoblanco",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4d24e7510551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/41403-oficina-correos-sucursal-58-universidad-autonoma-cantoblanco/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28049",
+		"street-address" : "CARRETERA COLMENAR VIEJO KM.15500 UNIVERSIDAD AUTONOMA. RECTORADO"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/41403-oficina-correos-sucursal-58-universidad-autonoma-cantoblanco/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : null
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/41403-oficina-correos-sucursal-58-universidad-autonoma-cantoblanco/geometry",
+		"@type" : "geo:Point",
+		"latitude" : null,
+        "longitude" : null
+	  }
+
+    },
+
+	{
+      "id" : "13807",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13807-oficina-correos-sucursal-59-calle-alanis",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 59. Calle Alanis",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=27455a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13807-oficina-correos-sucursal-59-calle-alanis/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "CALLE ALANIS 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13807-oficina-correos-sucursal-59-calle-alanis/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.583082785803419 40.471352484006125)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13807-oficina-correos-sucursal-59-calle-alanis/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.471352484006125,
+        "longitude" : -3.583082785803419
+	  }
+
+    },
+
+	{
+      "id" : "13768",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13768-oficina-correos-sucursal-60-calle-arquitecto-lopez-otero",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 60. Calle Arquitecto López Otero",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=01755a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13768-oficina-correos-sucursal-60-calle-arquitecto-lopez-otero/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28040",
+		"street-address" : "CALLE ARQUITECTO LOPEZ OTERO 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13768-oficina-correos-sucursal-60-calle-arquitecto-lopez-otero/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.732910941494269 40.43993207598429)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13768-oficina-correos-sucursal-60-calle-arquitecto-lopez-otero/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43993207598429,
+        "longitude" : -3.732910941494269
+	  }
+
+    },
+
+	{
+      "id" : "13763",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13763-oficina-correos-sucursal-61-calle-hiedra-ccp-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 61. Calle Hiedra. CCP Chamartín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f5855a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13763-oficina-correos-sucursal-61-calle-hiedra-ccp-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28036",
+		"street-address" : "CALLE HIEDRA 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13763-oficina-correos-sucursal-61-calle-hiedra-ccp-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6798641547135373 40.4716165159127)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13763-oficina-correos-sucursal-61-calle-hiedra-ccp-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4716165159127,
+        "longitude" : -3.6798641547135373
+	  }
+
+    },
+
+	{
+      "id" : "7570360",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7570360-oficina-correos-sucursal-62-calle-rioja-alameda-osuna",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 62. Calle La Rioja. Alameda de Osuna",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8921e31018017410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7570360-oficina-correos-sucursal-62-calle-rioja-alameda-osuna/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "CALLE LA RIOJA 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7570360-oficina-correos-sucursal-62-calle-rioja-alameda-osuna/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5890357448037706 40.457358346677324)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7570360-oficina-correos-sucursal-62-calle-rioja-alameda-osuna/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.457358346677324,
+        "longitude" : -3.5890357448037706
+	  }
+
+    },
+
+	{
+      "id" : "100008",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/100008-oficina-correos-sucursal-63-estacion-chamartin-vestibulo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 63. Estación de Chamartín - Vestíbulo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=df3dad452e81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/100008-oficina-correos-sucursal-63-estacion-chamartin-vestibulo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28036",
+		"street-address" : "CALLE AGUSTIN DE FOXA 40"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/100008-oficina-correos-sucursal-63-estacion-chamartin-vestibulo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6834723144737205 40.47146010141762)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/100008-oficina-correos-sucursal-63-estacion-chamartin-vestibulo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47146010141762,
+        "longitude" : -3.6834723144737205
+	  }
+
+    },
+
+	{
+      "id" : "62867",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/62867-oficina-correos-sucursal-64-aeropuerto-t1",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 64. Aeropuerto T1",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3244e7510551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/62867-oficina-correos-sucursal-64-aeropuerto-t1/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "0",
+		"street-address" : "ESTACION DE METRO AEROPUERTO T1 T2 T3  SALA 1 (LLEGADAS)"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/62867-oficina-correos-sucursal-64-aeropuerto-t1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : null
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/62867-oficina-correos-sucursal-64-aeropuerto-t1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : null,
+        "longitude" : null
+	  }
+
+    },
+
+	{
+      "id" : "145785",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/145785-oficina-correos-sucursal-65-camino-hormigueras",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 65. Camino Hormigueras",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=feec47048781c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/145785-oficina-correos-sucursal-65-camino-hormigueras/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CAMINO HORMIGUERAS 169"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/145785-oficina-correos-sucursal-65-camino-hormigueras/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.633878367707243 40.37713867754142)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/145785-oficina-correos-sucursal-65-camino-hormigueras/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37713867754142,
+        "longitude" : -3.633878367707243
+	  }
+
+    },
+
+	{
+      "id" : "19431",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19431-oficina-correos-sucursal-66-plaza-pablo-ruiz-picasso",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 66. Plaza Pablo Ruiz Picasso",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=92d76f065851c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19431-oficina-correos-sucursal-66-plaza-pablo-ruiz-picasso/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "PLAZA PABLO RUIZ PICASSO 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19431-oficina-correos-sucursal-66-plaza-pablo-ruiz-picasso/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6928216467519706 40.45027838360869)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/19431-oficina-correos-sucursal-66-plaza-pablo-ruiz-picasso/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45027838360869,
+        "longitude" : -3.6928216467519706
+	  }
+
+    },
+
+	{
+      "id" : "13816",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13816-oficina-correos-sucursal-67-corte-ingles-preciados",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 67. El Corte Inglés Preciados",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dfa55a0f8161c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13816-oficina-correos-sucursal-67-corte-ingles-preciados/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "CALLE PRECIADOS 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13816-oficina-correos-sucursal-67-corte-ingles-preciados/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7044012557087256 40.41742459056078)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/13816-oficina-correos-sucursal-67-corte-ingles-preciados/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41742459056078,
+        "longitude" : -3.7044012557087256
+	  }
+
+    },
+
+	{
+      "id" : "62880",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/62880-oficina-correos-sucursal-70-hipercor-mendez-alvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 70. Hipercor Méndez Álvaro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1c64e7510551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/62880-oficina-correos-sucursal-70-hipercor-mendez-alvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE RETAMA 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/62880-oficina-correos-sucursal-70-hipercor-mendez-alvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.676035587915612 40.39444963767222)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/62880-oficina-correos-sucursal-70-hipercor-mendez-alvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39444963767222,
+        "longitude" : -3.676035587915612
+	  }
+
+    },
+
+	{
+      "id" : "52465",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52465-oficina-correos-sucursal-71-corte-ingles-castellana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 71. El Corte Inglés Castellana",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0184e7510551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52465-oficina-correos-sucursal-71-corte-ingles-castellana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "CALLE RAIMUNDO FERNANDEZ VILLAVERDE 79"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52465-oficina-correos-sucursal-71-corte-ingles-castellana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.692182170329292 40.44657050763029)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52465-oficina-correos-sucursal-71-corte-ingles-castellana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44657050763029,
+        "longitude" : -3.692182170329292
+	  }
+
+    },
+
+	{
+      "id" : "104733",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/104733-oficina-correos-sucursal-72-calle-santiago-alio",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 72. Calle Santiago Alio",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c45dad452e81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/104733-oficina-correos-sucursal-72-calle-santiago-alio/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CALLE SANTIAGO ALIO 10 A"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/104733-oficina-correos-sucursal-72-calle-santiago-alio/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6460842169021253 40.38841360086152)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/104733-oficina-correos-sucursal-72-calle-santiago-alio/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38841360086152,
+        "longitude" : -3.6460842169021253
+	  }
+
+    },
+
+	{
+      "id" : "98445",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/98445-oficina-correos-sucursal-73-corte-ingles-princesa",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 73. El Corte Inglés Princesa",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=99144291ae91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/98445-oficina-correos-sucursal-73-corte-ingles-princesa/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE PRINCESA 42"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/98445-oficina-correos-sucursal-73-corte-ingles-princesa/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7121377807968265 40.42453036844387)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/98445-oficina-correos-sucursal-73-corte-ingles-princesa/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42453036844387,
+        "longitude" : -3.7121377807968265
+	  }
+
+    },
+
+	{
+      "id" : "145786",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/145786-oficina-correos-sucursal-74-corte-ingles-sanchinarro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 74. El Corte Inglés Sanchinarro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e30d47048781c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/145786-oficina-correos-sucursal-74-corte-ingles-sanchinarro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28050",
+		"street-address" : "CALLE MARGARITA DE PARMA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/145786-oficina-correos-sucursal-74-corte-ingles-sanchinarro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6606690169031837 40.49787180537098)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/145786-oficina-correos-sucursal-74-corte-ingles-sanchinarro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.49787180537098,
+        "longitude" : -3.6606690169031837
+	  }
+
+    },
+
+	{
+      "id" : "5373079",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5373079-oficina-correos-sucursal-77-calle-eduardo-barreiros",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 77. Calle Eduardo Barreiros",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=594d181083042210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5373079-oficina-correos-sucursal-77-calle-eduardo-barreiros/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE EDUARDO BARREIROS 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5373079-oficina-correos-sucursal-77-calle-eduardo-barreiros/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6956426524379333 40.37269349235645)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5373079-oficina-correos-sucursal-77-calle-eduardo-barreiros/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37269349235645,
+        "longitude" : -3.6956426524379333
+	  }
+
+    },
+
+	{
+      "id" : "5373130",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5373130-oficina-correos-sucursal-78-centro-comercial-valdebernardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 78. Centro Comercial Valdebernardo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b974181083042210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5373130-oficina-correos-sucursal-78-centro-comercial-valdebernardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "BULEVAR JOSE PRAT 35"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5373130-oficina-correos-sucursal-78-centro-comercial-valdebernardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.618703025803204 40.3974553315956)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5373130-oficina-correos-sucursal-78-centro-comercial-valdebernardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3974553315956,
+        "longitude" : -3.618703025803204
+	  }
+
+    },
+
+	{
+      "id" : "5372970",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5372970-oficina-correos-sucursal-82-avenida-santuario-valverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 82. Avenida Santuario de Valverde",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f64068ce72042210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5372970-oficina-correos-sucursal-82-avenida-santuario-valverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28049",
+		"street-address" : "AVENIDA SANTUARIO DE VALVERDE 45"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5372970-oficina-correos-sucursal-82-avenida-santuario-valverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6970014367169752 40.5078114302752)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5372970-oficina-correos-sucursal-82-avenida-santuario-valverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.5078114302752,
+        "longitude" : -3.6970014367169752
+	  }
+
+    },
+
+	{
+      "id" : "4958056",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4958056-oficina-correos-sucursal-86-corte-ingles-callao",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 86. El Corte Inglés Callao",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2dcd7a071eb0b110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4958056-oficina-correos-sucursal-86-corte-ingles-callao/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28013",
+		"street-address" : "PLAZA CALLAO 2 PLANTA 3ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4958056-oficina-correos-sucursal-86-corte-ingles-callao/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.706101001698332 40.419909725917506)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4958056-oficina-correos-sucursal-86-corte-ingles-callao/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.419909725917506,
+        "longitude" : -3.706101001698332
+	  }
+
+    },
+
+	{
+      "id" : "100339",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/100339-oficina-correos-sucursal-87-paseo-santa-maria-cabeza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 87. Paseo Santa María de la Cabeza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ae7dad452e81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/100339-oficina-correos-sucursal-87-paseo-santa-maria-cabeza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PASEO SANTA MARIA DE LA CABEZA 42"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/100339-oficina-correos-sucursal-87-paseo-santa-maria-cabeza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6967779180261333 40.40399324056125)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/100339-oficina-correos-sucursal-87-paseo-santa-maria-cabeza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40399324056125,
+        "longitude" : -3.6967779180261333
+	  }
+
+    },
+
+	{
+      "id" : "145788",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/145788-oficina-correos-sucursal-88-calle-mejia-lequerica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 88. Calle Mejía Lequerica",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d81d47048781c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/145788-oficina-correos-sucursal-88-calle-mejia-lequerica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE MEJIA LEQUERICA 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/145788-oficina-correos-sucursal-88-calle-mejia-lequerica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6982249007504335 40.42655217353124)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/145788-oficina-correos-sucursal-88-calle-mejia-lequerica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42655217353124,
+        "longitude" : -3.6982249007504335
+	  }
+
+    },
+
+	{
+      "id" : "189078",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189078-oficina-correos-sucursal-92-eroski-avenida-pablo-neruda",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 92. Eroski Avenida Pablo Neruda",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=da648aa6bd91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189078-oficina-correos-sucursal-92-eroski-avenida-pablo-neruda/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "AVENIDA PABLO NERUDA 91"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189078-oficina-correos-sucursal-92-eroski-avenida-pablo-neruda/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.661330670401221 40.38123724373473)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/189078-oficina-correos-sucursal-92-eroski-avenida-pablo-neruda/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38123724373473,
+        "longitude" : -3.661330670401221
+	  }
+
+    },
+
+	{
+      "id" : "8112997",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8112997-oficina-correos-sucursal-93-avda-plaza-toros",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 93. Avda. Plaza de Toros",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a3d22ebe45f2e410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8112997-oficina-correos-sucursal-93-avda-plaza-toros/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "AVENIDA PLAZA DE TOROS 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8112997-oficina-correos-sucursal-93-avda-plaza-toros/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.737373373885996 40.38536298017106)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8112997-oficina-correos-sucursal-93-avda-plaza-toros/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38536298017106,
+        "longitude" : -3.737373373885996
+	  }
+
+    },
+
+	{
+      "id" : "4620211",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4620211-oficina-correos-sucursal-98-c-c-p-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 98. C.C.P. Barajas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8cf31e280a604110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4620211-oficina-correos-sucursal-98-c-c-p-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "CALLE TRESPADERNE 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4620211-oficina-correos-sucursal-98-c-c-p-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5810629628244848 40.45188518013946)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4620211-oficina-correos-sucursal-98-c-c-p-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45188518013946,
+        "longitude" : -3.5810629628244848
+	  }
+
+    },
+
+	{
+      "id" : "4958537",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4958537-oficina-correos-sucursal-99-calle-pegaso-24",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasCorreos",
+      "title" : "Oficina de Correos. Sucursal 99. Calle Pegaso, 24",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=78490e6e89c0b110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4958537-oficina-correos-sucursal-99-calle-pegaso-24/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE PEGASO 24 Esquina Agustín Calvo"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4958537-oficina-correos-sucursal-99-calle-pegaso-24/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.649349935366865 40.464629837841436)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4958537-oficina-correos-sucursal-99-calle-pegaso-24/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.464629837841436,
+        "longitude" : -3.649349935366865
+	  }
+
+    }
+  ]
+}

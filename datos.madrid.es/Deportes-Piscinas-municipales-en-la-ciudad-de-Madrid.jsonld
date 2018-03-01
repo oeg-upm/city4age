@@ -1,0 +1,1541 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "49338",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/49338-centro-deportivo-municipal-alberto-garcia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Alberto García",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b7ee7510551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/49338-centro-deportivo-municipal-alberto-garcia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE REGUERA DE TOMATEROS 39"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/49338-centro-deportivo-municipal-alberto-garcia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6574515621755173 40.372421418063425)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/49338-centro-deportivo-municipal-alberto-garcia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.372421418063425,
+        "longitude" : -3.6574515621755173
+	  }
+
+    },
+	{
+      "id" : "114782",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/114782-centro-deportivo-municipal-alfredo-goyeneche",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Alfredo Goyeneche",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=789fe8ae8d81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/114782-centro-deportivo-municipal-alfredo-goyeneche/address",
+		"@type" : "vcard:Address",
+		"locality" : null,
+		"postal-code" : "28023",
+		"street-address" : "CALLE ARROYO DE POZUELO 99"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/114782-centro-deportivo-municipal-alfredo-goyeneche/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.783283203719198 40.45212135012858)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/114782-centro-deportivo-municipal-alfredo-goyeneche/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45212135012858,
+        "longitude" : -3.783283203719198
+	  }
+
+    },
+	{
+      "id" : "4696",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4696-centro-deportivo-municipal-aluche",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Aluche",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4506b0c40971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4696-centro-deportivo-municipal-aluche/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "AVENIDA GENERAL FANJUL 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4696-centro-deportivo-municipal-aluche/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.773653600881568 40.382720517194784)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4696-centro-deportivo-municipal-aluche/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.382720517194784,
+        "longitude" : -3.773653600881568
+	  }
+
+    },
+	{
+      "id" : "4624404",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4624404-centro-deportivo-municipal-antonio-diaz-miguel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Antonio Díaz Miguel",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c90342b9fda34110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4624404-centro-deportivo-municipal-antonio-diaz-miguel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "CALLE JOAQUIN DICENTA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4624404-centro-deportivo-municipal-antonio-diaz-miguel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6953256978963807 40.471254265861454)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4624404-centro-deportivo-municipal-antonio-diaz-miguel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.471254265861454,
+        "longitude" : -3.6953256978963807
+	  }
+
+    },
+	{
+      "id" : "99578",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/99578-centro-deportivo-municipal-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Barajas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b86c79262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/99578-centro-deportivo-municipal-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "AVENIDA LOGROÑO 70"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/99578-centro-deportivo-municipal-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.587693324074623 40.46301382809657)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/99578-centro-deportivo-municipal-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46301382809657,
+        "longitude" : -3.587693324074623
+	  }
+
+    },
+	{
+      "id" : "4705",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4705-centro-deportivo-municipal-casa-campo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Casa de Campo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3876b0c40971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4705-centro-deportivo-municipal-casa-campo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "PASEO PUERTA DEL ANGEL 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4705-centro-deportivo-municipal-casa-campo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.733536573641621 40.41612628789201)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4705-centro-deportivo-municipal-casa-campo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41612628789201,
+        "longitude" : -3.733536573641621
+	  }
+
+    },
+	{
+      "id" : "78960",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/78960-centro-deportivo-municipal-centro-integrado-arganzuela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Centro Integrado Arganzuela",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0fd38ed67151c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/78960-centro-deportivo-municipal-centro-integrado-arganzuela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE CANARIAS 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/78960-centro-deportivo-municipal-centro-integrado-arganzuela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6955325387824014 40.40207279862862)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/78960-centro-deportivo-municipal-centro-integrado-arganzuela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40207279862862,
+        "longitude" : -3.6955325387824014
+	  }
+
+    },
+	{
+      "id" : "4687",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4687-centro-deportivo-municipal-cerro-almodovar",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Cerro Almodóvar",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8e96b0c40971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4687-centro-deportivo-municipal-cerro-almodovar/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "CALLE CERRO DE ALMODOVAR 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4687-centro-deportivo-municipal-cerro-almodovar/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.602336460953483 40.38168570611539)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4687-centro-deportivo-municipal-cerro-almodovar/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38168570611539,
+        "longitude" : -3.602336460953483
+	  }
+
+    },
+	{
+      "id" : "4700",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4700-centro-deportivo-municipal-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Chamartín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5f8c79262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4700-centro-deportivo-municipal-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28016",
+		"street-address" : "AVENIDA PIO XII 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4700-centro-deportivo-municipal-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.676208246061129 40.46113349830694)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4700-centro-deportivo-municipal-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46113349830694,
+        "longitude" : -3.676208246061129
+	  }
+
+    },
+	{
+      "id" : "4672",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4672-centro-deportivo-municipal-concepcion",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Concepción",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f5bc79262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4672-centro-deportivo-municipal-concepcion/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "CALLE JOSE DEL HIERRO 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4672-centro-deportivo-municipal-concepcion/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6484498132292025 40.43725652047252)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4672-centro-deportivo-municipal-concepcion/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43725652047252,
+        "longitude" : -3.6484498132292025
+	  }
+
+    },
+	{
+      "id" : "134059",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/134059-centro-deportivo-municipal-daoiz-velarde-1",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Daoíz y Velarde 1",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=380d5f463b81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/134059-centro-deportivo-municipal-daoiz-velarde-1/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "PLAZA DAOIZ Y VELARDE 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/134059-centro-deportivo-municipal-daoiz-velarde-1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.677813143476423 40.4013311774335)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/134059-centro-deportivo-municipal-daoiz-velarde-1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4013311774335,
+        "longitude" : -3.677813143476423
+	  }
+
+    },
+	{
+      "id" : "140197",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/140197-centro-deportivo-municipal-espinillo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Piscinas",
+      "title" : "Centro Deportivo Municipal El Espinillo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9cdc79262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/140197-centro-deportivo-municipal-espinillo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CARRETERA VILLAVERDE A VALLECAS 19"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/140197-centro-deportivo-municipal-espinillo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.686595141820635 40.35634193991933)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/140197-centro-deportivo-municipal-espinillo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.35634193991933,
+        "longitude" : -3.686595141820635
+	  }
+
+    },
+	{
+      "id" : "4676",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4676-centro-deportivo-municipal-entrevias",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/CamposEstadiosFutbol",
+      "title" : "Centro Deportivo Municipal Entrevías",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1e57b0c40971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4676-centro-deportivo-municipal-entrevias/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "RONDA SUR 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4676-centro-deportivo-municipal-entrevias/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.674532317137481 40.378413212706285)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4676-centro-deportivo-municipal-entrevias/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.378413212706285,
+        "longitude" : -3.674532317137481
+	  }
+
+    },
+	{
+      "id" : "6486044",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6486044-centro-deportivo-municipal-escuelas-san-anton",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Escuelas de San Antón",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4f9aad5078828310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6486044-centro-deportivo-municipal-escuelas-san-anton/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE FARMACIA 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6486044-centro-deportivo-municipal-escuelas-san-anton/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699010103263697 40.42382670120857)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6486044-centro-deportivo-municipal-escuelas-san-anton/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42382670120857,
+        "longitude" : -3.699010103263697
+	  }
+
+    },
+	{
+      "id" : "4622862",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4622862-centro-deportivo-municipal-fabian-roncero",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Fabián Roncero",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=887e306502624110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4622862-centro-deportivo-municipal-fabian-roncero/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "AVENIDA SEPTIMA 68"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4622862-centro-deportivo-municipal-fabian-roncero/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.597577201182505 40.44965684114441)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4622862-centro-deportivo-municipal-fabian-roncero/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44965684114441,
+        "longitude" : -3.597577201182505
+	  }
+
+    },
+	{
+      "id" : "4703",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4703-centro-deportivo-municipal-fernando-martin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Fernando Martín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=baa7b0c40971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4703-centro-deportivo-municipal-fernando-martin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "AVENIDA SANTO ANGEL DE LA GUARDA 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4703-centro-deportivo-municipal-fernando-martin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7121918299288628 40.460935404623164)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4703-centro-deportivo-municipal-fernando-martin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.460935404623164,
+        "longitude" : -3.7121918299288628
+	  }
+
+    },
+	{
+      "id" : "4623547",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4623547-centro-deportivo-municipal-francisco-fernandez-ochoa",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Francisco Fernández Ochoa",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aea1249dbda24110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4623547-centro-deportivo-municipal-francisco-fernandez-ochoa/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28054",
+		"street-address" : "CALLE CATORCE OLIVAS 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4623547-centro-deportivo-municipal-francisco-fernandez-ochoa/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.740893980533789 40.36581776978113)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4623547-centro-deportivo-municipal-francisco-fernandez-ochoa/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.36581776978113,
+        "longitude" : -3.740893980533789
+	  }
+
+    },
+	{
+      "id" : "4685",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4685-centro-deportivo-municipal-francos-rodriguez",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Piscinas",
+      "title" : "Centro Deportivo Municipal Francos Rodríguez",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=01d7b0c40971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4685-centro-deportivo-municipal-francos-rodriguez/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE NUMANCIA 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4685-centro-deportivo-municipal-francos-rodriguez/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.713093094582233 40.45358753138912)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4685-centro-deportivo-municipal-francos-rodriguez/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45358753138912,
+        "longitude" : -3.713093094582233
+	  }
+
+    },
+	{
+      "id" : "4623697",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4623697-centro-deportivo-municipal-fuente-berro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Fuente del Berro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f4a2318c05b24110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4623697-centro-deportivo-municipal-fuente-berro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE ELVIRA 36"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4623697-centro-deportivo-municipal-fuente-berro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6652515154670167 40.42171956854877)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4623697-centro-deportivo-municipal-fuente-berro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42171956854877,
+        "longitude" : -3.6652515154670167
+	  }
+
+    },
+	{
+      "id" : "4698",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4698-centro-deportivo-municipal-gallur",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Gallur",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d92d79262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4698-centro-deportivo-municipal-gallur/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE GALLUR 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4698-centro-deportivo-municipal-gallur/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7353834506869217 40.398465832065)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4698-centro-deportivo-municipal-gallur/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.398465832065,
+        "longitude" : -3.7353834506869217
+	  }
+
+    },
+	{
+      "id" : "51661",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51661-centro-deportivo-municipal-gimnasio-moscardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Gimnasio Moscardó",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c7cee7510551c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51661-centro-deportivo-municipal-gimnasio-moscardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE PILAR DE ZARAGOZA 93"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51661-centro-deportivo-municipal-gimnasio-moscardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.674502029997267 40.437945289676996)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/51661-centro-deportivo-municipal-gimnasio-moscardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.437945289676996,
+        "longitude" : -3.674502029997267
+	  }
+
+    },
+	{
+      "id" : "4680",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4680-centro-deportivo-municipal-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Hortaleza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=705d79262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4680-centro-deportivo-municipal-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CARRETERA ESTACION DE HORTALEZA 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4680-centro-deportivo-municipal-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6527183525553006 40.4787279264401)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4680-centro-deportivo-municipal-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4787279264401,
+        "longitude" : -3.6527183525553006
+	  }
+
+    },
+	{
+      "id" : "4704",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4704-centro-deportivo-municipal-jose-maria-cagigal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal José María Cagigal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=177d79262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4704-centro-deportivo-municipal-jose-maria-cagigal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE SANTA POLA 22"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4704-centro-deportivo-municipal-jose-maria-cagigal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7369645992831364 40.43214955342785)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4704-centro-deportivo-municipal-jose-maria-cagigal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43214955342785,
+        "longitude" : -3.7369645992831364
+	  }
+
+    },
+	{
+      "id" : "4623700",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4623700-centro-deportivo-municipal-almudena",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Piscinas",
+      "title" : "Centro Deportivo Municipal La Almudena",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ff13318c05b24110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4623700-centro-deportivo-municipal-almudena/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "CALLE NICOLAS SALMERÓN 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4623700-centro-deportivo-municipal-almudena/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6324237307227616 40.42060649869604)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4623700-centro-deportivo-municipal-almudena/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42060649869604,
+        "longitude" : -3.6324237307227616
+	  }
+
+    },
+	{
+      "id" : "4674",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4674-centro-deportivo-municipal-elipa",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal La Elipa",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f6b842be9971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4674-centro-deportivo-municipal-elipa/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE ALCALDE GARRIDO JUARISTI 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4674-centro-deportivo-municipal-elipa/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6559498758522833 40.41433123768487)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4674-centro-deportivo-municipal-elipa/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41433123768487,
+        "longitude" : -3.6559498758522833
+	  }
+
+    },
+	{
+      "id" : "104235",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/104235-centro-deportivo-municipal-maso",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal La Masó",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=15efe8ae8d81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/104235-centro-deportivo-municipal-maso/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE MASO 80 C/V Ventisquero de la Condesa"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/104235-centro-deportivo-municipal-maso/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7144222564719858 40.48442599932086)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/104235-centro-deportivo-municipal-maso/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48442599932086,
+        "longitude" : -3.7144222564719858
+	  }
+
+    },
+	{
+      "id" : "4695",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4695-centro-deportivo-municipal-mina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal La Mina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=930942be9971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4695-centro-deportivo-municipal-mina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE MONSEÑOR OSCAR ROMERO 41"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4695-centro-deportivo-municipal-mina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.746482524823702 40.38234955664604)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4695-centro-deportivo-municipal-mina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38234955664604,
+        "longitude" : -3.746482524823702
+	  }
+
+    },
+	{
+      "id" : "4707",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4707-centro-deportivo-municipal-vaguada",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Piscinas",
+      "title" : "Centro Deportivo Municipal La Vaguada",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e92942be9971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4707-centro-deportivo-municipal-vaguada/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "AVENIDA MONFORTE DE LEMOS 38 A"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4707-centro-deportivo-municipal-vaguada/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7086993281311904 40.47876758357458)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4707-centro-deportivo-municipal-vaguada/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47876758357458,
+        "longitude" : -3.7086993281311904
+	  }
+
+    },
+	{
+      "id" : "4538574",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4538574-centro-deportivo-municipal-cruces",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/CamposEstadiosFutbol",
+      "title" : "Centro Deportivo Municipal Las Cruces",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6a6952ff55b41110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4538574-centro-deportivo-municipal-cruces/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "AVENIDA POBLADOS 72"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4538574-centro-deportivo-municipal-cruces/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.756554762411969 40.379148937377394)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4538574-centro-deportivo-municipal-cruces/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.379148937377394,
+        "longitude" : -3.756554762411969
+	  }
+
+    },
+	{
+      "id" : "4619937",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4619937-centro-deportivo-municipal-prunos",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Los Prunos",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e705dfa167204110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4619937-centro-deportivo-municipal-prunos/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "CALLE PETUNIAS 30"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4619937-centro-deportivo-municipal-prunos/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6186956428199863 40.453257453448046)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4619937-centro-deportivo-municipal-prunos/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.453257453448046,
+        "longitude" : -3.6186956428199863
+	  }
+
+    },
+	{
+      "id" : "4681",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4681-centro-deportivo-municipal-luis-aragones",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Luis Aragonés",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=64cd79262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4681-centro-deportivo-municipal-luis-aragones/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE EL PROVENCIO 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4681-centro-deportivo-municipal-luis-aragones/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6275877145025817 40.464650948053816)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4681-centro-deportivo-municipal-luis-aragones/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.464650948053816,
+        "longitude" : -3.6275877145025817
+	  }
+
+    },
+	{
+      "id" : "121729",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/121729-centro-deportivo-municipal-marques-samaranch",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Marqués de Samaranch",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6b00e8ae8d81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/121729-centro-deportivo-municipal-marques-samaranch/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "PASEO IMPERIAL 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/121729-centro-deportivo-municipal-marques-samaranch/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7173807221939192 40.40761501410649)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/121729-centro-deportivo-municipal-marques-samaranch/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40761501410649,
+        "longitude" : -3.7173807221939192
+	  }
+
+    },
+	{
+      "id" : "4673",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4673-centro-deportivo-municipal-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Moratalaz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dc9942be9971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4673-centro-deportivo-municipal-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE VALDEBERNARDO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4673-centro-deportivo-municipal-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.632432290214539 40.39885854572339)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4673-centro-deportivo-municipal-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39885854572339,
+        "longitude" : -3.632432290214539
+	  }
+
+    },
+	{
+      "id" : "4691",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4691-centro-deportivo-municipal-moscardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Moscardó",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=23c942be9971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4691-centro-deportivo-municipal-moscardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE ANDRES ARTEAGA 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4691-centro-deportivo-municipal-moscardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.706303079808029 40.38850290426967)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4691-centro-deportivo-municipal-moscardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38850290426967,
+        "longitude" : -3.706303079808029
+	  }
+
+    },
+	{
+      "id" : "4693",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4693-centro-deportivo-municipal-orcasitas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Orcasitas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a11e79262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4693-centro-deportivo-municipal-orcasitas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "AVENIDA RAFAELA YBARRA 52"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4693-centro-deportivo-municipal-orcasitas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.71245854352948 40.37558213858424)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4693-centro-deportivo-municipal-orcasitas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37558213858424,
+        "longitude" : -3.71245854352948
+	  }
+
+    },
+	{
+      "id" : "4690",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4690-centro-deportivo-municipal-orcasur",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Orcasur",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=483e79262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4690-centro-deportivo-municipal-orcasur/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE MOREJA 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4690-centro-deportivo-municipal-orcasur/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6994689006077444 40.37021993373859)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4690-centro-deportivo-municipal-orcasur/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37021993373859,
+        "longitude" : -3.6994689006077444
+	  }
+
+    },
+	{
+      "id" : "4675",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4675-centro-deportivo-municipal-palomeras",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Palomeras",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee5e79262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4675-centro-deportivo-municipal-palomeras/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE TRANVIA DE ARGANDA 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4675-centro-deportivo-municipal-palomeras/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6337292699561834 40.382599021651856)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4675-centro-deportivo-municipal-palomeras/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.382599021651856,
+        "longitude" : -3.6337292699561834
+	  }
+
+    },
+	{
+      "id" : "4727",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4727-centro-deportivo-municipal-penuelas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Piscinas",
+      "title" : "Centro Deportivo Municipal Peñuelas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6c5a42be9971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4727-centro-deportivo-municipal-penuelas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "CALLE ARGANDA 25"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4727-centro-deportivo-municipal-penuelas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.704959759845779 40.39865532340664)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4727-centro-deportivo-municipal-penuelas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39865532340664,
+        "longitude" : -3.704959759845779
+	  }
+
+    },
+	{
+      "id" : "4719",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4719-centro-deportivo-municipal-plata-castanar",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Plata y Castañar",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=858e79262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4719-centro-deportivo-municipal-plata-castanar/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "PASEO PLATA Y CASTAÑAR 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4719-centro-deportivo-municipal-plata-castanar/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7178413073202856 40.34998997348078)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4719-centro-deportivo-municipal-plata-castanar/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.34998997348078,
+        "longitude" : -3.7178413073202856
+	  }
+
+    },
+	{
+      "id" : "4718",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4718-centro-deportivo-municipal-playa-victoria",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Playa Victoria",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c77e0a47f441f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4718-centro-deportivo-municipal-playa-victoria/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE HIERBABUENA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4718-centro-deportivo-municipal-playa-victoria/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7021136988422567 40.4592763472204)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4718-centro-deportivo-municipal-playa-victoria/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4592763472204,
+        "longitude" : -3.7021136988422567
+	  }
+
+    },
+	{
+      "id" : "4701",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4701-centro-deportivo-municipal-pradillo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Pradillo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2cae79262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4701-centro-deportivo-municipal-pradillo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PRADILLO 33"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4701-centro-deportivo-municipal-pradillo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.671618277009419 40.44910622626739)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4701-centro-deportivo-municipal-pradillo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44910622626739,
+        "longitude" : -3.671618277009419
+	  }
+
+    },
+	{
+      "id" : "4720",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4720-centro-deportivo-municipal-pueblo-nuevo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Pueblo Nuevo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a5fa42be9971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4720-centro-deportivo-municipal-pueblo-nuevo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "CALLE FRANCISCO RIOJA 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4720-centro-deportivo-municipal-pueblo-nuevo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.638536354805483 40.43003240158625)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4720-centro-deportivo-municipal-pueblo-nuevo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43003240158625,
+        "longitude" : -3.638536354805483
+	  }
+
+    },
+	{
+      "id" : "4678",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4678-centro-deportivo-municipal-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Puente de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb1b42be9971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4678-centro-deportivo-municipal-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "CALLE PAYASO FOFO 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4678-centro-deportivo-municipal-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6598636029775866 40.39146194707861)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4678-centro-deportivo-municipal-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39146194707861,
+        "longitude" : -3.6598636029775866
+	  }
+
+    },
+	{
+      "id" : "106242",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/106242-centro-deportivo-municipal-raul-gonzalez",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Raúl González",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c2de79262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/106242-centro-deportivo-municipal-raul-gonzalez/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE BENIMAMET 137"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/106242-centro-deportivo-municipal-raul-gonzalez/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.684337728806363 40.346220026067044)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/106242-centro-deportivo-municipal-raul-gonzalez/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.346220026067044,
+        "longitude" : -3.684337728806363
+	  }
+
+    },
+	{
+      "id" : "4689",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4689-centro-deportivo-municipal-san-blas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal San Blas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=424b42be9971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4689-centro-deportivo-municipal-san-blas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE ARCOS DE JALON 59"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4689-centro-deportivo-municipal-san-blas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6113273589762334 40.428810107016545)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4689-centro-deportivo-municipal-san-blas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.428810107016545,
+        "longitude" : -3.6113273589762334
+	  }
+
+    },
+	{
+      "id" : "4692",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4692-centro-deportivo-municipal-san-fermin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Piscinas",
+      "title" : "Centro Deportivo Municipal San Fermín",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee8b42be9971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4692-centro-deportivo-municipal-san-fermin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE SAN MARIO 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4692-centro-deportivo-municipal-san-fermin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6927010241442946 40.37530577421291)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4692-centro-deportivo-municipal-san-fermin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37530577421291,
+        "longitude" : -3.6927010241442946
+	  }
+
+    },
+	{
+      "id" : "4679",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4679-centro-deportivo-municipal-san-juan-bautista",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal San Juan Bautista",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=35bb42be9971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4679-centro-deportivo-municipal-san-juan-bautista/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE TREVIANA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4679-centro-deportivo-municipal-san-juan-bautista/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6585711797466836 40.44864976316054)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4679-centro-deportivo-municipal-san-juan-bautista/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44864976316054,
+        "longitude" : -3.6585711797466836
+	  }
+
+    },
+	{
+      "id" : "4706",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4706-centro-deportivo-municipal-santa-ana",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/CamposEstadiosFutbol",
+      "title" : "Centro Deportivo Municipal Santa Ana",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8bdb42be9971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4706-centro-deportivo-municipal-santa-ana/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "PASEO ALAMEDILLAS 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4706-centro-deportivo-municipal-santa-ana/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.696358010199944 40.49809469315447)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4706-centro-deportivo-municipal-santa-ana/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.49809469315447,
+        "longitude" : -3.696358010199944
+	  }
+
+    },
+	{
+      "id" : "4684",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4684-centro-deportivo-municipal-triangulo-oro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Triángulo de Oro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=002f79262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4684-centro-deportivo-municipal-triangulo-oro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE BRAVO MURILLO 376"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4684-centro-deportivo-municipal-triangulo-oro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6928208378255807 40.46512519238624)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4684-centro-deportivo-municipal-triangulo-oro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46512519238624,
+        "longitude" : -3.6928208378255807
+	  }
+
+    },
+	{
+      "id" : "120275",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/120275-centro-deportivo-municipal-valdebernardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Valdebernardo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a64f79262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/120275-centro-deportivo-municipal-valdebernardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "CALLE LADERA DE LOS ALMENDROS 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/120275-centro-deportivo-municipal-valdebernardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.622901144863193 40.40418961057298)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/120275-centro-deportivo-municipal-valdebernardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40418961057298,
+        "longitude" : -3.622901144863193
+	  }
+
+    },
+	{
+      "id" : "4677",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4677-centro-deportivo-municipal-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Piscinas",
+      "title" : "Centro Deportivo Municipal Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=282c42be9971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4677-centro-deportivo-municipal-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28018",
+		"street-address" : "CALLE ARROYO DEL OLIVAR 51"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4677-centro-deportivo-municipal-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.657213682860775 40.390368919782446)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4677-centro-deportivo-municipal-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.390368919782446,
+        "longitude" : -3.657213682860775
+	  }
+
+    },
+	{
+      "id" : "7411340",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7411340-centro-deportivo-municipal-vallehermoso",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Vallehermoso",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=28906e8a84805410VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7411340-centro-deportivo-municipal-vallehermoso/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28003",
+		"street-address" : "AVENIDA FILIPINAS 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7411340-centro-deportivo-municipal-vallehermoso/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.709053489027435 40.44064843863945)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7411340-centro-deportivo-municipal-vallehermoso/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44064843863945,
+        "longitude" : -3.709053489027435
+	  }
+
+    },
+	{
+      "id" : "4688",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4688-centro-deportivo-municipal-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Vicálvaro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4d6f79262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4688-centro-deportivo-municipal-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "PASEO POLIDEPORTIVO 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4688-centro-deportivo-municipal-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.603264732850392 40.40914061858403)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4688-centro-deportivo-municipal-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40914061858403,
+        "longitude" : -3.603264732850392
+	  }
+
+    },
+	{
+      "id" : "4699",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4699-centro-deportivo-municipal-vicente-bosque",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/Gimnasios",
+      "title" : "Centro Deportivo Municipal Vicente del Bosque",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e156b0c40971c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4699-centro-deportivo-municipal-vicente-bosque/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "AVENIDA MONFORTE DE LEMOS 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4699-centro-deportivo-municipal-vicente-bosque/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.693540659747283 40.4789135943213)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4699-centro-deportivo-municipal-vicente-bosque/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4789135943213,
+        "longitude" : -3.693540659747283
+	  }
+
+    },
+	{
+      "id" : "72028",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/72028-club-campo-villa-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/PistasTenisBadminton",
+      "title" : "Club de Campo Villa de Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ef93827a9e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/72028-club-campo-villa-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28040",
+		"street-address" : "CARRETERA CASTILLA "
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/72028-club-campo-villa-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7425912541514252 40.43885228050035)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/72028-club-campo-villa-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43885228050035,
+        "longitude" : -3.7425912541514252
+	  }
+
+    },
+	{
+      "id" : "5273495",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5273495-madrid-caja-magica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEspaciosDeporte/PistasTenisBadminton",
+      "title" : "Madrid Caja Mágica",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b7c3a201600ff110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5273495-madrid-caja-magica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CAMINO PERALES 23"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5273495-madrid-caja-magica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.685252060454517 40.369079808434435)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5273495-madrid-caja-magica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.369079808434435,
+        "longitude" : -3.685252060454517
+	  }
+
+    }
+  ]
+}

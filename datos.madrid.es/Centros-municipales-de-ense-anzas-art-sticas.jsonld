@@ -1,0 +1,462 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [
+	{
+      "id" : "10470305",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10470305-dam-centro-innovacion-pedagogica-danza-artes-escenicas-musica",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+      "title" : "DAM. Centro de innovación pedagógica en danza, artes escénicas y música",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=24f898df8ed0e510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10470305-dam-centro-innovacion-pedagogica-danza-artes-escenicas-musica/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "FUTURA SEDE EN CALLE FARMACIA 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10470305-dam-centro-innovacion-pedagogica-danza-artes-escenicas-musica/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6987856754744657 40.42378301276458)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10470305-dam-centro-innovacion-pedagogica-danza-artes-escenicas-musica/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42378301276458,
+        "longitude" : -3.6987856754744657
+	  }
+
+    },
+	{
+      "id" : "81780",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/81780-escuela-municipal-arte-dramatico",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+      "title" : "Escuela Municipal de Arte Dramático",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5b184291ae91f010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/81780-escuela-municipal-arte-dramatico/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE MEJIA LEQUERICA 21"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/81780-escuela-municipal-arte-dramatico/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.699501702258276 40.4280399538175)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/81780-escuela-municipal-arte-dramatico/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4280399538175,
+        "longitude" : -3.699501702258276
+	  }
+
+    },
+	{
+      "id" : "6690",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6690-escuela-ceramica-moncloa",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+      "title" : "Escuela de Cerámica de la Moncloa",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=009fa4ea6871c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6690-escuela-ceramica-moncloa/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "CALLE FRANCISCO Y JACINTO ALCÁNTARA 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6690-escuela-ceramica-moncloa/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7242795119747836 40.42670719570918)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6690-escuela-ceramica-moncloa/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42670719570918,
+        "longitude" : -3.7242795119747836
+	  }
+
+    },
+	{
+      "id" : "6031698",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6031698-escuela-municipal-musica-capricho-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+      "title" : "Escuela municipal de música  El Capricho (Barajas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3e524bc86474f210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6031698-escuela-municipal-musica-capricho-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "CALLE JOAQUIN IBARRA 28"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6031698-escuela-municipal-musica-capricho-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.594259736681548 40.4572685449013)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6031698-escuela-municipal-musica-capricho-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4572685449013,
+        "longitude" : -3.594259736681548
+	  }
+
+    },
+	{
+      "id" : "4569173",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4569173-escuela-municipal-musica-almudena-cano-arganzuela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+      "title" : "Escuela municipal de música Almudena Cano (Arganzuela)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0e943e9343652110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4569173-escuela-municipal-musica-almudena-cano-arganzuela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PASAJE TORTOSA 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4569173-escuela-municipal-musica-almudena-cano-arganzuela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6925180494110386 40.40574857350412)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4569173-escuela-municipal-musica-almudena-cano-arganzuela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40574857350412,
+        "longitude" : -3.6925180494110386
+	  }
+
+    },
+	{
+      "id" : "6698",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6698-escuela-municipal-musica-antonio-machado-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+      "title" : "Escuela municipal de música Antonio Machado (San Blas-Canillejas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3fefa4ea6871c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6698-escuela-municipal-musica-antonio-machado-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE SAN ROMAN DEL VALLE 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6698-escuela-municipal-musica-antonio-machado-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.621741078700336 40.42027705095574)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6698-escuela-municipal-musica-antonio-machado-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42027705095574,
+        "longitude" : -3.621741078700336
+	  }
+
+    },
+	{
+      "id" : "125019",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/125019-escuela-municipal-musica-carmelo-alonso-bernaola-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+      "title" : "Escuela municipal de música Carmelo Alonso Bernaola (Fuencarral-El Pardo)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9f368899fc81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/125019-escuela-municipal-musica-carmelo-alonso-bernaola-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "AVENIDA SOTO PALACIOS 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/125019-escuela-municipal-musica-carmelo-alonso-bernaola-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6845918447368597 40.48876867947374)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/125019-escuela-municipal-musica-carmelo-alonso-bernaola-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48876867947374,
+        "longitude" : -3.6845918447368597
+	  }
+
+    },
+	{
+      "id" : "6687",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6687-escuela-municipal-musica-federico-chueca-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+      "title" : "Escuela municipal de música Federico Chueca (Hortaleza)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=db30a4ea6871c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6687-escuela-municipal-musica-federico-chueca-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE BENITA AVILA 23"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6687-escuela-municipal-musica-federico-chueca-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.650596897631368 40.46550570624769)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6687-escuela-municipal-musica-federico-chueca-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46550570624769,
+        "longitude" : -3.650596897631368
+	  }
+
+    },
+	{
+      "id" : "4953904",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4953904-escuela-municipal-musica-isaac-albeniz-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+      "title" : "Escuela municipal de música Isaac Albéniz (Carabanchel)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c048bfcfa63ea110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4953904-escuela-municipal-musica-isaac-albeniz-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28054",
+		"street-address" : "CALLE LONJA DE LA SEDA 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4953904-escuela-municipal-musica-isaac-albeniz-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7553478337291613 40.366012559408354)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4953904-escuela-municipal-musica-isaac-albeniz-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.366012559408354,
+        "longitude" : -3.7553478337291613
+	  }
+
+    },
+	{
+      "id" : "6683",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6683-escuela-municipal-musica-maestro-barbieri-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+      "title" : "Escuela municipal de música Maestro Barbieri (Usera)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2260a4ea6871c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6683-escuela-municipal-musica-maestro-barbieri-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE CESTONA 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6683-escuela-municipal-musica-maestro-barbieri-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7135708871039514 40.372710384742504)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6683-escuela-municipal-musica-maestro-barbieri-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.372710384742504,
+        "longitude" : -3.7135708871039514
+	  }
+
+    },
+	{
+      "id" : "141421",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/141421-escuela-municipal-musica-manuel-vazquez-montalban-tetuan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+      "title" : "Escuela municipal de música Manuel Vázquez Montalbán (Tetuán)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ff34ba61e681c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/141421-escuela-municipal-musica-manuel-vazquez-montalban-tetuan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE FRANCOS RODRIGUEZ 67"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/141421-escuela-municipal-musica-manuel-vazquez-montalban-tetuan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.710539712535917 40.45749513485957)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/141421-escuela-municipal-musica-manuel-vazquez-montalban-tetuan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45749513485957,
+        "longitude" : -3.710539712535917
+	  }
+
+    },
+	{
+      "id" : "6699",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6699-escuela-municipal-musica-maria-rodrigo-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+      "title" : "Escuela municipal de música María Rodrigo (Chamartín)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7880a4ea6871c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6699-escuela-municipal-musica-maria-rodrigo-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE MANTUANO 51"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6699-escuela-municipal-musica-maria-rodrigo-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6762309620097398 40.44810636195716)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6699-escuela-municipal-musica-maria-rodrigo-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44810636195716,
+        "longitude" : -3.6762309620097398
+	  }
+
+    },
+	{
+      "id" : "80435",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/80435-escuela-municipal-musica-villa-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+      "title" : "Escuela municipal de música Villa de Vallecas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=00ee8ed67151c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/80435-escuela-municipal-musica-villa-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE AGUSTIN GARCIA MALLA 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/80435-escuela-municipal-musica-villa-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.616358398702118 40.38198119326615)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/80435-escuela-municipal-musica-villa-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38198119326615,
+        "longitude" : -3.616358398702118
+	  }
+
+    },
+	{
+      "id" : "190712",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190712-escuela-municipal-musica-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+      "title" : "Escuela municipal de música de Vicálvaro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fa838300a3a30110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190712-escuela-municipal-musica-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "BULEVAR INDALECIO PRIETO 16"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190712-escuela-municipal-musica-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.621090403479105 40.40207320657617)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190712-escuela-municipal-musica-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40207320657617,
+        "longitude" : -3.621090403479105
+	  }
+
+    },
+	{
+      "id" : "4953973",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4953973-escuela-municipal-musica-danza-placido-domingo-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+      "title" : "Escuela municipal de música y danza Plácido Domingo (Retiro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c833bfcfa63ea110VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4953973-escuela-municipal-musica-danza-placido-domingo-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "CALLE TELLEZ 31"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4953973-escuela-municipal-musica-danza-placido-domingo-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.678578804960757 40.401299659267984)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4953973-escuela-municipal-musica-danza-placido-domingo-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.401299659267984,
+        "longitude" : -3.678578804960757
+	  }
+
+    },
+	{
+      "id" : "6685",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6685-escuela-municipal-musica-agata-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosEnseñanzasArtisticas/ConservatoriosEscuelasMusicaDanza",
+      "title" : "Escuela municipal de música Ágata (Villaverde)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e8cfa4ea6871c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6685-escuela-municipal-musica-agata-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE DOCTOR MARTIN AREVALO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6685-escuela-municipal-musica-agata-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.708524395897377 40.34636268334182)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6685-escuela-municipal-musica-agata-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.34636268334182,
+        "longitude" : -3.708524395897377
+	  }
+
+    }
+  ]
+}

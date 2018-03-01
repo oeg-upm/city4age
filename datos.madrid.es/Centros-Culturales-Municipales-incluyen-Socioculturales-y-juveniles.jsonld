@@ -1,0 +1,2864 @@
+{"@context": {
+		"c": "http://www.w3.org/2002/12/cal#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"loc": "http://purl.org/ctic/infraestructuras/localizacion#",
+		"org": "http://purl.org/ctic/infraestructuras/organizacion#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf":    "http://www.opengis.net/ont/sf#",
+		"org" : "http://purl.org/ctic/infraestructuras/organizacion#",
+		"title": "vcard:fn",
+		"id": "dcterms:identifier",
+		"relation": "dcterms:relation",		
+		"accesibility" : "org:accesibilidad",
+		"references": "dcterms:references",
+		"address": "vcard:adr",
+		"locality": "vcard:locality",
+		"postal-code": "vcard:postal-code",
+		"street": "vcard:street-address",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",
+		"geosparql:asWKT": {
+			"@type": "geosparql:wktLiteral"
+		},
+		"latitude": "geo:lat",
+		"longitude": "geo:long"
+	},
+  "@graph" : [	{
+      "id" : "5989871",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5989871-auditorio-carmen-laforet-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Auditorio Carmen Laforet (Ciudad Lineal)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fca22248514ae210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5989871-auditorio-carmen-laforet-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE JAZMIN 46"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5989871-auditorio-carmen-laforet-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.665799020694628 40.47960826297022)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5989871-auditorio-carmen-laforet-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47960826297022,
+        "longitude" : -3.665799020694628
+	  }
+
+    },
+	{
+      "id" : "139451",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/139451-auditorio-sala-exposiciones-paco-lucia",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Auditorio y sala de exposiciones Paco de Lucía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6089ba61e681c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/139451-auditorio-sala-exposiciones-paco-lucia/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "AVENIDA LAS AGUILAS 2 A"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/139451-auditorio-sala-exposiciones-paco-lucia/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.761911556533903 40.38513183038149)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/139451-auditorio-sala-exposiciones-paco-lucia/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38513183038149,
+        "longitude" : -3.761911556533903
+	  }
+
+    },
+	{
+      "id" : "1914",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1914-centro-cultural-centro-socio-cultural-villa-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural - Centro Socio Cultural Villa de Barajas",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=476c1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1914-centro-cultural-centro-socio-cultural-villa-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "CALLE BOTICA 7 y 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1914-centro-cultural-centro-socio-cultural-villa-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5785233191070316 40.473402418562216)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1914-centro-cultural-centro-socio-cultural-villa-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.473402418562216,
+        "longitude" : -3.5785233191070316
+	  }
+
+    },
+	{
+      "id" : "117288",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/117288-centro-cultural-agustin-diaz-moncloa-aravaca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Agustín Díaz (Moncloa - Aravaca)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2d07cbf06c81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/117288-centro-cultural-agustin-diaz-moncloa-aravaca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008",
+		"street-address" : "PASEO COMANDANTE FORTEA 42"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/117288-centro-cultural-agustin-diaz-moncloa-aravaca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.732422725110936 40.427538776051804)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/117288-centro-cultural-agustin-diaz-moncloa-aravaca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.427538776051804,
+        "longitude" : -3.732422725110936
+	  }
+
+    },
+	{
+      "id" : "118067",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/118067-centro-cultural-alfredo-kraus-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Alfredo Kraus (Fuencarral - El Pardo)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7337cbf06c81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/118067-centro-cultural-alfredo-kraus-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "GLORIETA PRADERA DE VAQUERIZAS 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/118067-centro-cultural-alfredo-kraus-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7216054330053647 40.49082275610172)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/118067-centro-cultural-alfredo-kraus-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.49082275610172,
+        "longitude" : -3.7216054330053647
+	  }
+
+    },
+	{
+      "id" : "1990",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1990-centro-cultural-almirante-churruca-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Almirante Churruca (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=76c43d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1990-centro-cultural-almirante-churruca-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28024",
+		"street-address" : "CALLE FUENTE DEL TIRO 72"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1990-centro-cultural-almirante-churruca-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7800890564106613 40.3829835905706)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1990-centro-cultural-almirante-churruca-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3829835905706,
+        "longitude" : -3.7800890564106613
+	  }
+
+    },
+	{
+      "id" : "1942",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1942-centro-cultural-antonio-machado-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Antonio Machado (San Blas - Canillejas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cce43d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1942-centro-cultural-antonio-machado-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "CALLE SAN ROMÁN DEL VALLE 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1942-centro-cultural-antonio-machado-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.621741078700336 40.42027705095574)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1942-centro-cultural-antonio-machado-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42027705095574,
+        "longitude" : -3.621741078700336
+	  }
+
+    },
+	{
+      "id" : "1919",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1919-centro-cultural-aravaca-moncloa-aravaca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Aravaca (Moncloa - Aravaca)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=13153d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1919-centro-cultural-aravaca-moncloa-aravaca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28023",
+		"street-address" : "CALLE DE LA ZARZA 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1919-centro-cultural-aravaca-moncloa-aravaca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.785855667139094 40.45843103553325)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1919-centro-cultural-aravaca-moncloa-aravaca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45843103553325,
+        "longitude" : -3.785855667139094
+	  }
+
+    },
+	{
+      "id" : "52511",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52511-centro-cultural-auditorio-parque-paraiso-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/AuditoriosSalasConcierto",
+      "title" : "Centro Cultural Auditorio Parque El Paraíso (San Blas - Canillejas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a395946be351c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52511-centro-cultural-auditorio-parque-paraiso-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "AVENIDA ARCENTALES 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52511-centro-cultural-auditorio-parque-paraiso-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.622184001035289 40.42996840999023)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/52511-centro-cultural-auditorio-parque-paraiso-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42996840999023,
+        "longitude" : -3.622184001035289
+	  }
+
+    },
+	{
+      "id" : "64851",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/64851-centro-cultural-buenavista-salamanca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Buenavista (Salamanca)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=068e598d1351c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/64851-centro-cultural-buenavista-salamanca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "AVENIDA TOREROS 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/64851-centro-cultural-buenavista-salamanca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6709293330780204 40.43200210571468)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/64851-centro-cultural-buenavista-salamanca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43200210571468,
+        "longitude" : -3.6709293330780204
+	  }
+
+    },
+	{
+      "id" : "1943",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1943-centro-cultural-buero-vallejo-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Buero Vallejo (San Blas - Canillejas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=98953d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1943-centro-cultural-buero-vallejo-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE BOLTA&Ntilde;A 27"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1943-centro-cultural-buero-vallejo-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6129105844633775 40.44477474902185)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1943-centro-cultural-buero-vallejo-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44477474902185,
+        "longitude" : -3.6129105844633775
+	  }
+
+    },
+	{
+      "id" : "118317",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/118317-centro-cultural-carril-conde-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Carril del Conde (Hortaleza)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=66a7cbf06c81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/118317-centro-cultural-carril-conde-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE CARRIL DEL CONDE 57"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/118317-centro-cultural-carril-conde-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6544210187969433 40.46088953531134)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/118317-centro-cultural-carril-conde-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46088953531134,
+        "longitude" : -3.6544210187969433
+	  }
+
+    },
+	{
+      "id" : "1945",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1945-centro-cultural-casa-vacas-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasExposiciones",
+      "title" : "Centro Cultural Casa de Vacas (Retiro).",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=35e53d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1945-centro-cultural-casa-vacas-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "PASEO COLOMBIA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1945-centro-cultural-casa-vacas-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6840615387926956 40.41906024374356)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1945-centro-cultural-casa-vacas-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41906024374356,
+        "longitude" : -3.6840615387926956
+	  }
+
+    },
+	{
+      "id" : "1925",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1925-centro-cultural-casa-reloj-arganzuela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Casa del Reloj (Arganzuela)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8b063d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1925-centro-cultural-casa-reloj-arganzuela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PASEO CHOPERA 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1925-centro-cultural-casa-reloj-arganzuela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7000855961559855 40.394522745106734)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1925-centro-cultural-casa-reloj-arganzuela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.394522745106734,
+        "longitude" : -3.7000855961559855
+	  }
+
+    },
+	{
+      "id" : "4551096",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4551096-centro-cultural-ciudad-pegaso-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Ciudad Pegaso (San Blas - Canillejas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=07f63190712b1110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4551096-centro-cultural-ciudad-pegaso-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "AVENIDA SÉPTIMA 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4551096-centro-cultural-ciudad-pegaso-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5980969888187393 40.448428925762634)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4551096-centro-cultural-ciudad-pegaso-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.448428925762634,
+        "longitude" : -3.5980969888187393
+	  }
+
+    },
+	{
+      "id" : "8628780",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8628780-centro-cultural-daoiz-velarde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Centro Cultural Daoíz y Velarde",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9928722c91042510VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8628780-centro-cultural-daoiz-velarde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "PLAZA DAOÍZ Y VELARDE 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8628780-centro-cultural-daoiz-velarde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6774460025489395 40.402324327188175)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/8628780-centro-cultural-daoiz-velarde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.402324327188175,
+        "longitude" : -3.6774460025489395
+	  }
+
+    },
+	{
+      "id" : "80143",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/80143-centro-cultural-dotacional-integrado-arganzuela",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Dotacional Integrado Arganzuela",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f9ea79262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/80143-centro-cultural-dotacional-integrado-arganzuela/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "CALLE CANARIAS 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/80143-centro-cultural-dotacional-integrado-arganzuela/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6955325387824014 40.40207279862862)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/80143-centro-cultural-dotacional-integrado-arganzuela/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40207279862862,
+        "longitude" : -3.6955325387824014
+	  }
+
+    },
+	{
+      "id" : "5498725",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5498725-centro-cultural-eduardo-urculo-tetuan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Eduardo Úrculo (Tetuán)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f8f9338588355210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5498725-centro-cultural-eduardo-urculo-tetuan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "PLAZA DONOSO 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5498725-centro-cultural-eduardo-urculo-tetuan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6976620067964996 40.46903299144094)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5498725-centro-cultural-eduardo-urculo-tetuan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46903299144094,
+        "longitude" : -3.6976620067964996
+	  }
+
+    },
+	{
+      "id" : "1939",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1939-centro-cultural-pozo-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural El Pozo (Puente de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=add63d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1939-centro-cultural-pozo-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "AVENIDA DE LAS GLORIETAS 19 -21"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1939-centro-cultural-pozo-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6602546064905397 40.3735856436473)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1939-centro-cultural-pozo-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3735856436473,
+        "longitude" : -3.6602546064905397
+	  }
+
+    },
+	{
+      "id" : "1931",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1931-centro-cultural-federico-chueca-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Federico Chueca (Hortaleza)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=90573d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1931-centro-cultural-federico-chueca-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE BENITA AVILA 17"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1931-centro-cultural-federico-chueca-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.650568266584691 40.46498334634005)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1931-centro-cultural-federico-chueca-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46498334634005,
+        "longitude" : -3.650568266584691
+	  }
+
+    },
+	{
+      "id" : "4703628",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4703628-centro-cultural-fernando-lazaro-carreter-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Fernando Lázaro Carreter (Carabanchel)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=340ed2d6fe9a6110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4703628-centro-cultural-fernando-lazaro-carreter-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE VERDAD 29"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4703628-centro-cultural-fernando-lazaro-carreter-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.717140510927299 40.39164343238081)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4703628-centro-cultural-fernando-lazaro-carreter-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39164343238081,
+        "longitude" : -3.717140510927299
+	  }
+
+    },
+	{
+      "id" : "1954",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1954-centro-cultural-fernando-rios-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Fernando de los Ríos (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3d973d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1954-centro-cultural-fernando-rios-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE CAMARENA 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1954-centro-cultural-fernando-rios-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7562667464373223 40.39552931214334)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1954-centro-cultural-fernando-rios-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39552931214334,
+        "longitude" : -3.7562667464373223
+	  }
+
+    },
+	{
+      "id" : "1921",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1921-centro-cultural-galileo-chamberi",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Galileo (Chamberí)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=30181e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1921-centro-cultural-galileo-chamberi/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE GALILEO 39"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1921-centro-cultural-galileo-chamberi/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7104543597957758 40.43371190964793)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1921-centro-cultural-galileo-chamberi/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43371190964793,
+        "longitude" : -3.7104543597957758
+	  }
+
+    },
+	{
+      "id" : "70243",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/70243-centro-cultural-gloria-fuertes-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Gloria Fuertes (Barajas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2e5068540e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/70243-centro-cultural-gloria-fuertes-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "AVENIDA LOGROÑO 179"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/70243-centro-cultural-gloria-fuertes-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.5936877657335935 40.460622835379624)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/70243-centro-cultural-gloria-fuertes-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.460622835379624,
+        "longitude" : -3.5936877657335935
+	  }
+
+    },
+	{
+      "id" : "1930",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1930-centro-cultural-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Hortaleza",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=86381e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1930-centro-cultural-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE SANTA VIRGILIA 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1930-centro-cultural-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6420353342333227 40.476859845869534)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1930-centro-cultural-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.476859845869534,
+        "longitude" : -3.6420353342333227
+	  }
+
+    },
+	{
+      "id" : "1929",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1929-centro-cultural-huerta-salud-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Huerta de la Salud (Hortaleza)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dc581e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1929-centro-cultural-huerta-salud-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE MAR DE ARAL 13 posterior"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1929-centro-cultural-huerta-salud-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6430751341515526 40.4745567778344)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1929-centro-cultural-huerta-salud-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4745567778344,
+        "longitude" : -3.6430751341515526
+	  }
+
+    },
+	{
+      "id" : "6017747",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6017747-centro-cultural-jose-luis-lopez-vazquez-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural José Luis López Vázquez (San Blas - Canillejas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b790e37de110f210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6017747-centro-cultural-jose-luis-lopez-vazquez-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE FEBRERO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6017747-centro-cultural-jose-luis-lopez-vazquez-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.572741163820915 40.446818592300296)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6017747-centro-cultural-jose-luis-lopez-vazquez-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.446818592300296,
+        "longitude" : -3.572741163820915
+	  }
+
+    },
+	{
+      "id" : "142944",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/142944-centro-cultural-jose-luis-sampedro-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural José Luis Sampedro (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bd3fba61e681c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/142944-centro-cultural-jose-luis-sampedro-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28047",
+		"street-address" : "CALLE CASTROSERNA 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/142944-centro-cultural-jose-luis-sampedro-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.749110841406562 40.40159394334669)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/142944-centro-cultural-jose-luis-sampedro-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40159394334669,
+        "longitude" : -3.749110841406562
+	  }
+
+    },
+	{
+      "id" : "1913",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1913-centro-cultural-juan-gris-moncloa-aravaca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Juan Gris (Moncloa - Aravaca)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=79a81e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1913-centro-cultural-juan-gris-moncloa-aravaca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE FRANCOS RODRíGUEZ 100"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1913-centro-cultural-juan-gris-moncloa-aravaca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.71225373746578 40.457862962907384)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1913-centro-cultural-juan-gris-moncloa-aravaca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.457862962907384,
+        "longitude" : -3.71225373746578
+	  }
+
+    },
+	{
+      "id" : "1911",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1911-centro-cultural-julio-cortazar-moncloa-aravaca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Julio Cortázar (Moncloa - Aravaca)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cfc81e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1911-centro-cultural-julio-cortazar-moncloa-aravaca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "CALLE ANTONIO MACHADO 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1911-centro-cultural-julio-cortazar-moncloa-aravaca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7195669111891703 40.46678159096302)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1911-centro-cultural-julio-cortazar-moncloa-aravaca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.46678159096302,
+        "longitude" : -3.7195669111891703
+	  }
+
+    },
+	{
+      "id" : "1965",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1965-centro-cultural-juvenil-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Juvenil de Usera",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=876e1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1965-centro-cultural-juvenil-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE CUESTA 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1965-centro-cultural-juvenil-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7074718790538297 40.389856130874605)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1965-centro-cultural-juvenil-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.389856130874605,
+        "longitude" : -3.7074718790538297
+	  }
+
+    },
+	{
+      "id" : "1917",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1917-centro-cultural-vaguada-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural La Vaguada (Fuencarral - El Pardo)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=09691e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1917-centro-cultural-vaguada-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "AVENIDA MONFORTE DE LEMOS 38"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1917-centro-cultural-vaguada-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.709138377702435 40.47900813206291)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1917-centro-cultural-vaguada-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47900813206291,
+        "longitude" : -3.709138377702435
+	  }
+
+    },
+	{
+      "id" : "4606802",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4606802-centro-cultural-californias-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Las Californias (Retiro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a6c875993dc63110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4606802-centro-cultural-californias-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "CALLE LUIS PEIDRO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4606802-centro-cultural-californias-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.673881351837232 40.397020792322316)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4606802-centro-cultural-californias-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.397020792322316,
+        "longitude" : -3.673881351837232
+	  }
+
+    },
+	{
+      "id" : "1938",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1938-centro-cultural-lope-vega-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Lope de Vega (Puente de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4a273d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1938-centro-cultural-lope-vega-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE CONCEJO DE TEVERGA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1938-centro-cultural-lope-vega-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6718658006661906 40.386293684801885)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1938-centro-cultural-lope-vega-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.386293684801885,
+        "longitude" : -3.6718658006661906
+	  }
+
+    },
+	{
+      "id" : "1973",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1973-centro-cultural-rosales-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Los Rosales (Villaverde)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a5b91e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1973-centro-cultural-rosales-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "AVENIDA LOS ROSALES 133"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1973-centro-cultural-rosales-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6773064421969233 40.35074797433515)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1973-centro-cultural-rosales-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.35074797433515,
+        "longitude" : -3.6773064421969233
+	  }
+
+    },
+	{
+      "id" : "6469004",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6469004-centro-cultural-mercado-ibiza-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Mercado de Ibiza (Retiro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dbeab973f50e7310VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6469004-centro-cultural-mercado-ibiza-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28009",
+		"street-address" : "CALLE IBIZA 8 PLANTA 1ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6469004-centro-cultural-mercado-ibiza-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.677392762224429 40.41817157699025)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6469004-centro-cultural-mercado-ibiza-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41817157699025,
+        "longitude" : -3.677392762224429
+	  }
+
+    },
+	{
+      "id" : "1933",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1933-centro-cultural-meseta-orcasitas-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Meseta de Orcasitas (Usera)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fbd91e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1933-centro-cultural-meseta-orcasitas-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "PLAZA ASOCIACION 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1933-centro-cultural-meseta-orcasitas-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7081679144829076 40.36968950845358)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1933-centro-cultural-meseta-orcasitas-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.36968950845358,
+        "longitude" : -3.7081679144829076
+	  }
+
+    },
+	{
+      "id" : "1955",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1955-centro-cultural-miguel-hernandez-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Miguel Hernández (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=420a1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1955-centro-cultural-miguel-hernandez-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE SERRADILLA 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1955-centro-cultural-miguel-hernandez-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7819616113032115 40.378853797128336)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1955-centro-cultural-miguel-hernandez-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.378853797128336,
+        "longitude" : -3.7819616113032115
+	  }
+
+    },
+	{
+      "id" : "1972",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1972-centro-cultural-moncloa-moncloa-aravaca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Moncloa (Moncloa - Aravaca)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=982a1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1972-centro-cultural-moncloa-moncloa-aravaca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28008 ",
+		"street-address" : "PLAZA MONCLOA 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1972-centro-cultural-moncloa-moncloa-aravaca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7188765163188293 40.435209393826675)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1972-centro-cultural-moncloa-moncloa-aravaca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.435209393826675,
+        "longitude" : -3.7188765163188293
+	  }
+
+    },
+	{
+      "id" : "1932",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1932-centro-cultural-nicolas-salmeron-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Nicolás Salmerón (Chamartín)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee4a1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1932-centro-cultural-nicolas-salmeron-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE MANTUANO 51"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1932-centro-cultural-nicolas-salmeron-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6762309620097398 40.44810636195716)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1932-centro-cultural-nicolas-salmeron-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44810636195716,
+        "longitude" : -3.6762309620097398
+	  }
+
+    },
+	{
+      "id" : "1934",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1934-centro-cultural-orcasur-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Orcasur (Usera)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8b9a1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1934-centro-cultural-orcasur-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "PLAZA PUEBLO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1934-centro-cultural-orcasur-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.701141063083806 40.366768324753416)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1934-centro-cultural-orcasur-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.366768324753416,
+        "longitude" : -3.701141063083806
+	  }
+
+    },
+	{
+      "id" : "114978",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/114978-centro-cultural-palacete-quinta-berro-salamanca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Palacete Quinta del Berro (Salamanca)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bcc7cbf06c81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/114978-centro-cultural-palacete-quinta-berro-salamanca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE ENRIQUE D'ALMONTE 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/114978-centro-cultural-palacete-quinta-berro-salamanca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.662968075865235 40.42206601994432)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/114978-centro-cultural-palacete-quinta-berro-salamanca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42206601994432,
+        "longitude" : -3.662968075865235
+	  }
+
+    },
+	{
+      "id" : "1952",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1952-centro-cultural-principe-asturias-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Príncipe de Asturias (Ciudad Lineal)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d1ca1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1952-centro-cultural-principe-asturias-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28037",
+		"street-address" : "AVENIDA INSTITUCION LIBRE DE ENSE&Ntilde;ANZA 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1952-centro-cultural-principe-asturias-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6373000672722675 40.436444648624814)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1952-centro-cultural-principe-asturias-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.436444648624814,
+        "longitude" : -3.6373000672722675
+	  }
+
+    },
+	{
+      "id" : "1920",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1920-centro-cultural-puerta-toledo-centro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Puerta de Toledo (Centro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=28ea1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1920-centro-cultural-puerta-toledo-centro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28005",
+		"street-address" : "AVENIDA GRAN VIA DE SAN FRANCISCO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1920-centro-cultural-puerta-toledo-centro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7119218940274026 40.40740551053055)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1920-centro-cultural-puerta-toledo-centro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40740551053055,
+        "longitude" : -3.7119218940274026
+	  }
+
+    },
+	{
+      "id" : "1935",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1935-centro-cultural-san-fermin-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural San Fermín (Usera)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1b5b1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1935-centro-cultural-san-fermin-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE ESTAFETA 33"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1935-centro-cultural-san-fermin-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6920627827867514 40.37164288657417)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1935-centro-cultural-san-fermin-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37164288657417,
+        "longitude" : -3.6920627827867514
+	  }
+
+    },
+	{
+      "id" : "4703422",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4703422-centro-cultural-san-francisco-prensa-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural San Francisco La Prensa (Carabanchel)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5787e842ec9a6110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4703422-centro-cultural-san-francisco-prensa-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28025",
+		"street-address" : "CALLE ALISEDA 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4703422-centro-cultural-san-francisco-prensa-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.741639735552097 40.37690319217392)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4703422-centro-cultural-san-francisco-prensa-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37690319217392,
+        "longitude" : -3.741639735552097
+	  }
+
+    },
+	{
+      "id" : "1958",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1958-centro-cultural-san-juan-bautista-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasEstudioLectura",
+      "title" : "Centro Cultural San Juan Bautista (Ciudad Lineal)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=618b1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1958-centro-cultural-san-juan-bautista-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28043",
+		"street-address" : "CALLE SAN NEMESIO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1958-centro-cultural-san-juan-bautista-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6580402287911937 40.45224737965276)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1958-centro-cultural-san-juan-bautista-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45224737965276,
+        "longitude" : -3.6580402287911937
+	  }
+
+    },
+	{
+      "id" : "6018014",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6018014-centro-cultural-sanchinarro-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Sanchinarro (Hortaleza)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=12eb70618510f210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6018014-centro-cultural-sanchinarro-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28050",
+		"street-address" : "CALLE PRINCESA DE EBOLI 29 C/V Conde de Mayalde"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6018014-centro-cultural-sanchinarro-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.655261744717257 40.49035310157377)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6018014-centro-cultural-sanchinarro-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.49035310157377,
+        "longitude" : -3.655261744717257
+	  }
+
+    },
+	{
+      "id" : "115404",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/115404-centro-cultural-sara-montiel-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Sara Montiel (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c957cbf06c81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/115404-centro-cultural-sara-montiel-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28024",
+		"street-address" : "CARRETERA BOADILLA DEL MONTE 40"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/115404-centro-cultural-sara-montiel-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.775144917950534 40.399764677637116)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/115404-centro-cultural-sara-montiel-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.399764677637116,
+        "longitude" : -3.775144917950534
+	  }
+
+    },
+	{
+      "id" : "1971",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1971-centro-cultural-teresa-calcuta-barajas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Teresa de Calcuta (Barajas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f50e1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1971-centro-cultural-teresa-calcuta-barajas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28042",
+		"street-address" : "PLAZA NAVIO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1971-centro-cultural-teresa-calcuta-barajas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.587638001688095 40.45531140556268)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1971-centro-cultural-teresa-calcuta-barajas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45531140556268,
+        "longitude" : -3.587638001688095
+	  }
+
+    },
+	{
+      "id" : "1994",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1994-centro-cultural-usera-1",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Usera 1",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=54fb1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1994-centro-cultural-usera-1/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "AVENIDA RAFAELA YBARRA 49"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1994-centro-cultural-usera-1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.710973351109332 40.381095838993176)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1994-centro-cultural-usera-1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.381095838993176,
+        "longitude" : -3.710973351109332
+	  }
+
+    },
+	{
+      "id" : "7416137",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7416137-centro-cultural-usera-2",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Usera 2",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3cadb2cffdc15410VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7416137-centro-cultural-usera-2/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE FELIPE CASTRO 30"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7416137-centro-cultural-usera-2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7090866533057723 40.38429664257218)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/7416137-centro-cultural-usera-2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38429664257218,
+        "longitude" : -3.7090866533057723
+	  }
+
+    },
+	{
+      "id" : "123948",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/123948-centro-cultural-valdebernardo-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Valdebernardo (Vicálvaro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=69188899fc81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/123948-centro-cultural-valdebernardo-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "BULEVAR INDALECIO PRIETO 21"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/123948-centro-cultural-valdebernardo-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.621281890570377 40.39982891410407)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/123948-centro-cultural-valdebernardo-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39982891410407,
+        "longitude" : -3.621281890570377
+	  }
+
+    },
+	{
+      "id" : "1980",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1980-centro-cultural-zazuar-villa-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural Zazuar (Villa de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9d8c1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1980-centro-cultural-zazuar-villa-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE ZAZUAR 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1980-centro-cultural-zazuar-villa-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.606140062044455 40.38281899948726)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1980-centro-cultural-zazuar-villa-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38281899948726,
+        "longitude" : -3.606140062044455
+	  }
+
+    },
+	{
+      "id" : "1953",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1953-centro-cultural-madrono-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural el Madroño (Vicálvaro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=57b63d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1953-centro-cultural-madrono-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "CALLE VILLARDONDIEGO 36"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1953-centro-cultural-madrono-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6086161200017157 40.405292721436055)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1953-centro-cultural-madrono-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.405292721436055,
+        "longitude" : -3.6086161200017157
+	  }
+
+    },
+	{
+      "id" : "1940",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1940-centro-cultural-torito-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural el Torito (Moratalaz)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f3073d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1940-centro-cultural-torito-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "AVENIDA MORATALAZ 130"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1940-centro-cultural-torito-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.646536107063507 40.40609591857167)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1940-centro-cultural-torito-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40609591857167,
+        "longitude" : -3.646536107063507
+	  }
+
+    },
+	{
+      "id" : "1951",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1951-centro-cultural-elipa-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Cultural la Elipa (Ciudad Lineal)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6c191e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1951-centro-cultural-elipa-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "CALLE SANTA FELICIDAD 39"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1951-centro-cultural-elipa-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6504253324201104 40.42447060804354)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1951-centro-cultural-elipa-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42447060804354,
+        "longitude" : -3.6504253324201104
+	  }
+
+    },
+	{
+      "id" : "112637",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/112637-centro-integrado-santiago-apostol-hortaleza",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Integrado Santiago Apóstol (Hortaleza)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=38f415a11a81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/112637-centro-integrado-santiago-apostol-hortaleza/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28033",
+		"street-address" : "CALLE CARRION DE LOS CONDES 73"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/112637-centro-integrado-santiago-apostol-hortaleza/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6581195337045274 40.4760846979538)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/112637-centro-integrado-santiago-apostol-hortaleza/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4760846979538,
+        "longitude" : -3.6581195337045274
+	  }
+
+    },
+	{
+      "id" : "4703662",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4703662-centro-juvenil-carabanchel-alto",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionJuvenil",
+      "title" : "Centro Juvenil Carabanchel Alto",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2565d2d6fe9a6110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4703662-centro-juvenil-carabanchel-alto/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE ALFONSO FERNANDEZ 23"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4703662-centro-juvenil-carabanchel-alto/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.755451103709316 40.366822704148795)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4703662-centro-juvenil-carabanchel-alto/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.366822704148795,
+        "longitude" : -3.755451103709316
+	  }
+
+    },
+	{
+      "id" : "146682",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/146682-centro-juvenil-aleph-villa-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionJuvenil",
+      "title" : "Centro Juvenil El Aleph (Villa de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=84869475d381c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/146682-centro-juvenil-aleph-villa-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE ZAZUAR 1 C/V. Avda. Mediterráneo"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/146682-centro-juvenil-aleph-villa-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6054546139177392 40.38257934400676)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/146682-centro-juvenil-aleph-villa-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38257934400676,
+        "longitude" : -3.6054546139177392
+	  }
+
+    },
+	{
+      "id" : "190703",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190703-centro-juvenil-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionJuvenil",
+      "title" : "Centro Juvenil El Pardo",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=617ef50ad2a30110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190703-centro-juvenil-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28048",
+		"street-address" : "AVENIDA PADRE CIPRIANO 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190703-centro-juvenil-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.778542672958104 40.51964199418355)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/190703-centro-juvenil-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.51964199418355,
+        "longitude" : -3.778542672958104
+	  }
+
+    },
+	{
+      "id" : "182139",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182139-centro-juvenil-sitio-mi-recreo-villa-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionJuvenil",
+      "title" : "Centro Juvenil El Sitio de mi Recreo (Villa de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9bd738d60b41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182139-centro-juvenil-sitio-mi-recreo-villa-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE REAL DE ARGANDA 39"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182139-centro-juvenil-sitio-mi-recreo-villa-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.616901585603186 40.37953682427198)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/182139-centro-juvenil-sitio-mi-recreo-villa-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37953682427198,
+        "longitude" : -3.616901585603186
+	  }
+
+    },
+	{
+      "id" : "5396226",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5396226-centro-juvenil-hontalbilla-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionJuvenil",
+      "title" : "Centro Juvenil Hontalbilla (Fuencarral - El Pardo)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=afc93331c9ee2210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5396226-centro-juvenil-hontalbilla-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "CALLE HONTALBILLA 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5396226-centro-juvenil-hontalbilla-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6906342081203283 40.49231828430878)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5396226-centro-juvenil-hontalbilla-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.49231828430878,
+        "longitude" : -3.6906342081203283
+	  }
+
+    },
+	{
+      "id" : "4923522",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4923522-centro-juvenil-tetuan-punto-joven",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/OficinasInformacionJuvenil",
+      "title" : "Centro Juvenil Tetuán Punto Joven",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2f9e41aee5a2a110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4923522-centro-juvenil-tetuan-punto-joven/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE DULCINEA 4 Acceso por Raimundo Fdez. Villaverde, 35"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4923522-centro-juvenil-tetuan-punto-joven/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6998771920981004 40.447199849232135)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4923522-centro-juvenil-tetuan-punto-joven/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.447199849232135,
+        "longitude" : -3.6998771920981004
+	  }
+
+    },
+	{
+      "id" : "10344149",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10344149-centro-social-clara-campoamor-retiro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Social Clara Campoamor (Retiro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0c057ab5c83db510VgnVCM2000001f4a900aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10344149-centro-social-clara-campoamor-retiro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28007",
+		"street-address" : "AVENIDA CIUDAD DE BARCELONA 162 PLANTA 1ª y 164"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10344149-centro-social-clara-campoamor-retiro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.67728148137287 40.402370336363475)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10344149-centro-social-clara-campoamor-retiro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.402370336363475,
+        "longitude" : -3.67728148137287
+	  }
+
+    },
+	{
+      "id" : "4568753",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4568753-centro-social-polivalente-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Social Polivalente de Vicálvaro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=59c6ca957d152110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4568753-centro-social-polivalente-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "AVENIDA REAL 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4568753-centro-social-polivalente-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6070352433899013 40.40248118658274)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4568753-centro-social-polivalente-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40248118658274,
+        "longitude" : -3.6070352433899013
+	  }
+
+    },
+	{
+      "id" : "56495",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56495-centro-sociocultural-siena-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural  Siena (Ciudad Lineal)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1114c2c6e051c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56495-centro-sociocultural-siena-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28027",
+		"street-address" : "CALLE SIENA 52"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56495-centro-sociocultural-siena-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.651876723048774 40.43316516575713)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/56495-centro-sociocultural-siena-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43316516575713,
+        "longitude" : -3.651876723048774
+	  }
+
+    },
+	{
+      "id" : "1936",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1936-centro-sociocultural-alberto-sanchez-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Alberto Sánchez (Puente de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=20a43d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1936-centro-sociocultural-alberto-sanchez-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28038",
+		"street-address" : "CALLE RISCO DE PELOCHE 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1936-centro-sociocultural-alberto-sanchez-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6556073868098493 40.393612303425975)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1936-centro-sociocultural-alberto-sanchez-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.393612303425975,
+        "longitude" : -3.6556073868098493
+	  }
+
+    },
+	{
+      "id" : "72862",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/72862-centro-sociocultural-alfonso-xii-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Alfonso XII (Fuencarral - El Pardo)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b7d168540e41c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/72862-centro-sociocultural-alfonso-xii-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28048",
+		"street-address" : "CALLE MIRA EL RIO 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/72862-centro-sociocultural-alfonso-xii-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7779055687726535 40.519673311658686)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/72862-centro-sociocultural-alfonso-xii-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.519673311658686,
+        "longitude" : -3.7779055687726535
+	  }
+
+    },
+	{
+      "id" : "1974",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1974-centro-sociocultural-aula-aire-libre-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Aula de Aire Libre (Puente de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=314e1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1974-centro-sociocultural-aula-aire-libre-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE SIERRA CARBONERA 74"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1974-centro-sociocultural-aula-aire-libre-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.665329063724782 40.39009728291889)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1974-centro-sociocultural-aula-aire-libre-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39009728291889,
+        "longitude" : -3.665329063724782
+	  }
+
+    },
+	{
+      "id" : "1927",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1927-centro-sociocultural-blasco-ibanez-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Blasco Ibáñez (Carabanchel)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb453d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1927-centro-sociocultural-blasco-ibanez-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "CALLE SOLDADO JOSE MARIA REY 44"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1927-centro-sociocultural-blasco-ibanez-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.732764798621339 40.394959912881816)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1927-centro-sociocultural-blasco-ibanez-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.394959912881816,
+        "longitude" : -3.732764798621339
+	  }
+
+    },
+	{
+      "id" : "1949",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1949-centro-sociocultural-bohemios-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Bohemios (Villaverde)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=42753d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1949-centro-sociocultural-bohemios-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28041",
+		"street-address" : "CALLE LOS BOHEMIOS 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1949-centro-sociocultural-bohemios-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6940501846610894 40.35639654251886)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1949-centro-sociocultural-bohemios-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.35639654251886,
+        "longitude" : -3.6940501846610894
+	  }
+
+    },
+	{
+      "id" : "1967",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1967-centro-sociocultural-ciudad-lineal",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Ciudad Lineal",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=16f81e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1967-centro-sociocultural-ciudad-lineal/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28017",
+		"street-address" : "CALLE POETA BLAS DE OTERO 81"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1967-centro-sociocultural-ciudad-lineal/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.651682839770605 40.422850906984415)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1967-centro-sociocultural-ciudad-lineal/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.422850906984415,
+        "longitude" : -3.651682839770605
+	  }
+
+    },
+	{
+      "id" : "1912",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1912-centro-sociocultural-clara-rey-centro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Clara del Rey (Centro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1e163d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1912-centro-sociocultural-clara-rey-centro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28004",
+		"street-address" : "CALLE PALMA 36"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1912-centro-sociocultural-clara-rey-centro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.704943545703863 40.42646635574924)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1912-centro-sociocultural-clara-rey-centro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42646635574924,
+        "longitude" : -3.704943545703863
+	  }
+
+    },
+	{
+      "id" : "118935",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/118935-centro-sociocultural-canovas-castillo-usera",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Cánovas del Castillo (Usera)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1087cbf06c81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/118935-centro-sociocultural-canovas-castillo-usera/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28026",
+		"street-address" : "CALLE JULIO AGUIRRE 10 y 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/118935-centro-sociocultural-canovas-castillo-usera/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7000825227295007 40.38626143332092)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/118935-centro-sociocultural-canovas-castillo-usera/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38626143332092,
+        "longitude" : -3.7000825227295007
+	  }
+
+    },
+	{
+      "id" : "1941",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1941-centro-sociocultural-eduardo-chillida-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Eduardo Chillida (Moratalaz)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=01963d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1941-centro-sociocultural-eduardo-chillida-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE ARROYO BELINCOSO 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1941-centro-sociocultural-eduardo-chillida-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.653214777359331 40.40939173676513)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1941-centro-sociocultural-eduardo-chillida-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40939173676513,
+        "longitude" : -3.653214777359331
+	  }
+
+    },
+	{
+      "id" : "26904",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/26904-centro-sociocultural-greco-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural El Greco (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cae2b3e42751c010VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/26904-centro-sociocultural-greco-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "CALLE EL GRECO 29"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/26904-centro-sociocultural-greco-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.747465416906973 40.407316328180464)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/26904-centro-sociocultural-greco-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.407316328180464,
+        "longitude" : -3.747465416906973
+	  }
+
+    },
+	{
+      "id" : "1944",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1944-centro-sociocultural-francisco-fatou-villa-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Francisco Fatou (Villa de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d9e73d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1944-centro-sociocultural-francisco-fatou-villa-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28031",
+		"street-address" : "CALLE MANUEL VELEZ 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1944-centro-sociocultural-francisco-fatou-villa-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.623110349262379 40.379584618162156)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1944-centro-sociocultural-francisco-fatou-villa-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.379584618162156,
+        "longitude" : -3.623110349262379
+	  }
+
+    },
+	{
+      "id" : "1926",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1926-centro-sociocultural-garcia-lorca-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural García Lorca (Carabanchel)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e6773d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1926-centro-sociocultural-garcia-lorca-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE EUGENIA DE MONTIJO 105"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1926-centro-sociocultural-garcia-lorca-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7510337449848636 40.37420290010211)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1926-centro-sociocultural-garcia-lorca-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.37420290010211,
+        "longitude" : -3.7510337449848636
+	  }
+
+    },
+	{
+      "id" : "1947",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1947-centro-sociocultural-jose-espronceda-tetuan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural José Espronceda (Tetuán)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=23881e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1947-centro-sociocultural-jose-espronceda-tetuan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28039",
+		"street-address" : "CALLE ALMANSA 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1947-centro-sociocultural-jose-espronceda-tetuan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7045265016586013 40.44863106357685)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1947-centro-sociocultural-jose-espronceda-tetuan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44863106357685,
+        "longitude" : -3.7045265016586013
+	  }
+
+    },
+	{
+      "id" : "124354",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/124354-centro-sociocultural-juvenil-moratalaz",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Juvenil Moratalaz",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bf388899fc81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/124354-centro-sociocultural-juvenil-moratalaz/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28030",
+		"street-address" : "CALLE FUENTE CARRANTONA 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/124354-centro-sociocultural-juvenil-moratalaz/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6366543437448824 40.399222766804556)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/124354-centro-sociocultural-juvenil-moratalaz/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.399222766804556,
+        "longitude" : -3.6366543437448824
+	  }
+
+    },
+	{
+      "id" : "102131",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/102131-centro-sociocultural-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Latina",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a4ed8899fc81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/102131-centro-sociocultural-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28044",
+		"street-address" : "CALLE RODRIGO DE ARANA 50"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/102131-centro-sociocultural-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7659492448759053 40.3796366471018)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/102131-centro-sociocultural-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.3796366471018,
+        "longitude" : -3.7659492448759053
+	  }
+
+    },
+	{
+      "id" : "1918",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1918-centro-sociocultural-lavapies-centro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Lavapiés (Centro)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5f891e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1918-centro-sociocultural-lavapies-centro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28012",
+		"street-address" : "CALLE OLIVAR 46"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1918-centro-sociocultural-lavapies-centro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.701574291636879 40.40966697102759)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1918-centro-sociocultural-lavapies-centro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40966697102759,
+        "longitude" : -3.701574291636879
+	  }
+
+    },
+	{
+      "id" : "1961",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1961-centro-sociocultural-luis-gonzaga-chamartin",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Luis Gonzaga (Chamartín)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ba8b3d232e91f010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1961-centro-sociocultural-luis-gonzaga-chamartin/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28002",
+		"street-address" : "CALLE PRINCIPE DE VERGARA 142"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1961-centro-sociocultural-luis-gonzaga-chamartin/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6780972922453685 40.44489723228663)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1961-centro-sociocultural-luis-gonzaga-chamartin/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44489723228663,
+        "longitude" : -3.6780972922453685
+	  }
+
+    },
+	{
+      "id" : "1909",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1909-centro-sociocultural-maestro-alonso-salamanca",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Maestro Alonso (Salamanca)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=783f1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1909-centro-sociocultural-maestro-alonso-salamanca/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28028",
+		"street-address" : "CALLE MAESTRO ALONSO 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1909-centro-sociocultural-maestro-alonso-salamanca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.664855511110751 40.42938854032785)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1909-centro-sociocultural-maestro-alonso-salamanca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42938854032785,
+        "longitude" : -3.664855511110751
+	  }
+
+    },
+	{
+      "id" : "170066",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170066-centro-sociocultural-marconi-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Marconi (Villaverde)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6cb0085f5181c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170066-centro-sociocultural-marconi-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "ACCESO COLONIA MARCONI 4 calle Eustaquio 25 (frente a fachada)"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170066-centro-sociocultural-marconi-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.700809560921597 40.334751832113774)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/170066-centro-sociocultural-marconi-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.334751832113774,
+        "longitude" : -3.700809560921597
+	  }
+
+    },
+	{
+      "id" : "1970",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1970-centro-sociocultural-miguel-cervantes-san-blas-canillejas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Miguel de Cervantes (San Blas - Canillejas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=24be1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1970-centro-sociocultural-miguel-cervantes-san-blas-canillejas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28022",
+		"street-address" : "CALLE ALIAGA 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1970-centro-sociocultural-miguel-cervantes-san-blas-canillejas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.611362970564875 40.43664778776818)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1970-centro-sociocultural-miguel-cervantes-san-blas-canillejas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43664778776818,
+        "longitude" : -3.611362970564875
+	  }
+
+    },
+	{
+      "id" : "5514552",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5514552-centro-sociocultural-montecarmelo-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Montecarmelo (Fuencarral - El Pardo)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=30f2b51ae6295210VgnVCM2000000c205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5514552-centro-sociocultural-montecarmelo-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28049",
+		"street-address" : "Avenida Santuario de Valverde 114 Acceso a través del PAU Montecarmelo"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5514552-centro-sociocultural-montecarmelo-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.685946562681175 40.51635495615339)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/5514552-centro-sociocultural-montecarmelo-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.51635495615339,
+        "longitude" : -3.685946562681175
+	  }
+
+    },
+	{
+      "id" : "1964",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1964-centro-sociocultural-oporto-carabanchel",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Oporto (Carabanchel)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=357a1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1964-centro-sociocultural-oporto-carabanchel/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28019",
+		"street-address" : "AVENIDA OPORTO 78"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1964-centro-sociocultural-oporto-carabanchel/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.727740326743959 40.38684744124125)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1964-centro-sociocultural-oporto-carabanchel/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.38684744124125,
+        "longitude" : -3.727740326743959
+	  }
+
+    },
+	{
+      "id" : "1924",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1924-centro-sociocultural-rafael-leon-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Rafael de León (Fuencarral - El Pardo)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7e0b1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1924-centro-sociocultural-rafael-leon-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28035",
+		"street-address" : "CALLE ISLA DE ONS 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1924-centro-sociocultural-rafael-leon-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7214686777952974 40.48025613358832)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1924-centro-sociocultural-rafael-leon-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48025613358832,
+        "longitude" : -3.7214686777952974
+	  }
+
+    },
+	{
+      "id" : "1950",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1950-centro-sociocultural-san-cristobal-angeles-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural San Cristóbal de los Ángeles (Villaverde)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7f4a79262ef5d010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1950-centro-sociocultural-san-cristobal-angeles-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "PLAZA PINAZO 9 PLANTA 1ª"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1950-centro-sociocultural-san-cristobal-angeles-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6905504735084342 40.34233618931469)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1950-centro-sociocultural-san-cristobal-angeles-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.34233618931469,
+        "longitude" : -3.6905504735084342
+	  }
+
+    },
+	{
+      "id" : "43311",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/43311-centro-sociocultural-san-jose-calasanz-latina",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural San José de Calasanz (Latina)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2bae598d1351c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/43311-centro-sociocultural-san-jose-calasanz-latina/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28011",
+		"street-address" : "CALLE MARIA DEL CARMEN 65"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/43311-centro-sociocultural-san-jose-calasanz-latina/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.7327010920242043 40.40647389284976)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/43311-centro-sociocultural-san-jose-calasanz-latina/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40647389284976,
+        "longitude" : -3.7327010920242043
+	  }
+
+    },
+	{
+      "id" : "117716",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/117716-centro-sociocultural-santa-petronila-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Santa Petronila (Villaverde)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=03f7cbf06c81c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/117716-centro-sociocultural-santa-petronila-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE MARIA MARTINEZ OVIOL 12"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/117716-centro-sociocultural-santa-petronila-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.691508909255186 40.35087114162283)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/117716-centro-sociocultural-santa-petronila-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.35087114162283,
+        "longitude" : -3.691508909255186
+	  }
+
+    },
+	{
+      "id" : "1937",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1937-centro-sociocultural-talleres-creatividad-puente-vallecas",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Talleres de Creatividad (Puente de Vallecas)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b7ab1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1937-centro-sociocultural-talleres-creatividad-puente-vallecas/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28053",
+		"street-address" : "CALLE SIERRA CARBONERA 74"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1937-centro-sociocultural-talleres-creatividad-puente-vallecas/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.665329063724782 40.39009728291889)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1937-centro-sociocultural-talleres-creatividad-puente-vallecas/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39009728291889,
+        "longitude" : -3.665329063724782
+	  }
+
+    },
+	{
+      "id" : "1948",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1948-centro-sociocultural-tetuan",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Tetuán",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0ecb1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1948-centro-sociocultural-tetuan/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28020",
+		"street-address" : "CALLE BRAVO MURILLO 251"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1948-centro-sociocultural-tetuan/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.700271645324868 40.45907130615822)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1948-centro-sociocultural-tetuan/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.45907130615822,
+        "longitude" : -3.700271645324868
+	  }
+
+    },
+	{
+      "id" : "1923",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1923-centro-sociocultural-valle-inclan-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Valle Inclán (Fuencarral - El Pardo)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aa1c1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1923-centro-sociocultural-valle-inclan-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28029",
+		"street-address" : "CALLE ARZOBISPO MORCILLO 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1923-centro-sociocultural-valle-inclan-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6933504628706095 40.48106787416528)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1923-centro-sociocultural-valle-inclan-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48106787416528,
+        "longitude" : -3.6933504628706095
+	  }
+
+    },
+	{
+      "id" : "1908",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1908-centro-sociocultural-valverde-fuencarral-pardo",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Valverde (Fuencarral - El Pardo)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f04c1e79ee71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1908-centro-sociocultural-valverde-fuencarral-pardo/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28034",
+		"street-address" : "PLAZA ISLAS AZORES 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1908-centro-sociocultural-valverde-fuencarral-pardo/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6880070256093758 40.49504564211655)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1908-centro-sociocultural-valverde-fuencarral-pardo/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.49504564211655,
+        "longitude" : -3.6880070256093758
+	  }
+
+    },
+	{
+      "id" : "4679597",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4679597-centro-sociocultural-vicalvaro",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Vicálvaro",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=05ec3ef2c5ff5110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "0",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4679597-centro-sociocultural-vicalvaro/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28032",
+		"street-address" : "CALLE LAGO TITICACA 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4679597-centro-sociocultural-vicalvaro/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6084585863003733 40.40219442341818)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4679597-centro-sociocultural-vicalvaro/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.40219442341818,
+        "longitude" : -3.6084585863003733
+	  }
+
+    },
+	{
+      "id" : "1996",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1996-centro-sociocultural-agata-villaverde",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Centro Sociocultural Ágata (Villaverde)",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d9743d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1996-centro-sociocultural-agata-villaverde/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28021",
+		"street-address" : "CALLE DOCTOR MARTIN AREVALO 2"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1996-centro-sociocultural-agata-villaverde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.708524395897377 40.34636268334182)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1996-centro-sociocultural-agata-villaverde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.34636268334182,
+        "longitude" : -3.708524395897377
+	  }
+
+    },
+	{
+      "id" : "6013703",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6013703-centrocentro-cibeles-cultura-ciudadania",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "CentroCentro Cibeles de Cultura y Ciudadanía",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5ff519cd7bcee210VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6013703-centrocentro-cibeles-cultura-ciudadania/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "PLAZA CIBELES 1 Palacio de Cibeles"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6013703-centrocentro-cibeles-cultura-ciudadania/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.692206111679657 40.419011767401095)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/6013703-centrocentro-cibeles-cultura-ciudadania/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.419011767401095,
+        "longitude" : -3.692206111679657
+	  }
+
+    },
+	{
+      "id" : "1916",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1916-conde-duque",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/MonumentosEdificiosArtisticos",
+      "title" : "Conde Duque",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=64463d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1916-conde-duque/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28015",
+		"street-address" : "CALLE CONDE DUQUE 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1916-conde-duque/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.710182353581842 40.42802889001877)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1916-conde-duque/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42802889001877,
+        "longitude" : -3.710182353581842
+	  }
+
+    },
+	{
+      "id" : "1915",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1915-fernan-gomez-centro-cultural-villa",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/Teatros",
+      "title" : "Fernán Gómez Centro Cultural de la Villa",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ba663d0b5e71c010VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1915-fernan-gomez-centro-cultural-villa/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28001",
+		"street-address" : "PLAZA COLON 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1915-fernan-gomez-centro-cultural-villa/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6899208519663427 40.424926347610764)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/1915-fernan-gomez-centro-cultural-villa/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.424926347610764,
+        "longitude" : -3.6899208519663427
+	  }
+
+    },
+	{
+      "id" : "4684678",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4684678-matadero-madrid",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/SalasExposiciones",
+      "title" : "Matadero Madrid",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ef686a9ee7336110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4684678-matadero-madrid/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "Paseo de la Chopera 14 PLAZA DE LEGAZPI 8"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4684678-matadero-madrid/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.697259467865366 40.39241367848808)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4684678-matadero-madrid/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.39241367848808,
+        "longitude" : -3.697259467865366
+	  }
+
+    },
+	{
+      "id" : "4776440",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4776440-medialab-prado",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Medialab - Prado",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=79f59dacff4d7110VgnVCM1000000b205a0aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4776440-medialab-prado/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28014",
+		"street-address" : "CALLE ALAMEDA 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4776440-medialab-prado/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6937931079230744 40.410560776119)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/4776440-medialab-prado/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.410560776119,
+        "longitude" : -3.6937931079230744
+	  }
+
+    },
+	{
+      "id" : "10189992",
+      "@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10189992-nave-terneras-centro-cultural-casa-reloj",
+      "@type" : "http://datos.madrid.es/egob/kos/entidadesYorganismos/CentrosCulturales",
+      "title" : "Nave de Terneras del Centro Cultural Casa del Reloj",
+      "relation" : "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6c5c625c0d168510VgnVCM1000001d4a900aRCRD",
+	  "accesibility" : "1",
+      "address" :{ 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10189992-nave-terneras-centro-cultural-casa-reloj/address",
+		"@type" : "vcard:Address",
+		"locality" : "MADRID",
+		"postal-code" : "28045",
+		"street-address" : "PASEO CHOPERA 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10189992-nave-terneras-centro-cultural-casa-reloj/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.6985778802913103 40.393432756132874)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.madrid.es/egob/catalogo/tipo/entidadesyorganismos/10189992-nave-terneras-centro-cultural-casa-reloj/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.393432756132874,
+        "longitude" : -3.6985778802913103
+	  }
+
+    }
+  ]
+}
