@@ -1,0 +1,229 @@
+{"@context": {
+		"name": "http://schema.org/name",
+		"schema:address": "http://schema.org/address",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf": "http://www.opengis.net/ont/geosparql#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"title": "vcard:fn",
+		"address": "vcard:hasAddress",
+		"street-address": "vcard:street-address",
+		"postal-code": "http://schema.org/postalCode",
+		"locality": "vcard:locality",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",	
+		"latitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:lat"
+		},
+		"longitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:long"
+		},
+		"geosparql:asWKT": {
+		  "@type": "geosparql:wktLiteral",
+		  "@id": "geosparql:asWKT"
+		}
+	},
+  "@graph" : [	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_281_679",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_281_679",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaMetro",
+      "title" : "Ascensor",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_281_679/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "Calle  Manuel de Falla 59"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_281_679/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.64682 40.55063)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_281_679/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.55063",
+        "longitude" : "-3.64682"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_279_684",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_279_684",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaMetro",
+      "title" : "Ascensor",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_279_684/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "Avda de la Ermita 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_279_684/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.63548 40.53199)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_279_684/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.53199",
+        "longitude" : "-3.63548"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_281_678",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_281_678",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaMetro",
+      "title" : "Manuel de Falla",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_281_678/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "Calle  Manuel de Falla 59"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_281_678/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.64708 40.55044)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_281_678/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.55044",
+        "longitude" : "-3.64708"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_280_680",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_280_680",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaMetro",
+      "title" : "Marqués de la Valdavia",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_280_680/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "Calle del Marqués de la Valdavia 21"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_280_680/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.63739 40.54112)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_280_680/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54112",
+        "longitude" : "-3.63739"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_278_685",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_278_685",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaMetro",
+      "title" : "La Granja",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_278_685/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "Calle de Sepúlveda 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_278_685/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.65865 40.52763)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_278_685/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.52763",
+        "longitude" : "-3.65865"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_279_683",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_279_683",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaMetro",
+      "title" : "Avda. Bruselas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_279_683/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "Avda de la Ermita 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_279_683/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6355 40.53187)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_279_683/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.53187",
+        "longitude" : "-3.6355"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_280_681",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_280_681",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaMetro",
+      "title" : "Ascensor",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_280_681/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "Calle del Marqués de la Valdavia 21"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_280_681/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.63755 40.54107)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_280_681/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54107",
+        "longitude" : "-3.63755"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_278_686",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_278_686",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaMetro",
+      "title" : "Ascensor",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_278_686/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "Calle de la Granja 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_278_686/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.65855 40.52772)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-metro/acc_4_278_686/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.52772",
+        "longitude" : "-3.65855"
+	  }
+
+    }
+  ]
+}

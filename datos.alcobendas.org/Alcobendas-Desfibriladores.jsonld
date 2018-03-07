@@ -1,0 +1,804 @@
+{"@context": {
+		"name": "http://schema.org/name",
+		"schema:address": "http://schema.org/address",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf": "http://www.opengis.net/ont/geosparql#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"title": "vcard:fn",
+		"address": "vcard:hasAddress",
+		"street-address": "vcard:street-address",
+		"postal-code": "http://schema.org/postalCode",
+		"locality": "vcard:locality",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",	
+		"latitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:lat"
+		},
+		"longitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:long"
+		},
+		"geosparql:asWKT": {
+		  "@type": "geosparql:wktLiteral",
+		  "@id": "geosparql:asWKT"
+		}
+	},
+  "@graph" : [	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/0",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/0",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Ayuntamiento de Alcobendas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/0/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PZ MAYOR"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/0/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6416009847823 40.5475170400635)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/0/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.5475170400635,
+        "longitude" : -3.6416009847823
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/1",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/1",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Campo de fútbol de Fuentelucha",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/1/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "CL FELICIDAD DE LA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6591466427519426 40.54994271406935)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54994271406935,
+        "longitude" : -3.6591466427519426
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/2",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/2",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Campo de fútbol Mario Suárez",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/2/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "CL FCO LARGO CABALLERO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.646094687618256 40.55462041442307)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55462041442307,
+        "longitude" : -3.646094687618256
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/3",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/3",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Campo de fútbol Navarra 1",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/3/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "AV ESPAÑA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/3/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6444256506244987 40.54443090139885)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/3/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54443090139885,
+        "longitude" : -3.6444256506244987
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/4",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/4",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Campo de fútbol Óscar Molina",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/4/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "CL MANUEL DE FALLA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/4/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.641694 40.552192)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/4/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.552192,
+        "longitude" : -3.641694
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/5",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/5",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Campo de Rugby Las Terrazas ",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/5/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "CL NARDO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/5/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6378378564310307 40.529569479167634)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/5/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.529569479167634,
+        "longitude" : -3.6378378564310307
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/6",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/6",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Centro Cultural Anabel Segura",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/6/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28108,
+		"street-address" : "AV BRUSELAS DE"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/6/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6366819443693847 40.53134238883761)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/6/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53134238883761,
+        "longitude" : -3.6366819443693847
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/7",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/7",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Centro Cultural Pablo Iglesias",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/7/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PS CHOPERA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/7/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6436252766143626 40.54295948561787)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/7/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54295948561787,
+        "longitude" : -3.6436252766143626
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/8",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/8",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Centro de Arte Alcobendas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/8/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MARIANO SEBAST IZUEL"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/8/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.630706664297103 40.540908671319386)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/8/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.540908671319386,
+        "longitude" : -3.630706664297103
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/9",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/9",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Centro de Mayores Carmen García Bloise",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/9/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL OLIVAR"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/9/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.648145471189707 40.54725443394762)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/9/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54725443394762,
+        "longitude" : -3.648145471189707
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/10",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/10",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Centro de Mayores María Zambrano",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/10/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL DAOIZ"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/10/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6433407277810965 40.544159456612476)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/10/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.544159456612476,
+        "longitude" : -3.6433407277810965
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/11",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/11",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Centro de Mayores Pedro González Guerra",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/11/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL ORENSE"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/11/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6366224041020923 40.541987173828645)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/11/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.541987173828645,
+        "longitude" : -3.6366224041020923
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/12",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/12",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Centro de Mayores Ramón Rubial",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/12/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PZ RAMON RUBIAL"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/12/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.624853 40.542996)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/12/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.542996,
+        "longitude" : -3.624853
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/13",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/13",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "La Esfera - Sede de las Casas Regionales de Alcobendas ",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/13/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "AV OLIMPICA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/13/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6326563175408104 40.53669217374456)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/13/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53669217374456,
+        "longitude" : -3.6326563175408104
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/14",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/14",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Pabellón Deportivo Bachiller Alonso López ",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/14/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "CL FCO LARGO CABALLERO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/14/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6546294785912314 40.55342734487408)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/14/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55342734487408,
+        "longitude" : -3.6546294785912314
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/15",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/15",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Pabellón Deportivo Miraflores",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/15/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "CL MIRAFLORES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/15/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6387425619653433 40.5469706173792)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/15/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.5469706173792,
+        "longitude" : -3.6387425619653433
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/16",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/16",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Pabellón Deportivo Municipal Amaya Valdemoro ",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/16/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28108,
+		"street-address" : "AVDA. BARAJAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/16/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6191324627868724 40.53690824159674)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/16/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53690824159674,
+        "longitude" : -3.6191324627868724
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/17",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/17",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Pabellón Deportivo Municipal Antela Parada",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/17/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "CL FCO CHICO MENDES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/17/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6536335591316487 40.52287027441111)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/17/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52287027441111,
+        "longitude" : -3.6536335591316487
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/18",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/18",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Pabellón Deportivo Municipal de los Sueños ",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/18/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "AV DOCTOR SEVERO OCHOA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/18/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6501717822729893 40.54542670966469)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/18/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54542670966469,
+        "longitude" : -3.6501717822729893
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/19",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/19",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Pabellón Deportivo Pedro Ferrándiz ",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/19/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "AV OLIMPICA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/19/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6346625205116374 40.53627335736466)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/19/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53627335736466,
+        "longitude" : -3.6346625205116374
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/20",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/20",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Pabellón Distrito Centro",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/20/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "AV OLIMPICA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/20/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6349160988526634 40.53606234562023)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/20/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53606234562023,
+        "longitude" : -3.6349160988526634
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/21",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/21",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Pabellón Luis Buñuel",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/21/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "CL JAEN"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/21/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.640915599976518 40.55160760365376)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/21/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55160760365376,
+        "longitude" : -3.640915599976518
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/22",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/22",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Patronato Municipal de Bienestar Social (PBS)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/22/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL LIBERTAD"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/22/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6346192558398167 40.54046030757805)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/22/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54046030757805,
+        "longitude" : -3.6346192558398167
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/23",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/23",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Policía Local - Sede Central (Distrito Norte) ",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/23/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "AV VALDELAPARRA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/23/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.662199578799536 40.54749538855383)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/23/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54749538855383,
+        "longitude" : -3.662199578799536
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/24",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/24",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Policía Local (Sede Distrito Centro)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/24/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "CL LIBERTAD"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/24/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.63499194122602 40.54027946987215)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/24/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54027946987215,
+        "longitude" : -3.63499194122602
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/25",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/25",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Policía Local (Sede Distrito Urbanizaciones)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/25/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "AV BRUSELAS DE"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/25/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6430364932614725 40.52787281332109)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/25/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52787281332109,
+        "longitude" : -3.6430364932614725
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/26",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/26",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Sede de la Protección Civil Alcobendas - Agrupación de Voluntarios ",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/26/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "AV VALDELAPARRA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/26/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.662199578799536 40.54749538855383)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/26/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54749538855383,
+        "longitude" : -3.662199578799536
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/27",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/27",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Servicio de medicina deportiva de la Ciudad Deportiva Valdelasfuentes",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/27/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV DON MIGUEL CERVANTES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/27/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.650033731243563 40.55168789305058)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/27/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55168789305058,
+        "longitude" : -3.650033731243563
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/28",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/28",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Servicio de medicina deportiva del Polideportivo José Caballero",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/28/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28108,
+		"street-address" : "AVDA. BARAJAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/28/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6211447442876596 40.53685257703025)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/28/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53685257703025,
+        "longitude" : -3.6211447442876596
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/29",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/29",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Teatro Auditorio Ciudad de Alcobendas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/29/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL BLAS DE OTERO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/29/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.642762413286917 40.54809243960353)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/29/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54809243960353,
+        "longitude" : -3.642762413286917
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/30",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/30",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#Desfibrilador",
+      "title" : "Universidad Popular de Alcobendas (UPA)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/30/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "AV MAGIA DE LA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/30/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6574552329241334 40.551590052358314)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/desfribilador/30/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.551590052358314,
+        "longitude" : -3.6574552329241334
+	  }
+
+    }
+  ]
+}

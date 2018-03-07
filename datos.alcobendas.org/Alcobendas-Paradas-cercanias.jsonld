@@ -1,0 +1,353 @@
+{"@context": {
+		"name": "http://schema.org/name",
+		"schema:address": "http://schema.org/address",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf": "http://www.opengis.net/ont/geosparql#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"title": "vcard:fn",
+		"address": "vcard:hasAddress",
+		"street-address": "vcard:street-address",
+		"postal-code": "http://schema.org/postalCode",
+		"locality": "vcard:locality",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",	
+		"latitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:lat"
+		},
+		"longitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:long"
+		},
+		"geosparql:asWKT": {
+		  "@type": "geosparql:wktLiteral",
+		  "@id": "geosparql:asWKT"
+		}
+	},
+  "@graph" : [	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_18",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_18",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaCercanias",
+      "title" : "CHAMARTIN",
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_18/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.68237859937536 40.4721094623497)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_18/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.4721094623497",
+        "longitude" : "-3.68237859937536"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_31",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_31",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaCercanias",
+      "title" : "FUENCARRAL",
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_31/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.68225218377436 40.5015691134975)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_31/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.5015691134975",
+        "longitude" : "-3.68225218377436"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_37",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_37",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaCercanias",
+      "title" : "GOLOSO EL",
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_37/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.71397804023902 40.558583101112)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_37/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.558583101112",
+        "longitude" : "-3.71397804023902"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_51",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_51",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaCercanias",
+      "title" : "NUEVOS MINISTERIOS",
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_51/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.69225017986236 40.4466277031815)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_51/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.4466277031815",
+        "longitude" : "-3.69225017986236"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_83",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_83",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaCercanias",
+      "title" : "TRES CANTOS",
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_83/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.71556021510206 40.5984457667284)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_83/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.5984457667284",
+        "longitude" : "-3.71556021510206"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_36",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_36",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaCercanias",
+      "title" : "GETAFE SECTOR 3",
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_36/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.73724253672422 40.2882594725019)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_36/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.2882594725019",
+        "longitude" : "-3.73724253672422"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_85",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_85",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaCercanias",
+      "title" : "VALDELASFUENTES",
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_85/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.65424433859136 40.5474506798862)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_85/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.5474506798862",
+        "longitude" : "-3.65424433859136"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_84",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_84",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaCercanias",
+      "title" : "UNIVERSIDAD P. COMILLAS",
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_84/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.68324540394647 40.5540663923206)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_84/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.5540663923206",
+        "longitude" : "-3.68324540394647"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_21",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_21",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaCercanias",
+      "title" : "COLMENAR VIEJO",
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_21/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.77564070812934 40.6449747266778)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_21/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.6449747266778",
+        "longitude" : "-3.77564070812934"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_93",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_93",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaCercanias",
+      "title" : "VILLAVERDE BAJO",
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_93/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.68389310873579 40.3526507971254)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_93/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.3526507971254",
+        "longitude" : "-3.68389310873579"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_4",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_4",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaCercanias",
+      "title" : "ALCOBENDAS-S.S. DE LOS REYES",
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_4/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.63509249422751 40.5465755919252)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_4/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.5465755919252",
+        "longitude" : "-3.63509249422751"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_122",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_122",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaCercanias",
+      "title" : "SOL",
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_122/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.70300095436799 40.4168514100817)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_122/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.4168514100817",
+        "longitude" : "-3.70300095436799"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_15",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_15",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaCercanias",
+      "title" : "CANTOBLANCO UNIVERSIDAD",
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_15/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.70025235112853 40.5437936933619)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_15/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.5437936933619",
+        "longitude" : "-3.70025235112853"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_92",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_92",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaCercanias",
+      "title" : "VILLAVERDE ALTO",
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_92/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.71183451015835 40.3412389095586)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_92/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.3412389095586",
+        "longitude" : "-3.71183451015835"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_53",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_53",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaCercanias",
+      "title" : "PARLA",
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_53/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.76926846708883 40.2407799399339)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_53/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.2407799399339",
+        "longitude" : "-3.76926846708883"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_34",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_34",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaCercanias",
+      "title" : "GETAFE CENTRO",
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_34/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.73384370824394 40.3101101574552)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_34/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.3101101574552",
+        "longitude" : "-3.73384370824394"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_43",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_43",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaCercanias",
+      "title" : "MARGARITAS-UNIVERSIDAD LAS",
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_43/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.72728643362543 40.323052580859)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_43/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.323052580859",
+        "longitude" : "-3.72728643362543"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_11",
+      "@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_11",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#ParadaCercanias",
+      "title" : "ATOCHA",
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_11/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.68921184083959 40.4066011651398)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/parada-cercanias/par_5_11/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.4066011651398",
+        "longitude" : "-3.68921184083959"
+	  }
+
+    }
+  ]
+}

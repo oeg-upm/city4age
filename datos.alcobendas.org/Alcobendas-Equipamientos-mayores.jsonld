@@ -1,0 +1,529 @@
+{"@context": {
+		"name": "http://schema.org/name",
+		"schema:address": "http://schema.org/address",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf": "http://www.opengis.net/ont/geosparql#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"title": "vcard:fn",
+		"address": "vcard:hasAddress",
+		"street-address": "vcard:street-address",
+		"postal-code": "http://schema.org/postalCode",
+		"locality": "vcard:locality",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",	
+		"latitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:lat"
+		},
+		"longitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:long"
+		},
+		"geosparql:asWKT": {
+		  "@type": "geosparql:wktLiteral",
+		  "@id": "geosparql:asWKT"
+		}
+	},
+  "@graph" : [	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/0",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/0",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Asesoría para jubilados y pensionistas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/0/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL ORENSE"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/0/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6366724440671727 40.542008969824764)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/0/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.542008969824764,
+        "longitude" : -3.6366724440671727
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/1",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/1",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Centro de Día municipal C/ Pablo Picasso (público)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/1/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "CL PABLO PICASSO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.635904792594429 40.54141069320284)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54141069320284,
+        "longitude" : -3.635904792594429
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/2",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/2",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Centro de Día para Mayores C/ Miño (concertado)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/2/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MIÑO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.638664609589574 40.54415386876894)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54415386876894,
+        "longitude" : -3.638664609589574
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/3",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/3",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Centro de Día para Mayores C/ Nuestra Señora de la Paz (público)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/3/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL NTRA SRA DEL PILAR"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/3/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6329626153101846 40.541562405399624)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/3/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.541562405399624,
+        "longitude" : -3.6329626153101846
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/4",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/4",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Centro de Dia Vida y Salud (Privado)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/4/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL AVILA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/4/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6323526468084504 40.544159768109964)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/4/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.544159768109964,
+        "longitude" : -3.6323526468084504
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/5",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/5",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Centro de Mayores Carmen García Bloise",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/5/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL OLIVAR"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/5/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.648145471189707 40.54725443394762)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/5/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54725443394762,
+        "longitude" : -3.648145471189707
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/6",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/6",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Centro de Mayores María Zambrano",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/6/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL DAOIZ"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/6/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6433407277810965 40.544159456612476)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/6/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.544159456612476,
+        "longitude" : -3.6433407277810965
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/7",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/7",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Centro de Mayores Nuestra Señora de la Paz",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/7/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL NTRA SRA DEL PILAR"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/7/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6329626153101846 40.541562405399624)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/7/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.541562405399624,
+        "longitude" : -3.6329626153101846
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/8",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/8",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Centro de Mayores Pedro González Guerra",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/8/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL ORENSE"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/8/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6366224041020923 40.541987173828645)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/8/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.541987173828645,
+        "longitude" : -3.6366224041020923
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/9",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/9",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Centro de Mayores Ramón Rubial",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/9/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PZ RAMON RUBIAL"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/9/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.624853 40.542996)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/9/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.542996,
+        "longitude" : -3.624853
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/10",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/10",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Centro de Mayores Urbanizaciones calle Salvia",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/10/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28109,
+		"street-address" : "CL SALVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/10/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.633697953349076 40.53052293926995)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/10/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53052293926995,
+        "longitude" : -3.633697953349076
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/11",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/11",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Centro Estatal de Autonomía Personal y Ayudas Técnicas (Ceapat) ",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/11/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28018,
+		"street-address" : "C/ Los Extremeños 1 "
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/11/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.645776868892614 40.385543593389826)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/11/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.385543593389826,
+        "longitude" : -3.645776868892614
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/12",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/12",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Patronato Municipal de Bienestar Social (PBS)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/12/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL LIBERTAD"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/12/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6346192558398167 40.54046030757805)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/12/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54046030757805,
+        "longitude" : -3.6346192558398167
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/13",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/13",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Residencia concertada Tercera Edad Ballesol",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/13/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL RAMON Y CAJAL"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/13/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.650151067544228 40.54116297630258)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/13/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54116297630258,
+        "longitude" : -3.650151067544228
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/14",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/14",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Residencia de personas mayores Orpea Alcobendas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/14/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV DON MIGUEL CERVANTES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/14/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6508412049237826 40.54951962805375)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/14/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54951962805375,
+        "longitude" : -3.6508412049237826
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/15",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/15",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Residencia privada Caser",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/15/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28109,
+		"street-address" : "CL SALVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/15/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.632392562841005 40.529868973886764)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/15/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.529868973886764,
+        "longitude" : -3.632392562841005
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/16",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/16",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Residencia privada Orpea La Moraleja",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/16/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28108,
+		"street-address" : "CR MADRID-IRUN"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/16/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6533586623511023 40.51988360525609)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/16/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.51988360525609,
+        "longitude" : -3.6533586623511023
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/17",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/17",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Residencia privada Sanitas Residencial La Moraleja",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/17/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV VEGA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/17/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6335479654438174 40.53444497786083)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/17/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53444497786083,
+        "longitude" : -3.6335479654438174
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/18",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/18",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Residencia pública Tercera Edad Gastón Baquero (Comunidad de Madrid)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/18/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL FCO CHICO MENDES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/18/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6536335591316487 40.52287027441111)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/18/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52287027441111,
+        "longitude" : -3.6536335591316487
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomayores/19",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/19",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomayores",
+      "title" : "Servicio de Mayores del Patronato de Bienestar Social",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/19/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL ORENSE"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/19/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.636581613200976 40.54204424454416)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomayores/19/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54204424454416,
+        "longitude" : -3.636581613200976
+	  }
+
+    }
+  ]
+}

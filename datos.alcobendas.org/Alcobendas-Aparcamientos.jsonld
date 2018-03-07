@@ -1,0 +1,904 @@
+﻿{"@context": {
+		"name": "http://schema.org/name",
+		"schema:address": "http://schema.org/address",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf": "http://www.opengis.net/ont/geosparql#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"title": "vcard:fn",
+		"address": "vcard:hasAddress",
+		"street-address": "vcard:street-address",
+		"postal-code": "http://schema.org/postalCode",
+		"locality": "vcard:locality",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",	
+		"latitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:lat"
+		},
+		"longitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:long"
+		},
+		"geosparql:asWKT": {
+		  "@type": "geosparql:wktLiteral",
+		  "@id": "geosparql:asWKT"
+		}
+	},
+  "@graph" : [	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/042db05f27ed193d1011440c7dad007d",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/042db05f27ed193d1011440c7dad007d",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento en Valdelasfuentes / RENFE",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/042db05f27ed193d1011440c7dad007d/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL MARQUES VALDAVIA 140"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/042db05f27ed193d1011440c7dad007d/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.65452907 40.54702570)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/042db05f27ed193d1011440c7dad007d/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54702570",
+        "longitude" : "-3.65452907"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/07b88d5d0c766191341a6ab5945488c6",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/07b88d5d0c766191341a6ab5945488c6",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento Municipal Plazas en Alquiler en Parque de Extremadura",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/07b88d5d0c766191341a6ab5945488c6/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL MANUEL DE FALLA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/07b88d5d0c766191341a6ab5945488c6/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.64403224 40.55293367)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/07b88d5d0c766191341a6ab5945488c6/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.55293367",
+        "longitude" : "-3.64403224"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/11d702d84b5e1d626a7169b9c503c529",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/11d702d84b5e1d626a7169b9c503c529",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento en Parcela 'S' Arroyo de la Vega",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/11d702d84b5e1d626a7169b9c503c529/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "AV BRUSELAS DE"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/11d702d84b5e1d626a7169b9c503c529/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.64021479 40.52924813)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/11d702d84b5e1d626a7169b9c503c529/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.52924813",
+        "longitude" : "-3.64021479"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/140a3853af6de8ce669d5ae297558aca",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/140a3853af6de8ce669d5ae297558aca",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento de Residentes en calle Casimiro Morcillo",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/140a3853af6de8ce669d5ae297558aca/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL DR CASIMIRO MORCILLO 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/140a3853af6de8ce669d5ae297558aca/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.64383676 40.54181036)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/140a3853af6de8ce669d5ae297558aca/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54181036",
+        "longitude" : "-3.64383676"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/2502fb117016c951f813787d4dbd49b8",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/2502fb117016c951f813787d4dbd49b8",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento de Residentes en Plaza  Pablo Ruíz Picasso",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/2502fb117016c951f813787d4dbd49b8/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "PZ PABLO PICASSO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/2502fb117016c951f813787d4dbd49b8/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.63756411 40.54175766)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/2502fb117016c951f813787d4dbd49b8/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54175766",
+        "longitude" : "-3.63756411"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/41ce9a665d7b1f72fec491624ebee5f1",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/41ce9a665d7b1f72fec491624ebee5f1",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento de Residentes en calle Salamanca",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/41ce9a665d7b1f72fec491624ebee5f1/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL SALAMANCA 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/41ce9a665d7b1f72fec491624ebee5f1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.62987280 40.54180807)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/41ce9a665d7b1f72fec491624ebee5f1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54180807",
+        "longitude" : "-3.62987280"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/46e1457c9102d30f229fefd58c80a246",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/46e1457c9102d30f229fefd58c80a246",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento Municipal Plazas en Alquiler en Centro de Mayores Pedro González Guerra",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/46e1457c9102d30f229fefd58c80a246/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL ORENSE 7"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/46e1457c9102d30f229fefd58c80a246/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.63645785 40.54196925)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/46e1457c9102d30f229fefd58c80a246/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54196925",
+        "longitude" : "-3.63645785"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/53115cba94f8b96f7c56346d557f1323",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/53115cba94f8b96f7c56346d557f1323",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento Municipal Plazas en Alquiler en Bulevar Salvador Allende",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/53115cba94f8b96f7c56346d557f1323/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "AV BULEVAR SALVADOR ALLENDE"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/53115cba94f8b96f7c56346d557f1323/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.63032614 40.53907876)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/53115cba94f8b96f7c56346d557f1323/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.53907876",
+        "longitude" : "-3.63032614"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/53d8c40b9ef5be08f980041646d94714",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/53d8c40b9ef5be08f980041646d94714",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento de Residentes en Paseo de la Chopera",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/53d8c40b9ef5be08f980041646d94714/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "PS CHOPERA 98"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/53d8c40b9ef5be08f980041646d94714/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.64513442 40.54410892)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/53d8c40b9ef5be08f980041646d94714/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54410892",
+        "longitude" : "-3.64513442"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/564ba6d0c53dedf730669729d065a0d7",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/564ba6d0c53dedf730669729d065a0d7",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento de Residentes en Plaza Rosa Chacel (Manzana 3)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/564ba6d0c53dedf730669729d065a0d7/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "PZ ROSA CHACEL 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/564ba6d0c53dedf730669729d065a0d7/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.63469450 40.53945786)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/564ba6d0c53dedf730669729d065a0d7/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.53945786",
+        "longitude" : "-3.63469450"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/58363248812c1fa9cb90955063133290",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/58363248812c1fa9cb90955063133290",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento de Residentes en Parque Murcia",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/58363248812c1fa9cb90955063133290/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL MARIANO SEBAST IZUEL 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/58363248812c1fa9cb90955063133290/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.62970341 40.54077183)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/58363248812c1fa9cb90955063133290/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54077183",
+        "longitude" : "-3.62970341"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/58770d27ad3c7ad67b8fed8aacb03dcd",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/58770d27ad3c7ad67b8fed8aacb03dcd",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento Consorcio Valdelasfuentes",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/58770d27ad3c7ad67b8fed8aacb03dcd/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "Paseo de la Estación s/n"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/58770d27ad3c7ad67b8fed8aacb03dcd/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.65302259 40.54712898)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/58770d27ad3c7ad67b8fed8aacb03dcd/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54712898",
+        "longitude" : "-3.65302259"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/620d30a4703ad5efca3ee2bcc538bf14",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/620d30a4703ad5efca3ee2bcc538bf14",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento de Residentes en calle Jarama",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/620d30a4703ad5efca3ee2bcc538bf14/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL FUEGO 61"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/620d30a4703ad5efca3ee2bcc538bf14/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.63581880 40.54627000)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/620d30a4703ad5efca3ee2bcc538bf14/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54627000",
+        "longitude" : "-3.63581880"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/63cc60f71e7ca59c11771b95b0a203a0",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/63cc60f71e7ca59c11771b95b0a203a0",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento de Residentes en calle Marqués de la Valdavia I",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/63cc60f71e7ca59c11771b95b0a203a0/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL MARQUES VALDAVIA 74"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/63cc60f71e7ca59c11771b95b0a203a0/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.64162370 40.54418250)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/63cc60f71e7ca59c11771b95b0a203a0/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54418250",
+        "longitude" : "-3.64162370"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/70dc7ac6a5760b2c253f7b29de1073c3",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/70dc7ac6a5760b2c253f7b29de1073c3",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento de Residentes en Plaza  Concordia",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/70dc7ac6a5760b2c253f7b29de1073c3/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "PZ CONCORDIA 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/70dc7ac6a5760b2c253f7b29de1073c3/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.64045014 40.54493345)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/70dc7ac6a5760b2c253f7b29de1073c3/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54493345",
+        "longitude" : "-3.64045014"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/7795cd46f580e99b37f63d9383de6bde",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/7795cd46f580e99b37f63d9383de6bde",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento en C.D. Valdelasfuentes",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/7795cd46f580e99b37f63d9383de6bde/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "AV DON MIGUEL CERVANTES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/7795cd46f580e99b37f63d9383de6bde/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.64936556 40.55248346)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/7795cd46f580e99b37f63d9383de6bde/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.55248346",
+        "longitude" : "-3.64936556"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/7a75a36860cb62bb7ae7fd013e7d6049",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/7a75a36860cb62bb7ae7fd013e7d6049",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento Avenida de Bruselas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/7a75a36860cb62bb7ae7fd013e7d6049/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28108",
+		"street-address" : "AV BRUSELAS DE 4"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/7a75a36860cb62bb7ae7fd013e7d6049/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.62911984 40.53051176)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/7a75a36860cb62bb7ae7fd013e7d6049/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.53051176",
+        "longitude" : "-3.62911984"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/823298df9dce7b55e14057f20a078c9b",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/823298df9dce7b55e14057f20a078c9b",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Depósito Municipal de Vehículos",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/823298df9dce7b55e14057f20a078c9b/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL MANUEL DE FALLA 63"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/823298df9dce7b55e14057f20a078c9b/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.64367096 40.55230987)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/823298df9dce7b55e14057f20a078c9b/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.55230987",
+        "longitude" : "-3.64367096"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/868ad12ded53a4952404a985b46bb9ba",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/868ad12ded53a4952404a985b46bb9ba",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento Municipal Plazas en Alquiler Centro de Arte Alcobendas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/868ad12ded53a4952404a985b46bb9ba/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL MARIANO SEBAST IZUEL 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/868ad12ded53a4952404a985b46bb9ba/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.63149910 40.54109753)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/868ad12ded53a4952404a985b46bb9ba/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54109753",
+        "longitude" : "-3.63149910"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/8c002d9e15a37b0044c7c02439e58a3e",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/8c002d9e15a37b0044c7c02439e58a3e",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento Municipal Plazas en Alquiler Centro Cultural Pablo Iglesias",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/8c002d9e15a37b0044c7c02439e58a3e/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "PS CHOPERA 59"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/8c002d9e15a37b0044c7c02439e58a3e/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.64362527 40.54295948)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/8c002d9e15a37b0044c7c02439e58a3e/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54295948",
+        "longitude" : "-3.64362527"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/9e696785d05b4778592502ca254be32e",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/9e696785d05b4778592502ca254be32e",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento de Residentes en calle San Vicente",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/9e696785d05b4778592502ca254be32e/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL SAN VICENTE"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/9e696785d05b4778592502ca254be32e/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.63078650 40.54364321)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/9e696785d05b4778592502ca254be32e/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54364321",
+        "longitude" : "-3.63078650"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/9f8591d98ed55a38080617529ce35f38",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/9f8591d98ed55a38080617529ce35f38",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento de Residentes en calle Julián Baena de Castro",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/9f8591d98ed55a38080617529ce35f38/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL JULIAN BAENA CASTRO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/9f8591d98ed55a38080617529ce35f38/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.63544969 40.53930430)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/9f8591d98ed55a38080617529ce35f38/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.53930430",
+        "longitude" : "-3.63544969"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/a35b06b986ff4c3567750994146b77e7",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/a35b06b986ff4c3567750994146b77e7",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento de Residentes en calle Marqués de la Valdavia II",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/a35b06b986ff4c3567750994146b77e7/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL MARQUES VALDAVIA 48"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/a35b06b986ff4c3567750994146b77e7/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.63933807 40.54302792)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/a35b06b986ff4c3567750994146b77e7/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54302792",
+        "longitude" : "-3.63933807"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/a8838c14834c59ea49a21227cabc15f4",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/a8838c14834c59ea49a21227cabc15f4",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento Municipal Plazas en Alquiler en Escuela Municipal de Música y Danza",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/a8838c14834c59ea49a21227cabc15f4/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL RUPERTO CHAPI"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/a8838c14834c59ea49a21227cabc15f4/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.64167165 40.54832229)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/a8838c14834c59ea49a21227cabc15f4/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54832229",
+        "longitude" : "-3.64167165"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/ab0c1bada8d3ccdbbec1bbedb17c7a98",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/ab0c1bada8d3ccdbbec1bbedb17c7a98",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Multiparking Alcobendas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/ab0c1bada8d3ccdbbec1bbedb17c7a98/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL GABRIEL GRA. MARQUEZ 22"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/ab0c1bada8d3ccdbbec1bbedb17c7a98/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.65695790 40.54022011)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/ab0c1bada8d3ccdbbec1bbedb17c7a98/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54022011",
+        "longitude" : "-3.65695790"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/b211118f5b2b7ee35459b8934e335b8d",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/b211118f5b2b7ee35459b8934e335b8d",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento de Residentes en Plaza  Félix Rodríguez de la Fuente",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/b211118f5b2b7ee35459b8934e335b8d/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "PZ FELIX RGUEZ FUENTE"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/b211118f5b2b7ee35459b8934e335b8d/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.63702387 40.54456428)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/b211118f5b2b7ee35459b8934e335b8d/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54456428",
+        "longitude" : "-3.63702387"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/b854c4ab04a3d62205c882cce8f050e1",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/b854c4ab04a3d62205c882cce8f050e1",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento en S. Allende / Av. Olímpica",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/b854c4ab04a3d62205c882cce8f050e1/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "AV OLIMPICA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/b854c4ab04a3d62205c882cce8f050e1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.62980584 40.53838296)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/b854c4ab04a3d62205c882cce8f050e1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.53838296",
+        "longitude" : "-3.62980584"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/b8eed3e53a5c8bcac0cb7a02eaf9c385",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/b8eed3e53a5c8bcac0cb7a02eaf9c385",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento Municipal Plazas en Alquiler en Edificio de la Casa Consistorial",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/b8eed3e53a5c8bcac0cb7a02eaf9c385/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL BLAS DE OTERO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/b8eed3e53a5c8bcac0cb7a02eaf9c385/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.64263971 40.54771629)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/b8eed3e53a5c8bcac0cb7a02eaf9c385/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54771629",
+        "longitude" : "-3.64263971"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/bb05a5028990c73238b89e2716da7922",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/bb05a5028990c73238b89e2716da7922",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento de Residentes en Avenida de España / RENFE",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/bb05a5028990c73238b89e2716da7922/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "AV ESPAÑA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/bb05a5028990c73238b89e2716da7922/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.63544783 40.54702905)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/bb05a5028990c73238b89e2716da7922/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54702905",
+        "longitude" : "-3.63544783"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/d4ce092997afd085ce9bb372284d6634",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/d4ce092997afd085ce9bb372284d6634",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento de Residentes en Zona Pintores",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/d4ce092997afd085ce9bb372284d6634/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL PINTOR MURILLO 6"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/d4ce092997afd085ce9bb372284d6634/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.64032052 40.53899043)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/d4ce092997afd085ce9bb372284d6634/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.53899043",
+        "longitude" : "-3.64032052"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/d6a7a0822c4580828ce10aaaa61c0ad7",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/d6a7a0822c4580828ce10aaaa61c0ad7",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento de Residentes en Plaza Artesanía (Manzana 24)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/d6a7a0822c4580828ce10aaaa61c0ad7/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL MARQUES VALDAVIA 20"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/d6a7a0822c4580828ce10aaaa61c0ad7/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.63664134 40.54078560)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/d6a7a0822c4580828ce10aaaa61c0ad7/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54078560",
+        "longitude" : "-3.63664134"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/d6bae6829992d2be5abb99f10c62ffb7",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/d6bae6829992d2be5abb99f10c62ffb7",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento de Residentes en Parque de Andalucía",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/d6bae6829992d2be5abb99f10c62ffb7/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL PINTOR MURILLO 15"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/d6bae6829992d2be5abb99f10c62ffb7/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.64133577 40.53849797)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/d6bae6829992d2be5abb99f10c62ffb7/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.53849797",
+        "longitude" : "-3.64133577"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/de063a4f9bd40ac0d2323be3d99b0f19",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/de063a4f9bd40ac0d2323be3d99b0f19",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento de Residentes en calle Constitución/Valdepalitos",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/de063a4f9bd40ac0d2323be3d99b0f19/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL CONSTITUCION"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/de063a4f9bd40ac0d2323be3d99b0f19/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.64687921 40.54905188)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/de063a4f9bd40ac0d2323be3d99b0f19/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54905188",
+        "longitude" : "-3.64687921"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/e1fc344f1e38b2a37b4df3ecea90b718",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/e1fc344f1e38b2a37b4df3ecea90b718",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento Municipal Plazas en Alquiler en Paseo de la Chopera",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/e1fc344f1e38b2a37b4df3ecea90b718/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "PS CHOPERA 98"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/e1fc344f1e38b2a37b4df3ecea90b718/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.64513442 40.54410892)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/e1fc344f1e38b2a37b4df3ecea90b718/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.54410892",
+        "longitude" : "-3.64513442"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/f0579d184afefd4bb13a8f29e26b7894",
+      "@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/f0579d184afefd4bb13a8f29e26b7894",
+      "@type" : "http://vocab.linkeddata.es/def/urbanismo-infraestructuras/equipamiento#Aparcamiento",
+      "title" : "Aparcamiento Colegios El Soto - La Moraleja",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/f0579d184afefd4bb13a8f29e26b7894/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28108",
+		"street-address" : "CL SALVIA 133"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/f0579d184afefd4bb13a8f29e26b7894/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT(-3.63239256 40.52986897)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/transporte/transportePublico/aparcamiento/f0579d184afefd4bb13a8f29e26b7894/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.52986897",
+        "longitude" : "-3.63239256"
+	  }
+
+    }
+  ]
+}

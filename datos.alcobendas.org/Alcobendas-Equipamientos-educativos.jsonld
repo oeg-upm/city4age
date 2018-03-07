@@ -1,0 +1,3179 @@
+{"@context": {
+		"name": "http://schema.org/name",
+		"schema:address": "http://schema.org/address",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf": "http://www.opengis.net/ont/geosparql#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"title": "vcard:fn",
+		"address": "vcard:hasAddress",
+		"street-address": "vcard:street-address",
+		"postal-code": "http://schema.org/postalCode",
+		"locality": "vcard:locality",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",	
+		"latitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:lat"
+		},
+		"longitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:long"
+		},
+		"geosparql:asWKT": {
+		  "@type": "geosparql:wktLiteral",
+		  "@id": "geosparql:asWKT"
+		}
+	},
+  "@graph" : [	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/0",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/0",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "ADEGRA - Asociación de Estudiantes Giner de los Ríos",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/0/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CR BARAJAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/0/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6191875707816403 40.53577570993832)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/0/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53577570993832,
+        "longitude" : -3.6191875707816403
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/1",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/1",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "AJAL IV - Asociación Juvenil de Alumnos del IES Ágora",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/1/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MARQUES VALDAVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.659960623622807 40.54713395382801)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54713395382801,
+        "longitude" : -3.659960623622807
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/2",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/2",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Antiguos Alumnos Instituto Severo Ochoa",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/2/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL FCO CHICO MENDES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.653897921650759 40.52317772067302)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52317772067302,
+        "longitude" : -3.653897921650759
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/3",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/3",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) de la Escuela Infantil Pública Municipal El Cuquillo",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/3/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "PS CHOPERA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/3/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6502120748251734 40.54520918920867)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/3/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54520918920867,
+        "longitude" : -3.6502120748251734
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/4",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/4",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) de la Escuela Infantil Pública Municipal La Chopera",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/4/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL PINTOR VELAZQUEZ"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/4/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.643126075600405 40.54044975530107)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/4/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54044975530107,
+        "longitude" : -3.643126075600405
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/5",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/5",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) de la Escuela Infantil Pública Municipal Valdelaparra",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/5/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "AV CAMILO-JOSE CELA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/5/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6579847482763155 40.54240707734263)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/5/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54240707734263,
+        "longitude" : -3.6579847482763155
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/6",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/6",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Centro Concertado Juan XXIII",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/6/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "TR JUAN M. SANCHEZ. PEDAGOGO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/6/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6366425203934982 40.54178447153543)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/6/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54178447153543,
+        "longitude" : -3.6366425203934982
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/7",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/7",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Centro Concertado Padre Manyanet",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/7/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CR GOLOSO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/7/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6764919441472794 40.5524417743451)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/7/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.5524417743451,
+        "longitude" : -3.6764919441472794
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/8",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/8",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Colegio Greenwich School de Alcobendas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/8/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL FELICIDAD DE LA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/8/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6612499698723435 40.55035290366344)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/8/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55035290366344,
+        "longitude" : -3.6612499698723435
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/9",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/9",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Colegio Público Antonio Machado",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/9/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MIRAFLORES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/9/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.638929321464997 40.546545573668865)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/9/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.546545573668865,
+        "longitude" : -3.638929321464997
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/10",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/10",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Colegio Público Castilla",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/10/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PZ CASTILLA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/10/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.63266632732884 40.54365545517704)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/10/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54365545517704,
+        "longitude" : -3.63266632732884
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/11",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/11",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Colegio Público Daoiz y Velarde",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/11/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV VALDELAPARRA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/11/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6613770534099688 40.544017086991445)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/11/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.544017086991445,
+        "longitude" : -3.6613770534099688
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/12",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/12",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Colegio Público Emilio Casado",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/12/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL DR CASIMIRO MORCILLO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/12/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6481349640674017 40.54414437312843)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/12/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54414437312843,
+        "longitude" : -3.6481349640674017
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/13",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/13",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Colegio Público Federico García Lorca",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/13/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MARQUES VALDAVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/13/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.648932215076925 40.546083163320375)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/13/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.546083163320375,
+        "longitude" : -3.648932215076925
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/14",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/14",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Colegio Público Gabriel y Galán",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/14/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV OLIMPICA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/14/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.632983230306672 40.53676964336405)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/14/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53676964336405,
+        "longitude" : -3.632983230306672
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/15",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/15",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Colegio Público Luis Buñuel",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/15/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL JAEN"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/15/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6407562368894784 40.55135332084957)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/15/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55135332084957,
+        "longitude" : -3.6407562368894784
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/16",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/16",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Colegio Público Miguel Hernández",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/16/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL SEGOVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/16/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6349704450010423 40.54439580328818)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/16/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54439580328818,
+        "longitude" : -3.6349704450010423
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/17",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/17",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Colegio Público Miraflores",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/17/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MIRAFLORES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/17/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.638300367958413 40.545328601543694)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/17/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.545328601543694,
+        "longitude" : -3.638300367958413
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/18",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/18",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Colegio Público Parque de Cataluña",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/18/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL ISLA DE CORCEGA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/18/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.638708779379811 40.54208921576985)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/18/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54208921576985,
+        "longitude" : -3.638708779379811
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/19",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/19",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Colegio Público Profesor Tierno Galván",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/19/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL TRIANA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/19/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6297148189124466 40.540013824642685)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/19/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.540013824642685,
+        "longitude" : -3.6297148189124466
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/20",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/20",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Colegio Público Seis de Diciembre",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/20/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL PINTOR SOROLLA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/20/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.642861592251749 40.541354627560246)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/20/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.541354627560246,
+        "longitude" : -3.642861592251749
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/21",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/21",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Colegio Público Valdepalitos",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/21/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL CONSTITUCION"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/21/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.64634596981891 40.54827870516239)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/21/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54827870516239,
+        "longitude" : -3.64634596981891
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/22",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/22",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Instituto de Educación Secundaria Ágora",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/22/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MANUEL DE FALLA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/22/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6421901426852226 40.55256220303922)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/22/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55256220303922,
+        "longitude" : -3.6421901426852226
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/23",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/23",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Instituto de Educación Secundaria Aldebarán",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/23/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV VALDELAPARRA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/23/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.661175985651642 40.54317608059299)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/23/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54317608059299,
+        "longitude" : -3.661175985651642
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/24",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/24",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Instituto de Educación Secundaria Francisco Giner de los Ríos",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/24/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CR BARAJAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/24/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6191875998081553 40.535778862891945)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/24/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.535778862891945,
+        "longitude" : -3.6191875998081553
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/25",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/25",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Instituto de Educación Secundaria Severo Ochoa",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/25/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL FCO CHICO MENDES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/25/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.653897921650759 40.52317772067302)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/25/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52317772067302,
+        "longitude" : -3.653897921650759
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/26",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/26",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Asociación de Madres y Padres de Alumnos (AMPA) del Instituto de Educación Secundaria Virgen de la Paz",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/26/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL FCO CHICO MENDES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/26/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6537456205978973 40.525237600678885)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/26/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.525237600678885,
+        "longitude" : -3.6537456205978973
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/27",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/27",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Centro de Formación e Inserción Laboral",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/27/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL RAMON Y CAJAL"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/27/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.654169882698464 40.543538406514784)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/27/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.543538406514784,
+        "longitude" : -3.654169882698464
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/28",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/28",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Centro Integrado de Formación Profesional de Nuevas Tecnologías José Luis Garci",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/28/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL JOSE HIERRO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/28/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6558360575099687 40.54823648517601)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/28/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54823648517601,
+        "longitude" : -3.6558360575099687
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/29",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/29",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Centro Psicopedagógico",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/29/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL FUEGO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/29/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6361336533800115 40.546715024793805)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/29/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.546715024793805,
+        "longitude" : -3.6361336533800115
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/30",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/30",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Centro Público de Educación Infantil y Primaria (CEIP) Antonio Machado",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/30/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MIRAFLORES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/30/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.638929321464997 40.546545573668865)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/30/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.546545573668865,
+        "longitude" : -3.638929321464997
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/31",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/31",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Centro Público de Educación Infantil y Primaria (CEIP) Bachiller Alonso López",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/31/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL FCO LARGO CABALLERO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/31/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6562489292243696 40.55316699067997)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/31/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55316699067997,
+        "longitude" : -3.6562489292243696
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/32",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/32",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Centro Público de Educación Infantil y Primaria (CEIP) Castilla",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/32/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PZ CASTILLA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/32/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.63266632732884 40.54365545517704)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/32/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54365545517704,
+        "longitude" : -3.63266632732884
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/33",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/33",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Centro Público de Educación Infantil y Primaria (CEIP) Daoiz y Velarde",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/33/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV VALDELAPARRA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/33/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6613770534099688 40.544017086991445)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/33/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.544017086991445,
+        "longitude" : -3.6613770534099688
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/34",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/34",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Centro Público de Educación Infantil y Primaria (CEIP) Emilio Casado",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/34/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL DR CASIMIRO MORCILLO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/34/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6481349640674017 40.54414437312843)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/34/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54414437312843,
+        "longitude" : -3.6481349640674017
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/35",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/35",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Centro Público de Educación Infantil y Primaria (CEIP) Federico García Lorca",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/35/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MARQUES VALDAVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/35/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.648932215076925 40.546083163320375)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/35/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.546083163320375,
+        "longitude" : -3.648932215076925
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/36",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/36",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Centro Público de Educación Infantil y Primaria (CEIP) Gabriel y Galán",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/36/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV OLIMPICA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/36/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.632983230306672 40.53676964336405)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/36/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53676964336405,
+        "longitude" : -3.632983230306672
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/37",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/37",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Centro Público de Educación Infantil y Primaria (CEIP) Luis Buñuel",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/37/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL JAEN"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/37/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6407562368894784 40.55135332084957)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/37/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55135332084957,
+        "longitude" : -3.6407562368894784
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/38",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/38",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Centro Público de Educación Infantil y Primaria (CEIP) Miguel Hernández",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/38/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL SEGOVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/38/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6349704450010423 40.54439580328818)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/38/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54439580328818,
+        "longitude" : -3.6349704450010423
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/39",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/39",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Centro Público de Educación Infantil y Primaria (CEIP) Miraflores",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/39/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MIRAFLORES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/39/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.638300367958413 40.545328601543694)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/39/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.545328601543694,
+        "longitude" : -3.638300367958413
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/40",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/40",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Centro Público de Educación Infantil y Primaria (CEIP) Parque de Cataluña",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/40/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL ISLA DE CORCEGA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/40/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.638708779379811 40.54208921576985)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/40/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54208921576985,
+        "longitude" : -3.638708779379811
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/41",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/41",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Centro Público de Educación Infantil y Primaria (CEIP) Profesor Tierno Galván",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/41/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL TRIANA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/41/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6297148189124466 40.540013824642685)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/41/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.540013824642685,
+        "longitude" : -3.6297148189124466
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/42",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/42",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Centro Público de Educación Infantil y Primaria (CEIP) Seis de Diciembre",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/42/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL PINTOR SOROLLA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/42/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.642861592251749 40.541354627560246)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/42/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.541354627560246,
+        "longitude" : -3.642861592251749
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/43",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/43",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Centro Público de Educación Infantil y Primaria (CEIP) Valdepalitos",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/43/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL CONSTITUCION"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/43/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.64634596981891 40.54827870516239)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/43/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54827870516239,
+        "longitude" : -3.64634596981891
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/44",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/44",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio Aldeafuente",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/44/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL CAMINO ANCHO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/44/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6285226164708915 40.52971084868066)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/44/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52971084868066,
+        "longitude" : -3.6285226164708915
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/45",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/45",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio Aldovea",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/45/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "PS ALCOBENDAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/45/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.629855538992914 40.52597917007176)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/45/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52597917007176,
+        "longitude" : -3.629855538992914
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/46",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/46",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio Areteia",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/46/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL SALVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/46/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6321728191286002 40.52585753474572)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/46/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52585753474572,
+        "longitude" : -3.6321728191286002
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/47",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/47",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio Base",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/47/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL CAMINO ANCHO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/47/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6115414693276784 40.50917711521382)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/47/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.50917711521382,
+        "longitude" : -3.6115414693276784
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/48",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/48",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio Base Infantil La Moraleja",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/48/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28109,
+		"street-address" : "CL SALVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/48/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6320475369931593 40.52785868097299)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/48/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52785868097299,
+        "longitude" : -3.6320475369931593
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/49",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/49",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio Brains",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/49/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL SALVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/49/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.631822110230952 40.530393601151076)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/49/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.530393601151076,
+        "longitude" : -3.631822110230952
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/50",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/50",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio Escandinavo",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/50/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL CAMINO ANCHO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/50/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.613733509480543 40.510376500854754)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/50/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.510376500854754,
+        "longitude" : -3.613733509480543
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/51",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/51",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio Gabirol (Est. Toledano)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/51/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "PS ALCOBENDAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/51/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6288946733213674 40.52675946603739)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/51/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52675946603739,
+        "longitude" : -3.6288946733213674
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/52",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/52",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio Greenwich School",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/52/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL FELICIDAD DE LA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/52/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6612499698723435 40.55035290366344)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/52/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55035290366344,
+        "longitude" : -3.6612499698723435
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/53",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/53",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio International College",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/53/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL VEREDA CORTA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/53/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.641921331907869 40.51384420150828)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/53/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.51384420150828,
+        "longitude" : -3.641921331907869
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/54",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/54",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio Juan XXIII",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/54/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "TR JUAN M. SANCHEZ. PEDAGOGO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/54/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6366425203934982 40.54178447153543)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/54/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54178447153543,
+        "longitude" : -3.6366425203934982
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/55",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/55",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio las Irlandesas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/55/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL BEGONIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/55/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.641181155117335 40.52469959740904)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/55/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52469959740904,
+        "longitude" : -3.641181155117335
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/56",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/56",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio Liceo Europeo",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/56/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL CAMINO SUR"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/56/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.642121789619758 40.51174713723778)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/56/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.51174713723778,
+        "longitude" : -3.642121789619758
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/57",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/57",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio los Sauces",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/57/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL CAMINO ANCHO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/57/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6280821532047534 40.52836399112087)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/57/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52836399112087,
+        "longitude" : -3.6280821532047534
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/58",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/58",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio María Teresa",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/58/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MARIA TERESA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/58/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.652166860115193 40.547354297638456)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/58/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.547354297638456,
+        "longitude" : -3.652166860115193
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/59",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/59",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio Padre Manyanet",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/59/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CR GOLOSO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/59/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6764919441472794 40.5524417743451)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/59/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.5524417743451,
+        "longitude" : -3.6764919441472794
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/60",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/60",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio Runnymede College",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/60/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL SALVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/60/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6320786943134 40.52811882246883)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/60/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52811882246883,
+        "longitude" : -3.6320786943134
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/61",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/61",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio Saint Exupery",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/61/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL CAMINO ANCHO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/61/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6286610170315767 40.528931493364865)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/61/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.528931493364865,
+        "longitude" : -3.6286610170315767
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/62",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/62",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio San Antonio",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/62/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL BARCELONA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/62/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6288198324412653 40.54254791287588)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/62/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54254791287588,
+        "longitude" : -3.6288198324412653
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/63",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/63",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio San Patricio",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/63/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL JAZMIN"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/63/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6415903922357984 40.52124625161681)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/63/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52124625161681,
+        "longitude" : -3.6415903922357984
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/64",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/64",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio San Patricio Moraleja",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/64/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "PS ALCOBENDAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/64/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6284752016398154 40.52698106987467)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/64/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52698106987467,
+        "longitude" : -3.6284752016398154
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/65",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/65",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio Santa Helena",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/65/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL CAMINO ANCHO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/65/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.612518469974574 40.50937235335852)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/65/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.50937235335852,
+        "longitude" : -3.612518469974574
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/66",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/66",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Colegio Suizo de Madrid",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/66/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CR MADRID-IRUN"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/66/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.653793870351531 40.520766177778114)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/66/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.520766177778114,
+        "longitude" : -3.653793870351531
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/67",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/67",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Dirección de área territorial Madrid-Norte Consejería de Educación Comunidad de Madrid",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/67/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28702,
+		"street-address" : "Av de Valencia"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/67/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6209970314099604 40.54951200651428)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/67/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54951200651428,
+        "longitude" : -3.6209970314099604
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/68",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/68",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Eduqa Nursery School La Moraleja",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/68/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28109,
+		"street-address" : "CL CALENDULA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/68/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6444417333685415 40.527916326081005)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/68/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.527916326081005,
+        "longitude" : -3.6444417333685415
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/69",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/69",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil Bambú",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/69/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL ZARAGOZA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/69/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6415441669552773 40.54258240856698)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/69/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54258240856698,
+        "longitude" : -3.6415441669552773
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/70",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/70",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil Brains La Moraleja/Brains Nursery Schools Madrid La Moraleja",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/70/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28109,
+		"street-address" : "CL SALVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/70/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6321625951057155 40.52891458728517)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/70/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52891458728517,
+        "longitude" : -3.6321625951057155
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/71",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/71",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil Chiquitín Alcobendas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/71/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28109,
+		"street-address" : "CL ANABEL SEGURA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/71/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.626414503053526 40.53500628798631)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/71/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53500628798631,
+        "longitude" : -3.626414503053526
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/72",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/72",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil concertada San Pedro Apóstol",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/72/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PZ FELIPE ALVAREZ GADEA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/72/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.63246029846874 40.541111199155374)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/72/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.541111199155374,
+        "longitude" : -3.63246029846874
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/73",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/73",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil El Alboroto",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/73/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28108,
+		"street-address" : "AV EUROPA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/73/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.65795830624292 40.51357386011527)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/73/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.51357386011527,
+        "longitude" : -3.65795830624292
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/74",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/74",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil El Quinto Pino",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/74/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PS CHOPERA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/74/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6424338567412935 40.54183572893686)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/74/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54183572893686,
+        "longitude" : -3.6424338567412935
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/75",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/75",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil Enan@s",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/75/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV BRUSELAS DE"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/75/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.632702822010344 40.53081932568451)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/75/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53081932568451,
+        "longitude" : -3.632702822010344
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/76",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/76",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil Garabato",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/76/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL CEUTA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/76/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.637089303453923 40.53965995125875)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/76/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53965995125875,
+        "longitude" : -3.637089303453923
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/77",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/77",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil Kiddy Lane School",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/77/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV PABLO IGLESIAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/77/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6564211357822125 40.54968418235036)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/77/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54968418235036,
+        "longitude" : -3.6564211357822125
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/78",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/78",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil La Casita",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/78/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL BACHILL ALONSO LOPEZ"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/78/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.632892850893264 40.54457753330096)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/78/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54457753330096,
+        "longitude" : -3.632892850893264
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/79",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/79",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil La Comba",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/79/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MARQUES VALDAVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/79/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.657407872876819 40.547096274123355)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/79/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.547096274123355,
+        "longitude" : -3.657407872876819
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/80",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/80",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil La Escuelita del Encinar",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/80/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28109,
+		"street-address" : "CL CAMINO DEL CURA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/80/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6462720321548012 40.508864255879985)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/80/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.508864255879985,
+        "longitude" : -3.6462720321548012
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/81",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/81",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil Manoplas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/81/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PS FUENTELUCHA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/81/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6599417632480287 40.5567446276176)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/81/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.5567446276176,
+        "longitude" : -3.6599417632480287
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/82",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/82",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil Masbebés Soto de la Moraleja",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/82/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28109,
+		"street-address" : "CL CALENDULA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/82/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6444417333685415 40.527916326081005)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/82/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.527916326081005,
+        "longitude" : -3.6444417333685415
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/83",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/83",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil Mis Sueños Mágicos",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/83/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL FANTASIA DE LA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/83/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6580738404873165 40.55240482206268)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/83/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55240482206268,
+        "longitude" : -3.6580738404873165
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/84",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/84",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil Parapeques",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/84/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL FCO LARGO CABALLERO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/84/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6507002410925478 40.55368775403733)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/84/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55368775403733,
+        "longitude" : -3.6507002410925478
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/85",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/85",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil Pequeñorris",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/85/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MANUEL SERRANO FRUTO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/85/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6422147470713155 40.544892583011105)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/85/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.544892583011105,
+        "longitude" : -3.6422147470713155
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/86",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/86",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil Pública Cascabeles",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/86/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL FEDERICO MORENO TORR"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/86/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.652022062105273 40.55120726460858)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/86/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55120726460858,
+        "longitude" : -3.652022062105273
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/87",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/87",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil Pública Municipal El Cuquillo",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/87/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "PS CHOPERA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/87/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6502120748251734 40.54520918920867)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/87/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54520918920867,
+        "longitude" : -3.6502120748251734
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/88",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/88",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil Pública Municipal Fuentelucha",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/88/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "AV ILUSIÓN DE LA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/88/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6618738792647423 40.55462090229131)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/88/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55462090229131,
+        "longitude" : -3.6618738792647423
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/89",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/89",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil Pública Municipal La Chopera",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/89/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL PINTOR VELAZQUEZ"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/89/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.643126075600405 40.54044975530107)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/89/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54044975530107,
+        "longitude" : -3.643126075600405
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/90",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/90",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil Pública Municipal Valdelaparra",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/90/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "AV CAMILO-JOSE CELA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/90/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6579847482763155 40.54240707734263)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/90/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54240707734263,
+        "longitude" : -3.6579847482763155
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/91",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/91",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil Pública Pío pío",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/91/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV OLIMPICA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/91/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6312352269136263 40.53710481426263)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/91/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53710481426263,
+        "longitude" : -3.6312352269136263
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/92",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/92",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil Santa Isabel",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/92/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL FUEGO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/92/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.635344327593822 40.54330840470513)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/92/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54330840470513,
+        "longitude" : -3.635344327593822
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/93",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/93",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Infantil Tito Gusanito",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/93/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL CADIZ"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/93/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6406675347268838 40.54230084495545)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/93/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54230084495545,
+        "longitude" : -3.6406675347268838
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/94",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/94",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Municipal de Música y Danza",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/94/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL RUPERTO CHAPI"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/94/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6418312591430295 40.54832909880799)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/94/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54832909880799,
+        "longitude" : -3.6418312591430295
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/95",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/95",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Escuela Oficial de Idiomas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/95/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28701,
+		"street-address" : "Pasaje de la Viña"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/95/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6325237673719637 40.50500157935567)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/95/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.50500157935567,
+        "longitude" : -3.6325237673719637
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/96",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/96",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Federación de Padres y Madres de Alumn@s de Alcobendas (FAPA)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/96/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PZ PUEBLO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/96/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6340768590986174 40.540973538985256)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/96/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.540973538985256,
+        "longitude" : -3.6340768590986174
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/97",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/97",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Getting Better",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/97/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28701,
+		"street-address" : "Calle Avila"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/97/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT ( )"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/97/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "",
+        "longitude" : ""
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/98",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/98",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Guardería Arco iris",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/98/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL LUIS RDGUEZ ONTIVERO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/98/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.643557587717678 40.5490630235882)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/98/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.5490630235882,
+        "longitude" : -3.643557587717678
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/99",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/99",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Guardería Campanilla",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/99/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL CRUZ"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/99/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.63129082553862 40.54033083206679)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/99/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54033083206679,
+        "longitude" : -3.63129082553862
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/100",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/100",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Guardería Daniel El Travieso",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/100/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL TERUEL"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/100/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6294342189541724 40.54327320480372)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/100/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54327320480372,
+        "longitude" : -3.6294342189541724
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/101",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/101",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Guardería Liceo Infantil",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/101/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MANUEL SERRANO FRUTO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/101/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6422147470713155 40.544892583011105)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/101/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.544892583011105,
+        "longitude" : -3.6422147470713155
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/102",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/102",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Guardería Los Pitufos",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/102/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL OLIVAR"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/102/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6486611394474457 40.54811531813724)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/102/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54811531813724,
+        "longitude" : -3.6486611394474457
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/103",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/103",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Guardería Sonia",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/103/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL FAYON"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/103/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.637787615952842 40.54674580657224)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/103/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54674580657224,
+        "longitude" : -3.637787615952842
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/104",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/104",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Instituto de Educación Secundaria Ágora",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/104/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MANUEL DE FALLA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/104/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6421901426852226 40.55256220303922)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/104/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55256220303922,
+        "longitude" : -3.6421901426852226
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/105",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/105",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Instituto de Educación Secundaria Aldebarán",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/105/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV VALDELAPARRA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/105/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.661175985651642 40.54317608059299)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/105/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54317608059299,
+        "longitude" : -3.661175985651642
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/106",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/106",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Instituto de Educación Secundaria Francisco Giner de los Ríos",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/106/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV BARAJAS DE"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/106/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6202058555329693 40.53445567214989)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/106/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53445567214989,
+        "longitude" : -3.6202058555329693
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/107",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/107",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Instituto de Educación Secundaria Severo Ochoa",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/107/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL FCO CHICO MENDES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/107/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.653897921650759 40.52317772067302)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/107/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52317772067302,
+        "longitude" : -3.653897921650759
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/108",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/108",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Instituto de Educación Secundaria Virgen de la Paz",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/108/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL FCO CHICO MENDES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/108/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6537456205978973 40.525237600678885)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/108/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.525237600678885,
+        "longitude" : -3.6537456205978973
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/109",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/109",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Instituto Superior de Formación Profesional Claudio Galeno",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/109/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV DOCTOR SEVERO OCHOA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/109/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6546394908705424 40.54041301312393)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/109/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54041301312393,
+        "longitude" : -3.6546394908705424
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/110",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/110",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "King's College",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/110/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "PS ALCOBENDAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/110/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.629855538992914 40.52597917007176)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/110/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52597917007176,
+        "longitude" : -3.629855538992914
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/111",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/111",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Servicio de Apoyo a la Escolarización",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/111/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL FUEGO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/111/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6361336533800115 40.546715024793805)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/111/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.546715024793805,
+        "longitude" : -3.6361336533800115
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/112",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/112",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Universidad Alcalá de Henares",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/112/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28801,
+		"street-address" : "PLAZA SAN DIEGO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/112/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.3638316625552784 40.482505121291425)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/112/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.482505121291425,
+        "longitude" : -3.3638316625552784
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/113",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/113",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Universidad Alfonso X El Sabio",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/113/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28691,
+		"street-address" : "AV DE LA UNIVERSIDAD"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/113/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.9876488876879557 40.450430432942866)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/113/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.450430432942866,
+        "longitude" : -3.9876488876879557
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/114",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/114",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Universidad Antonio de Nebrija",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/114/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28240,
+		"street-address" : "CAMPUS DE LA BERZOSA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/114/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.9495209502792 40.60037777052041)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/114/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.60037777052041,
+        "longitude" : -3.9495209502792
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/115",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/115",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Universidad Autónoma de Madrid",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/115/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28049,
+		"street-address" : "CARRETRA DE COLMENAR VIEJO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/115/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.693896397764725 40.545203639120444)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/115/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.545203639120444,
+        "longitude" : -3.693896397764725
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/116",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/116",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Universidad Camilo José Cela",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/116/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28692,
+		"street-address" : "CASTILLO DE ALARCÓN"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/116/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.9415550713193066 40.47121986036437)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/116/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.47121986036437,
+        "longitude" : -3.9415550713193066
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/117",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/117",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Universidad Carlos III",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/117/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28903,
+		"street-address" : "CL MADRID"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/117/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.7679981482659684 40.33181350907315)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/117/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.33181350907315,
+        "longitude" : -3.7679981482659684
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/118",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/118",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Universidad Complutense de Madrid",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/118/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28040,
+		"street-address" : "AV COMPLUTENSE"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/118/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.724082869612652 40.44640051316606)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/118/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44640051316606,
+        "longitude" : -3.724082869612652
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/119",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/119",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Universidad Europea de Madrid",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/119/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28108,
+		"street-address" : "AV FERNANDO ALONSO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/119/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6168291173716804 40.53523304408513)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/119/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53523304408513,
+        "longitude" : -3.6168291173716804
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/120",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/120",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Universidad Francisco de Vitoria",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/120/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28223,
+		"street-address" : "Ctra. Pozuelo-Majadahonda"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/120/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.8349770003391144 40.440008040298636)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/120/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.440008040298636,
+        "longitude" : -3.8349770003391144
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/121",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/121",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Universidad Nacional de Educación a Distancia (UNED)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/121/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28015,
+		"street-address" : "CL BRAVO MURILLO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/121/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.7040365578343697 40.4380782213392)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/121/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.4380782213392,
+        "longitude" : -3.7040365578343697
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/122",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/122",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Universidad Politécnica de Madrid",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/122/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28040,
+		"street-address" : "CL RAMIRO DE MAEZTU"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/122/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.7192869628789387 40.44889576462365)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/122/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44889576462365,
+        "longitude" : -3.7192869628789387
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/123",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/123",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Universidad Pontificia de Comillas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/123/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28049,
+		"street-address" : "Alberto Aguilera"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/123/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.711278800531719 40.42998271296588)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/123/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.42998271296588,
+        "longitude" : -3.711278800531719
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/124",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/124",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Universidad Popular de Alcobendas (UPA)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/124/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "AV MAGIA DE LA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/124/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6574552329241334 40.551590052358314)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/124/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.551590052358314,
+        "longitude" : -3.6574552329241334
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/125",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/125",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/educacion/equipamiento#equipamientoeducativo",
+      "title" : "Universidad Rey Juan Carlos",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/125/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28933,
+		"street-address" : "CL TULIPÁN"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/125/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.8210094707227755 40.28296167186498)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientoeducativo/125/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.28296167186498,
+        "longitude" : -3.8210094707227755
+	  }
+
+    }
+  ]
+}

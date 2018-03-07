@@ -1,0 +1,779 @@
+{"@context": {
+		"name": "http://schema.org/name",
+		"schema:address": "http://schema.org/address",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf": "http://www.opengis.net/ont/geosparql#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"title": "vcard:fn",
+		"address": "vcard:hasAddress",
+		"street-address": "vcard:street-address",
+		"postal-code": "http://schema.org/postalCode",
+		"locality": "vcard:locality",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",	
+		"latitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:lat"
+		},
+		"longitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:long"
+		},
+		"geosparql:asWKT": {
+		  "@type": "geosparql:wktLiteral",
+		  "@id": "geosparql:asWKT"
+		}
+	},
+  "@graph" : [	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/0",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/0",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Campo de fútbol de Fuentelucha",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/0/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL FELICIDAD DE LA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/0/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6591466427519426 40.54994271406935)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/0/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54994271406935,
+        "longitude" : -3.6591466427519426
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/1",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/1",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Campo de fútbol Mario Suárez",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/1/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL FCO LARGO CABALLERO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.646094687618256 40.55462041442307)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55462041442307,
+        "longitude" : -3.646094687618256
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/2",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/2",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Campo de fútbol Navarra 1",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/2/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "AV ESPAÑA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6444256506244987 40.54443090139885)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54443090139885,
+        "longitude" : -3.6444256506244987
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/3",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/3",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Campo de fútbol Óscar Molina",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/3/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL MANUEL DE FALLA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/3/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.641694 40.552192)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/3/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.552192,
+        "longitude" : -3.641694
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/4",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/4",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Campo de Rugby Las Terrazas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/4/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL NARDO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/4/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6378378564310307 40.529569479167634)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/4/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.529569479167634,
+        "longitude" : -3.6378378564310307
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/5",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/5",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Circuito de cross en Valdelasfuentes",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/5/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV DON MIGUEL CERVANTES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/5/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.648675671586264 40.552272389784456)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/5/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.552272389784456,
+        "longitude" : -3.648675671586264
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/6",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/6",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Ciudad Deportiva Valdelasfuentes",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/6/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "AV MIGUEL CERVANTES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/6/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6482436189666894 40.55087447901411)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/6/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55087447901411,
+        "longitude" : -3.6482436189666894
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/7",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/7",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Club de Atletismo Popular CAP",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/7/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL CACERES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/7/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.632048327873206 40.53861489651502)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/7/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53861489651502,
+        "longitude" : -3.632048327873206
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/8",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/8",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Departamento de Usuarios Ciudad Deportiva Valdelasfuentes",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/8/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV DON MIGUEL CERVANTES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/8/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.650033731243563 40.55168789305058)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/8/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55168789305058,
+        "longitude" : -3.650033731243563
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/9",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/9",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Departamento de usuarios Polideportivo José Caballero",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/9/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28108,
+		"street-address" : "AVDA. BARAJAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/9/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6211875361867736 40.53684486960524)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/9/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53684486960524,
+        "longitude" : -3.6211875361867736
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/10",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/10",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Espacio 2014 (Museo del baloncesto de la FEB)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/10/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV OLIMPICA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/10/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6349160988526634 40.53606234562023)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/10/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53606234562023,
+        "longitude" : -3.6349160988526634
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/11",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/11",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Fundación Deporte de Alcobendas (Fundal)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/11/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CR BARAJAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/11/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6212426077965354 40.53683709613995)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/11/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53683709613995,
+        "longitude" : -3.6212426077965354
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/12",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/12",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Pabellón Deportivo Bachiller Alonso López",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/12/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL FCO LARGO CABALLERO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/12/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6546294785912314 40.55342734487408)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/12/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55342734487408,
+        "longitude" : -3.6546294785912314
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/13",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/13",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Pabellón Deportivo Miraflores",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/13/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL MIRAFLORES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/13/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6387425619653433 40.5469706173792)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/13/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.5469706173792,
+        "longitude" : -3.6387425619653433
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/14",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/14",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Pabellón Deportivo Municipal Amaya Valdemoro",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/14/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28108,
+		"street-address" : "AVDA. BARAJAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/14/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6191324627868724 40.53690824159674)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/14/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53690824159674,
+        "longitude" : -3.6191324627868724
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/15",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/15",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Pabellón Deportivo Municipal Antela Parada",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/15/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL FCO CHICO MENDES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/15/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6536335591316487 40.52287027441111)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/15/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52287027441111,
+        "longitude" : -3.6536335591316487
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/16",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/16",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Pabellón Deportivo Municipal de los Sueños",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/16/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "AV DOCTOR SEVERO OCHOA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/16/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6501717822729893 40.54542670966469)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/16/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54542670966469,
+        "longitude" : -3.6501717822729893
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/17",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/17",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Pabellón Deportivo Pedro Ferrándiz",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/17/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "AV OLIMPICA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/17/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6346625205116374 40.53627335736466)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/17/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53627335736466,
+        "longitude" : -3.6346625205116374
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/18",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/18",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Pabellón Distrito Centro",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/18/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "AV OLIMPICA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/18/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6349160988526634 40.53606234562023)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/18/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53606234562023,
+        "longitude" : -3.6349160988526634
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/19",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/19",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Pabellón Luis Buñuel",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/19/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL JAEN"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/19/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.640915599976518 40.55160760365376)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/19/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55160760365376,
+        "longitude" : -3.640915599976518
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/20",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/20",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Patronato Municipal de Deportes (PMD)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/20/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CR BARAJAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/20/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6211532715642223 40.536880909163564)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/20/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.536880909163564,
+        "longitude" : -3.6211532715642223
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/21",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/21",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Pista Camilo José Cela 1 y 2",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/21/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "AV CAMILO-JOSE CELA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/21/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6561752404046777 40.54619879218149)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/21/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54619879218149,
+        "longitude" : -3.6561752404046777
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/22",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/22",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Pista Galicia",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/22/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "PZ GALICIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/22/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6562229918771885 40.54297226819101)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/22/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54297226819101,
+        "longitude" : -3.6562229918771885
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/23",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/23",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Pista Juan Ramón Jiménez",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/23/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL JUAN RAMON JIMENEZ"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/23/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6584223978446406 40.54580277102712)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/23/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54580277102712,
+        "longitude" : -3.6584223978446406
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/24",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/24",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Pista Las Cepas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/24/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL JAEN"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/24/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.643125336120089 40.55054318007843)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/24/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55054318007843,
+        "longitude" : -3.643125336120089
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/25",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/25",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Pista Olivar",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/25/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL OLIVAR"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/25/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.648339781375087 40.54688490845358)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/25/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54688490845358,
+        "longitude" : -3.648339781375087
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/26",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/26",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Pista Rioja",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/26/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL BLAS DE OTERO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/26/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6420506332028344 40.54944728442682)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/26/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54944728442682,
+        "longitude" : -3.6420506332028344
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/27",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/27",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Polideportivo Municipal de Alcobendas José Caballero",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/27/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28108,
+		"street-address" : "AVDA. BARAJAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/27/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6314827073471703 40.54427711895707)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/27/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54427711895707,
+        "longitude" : -3.6314827073471703
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/28",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/28",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Servicio de medicina deportiva de la Ciudad Deportiva Valdelasfuentes",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/28/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV DON MIGUEL CERVANTES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/28/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.650033731243563 40.55168789305058)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/28/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55168789305058,
+        "longitude" : -3.650033731243563
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/29",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/29",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/deporte/equipamiento#equipamientodeporte",
+      "title" : "Servicio de medicina deportiva del Polideportivo José Caballero",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/29/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28108,
+		"street-address" : "AVDA. BARAJAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/29/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6211447442876596 40.53685257703025)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientodeporte/29/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53685257703025,
+        "longitude" : -3.6211447442876596
+	  }
+
+    }
+  ]
+}

@@ -1,0 +1,1879 @@
+{"@context": {
+		"name": "http://schema.org/name",
+		"schema:address": "http://schema.org/address",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf": "http://www.opengis.net/ont/geosparql#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"title": "vcard:fn",
+		"address": "vcard:hasAddress",
+		"street-address": "vcard:street-address",
+		"postal-code": "http://schema.org/postalCode",
+		"locality": "vcard:locality",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",	
+		"latitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:lat"
+		},
+		"longitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:long"
+		},
+		"geosparql:asWKT": {
+		  "@type": "geosparql:wktLiteral",
+		  "@id": "geosparql:asWKT"
+		}
+	},
+  "@graph" : [	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/0",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/0",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Asesoría Joven de Sexualidad",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/0/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL RUPERTO CHAPI"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/0/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6442005346189377 40.54806866435605)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/0/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54806866435605,
+        "longitude" : -3.6442005346189377
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/1",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/1",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Centro de Atención e Información de la Seguridad Social",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/1/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MARQUES VALDAVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6452589517410896 40.54556781748349)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54556781748349,
+        "longitude" : -3.6452589517410896
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/2",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/2",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Centro de Atención Integral a las Drogodependencias (CAID)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/2/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL LIBERTAD"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6346192558398167 40.54046030757805)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54046030757805,
+        "longitude" : -3.6346192558398167
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/3",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/3",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Centro de Especialidades Blas de Otero",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/3/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL BLAS DE OTERO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/3/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6430431216101864 40.547761216435696)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/3/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.547761216435696,
+        "longitude" : -3.6430431216101864
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/4",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/4",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Centro de Rehabilitación Psicosocial Alcobendas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/4/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28009,
+		"street-address" : "CL RAMON Y CAJAL"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/4/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6569239519268404 40.54351468125664)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/4/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54351468125664,
+        "longitude" : -3.6569239519268404
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/5",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/5",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Centro de Salud Arroyo de la Vega",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/5/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "DD BULEVAR SALVADOR ALLENDE"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/5/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6313534083778722 40.53818095459011)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/5/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53818095459011,
+        "longitude" : -3.6313534083778722
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/6",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/6",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Centro de Salud Chopera",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/6/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PS CHOPERA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/6/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6398880481669016 40.54056095750325)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/6/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54056095750325,
+        "longitude" : -3.6398880481669016
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/7",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/7",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Centro de Salud Mental Miraflores",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/7/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV ESPAÑA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/7/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6374991765787072 40.54786940701203)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/7/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54786940701203,
+        "longitude" : -3.6374991765787072
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/8",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/8",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Centro de Salud Miraflores",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/8/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV ESPAÑA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/8/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6374991765787072 40.54786940701203)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/8/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54786940701203,
+        "longitude" : -3.6374991765787072
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/9",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/9",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Centro de Salud Valdavia",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/9/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PS CHOPERA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/9/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6461050531024135 40.54449080021961)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/9/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54449080021961,
+        "longitude" : -3.6461050531024135
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/10",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/10",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Centro de Salud Valdelasfuentes",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/10/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL DOLORES IBARRURI"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/10/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.651173060804356 40.550218286514536)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/10/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.550218286514536,
+        "longitude" : -3.651173060804356
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/11",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/11",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Centro Veterinario Ceclivet",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/11/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL PINTOR VELAZQUEZ"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/11/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6404335629063977 40.538335446315095)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/11/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.538335446315095,
+        "longitude" : -3.6404335629063977
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/12",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/12",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Centro Veterinario ITECA",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/12/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MARQUES VALDAVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/12/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.642923538201791 40.544471620725844)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/12/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.544471620725844,
+        "longitude" : -3.642923538201791
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/13",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/13",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Centro Veterinario Manuel de Falla",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/13/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL MANUEL DE FALLA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/13/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6479077134680846 40.54936071377105)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/13/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54936071377105,
+        "longitude" : -3.6479077134680846
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/14",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/14",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Centro veterinario Valdavia",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/14/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MARQUES VALDAVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/14/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.655828276074293 40.54654050422535)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/14/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54654050422535,
+        "longitude" : -3.655828276074293
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/15",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/15",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Clínica Huesca",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/15/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "Tr Huesca"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/15/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6299393593094536 40.54246316697302)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/15/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54246316697302,
+        "longitude" : -3.6299393593094536
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/16",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/16",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Clínica Madrid",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/16/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV ESPAÑA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/16/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6388560498488807 40.547750670691755)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/16/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.547750670691755,
+        "longitude" : -3.6388560498488807
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/17",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/17",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Clínica veterinaria Alcobendas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/17/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL FAYON"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/17/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.63660464865926 40.546885815109185)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/17/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.546885815109185,
+        "longitude" : -3.63660464865926
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/18",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/18",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Clínica Veterinaria Avenida de España",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/18/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL BACHILL ALONSO LOPEZ"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/18/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6328946739720225 40.54458553219635)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/18/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54458553219635,
+        "longitude" : -3.6328946739720225
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/19",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/19",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Clínica Veterinaria Estrella Polar",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/19/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL DR CASIMIRO MORCILLO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/19/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.647593165116697 40.54390151430526)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/19/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54390151430526,
+        "longitude" : -3.647593165116697
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/20",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/20",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Clínica veterinaria La Chopera",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/20/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PS CHOPERA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/20/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6590770831071184 40.545018294594534)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/20/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.545018294594534,
+        "longitude" : -3.6590770831071184
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/21",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/21",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Clínica veterinaria La Moraleja",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/21/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28109,
+		"street-address" : "PZ MORALEJA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/21/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.650965623390784 40.51536356119513)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/21/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.51536356119513,
+        "longitude" : -3.650965623390784
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/22",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/22",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Clínica Veterinaria Nido Parrondo",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/22/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PZ GENERAL GOMEZ ORIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/22/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6343673708959012 40.54075127199445)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/22/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54075127199445,
+        "longitude" : -3.6343673708959012
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/23",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/23",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Clínica veterinaria Tucán",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/23/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28109,
+		"street-address" : "PS ALCOBENDAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/23/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6222938271233898 40.527878748840074)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/23/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.527878748840074,
+        "longitude" : -3.6222938271233898
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/24",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/24",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Alvarez Redondo",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/24/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PZ MORALEJA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/24/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6511722482519176 40.51523582188135)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/24/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.51523582188135,
+        "longitude" : -3.6511722482519176
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/25",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/25",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Ana Patricia Gil Gil",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/25/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MARQUESA VDA ALDAMA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/25/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.63291040331862 40.54116037326188)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/25/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54116037326188,
+        "longitude" : -3.63291040331862
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/26",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/26",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Ángel Caballero Aguado",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/26/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL CONSTITUCION"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/26/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6369088761946338 40.54276387113777)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/26/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54276387113777,
+        "longitude" : -3.6369088761946338
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/27",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/27",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Bartheleny González",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/27/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL ARCE"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/27/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.641348245888979 40.54587961449153)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/27/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54587961449153,
+        "longitude" : -3.641348245888979
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/28",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/28",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Carrillo de Albornoz",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/28/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV OLIMPICA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/28/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.633564080592898 40.536155783951926)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/28/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.536155783951926,
+        "longitude" : -3.633564080592898
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/29",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/29",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Concepción Serrano",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/29/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL FLOR"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/29/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.634700528174179 40.54009553334846)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/29/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54009553334846,
+        "longitude" : -3.634700528174179
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/30",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/30",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia El Bulevar",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/30/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28109,
+		"street-address" : "PS ALCOBENDAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/30/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6222938271233898 40.527878748840074)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/30/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.527878748840074,
+        "longitude" : -3.6222938271233898
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/31",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/31",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Fuster",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/31/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MANUEL DE FALLA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/31/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6424730972090997 40.55294568617701)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/31/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55294568617701,
+        "longitude" : -3.6424730972090997
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/32",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/32",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia García García",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/32/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PS CHOPERA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/32/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6553431377945764 40.54547232910803)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/32/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54547232910803,
+        "longitude" : -3.6553431377945764
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/33",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/33",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia García Guerrero",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/33/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PS CHOPERA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/33/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6447660043160446 40.54356605248063)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/33/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54356605248063,
+        "longitude" : -3.6447660043160446
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/34",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/34",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia La Menina",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/34/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PS CHOPERA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/34/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.638096895065118 40.538509597453945)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/34/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.538509597453945,
+        "longitude" : -3.638096895065118
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/35",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/35",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Loaces Frades",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/35/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MARQUES VALDAVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/35/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6576180428528615 40.54712795135485)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/35/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54712795135485,
+        "longitude" : -3.6576180428528615
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/36",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/36",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia López Galeote",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/36/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL JARAMA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/36/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.636954342559116 40.545202410567036)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/36/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.545202410567036,
+        "longitude" : -3.636954342559116
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/37",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/37",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia López Hombrados",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/37/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MIRAFLORES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/37/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6378988360100197 40.54406173142471)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/37/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54406173142471,
+        "longitude" : -3.6378988360100197
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/38",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/38",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Los Boticarios",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/38/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL SAN VICENTE"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/38/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.630453412493007 40.5433204398597)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/38/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.5433204398597,
+        "longitude" : -3.630453412493007
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/39",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/39",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Mª Elena Ruiz Saldaña",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/39/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PS CHOPERA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/39/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6419981525105913 40.54235110667651)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/39/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54235110667651,
+        "longitude" : -3.6419981525105913
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/40",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/40",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Mª Jesús Campos",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/40/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL CONSTITUCION"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/40/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6442898623127196 40.54677071044387)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/40/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54677071044387,
+        "longitude" : -3.6442898623127196
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/41",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/41",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Mª Luz Pérez",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/41/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL SANTIAGO APOSTOL"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/41/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6318652637680815 40.54333018640075)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/41/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54333018640075,
+        "longitude" : -3.6318652637680815
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/42",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/42",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia María Eugenia Boix Casanovas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/42/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL CAPITAN FCO SANCHEZ"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/42/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6323799972391497 40.5391985414487)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/42/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.5391985414487,
+        "longitude" : -3.6323799972391497
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/43",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/43",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia María Lara Vicente López",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/43/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV ESPAÑA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/43/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.64125484898658 40.54807172729597)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/43/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54807172729597,
+        "longitude" : -3.64125484898658
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/44",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/44",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Martínez Gaite",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/44/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL CONSTITUCION"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/44/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6454441091478063 40.547154270474984)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/44/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.547154270474984,
+        "longitude" : -3.6454441091478063
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/45",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/45",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Mercedes García Martos",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/45/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PZ MAESTRO TARREGA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/45/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6445539553924933 40.54917680955932)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/45/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54917680955932,
+        "longitude" : -3.6445539553924933
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/46",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/46",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Mercedes López González",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/46/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL CONSTITUCION"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/46/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6401055684237322 40.54443682675157)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/46/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54443682675157,
+        "longitude" : -3.6401055684237322
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/47",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/47",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Muñoz García - Nerolla Onceja",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/47/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV ESPAÑA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/47/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6280600979915785 40.54294471486944)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/47/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54294471486944,
+        "longitude" : -3.6280600979915785
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/48",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/48",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Óptica Isabel Gómez Puche",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/48/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL CONSTITUCION"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/48/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6423957517782455 40.54549471108311)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/48/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54549471108311,
+        "longitude" : -3.6423957517782455
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/49",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/49",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Páramo Aguado, A.",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/49/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL RUPERTO CHAPI"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/49/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.639658902720774 40.54856271937116)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/49/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54856271937116,
+        "longitude" : -3.639658902720774
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/50",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/50",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Páramo Aguado. E",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/50/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL LIBERTAD"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/50/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6364430507761982 40.53825030888721)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/50/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53825030888721,
+        "longitude" : -3.6364430507761982
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/51",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/51",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Rita Muñoz",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/51/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL CAMINO DEL CURA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/51/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6451603456088457 40.508079646836705)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/51/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.508079646836705,
+        "longitude" : -3.6451603456088457
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/52",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/52",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Rodríguez Perea",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/52/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CR MADRID-IRUN"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/52/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.652232066937012 40.52672402633395)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/52/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52672402633395,
+        "longitude" : -3.652232066937012
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/53",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/53",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Santiago Pallet Culla",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/53/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MARQUES VALDAVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/53/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6368668795379473 40.54064384720929)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/53/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54064384720929,
+        "longitude" : -3.6368668795379473
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/54",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/54",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Serrano Sánches - López Serrano",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/54/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MARQUES VALDAVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/54/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.642429065159743 40.544238834495594)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/54/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.544238834495594,
+        "longitude" : -3.642429065159743
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/55",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/55",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Sonia García Aguado",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/55/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MARQUES VALDAVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/55/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6393775538752875 40.54283805451345)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/55/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54283805451345,
+        "longitude" : -3.6393775538752875
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/56",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/56",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Torroja Bendito",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/56/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL CONCILIO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/56/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.635880625101077 40.54364276434864)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/56/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54364276434864,
+        "longitude" : -3.635880625101077
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/57",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/57",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Farmacia Vélez",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/57/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV VEGA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/57/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6249005393228186 40.536322305382676)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/57/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.536322305382676,
+        "longitude" : -3.6249005393228186
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/58",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/58",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Hospital Central de la Cruz Roja Española",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/58/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28003,
+		"street-address" : "Reina Victoria"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/58/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.707604487142644 40.447912734544325)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/58/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.447912734544325,
+        "longitude" : -3.707604487142644
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/59",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/59",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Hospital Clínico Universitario San Carlos",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/59/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28040,
+		"street-address" : "Profesor Martín Lagos"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/59/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.718963894472219 40.43983661715232)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/59/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43983661715232,
+        "longitude" : -3.718963894472219
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/60",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/60",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Hospital de Cantoblanco",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/60/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28049,
+		"street-address" : "CTRA. COLMENAR VIEJO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/60/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.7350314649259797 40.649188577455334)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/60/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.649188577455334,
+        "longitude" : -3.7350314649259797
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/61",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/61",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Hospital Doce de Octubre",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/61/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28041,
+		"street-address" : "Av. Córdoba"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/61/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.698472002586343 40.376751008643716)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/61/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.376751008643716,
+        "longitude" : -3.698472002586343
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/62",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/62",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Hospital Fundación Jiménez Díaz Nuestra Señora de la Concepción",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/62/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28040,
+		"street-address" : "Reyes Católicos"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/62/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.718893534636012 40.43858885733385)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/62/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.43858885733385,
+        "longitude" : -3.718893534636012
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/63",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/63",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Hospital General Gregorio Marañón",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/63/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28007,
+		"street-address" : "Doctor Esquerdo, 46"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/63/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6694000893923673 40.41936058640406)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/63/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.41936058640406,
+        "longitude" : -3.6694000893923673
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/64",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/64",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Hospital Infanta Sofía",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/64/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28702,
+		"street-address" : "Avenida de Europa"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/64/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6108519730372772 40.557874599999934)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/64/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.557874599999934,
+        "longitude" : -3.6108519730372772
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/65",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/65",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Hospital Infantil del Niño Jesús",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/65/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28009,
+		"street-address" : "CL MENÉNDEZ PELAYO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/65/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.677340277637228 40.414289182584206)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/65/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.414289182584206,
+        "longitude" : -3.677340277637228
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/66",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/66",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Hospital La Paz",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/66/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28046,
+		"street-address" : "PASEO DE LA CASTELLANA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/66/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.687372738258649 40.48060017906816)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/66/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.48060017906816,
+        "longitude" : -3.687372738258649
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/67",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/67",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Hospital Psiquiátrico Doctor R. Lafora",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/67/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28049,
+		"street-address" : "CTRA. COLMENAR VIEJO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/67/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.996288147401413 40.725859601161645)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/67/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.725859601161645,
+        "longitude" : -3.996288147401413
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/68",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/68",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Hospital Ramón y Cajal",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/68/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28034,
+		"street-address" : "CTRA. COLMENAR VIEJO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/68/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6946759352781546 40.53890492003869)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/68/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53890492003869,
+        "longitude" : -3.6946759352781546
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/69",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/69",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Hospital Universitario Puerta de Hierro Majadahonda",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/69/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28222,
+		"street-address" : "Manuel de Falla, 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/69/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.874459072674727 40.44957640168398)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/69/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.44957640168398,
+        "longitude" : -3.874459072674727
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/70",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/70",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Laboratorio Municipal",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/70/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL JOSE ECHEGARAY"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/70/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.654638714512071 40.54213335941231)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/70/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54213335941231,
+        "longitude" : -3.654638714512071
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/71",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/71",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Patronato Municipal de Bienestar Social (PBS)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/71/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL LIBERTAD"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/71/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6346192558398167 40.54046030757805)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/71/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54046030757805,
+        "longitude" : -3.6346192558398167
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/72",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/72",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Servicio de Salud Municipal del Patronato de Bienestar Social",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/72/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "CL LIBERTAD"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/72/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6346192558398167 40.54046030757805)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/72/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54046030757805,
+        "longitude" : -3.6346192558398167
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientosalud/73",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/73",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/salud/equipamiento#equipamientosalud",
+      "title" : "Servicio de Urgencias de Atención Primaria",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/73/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "",
+		"street-address" : "Avda. de España"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/73/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6296923697739305 40.54432268261281)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientosalud/73/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54432268261281,
+        "longitude" : -3.6296923697739305
+	  }
+
+    }
+  ]
+}

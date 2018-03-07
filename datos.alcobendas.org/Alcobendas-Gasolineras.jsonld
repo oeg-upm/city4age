@@ -1,0 +1,879 @@
+{"@context": {
+		"name": "http://schema.org/name",
+		"schema:address": "http://schema.org/address",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf": "http://www.opengis.net/ont/geosparql#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"title": "vcard:fn",
+		"address": "vcard:hasAddress",
+		"street-address": "vcard:street-address",
+		"postal-code": "http://schema.org/postalCode",
+		"locality": "vcard:locality",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",	
+		"latitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:lat"
+		},
+		"longitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:long"
+		},
+		"geosparql:asWKT": {
+		  "@type": "geosparql:wktLiteral",
+		  "@id": "geosparql:asWKT"
+		}
+	},
+  "@graph" : [	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/0",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/0",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "REPOSTA ALCOBENDAS",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/0/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "AVENIDA MARQUES DE LA VALDAVIA, 132"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/0/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.651861 40.546556)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/0/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.546556",
+        "longitude" : "-3.651861"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/1",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/1",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "GALP",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/1/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "AVENIDA VALDELAPARRA (DE), 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.662056 40.548306)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.548306",
+        "longitude" : "-3.662056"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/2",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/2",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "GALP",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/2/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CARRETERA ANTIGUA NACIONAL I KM. 15,5"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.642250 40.532806)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.532806",
+        "longitude" : "-3.642250"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/3",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/3",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "SHELL",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/3/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CARRETERA M-603 KM. 14,900"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/3/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.651583 40.528806)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/3/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.528806",
+        "longitude" : "-3.651583"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/4",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/4",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "SHELL",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/4/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "AVENIDA VALDELAPARRA, 3"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/4/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.643194 40.537250)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/4/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.537250",
+        "longitude" : "-3.643194"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/5",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/5",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "CARREFOUR",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/5/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CARRETERA A-1 KM. 14,500"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/5/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.649417 40.528194)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/5/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.528194",
+        "longitude" : "-3.649417"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/6",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/6",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "REPSOL",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/6/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "BOULEVARD SALVADOR ALLENDE, 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/6/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.634389 40.537833)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/6/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.537833",
+        "longitude" : "-3.634389"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/7",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/7",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "REPSOL",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/7/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CR M-603, 14,1"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/7/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.654889 40.525778)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/7/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.525778",
+        "longitude" : "-3.654889"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/8",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/8",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "REPSOL",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/8/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CL AVENIDA DE ESPA¿A, S.N."
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/8/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.634639 40.546167)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/8/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.546167",
+        "longitude" : "-3.634639"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/9",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/9",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "CEPSA",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/9/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "PASEO ALCOBENDAS (DE), 10"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/9/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.622306 40.527889)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/9/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.527889",
+        "longitude" : "-3.622306"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/10",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/10",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "B.P. JUNCAL",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/10/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CARRETERA BARAJAS KM. S/N"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/10/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.618944 40.534083)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/10/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.534083",
+        "longitude" : "-3.618944"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/11",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/11",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "EL SAPO-ALCOBENDAS",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/11/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "AVD. MONTE VALDELATAS ESQ. SEPULVEDA, S/N"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/11/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.659667 40.528722)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/11/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.528722",
+        "longitude" : "-3.659667"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/12",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/12",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "CEPSA",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/12/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "AVENIDA EUROPA (C.C. LA MORALEJA), 13/15"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/12/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.657528 40.520111)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/12/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.520111",
+        "longitude" : "-3.657528"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/13",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/13",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "VALDAVIA",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/13/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CALLE MARQUES DE LA VALDAVIA (DEL), 138"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/13/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.653944 40.546944)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/13/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.546944",
+        "longitude" : "-3.653944"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/14",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/14",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "BP",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/14/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28100",
+		"street-address" : "CALLE VALGRANDE (DE), 11"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/14/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.649778 40.536583)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/14/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.536583",
+        "longitude" : "-3.649778"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/15",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/15",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "ALCAMPO",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/15/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28108",
+		"street-address" : "AVENIDA OLIMPICA, 9"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/15/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.636806 40.535194)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/15/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.535194",
+        "longitude" : "-3.636806"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/16",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/16",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "REPSOL",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/16/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28108",
+		"street-address" : "CALLE FRANCISCO GERVAS, 13"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/16/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.652250 40.533722)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/16/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.533722",
+        "longitude" : "-3.652250"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/17",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/17",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "REPSOL",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/17/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28108",
+		"street-address" : "CL BOULEVARD SALVADOR ALLENDE, 12-1"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/17/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.633944 40.537500)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/17/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.537500",
+        "longitude" : "-3.633944"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/18",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/18",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "REPSOL",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/18/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28109",
+		"street-address" : "PLAZA MORALEJA S/N, S/N"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/18/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.651083 40.515639)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/18/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.515639",
+        "longitude" : "-3.651083"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/19",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/19",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "SETOR",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/19/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28700",
+		"street-address" : "N-I  (BURGOS-MADRID) km 24,100"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/19/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.583417 40.590944)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/19/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.590944",
+        "longitude" : "-3.583417"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/20",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/20",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "PETROPRIX",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/20/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28700",
+		"street-address" : "AVENIDA FUENTE NUEVA, 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/20/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.612472 40.547667)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/20/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.547667",
+        "longitude" : "-3.612472"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/21",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/21",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "REPSOL",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/21/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28700",
+		"street-address" : "CL AVDA. EINSTEIN, 5"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/21/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.610167 40.544417)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/21/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.544417",
+        "longitude" : "-3.610167"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/22",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/22",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "REPSOL",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/22/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28700",
+		"street-address" : "CR N-1, 18,6"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/22/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.606500 40.545778)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/22/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.545778",
+        "longitude" : "-3.606500"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/23",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/23",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "REPSOL",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/23/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28700",
+		"street-address" : "CL REAL  (ANTIGUA N-1), 120"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/23/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.618861 40.552500)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/23/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.552500",
+        "longitude" : "-3.618861"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/24",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/24",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "REPSOL",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/24/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28700",
+		"street-address" : "CL AVDA TENERIFE, 18"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/24/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.620056 40.560250)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/24/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.560250",
+        "longitude" : "-3.620056"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/25",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/25",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "SHELL",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/25/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28700",
+		"street-address" : "AVENIDA FUENTENUEVA, 1"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/25/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.610750 40.547750)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/25/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.547750",
+        "longitude" : "-3.610750"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/26",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/26",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "SHELL",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/26/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28700",
+		"street-address" : "CARRETERA ANTIGUA N-I CV CAMINO REDESA KM. S/N"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/26/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.605472 40.565556)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/26/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.565556",
+        "longitude" : "-3.605472"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/27",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/27",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "GALP",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/27/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28700",
+		"street-address" : "AUTOVIA NACIONAL I KM. 26,200"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/27/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.579000 40.608694)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/27/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.608694",
+        "longitude" : "-3.579000"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/28",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/28",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "CEPSA",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/28/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28700",
+		"street-address" : "CTRA. BURGOS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/28/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.582583 40.590500)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/28/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.590500",
+        "longitude" : "-3.582583"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/29",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/29",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "CEPSA",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/29/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28700",
+		"street-address" : "AVENIDA TENERIFE (DE), 14"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/29/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.621750 40.559528)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/29/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.559528",
+        "longitude" : "-3.621750"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/30",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/30",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "BP",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/30/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28700",
+		"street-address" : "GLORIETA ANTONIO GAUDI, "
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/30/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.612611 40.557833)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/30/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.557833",
+        "longitude" : "-3.612611"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/31",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/31",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "BALLENOIL",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/31/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28700",
+		"street-address" : "AVENIDA PIRINEOS (DE LOS), 21"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/31/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.610083 40.551972)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/31/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.551972",
+        "longitude" : "-3.610083"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/32",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/32",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "BALLENOIL",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/32/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28700",
+		"street-address" : "PASEO EUROPA, 22"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/32/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.622917 40.545917)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/32/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.545917",
+        "longitude" : "-3.622917"
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/gasolinera/33",
+      "@id" : "http://datos.alcobendas.org/recurso/gasolinera/33",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/equipamiento#gasolinera",
+      "title" : "CEPSA",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/33/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : "28700",
+		"street-address" : "N-I (MADRID-BURGOS) km 24,100"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/33/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.581778 40.590889)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/gasolinera/33/geometry",
+		"@type" : "geo:Point",
+		"latitude" : "40.590889",
+        "longitude" : "-3.581778"
+	  }
+
+    }
+  ]
+}

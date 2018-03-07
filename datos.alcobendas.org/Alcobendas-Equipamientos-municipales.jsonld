@@ -1,0 +1,1104 @@
+{"@context": {
+		"name": "http://schema.org/name",
+		"schema:address": "http://schema.org/address",
+		"geo":	"http://www.w3.org/2003/01/geo/wgs84_pos#",
+		"geosparql": "http://www.opengis.net/ont/geosparql#",
+		"sf": "http://www.opengis.net/ont/geosparql#",
+		"vcard": "http://www.w3.org/2006/vcard/ns#",
+		"title": "vcard:fn",
+		"address": "vcard:hasAddress",
+		"street-address": "vcard:street-address",
+		"postal-code": "http://schema.org/postalCode",
+		"locality": "vcard:locality",
+		"location": "geosparql:hasGeometry",
+		"loclatlong": "geo:location",	
+		"latitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:lat"
+		},
+		"longitude": {
+		  "@type": "xsd:double",
+		  "@id": "geo:long"
+		},
+		"geosparql:asWKT": {
+		  "@type": "geosparql:wktLiteral",
+		  "@id": "geosparql:asWKT"
+		}
+	},
+  "@graph" : [	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/0",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/0",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Aula de Educación Ambiental ",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/0/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28108,
+		"street-address" : "AV OLIMPICA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/0/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.635549061506589 40.53538651504043)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/0/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53538651504043,
+        "longitude" : -3.635549061506589
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/1",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/1",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Ayuntamiento de Alcobendas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/1/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PZ MAYOR"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/1/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6416009847823 40.5475170400635)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/1/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.5475170400635,
+        "longitude" : -3.6416009847823
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/2",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/2",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Casa de la Mujer Clara Campoamor",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/2/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MALAGA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/2/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6422179517738207 40.550376041309306)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/2/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.550376041309306,
+        "longitude" : -3.6422179517738207
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/3",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/3",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Casa de las Asociaciones",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/3/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "CL CACERES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/3/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.632048327873206 40.53861489651502)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/3/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53861489651502,
+        "longitude" : -3.632048327873206
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/4",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/4",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Cementerio Municipal Nuestra Señora de la Paz",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/4/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28109,
+		"street-address" : "CL BEGONIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/4/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6400984009264667 40.52398951946641)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/4/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52398951946641,
+        "longitude" : -3.6400984009264667
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/5",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/5",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Centro Cívico C/ Málaga",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/5/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MALAGA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/5/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6422179399640684 40.55037604137495)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/5/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55037604137495,
+        "longitude" : -3.6422179399640684
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/6",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/6",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Centro Cívico del Distrito Centro",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/6/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PZ PUEBLO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/6/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6340768590986174 40.540973538985256)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/6/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.540973538985256,
+        "longitude" : -3.6340768590986174
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/7",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/7",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Centro Cultural Anabel Segura",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/7/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28108,
+		"street-address" : "AV BRUSELAS DE"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/7/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6366819443693847 40.53134238883761)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/7/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53134238883761,
+        "longitude" : -3.6366819443693847
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/8",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/8",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Centro Cultural Pablo Iglesias",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/8/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PS CHOPERA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/8/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6436252766143626 40.54295948561787)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/8/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54295948561787,
+        "longitude" : -3.6436252766143626
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/9",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/9",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Centro de Arte Alcobendas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/9/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL MARIANO SEBAST IZUEL"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/9/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.630706664297103 40.540908671319386)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/9/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.540908671319386,
+        "longitude" : -3.630706664297103
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/10",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/10",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Centro de Atención Integral a las Drogodependencias (CAID)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/10/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL LIBERTAD"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/10/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6346192558398167 40.54046030757805)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/10/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54046030757805,
+        "longitude" : -3.6346192558398167
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/11",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/11",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Centro de Empresas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/11/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "CL RAMON Y CAJAL"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/11/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.652655550913236 40.54272509214338)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/11/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54272509214338,
+        "longitude" : -3.652655550913236
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/12",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/12",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Centro de Formación e Inserción Laboral ",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/12/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "CL RAMON Y CAJAL"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/12/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.654169882698464 40.543538406514784)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/12/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.543538406514784,
+        "longitude" : -3.654169882698464
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/13",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/13",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Centro de Mayores Carmen García Bloise",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/13/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL OLIVAR"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/13/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.648145471189707 40.54725443394762)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/13/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54725443394762,
+        "longitude" : -3.648145471189707
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/14",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/14",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Centro de Mayores María Zambrano",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/14/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL DAOIZ"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/14/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6433407277810965 40.544159456612476)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/14/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.544159456612476,
+        "longitude" : -3.6433407277810965
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/15",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/15",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Centro de Mayores Nuestra Señora de la Paz",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/15/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL NTRA SRA DEL PILAR"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/15/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6329626153101846 40.541562405399624)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/15/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.541562405399624,
+        "longitude" : -3.6329626153101846
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/16",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/16",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Centro de Mayores Pedro González Guerra",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/16/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL ORENSE"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/16/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6366224041020923 40.541987173828645)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/16/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.541987173828645,
+        "longitude" : -3.6366224041020923
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/17",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/17",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Centro de Mayores Ramón Rubial",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/17/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "PZ RAMON RUBIAL"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/17/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.624853 40.542996)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/17/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.542996,
+        "longitude" : -3.624853
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/18",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/18",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Centro de Mayores Urbanizaciones calle Salvia",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/18/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28109,
+		"street-address" : "CL SALVIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/18/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.633697953349076 40.53052293926995)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/18/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53052293926995,
+        "longitude" : -3.633697953349076
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/19",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/19",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Ciudad Deportiva Valdelasfuentes",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/19/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "AV MIGUEL CERVANTES"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/19/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6482436189666894 40.55087447901411)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/19/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55087447901411,
+        "longitude" : -3.6482436189666894
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/20",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/20",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Conect@ - Centro de Nuevas Tecnologías ",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/20/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL SORIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/20/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6328450270656165 40.53848353743164)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/20/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53848353743164,
+        "longitude" : -3.6328450270656165
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/21",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/21",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Escuela Infantil Pública Municipal El Cuquillo",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/21/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "PS CHOPERA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/21/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6502120748251734 40.54520918920867)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/21/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54520918920867,
+        "longitude" : -3.6502120748251734
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/22",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/22",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Escuela Infantil Pública Municipal La Chopera",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/22/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "CL PINTOR VELAZQUEZ"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/22/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.643126075600405 40.54044975530107)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/22/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54044975530107,
+        "longitude" : -3.643126075600405
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/23",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/23",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Escuela Infantil Pública Municipal Valdelaparra",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/23/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "AV CAMILO-JOSE CELA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/23/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6579847482763155 40.54240707734263)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/23/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54240707734263,
+        "longitude" : -3.6579847482763155
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/24",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/24",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Escuela Municipal de Música y Danza",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/24/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL RUPERTO CHAPI"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/24/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6418312591430295 40.54832909880799)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/24/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54832909880799,
+        "longitude" : -3.6418312591430295
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/25",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/25",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Espacio 2014 (Museo del baloncesto de la FEB)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/25/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV OLIMPICA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/25/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6349160988526634 40.53606234562023)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/25/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53606234562023,
+        "longitude" : -3.6349160988526634
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/26",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/26",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Espacio Miguel Delibes",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/26/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "AV. MAGIA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/26/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6571964499195397 40.551577849281585)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/26/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.551577849281585,
+        "longitude" : -3.6571964499195397
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/27",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/27",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Invernadero Jardín de la Vega",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/27/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "AV OLIMPICA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/27/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6256521194095415 40.53814950001727)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/27/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53814950001727,
+        "longitude" : -3.6256521194095415
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/28",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/28",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "La Esfera - Sede de las Casas Regionales de Alcobendas ",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/28/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "AV OLIMPICA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/28/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6326563175408104 40.53669217374456)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/28/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53669217374456,
+        "longitude" : -3.6326563175408104
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/29",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/29",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Laboratorio Municipal",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/29/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "CL JOSE ECHEGARAY"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/29/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.654638714512071 40.54213335941231)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/29/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54213335941231,
+        "longitude" : -3.654638714512071
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/30",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/30",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Ludoteca Municipal de Alcobendas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/30/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28108,
+		"street-address" : "AVDA. BARAJAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/30/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.619903691245422 40.53800219884506)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/30/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53800219884506,
+        "longitude" : -3.619903691245422
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/31",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/31",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Museo de Bonsai (Jardín Japonés) ",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/31/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "AV OLIMPICA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/31/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.63049821647111 40.53666281782489)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/31/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.53666281782489,
+        "longitude" : -3.63049821647111
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/32",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/32",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Oficina de Atención al Ciudadano de la Policia Local",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/32/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "PZ PUEBLO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/32/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6340768590986174 40.540973538985256)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/32/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.540973538985256,
+        "longitude" : -3.6340768590986174
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/33",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/33",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Oficina de Información y Asesoramiento Juvenil de Imagina",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/33/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL RUPERTO CHAPI"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/33/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6442005346189377 40.54806866435605)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/33/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54806866435605,
+        "longitude" : -3.6442005346189377
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/34",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/34",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Patronato Municipal de Bienestar Social (PBS)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/34/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL LIBERTAD"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/34/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6346192558398167 40.54046030757805)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/34/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54046030757805,
+        "longitude" : -3.6346192558398167
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/35",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/35",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Policía Local - Sede Central (Distrito Norte) ",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/35/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "AV VALDELAPARRA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/35/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.662199578799536 40.54749538855383)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/35/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54749538855383,
+        "longitude" : -3.662199578799536
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/36",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/36",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Policía Local (Sede Distrito Centro)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/36/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "CL LIBERTAD"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/36/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.63499194122602 40.54027946987215)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/36/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54027946987215,
+        "longitude" : -3.63499194122602
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/37",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/37",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Policía Local (Sede Distrito Urbanizaciones)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/37/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "AV BRUSELAS DE"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/37/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6430364932614725 40.52787281332109)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/37/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.52787281332109,
+        "longitude" : -3.6430364932614725
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/38",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/38",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Policía Local (Sede Parque Municipal de Educación Vial)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/38/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "CL MANUEL DE FALLA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/38/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6436709694997895 40.55230987649765)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/38/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.55230987649765,
+        "longitude" : -3.6436709694997895
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/39",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/39",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Polideportivo Municipal de Alcobendas José Caballero",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/39/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28108,
+		"street-address" : "AVDA. BARAJAS"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/39/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6314827073471703 40.54427711895707)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/39/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54427711895707,
+        "longitude" : -3.6314827073471703
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/40",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/40",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Punto limpio",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/40/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL GABRIEL GARCÍA MÁRQUEZ"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/40/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6563512834593186 40.54003699201276)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/40/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54003699201276,
+        "longitude" : -3.6563512834593186
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/41",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/41",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Teatro Auditorio Ciudad de Alcobendas",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/41/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : 28100,
+		"street-address" : "CL BLAS DE OTERO"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/41/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.642762413286917 40.54809243960353)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/41/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.54809243960353,
+        "longitude" : -3.642762413286917
+	  }
+
+    },
+	{
+      "id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/42",
+      "@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/42",
+      "@type" : "http://vocab.linkeddata.es/datosabiertos/def/gobierno/equipamiento#equipamientomunicipal",
+      "title" : "Universidad Popular de Alcobendas (UPA)",
+      "address" :{ 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/42/address",
+		"@type" : "schema:PostalAddress",
+		"locality" : "Alcobendas",
+		"postal-code" : null,
+		"street-address" : "AV MAGIA DE LA"
+	  },
+      "location": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/42/geometry",
+		"@type" : "sf:Point",
+		"geosparql:asWKT" : "POINT (-3.6574552329241334 40.551590052358314)"
+	  },
+	  "loclatlong": { 
+		"@id" : "http://datos.alcobendas.org/recurso/equipamientomunicipal/42/geometry",
+		"@type" : "geo:Point",
+		"latitude" : 40.551590052358314,
+        "longitude" : -3.6574552329241334
+	  }
+
+    }
+  ]
+}
